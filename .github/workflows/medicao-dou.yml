@@ -1,0 +1,71 @@
+name: Medicao do filtro do DOU
+
+# Roda so' quando disparado a mao. Nao entra no agendamento diario ate o
+# filtro passar no teste de recall.
+on:
+  workflow_dispatch:
+    inputs:
+      dias:
+        description: "Janela em dias"
+        required: false
+        default: "60"
+
+permissions:
+  contents: write
+
+jobs:
+  medir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Medir
+        id: medir
+        run: python scripts/medir_dou.py ${{ github.event.inputs.dias || 60 }}
+        continue-on-error: true
+
+      - name: Relatorio
+        if: always()
+        run: |
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, pathlib
+          p = pathlib.Path("dados/medicao_dou.json")
+          if not p.exists():
+              print("A medicao nao gerou arquivo — ver o log do passo anterior.")
+              raise SystemExit
+          d = json.loads(p.read_text("utf-8"))
+          print(f"## Medicao do filtro do DOU\n")
+          print(f"Janela: {d['janela'][0]} a {d['janela'][1]} ({d['dias']} dias)\n")
+          print("### Recall — pegou o que sabemos que existe?\n")
+          print("| Ato esperado | Data | Resultado | Titulo encontrado |")
+          print("|---|---|---|---|")
+          for a in d["recall"]:
+              print(f"| {a['esperado']} | {a['data']} | {'OK' if a['encontrado'] else '**PERDEU**'} | {a['titulo'] or '-'} |")
+          perdidos = sum(1 for a in d["recall"] if not a["encontrado"])
+          print(f"\n**Veredito:** {'REPROVADO — ' + str(perdidos) + ' ato(s) perdido(s)' if perdidos else 'APROVADO no recall'}\n")
+          print("### Ruido — quanto voce leria por dia\n")
+          print(f"- itens unicos retornados: **{d['consultados']}**")
+          print(f"- forte: **{d['forte']}** ({d['forte_por_dia_util']} por dia util)")
+          print(f"- revisar: **{d['revisar']}** ({d['revisar_por_dia_util']} por dia util)")
+          print(f"- descartado: **{d['descartado']}**")
+          if d["erros"]:
+              print(f"\n**{len(d['erros'])} consulta(s) com erro.** Primeira: `{d['erros'][0]}`")
+          print("\n### Amostra do balde forte\n")
+          for t in d["amostra_forte"]:
+              print(f"- {t}")
+          print("\n### Amostra do balde revisar\n")
+          for t in d["amostra_revisar"]:
+              print(f"- {t}")
+          PY
+
+      - name: Commit do relatorio
+        if: always()
+        run: |
+          git config user.name  "medicao-bot"
+          git config user.email "actions@github.com"
+          git add dados/medicao_dou.json || true
+          git diff --staged --quiet || (git commit -m "medicao do filtro do DOU" && git push)
