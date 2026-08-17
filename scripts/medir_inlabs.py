@@ -14,7 +14,7 @@ Credenciais vem do ambiente (secrets do GitHub). NUNCA escreva no arquivo.
 
 Uso: python scripts/medir_inlabs.py [inicio AAAA-MM-DD] [fim AAAA-MM-DD]
 """
-import io, json, os, re, sys, zipfile, datetime, urllib.parse
+import io, json, os, re, sys, time, zipfile, datetime, urllib.parse
 import urllib.request, http.cookiejar
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -25,8 +25,8 @@ DOWNLOAD = "https://inlabs.in.gov.br/index.php?p="
 # Secao 2 e' ato de pessoal — irrelevante. "E" = edicao extra.
 SECOES = ["DO1", "DO3", "DO1E", "DO3E"]
 
-# O workflow manda string vazia quando o campo fica em branco: argv existe
-# mas vale vazio. Por isso o "or", e nao apenas o teste de comprimento.
+# O workflow passa string vazia quando o campo fica em branco — argv existe
+# mas vale "". Por isso o "or", e nao so' o teste de comprimento.
 INICIO = (sys.argv[1] if len(sys.argv) > 1 else "") or "2026-07-27"
 FIM = (sys.argv[2] if len(sys.argv) > 2 else "") or datetime.date.today().isoformat()
 
@@ -61,18 +61,54 @@ def limpa(s):
     return re.sub(r"\s+", " ", TAG.sub(" ", s or "")).strip()
 
 
-def abre_sessao(email, senha):
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
+
+
+def abre_sessao(email, senha, tentativas=6):
+    """Login no INLABS.
+
+    A primeira versao mandava um POST cru com User-Agent "Python-urllib" e
+    levou 502 do gateway. Agora: visita a home antes para abrir sessao, manda
+    cabecalhos de navegador, e repete quando o erro e' 5xx — 502/503 em portal
+    .gov.br costuma ser instabilidade momentanea, nao credencial errada.
+    """
     cj = http.cookiejar.CookieJar()
     op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-    dados = urllib.parse.urlencode({"email": email, "password": senha}).encode()
-    req = urllib.request.Request(LOGIN, data=dados, headers={
-        "Content-Type": "application/x-www-form-urlencoded",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"})
-    op.open(req, timeout=60).read()
-    ck = next((c.value for c in cj if c.name == "inlabs_session_cookie"), None)
-    if not ck:
-        sys.exit("Falha no login do INLABS: cookie nao veio. Confira os secrets.")
-    return op, ck
+    base = {"User-Agent": UA,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8"}
+    ultimo = ""
+    for n in range(1, tentativas + 1):
+        try:
+            op.open(urllib.request.Request("https://inlabs.in.gov.br/",
+                                           headers=base), timeout=60).read()
+            dados = urllib.parse.urlencode({"email": email, "password": senha}).encode()
+            cab = dict(base)
+            cab.update({"Content-Type": "application/x-www-form-urlencoded",
+                        "Origin": "https://inlabs.in.gov.br",
+                        "Referer": "https://inlabs.in.gov.br/"})
+            op.open(urllib.request.Request(LOGIN, data=dados, headers=cab),
+                    timeout=60).read()
+            ck = next((c.value for c in cj if c.name == "inlabs_session_cookie"), None)
+            if ck:
+                return op, ck
+            ultimo = ("o servidor respondeu, mas nao devolveu cookie de sessao. "
+                      "Isso aponta credencial invalida — confira INLABS_EMAIL e "
+                      "INLABS_SENHA nos secrets.")
+            break
+        except urllib.error.HTTPError as e:
+            ultimo = f"HTTP {e.code} do proprio INLABS"
+            if e.code < 500:
+                break
+        except Exception as e:
+            ultimo = f"{type(e).__name__}: {str(e)[:110]}"
+        if n < tentativas:
+            espera = 10 * n
+            print(f"  login falhou ({ultimo}); nova tentativa em {espera}s "
+                  f"[{n}/{tentativas}]", file=sys.stderr)
+            time.sleep(espera)
+    sys.exit(f"Falha no login do INLABS apos {tentativas} tentativa(s): {ultimo}")
 
 
 def baixa(op, cookie, dia, secao):
