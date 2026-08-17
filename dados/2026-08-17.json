@@ -371,7 +371,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 13,
+   "total": 12,
    "itens": [
     {
      "titulo": "Aderir ao Piloto da Reforma Tributária da Contribuição sobre Bens e Serviços (CBS)",
@@ -453,13 +453,6 @@
     {
      "titulo": "Receita Federal e Comitê Gestor do IBS publicam o Cronograma de Implementação dos Documentos Fiscais Eletrônicos da Reforma Tributária do Consumo",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-publicam-o-cronograma-de-implementacao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria-do-consumo",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Receita Federal e Comitê Gestor do IBS divulgarão cronograma para emissão dos documentos fiscais eletrônicos da Reforma Tributária",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-divulgarao-cronograma-para-emissao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
