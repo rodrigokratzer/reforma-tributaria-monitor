@@ -571,69 +571,12 @@
   {
    "fonte": "Portal DF-e SVRS - Noticias",
    "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias",
-   "metodo": "browser",
+   "metodo": null,
    "http_status": null,
-   "erro": null,
-   "erro_browser": null,
-   "total": 8,
-   "itens": [
-    {
-     "titulo": "SEFAZ VIRTUAL RS",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "https://cgibs.gov.br/regulamento-do-ibs-e-publicado-na-pagina-do-comite-gestor-do-ibs",
-     "url": "https://cgibs.gov.br/regulamento-do-ibs-e-publicado-na-pagina-do-comite-gestor-do-ibs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-receita-federal-divulgam-orientacoes-sobre-a-entrada-em-vigor-da-cbs-e-do-ibs-em-1-de-janeiro-de-2026",
-     "url": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-receita-federal-divulgam-orientacoes-sobre-a-entrada-em-vigor-da-cbs-e-do-ibs-em-1-de-janeiro-de-2026",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "https://www.cgibs.gov.br/cartilha-orientativa-para-emissao-da-nf-e-do-ibs-volume-1",
-     "url": "https://www.cgibs.gov.br/cartilha-orientativa-para-emissao-da-nf-e-do-ibs-volume-1",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "https://dfe-portal.svrs.rs.gov.br/Cff/ValidadorRtcNfe",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Cff/ValidadorRtcNfe",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "https://dfe-portal.svrs.rs.gov.br/CFF/ValidadorRTC",
-     "url": "https://dfe-portal.svrs.rs.gov.br/CFF/ValidadorRTC",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria",
-     "url": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaCreditoPresumido",
-     "url": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaCreditoPresumido",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    }
-   ]
+   "erro": "browser: TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias\", waiting until \"domcontentloaded\"\n | http: TimeoutError: The read operation timed out",
+   "erro_browser": "TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias\", waiting until \"domcontentloaded\"\n",
+   "total": 0,
+   "itens": []
   },
   {
    "fonte": "Portal NF-e - Informes/NTs",
