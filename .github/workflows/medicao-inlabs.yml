@@ -1,7 +1,15 @@
 name: Medicao INLABS (DOU completo)
 
-# Disparo manual. Nao entra no agendamento diario ate o filtro passar.
+# Tenta sozinha todo dia as 05h de Brasilia (08:00 UTC), duas horas antes do
+# e-mail das 07h. O INLABS esta' devolvendo 502 no login; quando voltar, esta
+# medicao roda sem ninguem olhando.
+#
+# Para de tentar sozinha assim que houver um relatorio: o primeiro passo
+# verifica se dados/medicao_inlabs.json ja' existe e, se existir, pula o resto.
+# Para refazer de proposito, dispare a mao marcando "forcar".
 on:
+  schedule:
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       inicio:
@@ -12,9 +20,17 @@ on:
         description: "Data final AAAA-MM-DD (vazio = hoje)"
         required: false
         default: ""
+      forcar:
+        description: "Refazer mesmo se ja' houver medicao (sim/nao)"
+        required: false
+        default: "nao"
 
 permissions:
   contents: write
+
+concurrency:
+  group: medicao-inlabs
+  cancel-in-progress: false
 
 jobs:
   medir:
@@ -22,11 +38,25 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+
+      - name: Ja existe medicao?
+        id: check
+        run: |
+          if [ -f dados/medicao_inlabs.json ] && [ "${{ github.event.inputs.forcar }}" != "sim" ]; then
+            echo "rodar=nao" >> $GITHUB_OUTPUT
+            echo "Medicao ja concluida em dados/medicao_inlabs.json. Nada a fazer."
+            echo "Medicao ja concluida — este agendamento pode ser removido." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "rodar=sim" >> $GITHUB_OUTPUT
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.rodar == 'sim'
         with:
           python-version: "3.12"
 
       - name: Medir sobre a edicao completa do DOU
+        if: steps.check.outputs.rodar == 'sim'
         continue-on-error: true
         env:
           INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
@@ -41,17 +71,21 @@ jobs:
             "${{ github.event.inputs.fim || '' }}"
 
       - name: Relatorio
-        if: always()
+        if: steps.check.outputs.rodar == 'sim'
         run: |
           python - <<'PY' >> $GITHUB_STEP_SUMMARY
-          import json, pathlib
+          import json, pathlib, sys
           p = pathlib.Path("dados/medicao_inlabs.json")
           if not p.exists():
-              print("Nao gerou arquivo — ver o log do passo anterior (login? secrets?).")
-              raise SystemExit
+              # Verde so' quando houve resultado. Sem isto, o continue-on-error do
+              # passo anterior faz o job reportar sucesso sem ter medido nada.
+              print("A medicao nao gerou relatorio. Ver o log do passo 'Medir'.")
+              print("Causa mais provavel hoje: o login do INLABS responde 502.")
+              sys.stderr.write("::error::Medicao sem relatorio — job marcado como falha.\n")
+              raise SystemExit(1)
           d = json.loads(p.read_text("utf-8"))
           print("## Medicao INLABS — DOU completo\n")
-          print(f"Janela {d['janela'][0]} a {d['janela'][1]} · **{d['materias_lidas']} materias** lidas em {d['dias_uteis']} dias uteis\n")
+          print(f"Janela {d['janela'][0]} a {d['janela'][1]} · **{d['materias_lidas']} materias** em {d['dias_uteis']} dias uteis\n")
           print("### Recall\n")
           print("| Ato esperado | Resultado | Balde | Onde |")
           print("|---|---|---|---|")
@@ -61,7 +95,7 @@ jobs:
           perd = sum(1 for r in d["recall"] if not r["encontrado"])
           fracos = sum(1 for r in d["recall"] if r["balde"] == "revisar")
           v = (f"REPROVADO — {perd} perdido(s)" if perd else
-               (f"APROVADO com ressalva — {fracos} so' em 'revisar'" if fracos else "APROVADO"))
+               (f"APROVADO com ressalva — {fracos} so em 'revisar'" if fracos else "APROVADO"))
           print(f"\n**Veredito:** {v}\n")
           print("### Volume\n")
           print(f"- forte: **{d['forte']}** ({d['forte_por_dia']}/dia util)")
@@ -78,7 +112,7 @@ jobs:
           PY
 
       - name: Commit do relatorio
-        if: always()
+        if: steps.check.outputs.rodar == 'sim'
         run: |
           git config user.name  "medicao-bot"
           git config user.email "actions@github.com"
