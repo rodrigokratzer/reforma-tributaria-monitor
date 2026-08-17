@@ -120,17 +120,29 @@ def baixa(op, cookie, dia, secao):
         with op.open(req, timeout=180) as r:
             if r.status != 200:
                 return None, f"http {r.status}"
-            return r.read(), None
+            bruto = r.read()
     except urllib.error.HTTPError as e:
         return None, ("sem edicao" if e.code == 404 else f"http {e.code}")
     except Exception as e:
         return None, f"{type(e).__name__}: {str(e)[:70]}"
 
+    # Dia sem edicao (fim de semana, feriado) NAO devolve 404: o INLABS
+    # responde 200 com uma pagina HTML. Sem esta checagem o zipfile estoura
+    # com BadZipFile e derruba a execucao inteira no primeiro sabado.
+    if not bruto or not bruto.startswith(b"PK"):
+        amostra = bruto[:60].decode("utf-8", "replace").strip() if bruto else "vazio"
+        return None, f"sem edicao (resposta nao e zip: {amostra[:40]})"
+    return bruto, None
+
 
 def artigos(conteudo):
     """Le o zip e devolve um dict por materia."""
     saida = []
-    with zipfile.ZipFile(io.BytesIO(conteudo)) as z:
+    try:
+        z = zipfile.ZipFile(io.BytesIO(conteudo))
+    except zipfile.BadZipFile:
+        return saida
+    with z:
         for nome in z.namelist():
             if not nome.lower().endswith(".xml"):
                 continue
@@ -195,7 +207,11 @@ def main():
                 if err != "sem edicao":
                     falhas.append(f"{dia} {secao}: {err}")
                 continue
-            arts = artigos(bruto)
+            try:
+                arts = artigos(bruto)
+            except Exception as e:
+                falhas.append(f"{dia} {secao}: leitura do zip falhou ({type(e).__name__})")
+                continue
             total += len(arts)
             cobertura.append({"dia": dia.isoformat(), "secao": secao,
                               "materias": len(arts), "kb": round(len(bruto) / 1024)})
