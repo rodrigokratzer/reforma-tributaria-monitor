@@ -2,27 +2,35 @@
 """
 Varredura das fontes oficiais da reforma tributaria do consumo.
 
-Roda no GitHub Actions (runner com acesso normal a .gov.br) e grava:
-  dados/AAAA-MM-DD.json  -> tudo que foi visto na execucao do dia
-  dados/historico.json   -> indice acumulado {chave: {primeira_vez, titulo, url, fonte}}
-  dados/novidades.json   -> so o que apareceu pela primeira vez nesta execucao
+v2 — mudancas em relacao a primeira versao:
+  * uma aba nova por fonte (na v1 uma falha derrubava as 11 seguintes com
+    "Navigation is interrupted by another navigation", escondendo o erro real)
+  * 2 tentativas por fonte, com espera entre elas
+  * fallback HTTP puro (urllib) quando o navegador falha — serve tanto de
+    plano B quanto de diagnostico: se o navegador reseta mas o urllib
+    responde 200, o problema e' o navegador; se os dois falham igual,
+    o bloqueio e' de rede (IP de datacenter recusado pelo site)
+  * cada fonte registra o metodo que funcionou e o codigo HTTP obtido
 
-A deteccao de novidade e' por comparacao com o historico, nao por data:
-paginas oficiais frequentemente publicam com data errada (o CGIBS ja listou
-um ato de 2026 como 2025), entao "nunca vi este link antes" e' criterio mais
-confiavel do que "a data e' recente".
-
-Uso:  python scripts/varredura.py
+Grava:
+  dados/AAAA-MM-DD.json  status e itens da execucao
+  dados/historico.json   indice acumulado {chave: item}
+  dados/novidades.json   o que apareceu pela primeira vez
 """
-import json, os, re, sys, datetime, hashlib
+import json, os, re, sys, time, ssl, datetime, hashlib
+import urllib.parse
+import urllib.request, urllib.error
+from html.parser import HTMLParser
 from pathlib import Path
-from playwright.sync_api import sync_playwright
 
 RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "dados"
 DADOS.mkdir(exist_ok=True)
 
-# (nome, url, precisa_de_js)
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
+
+# (nome, url, precisa_de_javascript)
 FONTES = [
     ("CGIBS - Noticias",             "https://www.cgibs.gov.br/noticias", True),
     ("CGIBS - Leis",                 "https://www.cgibs.gov.br/leis", True),
@@ -38,11 +46,11 @@ FONTES = [
     ("Portal DF-e SVRS - Noticias",  "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias", False),
 ]
 
-# Termos que qualificam um item como relevante para a reforma do consumo.
 RELEVANTE = re.compile(
-    r"\b(ibs|cbs|imposto seletivo|\bis\b|reforma tribut|lc\s*214|lc\s*227|ec\s*132|"
+    r"\b(ibs|cbs|imposto seletivo|reforma tribut|lc\s*214|lc\s*227|ec\s*132|"
     r"cgibs|split payment|nfs-?e|nf-?e|dere|df-?e|nota t[ée]cnica|cr[ée]dito presumido|"
-    r"regime espec[íi]fico|conformidade|al[íi]quota|cashback|simples nacional)\b",
+    r"regime espec[íi]fico|conformidade|al[íi]quota|cashback|simples nacional|"
+    r"resolu[çc][ãa]o|portaria|ato conjunto|regulamento)\b",
     re.I,
 )
 
@@ -50,86 +58,206 @@ MESES = {"janeiro":1,"fevereiro":2,"marco":3,"março":3,"abril":4,"maio":5,"junh
          "julho":7,"agosto":8,"setembro":9,"outubro":10,"novembro":11,"dezembro":12}
 RE_NUM = re.compile(r"(\d{1,2})[/\-.](\d{1,2})[/\-.](\d{4})")
 RE_EXT = re.compile(r"(\d{1,2})\s+DE\s+([A-Za-zÇçÃãÉé]+)\s+DE\s+(\d{4})", re.I)
-RE_PASTA = re.compile(r"/(20\d{2})(0[1-9]|1[0-2])/")   # .../upload/arquivos/202608/...
+RE_PASTA = re.compile(r"/(20\d{2})(0[1-9]|1[0-2])/")
 
 
-def extrai_data(texto, url=""):
-    """Data declarada no titulo. Devolve (iso, origem) ou (None, None)."""
-    for rx, conv in ((RE_NUM, lambda m: (int(m.group(3)), int(m.group(2)), int(m.group(1)))),
-                     (RE_EXT, lambda m: (int(m.group(3)), MESES.get(m.group(2).lower(), 0), int(m.group(1))))):
-        m = rx.search(texto)
-        if m:
-            a, mes, d = conv(m)
-            if mes:
-                try:
-                    return datetime.date(a, mes, d).isoformat(), "titulo"
-                except ValueError:
-                    pass
-    return None, None
+# ---------------------------------------------------------------- utilidades
+
+def extrai_data(texto):
+    m = RE_NUM.search(texto)
+    if m:
+        d, mes, a = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        try:
+            return datetime.date(a, mes, d).isoformat()
+        except ValueError:
+            pass
+    m = RE_EXT.search(texto)
+    if m:
+        mes = MESES.get(m.group(2).lower())
+        if mes:
+            try:
+                return datetime.date(int(m.group(3)), mes, int(m.group(1))).isoformat()
+            except ValueError:
+                pass
+    return None
 
 
 def data_do_arquivo(url):
-    """Ano/mes da pasta de upload — usado para conferir data suspeita."""
     m = RE_PASTA.search(url or "")
     return f"{m.group(1)}-{m.group(2)}" if m else None
 
 
 def chave(item):
-    base = (item.get("url") or "") + "|" + (item.get("titulo") or "")
-    return hashlib.sha1(base.encode("utf-8")).hexdigest()[:16]
+    return hashlib.sha1(((item.get("url") or "") + "|" +
+                         (item.get("titulo") or "")).encode("utf-8")).hexdigest()[:16]
 
 
-def coleta(page, nome, url, precisa_js):
+def monta_item(titulo, url):
+    data = extrai_data(titulo)
+    pasta = data_do_arquivo(url)
+    alerta = None
+    if data and pasta and not data.startswith(pasta):
+        alerta = (f"data declarada {data} nao bate com a pasta do arquivo ({pasta}); "
+                  "conferir o texto oficial antes de reportar")
+    return {"titulo": titulo, "url": url, "data": data,
+            "pasta_arquivo": pasta, "alerta": alerta}
+
+
+def caminho_normalizado(url):
+    """So o path da url, com hifens/underscores virando espaco.
+
+    Casar a regex contra a url inteira e' armadilha: o proprio dominio
+    (cgibs.gov.br) contem 'cgibs', entao TODO link do site passava no filtro.
+    """
     try:
-        page.goto(url, timeout=60000, wait_until="domcontentloaded")
-        page.wait_for_timeout(4000 if precisa_js else 1500)
-        try:
-            page.wait_for_load_state("networkidle", timeout=10000)
-        except Exception:
-            pass
-        brutos = page.eval_on_selector_all(
-            "a",
-            "els => els.map(e => ({t:(e.innerText||'').trim().replace(/\\s+/g,' '), h:e.href}))",
-        )
-    except Exception as e:
-        return {"fonte": nome, "url": url, "erro": str(e)[:220], "itens": []}
+        p = urllib.parse.urlparse(url).path
+    except Exception:
+        p = url or ""
+    return re.sub(r"[-_/.]+", " ", p)
 
+
+def filtra(pares):
+    """pares = [(texto, href)] -> lista de itens relevantes, sem repetir url."""
     itens, vistos = [], set()
-    for b in brutos:
-        t, h = b["t"], b["h"]
-        if not t or len(t) < 12 or len(t) > 350 or h in vistos:
+    for t, h in pares:
+        t = re.sub(r"\s+", " ", (t or "")).strip()
+        if not t or len(t) < 12 or len(t) > 350 or not h or h in vistos:
             continue
-        if not RELEVANTE.search(t) and not RELEVANTE.search(h):
+        if not RELEVANTE.search(t) and not RELEVANTE.search(caminho_normalizado(h)):
             continue
         vistos.add(h)
-        data, origem = extrai_data(t, h)
-        pasta = data_do_arquivo(h)
-        alerta = None
-        if data and pasta and not data.startswith(pasta):
-            alerta = (f"data declarada {data} nao bate com a pasta do arquivo ({pasta}); "
-                      "conferir o texto oficial antes de reportar")
-        itens.append({"titulo": t, "url": h, "data": data,
-                      "data_origem": origem, "pasta_arquivo": pasta, "alerta": alerta})
-    return {"fonte": nome, "url": url, "erro": None,
-            "total": len(itens), "itens": itens[:60]}
+        itens.append(monta_item(t, h))
+    return itens
+
+
+# ------------------------------------------------------------ coleta por HTTP
+
+class ColetorLinks(HTMLParser):
+    """Extrai (texto, href) de cada <a> sem depender de biblioteca externa."""
+    def __init__(self, base):
+        super().__init__(convert_charrefs=True)
+        self.base, self.pares = base, []
+        self._href, self._buf, self._nivel = None, [], 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "a":
+            if self._nivel:                      # <a> aninhado: fecha o anterior
+                self._fecha()
+            self._href = dict(attrs).get("href")
+            self._buf, self._nivel = [], 1
+
+    def handle_data(self, data):
+        if self._nivel:
+            self._buf.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self._nivel:
+            self._fecha()
+
+    def _fecha(self):
+        if self._href:
+            self.pares.append(("".join(self._buf),
+                               urllib.parse.urljoin(self.base, self._href)))
+        self._href, self._buf, self._nivel = None, [], 0
+
+
+def via_http(url, timeout=45):
+    """Devolve (html, status, erro). Nao levanta excecao."""
+    req = urllib.request.Request(url, headers={
+        "User-Agent": UA,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+        "Connection": "close",
+    })
+    ctx = ssl.create_default_context()
+    try:
+        with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+            bruto = r.read()
+            cs = r.headers.get_content_charset() or "utf-8"
+            return bruto.decode(cs, "replace"), r.status, None
+    except urllib.error.HTTPError as e:
+        return None, e.code, f"HTTP {e.code}"
+    except Exception as e:
+        return None, None, f"{type(e).__name__}: {str(e)[:160]}"
+
+
+# -------------------------------------------------------- coleta pelo browser
+
+def via_browser(ctx, url, precisa_js):
+    """Aba nova por chamada: falha de uma fonte nao contamina as outras."""
+    page = ctx.new_page()
+    try:
+        page.goto(url, timeout=60000, wait_until="domcontentloaded")
+        page.wait_for_timeout(5000 if precisa_js else 1500)
+        try:
+            page.wait_for_load_state("networkidle", timeout=12000)
+        except Exception:
+            pass
+        pares = page.eval_on_selector_all(
+            "a", "els => els.map(e => [(e.innerText||''), e.href])")
+        return pares, None
+    except Exception as e:
+        return None, f"{type(e).__name__}: {str(e)[:160]}"
+    finally:
+        try:
+            page.close()
+        except Exception:
+            pass
+
+
+# ------------------------------------------------------------------ principal
+
+def coleta(ctx, nome, url, precisa_js):
+    reg = {"fonte": nome, "url": url, "metodo": None, "http_status": None,
+           "erro": None, "erro_browser": None, "total": 0, "itens": []}
+
+    for tentativa in (1, 2):
+        pares, err = via_browser(ctx, url, precisa_js)
+        if pares is not None:
+            reg["metodo"] = "browser"
+            reg["itens"] = filtra(pares)
+            reg["total"] = len(reg["itens"])
+            return reg
+        reg["erro_browser"] = err
+        if tentativa == 1:
+            time.sleep(4)
+
+    html, status, err = via_http(url)
+    reg["http_status"] = status
+    if html:
+        p = ColetorLinks(url)
+        try:
+            p.feed(html)
+        except Exception:
+            pass
+        reg["metodo"] = "http"
+        reg["itens"] = filtra(p.pares)
+        reg["total"] = len(reg["itens"])
+        if reg["total"] == 0 and precisa_js:
+            reg["erro"] = ("browser falhou e o HTTP puro nao traz os itens "
+                           "(pagina montada por script)")
+        return reg
+
+    reg["erro"] = f"browser: {reg['erro_browser']} | http: {err}"
+    return reg
 
 
 def main():
     hoje = os.environ.get("DATA_REF") or datetime.date.today().isoformat()
+    from playwright.sync_api import sync_playwright
+
     resultado = []
     with sync_playwright() as p:
         nav = p.chromium.launch(args=["--no-sandbox", "--disable-dev-shm-usage"])
-        ctx = nav.new_context(
-            locale="pt-BR",
-            user_agent=("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                        "(KHTML, like Gecko) Chrome/125.0 Safari/537.36"),
-        )
-        pg = ctx.new_page()
+        ctx = nav.new_context(locale="pt-BR", user_agent=UA,
+                              extra_http_headers={"Accept-Language": "pt-BR,pt;q=0.9"})
         for nome, url, js in FONTES:
-            r = coleta(pg, nome, url, js)
+            r = coleta(ctx, nome, url, js)
             resultado.append(r)
-            status = f"ERRO: {r['erro'][:60]}" if r["erro"] else f"{r['total']} itens"
-            print(f"  {nome:32} {status}", file=sys.stderr)
+            print(f"  {nome:32} metodo={r['metodo'] or 'FALHOU':7} "
+                  f"itens={r['total']:3} http={r['http_status']}", file=sys.stderr)
+            if r["erro"]:
+                print(f"      {r['erro'][:150]}", file=sys.stderr)
         nav.close()
 
     hist_path = DADOS / "historico.json"
@@ -143,21 +271,26 @@ def main():
                 historico[k] = {"primeira_vez": hoje, "fonte": f["fonte"], **it}
                 novidades.append(historico[k])
 
-    falhas = [f["fonte"] for f in resultado if f["erro"]]
-    vazias = [f["fonte"] for f in resultado if not f["erro"] and f["total"] == 0]
+    falhas = [f["fonte"] for f in resultado if not f["metodo"]]
+    so_http = [f["fonte"] for f in resultado if f["metodo"] == "http"]
+    vazias = [f["fonte"] for f in resultado if f["metodo"] and f["total"] == 0]
 
     (DADOS / f"{hoje}.json").write_text(
         json.dumps({"data": hoje, "fontes": resultado}, ensure_ascii=False, indent=1), "utf-8")
     hist_path.write_text(json.dumps(historico, ensure_ascii=False, indent=1), "utf-8")
     (DADOS / "novidades.json").write_text(
         json.dumps({"data": hoje, "quantidade": len(novidades), "itens": novidades,
-                    "fontes_com_erro": falhas, "fontes_sem_itens": vazias},
-                   ensure_ascii=False, indent=1), "utf-8")
+                    "fontes_com_erro": falhas, "fontes_sem_itens": vazias,
+                    "fontes_via_http": so_http}, ensure_ascii=False, indent=1), "utf-8")
 
-    print(f"\n{len(novidades)} novidade(s). "
-          f"{len(falhas)} fonte(s) com erro, {len(vazias)} sem itens relevantes.", file=sys.stderr)
-    if falhas:
-        print("ERRO em: " + ", ".join(falhas), file=sys.stderr)
+    print(f"\n{len(novidades)} novidade(s) | {len(falhas)} falha(s) | "
+          f"{len(so_http)} via HTTP | {len(vazias)} sem itens", file=sys.stderr)
+
+    # Diagnostico de rede: os dois metodos falharam em tudo?
+    if len(falhas) == len(FONTES):
+        print("\nDIAGNOSTICO: navegador E http puro falharam em todas as fontes. "
+              "Isso aponta bloqueio de rede (IP de datacenter recusado pelos sites), "
+              "nao problema do script.", file=sys.stderr)
 
 
 if __name__ == "__main__":
