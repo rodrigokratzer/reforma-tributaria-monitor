@@ -83,24 +83,6 @@
    ]
   },
   {
-   "fonte": "CGIBS - Leis",
-   "url": "https://www.cgibs.gov.br/leis",
-   "metodo": "browser",
-   "http_status": null,
-   "erro": null,
-   "erro_browser": null,
-   "total": 1,
-   "itens": [
-    {
-     "titulo": "CGIBS - Comitê Gestor do IBS",
-     "url": "https://www.cgibs.gov.br/",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    }
-   ]
-  },
-  {
    "fonte": "CGIBS - Resolucoes",
    "url": "https://www.cgibs.gov.br/resolucoes",
    "metodo": "browser",
@@ -163,7 +145,7 @@
      "url": "https://www.cgibs.gov.br/upload/arquivos/202606/15121804-19123917-2026-05-18-min-resoluc-ao-diretrizes-orc-amento-cg-ct-tes-alterada-versa-o3-2-l.pdf",
      "data": "2026-05-18",
      "pasta_arquivo": "2026-06",
-     "alerta": "data declarada 2026-05-18 nao bate com a pasta do arquivo (2026-06); conferir o texto oficial antes de reportar"
+     "alerta": null
     },
     {
      "titulo": "RESOLUÇÃO CGIBS Nº 8, DE 26 DE MAIO DE 2026",
@@ -184,14 +166,14 @@
      "url": "https://www.cgibs.gov.br/upload/arquivos/202607/01163740-resolucao-cgibs-n-10-de-29-de-junho-de-2026-proposta-orcamentaria-2026.pdf",
      "data": "2026-06-29",
      "pasta_arquivo": "2026-07",
-     "alerta": "data declarada 2026-06-29 nao bate com a pasta do arquivo (2026-07); conferir o texto oficial antes de reportar"
+     "alerta": null
     },
     {
      "titulo": "RESOLUÇÃO CGIBS Nº 11, DE 30 DE JUNHO DE 2026 - Adoção do Marco Regulatório de Licitações",
      "url": "https://www.cgibs.gov.br/upload/arquivos/202607/01163901-resolucao-cgibs-n-11-de-30-de-junho-de-2026-adocao-do-marco-regulatorio-de-licitacoes.pdf",
      "data": "2026-06-30",
      "pasta_arquivo": "2026-07",
-     "alerta": "data declarada 2026-06-30 nao bate com a pasta do arquivo (2026-07); conferir o texto oficial antes de reportar"
+     "alerta": null
     },
     {
      "titulo": "RESOLUÇÃO CGIBS N 12, DE 17 DE JULHO DE 2026 - Diretrizes para Elaboração do Orçamento do CGIBS 2027",
@@ -238,26 +220,19 @@
    ]
   },
   {
-   "fonte": "CGIBS - Regulamentos",
-   "url": "https://www.cgibs.gov.br/regulamentos",
+   "fonte": "CGIBS - Atos Conjuntos",
+   "url": "https://www.cgibs.gov.br/atos-conjuntos",
    "metodo": "browser",
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 5,
+   "total": 6,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
      "url": "https://www.cgibs.gov.br/",
      "data": null,
      "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Res CGIBS N 6, 30 abr 2026 Regulamenta o IBS (.pdf 2,76 MBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-04",
      "alerta": null
     },
     {
@@ -268,17 +243,56 @@
      "alerta": null
     },
     {
-     "titulo": "Resolução CGIBS Nº 13, de 22 de julho de 2026 (.pdf 469,88 KBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/22121010-resolucao-cgibs-n-13-de-22-de-julho-de-2026.pdf",
-     "data": "2026-07-22",
+     "titulo": "Ato Conjunto RFB e CIBS %2827 05%29 assinado (.pdf 715,87 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/03111600-ato-conjunto-rfb-e-cibs-2827-05-29-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Conjunto nro 3 DeRE (.pdf 887,74 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/22083423-ato-conjunto-nro-3-dere.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "20260730 16h30 ATO CONJUNTO RFB CGIBS NA%C2%BA 4 260731 090909 (.pdf 846,91 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31091735-20260730-16h30-ato-conjunto-rfb-cgibs-na-c2-ba-4-260731-090909.pdf",
+     "data": null,
      "pasta_arquivo": "2026-07",
      "alerta": null
     },
     {
-     "titulo": "Em construção",
-     "url": "https://www.cgibs.gov.br/regulamento-aaaaaaaa",
+     "titulo": "Ato Conjunto RFB CGIBS n%C2%BA 5 2026 Regulamenta o Programa Nacional de Conformidade Tributaria docx assinado (.pdf 369,59 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/13065932-ato-conjunto-rfb-cgibs-n-c2-ba-5-2026-regulamenta-o-programa-nacional-de-conformidade-tributaria-docx-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Atos Tecnicos Conj.",
+   "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 2,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
      "data": null,
      "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "AM Ato Tecnico Conjunto RFB e CGIBS Ratificacao NTs DFEs Revisao assinado (.pdf 505,12 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/01153321-am-ato-tecnico-conjunto-rfb-e-cgibs-ratificacao-nts-dfes-revisao-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
      "alerta": null
     }
    ]
@@ -344,116 +358,6 @@
     {
      "titulo": "Portaria CGIBS nº 7 2026 (.pdf 610,68 KBytes)",
      "url": "https://www.cgibs.gov.br/upload/arquivos/202608/14171015-portaria-cgibs-n-7-2026.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-08",
-     "alerta": null
-    }
-   ]
-  },
-  {
-   "fonte": "CGIBS - Atos Conjuntos",
-   "url": "https://www.cgibs.gov.br/atos-conjuntos",
-   "metodo": "browser",
-   "http_status": null,
-   "erro": null,
-   "erro_browser": null,
-   "total": 6,
-   "itens": [
-    {
-     "titulo": "CGIBS - Comitê Gestor do IBS",
-     "url": "https://www.cgibs.gov.br/",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "SEI MGI 60959979 Portaria Conjunta (.pdf 100,91 KBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30094136-sei-mgi-60959979-portaria-conjunta.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-04",
-     "alerta": null
-    },
-    {
-     "titulo": "Ato Conjunto RFB e CIBS %2827 05%29 assinado (.pdf 715,87 KBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/03111600-ato-conjunto-rfb-e-cibs-2827-05-29-assinado.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-06",
-     "alerta": null
-    },
-    {
-     "titulo": "Ato Conjunto nro 3 DeRE (.pdf 887,74 KBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/22083423-ato-conjunto-nro-3-dere.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-06",
-     "alerta": null
-    },
-    {
-     "titulo": "20260730 16h30 ATO CONJUNTO RFB CGIBS NA%C2%BA 4 260731 090909 (.pdf 846,91 KBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31091735-20260730-16h30-ato-conjunto-rfb-cgibs-na-c2-ba-4-260731-090909.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-07",
-     "alerta": null
-    },
-    {
-     "titulo": "Ato Conjunto RFB CGIBS n%C2%BA 5 2026 Regulamenta o Programa Nacional de Conformidade Tributaria docx assinado (.pdf 369,59 KBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/13065932-ato-conjunto-rfb-cgibs-n-c2-ba-5-2026-regulamenta-o-programa-nacional-de-conformidade-tributaria-docx-assinado.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-08",
-     "alerta": null
-    }
-   ]
-  },
-  {
-   "fonte": "CGIBS - Relatorios",
-   "url": "https://www.cgibs.gov.br/relatorios",
-   "metodo": "browser",
-   "http_status": null,
-   "erro": null,
-   "erro_browser": null,
-   "total": 3,
-   "itens": [
-    {
-     "titulo": "CGIBS - Comitê Gestor do IBS",
-     "url": "https://www.cgibs.gov.br/",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Relatorios Fiscais CG IBS atualizado assinado (.pdf 2,95 MBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/15185302-relatorios-fiscais-cg-ibs-atualizado-assinado.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-06",
-     "alerta": null
-    },
-    {
-     "titulo": "balanço geral CGIBS 2025 assinado (1) (.pdf 563,60 KBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/16130427-balanco-geral-cgibs-2025-assinado-1.pdf",
-     "data": null,
-     "pasta_arquivo": "2026-06",
-     "alerta": null
-    }
-   ]
-  },
-  {
-   "fonte": "CGIBS - Atos Tecnicos Conj.",
-   "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos",
-   "metodo": "browser",
-   "http_status": null,
-   "erro": null,
-   "erro_browser": null,
-   "total": 2,
-   "itens": [
-    {
-     "titulo": "CGIBS - Comitê Gestor do IBS",
-     "url": "https://www.cgibs.gov.br/",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "AM Ato Tecnico Conjunto RFB e CGIBS Ratificacao NTs DFEs Revisao assinado (.pdf 505,12 KBytes)",
-     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/01153321-am-ato-tecnico-conjunto-rfb-e-cgibs-ratificacao-nts-dfes-revisao-assinado.pdf",
      "data": null,
      "pasta_arquivo": "2026-08",
      "alerta": null
@@ -665,59 +569,6 @@
    ]
   },
   {
-   "fonte": "Portal NF-e - Informes/NTs",
-   "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
-   "metodo": "browser",
-   "http_status": null,
-   "erro": null,
-   "erro_browser": null,
-   "total": 6,
-   "itens": [
-    {
-     "titulo": "Conheça a NF-e",
-     "url": "https://www.nfe.fazenda.gov.br/portal/listaSubMenu.aspx?Id=6H4uVlIEaKs=",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Consultar NF-e",
-     "url": "https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g=",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Atos RFB/CGIBS",
-     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=ECxaPvwFHQE=",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Atos Técnicos RFB/CGIBS",
-     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=hXHrw4cadF8=",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Visualizador de DF-e",
-     "url": "https://www.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Central de Atendimento",
-     "url": "https://www.serpro.gov.br/menu/suporte/central-de-atendimento-serpro-nfe-cte",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    }
-   ]
-  },
-  {
    "fonte": "Portal DF-e SVRS - Noticias",
    "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias",
    "metodo": "browser",
@@ -780,6 +631,155 @@
      "url": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaCreditoPresumido",
      "data": null,
      "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "Portal NF-e - Informes/NTs",
+   "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 6,
+   "itens": [
+    {
+     "titulo": "Conheça a NF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaSubMenu.aspx?Id=6H4uVlIEaKs=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consultar NF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Atos RFB/CGIBS",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=ECxaPvwFHQE=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Atos Técnicos RFB/CGIBS",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=hXHrw4cadF8=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Visualizador de DF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Central de Atendimento",
+     "url": "https://www.serpro.gov.br/menu/suporte/central-de-atendimento-serpro-nfe-cte",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Regulamentos",
+   "url": "https://www.cgibs.gov.br/regulamentos",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 5,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Res CGIBS N 6, 30 abr 2026 Regulamenta o IBS (.pdf 2,76 MBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "SEI MGI 60959979 Portaria Conjunta (.pdf 100,91 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30094136-sei-mgi-60959979-portaria-conjunta.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "Resolução CGIBS Nº 13, de 22 de julho de 2026 (.pdf 469,88 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/22121010-resolucao-cgibs-n-13-de-22-de-julho-de-2026.pdf",
+     "data": "2026-07-22",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "Em construção",
+     "url": "https://www.cgibs.gov.br/regulamento-aaaaaaaa",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Leis",
+   "url": "https://www.cgibs.gov.br/leis",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 1,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Relatorios",
+   "url": "https://www.cgibs.gov.br/relatorios",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 3,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Relatorios Fiscais CG IBS atualizado assinado (.pdf 2,95 MBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/15185302-relatorios-fiscais-cg-ibs-atualizado-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "balanço geral CGIBS 2025 assinado (1) (.pdf 563,60 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/16130427-balanco-geral-cgibs-2025-assinado-1.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
      "alerta": null
     }
    ]
