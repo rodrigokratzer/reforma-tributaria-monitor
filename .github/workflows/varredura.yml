@@ -59,7 +59,7 @@ jobs:
             echo "Nada mudou hoje."
           else
             git commit -m "varredura $(date -u +%Y-%m-%d)"
-            git push
+            git pull --rebase --autostash -q origin main && git push || ( sleep 5 && git pull --rebase --autostash -q origin main && git push )
           fi
 
       - name: Resumo da execução
@@ -89,4 +89,4 @@ jobs:
           date -u +%F > .keepalive
           git add .keepalive
           git commit -m "keepalive" --allow-empty -q
-          git push -q
+          git pull --rebase --autostash -q origin main && git push -q || true
