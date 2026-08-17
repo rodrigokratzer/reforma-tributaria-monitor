@@ -198,8 +198,11 @@ window.DADOS = /*__DADOS__*/null;
   $('novid').innerHTML = nv.length
     ? '<table><thead><tr><th>Data</th><th>Publicação</th><th>Fonte</th></tr></thead><tbody>'+
       nv.map(function(i){
+        var sel = i.balde==='forte' ? '<span class="chip" style="margin-left:6px"><span class="dot" style="background:var(--critical)"></span>forte</span>'
+                : i.balde==='revisar' ? '<span class="chip" style="margin-left:6px"><span class="dot" style="background:var(--warning)"></span>revisar</span>' : '';
         return '<tr><td class="dt">'+(i.data?br(i.data):'—')+'</td>'+
-          '<td><a class="inline" href="'+esc(i.url)+'" target="_blank" rel="noopener">'+esc(i.titulo)+'</a>'+
+          '<td><a class="inline" href="'+esc(i.url)+'" target="_blank" rel="noopener">'+esc(i.titulo)+'</a>'+sel+
+          (i.orgao?'<div style="color:var(--ink-3);font-size:12px;margin-top:2px">'+esc(i.orgao)+'</div>':'')+
           (i.alerta?'<div class="alerta">⚠ '+esc(i.alerta)+'</div>':'')+'</td>'+
           '<td style="color:var(--ink-2)">'+esc(i.fonte)+'</td></tr>';
       }).join('')+'</tbody></table>'

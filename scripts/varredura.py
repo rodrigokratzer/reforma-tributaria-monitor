@@ -268,6 +268,40 @@ def coleta(ctx, nome, url, precisa_js):
     return reg
 
 
+def coleta_dou(hoje):
+    """DOU via INLABS, como fonte adicional.
+
+    Roda D-1 e D: a varredura sai as 06:40 e a edicao do dia as vezes ainda
+    nao subiu; alem disso as edicoes extras da vespera costumam aparecer
+    depois. Reprocessar a vespera e' barato porque o historico deduplica.
+
+    Sem credencial, a fonte e' simplesmente pulada — o DOU nao pode derrubar
+    a varredura das 12 fontes que ja' funciona.
+    """
+    email, senha = os.environ.get("INLABS_EMAIL"), os.environ.get("INLABS_SENHA")
+    if not email or not senha:
+        return {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/",
+                "metodo": None, "total": 0, "itens": [],
+                "erro": "sem credencial: INLABS_EMAIL/INLABS_SENHA nao definidos"}
+    try:
+        import dou
+    except ImportError as e:
+        return {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/",
+                "metodo": None, "total": 0, "itens": [], "erro": f"import: {e}"}
+    d = datetime.date.fromisoformat(hoje)
+    dias = [(d - datetime.timedelta(days=1)).isoformat(), hoje]
+    try:
+        itens, diag = dou.coleta(dias, email, senha)
+    except Exception as e:
+        return {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/",
+                "metodo": None, "total": 0, "itens": [],
+                "erro": f"{type(e).__name__}: {str(e)[:150]}"}
+    return {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/",
+            "metodo": "inlabs", "http_status": None, "erro": None,
+            "total": len(itens), "itens": itens,
+            "diagnostico": {k: v for k, v in diag.items() if k in ("lidas", "forte", "revisar")}}
+
+
 def main():
     hoje = os.environ.get("DATA_REF") or datetime.date.today().isoformat()
     from playwright.sync_api import sync_playwright
@@ -293,6 +327,14 @@ def main():
             if r["erro"]:
                 print(f"      {r['erro'][:150]}", file=sys.stderr)
         nav.close()
+
+    # DOU por ultimo: e' a fonte mais cara e a unica que depende de credencial.
+    r_dou = coleta_dou(hoje)
+    resultado.append(r_dou)
+    print(f"  {'DOU (INLABS)':32} metodo={r_dou['metodo'] or 'PULADO':7} "
+          f"itens={r_dou['total']:3}", file=sys.stderr)
+    if r_dou.get("erro"):
+        print(f"      {r_dou['erro'][:150]}", file=sys.stderr)
 
     hist_path = DADOS / "historico.json"
     historico = json.loads(hist_path.read_text("utf-8")) if hist_path.exists() else {}
