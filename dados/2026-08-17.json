@@ -4,85 +4,73 @@
   {
    "fonte": "CGIBS - Noticias",
    "url": "https://www.cgibs.gov.br/noticias",
-   "erro": null,
-   "total": 0,
+   "erro": "Page.goto: net::ERR_CONNECTION_RESET at https://www.cgibs.gov.br/noticias\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
    "itens": []
   },
   {
    "fonte": "CGIBS - Leis",
    "url": "https://www.cgibs.gov.br/leis",
-   "erro": null,
-   "total": 0,
+   "erro": "Page.goto: Navigation to \"https://www.cgibs.gov.br/leis\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/leis\", waiting until \"domcontentloade",
    "itens": []
   },
   {
    "fonte": "CGIBS - Resolucoes",
    "url": "https://www.cgibs.gov.br/resolucoes",
-   "erro": null,
-   "total": 2,
+   "erro": "Page.goto: Navigation to \"https://www.cgibs.gov.br/resolucoes\" is interrupted by another navigation to \"https://www.cgibs.gov.br/leis\"\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/resolucoes\", waiting until \"dom",
    "itens": []
   },
   {
    "fonte": "CGIBS - Regulamentos",
    "url": "https://www.cgibs.gov.br/regulamentos",
-   "erro": null,
-   "total": 3,
+   "erro": "Page.goto: Navigation to \"https://www.cgibs.gov.br/regulamentos\" is interrupted by another navigation to \"https://www.cgibs.gov.br/resolucoes\"\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/regulamentos\", waiting ",
    "itens": []
   },
   {
    "fonte": "CGIBS - Portarias",
    "url": "https://www.cgibs.gov.br/portarias",
-   "erro": null,
-   "total": 1,
+   "erro": "Page.goto: Navigation to \"https://www.cgibs.gov.br/portarias\" is interrupted by another navigation to \"https://www.cgibs.gov.br/regulamentos\"\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/portarias\", waiting unti",
    "itens": []
   },
   {
    "fonte": "CGIBS - Atos Conjuntos",
    "url": "https://www.cgibs.gov.br/atos-conjuntos",
-   "erro": null,
-   "total": 1,
+   "erro": "Page.goto: Navigation to \"https://www.cgibs.gov.br/atos-conjuntos\" is interrupted by another navigation to \"https://www.cgibs.gov.br/portarias\"\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/atos-conjuntos\", waiti",
    "itens": []
   },
   {
    "fonte": "CGIBS - Relatorios",
    "url": "https://www.cgibs.gov.br/relatorios",
-   "erro": null,
-   "total": 0,
+   "erro": "Page.goto: Navigation to \"https://www.cgibs.gov.br/relatorios\" is interrupted by another navigation to \"https://www.cgibs.gov.br/atos-conjuntos\"\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/relatorios\", waiting ",
    "itens": []
   },
   {
    "fonte": "CGIBS - Atos Tecnicos Conj.",
    "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos",
-   "erro": null,
-   "total": 1,
+   "erro": "Page.goto: Navigation to \"https://www.cgibs.gov.br/atos-tecnicos-conjuntos\" is interrupted by another navigation to \"https://www.cgibs.gov.br/relatorios\"\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/atos-tecnico",
    "itens": []
   },
   {
    "fonte": "RFB - Noticias 2026",
    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026",
-   "erro": null,
-   "total": 1,
+   "erro": "Page.goto: Navigation to \"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026\" is interrupted by another navigation to \"https://www.cgibs.gov.br/atos-tecnicos-conjuntos\"\nCall log:\n  - navigating to \"https://ww",
    "itens": []
   },
   {
    "fonte": "RFB - Reforma do Consumo",
    "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias",
-   "erro": null,
-   "total": 0,
+   "erro": "Page.goto: Navigation to \"https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias\" is interrupted by another navigation to \"https://www.",
    "itens": []
   },
   {
    "fonte": "Portal NF-e - Informes/NTs",
    "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
-   "erro": "Timeout ao carregar a pagina",
-   "total": 0,
+   "erro": "Page.goto: Navigation to \"https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false\" is interrupted by another navigation to \"https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e",
    "itens": []
   },
   {
    "fonte": "Portal DF-e SVRS - Noticias",
    "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias",
-   "erro": null,
-   "total": 2,
+   "erro": "Page.goto: Navigation to \"https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias\" is interrupted by another navigation to \"https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false&AspxAutoDetectCookieSupport=1\"\nCall log:\n ",
    "itens": []
   }
  ]
