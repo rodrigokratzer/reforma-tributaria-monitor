@@ -47,12 +47,34 @@ ROTINA = re.compile(r"(extrato de (contrato|doa[çc][ãa]o|termo|conv[êe]nio|re
                     r"homologa|dispensa)|edital de (notifica|convoca|intima)|"
                     r"ato declarat[óo]rio executivo corat|resultado de julgamento)", re.I)
 
+# Gabarito: (nome, data de publicacao no DOU, regex). A data importa porque
+# um ato publicado fora da janela medida NAO pode ser cobrado do filtro — a v1
+# do relatorio marcava "PERDEU" nesses casos e produzia alarme falso.
+# TOLERANCIA_DOU cobre a incerteza de 1 a 2 dias entre assinatura e publicacao.
+TOLERANCIA_DOU = 3
 GABARITO = [
-    ("Resolucao CGIBS n 14",        r"resolu[çc][ãa]o\s+cgibs\s+n?[ºo°]?\s*14\b"),
-    ("Ato Conjunto RFB/CGIBS n 4",  r"ato\s+conjunto\s+rfb\s*/?\s*cgibs\s+n?[ºo°]?\s*4\b"),
-    ("Ato Tecnico Conjunto n 1",    r"ato\s+t[ée]cnico\s+conjunto\s+rfb\s*/?\s*cgibs\s+n?[ºo°]?\s*1\b"),
-    ("Ato Conjunto RFB/CGIBS n 5",  r"ato\s+conjunto\s+rfb\s*/?\s*cgibs\s+n?[ºo°]?\s*5\b"),
+    ("Resolucao CGIBS n 14",       "2026-07-31", r"resolu[\u00e7c][\u00e3a]o\s+cgibs\s+n?[\u00ba\u00b0o]?\s*14\b"),
+    ("Ato Conjunto RFB/CGIBS n 4", "2026-07-31", r"ato\s+conjunto\s+rfb\s*/?\s*cgibs\s+n?[\u00ba\u00b0o]?\s*4\b"),
+    ("Ato Tecnico Conjunto n 1",   "2026-07-31", r"ato\s+t[\u00e9e]cnico\s+conjunto\s+rfb\s*/?\s*cgibs\s+n?[\u00ba\u00b0o]?\s*1\b"),
+    ("Ato Conjunto RFB/CGIBS n 5", "2026-08-14", r"ato\s+conjunto\s+rfb\s*/?\s*cgibs\s+n?[\u00ba\u00b0o]?\s*5\b"),
 ]
+
+# Tipos de ato que nunca carregam norma. Bloqueiam promocao por evidencia de
+# corpo: um extrato de convenio que cita a LC 214 de passagem nao e' materia
+# sobre a reforma. Sinal no titulo ou na ementa continua valendo acima disto.
+SEM_NORMA = re.compile(r"^\s*(extratos?\b|despachos?\b|atos? declarat[\u00f3o]rios?\b|"
+                       r"pauta de julgamento|atas?\b|avisos?\b|editais?\b|edital\b|"
+                       r"resultado de julgamento|termo aditivo|aditamento|"
+                       r"seguros? garantia|seleca?o p[\u00fau]blica)", re.I)
+
+# Tipos que PODEM carregar norma — so' estes entram por forca do orgao.
+TIPO_NORMATIVO = re.compile(r"(portaria|resolu[\u00e7c][\u00e3a]o|instru[\u00e7c][\u00e3a]o normativa|"
+                            r"\bato\b|decreto|\blei\b|medida provis[\u00f3o]ria|"
+                            r"solu[\u00e7c][\u00e3a]o de consulta|recomenda[\u00e7c][\u00e3a]o|"
+                            r"delibera[\u00e7c][\u00e3a]o|conv[\u00eae]nio icms|ajuste sinief)", re.I)
+
+# Quantas mencoes no corpo bastam para promover algo cujo titulo nao diz nada.
+DENSIDADE_FORTE = 3
 
 TAG = re.compile(r"<[^>]+>")
 
@@ -165,21 +187,38 @@ def artigos(conteudo):
 
 
 def classifica(a):
-    # ATENCAO: artCategory (o orgao) fica FORA daqui de proposito. O nome do
-    # orgao contem "CGIBS"/"Comite Gestor do IBS", entao incluir esse campo faz
-    # todo extrato de contrato do proprio Comite virar "forte" — o termo estaria
-    # se confirmando pelo remetente, nao pelo assunto. O orgao entra so' na
-    # camada ORGAOS, mais abaixo.
-    cabeca = " ".join([a.get("_titulo", ""), a.get("_ementa", ""), a.get("artType", "")])
+    """Devolve forte | revisar | descartado.
+
+    Regras, em ordem:
+      1. sinal no titulo/ementa  -> forte   (o assunto e' declarado)
+      2. tipo sem carga normativa -> descartado (extrato, despacho, ADE...)
+      3. corpo com >= 3 mencoes  -> forte   (o texto trata do tema, nao cita de passagem)
+      4. corpo com 1 ou 2        -> revisar
+      5. orgao relevante E tipo normativo -> revisar
+      6. resto -> descartado
+
+    artCategory (o orgao) fica FORA da deteccao de termo de proposito: o nome
+    do orgao contem "CGIBS"/"Comite Gestor do IBS", entao usa-lo faria todo
+    papel do proprio Comite virar "forte" — o termo se confirmando pelo
+    remetente, nao pelo assunto. O orgao entra so' na regra 5.
+    """
+    titulo = a.get("_titulo", "")
+    cabeca = " ".join([titulo, a.get("_ementa", ""), a.get("artType", "")])
     corpo = a.get("_texto", "")
-    forte = bool(REFS.search(cabeca) or TERMOS.search(cabeca) or REFS.search(corpo))
-    if forte:
+
+    if REFS.search(cabeca) or TERMOS.search(cabeca):
         return "forte"
-    if ROTINA.search(cabeca):
+
+    if SEM_NORMA.search(titulo) or ROTINA.search(cabeca):
         return "descartado"
-    if TERMOS.search(corpo):
+
+    mencoes = len(TERMOS.findall(corpo)) + len(REFS.findall(corpo))
+    if mencoes >= DENSIDADE_FORTE:
+        return "forte"
+    if mencoes >= 1:
         return "revisar"
-    if ORGAOS.search(a.get("artCategory", "")):
+
+    if ORGAOS.search(a.get("artCategory", "")) and TIPO_NORMATIVO.search(cabeca):
         return "revisar"
     return "descartado"
 
@@ -196,6 +235,10 @@ def main():
     print(f"Login ok. Janela {d0} a {d1}, secoes {SECOES}\n", file=sys.stderr)
 
     baldes = {"forte": [], "revisar": [], "descartado": 0}
+    # Indice de TUDO que foi lido, inclusive descartado. Sem isto o recall nao
+    # distingue "nao veio na coleta" de "veio e meu filtro jogou fora" — que e'
+    # justamente a distincao pela qual escolhemos o INLABS.
+    corpus = []
     cobertura, falhas, total, dias_uteis = [], [], 0, 0
     dia = d0
     while dia <= d1:
@@ -217,25 +260,42 @@ def main():
                               "materias": len(arts), "kb": round(len(bruto) / 1024)})
             for a in arts:
                 b = classifica(a)
+                reg = {"dia": dia.isoformat(), "secao": secao,
+                       "titulo": a.get("_titulo", "")[:150],
+                       "orgao": a.get("artCategory", "")[:120],
+                       "ementa": a.get("_ementa", "")[:200]}
+                corpus.append({**reg, "balde": b})
                 if b == "descartado":
                     baldes["descartado"] += 1
                 else:
-                    baldes[b].append({"dia": dia.isoformat(), "secao": secao,
-                                      "titulo": a.get("_titulo", "")[:150],
-                                      "orgao": a.get("artCategory", "")[:120],
-                                      "ementa": a.get("_ementa", "")[:200]})
+                    baldes[b].append(reg)
             print(f"  {dia} {secao:5} materias={len(arts):5} acum_forte={len(baldes['forte'])}",
                   file=sys.stderr)
         dia += datetime.timedelta(days=1)
 
-    # RECALL — procura no corpus inteiro, nao so' no que o filtro aprovou
-    todos = baldes["forte"] + baldes["revisar"]
-    recall = []
-    for nome, rx in GABARITO:
-        p = re.compile(rx, re.I)
-        hit = next((i for i in todos if p.search(i["titulo"] + " " + i["ementa"])), None)
-        balde = "forte" if hit and hit in baldes["forte"] else ("revisar" if hit else None)
-        recall.append({"esperado": nome, "encontrado": bool(hit), "balde": balde,
+    # RECALL — procura no CORPUS INTEIRO, inclusive no que foi descartado.
+    # E ignora ato cuja publicacao no DOU esta' fora da janela medida: cobrar
+    # isso do filtro seria alarme falso.
+    recall, esperados_no_escopo = [], 0
+    for nome, data_dou, rx in GABARITO:
+        alvo = datetime.date.fromisoformat(data_dou)
+        tol = datetime.timedelta(days=TOLERANCIA_DOU)
+        no_escopo = (d0 - tol) <= alvo <= (d1 + tol)
+        if not no_escopo:
+            recall.append({"esperado": nome, "data_dou": data_dou,
+                           "situacao": "fora da janela", "encontrado": None,
+                           "balde": None, "dia": None, "secao": None, "titulo": ""})
+            continue
+        esperados_no_escopo += 1
+        pad = re.compile(rx, re.I)
+        hit = next((i for i in corpus
+                    if pad.search(i["titulo"] + " " + i["ementa"])), None)
+        if hit:
+            situacao = "encontrado" if hit["balde"] in ("forte", "revisar") else "descartado pelo filtro"
+        else:
+            situacao = "ausente do corpus"
+        recall.append({"esperado": nome, "data_dou": data_dou, "situacao": situacao,
+                       "encontrado": bool(hit), "balde": (hit or {}).get("balde"),
                        "dia": (hit or {}).get("dia"), "secao": (hit or {}).get("secao"),
                        "titulo": (hit or {}).get("titulo", "")})
 
@@ -246,7 +306,8 @@ def main():
            "descartado": baldes["descartado"],
            "forte_por_dia": round(len(baldes["forte"]) / u, 2),
            "revisar_por_dia": round(len(baldes["revisar"]) / u, 2),
-           "recall": recall,
+           "recall": recall, "esperados_no_escopo": esperados_no_escopo,
+           "corpus_indexado": len(corpus),
            "amostra_forte": baldes["forte"][:40],
            "amostra_revisar": baldes["revisar"][:20]}
 
@@ -255,22 +316,42 @@ def main():
         json.dumps(rel, ensure_ascii=False, indent=1), "utf-8")
 
     print(f"\n=== RECALL ===", file=sys.stderr)
+    MARCA = {"encontrado": "OK    ", "descartado pelo filtro": "FILTRO",
+             "ausente do corpus": "AUSENTE", "fora da janela": "n/a   "}
     for r in recall:
-        marca = "OK    " if r["encontrado"] else "PERDEU"
         extra = f"[{r['balde']}] {r['dia']} {r['secao']}" if r["encontrado"] else ""
-        print(f"  {marca} {r['esperado']:30} {extra}", file=sys.stderr)
-    perdidos = sum(1 for r in recall if not r["encontrado"])
+        print(f"  {MARCA[r['situacao']]:7} {r['esperado']:30} DOU {r['data_dou']}  {extra}",
+              file=sys.stderr)
+
+    fora = sum(1 for r in recall if r["situacao"] == "fora da janela")
+    filtrados = sum(1 for r in recall if r["situacao"] == "descartado pelo filtro")
+    ausentes = sum(1 for r in recall if r["situacao"] == "ausente do corpus")
     fracos = sum(1 for r in recall if r["balde"] == "revisar")
+
     print(f"\n=== VOLUME ===", file=sys.stderr)
     print(f"  materias lidas : {total} em {dias_uteis} dias uteis", file=sys.stderr)
     print(f"  forte          : {rel['forte']} ({rel['forte_por_dia']}/dia)", file=sys.stderr)
     print(f"  revisar        : {rel['revisar']} ({rel['revisar_por_dia']}/dia)", file=sys.stderr)
     print(f"  descartado     : {rel['descartado']}", file=sys.stderr)
     if falhas:
-        print(f"\n  {len(falhas)} download(s) com erro; 1o: {falhas[0]}", file=sys.stderr)
-    veredito = ("REPROVADO — %d ato(s) perdido(s)" % perdidos if perdidos
-                else ("APROVADO com ressalva — %d ato(s) so' no balde revisar" % fracos
-                      if fracos else "APROVADO no recall"))
+        print(f"\n  {len(falhas)} dia(s)/secao(oes) sem edicao ou com erro; "
+              f"1o: {falhas[0][:80]}", file=sys.stderr)
+
+    if esperados_no_escopo == 0:
+        veredito = ("INCONCLUSIVO — nenhum ato do gabarito foi publicado nesta "
+                    "janela. Rode cobrindo 2026-07-29 em diante.")
+    elif ausentes:
+        veredito = (f"REPROVADO — {ausentes} ato(s) nao apareceram no corpus. "
+                    "Problema de COLETA (secao ou dia faltando), nao de filtro.")
+    elif filtrados:
+        veredito = (f"REPROVADO — {filtrados} ato(s) foram coletados e o FILTRO "
+                    "descartou. Problema de regra.")
+    elif fracos:
+        veredito = f"APROVADO com ressalva — {fracos} ato(s) so' no balde revisar"
+    else:
+        veredito = "APROVADO no recall"
+    if fora:
+        veredito += f" ({fora} ato(s) fora da janela, nao contam)"
     print(f"\nVEREDITO: {veredito}", file=sys.stderr)
 
 
