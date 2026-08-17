@@ -87,15 +87,28 @@ jobs:
           print("## Medicao INLABS — DOU completo\n")
           print(f"Janela {d['janela'][0]} a {d['janela'][1]} · **{d['materias_lidas']} materias** em {d['dias_uteis']} dias uteis\n")
           print("### Recall\n")
-          print("| Ato esperado | Resultado | Balde | Onde |")
-          print("|---|---|---|---|")
+          print(f"Corpus indexado: **{d.get('corpus_indexado', 0)}** materias, incluindo as descartadas.\n")
+          print("| Ato esperado | DOU | Situacao | Balde | Onde |")
+          print("|---|---|---|---|---|")
+          ICONE = {"encontrado": "OK", "descartado pelo filtro": "**FILTRO DESCARTOU**",
+                   "ausente do corpus": "**AUSENTE DA COLETA**", "fora da janela": "fora da janela"}
           for r in d["recall"]:
-              onde = f"{r['dia']} {r['secao']}" if r["encontrado"] else "-"
-              print(f"| {r['esperado']} | {'OK' if r['encontrado'] else '**PERDEU**'} | {r['balde'] or '-'} | {onde} |")
-          perd = sum(1 for r in d["recall"] if not r["encontrado"])
-          fracos = sum(1 for r in d["recall"] if r["balde"] == "revisar")
-          v = (f"REPROVADO — {perd} perdido(s)" if perd else
-               (f"APROVADO com ressalva — {fracos} so em 'revisar'" if fracos else "APROVADO"))
+              onde = f"{r['dia']} {r['secao']}" if r.get("encontrado") else "-"
+              print(f"| {r['esperado']} | {r.get('data_dou','?')} | {ICONE.get(r['situacao'], r['situacao'])} | {r.get('balde') or '-'} | {onde} |")
+          escopo = d.get("esperados_no_escopo", 0)
+          ausentes = sum(1 for r in d["recall"] if r["situacao"] == "ausente do corpus")
+          filtrados = sum(1 for r in d["recall"] if r["situacao"] == "descartado pelo filtro")
+          fracos = sum(1 for r in d["recall"] if r.get("balde") == "revisar")
+          if escopo == 0:
+              v = "INCONCLUSIVO — nenhum ato do gabarito caiu nesta janela. Rode a partir de 2026-07-29."
+          elif ausentes:
+              v = f"REPROVADO — {ausentes} ato(s) nao apareceram no corpus. Falha de COLETA."
+          elif filtrados:
+              v = f"REPROVADO — {filtrados} ato(s) coletados e descartados pelo FILTRO. Falha de regra."
+          elif fracos:
+              v = f"APROVADO com ressalva — {fracos} ato(s) so em 'revisar'"
+          else:
+              v = "APROVADO"
           print(f"\n**Veredito:** {v}\n")
           print("### Volume\n")
           print(f"- forte: **{d['forte']}** ({d['forte_por_dia']}/dia util)")
