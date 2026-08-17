@@ -1,0 +1,87 @@
+name: Varredura Reforma Tributária
+
+on:
+  schedule:
+    # 09:40 UTC = 06:40 em Brasília (UTC-3), de segunda a sexta.
+    # Roda ~20 min antes do e-mail das 07h para o dado já estar no ar.
+    # O cron do GitHub é "melhor esforço" e pode atrasar em horário de pico.
+    - cron: "40 9 * * 1-5"
+  workflow_dispatch:        # permite disparar na mão pela aba Actions
+  push:
+    paths:
+      - "estado.json"       # editou a camada curada? regenera o painel
+      - "analises/**"
+      - "scripts/**"
+
+permissions:
+  contents: write           # necessário para o commit dos dados
+
+concurrency:
+  group: varredura
+  cancel-in-progress: false
+
+jobs:
+  varrer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependências
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Varrer fontes oficiais
+        id: varrer
+        run: python scripts/varredura.py
+        continue-on-error: true      # fonte fora do ar não derruba a execução
+
+      - name: Gerar painel
+        run: python scripts/gerar_painel.py
+
+      - name: Commit dos resultados
+        run: |
+          git config user.name  "varredura-bot"
+          git config user.email "actions@github.com"
+          git add dados docs
+          if git diff --staged --quiet; then
+            echo "Nada mudou hoje."
+          else
+            git commit -m "varredura $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Resumo da execução
+        if: always()
+        run: |
+          echo "### Varredura $(date -u +%F)" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, pathlib
+          p = pathlib.Path("dados/novidades.json")
+          if not p.exists():
+              print("Sem arquivo de novidades — a varredura falhou.")
+          else:
+              d = json.loads(p.read_text("utf-8"))
+              print(f"**{d['quantidade']} novidade(s).**\n")
+              for i in d["itens"][:20]:
+                  print(f"- [{i['titulo'][:120]}]({i['url']}) — {i['fonte']}")
+              if d["fontes_com_erro"]:
+                  print(f"\n**Fontes com erro:** {', '.join(d['fontes_com_erro'])}")
+              if d["fontes_sem_itens"]:
+                  print(f"\n**Sem itens relevantes:** {', '.join(d['fontes_sem_itens'])}")
+          PY
+
+      # Mantém o agendamento vivo: o GitHub desativa workflows agendados
+      # em repositório público após 60 dias sem atividade no repositório.
+      - name: Sinal de vida
+        run: |
+          date -u +%F > .keepalive
+          git add .keepalive
+          git commit -m "keepalive" --allow-empty -q
+          git push -q
