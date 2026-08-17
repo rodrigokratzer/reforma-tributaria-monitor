@@ -1,0 +1,62 @@
+{
+ "608e6b409661521d": {
+  "primeira_vez": "2026-08-17",
+  "fonte": "CGIBS - Atos Conjuntos",
+  "titulo": "ATO CONJUNTO RFB/CGIBS Nº 5, DE 12 DE AGOSTO DE 2026",
+  "url": "https://www.cgibs.gov.br/upload/arquivos/202608/13065932-ato-conjunto-rfb-cgibs-n-c2-ba-5-2026-regulamenta-o-programa-nacional-de-conformidade-tributaria-docx-assinado.pdf",
+  "data": "2025-08-12",
+  "data_origem": "titulo",
+  "pasta_arquivo": "2026-08",
+  "alerta": "data declarada 2025-08-12 nao bate com a pasta do arquivo (2026-08); conferir o texto oficial antes de reportar"
+ },
+ "39025d19093450f6": {
+  "primeira_vez": "2026-08-17",
+  "fonte": "CGIBS - Portarias",
+  "titulo": "PORTARIA CGIBS Nº 07, DE 14 DE AGOSTO DE 2026 - Equipe e Informacoes Orcamento CGIBS 2027",
+  "url": "https://www.cgibs.gov.br/portarias",
+  "data": "2026-08-14",
+  "data_origem": "titulo",
+  "pasta_arquivo": null,
+  "alerta": null
+ },
+ "5a2a5783f07f0717": {
+  "primeira_vez": "2026-08-17",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Simples Nacional: NFS-e Nacional sera obrigatoria para ME e EPP a partir de 1o de novembro de 2026",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026",
+  "data": "2026-08-14",
+  "data_origem": "titulo",
+  "pasta_arquivo": null,
+  "alerta": null
+ },
+ "5e3d37c94ff8b797": {
+  "primeira_vez": "2026-08-17",
+  "fonte": "CGIBS - Resolucoes",
+  "titulo": "RESOLUCAO CGIBS Nº 17, DE 30 DE JULHO DE 2026",
+  "url": "https://www.cgibs.gov.br/resolucoes",
+  "data": "2026-07-30",
+  "data_origem": "titulo",
+  "pasta_arquivo": null,
+  "alerta": null
+ },
+ "0db921d9a27c141d": {
+  "primeira_vez": "2026-08-17",
+  "fonte": "CGIBS - Atos Tecnicos Conj.",
+  "titulo": "ATO TECNICO CONJUNTO RFB/CGIBS Nº 1, DE 31 DE JULHO DE 2026 - Ratificacao NTs DFEs",
+  "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos",
+  "data": "2026-07-31",
+  "data_origem": "titulo",
+  "pasta_arquivo": null,
+  "alerta": null
+ },
+ "adb94cef27047506": {
+  "primeira_vez": "2026-08-17",
+  "fonte": "CGIBS - Resolucoes",
+  "titulo": "RESOLUCAO CGIBS Nº 14, DE 29 DE JULHO DE 2026 - Proposta Percentual IBS CGIBS 2027",
+  "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31144942-resoluc-ao-cgibs-n-14-de-29-de-julho-de-2026-proposta-percentual-ibs-cgibs-2027.pdf",
+  "data": "2026-07-29",
+  "data_origem": "titulo",
+  "pasta_arquivo": "2026-07",
+  "alerta": null
+ }
+}

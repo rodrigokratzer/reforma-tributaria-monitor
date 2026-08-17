@@ -1,0 +1,89 @@
+{
+ "data": "2026-08-17",
+ "fontes": [
+  {
+   "fonte": "CGIBS - Noticias",
+   "url": "https://www.cgibs.gov.br/noticias",
+   "erro": null,
+   "total": 0,
+   "itens": []
+  },
+  {
+   "fonte": "CGIBS - Leis",
+   "url": "https://www.cgibs.gov.br/leis",
+   "erro": null,
+   "total": 0,
+   "itens": []
+  },
+  {
+   "fonte": "CGIBS - Resolucoes",
+   "url": "https://www.cgibs.gov.br/resolucoes",
+   "erro": null,
+   "total": 2,
+   "itens": []
+  },
+  {
+   "fonte": "CGIBS - Regulamentos",
+   "url": "https://www.cgibs.gov.br/regulamentos",
+   "erro": null,
+   "total": 3,
+   "itens": []
+  },
+  {
+   "fonte": "CGIBS - Portarias",
+   "url": "https://www.cgibs.gov.br/portarias",
+   "erro": null,
+   "total": 1,
+   "itens": []
+  },
+  {
+   "fonte": "CGIBS - Atos Conjuntos",
+   "url": "https://www.cgibs.gov.br/atos-conjuntos",
+   "erro": null,
+   "total": 1,
+   "itens": []
+  },
+  {
+   "fonte": "CGIBS - Relatorios",
+   "url": "https://www.cgibs.gov.br/relatorios",
+   "erro": null,
+   "total": 0,
+   "itens": []
+  },
+  {
+   "fonte": "CGIBS - Atos Tecnicos Conj.",
+   "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos",
+   "erro": null,
+   "total": 1,
+   "itens": []
+  },
+  {
+   "fonte": "RFB - Noticias 2026",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026",
+   "erro": null,
+   "total": 1,
+   "itens": []
+  },
+  {
+   "fonte": "RFB - Reforma do Consumo",
+   "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias",
+   "erro": null,
+   "total": 0,
+   "itens": []
+  },
+  {
+   "fonte": "Portal NF-e - Informes/NTs",
+   "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
+   "erro": "Timeout ao carregar a pagina",
+   "total": 0,
+   "itens": []
+  },
+  {
+   "fonte": "Portal DF-e SVRS - Noticias",
+   "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias",
+   "erro": null,
+   "total": 2,
+   "itens": []
+  }
+ ]
+}

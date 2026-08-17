@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel — Reforma Tributária</title>
+<style>
+  :root{
+    color-scheme: light;
+    --surface-1:#fcfcfb; --plane:#f9f9f7;
+    --ink-1:#0b0b0b; --ink-2:#52514e; --ink-3:#898781;
+    --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+    --s1:#2a78d6; --wash:rgba(11,11,11,0.035);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])){
+      color-scheme: dark;
+      --surface-1:#1a1a19; --plane:#0d0d0d;
+      --ink-1:#ffffff; --ink-2:#c3c2b7; --ink-3:#898781;
+      --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+      --s1:#3987e5; --wash:rgba(255,255,255,0.04);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --surface-1:#1a1a19; --plane:#0d0d0d;
+    --ink-1:#ffffff; --ink-2:#c3c2b7; --ink-3:#898781;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+    --s1:#3987e5; --wash:rgba(255,255,255,0.04);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--plane);color:var(--ink-1);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.55}
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 64px}
+  header.top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  h1{font-size:22px;margin:0 0 2px;letter-spacing:-0.01em}
+  .sub{color:var(--ink-2);font-size:13.5px;margin:0}
+  .toggle{border:1px solid var(--border);background:var(--surface-1);color:var(--ink-2);
+    border-radius:8px;padding:6px 11px;font-size:12.5px;cursor:pointer;font-family:inherit}
+  .toggle:hover{background:var(--wash)}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:0.07em;color:var(--ink-3);
+    margin:34px 0 12px;font-weight:600}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(196px,1fr));gap:12px}
+  .tile{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;
+    padding:15px 16px 14px;position:relative;overflow:hidden}
+  .tile .rail{position:absolute;left:0;top:0;bottom:0;width:3px}
+  .tile .lbl{font-size:12px;color:var(--ink-2);margin-bottom:8px;min-height:2.6em}
+  .tile .val{font-size:31px;font-weight:650;letter-spacing:-0.025em;line-height:1}
+  .tile .unit{font-size:13px;font-weight:400;color:var(--ink-2);margin-left:4px;letter-spacing:0}
+  .tile .foot{font-size:11.5px;color:var(--ink-3);margin-top:7px;font-variant-numeric:tabular-nums}
+  .chip{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;
+    padding:2px 7px;border-radius:999px;border:1px solid var(--border);color:var(--ink-2)}
+  .chip .dot{width:7px;height:7px;border-radius:50%}
+  .card{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:18px 20px}
+  .card + .card{margin-top:12px}
+  .analise h1,.analise h2{font-size:15px;text-transform:none;letter-spacing:0;color:var(--ink-1);
+    margin:20px 0 8px;font-weight:650}
+  .analise h3{font-size:14px;margin:16px 0 4px}
+  .analise p{margin:0 0 10px}
+  .analise ul{margin:0 0 12px;padding-left:20px}
+  .analise li{margin-bottom:5px}
+  .analise strong{font-weight:650}
+  .analise > :first-child{margin-top:0}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:0.06em;
+    color:var(--ink-3);font-weight:600;padding:0 10px 8px 0;border-bottom:1px solid var(--axis)}
+  td{padding:11px 10px 11px 0;border-bottom:1px solid var(--grid);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  td.num{font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right;padding-right:0}
+  td.dt{font-variant-numeric:tabular-nums;white-space:nowrap;text-align:left;padding-right:18px}
+  .st{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+  .st .dot{width:8px;height:8px;border-radius:50%;flex:none}
+  .tlbar{position:relative;height:6px;background:var(--grid);border-radius:3px;margin:30px 0 8px}
+  .tlfill{position:absolute;left:0;top:0;bottom:0;background:var(--s1);border-radius:3px}
+  .tlmark{position:absolute;top:-9px;width:2px;height:24px;background:var(--axis)}
+  .tlmark.now{background:var(--critical)}
+  .tlrow{display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink-3);
+    font-variant-numeric:tabular-nums}
+  .tlist{margin-top:18px}
+  .ev{display:grid;grid-template-columns:96px 14px 1fr;gap:10px;align-items:start;padding:8px 0}
+  .ev .d{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums;padding-top:2px}
+  .ev .m{position:relative;height:100%;display:flex;justify-content:center}
+  .ev .m::before{content:"";position:absolute;top:9px;width:9px;height:9px;border-radius:50%;
+    background:var(--surface-1);border:2px solid var(--axis)}
+  .ev.done .m::before{background:var(--axis);border-color:var(--axis)}
+  .ev.next .m::before{border-color:var(--critical);background:var(--critical)}
+  .ev .m::after{content:"";position:absolute;top:18px;bottom:-8px;width:2px;background:var(--grid)}
+  .ev:last-child .m::after{display:none}
+  .ev .t{font-size:13.5px}
+  .ev .t small{display:block;color:var(--ink-2);font-size:12.5px;margin-top:1px}
+  .src{display:grid;grid-template-columns:repeat(auto-fit,minmax(258px,1fr));gap:2px 20px}
+  .src a{color:inherit;text-decoration:none}
+  .src .row{display:flex;align-items:center;gap:9px;padding:7px 0;
+    border-bottom:1px solid var(--grid);font-size:13px}
+  .src .row:hover{background:var(--wash)}
+  .src .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .src .tag{font-size:10.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:0.05em}
+  .alerta{border-left:3px solid var(--warning);background:var(--wash);padding:10px 14px;
+    border-radius:0 8px 8px 0;font-size:13px;margin-top:12px}
+  a.inline{color:var(--s1);text-decoration:none;border-bottom:1px solid transparent}
+  a.inline:hover{border-bottom-color:currentColor}
+  footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--grid);
+    font-size:12px;color:var(--ink-3)}
+  .vazio{color:var(--ink-2);font-size:14px;margin:0}
+  @media (max-width:560px){ .ev{grid-template-columns:80px 14px 1fr} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Painel — Reforma Tributária</h1>
+      <p class="sub">Acompanhamento de publicações, prazos e impactos &middot;
+        varredura de <strong id="upd">—</strong> &middot; dias úteis</p>
+    </div>
+    <button class="toggle" id="tt">Alternar tema</button>
+  </header>
+
+  <h2>Prazos em contagem regressiva</h2>
+  <div class="tiles" id="tiles"></div>
+
+  <h2 id="h-analise">Resumo do dia</h2>
+  <div class="card analise" id="analise"></div>
+
+  <h2>Publicações novas detectadas</h2>
+  <div class="card" id="novid"></div>
+
+  <h2>Placar de pendências</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Item em aberto</th><th>Situação</th><th>Prazo</th><th class="num">Dias</th></tr></thead>
+      <tbody id="pend"></tbody>
+    </table>
+  </div>
+
+  <h2>Linha do tempo da transição</h2>
+  <div class="card">
+    <div class="tlbar" id="bar"></div>
+    <div class="tlrow"><span>jan/2026</span><span>jan/2027</span><span>2029</span><span>2033</span></div>
+    <div class="tlist" id="tl"></div>
+  </div>
+
+  <h2>Fontes varridas</h2>
+  <div class="card"><div class="src" id="src"></div><div id="srcalerta"></div></div>
+
+  <h2>Histórico</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Visto em</th><th>Publicação</th><th>Fonte</th></tr></thead>
+      <tbody id="hist"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    <p>Gerado automaticamente a partir das fontes oficiais. O bloco “Resumo do dia” é o mesmo
+       texto enviado por e-mail. <strong>Proposta não é norma vigente</strong>: resolução do CGIBS
+       que propõe percentual não fixa alíquota, e estimativa divulgada na imprensa não é norma.</p>
+    <p id="gerado"></p>
+  </footer>
+</div>
+
+<script>
+window.DADOS = {"data": "2026-08-17", "gerado_em": "2026-08-17 13:18 UTC", "prazos_destaque": [{"rotulo": "Alíquotas do Imposto Seletivo — noventena para valer em 2027", "data": "2026-10-03", "status": "critical", "nota": "Sem lei nem MP"}, {"rotulo": "Retificação de inconsistências no Programa de Conformidade", "data": "2026-12-31", "status": "serious", "nota": "Ato Conjunto nº 5/2026"}, {"rotulo": "NFS-e Nacional obrigatória para ME e EPP", "data": "2026-11-01", "status": "warning", "nota": "Anúncio RFB 14/08"}, {"rotulo": "Início da cobrança com alíquota de teste de IBS/CBS", "data": "2027-01-01", "status": "good", "nota": "Marco da transição"}], "pendencias": [{"item": "Alíquotas do Imposto Seletivo", "situacao": "Não existe lei ordinária nem MP. A LC 214/2025 definiu incidência, base de cálculo e critérios de graduação, mas deixou o percentual para lei ordinária.", "prazo": "2026-10-03", "status": "critical"}, {"item": "Alíquota de referência definitiva do IBS/CBS", "situacao": "A Resolução CGIBS nº 14 traz proposta de 0,1% para 2027. A alíquota de referência do regime pleno segue sem resolução. Os 27,91% divulgados são estimativa, não norma.", "prazo": null, "status": "serious"}, {"item": "Mecânica de adesão ao Programa de Conformidade", "situacao": "O Ato Conjunto RFB/CGIBS nº 5/2026 fixa critérios e garantias, mas não detalha o procedimento de adesão nem a consequência da não adesão.", "prazo": "2026-12-31", "status": "serious"}, {"item": "Regulamentação operacional do split payment", "situacao": "Sem ato publicado detalhando a liquidação. Impacto direto de fluxo de caixa quando entrar.", "prazo": null, "status": "warning"}, {"item": "Saldo credor de ICMS na transição", "situacao": "A LC 227/2026 trata da matéria; a operacionalização da homologação e do aproveitamento ainda não foi regulamentada.", "prazo": null, "status": "warning"}], "linha_do_tempo": [{"data": "2026-01-01", "titulo": "Início da vigência de IBS e CBS", "detalhe": "Alíquota de teste de 1% (0,9% CBS + 0,1% IBS), compensável."}, {"data": "2026-08-03", "titulo": "Rejeição automática de DF-e", "detalhe": "Fim do período adaptativo. Campo de IBS/CBS ausente derruba a nota."}, {"data": "2026-08-12", "titulo": "Programa Nacional de Conformidade Tributária", "detalhe": "Ato Conjunto RFB/CGIBS nº 5/2026."}, {"data": "2026-10-03", "titulo": "Limite para as alíquotas do Imposto Seletivo", "detalhe": "Noventena para incidência em 01/01/2027. Ainda sem norma."}, {"data": "2026-11-01", "titulo": "NFS-e Nacional obrigatória para ME e EPP", "detalhe": "Anunciado pela Receita Federal em 14/08/2026."}, {"data": "2026-12-31", "titulo": "Limite de retificação no Programa de Conformidade", "detalhe": "Critério do art. 2º, §1º do Ato Conjunto nº 5/2026."}, {"data": "2027-01-01", "titulo": "CBS substitui PIS/Cofins; Imposto Seletivo entra em vigor", "detalhe": "IBS segue em alíquota de teste."}, {"data": "2029-01-01", "titulo": "Início da redução escalonada de ICMS e ISS", "detalhe": "Transição federativa até 2032."}, {"data": "2033-01-01", "titulo": "Regime pleno", "detalhe": "ICMS e ISS extintos."}], "novidades": [{"primeira_vez": "2026-08-17", "fonte": "CGIBS - Atos Conjuntos", "titulo": "ATO CONJUNTO RFB/CGIBS Nº 5, DE 12 DE AGOSTO DE 2026", "url": "https://www.cgibs.gov.br/upload/arquivos/202608/13065932-ato-conjunto-rfb-cgibs-n-c2-ba-5-2026-regulamenta-o-programa-nacional-de-conformidade-tributaria-docx-assinado.pdf", "data": "2025-08-12", "data_origem": "titulo", "pasta_arquivo": "2026-08", "alerta": "data declarada 2025-08-12 nao bate com a pasta do arquivo (2026-08); conferir o texto oficial antes de reportar"}, {"primeira_vez": "2026-08-17", "fonte": "CGIBS - Portarias", "titulo": "PORTARIA CGIBS Nº 07, DE 14 DE AGOSTO DE 2026 - Equipe e Informacoes Orcamento CGIBS 2027", "url": "https://www.cgibs.gov.br/portarias", "data": "2026-08-14", "data_origem": "titulo", "pasta_arquivo": null, "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "RFB - Noticias 2026", "titulo": "Simples Nacional: NFS-e Nacional sera obrigatoria para ME e EPP a partir de 1o de novembro de 2026", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026", "data": "2026-08-14", "data_origem": "titulo", "pasta_arquivo": null, "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "CGIBS - Resolucoes", "titulo": "RESOLUCAO CGIBS Nº 17, DE 30 DE JULHO DE 2026", "url": "https://www.cgibs.gov.br/resolucoes", "data": "2026-07-30", "data_origem": "titulo", "pasta_arquivo": null, "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "CGIBS - Atos Tecnicos Conj.", "titulo": "ATO TECNICO CONJUNTO RFB/CGIBS Nº 1, DE 31 DE JULHO DE 2026 - Ratificacao NTs DFEs", "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos", "data": "2026-07-31", "data_origem": "titulo", "pasta_arquivo": null, "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "CGIBS - Resolucoes", "titulo": "RESOLUCAO CGIBS Nº 14, DE 29 DE JULHO DE 2026 - Proposta Percentual IBS CGIBS 2027", "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31144942-resoluc-ao-cgibs-n-14-de-29-de-julho-de-2026-proposta-percentual-ibs-cgibs-2027.pdf", "data": "2026-07-29", "data_origem": "titulo", "pasta_arquivo": "2026-07", "alerta": null}], "fontes": [{"fonte": "CGIBS - Noticias", "url": "https://www.cgibs.gov.br/noticias", "erro": null, "total": 0}, {"fonte": "CGIBS - Leis", "url": "https://www.cgibs.gov.br/leis", "erro": null, "total": 0}, {"fonte": "CGIBS - Resolucoes", "url": "https://www.cgibs.gov.br/resolucoes", "erro": null, "total": 2}, {"fonte": "CGIBS - Regulamentos", "url": "https://www.cgibs.gov.br/regulamentos", "erro": null, "total": 3}, {"fonte": "CGIBS - Portarias", "url": "https://www.cgibs.gov.br/portarias", "erro": null, "total": 1}, {"fonte": "CGIBS - Atos Conjuntos", "url": "https://www.cgibs.gov.br/atos-conjuntos", "erro": null, "total": 1}, {"fonte": "CGIBS - Relatorios", "url": "https://www.cgibs.gov.br/relatorios", "erro": null, "total": 0}, {"fonte": "CGIBS - Atos Tecnicos Conj.", "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos", "erro": null, "total": 1}, {"fonte": "RFB - Noticias 2026", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026", "erro": null, "total": 1}, {"fonte": "RFB - Reforma do Consumo", "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias", "erro": null, "total": 0}, {"fonte": "Portal NF-e - Informes/NTs", "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false", "erro": "Timeout ao carregar a pagina", "total": 0}, {"fonte": "Portal DF-e SVRS - Noticias", "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias", "erro": null, "total": 2}], "historico": [{"primeira_vez": "2026-08-17", "fonte": "CGIBS - Portarias", "titulo": "PORTARIA CGIBS Nº 07, DE 14 DE AGOSTO DE 2026 - Equipe e Informacoes Orcamento CGIBS 2027", "url": "https://www.cgibs.gov.br/portarias", "data": "2026-08-14", "data_origem": "titulo", "pasta_arquivo": null, "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "RFB - Noticias 2026", "titulo": "Simples Nacional: NFS-e Nacional sera obrigatoria para ME e EPP a partir de 1o de novembro de 2026", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026", "data": "2026-08-14", "data_origem": "titulo", "pasta_arquivo": null, "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "CGIBS - Atos Tecnicos Conj.", "titulo": "ATO TECNICO CONJUNTO RFB/CGIBS Nº 1, DE 31 DE JULHO DE 2026 - Ratificacao NTs DFEs", "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos", "data": "2026-07-31", "data_origem": "titulo", "pasta_arquivo": null, "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "CGIBS - Resolucoes", "titulo": "RESOLUCAO CGIBS Nº 17, DE 30 DE JULHO DE 2026", "url": "https://www.cgibs.gov.br/resolucoes", "data": "2026-07-30", "data_origem": "titulo", "pasta_arquivo": null, "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "CGIBS - Resolucoes", "titulo": "RESOLUCAO CGIBS Nº 14, DE 29 DE JULHO DE 2026 - Proposta Percentual IBS CGIBS 2027", "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31144942-resoluc-ao-cgibs-n-14-de-29-de-julho-de-2026-proposta-percentual-ibs-cgibs-2027.pdf", "data": "2026-07-29", "data_origem": "titulo", "pasta_arquivo": "2026-07", "alerta": null}, {"primeira_vez": "2026-08-17", "fonte": "CGIBS - Atos Conjuntos", "titulo": "ATO CONJUNTO RFB/CGIBS Nº 5, DE 12 DE AGOSTO DE 2026", "url": "https://www.cgibs.gov.br/upload/arquivos/202608/13065932-ato-conjunto-rfb-cgibs-n-c2-ba-5-2026-regulamenta-o-programa-nacional-de-conformidade-tributaria-docx-assinado.pdf", "data": "2025-08-12", "data_origem": "titulo", "pasta_arquivo": "2026-08", "alerta": "data declarada 2025-08-12 nao bate com a pasta do arquivo (2026-08); conferir o texto oficial antes de reportar"}], "analise_html": "<p><strong>2 publicações relevantes desde a última verificação.</strong> A principal é o Ato Conjunto RFB/CGIBS nº 5/2026, que regulamenta o Programa Nacional de Conformidade Tributária — saiu antes do prazo anunciado e ainda circula pouco.</p>\n<h3>Ação requerida</h3>\n<p><strong>Ato Conjunto RFB/CGIBS nº 5, de 12/08/2026</strong> — regulamenta o Programa Nacional de Conformidade Tributária no ano de 2026. <code>[VERIFICADO LITERAL]</code></p>\n<ul>\n<li><strong>Antes:</strong> RFB e CGIBS haviam anunciado que o programa sairia até 30/08/2026. Não havia norma — só o anúncio.</li>\n<li><strong>Agora:</strong> o ato existe e é anterior ao prazo anunciado. Estabelece a \"adaptação assistida\" dos sujeitos passivos às obrigações de emissão de documentos fiscais (art. 1º). Critérios de classificação no art. 2º, §1º: aumento contínuo de emissão correta, resposta tempestiva a intimações, retificação de inconsistências <strong>até 31/12/2026</strong> e indicação de profissional de contabilidade responsável. Em contrapartida, as garantias do art. 2º, §2º — ação fiscal limitada a monitoramento.</li>\n<li><strong>Impacto para o cliente:</strong> é o colchão para o período iniciado em 03/08, quando a NF-e passou a ser rejeitada por campo de IBS/CBS ausente. Para quem errou parametrização, a diferença entre estar ou não no programa é ser monitorado ou ser fiscalizado. <strong>Ação: mapear a base de clientes com rejeição de NF-e desde 03/08 e tratar 31/12/2026 como data-limite de retificação.</strong></li>\n<li><strong>O que a norma não resolve:</strong> não há consequência explícita para quem não adere, e a mecânica de adesão não está detalhada nos arts. 1º a 4º. Espere pergunta de cliente sobre \"como eu adiro\" sem resposta na norma.</li>\n<li><strong>Fonte:</strong> <a href=\"https://www.cgibs.gov.br/upload/arquivos/202608/13065932-ato-conjunto-rfb-cgibs-n-c2-ba-5-2026-regulamenta-o-programa-nacional-de-conformidade-tributaria-docx-assinado.pdf\">PDF oficial no CGIBS</a>, listado em Atos Conjuntos. <strong>Atenção:</strong> a página do CGIBS exibe a data como \"12 de agosto de 2025\"; o caminho do arquivo (<code>/202608/</code>) e o texto confirmam 2026. É erro de cadastro da fonte — se você ordena a lista por data, esse ato desaparece no fim.</li>\n</ul>\n<h3>Contexto</h3>\n<p><strong>Portaria CGIBS nº 07/2026, de 14/08/2026</strong> — equipe e informações do Orçamento CGIBS 2027. <code>[PESQUISA]</code> Conteúdo administrativo, sem efeito sobre contribuinte. Entra só como sinal de calendário: o Comitê está fechando o orçamento de 2027, mesmo exercício das decisões de alíquota.</p>\n<h3>No radar</h3>\n<ul>\n<li><strong>Alíquotas do Imposto Seletivo</strong> — sem lei nem MP. Precisa ser publicada até <strong>03/10/2026</strong> para valer em 2027 (noventena).</li>\n<li><strong>NFS-e Nacional obrigatória para ME e EPP</strong> a partir de <strong>01/11/2026</strong>, anunciada pela Receita em 14/08.</li>\n<li><strong>Alíquota de referência definitiva do IBS/CBS</strong> segue sem resolução. Os 27,91% divulgados são estimativa, não norma.</li>\n</ul>", "analise_data": "2026-08-17"};
+(function(){
+  var D = window.DADOS || {};
+  var hoje = new Date(); hoje.setHours(0,0,0,0);
+  function d(s){var p=String(s).split('-');return new Date(+p[0],+p[1]-1,+p[2]);}
+  function dias(a){return Math.round((d(a)-hoje)/864e5);}
+  function br(s){var p=String(s).split('-');return p[2]+'/'+p[1]+'/'+p[0];}
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  var COR={critical:'var(--critical)',serious:'var(--serious)',warning:'var(--warning)',good:'var(--good)'};
+  var NOME={critical:'Crítico',serious:'Atenção',warning:'Monitorar',good:'Planejado'};
+  var $=function(id){return document.getElementById(id);};
+
+  $('upd').textContent = D.data ? br(D.data) : '—';
+  $('gerado').textContent = 'Painel gerado em ' + (D.gerado_em || '—') + '.';
+
+  $('tiles').innerHTML = (D.prazos_destaque||[]).map(function(t){
+    var n=dias(t.data);
+    return '<div class="tile"><div class="rail" style="background:'+COR[t.status]+'"></div>'+
+      '<div class="lbl">'+esc(t.rotulo)+'</div>'+
+      '<div class="val">'+n+'<span class="unit">dias</span></div>'+
+      '<div class="foot">'+br(t.data)+' &middot; '+esc(t.nota||'')+'</div>'+
+      '<div style="margin-top:9px"><span class="chip"><span class="dot" style="background:'+
+      COR[t.status]+'"></span>'+NOME[t.status]+'</span></div></div>';
+  }).join('');
+
+  if(D.analise_html){ $('analise').innerHTML = D.analise_html;
+    if(D.analise_data) $('h-analise').textContent = 'Resumo do dia — ' + br(D.analise_data);
+  } else {
+    $('analise').innerHTML = '<p class="vazio">Sem análise publicada para esta data. '+
+      'As publicações detectadas estão listadas abaixo; a leitura de impacto chega por e-mail.</p>';
+  }
+
+  var nv = D.novidades || [];
+  $('novid').innerHTML = nv.length
+    ? '<table><thead><tr><th>Data</th><th>Publicação</th><th>Fonte</th></tr></thead><tbody>'+
+      nv.map(function(i){
+        return '<tr><td class="dt">'+(i.data?br(i.data):'—')+'</td>'+
+          '<td><a class="inline" href="'+esc(i.url)+'" target="_blank" rel="noopener">'+esc(i.titulo)+'</a>'+
+          (i.alerta?'<div class="alerta">⚠ '+esc(i.alerta)+'</div>':'')+'</td>'+
+          '<td style="color:var(--ink-2)">'+esc(i.fonte)+'</td></tr>';
+      }).join('')+'</tbody></table>'
+    : '<p class="vazio">Nenhuma publicação nova desde a varredura anterior.</p>';
+
+  $('pend').innerHTML = (D.pendencias||[]).map(function(p){
+    var n = p.prazo ? dias(p.prazo) : null;
+    return '<tr><td><strong>'+esc(p.item)+'</strong></td>'+
+      '<td style="color:var(--ink-2)">'+esc(p.situacao)+'</td>'+
+      '<td><span class="st"><span class="dot" style="background:'+COR[p.status]+'"></span>'+
+      (p.prazo?br(p.prazo):NOME[p.status])+'</span></td>'+
+      '<td class="num">'+(n===null?'<span style="color:var(--ink-3)">s/ prazo</span>':n)+'</td></tr>';
+  }).join('');
+
+  var EV = D.linha_do_tempo||[];
+  $('tl').innerHTML = EV.map(function(e){
+    var n=dias(e.data);
+    return '<div class="ev '+(n<0?'done':'')+'" data-n="'+n+'"><div class="d">'+br(e.data)+'</div>'+
+      '<div class="m"></div><div class="t">'+esc(e.titulo)+'<small>'+esc(e.detalhe||'')+'</small></div></div>';
+  }).join('');
+  var fut=[].slice.call(document.querySelectorAll('.ev')).filter(function(x){return +x.dataset.n>=0;});
+  if(fut.length) fut[0].classList.add('next');
+
+  var ini=d('2026-01-01'), fim=d('2033-01-01');
+  var pct=Math.max(0,Math.min(100,(hoje-ini)/(fim-ini)*100));
+  $('bar').innerHTML='<div class="tlfill" style="width:'+pct.toFixed(2)+'%"></div>'+
+    '<div class="tlmark now" style="left:'+pct.toFixed(2)+'%"></div>'+
+    ['2027-01-01','2029-01-01'].map(function(m){
+      return '<div class="tlmark" style="left:'+((d(m)-ini)/(fim-ini)*100).toFixed(2)+'%"></div>';
+    }).join('');
+
+  $('src').innerHTML = (D.fontes||[]).map(function(f){
+    var cor = f.erro ? 'var(--critical)' : (f.total>0 ? 'var(--good)' : 'var(--warning)');
+    var tag = f.erro ? 'erro' : (f.total>0 ? f.total+' itens' : 'sem itens');
+    return '<a href="'+esc(f.url)+'" target="_blank" rel="noopener"><div class="row">'+
+      '<span style="width:8px;height:8px;border-radius:50%;flex:none;background:'+cor+'"></span>'+
+      '<span class="nm">'+esc(f.fonte)+'</span><span class="tag">'+tag+'</span></div></a>';
+  }).join('');
+  var comErro=(D.fontes||[]).filter(function(f){return f.erro;});
+  $('srcalerta').innerHTML = comErro.length
+    ? '<div class="alerta">⚠ '+comErro.length+' fonte(s) não puderam ser lidas nesta varredura: '+
+      comErro.map(function(f){return esc(f.fonte);}).join(', ')+
+      '. O que estiver nelas não entrou no painel de hoje.</div>' : '';
+
+  $('hist').innerHTML = (D.historico||[]).map(function(h){
+    return '<tr><td class="dt">'+br(h.primeira_vez)+'</td>'+
+      '<td><a class="inline" href="'+esc(h.url)+'" target="_blank" rel="noopener">'+esc(h.titulo)+'</a></td>'+
+      '<td style="color:var(--ink-2)">'+esc(h.fonte)+'</td></tr>';
+  }).join('') || '<tr><td colspan="3" class="vazio">Histórico vazio — primeira execução.</td></tr>';
+
+  $('tt').addEventListener('click',function(){
+    var cur=document.documentElement.getAttribute('data-theme');
+    var dark = cur ? cur==='dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark?'light':'dark');
+  });
+})();
+</script>
+</body>
+</html>

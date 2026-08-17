@@ -1,0 +1,54 @@
+{
+ "_leia_me": "Camada curada do painel. O scraper NAO mexe aqui. Edite este arquivo quando um prazo mudar, uma pendencia for resolvida ou um marco novo entrar. O painel e' regerado a cada push.",
+ "atualizado_em": "2026-08-17",
+
+ "prazos_destaque": [
+  {"rotulo": "Alíquotas do Imposto Seletivo — noventena para valer em 2027",
+   "data": "2026-10-03", "status": "critical", "nota": "Sem lei nem MP"},
+  {"rotulo": "Retificação de inconsistências no Programa de Conformidade",
+   "data": "2026-12-31", "status": "serious", "nota": "Ato Conjunto nº 5/2026"},
+  {"rotulo": "NFS-e Nacional obrigatória para ME e EPP",
+   "data": "2026-11-01", "status": "warning", "nota": "Anúncio RFB 14/08"},
+  {"rotulo": "Início da cobrança com alíquota de teste de IBS/CBS",
+   "data": "2027-01-01", "status": "good", "nota": "Marco da transição"}
+ ],
+
+ "pendencias": [
+  {"item": "Alíquotas do Imposto Seletivo",
+   "situacao": "Não existe lei ordinária nem MP. A LC 214/2025 definiu incidência, base de cálculo e critérios de graduação, mas deixou o percentual para lei ordinária.",
+   "prazo": "2026-10-03", "status": "critical"},
+  {"item": "Alíquota de referência definitiva do IBS/CBS",
+   "situacao": "A Resolução CGIBS nº 14 traz proposta de 0,1% para 2027. A alíquota de referência do regime pleno segue sem resolução. Os 27,91% divulgados são estimativa, não norma.",
+   "prazo": null, "status": "serious"},
+  {"item": "Mecânica de adesão ao Programa de Conformidade",
+   "situacao": "O Ato Conjunto RFB/CGIBS nº 5/2026 fixa critérios e garantias, mas não detalha o procedimento de adesão nem a consequência da não adesão.",
+   "prazo": "2026-12-31", "status": "serious"},
+  {"item": "Regulamentação operacional do split payment",
+   "situacao": "Sem ato publicado detalhando a liquidação. Impacto direto de fluxo de caixa quando entrar.",
+   "prazo": null, "status": "warning"},
+  {"item": "Saldo credor de ICMS na transição",
+   "situacao": "A LC 227/2026 trata da matéria; a operacionalização da homologação e do aproveitamento ainda não foi regulamentada.",
+   "prazo": null, "status": "warning"}
+ ],
+
+ "linha_do_tempo": [
+  {"data": "2026-01-01", "titulo": "Início da vigência de IBS e CBS",
+   "detalhe": "Alíquota de teste de 1% (0,9% CBS + 0,1% IBS), compensável."},
+  {"data": "2026-08-03", "titulo": "Rejeição automática de DF-e",
+   "detalhe": "Fim do período adaptativo. Campo de IBS/CBS ausente derruba a nota."},
+  {"data": "2026-08-12", "titulo": "Programa Nacional de Conformidade Tributária",
+   "detalhe": "Ato Conjunto RFB/CGIBS nº 5/2026."},
+  {"data": "2026-10-03", "titulo": "Limite para as alíquotas do Imposto Seletivo",
+   "detalhe": "Noventena para incidência em 01/01/2027. Ainda sem norma."},
+  {"data": "2026-11-01", "titulo": "NFS-e Nacional obrigatória para ME e EPP",
+   "detalhe": "Anunciado pela Receita Federal em 14/08/2026."},
+  {"data": "2026-12-31", "titulo": "Limite de retificação no Programa de Conformidade",
+   "detalhe": "Critério do art. 2º, §1º do Ato Conjunto nº 5/2026."},
+  {"data": "2027-01-01", "titulo": "CBS substitui PIS/Cofins; Imposto Seletivo entra em vigor",
+   "detalhe": "IBS segue em alíquota de teste."},
+  {"data": "2029-01-01", "titulo": "Início da redução escalonada de ICMS e ISS",
+   "detalhe": "Transição federativa até 2032."},
+  {"data": "2033-01-01", "titulo": "Regime pleno",
+   "detalhe": "ICMS e ISS extintos."}
+ ]
+}
