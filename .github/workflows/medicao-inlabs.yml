@@ -1,0 +1,86 @@
+name: Medicao INLABS (DOU completo)
+
+# Disparo manual. Nao entra no agendamento diario ate o filtro passar.
+on:
+  workflow_dispatch:
+    inputs:
+      inicio:
+        description: "Data inicial AAAA-MM-DD"
+        required: false
+        default: "2026-07-27"
+      fim:
+        description: "Data final AAAA-MM-DD (vazio = hoje)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  medir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Medir sobre a edicao completa do DOU
+        continue-on-error: true
+        env:
+          INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
+          INLABS_SENHA: ${{ secrets.INLABS_SENHA }}
+        run: |
+          if [ -z "$INLABS_EMAIL" ] || [ -z "$INLABS_SENHA" ]; then
+            echo "::error::Secrets INLABS_EMAIL e INLABS_SENHA nao estao definidos."
+            exit 1
+          fi
+          python scripts/medir_inlabs.py \
+            "${{ github.event.inputs.inicio || '2026-07-27' }}" \
+            "${{ github.event.inputs.fim || '' }}"
+
+      - name: Relatorio
+        if: always()
+        run: |
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, pathlib
+          p = pathlib.Path("dados/medicao_inlabs.json")
+          if not p.exists():
+              print("Nao gerou arquivo — ver o log do passo anterior (login? secrets?).")
+              raise SystemExit
+          d = json.loads(p.read_text("utf-8"))
+          print("## Medicao INLABS — DOU completo\n")
+          print(f"Janela {d['janela'][0]} a {d['janela'][1]} · **{d['materias_lidas']} materias** lidas em {d['dias_uteis']} dias uteis\n")
+          print("### Recall\n")
+          print("| Ato esperado | Resultado | Balde | Onde |")
+          print("|---|---|---|---|")
+          for r in d["recall"]:
+              onde = f"{r['dia']} {r['secao']}" if r["encontrado"] else "-"
+              print(f"| {r['esperado']} | {'OK' if r['encontrado'] else '**PERDEU**'} | {r['balde'] or '-'} | {onde} |")
+          perd = sum(1 for r in d["recall"] if not r["encontrado"])
+          fracos = sum(1 for r in d["recall"] if r["balde"] == "revisar")
+          v = (f"REPROVADO — {perd} perdido(s)" if perd else
+               (f"APROVADO com ressalva — {fracos} so' em 'revisar'" if fracos else "APROVADO"))
+          print(f"\n**Veredito:** {v}\n")
+          print("### Volume\n")
+          print(f"- forte: **{d['forte']}** ({d['forte_por_dia']}/dia util)")
+          print(f"- revisar: **{d['revisar']}** ({d['revisar_por_dia']}/dia util)")
+          print(f"- descartado: **{d['descartado']}**")
+          if d["falhas"]:
+              print(f"\n**{len(d['falhas'])} download(s) com erro.** 1o: `{d['falhas'][0]}`")
+          print("\n### Balde forte — o que iria para o e-mail\n")
+          for i in d["amostra_forte"]:
+              print(f"- `{i['dia']} {i['secao']}` **{i['titulo']}** — {i['orgao']}")
+          print("\n### Balde revisar\n")
+          for i in d["amostra_revisar"]:
+              print(f"- `{i['dia']} {i['secao']}` {i['titulo']} — {i['orgao']}")
+          PY
+
+      - name: Commit do relatorio
+        if: always()
+        run: |
+          git config user.name  "medicao-bot"
+          git config user.email "actions@github.com"
+          git add dados/medicao_inlabs.json || true
+          git diff --staged --quiet || (git commit -m "medicao INLABS" && git push)
