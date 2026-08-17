@@ -1,0 +1,267 @@
+{
+ "janela": [
+  "2026-08-14",
+  "2026-08-17"
+ ],
+ "dias_uteis": 2,
+ "materias_lidas": 5763,
+ "cobertura": [
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "materias": 464,
+   "kb": 3115
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO3",
+   "materias": 2509,
+   "kb": 3183
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1E",
+   "materias": 7,
+   "kb": 14
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO3E",
+   "materias": 11,
+   "kb": 52
+  },
+  {
+   "dia": "2026-08-17",
+   "secao": "DO1",
+   "materias": 550,
+   "kb": 2681
+  },
+  {
+   "dia": "2026-08-17",
+   "secao": "DO3",
+   "materias": 2222,
+   "kb": 2801
+  }
+ ],
+ "falhas": [
+  "2026-08-15 DO1: sem edicao (resposta nao e zip: <!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>)",
+  "2026-08-15 DO3: sem edicao (resposta nao e zip: <!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>)",
+  "2026-08-15 DO1E: sem edicao (resposta nao e zip: <!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>)",
+  "2026-08-15 DO3E: sem edicao (resposta nao e zip: <!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>)",
+  "2026-08-16 DO1: sem edicao (resposta nao e zip: <!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>)",
+  "2026-08-16 DO3: sem edicao (resposta nao e zip: <!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>)",
+  "2026-08-16 DO1E: sem edicao (resposta nao e zip: <!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>)",
+  "2026-08-16 DO3E: sem edicao (resposta nao e zip: <!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>)"
+ ],
+ "forte": 4,
+ "revisar": 137,
+ "descartado": 5622,
+ "forte_por_dia": 2.0,
+ "revisar_por_dia": 68.5,
+ "recall": [
+  {
+   "esperado": "Resolucao CGIBS n 14",
+   "encontrado": false,
+   "balde": null,
+   "dia": null,
+   "secao": null,
+   "titulo": ""
+  },
+  {
+   "esperado": "Ato Conjunto RFB/CGIBS n 4",
+   "encontrado": false,
+   "balde": null,
+   "dia": null,
+   "secao": null,
+   "titulo": ""
+  },
+  {
+   "esperado": "Ato Tecnico Conjunto n 1",
+   "encontrado": false,
+   "balde": null,
+   "dia": null,
+   "secao": null,
+   "titulo": ""
+  },
+  {
+   "esperado": "Ato Conjunto RFB/CGIBS n 5",
+   "encontrado": false,
+   "balde": null,
+   "dia": null,
+   "secao": null,
+   "titulo": ""
+  }
+ ],
+ "amostra_forte": [
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DECISÕES",
+   "orgao": "Atos do Poder Judiciário/Supremo Tribunal Federal/Plenário",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "RECOMENDAÇÃO CGSIM Nº 1, DE 27 DE JULHO DE 2026",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Comitê",
+   "ementa": "Recomenda à Corregedoria Nacional de Justiça a edição de ato normativo com diretrizes e procedimentos para padronização nacional do registro civil de pessoas jurídicas."
+  },
+  {
+   "dia": "2026-08-17",
+   "secao": "DO3",
+   "titulo": "DESPACHO",
+   "orgao": "Governo do Estado/Governo do Distrito Federal/Chefia de Gabinete do Governador",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-17",
+   "secao": "DO3",
+   "titulo": "EXTRATO DE CONVÊNIO",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da R",
+   "ementa": ""
+  }
+ ],
+ "amostra_revisar": [
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DESPACHO DE 12 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DESPACHO DE 12 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DESPACHO DE 12 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DESPACHO DE 12 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DESPACHO DE 12 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DESPACHO DE 12 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DESPACHO DE 12 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "DESPACHO DE 12 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "ATOS DECLARATÓRIOS CVM DE 13 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Superintendência-Geral/Superintendência de Supervisão de Investido",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "ATO DECLARATÓRIO EXECUTIVO DRF/SOR Nº 1.298, DE 13 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da R",
+   "ementa": "Concede cancelamento da habilitação ao Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura (REIDI) à pessoa jurídica que menciona."
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "ATO DECLARATÓRIO EXECUTIVO EQBEN/DELEBEN/SRRF08ª/RFB Nº 1.299, DE 13 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da R",
+   "ementa": "Habilita a Pessoa Jurídica que menciona ao Regime Especial Tributário para a Indústria de Defesa - RETID."
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "ATO DECLARATÓRIO EXECUTIVO CODAR Nº 60, DE 7 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Arrecadação, ",
+   "ementa": "Credencia o Bank of America Merrill Lynch Banco Múltiplo S/A para a realização de débito online em conta corrente com autorização prévia e única, sem necessidade de autenticação, para pagamento de doc"
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "PORTARIA Nº 51, DE 11 DE AGOSTO DE 2026",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da R",
+   "ementa": "Exclui pessoa jurídica do REFIS"
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "PAUTA DE JULGAMENTO",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e ",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "Ato Declaratório Executivo EQBEN/DELEBEN/SRRF08ª/RFB nº 1.300, de 13 de agosto de 2026",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da R",
+   "ementa": "Concede coabilitação ao Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura (Reidi) à pessoa jurídica que menciona."
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "PAUTA DE JULGAMENTO",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e ",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "PAUTA DE JULGAMENTO",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e ",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "PAUTA DE JULGAMENTO",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e ",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "PAUTA DE JULGAMENTO",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e ",
+   "ementa": ""
+  },
+  {
+   "dia": "2026-08-14",
+   "secao": "DO1",
+   "titulo": "PAUTA DE JULGAMENTO",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e ",
+   "ementa": ""
+  }
+ ]
+}
