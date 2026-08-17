@@ -33,18 +33,25 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 # (nome, url, precisa_de_javascript)
 FONTES = [
     ("CGIBS - Noticias",             "https://www.cgibs.gov.br/noticias", True),
-    ("CGIBS - Leis",                 "https://www.cgibs.gov.br/leis", True),
     ("CGIBS - Resolucoes",           "https://www.cgibs.gov.br/resolucoes", True),
-    ("CGIBS - Regulamentos",         "https://www.cgibs.gov.br/regulamentos", True),
-    ("CGIBS - Portarias",            "https://www.cgibs.gov.br/portarias", True),
     ("CGIBS - Atos Conjuntos",       "https://www.cgibs.gov.br/atos-conjuntos", True),
-    ("CGIBS - Relatorios",           "https://www.cgibs.gov.br/relatorios", True),
     ("CGIBS - Atos Tecnicos Conj.",  "https://www.cgibs.gov.br/atos-tecnicos-conjuntos", True),
+    ("CGIBS - Portarias",            "https://www.cgibs.gov.br/portarias", True),
     ("RFB - Noticias 2026",          "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026", False),
     ("RFB - Reforma do Consumo",     "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias", False),
-    ("Portal NF-e - Informes/NTs",   "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false", False),
     ("Portal DF-e SVRS - Noticias",  "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias", False),
+    ("Portal NF-e - Informes/NTs",   "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false", False),
+    ("CGIBS - Regulamentos",         "https://www.cgibs.gov.br/regulamentos", True),
+    ("CGIBS - Leis",                 "https://www.cgibs.gov.br/leis", True),
+    ("CGIBS - Relatorios",           "https://www.cgibs.gov.br/relatorios", True),
 ]
+
+# Orcamento de tempo. O job do GitHub tem limite; sem um teto proprio o script
+# e' morto no meio e nao grava nada — nem dado, nem diagnostico. Com o teto,
+# ele sempre fecha, grava o que conseguiu e marca o resto como nao tentado.
+ORCAMENTO_S = 600
+GOTO_MS_1, GOTO_MS_2 = 25000, 18000
+HTTP_TIMEOUT_S = 15
 
 RELEVANTE = re.compile(
     r"\b(ibs|cbs|imposto seletivo|reforma tribut|lc\s*214|lc\s*227|ec\s*132|"
@@ -92,13 +99,32 @@ def chave(item):
                          (item.get("titulo") or "")).encode("utf-8")).hexdigest()[:16]
 
 
+TOLERANCIA_MESES = 2   # assinar num mes e publicar ate 2 meses depois e' rotina
+
+
 def monta_item(titulo, url):
+    """Alerta so' quando a data declarada e' implausivel.
+
+    A v2 marcava qualquer divergencia de mes, o que gerava falso positivo em
+    toda norma assinada num mes e publicada no seguinte — rotina no CGIBS.
+    Agora so' alerta quando a data e' POSTERIOR a publicacao do arquivo
+    (impossivel) ou muito anterior a ela (foi o caso do Ato Conjunto n 5,
+    listado como 2025 e publicado em 2026).
+    """
     data = extrai_data(titulo)
     pasta = data_do_arquivo(url)
     alerta = None
-    if data and pasta and not data.startswith(pasta):
-        alerta = (f"data declarada {data} nao bate com a pasta do arquivo ({pasta}); "
-                  "conferir o texto oficial antes de reportar")
+    if data and pasta:
+        idx_d = int(data[:4]) * 12 + int(data[5:7])
+        idx_p = int(pasta[:4]) * 12 + int(pasta[5:7])
+        defasagem = idx_p - idx_d
+        if defasagem < 0:
+            alerta = (f"data declarada ({data}) e' posterior a publicacao do arquivo "
+                      f"({pasta}), o que e' impossivel; conferir o texto oficial")
+        elif defasagem > TOLERANCIA_MESES:
+            alerta = (f"data declarada ({data}) esta {defasagem} meses antes da "
+                      f"publicacao do arquivo ({pasta}); provavel erro de cadastro na "
+                      "fonte — conferir o texto oficial antes de reportar")
     return {"titulo": titulo, "url": url, "data": data,
             "pasta_arquivo": pasta, "alerta": alerta}
 
@@ -161,7 +187,7 @@ class ColetorLinks(HTMLParser):
         self._href, self._buf, self._nivel = None, [], 0
 
 
-def via_http(url, timeout=45):
+def via_http(url, timeout=HTTP_TIMEOUT_S):
     """Devolve (html, status, erro). Nao levanta excecao."""
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
@@ -183,14 +209,14 @@ def via_http(url, timeout=45):
 
 # -------------------------------------------------------- coleta pelo browser
 
-def via_browser(ctx, url, precisa_js):
+def via_browser(ctx, url, precisa_js, timeout_ms=GOTO_MS_1):
     """Aba nova por chamada: falha de uma fonte nao contamina as outras."""
     page = ctx.new_page()
     try:
-        page.goto(url, timeout=60000, wait_until="domcontentloaded")
-        page.wait_for_timeout(5000 if precisa_js else 1500)
+        page.goto(url, timeout=timeout_ms, wait_until="domcontentloaded")
+        page.wait_for_timeout(4000 if precisa_js else 1200)
         try:
-            page.wait_for_load_state("networkidle", timeout=12000)
+            page.wait_for_load_state("networkidle", timeout=6000)
         except Exception:
             pass
         pares = page.eval_on_selector_all(
@@ -211,8 +237,8 @@ def coleta(ctx, nome, url, precisa_js):
     reg = {"fonte": nome, "url": url, "metodo": None, "http_status": None,
            "erro": None, "erro_browser": None, "total": 0, "itens": []}
 
-    for tentativa in (1, 2):
-        pares, err = via_browser(ctx, url, precisa_js)
+    for tentativa, tmo in ((1, GOTO_MS_1), (2, GOTO_MS_2)):
+        pares, err = via_browser(ctx, url, precisa_js, tmo)
         if pares is not None:
             reg["metodo"] = "browser"
             reg["itens"] = filtra(pares)
@@ -220,7 +246,7 @@ def coleta(ctx, nome, url, precisa_js):
             return reg
         reg["erro_browser"] = err
         if tentativa == 1:
-            time.sleep(4)
+            time.sleep(3)
 
     html, status, err = via_http(url)
     reg["http_status"] = status
@@ -251,11 +277,19 @@ def main():
         nav = p.chromium.launch(args=["--no-sandbox", "--disable-dev-shm-usage"])
         ctx = nav.new_context(locale="pt-BR", user_agent=UA,
                               extra_http_headers={"Accept-Language": "pt-BR,pt;q=0.9"})
+        limite = time.monotonic() + ORCAMENTO_S
         for nome, url, js in FONTES:
+            if time.monotonic() > limite:
+                resultado.append({"fonte": nome, "url": url, "metodo": None,
+                                  "http_status": None, "total": 0, "itens": [],
+                                  "erro": "nao tentada: orcamento de tempo esgotado"})
+                print(f"  {nome:32} PULADA (tempo esgotado)", file=sys.stderr)
+                continue
             r = coleta(ctx, nome, url, js)
             resultado.append(r)
             print(f"  {nome:32} metodo={r['metodo'] or 'FALHOU':7} "
-                  f"itens={r['total']:3} http={r['http_status']}", file=sys.stderr)
+                  f"itens={r['total']:3} http={r['http_status']} "
+                  f"[{int(limite - time.monotonic())}s restantes]", file=sys.stderr)
             if r["erro"]:
                 print(f"      {r['erro'][:150]}", file=sys.stderr)
         nav.close()
@@ -271,7 +305,10 @@ def main():
                 historico[k] = {"primeira_vez": hoje, "fonte": f["fonte"], **it}
                 novidades.append(historico[k])
 
-    falhas = [f["fonte"] for f in resultado if not f["metodo"]]
+    falhas = [f["fonte"] for f in resultado if not f["metodo"]
+              and "nao tentada" not in (f.get("erro") or "")]
+    puladas = [f["fonte"] for f in resultado
+               if "nao tentada" in (f.get("erro") or "")]
     so_http = [f["fonte"] for f in resultado if f["metodo"] == "http"]
     vazias = [f["fonte"] for f in resultado if f["metodo"] and f["total"] == 0]
 
@@ -281,16 +318,22 @@ def main():
     (DADOS / "novidades.json").write_text(
         json.dumps({"data": hoje, "quantidade": len(novidades), "itens": novidades,
                     "fontes_com_erro": falhas, "fontes_sem_itens": vazias,
-                    "fontes_via_http": so_http}, ensure_ascii=False, indent=1), "utf-8")
+                    "fontes_via_http": so_http, "fontes_puladas": puladas},
+                   ensure_ascii=False, indent=1), "utf-8")
 
-    print(f"\n{len(novidades)} novidade(s) | {len(falhas)} falha(s) | "
+    ok = len(FONTES) - len(falhas) - len(puladas)
+    print(f"\n{ok}/{len(FONTES)} fontes ok | {len(novidades)} novidade(s) | "
+          f"{len(falhas)} falha(s) | {len(puladas)} pulada(s) | "
           f"{len(so_http)} via HTTP | {len(vazias)} sem itens", file=sys.stderr)
 
-    # Diagnostico de rede: os dois metodos falharam em tudo?
-    if len(falhas) == len(FONTES):
-        print("\nDIAGNOSTICO: navegador E http puro falharam em todas as fontes. "
-              "Isso aponta bloqueio de rede (IP de datacenter recusado pelos sites), "
-              "nao problema do script.", file=sys.stderr)
+    if ok == 0:
+        print("\nDIAGNOSTICO: nenhuma fonte respondeu. Navegador e http puro falharam. "
+              "Se a execucao anterior funcionou, e' instabilidade do lado dos sites, "
+              "nao do script — os portais .gov.br respondem de forma intermitente.",
+              file=sys.stderr)
+    elif falhas:
+        print(f"\nParcial: {ok} fonte(s) coletadas. As que falharam entram na proxima "
+              "execucao; o historico acumulado nao se perde.", file=sys.stderr)
 
 
 if __name__ == "__main__":
