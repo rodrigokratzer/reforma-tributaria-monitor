@@ -567,7 +567,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias\", waiting until \"domcontentloaded\"\n",
+   "erro_browser": null,
    "total": 8,
    "itens": [
     {
@@ -776,6 +776,189 @@
      "alerta": null
     }
    ]
+  },
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "inlabs",
+   "http_status": null,
+   "erro": null,
+   "total": 14,
+   "itens": [
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 5.007, DE 30 DE JULHO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=47",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 84, DE 14 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=35",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "Altera o Ato COTEPE/ICMS n° 36, de 30 de junho de 2021, que divulga relação de contribuintes credenciados e anuídos pelas Unidades Federadas para usufruir do Regime Especial previsto no Convênio ICMS nº 49/24.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 716, DE 12 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=35",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "Prorroga o prazo de duração do Grupo de Trabalho de que trata a Portaria RFB nº 561, de 24 de julho de 2025, instituído para propor e coordenar ações para a inclusão do Cadastro Imobiliário Brasileiro como código de identificação cadastral dos bens imóveis urbanos e rurais constantes dos sistemas da",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 6.015, DE 4 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=48",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 141, de 14 de AGOSTO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=51",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 142, de 14 de AGOSTO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=51",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 143, de 14 de AGOSTO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=51",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 144, de 14 de AGOSTO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=51",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 145, de 14 de AGOSTO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=51",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 146, de 14 de AGOSTO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=51",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 147, de 14 de AGOSTO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=51",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA STN/MF Nº 2.311, DE 4 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=50",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria do Tesouro Nacional/Subsecretaria da Dívida Pública",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 7.006, DE 29 DE JUNHO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=48",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA Nº 280, DE 13 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/08/2026&jornal=515&pagina=50",
+     "data": "2026-08-17",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "Exclui pessoa jurídica do REFIS.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 2772,
+    "forte": 0,
+    "revisar": 14
+   }
   }
  ]
 }
