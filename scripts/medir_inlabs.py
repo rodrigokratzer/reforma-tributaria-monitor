@@ -25,8 +25,10 @@ DOWNLOAD = "https://inlabs.in.gov.br/index.php?p="
 # Secao 2 e' ato de pessoal — irrelevante. "E" = edicao extra.
 SECOES = ["DO1", "DO3", "DO1E", "DO3E"]
 
-INICIO = sys.argv[1] if len(sys.argv) > 1 else "2026-07-27"
-FIM = sys.argv[2] if len(sys.argv) > 2 else datetime.date.today().isoformat()
+# O workflow manda string vazia quando o campo fica em branco: argv existe
+# mas vale vazio. Por isso o "or", e nao apenas o teste de comprimento.
+INICIO = (sys.argv[1] if len(sys.argv) > 1 else "") or "2026-07-27"
+FIM = (sys.argv[2] if len(sys.argv) > 2 else "") or datetime.date.today().isoformat()
 
 # ------------------------------------------------------------------ filtro
 ORGAOS = re.compile(r"(minist[ée]rio da fazenda|receita federal|"
