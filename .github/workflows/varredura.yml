@@ -39,6 +39,11 @@ jobs:
 
       - name: Varrer fontes oficiais
         id: varrer
+        env:
+          # Sem estes secrets a varredura roda igual: o DOU e' pulado e aparece
+          # como fonte sem credencial. As 12 fontes web nao dependem disto.
+          INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
+          INLABS_SENHA: ${{ secrets.INLABS_SENHA }}
         run: python scripts/varredura.py
         continue-on-error: true      # fonte fora do ar não derruba a execução
 
