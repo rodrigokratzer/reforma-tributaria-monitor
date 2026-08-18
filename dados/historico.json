@@ -828,5 +828,23 @@
   "continuacao": false,
   "alerta": null,
   "pasta_arquivo": null
+ },
+ "9bc3680a941b4138": {
+  "primeira_vez": "2026-08-18",
+  "fonte": "CGIBS - Portarias",
+  "titulo": "Portaria CGIBS nº 8 2026 Eleição e a posse dos diretores da Diretoria Executiva, do Corregedor Geral e do Auditor Inter (.pdf 575,67 KBytes)",
+  "url": "https://www.cgibs.gov.br/upload/arquivos/202608/17191458-portaria-cgibs-n-8-2026-eleicao-e-a-posse-dos-diretores-da-diretoria-executiva-do-corregedor-geral-e-do-auditor-interno-geral.pdf",
+  "data": null,
+  "pasta_arquivo": "2026-08",
+  "alerta": null
+ },
+ "018909aa4cafd593": {
+  "primeira_vez": "2026-08-18",
+  "fonte": "CGIBS - Portarias",
+  "titulo": "Portaria CGIBS nº 9 2026 Eleição e a posse da Segunda Vice Presidente do Conselho Superior CGIBS (.pdf 329,50 KBytes)",
+  "url": "https://www.cgibs.gov.br/upload/arquivos/202608/17191457-portaria-cgibs-n-9-2026-eleicao-e-a-posse-da-segunda-vice-presidente-do-conselho-superior-cgibs.pdf",
+  "data": null,
+  "pasta_arquivo": "2026-08",
+  "alerta": null
  }
 }
