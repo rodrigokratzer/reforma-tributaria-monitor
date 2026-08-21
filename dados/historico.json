@@ -1194,5 +1194,83 @@
   "continuacao": false,
   "alerta": null,
   "pasta_arquivo": null
+ },
+ "5e0cce846bd5edc8": {
+  "primeira_vez": "2026-08-21",
+  "fonte": "DOU DO1E (revisar)",
+  "titulo": "RESOLUÇÃO SUSEP Nº 91, DE 18 DE AGOSTO DE 2026",
+  "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=20/08/2026&jornal=600&pagina=3",
+  "data": "2026-08-20",
+  "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados",
+  "ementa": "Altera o plano de regulação da Susep para o exercício de 2026, aprovado pela Resolução Susep n° 72, de 17 de dezembro de 2025.",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null
+ },
+ "0bf7b772105ab2a8": {
+  "primeira_vez": "2026-08-21",
+  "fonte": "DOU DO1E (revisar)",
+  "titulo": "PORTARIA RFB Nº 720, DE 18 DE AGOSTO DE 2026",
+  "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=20/08/2026&jornal=600&pagina=2",
+  "data": "2026-08-20",
+  "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+  "ementa": "Dispõe sobre a utilização do sistema e-Editais como plataforma oficial de publicação eletrônica nas hipóteses que especifica e altera a Portaria RFB nº 20, de 5 de abril de 2021.",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null
+ },
+ "f167ebc9aca80f8d": {
+  "primeira_vez": "2026-08-21",
+  "fonte": "DOU DO1E (revisar)",
+  "titulo": "Portaria SE/MF Nº 2.494, DE 19 DE AGOSTO DE 2026",
+  "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=20/08/2026&jornal=600&pagina=2",
+  "data": "2026-08-20",
+  "orgao": "Ministério da Fazenda/Secretaria Executiva",
+  "ementa": "Altera a Portaria SE/MF nº 1.872, de 17 de junho de 2026",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null
+ },
+ "8a0d3b10d94bcf89": {
+  "primeira_vez": "2026-08-21",
+  "fonte": "DOU DO1 (revisar)",
+  "titulo": "PORTARIA CVM/PTE/Nº 200, DE 19 DE AGOSTO DE 2026",
+  "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=21/08/2026&jornal=515&pagina=45",
+  "data": "2026-08-21",
+  "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Gabinete/Secretaria-Executiva",
+  "ementa": "Altera a Portaria CVM/PTE/Nº 12, de 31 de janeiro de 2025, que dispõe sobre a estrutura de comitês da CVM.",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null
+ },
+ "495a3a6f66d14665": {
+  "primeira_vez": "2026-08-21",
+  "fonte": "DOU DO1 (revisar)",
+  "titulo": "PORTARIA CVM/PTE/Nº 201, DE 19 DE AGOSTO DE 2026",
+  "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=21/08/2026&jornal=515&pagina=46",
+  "data": "2026-08-21",
+  "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Gabinete/Secretaria-Executiva",
+  "ementa": "Realoca cargo comissionado executivo na estrutura da Comissão de Valores Mobiliários",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null
+ },
+ "51d7cd79a19056c1": {
+  "primeira_vez": "2026-08-21",
+  "fonte": "DOU DO1 (revisar)",
+  "titulo": "SOLUÇÃO DE CONSULTA Nº 98.236, DE 24 DE JULHO DE 2026",
+  "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=21/08/2026&jornal=515&pagina=39",
+  "data": "2026-08-21",
+  "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
+  "ementa": "",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null
  }
 }
