@@ -44,7 +44,10 @@ def main():
 
     d0 = datetime.date.fromisoformat(INICIO)
     d1 = datetime.date.fromisoformat(FIM)
-    op, cookie = dou.abre_sessao(email, senha)
+    # tentativas menor que o padrao de dou.py: esta medicao roda dentro de um
+    # job com 45min de limite, orcamento que a coleta diaria (workflow proprio,
+    # sem esse teto) nao tem.
+    op, cookie = dou.abre_sessao(email, senha, tentativas=10)
     print(f"Login ok. Janela {d0} a {d1}, secoes {dou.SECOES}\n", file=sys.stderr)
 
     baldes = {"forte": [], "revisar": [], "descartado": 0}

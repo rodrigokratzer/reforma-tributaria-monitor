@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
 Monta docs/index.html a partir de:
-  estado.json            camada curada (prazos, pendencias, linha do tempo)
-  dados/AAAA-MM-DD.json  status das fontes na ultima varredura
-  dados/novidades.json   o que apareceu pela primeira vez
-  dados/historico.json   indice acumulado
-  analises/AAAA-MM-DD.md analise escrita pelo Claude (opcional)
+  estado.json                camada curada (prazos, pendencias, linha do tempo)
+  dados/AAAA-MM-DD.json      status das fontes na ultima varredura
+  dados/AAAA-MM-DD-dou.json  status do DOU (workflow proprio, 02:00) (opcional)
+  dados/novidades.json       o que apareceu pela primeira vez (12 portais)
+  dados/novidades_dou.json   o que apareceu pela primeira vez (DOU) (opcional)
+  dados/historico.json       indice acumulado
+  analises/AAAA-MM-DD.md     analise escrita pelo Claude (opcional)
 
 A analise e' opcional por design: o painel precisa ficar em pe' sozinho,
 so' com os fatos, mesmo em dia nenhuma analise foi publicada.
@@ -45,9 +47,12 @@ def main():
     status_diario = ler_json(DADOS / "analise_status.json", None)
 
     dia = ler_json(DADOS / f"{data_ref}.json", {"fontes": []})
+    dia_dou = ler_json(DADOS / f"{data_ref}-dou.json", {"fontes": []})
     fontes = [{"fonte": f["fonte"], "url": f["url"],
                "erro": f.get("erro"), "total": f.get("total", 0)}
-              for f in dia.get("fontes", [])]
+              for f in dia.get("fontes", []) + dia_dou.get("fontes", [])]
+
+    novid_dou = ler_json(DADOS / "novidades_dou.json", {"itens": []})
 
     historico = list(ler_json(DADOS / "historico.json", {}).values())
     historico.sort(key=lambda h: (h.get("primeira_vez") or "", h.get("data") or ""), reverse=True)
@@ -70,7 +75,7 @@ def main():
         "prazos_destaque": estado.get("prazos_destaque", []),
         "pendencias": estado.get("pendencias", []),
         "linha_do_tempo": estado.get("linha_do_tempo", []),
-        "novidades": novid.get("itens", []),
+        "novidades": novid.get("itens", []) + novid_dou.get("itens", []),
         "fontes": fontes,
         "historico": historico,
         "analise_html": analise_html,

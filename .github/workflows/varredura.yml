@@ -12,6 +12,8 @@ on:
       - "estado.json"       # editou a camada curada? regenera o painel
       - "analises/**"
       - "dados/analise_status.json"   # status da rotina de análise, mesmo em dia sem novidade
+      - "dados/*-dou.json"   # coleta do DOU (workflow próprio, 02:00) publicou resultado
+      - "dados/novidades_dou.json"
       - "scripts/**"
 
 permissions:

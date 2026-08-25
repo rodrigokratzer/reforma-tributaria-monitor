@@ -56,12 +56,15 @@ def limpa(s):
 
 
 # -------------------------------------------------------------- login/download
-def abre_sessao(email, senha, tentativas=6, log=sys.stderr):
+def abre_sessao(email, senha, tentativas=30, log=sys.stderr):
     """Devolve (opener, cookie). Encerra o processo se nao conseguir.
 
-    Repete em 5xx: medido em 17/08/2026, o logar.php respondeu 502 seis vezes
-    seguidas ate' de navegador comum, enquanto a home respondia 200. A mensagem
-    final separa "servidor caiu" de "credencial recusada" de proposito.
+    Repete em 5xx e tambem em "200 sem cookie": medido em 25/08/2026, o
+    logar.php respondeu 200 sem cookie de sessao por causa de manutencao
+    programada — nao credencial invalida, a mesma credencial funcionou
+    minutos depois. So desiste na hora em 4xx (401/403), que e rejeicao
+    de verdade, nao instabilidade. Espera crescente entre tentativas, com
+    teto de 120s.
     """
     cj = http.cookiejar.CookieJar()
     op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
@@ -78,14 +81,18 @@ def abre_sessao(email, senha, tentativas=6, log=sys.stderr):
             cab.update({"Content-Type": "application/x-www-form-urlencoded",
                         "Origin": "https://inlabs.in.gov.br",
                         "Referer": "https://inlabs.in.gov.br/"})
-            op.open(urllib.request.Request(LOGIN, data=dados, headers=cab),
-                    timeout=60).read()
+            corpo = op.open(urllib.request.Request(LOGIN, data=dados, headers=cab),
+                            timeout=60).read()
             ck = next((c.value for c in cj if c.name == "inlabs_session_cookie"), None)
             if ck:
                 return op, ck
-            ultimo = ("o servidor respondeu mas nao devolveu cookie de sessao. "
-                      "ISSO SIM aponta credencial invalida: confira os secrets.")
-            break
+            texto = corpo.decode("utf-8", "ignore").lower()
+            if "manuten" in texto:
+                ultimo = "pagina de manutencao programada (200 sem cookie) — repete"
+            else:
+                ultimo = ("200 sem cookie de sessao, sem mencao a manutencao no corpo — "
+                          "pode ser credencial invalida, mas ja vimos isso ser manutencao "
+                          "sem aviso explicito. Repete mesmo assim.")
         except urllib.error.HTTPError as e:
             ultimo = (f"HTTP {e.code} vindo do proprio INLABS — nao e credencial, "
                       "o servidor caiu antes de olhar o que foi enviado")
@@ -94,7 +101,7 @@ def abre_sessao(email, senha, tentativas=6, log=sys.stderr):
         except Exception as e:
             ultimo = f"{type(e).__name__}: {str(e)[:110]}"
         if n < tentativas:
-            espera = 10 * n
+            espera = min(120, 10 * n)
             print(f"  login falhou ({ultimo}); nova tentativa em {espera}s "
                   f"[{n}/{tentativas}]", file=log)
             time.sleep(espera)
