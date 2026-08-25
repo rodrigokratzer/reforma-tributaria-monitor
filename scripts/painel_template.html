@@ -98,6 +98,9 @@
   .src .tag{font-size:10.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:0.05em}
   .alerta{border-left:3px solid var(--warning);background:var(--wash);padding:10px 14px;
     border-radius:0 8px 8px 0;font-size:13px;margin-top:12px}
+  .status-diario{border-left:3px solid var(--axis);background:var(--wash);padding:10px 14px;
+    border-radius:0 8px 8px 0;font-size:13px;margin-top:16px;display:none}
+  .status-diario.on{display:block}
   a.inline{color:var(--s1);text-decoration:none;border-bottom:1px solid transparent}
   a.inline:hover{border-bottom-color:currentColor}
   footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--grid);
@@ -116,6 +119,8 @@
     </div>
     <button class="toggle" id="tt">Alternar tema</button>
   </header>
+
+  <div class="status-diario" id="status-diario"></div>
 
   <h2>Prazos em contagem regressiva</h2>
   <div class="tiles" id="tiles"></div>
@@ -176,6 +181,21 @@ window.DADOS = /*__DADOS__*/null;
 
   $('upd').textContent = D.data ? br(D.data) : '—';
   $('gerado').textContent = 'Painel gerado em ' + (D.gerado_em || '—') + '.';
+
+  if(D.status_diario){
+    var sd = D.status_diario;
+    var cor = {publicada:'var(--good)', sem_novidade:'var(--ink-3)',
+      dados_pendentes:'var(--warning)'}[sd.situacao] || 'var(--axis)';
+    var texto = {publicada: sd.resumo_curto || 'análise publicada',
+      sem_novidade: 'sem novidades relevantes',
+      dados_pendentes: 'varredura de hoje ainda não chegou'}[sd.situacao] || sd.situacao;
+    var el = $('status-diario');
+    el.style.borderLeftColor = cor;
+    el.innerHTML = '<strong>Última checagem:</strong> ' + br(sd.data) +
+      (sd.gerado_em ? ' &middot; ' + sd.gerado_em.slice(11,16) + ' UTC' : '') +
+      ' — ' + esc(texto);
+    el.className = 'status-diario on';
+  }
 
   $('tiles').innerHTML = (D.prazos_destaque||[]).map(function(t){
     var n=dias(t.data);
