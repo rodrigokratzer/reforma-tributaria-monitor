@@ -40,6 +40,7 @@ jobs:
 
       - name: Varrer fontes oficiais
         id: varrer
+        if: github.event_name != 'push'   # push só precisa regenerar o painel, não re-varrer
         env:
           # Sem estes secrets a varredura roda igual: o DOU e' pulado e aparece
           # como fonte sem credencial. As 12 fontes web nao dependem disto.

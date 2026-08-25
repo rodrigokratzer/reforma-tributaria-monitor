@@ -182,6 +182,7 @@ window.DADOS = /*__DADOS__*/null;
   $('upd').textContent = D.data ? br(D.data) : '—';
   $('gerado').textContent = 'Painel gerado em ' + (D.gerado_em || '—') + '.';
 
+  try{
   if(D.status_diario){
     var sd = D.status_diario;
     var cor = {publicada:'var(--good)', sem_novidade:'var(--ink-3)',
@@ -189,13 +190,16 @@ window.DADOS = /*__DADOS__*/null;
     var texto = {publicada: sd.resumo_curto || 'análise publicada',
       sem_novidade: 'sem novidades relevantes',
       dados_pendentes: 'varredura de hoje ainda não chegou'}[sd.situacao] || sd.situacao;
+    var atraso = -dias(sd.data);
+    if(atraso > 1){ cor = 'var(--critical)'; texto = 'sem atualização há ' + atraso + ' dias — ' + texto; }
     var el = $('status-diario');
     el.style.borderLeftColor = cor;
-    el.innerHTML = '<strong>Última checagem:</strong> ' + br(sd.data) +
-      (sd.gerado_em ? ' &middot; ' + sd.gerado_em.slice(11,16) + ' UTC' : '') +
+    el.innerHTML = '<strong>Última checagem:</strong> ' + esc(br(sd.data)) +
+      (sd.gerado_em ? ' &middot; ' + esc(sd.gerado_em.slice(11,16)) + ' UTC' : '') +
       ' — ' + esc(texto);
     el.className = 'status-diario on';
   }
+  }catch(e){}
 
   $('tiles').innerHTML = (D.prazos_destaque||[]).map(function(t){
     var n=dias(t.data);
