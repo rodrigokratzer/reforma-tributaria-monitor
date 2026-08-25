@@ -11,6 +11,7 @@ on:
     paths:
       - "estado.json"       # editou a camada curada? regenera o painel
       - "analises/**"
+      - "dados/analise_status.json"   # status da rotina de análise, mesmo em dia sem novidade
       - "scripts/**"
 
 permissions:
