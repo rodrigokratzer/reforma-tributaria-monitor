@@ -11,6 +11,9 @@ Uma análise segue, nesta ordem, só as seções que tiverem conteúdo:
 
 1. **Título de uma linha em negrito**, resumindo o achado do período. Ex:
    `**30 itens novos entre 18 e 20/08; três importam, e um deles é urgente.**`
+   O intervalo de datas do título vem de `dias_com_dados_na_janela` na saída
+   de `scripts/lacuna_analise.py` — primeiro e último dia dessa lista, não
+   invente o período de outra forma.
 2. **### Ação requerida** — itens que mudam prazo, obrigação ou decisão de
    alguém. Cada item:
    - título em negrito com o achado principal, fonte e data
@@ -24,13 +27,51 @@ Uma análise segue, nesta ordem, só as seções que tiverem conteúdo:
    governança interna, nomeação de diretoria). Uma ou duas frases, sem as
    subseções acima.
 5. **### No radar** — prazos próximos relevantes, formato `**N dias** — DD/MM:
-   descrição`.
+   descrição`. Os prazos vêm de `estado.json` (`prazos_destaque` e
+   `pendencias`, campo `data`/`prazo`); "N dias" é a diferença entre essa
+   data e a data de hoje, arredondada. Não invente prazo que não esteja lá.
 6. **### Nota sobre a coleta** — só quando houver algo digno de registro sobre
    a qualidade da coleta do período (ex: taxa de falso positivo do filtro,
    fonte que falhou).
 
-Sem novidade relevante no período: não escrever o arquivo. Ver tratamento em
-`docs/superpowers/specs/2026-08-25-analise-diaria-automatizada-design.md`.
+Cada afirmação de que um item "não tem relação com a reforma" precisa vir de
+uma ementa/texto que você realmente leu — nunca do órgão ou da fonte sozinhos
+(ver armadilha abaixo). Quando um grupo de itens não tiver ementa disponível
+na coleta, diga isso explicitamente e separe esse grupo do que foi
+confirmado por leitura — não junte os dois sob a mesma afirmação categórica.
+
+### Marcadores de proveniência
+
+Cada item citado na seção "Ação requerida" ou "Acompanhar" leva uma marca
+entre colchetes ao lado da fonte, indicando como a informação foi obtida:
+
+- `` `[VERIFICADO LITERAL]` `` — você leu o texto integral do ato/norma (PDF,
+  página do órgão) e a análise se apoia nesse texto.
+- `` `[PESQUISA]` `` — você não teve acesso ao texto integral (bloqueado,
+  paywall, captcha) e a classificação se apoia em outros sinais (ementa,
+  título, contexto do período). Precisa vir acompanhada de uma frase
+  reconhecendo a limitação.
+
+### Sem novidade relevante
+
+Não escreva o arquivo `analises/AAAA-MM-DD.md` nesse caso. Grave
+`dados/analise_status.json` com `"situacao": "sem_novidade"` (ver formato
+abaixo) — é esse arquivo, não a ausência da análise, que sinaliza ao painel
+que a rotina rodou e não achou nada.
+
+### Gravando o status da execução
+
+Ao final de toda execução — com novidade, sem novidade, ou com dados do dia
+ainda não disponíveis — grave (sobrescrevendo) `dados/analise_status.json`:
+
+```json
+{"data": "AAAA-MM-DD", "situacao": "publicada|sem_novidade|dados_pendentes",
+ "gerado_em": "AAAA-MM-DDTHH:MM:SSZ", "resumo_curto": "3 novidades, 1 exige ação"}
+```
+
+`resumo_curto` só se aplica a `situacao: "publicada"` — uma frase curta
+contando quantas novidades e quantas exigem ação, no mesmo estilo do título
+da análise. Omita o campo (ou deixe vazio) nos outros dois casos.
 
 ## Critério de relevância
 
