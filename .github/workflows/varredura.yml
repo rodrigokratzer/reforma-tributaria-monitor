@@ -11,6 +11,7 @@ on:
     paths:
       - "estado.json"       # editou a camada curada? regenera o painel
       - "analises/**"
+      - "dados/analise_status.json"   # status da rotina de análise, mesmo em dia sem novidade
       - "scripts/**"
 
 permissions:
@@ -39,6 +40,7 @@ jobs:
 
       - name: Varrer fontes oficiais
         id: varrer
+        if: github.event_name != 'push'   # push só precisa regenerar o painel, não re-varrer
         env:
           # Sem estes secrets a varredura roda igual: o DOU e' pulado e aparece
           # como fonte sem credencial. As 12 fontes web nao dependem disto.
@@ -59,7 +61,11 @@ jobs:
             echo "Nada mudou hoje."
           else
             git commit -m "varredura $(date -u +%Y-%m-%d)"
-            git pull --rebase --autostash -q origin main && git push || ( sleep 5 && git pull --rebase --autostash -q origin main && git push )
+            # Pull/rebase contra a branch atual (nao "origin main" fixo): o
+            # checkout ja rastreia a branch certa, e fixar em main quebra
+            # quando o workflow roda numa branch de PR com commits que main
+            # ainda nao tem.
+            git pull --rebase --autostash -q && git push || ( sleep 5 && git pull --rebase --autostash -q && git push )
           fi
 
       - name: Resumo da execução
@@ -89,4 +95,4 @@ jobs:
           date -u +%F > .keepalive
           git add .keepalive
           git commit -m "keepalive" --allow-empty -q
-          git pull --rebase --autostash -q origin main && git push -q || true
+          git pull --rebase --autostash -q && git push -q || true

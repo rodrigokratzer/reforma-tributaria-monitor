@@ -42,6 +42,7 @@ def main():
 
     novid = ler_json(DADOS / "novidades.json", {"itens": [], "data": None})
     data_ref = novid.get("data") or datetime.date.today().isoformat()
+    status_diario = ler_json(DADOS / "analise_status.json", None)
 
     dia = ler_json(DADOS / f"{data_ref}.json", {"fontes": []})
     fontes = [{"fonte": f["fonte"], "url": f["url"],
@@ -74,6 +75,7 @@ def main():
         "historico": historico,
         "analise_html": analise_html,
         "analise_data": analise_data,
+        "status_diario": status_diario,
     }
 
     tpl = (RAIZ / "scripts" / "painel_template.html").read_text("utf-8")
