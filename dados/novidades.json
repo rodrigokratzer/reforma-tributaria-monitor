@@ -1,20 +1,8 @@
 {
- "data": "2026-08-25",
- "quantidade": 1,
- "itens": [
-  {
-   "primeira_vez": "2026-08-25",
-   "fonte": "CGIBS - Atos Tecnicos Conj.",
-   "titulo": "20260821 Ato Tecnico Conjunto n 2 assinado CGIBS (.pdf 1,83 MBytes)",
-   "url": "https://www.cgibs.gov.br/upload/arquivos/202608/24185346-20260821-ato-tecnico-conjunto-n-2-assinado-cgibs.pdf",
-   "data": null,
-   "pasta_arquivo": "2026-08",
-   "alerta": null
-  }
- ],
- "fontes_com_erro": [
-  "DOU (INLABS)"
- ],
+ "data": "2026-08-26",
+ "quantidade": 0,
+ "itens": [],
+ "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
  "fontes_puladas": []
