@@ -269,6 +269,7 @@ def coleta(dias, email, senha, log=sys.stderr):
                     "fonte": f"DOU {secao} ({b})",
                     "orgao": a.get("artCategory", "")[:140],
                     "ementa": a.get("_ementa", "")[:300],
+                    "texto_debug_len": len(a.get("_texto", "")),  # temporario, so' pra verificar
                     "balde": b,
                     "continuacao": bool(a.get("_continuacao")),
                     "alerta": None,
