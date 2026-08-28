@@ -266,10 +266,10 @@ def coleta(dias, email, senha, log=sys.stderr):
                     "titulo": a.get("_titulo", "")[:220],
                     "url": link(a, dia),
                     "data": dia,
-                    "fonte": f"DOU {secao} ({b})",
+                    "fonte": f"DOU {secao}",
                     "orgao": a.get("artCategory", "")[:140],
                     "ementa": a.get("_ementa", "")[:300],
-                    "texto_debug_len": len(a.get("_texto", "")),  # temporario, so' pra verificar
+                    "texto": a.get("_texto", ""),
                     "balde": b,
                     "continuacao": bool(a.get("_continuacao")),
                     "alerta": None,
