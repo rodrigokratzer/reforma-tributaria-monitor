@@ -7,7 +7,12 @@ name: DOU (INLABS)
 # manutenção programada.
 on:
   schedule:
-    - cron: "0 5 * * 1-5"   # 05:00 UTC = 02:00 Brasília, dias úteis
+    # Fora do início exato da hora de propósito: o GitHub documenta que
+    # "high load times include the start of each hour", e um cron pode
+    # atrasar ou ser pulado silenciosamente nesses horários — foi o que
+    # aconteceu em 27-28/08/2026, quando o agendamento parou de disparar
+    # por dois dias seguidos sem erro nenhum.
+    - cron: "7 5 * * 1-5"   # 05:07 UTC ~= 02:07 Brasília, dias úteis
   workflow_dispatch:        # permite disparar na mão pela aba Actions
 
 permissions:
