@@ -304,7 +304,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 10,
+   "total": 11,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -375,28 +375,184 @@
      "data": null,
      "pasta_arquivo": "2026-08",
      "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 10 2026 (.pdf 502,00 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/28152155-minuta-portaria-cgibs-n-10-2026-acordos-de-adesao-28-08.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
     }
    ]
   },
   {
    "fonte": "RFB - Noticias 2026",
    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026",
-   "metodo": null,
+   "metodo": "browser",
    "http_status": null,
-   "erro": "browser: TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026\", waiting until \"domcontentload | http: URLError: <urlopen error [Errno 101] Network is unreachable>",
-   "erro_browser": "TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026\", waiting until \"domcontentload",
-   "total": 0,
-   "itens": []
+   "erro": null,
+   "erro_browser": null,
+   "total": 7,
+   "itens": [
+    {
+     "titulo": "Aderir ao Piloto da Reforma Tributária da Contribuição sobre Bens e Serviços (CBS)",
+     "url": "https://www.gov.br/pt-br/servicos/aderir-ao-piloto-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Emitir Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consultar Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/pt-br/servicos/consultar-nota-fiscal-de-servico-eletronica",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/nfse/pt-br",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Nota Fiscal Eletrônica do Ouro (NF-e Ouro)",
+     "url": "https://www.gov.br/receitafederal/nfeouro",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional",
+     "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Prazo para solicitação pelo SIMPLES NACIONAL será em SETEMBRO de 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/prazo-para-solicitacao-pelo-simples-nacional-sera-em-setembro-de-2026",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
   },
   {
    "fonte": "RFB - Reforma do Consumo",
    "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias",
-   "metodo": null,
+   "metodo": "browser",
    "http_status": null,
-   "erro": "browser: TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-ativ | http: URLError: <urlopen error [Errno 101] Network is unreachable>",
-   "erro_browser": "TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-ativ",
-   "total": 0,
-   "itens": []
+   "erro": null,
+   "erro_browser": null,
+   "total": 14,
+   "itens": [
+    {
+     "titulo": "Aderir ao Piloto da Reforma Tributária da Contribuição sobre Bens e Serviços (CBS)",
+     "url": "https://www.gov.br/pt-br/servicos/aderir-ao-piloto-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Emitir Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consultar Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/pt-br/servicos/consultar-nota-fiscal-de-servico-eletronica",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/nfse/pt-br",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Nota Fiscal Eletrônica do Ouro (NF-e Ouro)",
+     "url": "https://www.gov.br/receitafederal/nfeouro",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional",
+     "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal, Comitê Gestor do IBS e CFC alinham diretrizes do Plano Nacional de Conformidade Tributária",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/receita-federal-comite-gestor-do-ibs-e-cfc-alinham-diretrizes-do-plano-nacional-de-conformidade-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional: NFS-e Nacional será obrigatória para ME e EPP a partir de 1º de novembro de 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/simples-nacional-nfs-e-nacional-sera-obrigatoria-para-me-e-epp-a-partir-de-1o-de-novembro-de-2026",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Regime de caixa deixa de ser utilizado na apuração do Simples Nacional",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/regime-de-caixa-deixa-de-ser-utilizado-na-apuracao-do-simples-nacional",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e CGIBS regulamentam Programa Nacional de Conformidade Tributária para apoiar adaptação à Reforma Tributária no ano de 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-e-cgibs-regulamentam-programa-nacional-de-conformidade-tributaria-para-apoiar-adaptacao-a-reforma-tributaria-no-ano-de-2026",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "CGSN atualiza regras do Simples Nacional para adequação à Reforma Tributária do Consumo",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/cgsn-atualiza-regras-do-simples-nacional-para-adequacao-a-reforma-tributaria-do-consumo",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e CGIBS flexibilizarão obrigatoriedade de informações em documentos fiscais",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-cgibs-flexibilizarao-obrigatoriedade-de-informacoes-em-documentos-fiscais",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS publicam o Cronograma de Implementação dos Documentos Fiscais Eletrônicos da Reforma Tributária do Consumo",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-publicam-o-cronograma-de-implementacao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria-do-consumo",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS divulgarão cronograma para emissão dos documentos fiscais eletrônicos da Reforma Tributária",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-divulgarao-cronograma-para-emissao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
   },
   {
    "fonte": "Portal DF-e SVRS - Noticias",
@@ -468,12 +624,55 @@
   {
    "fonte": "Portal NF-e - Informes/NTs",
    "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
-   "metodo": null,
+   "metodo": "browser",
    "http_status": null,
-   "erro": "browser: TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false\", waiting until \"domcontentload | http: URLError: <urlopen error timed out>",
-   "erro_browser": "TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false\", waiting until \"domcontentload",
-   "total": 0,
-   "itens": []
+   "erro": null,
+   "erro_browser": null,
+   "total": 6,
+   "itens": [
+    {
+     "titulo": "Conheça a NF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaSubMenu.aspx?Id=6H4uVlIEaKs=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consultar NF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Atos RFB/CGIBS",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=ECxaPvwFHQE=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Atos Técnicos RFB/CGIBS",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=hXHrw4cadF8=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Visualizador de DF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Central de Atendimento",
+     "url": "https://www.serpro.gov.br/menu/suporte/central-de-atendimento-serpro-nfe-cte",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
   },
   {
    "fonte": "CGIBS - Regulamentos",

@@ -4,19 +4,15 @@
  "itens": [
   {
    "primeira_vez": "2026-08-28",
-   "fonte": "CGIBS - Noticias",
-   "titulo": "CGIBS e RFB esclarecem os prazos de cumprimento das obrigações relativas à DeRE, elencados no Ato Conjunto nº 4",
-   "url": "https://www.cgibs.gov.br/cgibs-e-rfb-esclarecem-prazos-de-cumprimento-das-obrigacoes-relativas-a-dere-estabelecidos-pelo-ato-conjunto-n-4",
+   "fonte": "CGIBS - Portarias",
+   "titulo": "Portaria CGIBS nº 10 2026 (.pdf 502,00 KBytes)",
+   "url": "https://www.cgibs.gov.br/upload/arquivos/202608/28152155-minuta-portaria-cgibs-n-10-2026-acordos-de-adesao-28-08.pdf",
    "data": null,
-   "pasta_arquivo": null,
+   "pasta_arquivo": "2026-08",
    "alerta": null
   }
  ],
- "fontes_com_erro": [
-  "RFB - Noticias 2026",
-  "RFB - Reforma do Consumo",
-  "Portal NF-e - Informes/NTs"
- ],
+ "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
  "fontes_puladas": []
