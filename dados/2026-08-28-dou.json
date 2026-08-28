@@ -1,0 +1,212 @@
+{
+ "data": "2026-08-28",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "inlabs",
+   "http_status": null,
+   "erro": null,
+   "total": 16,
+   "itens": [
+    {
+     "titulo": "PORTARIA SRRF05 Nº 371, DE 24 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=27/08/2026&jornal=515&pagina=31",
+     "data": "2026-08-27",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "Restabelece as atividades desenvolvidas nas dependências físicas da Inspetoria da Receita Federal do Brasil em Ilhéus/BA.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 158, DE 24 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=27/08/2026&jornal=515&pagina=29",
+     "data": "2026-08-27",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 2.558, DE 26 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=27/08/2026&jornal=515&pagina=26",
+     "data": "2026-08-27",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que trata o Anexo II do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 2.559, DE 26 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=27/08/2026&jornal=515&pagina=26",
+     "data": "2026-08-27",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos II e II.B do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execução mensal de desembolso do Poder Executivo fede",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 2.489, DE 26 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=27/08/2026&jornal=600&pagina=1",
+     "data": "2026-08-27",
+     "fonte": "DOU DO1E (revisar)",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "Exclui a Súmula nº 147 do Conselho Administrativo de Recursos Fiscais - CARF do Anexo da Portaria ME nº 410, de 16 de dezembro de 2020.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CARF/MF Nº 2.585, DE 26 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=61",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Conselho Administrativo de Recursos Fiscais",
+     "ementa": "Convoca o Pleno e as Turmas da Câmara Superior de Recursos Fiscais - CSRF e define procedimentos para análise e votação de enunciado de súmula.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Portaria Previc Nº 661, DE 26 DE agosto DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=126",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Previdência Social/Superintendência Nacional de Previdência Complementar/Diretoria de  Normas",
+     "ementa": "Atualiza a segmentação das Entidades Fechadas de Previdência Complementar para fins de supervisão, fiscalização e proporcionalidade normativa para o ano de 2027.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 159, de 27 de Agosto de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=68",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Portaria SE/MF Nº 2.601, DE 27 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=61",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Executiva",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "INSTRUÇÃO NORMATIVA RFB Nº 2.339, DE 21 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=62",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "Altera a Instrução Normativa RFB nº 2.316, de 25 de março de 2026, que dispõe sobre o Programa de Estímulo à Conformidade Tributária - Sintonia, instituído pela Lei Complementar nº 225, de 8 de janeiro de 2026.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO DA DIRETORIA COLEGIADA ANVISA nº 1.039, DE 26 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=121",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Saúde/Agência Nacional de Vigilância Sanitária/Diretoria Colegiada",
+     "ementa": "Estabelece critérios, requisitos e procedimentos para laboratórios analíticos que realizam ensaios de controle de qualidade em produtos e serviços sujeitos à vigilância sanitária, dispõe sobre as boas práticas para laboratórios analíticos, sobre a habilitação na Rede Brasileira de Laboratórios Analí",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Portaria se/MF Nº 2.614, DE 27 de agosto de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=61",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Executiva",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 160, DE 24 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=62",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 2.594, DE 27 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=61",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "Altera, mediante antecipação os valores autorizados para pagamento de que trata o Anexo II do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o exercício ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "LEI COMPLEMENTAR Nº 235, DE 27 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=515&pagina=1",
+     "data": "2026-08-28",
+     "fonte": "DOU DO1 (revisar)",
+     "orgao": "Atos do Poder Legislativo",
+     "ementa": "Dispõe sobre regras para renúncias de receita com o objetivo de mitigar os impactos econômicos causados pelo choque no mercado internacional de energia decorrente do conflito no Oriente Médio e excepcionaliza os benefícios tributários destinados à Política Nacional de Minerais Críticos e Estratégico",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "DECRETO Nº 41.296-E, DE 6 DE AGOSTO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/08/2026&jornal=530&pagina=171",
+     "data": "2026-08-28",
+     "fonte": "DOU DO3 (revisar)",
+     "orgao": "Governo do Estado/Governo do Estado de Roraima/SECRETARIA DE ESTADO DE LICITAÇÃO E CONTRATAÇÃO",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 5490,
+    "forte": 0,
+    "revisar": 16
+   }
+  }
+ ]
+}
