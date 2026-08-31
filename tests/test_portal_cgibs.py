@@ -54,7 +54,10 @@ class TestExtraiDoHtml(unittest.TestCase):
         self.assertIsNone(_extrai_do_html(None))
 
     def test_html_malformado_nao_lanca(self):
-        self.assertIsNone(_extrai_do_html("<article><div class='artigo__texto'><p>oi"))
+        # nao levanta E recupera o texto parcial: uma tag mal fechada no
+        # corpo (comum no Plone) nao pode descartar a noticia inteira.
+        self.assertEqual(
+            _extrai_do_html("<article><div class='artigo__texto'><p>oi"), "oi")
 
 
 class TestExtraiTexto(unittest.TestCase):

@@ -86,8 +86,6 @@ def _extrai_do_html(html):
         p.close()
     except Exception:
         return None
-    if p._dentro:            # <div artigo__texto> nunca fechou: HTML quebrado
-        return None
     t = p.texto()
     return t[:TETO_TEXTO] if t else None
 
