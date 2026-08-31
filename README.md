@@ -34,6 +34,11 @@ publicados normalmente.
 Um navegador real (Playwright/Chromium) abre cada página, porque várias delas
 montam o conteúdo por JavaScript e voltam vazias para um cliente HTTP comum.
 
+Cada fonte web é um objeto `Portal` (`scripts/portais/`). As notícias do CGIBS
+também têm o texto completo capturado na hora da coleta, para a análise diária
+ler o texto do repositório em vez de depender de busca externa — mesmo ganho
+que a Parte A trouxe para o DOU.
+
 **DOU (via INLABS), separado, às 02:00 (Brasília):** a edição completa do
 Diário Oficial, em workflow próprio — não compete por horário com os outros
 12 portais nem com o orçamento de tempo deles. Ver
@@ -68,7 +73,11 @@ automática (continua aceitando `analises/AAAA-MM-DD.md` escrito à mão). Ver
 ## Estrutura
 
 ```
-scripts/varredura.py          coleta as 12 fontes web (06:40)
+scripts/varredura.py          orquestra a coleta das 12 fontes web (06:40)
+scripts/portais/              cada fonte web como objeto Portal — base.py tem a
+                               mecânica de coleta e os pontos de extensão,
+                               cgibs.py a subclasse que lê o texto das notícias,
+                               registro.py a lista PORTAIS das 12 instâncias
 scripts/dou_diario.py         coleta o DOU via INLABS, separado (02:00)
 scripts/dou.py                login e classificação do DOU — compartilhado por
                                dou_diario.py e scripts/medir_inlabs.py
@@ -101,6 +110,13 @@ Salvou e deu push? O painel se regenera sozinho.
 ## Decisões de projeto que valem conhecer
 
 Cada uma destas veio de um erro real. Estão aqui para não serem refeitas.
+
+### Cada fonte web é um objeto `Portal` (`scripts/portais/`)
+
+A classe base concentra a mecânica de coleta; subclasses só sobrescrevem o
+filtro de relevância ou a extração de texto quando a fonte precisa. Isso saiu
+de uma lista plana de tuplas em `varredura.py` (Parte B, 28/08/2026) para dar
+a cada portal regras próprias e facilitar incluir novos sites.
 
 ### Novidade é "nunca vi este link", não "a data é recente"
 
@@ -285,8 +301,11 @@ Spec e plano de implementação completos, se quiser o histórico de decisões:
   alternativa correta é a fonte primária (DOU).
 - **Os títulos das páginas de documentos do CGIBS vêm como nome de arquivo**, não
   como ementa da norma, porque é o que está no texto do link. A detecção funciona;
-  a leitura fica feia. Correção pendente: extrair o texto do bloco em volta do
-  link.
+  a leitura fica feia, e isso continua em aberto. As *notícias* do CGIBS passaram a
+  trazer o texto completo do artigo (Parte B); os documentos que são só link de PDF
+  seguem sem título legível e sem texto — o repositório não tem biblioteca de PDF.
+  Correção pendente: para o link de PDF, extrair a ementa do bloco de texto em
+  volta do link na página de listagem; para o PDF em si, uma biblioteca de leitura.
 - **O cron do GitHub é "melhor esforço"** e atrasa em horário de pico. Para um
   resumo diário, sem problema.
 - **Repositório público significa dados públicos.** Conteúdo oficial, tudo bem.
@@ -296,10 +315,12 @@ Spec e plano de implementação completos, se quiser o histórico de decisões:
 
 ## Manutenção
 
-**Adicionar uma fonte:** em `scripts/varredura.py`, acrescente uma linha em
-`FONTES` no formato `("Nome", "https://...", precisa_de_javascript)`.
+**Adicionar uma fonte:** em `scripts/portais/registro.py`, acrescente uma linha
+em `PORTAIS` no formato `Portal("Nome", "https://...", precisa_js=...)`. Se a
+fonte precisar de regra própria (filtro ou extração de texto), crie uma
+subclasse pequena de `Portal` num módulo do pacote e use-a na linha.
 
-**Ajustar a relevância:** a regex `RELEVANTE` no mesmo arquivo. Termo demais gera
+**Ajustar a relevância:** a regex `RELEVANTE` em `scripts/portais/base.py`. Termo demais gera
 ruído; de menos, perde publicação. Lembre da regra acima: ela é casada contra o
 título e contra o *caminho* da URL, nunca contra o domínio.
 

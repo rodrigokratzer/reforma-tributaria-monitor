@@ -29,6 +29,16 @@ def ler_json(p, padrao):
         return padrao
 
 
+def _sem_texto(itens):
+    """Tira o campo `texto` (corpo integral do artigo) de cada item.
+
+    O `texto` existe so' para a analise diaria ler direto de
+    dados/historico.json — o painel publico nunca o renderiza. Deixa-lo no
+    payload embutido em docs/index.html so' incha o arquivo.
+    """
+    return [{k: v for k, v in it.items() if k != "texto"} for it in itens]
+
+
 def md_para_html(texto):
     try:
         import markdown
@@ -56,7 +66,7 @@ def main():
 
     historico = list(ler_json(DADOS / "historico.json", {}).values())
     historico.sort(key=lambda h: (h.get("primeira_vez") or "", h.get("data") or ""), reverse=True)
-    historico = historico[:MAX_HISTORICO]
+    historico = _sem_texto(historico[:MAX_HISTORICO])
 
     # analise: a do dia, senao a mais recente disponivel
     analise_html, analise_data = None, None
@@ -75,7 +85,7 @@ def main():
         "prazos_destaque": estado.get("prazos_destaque", []),
         "pendencias": estado.get("pendencias", []),
         "linha_do_tempo": estado.get("linha_do_tempo", []),
-        "novidades": novid.get("itens", []) + novid_dou.get("itens", []),
+        "novidades": _sem_texto(novid.get("itens", []) + novid_dou.get("itens", [])),
         "fontes": fontes,
         "historico": historico,
         "analise_html": analise_html,
