@@ -1,3 +1,5 @@
+import contextlib
+import io
 import sys
 import unittest
 from pathlib import Path
@@ -65,7 +67,7 @@ class TestColetar(unittest.TestCase):
         p = Portal("teste", "https://x/lista", precisa_js=True)
         pares = [("Resolucao CGIBS sobre o IBS", "https://x/r/1"),
                  ("Link irrelevante qualquer aqui", "https://x/sobre")]
-        with patch("portais.base.via_browser", return_value=(pares, None)) as vb, \
+        with patch("portais.base.via_browser", return_value=(pares, None)), \
              patch("portais.base.via_http") as vh:
             reg = p.coletar(None)
         vh.assert_not_called()
@@ -99,9 +101,11 @@ class TestColetar(unittest.TestCase):
         p = Explode("teste", "https://x/lista")
         pares = [("Resolucao CGIBS sobre o IBS", "https://x/r/1")]
         with patch("portais.base.via_browser", return_value=(pares, None)):
-            reg = p.coletar(None)
+            with contextlib.redirect_stderr(io.StringIO()) as err:
+                reg = p.coletar(None)
         self.assertEqual(reg["total"], 1)
         self.assertNotIn("texto", reg["itens"][0])
+        self.assertIn("extrai_texto falhou", err.getvalue())
 
 
 class TestRegistro(unittest.TestCase):

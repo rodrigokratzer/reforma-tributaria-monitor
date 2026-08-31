@@ -35,7 +35,7 @@ Um navegador real (Playwright/Chromium) abre cada página, porque várias delas
 montam o conteúdo por JavaScript e voltam vazias para um cliente HTTP comum.
 
 Cada fonte web é um objeto `Portal` (`scripts/portais/`). As notícias do CGIBS
-ainda têm o texto completo capturado na hora da coleta, para a análise diária
+também têm o texto completo capturado na hora da coleta, para a análise diária
 ler o texto do repositório em vez de depender de busca externa — mesmo ganho
 que a Parte A trouxe para o DOU.
 
@@ -301,9 +301,11 @@ Spec e plano de implementação completos, se quiser o histórico de decisões:
   alternativa correta é a fonte primária (DOU).
 - **Os títulos das páginas de documentos do CGIBS vêm como nome de arquivo**, não
   como ementa da norma, porque é o que está no texto do link. A detecção funciona;
-  a leitura fica feia. As notícias do CGIBS já trazem o texto completo do artigo
-  (Parte B); os documentos que são só link de PDF continuam sem texto — o
-  repositório não tem biblioteca de PDF.
+  a leitura fica feia, e isso continua em aberto. As *notícias* do CGIBS passaram a
+  trazer o texto completo do artigo (Parte B); os documentos que são só link de PDF
+  seguem sem título legível e sem texto — o repositório não tem biblioteca de PDF.
+  Correção pendente: para o link de PDF, extrair a ementa do bloco de texto em
+  volta do link na página de listagem; para o PDF em si, uma biblioteca de leitura.
 - **O cron do GitHub é "melhor esforço"** e atrasa em horário de pico. Para um
   resumo diário, sem problema.
 - **Repositório público significa dados públicos.** Conteúdo oficial, tudo bem.

@@ -1,3 +1,5 @@
+import contextlib
+import io
 import sys
 import time
 import unittest
@@ -59,6 +61,24 @@ class TestExtraiDoHtml(unittest.TestCase):
         self.assertEqual(
             _extrai_do_html("<article><div class='artigo__texto'><p>oi"), "oi")
 
+    def test_div_interno_sem_fechar_sobre_captura_mas_devolve_o_artigo(self):
+        # <div> aberto e nunca fechado dentro do corpo: a profundidade nunca
+        # zera, entao o extrator segue e engole o rodape/nav ate' o TETO.
+        # Trade-off aceito (ver docstring de _ExtratorArtigo) — o que importa
+        # e' que o texto do artigo esteja la', nao que o chrome fique de fora.
+        html = (
+            "<html><body>"
+            "<div class='artigo__texto'>"
+            "  <div>"  # aberto de proposito, sem </div>
+            "    <p>Corpo do artigo sobre o IBS e a CBS.</p>"
+            "<footer>Rodape do site - todos os direitos reservados</footer>"
+            "<nav>Inicial | Noticias | Contato</nav>"
+            "</body></html>"
+        )
+        txt = _extrai_do_html(html)
+        self.assertTrue(txt)
+        self.assertIn("Corpo do artigo sobre o IBS e a CBS", txt)
+
 
 class TestExtraiTexto(unittest.TestCase):
     def setUp(self):
@@ -69,6 +89,15 @@ class TestExtraiTexto(unittest.TestCase):
         with patch("portais.cgibs.via_http") as vh:
             self.assertIsNone(self.p.extrai_texto(None, item))
         vh.assert_not_called()
+
+    def test_raiz_do_site_nao_e_baixada(self):
+        # todo portal do CGIBS tem um link de nav para a raiz cujo texto casa
+        # o RELEVANTE; sem esse guard, sao 8 GETs por execucao no shell JS
+        # da home (sem <div artigo__texto>). Espelha test_pdf_nao_e_baixado.
+        for url in ("https://www.cgibs.gov.br/", "https://www.cgibs.gov.br"):
+            with patch("portais.cgibs.via_http") as vh:
+                self.assertIsNone(self.p.extrai_texto(None, {"url": url}))
+            vh.assert_not_called()
 
     def test_noticia_html_e_lida(self):
         item = {"url": "https://www.cgibs.gov.br/cgibs-e-rfb-esclarecem-prazos"}
@@ -87,7 +116,9 @@ class TestExtraiTexto(unittest.TestCase):
     def test_erro_http_devolve_none_sem_lancar(self):
         item = {"url": "https://www.cgibs.gov.br/alguma-noticia"}
         with patch("portais.cgibs.via_http", return_value=(None, 503, "HTTP 503")):
-            self.assertIsNone(self.p.extrai_texto(None, item))
+            with contextlib.redirect_stderr(io.StringIO()) as err:
+                self.assertIsNone(self.p.extrai_texto(None, item))
+        self.assertIn("http 503", err.getvalue().lower())
 
 
 if __name__ == "__main__":

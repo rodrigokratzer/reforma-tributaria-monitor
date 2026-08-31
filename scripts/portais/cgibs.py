@@ -24,10 +24,18 @@ class _ExtratorArtigo(HTMLParser):
     Rastreia a profundidade de <div> desde o alvo para saber onde o corpo
     termina; ignora <script>/<style>; trata tags de bloco como quebra de
     linha para o texto nao ficar grudado.
+
+    Trade-off aceito: se o corpo do artigo tiver um <div> aberto e nunca
+    fechado (HTML mal formado, comum em CMS), a contagem de profundidade
+    nunca zera e o extrator segue capturando o que vem DEPOIS do artigo
+    (rodape, navegacao) ate' o TETO_TEXTO. E' sobre-captura, nao texto
+    truncado. Aceitamos: texto poluido ainda ajuda o leitor LLM mais do
+    que nenhum texto.
     """
     ALVO = "artigo__texto"
     IGNORA = {"script", "style"}
-    QUEBRA = {"p", "br", "li", "tr", "h1", "h2", "h3", "h4", "div"}
+    QUEBRA = {"p", "br", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6",
+              "blockquote", "hr", "table", "td", "div"}
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -77,7 +85,12 @@ class _ExtratorArtigo(HTMLParser):
 
 
 def _extrai_do_html(html):
-    """Corpo do artigo, ou None se a pagina nao tiver <div artigo__texto>."""
+    """Corpo do artigo, ou None se a pagina nao tiver <div artigo__texto>.
+
+    Um erro no meio do parse nao descarta o que ja' foi capturado: devolve
+    o texto parcial (ou None se nada veio). Ver o trade-off de sobre-captura
+    documentado em _ExtratorArtigo.
+    """
     if not html:
         return None
     p = _ExtratorArtigo()
@@ -85,7 +98,7 @@ def _extrai_do_html(html):
         p.feed(html)
         p.close()
     except Exception:
-        return None
+        pass
     t = p.texto()
     return t[:TETO_TEXTO] if t else None
 
@@ -97,6 +110,8 @@ class CGIBSPortal(Portal):
         url = item.get("url") or ""
         caminho = urllib.parse.urlparse(url).path.lower()
         if caminho.endswith(".pdf") or "/upload/arquivos/" in caminho:
+            return None
+        if caminho in ("", "/"):        # raiz do site: link de navegacao, nao e' artigo
             return None
         if limite is not None and time.monotonic() > limite - MARGEM_ORCAMENTO_S:
             return None
