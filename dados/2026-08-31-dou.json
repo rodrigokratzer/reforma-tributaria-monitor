@@ -1,0 +1,19 @@
+{
+ "data": "2026-08-31",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "inlabs",
+   "http_status": null,
+   "erro": null,
+   "total": 0,
+   "itens": [],
+   "diagnostico": {
+    "lidas": 0,
+    "forte": 0,
+    "revisar": 0
+   }
+  }
+ ]
+}
