@@ -1627,5 +1627,23 @@
   "data": null,
   "pasta_arquivo": "2026-08",
   "alerta": null
+ },
+ "e2279e28f00a6179": {
+  "primeira_vez": "2026-08-31",
+  "fonte": "CGIBS - Noticias",
+  "titulo": "Receita Federal e CGIBS publicam norma que estabelece dispensas para o nanoempreendedor na reforma",
+  "url": "https://www.cgibs.gov.br/receita-federal-do-brasil-e-o-comite-gestor-do-ibs-publicam-norma-que-estabe",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null
+ },
+ "e098cf8b05ef00e9": {
+  "primeira_vez": "2026-08-31",
+  "fonte": "CGIBS - Atos Conjuntos",
+  "titulo": "ADE RFB CGIBS N 6 (.pdf 854,51 KBytes)",
+  "url": "https://www.cgibs.gov.br/upload/arquivos/202608/28193542-ade-rfb-cgibs-n-6-28-8-2026-com-paragrafo-unico-assinado.pdf",
+  "data": null,
+  "pasta_arquivo": "2026-08",
+  "alerta": null
  }
 }
