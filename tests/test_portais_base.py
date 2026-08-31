@@ -104,5 +104,41 @@ class TestColetar(unittest.TestCase):
         self.assertNotIn("texto", reg["itens"][0])
 
 
+class TestRegistro(unittest.TestCase):
+    def test_doze_portais_na_ordem_das_fontes(self):
+        from portais.registro import PORTAIS
+        nomes = [p.nome for p in PORTAIS]
+        self.assertEqual(nomes, [
+            "CGIBS - Noticias",
+            "CGIBS - Resolucoes",
+            "CGIBS - Atos Conjuntos",
+            "CGIBS - Atos Tecnicos Conj.",
+            "CGIBS - Portarias",
+            "RFB - Noticias 2026",
+            "RFB - Reforma do Consumo",
+            "Portal DF-e SVRS - Noticias",
+            "Portal NF-e - Informes/NTs",
+            "CGIBS - Regulamentos",
+            "CGIBS - Leis",
+            "CGIBS - Relatorios",
+        ])
+
+    def test_cgibs_usa_a_subclasse_e_precisa_js(self):
+        from portais.registro import PORTAIS
+        from portais.cgibs import CGIBSPortal
+        cgibs = [p for p in PORTAIS if p.nome.startswith("CGIBS")]
+        self.assertEqual(len(cgibs), 8)
+        self.assertTrue(all(isinstance(p, CGIBSPortal) for p in cgibs))
+        self.assertTrue(all(p.precisa_js for p in cgibs))
+
+    def test_fontes_sem_js_sao_marcadas(self):
+        from portais.registro import PORTAIS
+        sem_js = {p.nome for p in PORTAIS if not p.precisa_js}
+        self.assertEqual(sem_js, {
+            "RFB - Noticias 2026", "RFB - Reforma do Consumo",
+            "Portal DF-e SVRS - Noticias", "Portal NF-e - Informes/NTs",
+        })
+
+
 if __name__ == "__main__":
     unittest.main()
