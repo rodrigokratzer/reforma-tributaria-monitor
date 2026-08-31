@@ -43,9 +43,10 @@ No linter or formatter is configured.
 
 **Two deliberately separate layers**, connected only through git:
 
-- **Fatos** (facts) — `scripts/varredura.py` (12 web sources) and `scripts/dou_diario.py`
-  (DOU/INLABS) run on their own GitHub Actions schedules, write JSON, and never
-  interpret anything. No AI, no judgment calls.
+- **Fatos** (facts) — `scripts/varredura.py` (12 web sources, via the
+  `scripts/portais/` package) and `scripts/dou_diario.py` (DOU/INLABS) run on
+  their own GitHub Actions schedules, write JSON, and never interpret anything.
+  No AI, no judgment calls.
 - **Análise** (analysis) — a Claude agent, scheduled externally to this repo (Claude
   Code `/schedule`, not a GitHub Actions workflow, to avoid per-token API cost), reads
   `scripts/analise_brief.md` and writes `analises/AAAA-MM-DD.md`.
@@ -74,6 +75,21 @@ No linter or formatter is configured.
    **generated** — never hand-edit them. `estado.json` and `scripts/analise_brief.md`
    are the two files meant for manual editing; `analises/*.md` is normally written by
    the scheduled agent but accepts manual edits too.
+
+### Os scrapers web (`scripts/portais/`)
+
+Cada fonte web é um objeto `Portal` (`scripts/portais/base.py`). A classe base
+tem toda a mecânica de coleta (2 tentativas via navegador, fallback HTTP puro,
+filtro por um regex global) e dois pontos de extensão: `filtro_relevancia()` e
+`extrai_texto()`. `scripts/portais/registro.py` lista as 12 instâncias
+(`PORTAIS`), na ordem que importa para o orçamento de tempo. `CGIBSPortal`
+(`scripts/portais/cgibs.py`) é a única subclasse: lê o corpo `<div
+class="artigo__texto">` das notícias do CGIBS via HTTP puro (links de PDF,
+`/upload/arquivos/`, ficam sem texto — não há lib de PDF no repositório).
+Adicionar um portal sem regra própria é uma linha em `registro.py`; com regra
+própria, uma subclasse pequena + a linha. Mesmo ganho que a Parte A trouxe ao
+DOU: texto completo capturado na coleta, então a análise diária não depende de
+busca externa (que costuma vir bloqueada).
 
 ### GitHub Actions workflows
 
