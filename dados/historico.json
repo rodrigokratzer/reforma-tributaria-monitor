@@ -2023,5 +2023,23 @@
   "continuacao": false,
   "alerta": null,
   "pasta_arquivo": null
+ },
+ "e123aa6c9974be7a": {
+  "primeira_vez": "2026-09-02",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Escolher Regime de Apuração de IBS e CBS",
+  "url": "https://www.gov.br/pt-br/servicos/escolher-regime-de-apuracao-de-bens-e-servicos-ibs-e-da-contribuicao-sobre-bens-e-servicos-cbs",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null
+ },
+ "85d8cb20d3ee01e4": {
+  "primeira_vez": "2026-09-02",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Receita Federal alerta: começa hoje o prazo para opção pelo Simples Nacional e para a escolha do modelo de recolhimento do IBS e da CBS em 2027",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-alerta-comeca-hoje-o-prazo-para-opcao-pelo-simples-nacional-e-para-a-escolha-do-modelo-de-recolhimento-do-ibs-e-da-cbs-em-2027",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null
  }
 }

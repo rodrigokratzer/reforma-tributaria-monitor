@@ -1,7 +1,26 @@
 {
- "data": "2026-09-01",
- "quantidade": 0,
- "itens": [],
+ "data": "2026-09-02",
+ "quantidade": 2,
+ "itens": [
+  {
+   "primeira_vez": "2026-09-02",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "Escolher Regime de Apuração de IBS e CBS",
+   "url": "https://www.gov.br/pt-br/servicos/escolher-regime-de-apuracao-de-bens-e-servicos-ibs-e-da-contribuicao-sobre-bens-e-servicos-cbs",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null
+  },
+  {
+   "primeira_vez": "2026-09-02",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "Receita Federal alerta: começa hoje o prazo para opção pelo Simples Nacional e para a escolha do modelo de recolhimento do IBS e da CBS em 2027",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-alerta-comeca-hoje-o-prazo-para-opcao-pelo-simples-nacional-e-para-a-escolha-do-modelo-de-recolhimento-do-ibs-e-da-cbs-em-2027",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
