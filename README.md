@@ -287,8 +287,8 @@ completa, mas precisa configurar sua própria rotina (ou continuar escrevendo
 
 **Status sempre visível, mesmo sem novidade.** O painel mostra uma faixa fixa
 no topo (`dados/analise_status.json` → `scripts/painel_template.html`) com a
-última checagem, para quem só olha o painel — não recebe a notificação — saber
-que a rotina rodou. Fica vermelha sozinha se passar mais de um dia sem
+última checagem da análise, para quem só olha o painel — não recebe a
+notificação — saber que a rotina rodou. Fica vermelha sozinha se passar mais de um dia sem
 atualização, sinal de que algo quebrou na automação.
 
 Spec e plano de implementação completos, se quiser o histórico de decisões:

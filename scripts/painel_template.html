@@ -194,7 +194,7 @@ window.DADOS = /*__DADOS__*/null;
     if(atraso > 1){ cor = 'var(--critical)'; texto = 'sem atualização há ' + atraso + ' dias — ' + texto; }
     var el = $('status-diario');
     el.style.borderLeftColor = cor;
-    el.innerHTML = '<strong>Última checagem:</strong> ' + esc(br(sd.data)) +
+    el.innerHTML = '<strong>Última checagem da análise:</strong> ' + esc(br(sd.data)) +
       (sd.gerado_em ? ' &middot; ' + esc(sd.gerado_em.slice(11,16)) + ' UTC' : '') +
       ' — ' + esc(texto);
     el.className = 'status-diario on';
