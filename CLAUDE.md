@@ -18,13 +18,15 @@ pip install -r requirements.txt
 playwright install --with-deps chromium   # only needed for scripts/varredura.py
 ```
 
-Run tests (the only test suite in the repo, stdlib `unittest`, no fixtures on disk):
+Run the tests (stdlib `unittest`, no fixtures on disk — three files:
+`test_lacuna_analise.py`, `test_portais_base.py`, `test_portal_cgibs.py`):
 ```bash
-python3 -m unittest tests/test_lacuna_analise.py -v
+python3 -m unittest discover -s tests -v
 ```
 
-Run a single test:
+Run one file, or a single test:
 ```bash
+python3 -m unittest tests.test_portais_base -v
 python3 -m unittest tests.test_lacuna_analise.TestLacuna.test_lacuna_de_varios_dias_pulados -v
 ```
 
@@ -62,8 +64,9 @@ No linter or formatter is configured.
    merge-on-write between two independently-scheduled workflows is a race condition
    waiting to happen (see "Gotchas" below).
 3. The one file both collectors *do* share is `dados/historico.json` — safe by
-   construction, because its dedup key (`chave()` in `scripts/varredura.py`) is a
-   content hash (URL + title), not tied to which collector found the item first.
+   construction, because its dedup key (`chave()` in `scripts/portais/base.py`,
+   imported by `varredura.py`) is a content hash (URL + title), not tied to which
+   collector found the item first.
 4. `scripts/lacuna_analise.py` reads only `analises/*.md` (by filename date) and
    `dados/historico.json` — it never touches the per-day snapshot files, so it's
    agnostic to which collector found what.

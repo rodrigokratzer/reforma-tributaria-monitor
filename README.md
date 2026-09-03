@@ -87,7 +87,9 @@ scripts/analise_brief.md      critério e formato que a análise diária segue
 scripts/gerar_painel.py       monta docs/index.html
 scripts/painel_template.html  layout e CSS do painel
 scripts/medir_inlabs.py       medição do filtro do DOU (opcional, ver abaixo)
-tests/test_lacuna_analise.py  testes de scripts/lacuna_analise.py (unittest)
+tests/                        unittest, stdlib — test_lacuna_analise.py,
+                               test_portais_base.py (classe Portal) e
+                               test_portal_cgibs.py (subclasse CGIBS)
 estado.json                   camada curada: prazos, pendências, linha do tempo
 analises/AAAA-MM-DD.md        análise do dia (opcional, ver Análise diária automatizada)
 dados/                        gerado pelo robô — não editar à mão
@@ -183,9 +185,10 @@ separado elimina a classe inteira de problema — não existe "quem escreve por
 cima de quem" quando ninguém compartilha o arquivo.
 
 O que *é* compartilhado entre as duas coletas é `dados/historico.json`, e isso
-é seguro por construção: a chave de dedup (`chave()`, em `scripts/varredura.py`)
-é um hash do conteúdo do item (URL + título), não depende de qual coleta
-encontrou primeiro. Cada execução só adiciona o que é novo pra ela.
+é seguro por construção: a chave de dedup (`chave()`, em `scripts/portais/base.py`,
+importada por `varredura.py`) é um hash do conteúdo do item (URL + título), não
+depende de qual coleta encontrou primeiro. Cada execução só adiciona o que é
+novo pra ela.
 
 ### `git pull --rebase` nunca fixo numa branch
 
