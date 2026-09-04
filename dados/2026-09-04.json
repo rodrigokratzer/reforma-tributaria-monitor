@@ -1,0 +1,809 @@
+{
+ "data": "2026-09-04",
+ "fontes": [
+  {
+   "fonte": "CGIBS - Noticias",
+   "url": "https://www.cgibs.gov.br/noticias",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 9,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e CGIBS publicam norma que estabelece dispensas para o nanoempreendedor na reforma",
+     "url": "https://www.cgibs.gov.br/receita-federal-do-brasil-e-o-comite-gestor-do-ibs-publicam-norma-que-estabe",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "A Receita Federal do Brasil e o Comitê Gestor do IBS publicaram o Ato Conjunto RFB/CGIBS nº 6, de 28 de agosto de 2026, que estabelece importantes dispensas para o nanoempreendedor no âmbito do IBS e da CBS.\n\nNos termos do Ato, o nanoempreendedor fica dispensado da obrigatoriedade de:\n\n- inscrição no cadastro com identificação única, mediante inscrição no CNPJ; e\n\n- emissão dos documentos fiscais eletrônicos previstos nos regulamentos do IBS e da CBS. \n\nA dispensa não se aplica ao nanoempreendedor que optar pelo regime regular do IBS e da CBS, conforme previsto na Lei Complementar nº 214/2025.\n\nO Ato entra em vigor na data de sua publicação no Diário Oficial da União e no sítio eletrônico do CGIBS, produzindo efeitos até 31 de dezembro de 2028.\n\nLeia aqui!"
+    },
+    {
+     "titulo": "CGIBS e RFB esclarecem os prazos de cumprimento das obrigações relativas à DeRE, elencados no Ato Conjunto nº 4",
+     "url": "https://www.cgibs.gov.br/cgibs-e-rfb-esclarecem-prazos-de-cumprimento-das-obrigacoes-relativas-a-dere-estabelecidos-pelo-ato-conjunto-n-4",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) esclarecem aos contribuintes e desenvolvedores de sistemas as diretrizes de envio e os prazos de cumprimento das obrigações relativas à DeRE, estabelecidos pelo Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026.\n\n1. Marco Inicial de Recepção dos Eventos de Tabela (D-1001 e D-1011)\n\nA data de 1º de outubro de 2026 estabelecida no art. 1º, XVII, \"a\", do Ato Conjunto nº 4/2026 constitui o termo inicial de recepção e vigência cadastral, e não uma data limite de entrega.\n\nAbertura do Sistema: A partir de 01/10/2026, o Ambiente da DeRE passa a recepcionar os eventos de tabela:\n\nD-1001 – Informações do Contribuinte; e\n\nD-1011 – Plano Geral de Contas Comentado (PGCC).\n\nPrazo-Limite de Envio: A transmissão dos eventos de tabela pode ser realizada a partir de 01/10/2026 e deve estar concluída e processada com sucesso antes da transmissão dos Eventos Periódicos Mensais relativos à competência outubro de 2026, os quais têm data limite em 15/11/2026.\n\n2. Cronograma de Entrega dos Eventos Periódicos Mensais\n\nA primeira escrituração contábil-fiscal mensal (competência outubro de 2026) deverá ser entregue até 15 de novembro de 2026, abrangendo o conjunto de eventos periódicos aplicáveis:\n\nD-1101 – Balancete Mensal;\n\nD-1106 – Identificação de Aplicações Financeiras (quando houver obrigatoriedade);\n\nD-1121 – Relação de Deduções Utilizadas na Apuração;\n\nD-2101 – Débito em Operações com Títulos de Dívida com Oferta Pública (quando aplicável ao setor financeiro); e\n\nD-1199 – Fechamento Mensal (consolidador da escrituração e confissão de dívida).\n\nNota: Conforme o Manual de Orientação da DeRE (Cap. III, item 2.1.2), a data-limite de entrega dos eventos periódicos mensais é fixada no dia 15 do mês subsequente, não sendo prorrogada caso recaia em sábado, domingo ou feriado.\n\nOrientações para transmissão dos eventos\n\nEm observância às diretrizes estabelecidas na documentação técnica da DeRE, os Eventos de Tabela do Contribuinte devem ser transmitidos previamente à entrega dos Eventos Periódicos Mensais correspondentes, de forma a assegurar que as informações cadastrais e estruturantes estejam devidamente recepcionadas e validadas antes do processamento dos eventos de natureza periódica.\n\nAdicionalmente, recomenda-se que eventos que possuam relação de dependência lógica não sejam transmitidos em um mesmo lote, especialmente quando a validação de um evento dependa de informações produzidas ou alteradas por outro evento ainda não processado com sucesso.\n\nComo exemplo, na hipótese de transmissão simultânea de uma atualização do D-1011 - Plano Geral de Contas Comentado (PGCC) e do D-1101 - Balancete Mensal, eventual rejeição do D-1011 não impedirá, necessariamente, o processamento do D-1101. Nessa situação, as validações do balancete poderão ser realizadas com base na versão do PGCC anteriormente vigente na base da DeRE.\n\nCom vistas a assegurar a consistência das informações prestadas, recomenda-se a observância da seguinte sequência operacional:\n\nTransmitir os Eventos de Tabela do Contribuinte (D-1001 e D-1011);\n\nAguardar e verificar o respectivo processamento com sucesso;\n\nCorrigir eventuais inconsistências apontadas pelo sistema;\n\nSomente após a confirmação da recepção e validação desses eventos transmitir os Eventos Periódicos Mensais.\n\nA observância dessas orientações contribuirá para a adequada execução das validações da DeRE, reduzindo a ocorrência de rejeições e de processamentos baseados em informações anteriormente vigentes na base de dados."
+    },
+    {
+     "titulo": "Receita Federal, Comitê Gestor do IBS e CFC alinham as diretrizes do Plano Nacional de Conformidade Tributária",
+     "url": "https://www.cgibs.gov.br/receita-federal-comite-gestor-do-ibs-e-cfc-alinham-diretrizes-do-plano-nacional-de-conformidade-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "O Secretário Especial da Receita Federal do Brasil, Robinson Sakiyama Barreirinhas e o presidente do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) Flávio César Mendes de Oliveira, se reuniram com o Conselho Federal de Contabilidade (CFC) para alinhar as ações de implantação do Plano Nacional de Conformidade Tributária (PNCT).\n\nO encontro teve como foco as exigências de emissão de documentos fiscais decorrentes da Reforma Tributária do Consumo e o escopo de atuação dos profissionais contábeis durante o processo de transição.\n\nRegulamentado em 2026, o PNCT estabelece um modelo de adaptação para empresas e contribuintes. Durante a fase de transição, a administração tributária atuará com foco em orientação e correção preventiva. O objetivo é assegurar a conformidade fiscal antes da eventual aplicação de sanções motivadas por falhas formais no preenchimento de documentos vinculados ao Imposto sobre Bens e Serviços (IBS) e à Contribuição sobre Bens e Serviços (CBS).\n\nO Secretário Especial da Receita Federal pontuou as diretrizes institucionais que norteiam a execução do plano e os trâmites de monitoramento dos novos documentos fiscais.\n\nRobinson Barreirinhas destacou que o cerne da relação entre a administração tributária e o empresário já não é a imposição ou a aplicação de penalidades, e sim a conformidade e a orientação. E, dentro dessa nova relação de conformidade, ele ressaltou que essa orientação só é possível com a participação ativa do profissional de contabilidade.\n\n“Não é uma lógica de fiscalização, é uma lógica de confiança de que o profissional da contabilidade vai orientar a empresa”, afirmou Barreirinhas.\n\nA conformidade dentro do programa exige que as empresas atendam a requisitos técnicos de regularidade, como o saneamento de erros apontados até o final de dezembro de 2026. Para permanecer no PNCT, o contribuinte também deve indicar formalmente um profissional de contabilidade, que assume a função de monitorar a correta emissão das notas e acompanhar a parametrização dos sistemas, respondendo tempestivamente às comunicações do Fisco. Sob a ótica do plano, a categoria transcende o mero cumprimento de obrigações acessórias, passando a exercer uma função contínua de gestão da conformidade tributária. Esse perfil consultivo consolida o contador como o elo técnico central entre as empresas e a administração na transição para o novo modelo.\n\nO Presidente do CFC, Joaquim de Alencar Bezerra Filho, detalhou o papel que passa a competir à categoria contábil para garantir a integridade dos dados transmitidos à administração tributária e a correta aplicação das regras.\n\nBezerra ressaltou a importância que a Receita Federal está dando aos contadores dentro desse processo:\n\n“É a primeira vez que a Receita Federal do Brasil reconhece institucionalmente, de forma legal e formal, o papel do profissional da contabilidade em um programa de conformidade fiscal”, destacou.\n\nA coordenação administrativa do IBS, um dos focos do novo plano, está a cargo do CGIBS. O presidente do Comitê, Flávio César Mendes de Oliveira, participou da reunião para tratar dos aspectos operacionais e da gestão do tributo entre Estados, Distrito Federal e Municípios.\n\n“Esse ato conjunto traz a garantia para os contribuintes de que o profissional da contabilidade, o contador e a contadora da sua cidade, do seu estado, será o condutor, o protagonista dessa construção”, afirmou Flávio.\n\nTambém participou do encontro o presidente da Fenacon, Reynaldo Pereira Lima Júnior. Ele destacou o impacto da medida sobre a rotina dos profissionais e das organizações contábeis, lembrando que o ato não representa a criação de uma nova obrigação acessória.\n\nFonte: Receita Federal do Brasil"
+    },
+    {
+     "titulo": "CGIBS e RFB publicam Nota Orientativa 2026.001, com ajustes nos leiautes de eventos e arquivos XSD da DeRE",
+     "url": "https://www.cgibs.gov.br/publicacao-da-nota-orientativa-2026-00nos-leiautes-de-eventos-e-nos-respectivos-arquiv",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS assinam e regulamentam Programa Nacional de Conformidade Tributária",
+     "url": "https://www.cgibs.gov.br/receita-federal-e-cgibs-regulamentam-programa-nacional-de-conformidade-tributaria-para-apoiar-adaptacao-a-reforma-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Comitê Gestor escolhe segunda vice, dá posse a diretores em São Paulo e reforça perfil técnico na implementação do IBS",
+     "url": "https://www.cgibs.gov.br/cgibs-da-posse-a-diretores-reforca-perfil-tecnico-para-implementacao-do-ibs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "O Conselho Superior do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) deu posse, na manhã desta quarta-feira (12), em São Paulo, à secretária de Fazenda do Rio Grande do Sul, Pricilla Santana, como 2ª vice-presidenta da entidade, além de 9 integrantes da estrutura diretiva do Conselho.\n\nA cerimônia ocorreu durante a 3ª Reunião Ordinária do CGIBS e marcou uma nova etapa na organização do órgão responsável pela administração do IBS, um dos principais componentes da reforma tributária sobre o consumo.\n\nA nominata apresentada aos conselheiros reúne profissionais das administrações tributárias estaduais e municipais, além de procuradores e especialistas com experiência nas áreas de tributação, fiscalização, arrecadação, tecnologia, gestão financeira e controle. O perfil técnico dos indicados foi destacado ao longo da apresentação como elemento central para enfrentar os desafios da implementação do novo sistema tributário.\n\nEm seu discurso, a nova 2ª vice-presidenta da entidade, Pricilla Santana, agradeceu a confiança e destacou a importância da agenda do Comitê:\n\n “Hoje a gente vai fazer história e contribuir para uma mudança, uma guinada no Brasil e no seu arcabouço tributário. Quem teve a oportunidade de estar com a gente no Rio Grande do Sul semana passada, e percebeu o tamanho, a magnitude daquilo que a gente vai construir hoje. A gente tem que caminhar juntos, temos um compromisso inescapável de entrega no dia 1º de janeiro. Vamos nos irmanar nesse propósito, nesse objetivo e vamos sim chegar ao fim dessa jornada de uma maneira extremamente exitosa”, afirmou.\n\nA posse consolida, assim, a estrutura operacional do CGIBS em áreas estratégicas para a administração do novo imposto. A partir da atuação integrada das diretorias, o Comitê terá entre suas principais tarefas organizar os mecanismos de arrecadação, fiscalização, cobrança, revisão de créditos, tecnologia, informações econômico-fiscais e gestão financeira necessários ao funcionamento do novo modelo tributário.\n\nAlém da posse dos diretores, a reunião também debateu estratégias de comunicação e aprovou o Programa Nacional de Conformidade Tributária (PNCT), voltado às obrigações acessórias do IBS e da CBS.\n\nPrograma de conformidade\n\nA 3ª Reunião Ordinária do Comitê Gestor do IBS também aprovou a regulamentação do Programa Nacional de Conformidade Tributária (PNCT), voltado às obrigações acessórias do IBS e da CBS. A medida busca garantir uma transição segura e previsível para empresas durante a adaptação dos sistemas aos novos documentos fiscais, fazendo de 2026 um ano de testes e aprendizado. Os contribuintes que aderirem ao programa e corrigirem eventuais inconsistências até o fim do exercício não estarão sujeitos a sanções pelo descumprimento das obrigações acessórias.\n\nA regulamentação é uma medida pontual para dar segurança jurídica a empresas e administrações tributárias durante a transição, sem comprometer a fiscalização futura. O programa prevê a publicação gradual de notas técnicas e manuais orientativos, além da atuação integrada entre o Comitê Gestor e a Receita Federal para acompanhar a implementação e solucionar problemas em tempo real. A estratégia inclui ainda o apoio aos profissionais de contabilidade e a criação de uma sala de situação conjunta para monitorar a emissão dos documentos fiscais em todo o país.\n\nQuem são os novos diretores do Conselho Superior do CGIBS \n\nEntre os nomes empossados está Elvira Cândida, da Bahia, para a Diretoria de Tesouraria. Auditora fiscal desde 2005, ela tem formação em Engenharia Química, Economia e Direito e experiência no desenvolvimento de sistemas financeiros. Ao agradecer a confiança recebida, ressaltou que o CGIBS terá pela frente um grande desafio tecnológico e defendeu que a composição das diretorias seja baseada em critérios estritamente técnicos.\n\nA Diretoria de Tributação ficará sob responsabilidade de Ricardo Oliveira, de Minas Gerais. Auditor fiscal desde 1985 e atuante na área de tributação desde 1999, ele coordenou grupos de trabalho no Conselho Nacional de Política Fazendária (Confaz) e no pré-Comitê Gestor do IBS. Também participou diretamente da elaboração do PLP 108, que resultou na Lei Complementar 227.\n\nA área de Tecnologia da Informação e Comunicação será dirigida por Ricardo Neves, auditor da Receita Estadual do Rio Grande do Sul há mais de 30 anos. Ex-diretor da Administração Tributária e de Tecnologia da Informação da Sefaz-RS, participou do desenvolvimento de documentos fiscais eletrônicos em âmbito nacional. Em sua manifestação, destacou a possibilidade de construir uma administração tributária e financeira de referência global, baseada em cooperação e inovação.\n\nPara a Diretoria de Informações Econômico-Fiscais, foi indicado Luiz Dias, com atuação nos estados do Amazonas e Alagoas. Auditor com 20 anos de experiência na administração tributária, é formado em Ciências da Computação, especialista em Direito Tributário e mestre em Fazenda Pública. Coordenou no Amazonas o projeto da Nota Fiscal do Consumidor Eletrônica (NFC-e) e preside o Encontro Nacional de Coordenadores e Administradores Tributários Estaduais (ENCAT) desde 2020. Ele destacou os desafios tecnológicos e operacionais relacionados à implementação do IBS, incluindo mecanismos como o split payment e o crédito vinculado ao pagamento.\n\nMunicípios\n\nNa Diretoria de Procuradoria, assumiu Natália Canuto, procuradora do município do Rio de Janeiro há 13 anos. Indicada pelas secretárias Andréia Senko e Andréia Veloso, ela afirmou que pretende dar continuidade ao trabalho desenvolvido pela comissão jurídica.\n\nA Diretoria de Arrecadação e Cobrança será comandada por Wellington Sobrinho, auditor fiscal do município de Marabá (PA) desde 2013. Formado em Ciências Contábeis e estudante de Direito, ele possui experiência em tecnologia aplicada à gestão municipal e agradeceu à Confederação Nacional de Municípios (CNM), ao presidente Paulo Ziulkoski e aos conselheiros pela indicação. \n\nPara a Diretoria de Revisão de Crédito Tributário, foi indicado Leonardo Godoy, auditor fiscal de Japeri (RJ), mestre e especialista em Direito Tributário pelo IBET. Com cerca de 18 anos de experiência nos setores público e privado e formação também em Filosofia, ele afirmou que colocará sua trajetória profissional e acadêmica a serviço do comitê.\n\nNa Diretoria de Fiscalização, o indicado é Fabrício Dameda, auditor fiscal de Porto Alegre desde 2013. Ele já exerceu funções como superintendente da Receita Municipal, chefe de gabinete e secretário adjunto da Fazenda. Com formação em Ciências Contábeis e pós-graduação em Auditoria, destacou a responsabilidade de integrar a equipe encarregada de avançar na implementação da Reforma Tributária.\n\nAuditoria interna, Corregedoria e Gestão da Fazenda \n\nTambém integram a estrutura diretiva Diego Araújo, na Auditoria Interna, e Robledo Trindade, na Corregedoria. Auditor fiscal de São José do Rio Preto (SP), Araújo é bacharel em Direito pela USP, mestre e doutorando em Direito, além de possuir especializações em Processo Civil, IFRS e governança pública.\n\nTrindade é auditor no Amapá e tem trajetória de 16 anos na área de educação, como professor e gestor. Formado em Administração e Letras, é mestrando e graduando em Direito. Ao assumir a função, destacou o caráter histórico da criação da estrutura do CGIBS e afirmou que sua atuação será orientada pela prevenção e pela orientação. Ele também informou que pretende encaminhar consulta formal à Procuradoria sobre sua situação no conselho, com o objetivo de estabelecer entendimento jurídico sobre o tema.\n\nA estrutura apresentada inclui ainda a Diretoria Administrativa, cuja função será exercida por uma auditora da Sefaz de Pernambuco, Cindy Ferreira. Servidora desde 2017, ela possui pós-graduação em Gestão Pública e Direito Tributário e experiência em atendimento, planejamento de ações fiscais, monitoramento de contribuintes e gestão. Ao ser indicada, afirmou sentir-se honrada pela confiança e reiterou o compromisso com o trabalho do comitê."
+    },
+    {
+     "titulo": "Receita Federal e CGIBS esclarecem adiamento das regras de validação dos documentos fiscais eletrônicos",
+     "url": "https://www.cgibs.gov.br/receita-federal-e-comite-gestor-do-ibs-esclarecem-adiamento-das-regras-de-validacao-dos-documentos-fiscais-eletronicos",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "A Receita Federal e o Comitê Gestor do IBS (CGIBS) esclarecem que não houve suspensão da obrigatoriedade de destaque e prestação das informações relativas à CBS e ao IBS nos documentos fiscais eletrônicos, conforme previsto no cronograma de implementação da Reforma Tributária do Consumo. O cronograma permanece integralmente válido e sem alterações. \n\nA medida formalizada pelo Ato Técnico Conjunto nº 01/2026 refere-se exclusivamente ao adiamento do início das validações das regras relacionadas ao IBS e à CBS nos documentos fiscais eletrônicos, inicialmente previstas para 03 de agosto de 2026, de forma que a ausência de determinadas informações relacionadas à CBS e ao IBS não resulte, neste momento, na rejeição automática de documentos como NF-e, NFC-e, CT-e, CT-e OS, GTV-e, BP-e, NF3e e NFCom. \n\nEm outras palavras, os documentos fiscais terão a emissão autorizada mesmo quando não contiverem todos os campos relativos à CBS e ao IBS. Contudo, isso não afasta a obrigação de adequação ao novo modelo, nem altera as regras já estabelecidas para o preenchimento dessas informações. \n\nA Receita Federal e o CGIBS recomendam que as empresas que ainda não adaptaram seus sistemas envidem esforços para gerarem as informações constantes nos campos relativos à CBS e ao IBS em seus documentos fiscais, em conformidade com o cronograma vigente. No dia 04/08/2026, 88% de todos os documentos emitidos pelos contribuintes alcançados pela obrigatoriedade já foram transmitidos com essas informações, sinalizando que a grande maioria já está preparada para a mudança.\n\nO adiamento foi adotado para evitar entraves operacionais que possam impactar a emissão de documentos fiscais, o faturamento das empresas e a continuidade das atividades econômicas durante esta fase de transição para o novo sistema tributário. \n\nO período atual possui caráter de adaptação e orientação. Nesse contexto, a atuação das administrações tributárias tem como objetivo apoiar contribuintes, desenvolvedores de software e profissionais da área fiscal na implementação das mudanças necessárias. Também está em regulamentação um programa de conformidade voltado a estimular a regularização e o acompanhamento da evolução dos contribuintes durante a etapa de implantação. \n\nAs empresas que ainda não concluíram sua preparação devem prosseguir com os ajustes de sistemas, processos internos e capacitação de equipes, observando o cronograma já divulgado. A flexibilização da validação foi concebida para permitir uma transição segura e organizada, mas não substitui a necessidade de preparação para o início da operacionalização plena do novo modelo tributário. \n\nA Receita Federal e o CGIBS reiteram que a medida afeta exclusivamente as regras de validação e rejeição dos documentos fiscais eletrônicos, não alterando as demais etapas da implementação da Reforma Tributária nem o cronograma oficial de implantação. \n\nPor fim, a Receita Federal e o CGIBS reforçam seu compromisso com uma transição gradual, segura e transparente, buscando garantir a continuidade das atividades econômicas, a simplificação do cumprimento das obrigações tributárias e a adequada preparação de todos os contribuintes para o novo sistema de tributação do consumo."
+    },
+    {
+     "titulo": "Em reunião com Dario Durigan, Comitê Gestor apresenta estrutura, entregas e avanços da implementação do IBS",
+     "url": "https://www.cgibs.gov.br/em-reuniao-com-durigan-comite-gestor-apresenta-estrutura-entregas-e-avancos-da-implementacao-do-ibs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "Entre as agendas cumpridas pelo ministro da Fazenda, Dario Durigan, em Mato Grosso do Sul, uma reunião de trabalho foi dedicada à estruturação do Comitê Gestor do Imposto sobre Bens e Serviços e aos avanços da implementação da Reforma Tributária do consumo.\n\nDurigan reuniu-se com o presidente do CGIBS, Flávio César Mendes de Oliveira, e integrantes da equipe técnica que atuam diretamente na implantação do Comitê. Durante o encontro, realizado na Secretaria de Estado de Fazenda de Mato Grosso do Sul, foram apresentados o modelo de governança da instituição, a estrutura já em funcionamento, as entregas realizadas conjuntamente com a Receita Federal do Brasil e as próximas etapas dos eixos normativo, tecnológico e operacional.\n\nA agenda integrou a programação cumprida pelo ministro em Campo Grande e reforçou a relação de cooperação construída entre o Ministério da Fazenda, a Receita Federal, o Comitê Gestor do IBS e o Comsefaz. Na visita ao Estado, Durigan participou de compromissos com autoridades, representantes do setor produtivo e equipes técnicas, tendo destacado a importância do diálogo entre a União, os estados, os municípios e a iniciativa privada para que a Reforma Tributária avance com segurança e previsibilidade.\n\nAlém de Flávio César e do ministro da Fazenda, participaram da reunião os coordenadores da Comissão de Trabalho Administrativa e da Comissão de Trabalho Jurídica do CGIBS, Matheus Segalla Menegaz e Priscilla de Siqueira Gomes, respectivamente. Também estiveram presentes técnicos de Mato Grosso do Sul que atuaram diretamente nos grupos de trabalho do Pré-Comitê Gestor e contribuíram para os estudos preparatórios que deram origem à atual estrutura institucional, normativa e operacional do Comitê.\n\nNa reunião, Flávio César apresentou ao ministro a dimensão inédita do modelo instituído pela Reforma Tributária. Pela primeira vez na história do país, os 26 estados, o Distrito Federal e mais de 5,5 mil municípios passam a administrar, de forma coordenada e unificada, um tributo de competência compartilhada.\n\nO IBS será administrado pelos estados e municípios por meio do Comitê Gestor, enquanto a Contribuição sobre Bens e Serviços será administrada pela União, por intermédio da Receita Federal. Embora tenham administrações próprias, IBS e CBS formam o IVA Dual brasileiro e compartilham uma ampla base de regras, conceitos, documentos e soluções tecnológicas, o que exige atuação coordenada entre as duas instituições.\n\nPara Flávio César, um dos maiores avanços está justamente na substituição da fragmentação normativa por uma regulamentação nacional e uniforme. No sistema atual, empresas e contribuintes convivem com diferentes legislações de ICMS e milhares de normas municipais relacionadas ao ISS. Com o IBS, o país passa a contar com um regulamento único para o imposto, além de uma parte comum construída de forma espelhada com o Regulamento da CBS.\n\nEssa convergência foi formalizada em abril, quando Flávio César e Dario Durigan assinaram a Portaria Conjunta MF/CGIBS nº 7, reconhecendo as disposições comuns aos regulamentos do IBS e da CBS. O Regulamento da CBS foi publicado por meio do Decreto Federal nº 12.955, de 29 de abril de 2026, e o Regulamento do IBS foi aprovado pela Resolução CGIBS nº 6, de 30 de abril de 2026.\n\nNa avaliação do presidente do CGIBS, sair de um emaranhado de legislações estaduais e municipais para uma regra nacional uniforme representa um avanço de grande dimensão para o ambiente de negócios. A mudança reduz divergências interpretativas, amplia a segurança jurídica e permite que as obrigações sejam cumpridas a partir de padrões comuns em todo o território nacional.\n\nDurante a reunião, também foi detalhada a organização do Conselho Superior, instância máxima de deliberação do Comitê Gestor. O colegiado possui 54 membros titulares e é composto paritariamente por 27 representantes dos estados e do Distrito Federal e 27 representantes municipais. A estrutura diretiva conta com Presidência e duas vice-presidências, garantindo equilíbrio entre as representações estaduais e municipais.\n\nA fase de implantação conta ainda com seis comissões de trabalho de caráter transitório, responsáveis pelas áreas administrativa, jurídica, regimental, regulamentar, operacional e de tesouraria. As comissões possuem atuação técnica e preparatória e auxiliam a Presidência e o Conselho Superior até a instalação completa das diretorias permanentes previstas na legislação.\n\nA estruturação do novo sistema mobiliza mais de dois mil técnicos do Governo Federal, dos estados e dos municípios. Somente na construção dos regulamentos do IBS e da CBS, os profissionais foram distribuídos em 120 grupos de trabalho dedicados à análise dos diferentes setores, regimes e aspectos operacionais abrangidos pela Reforma Tributária.\n\nParte relevante da apresentação ao ministro concentrou-se nas entregas já realizadas em parceria com a Receita Federal. Entre os primeiros marcos está o Ato Conjunto RFB/CGIBS nº 1, de dezembro de 2025, que disciplinou as obrigações acessórias relacionadas ao IBS e à CBS durante 2026 e estabeleceu uma fase de adaptação voltada aos testes, ao ajuste dos sistemas e à validação dos fluxos de informação.\n\nEm 2026, a operacionalização dos novos tributos possui caráter essencialmente educativo e orientador. Desde que observadas as obrigações estabelecidas, a apuração do IBS e da CBS ocorre sem efeitos financeiros imediatos, permitindo que contribuintes e administrações tributárias se preparem para as etapas seguintes da transição.\n\nOutro avanço apresentado foi a consulta pública relacionada aos regulamentos. A Comissão de Trabalho do Regulamento do IBS recebeu 847 sugestões de aperfeiçoamento ao texto-base, enquanto os canais da Receita Federal contabilizaram mais de quatro mil contribuições relacionadas ao Regulamento da CBS.\n\nAs propostas estão sendo analisadas pelas equipes técnicas das duas instituições. Como grande parte das contribuições envolve dispositivos comuns aos dois tributos, CGIBS e Receita Federal também realizam uma avaliação conjunta do material para preservar a coerência entre os regulamentos e assegurar interpretações convergentes.\n\nNo eixo tecnológico e operacional, foram apresentados os avanços da Plataforma Pública do Split Payment, mecanismo que permitirá a segregação e o recolhimento dos valores correspondentes ao IBS e à CBS durante a liquidação financeira das operações.\n\nO Ato Conjunto RFB/CGIBS nº 2, de 27 de maio de 2026, autorizou a publicação do Manual de Integração e da documentação técnica da plataforma, permitindo que instituições financeiras, prestadores de serviços de pagamento e desenvolvedores iniciem a preparação de suas soluções.\n\nTambém foi tratada a evolução da Declaração de Regimes Específicos, a DeRE. O Ato Conjunto RFB/CGIBS nº 3, de 19 de junho de 2026, autorizou a publicação da versão 1.1.0 da documentação técnica, abrangendo leiautes, regras de validação, tabelas e manuais destinados à implementação da nova obrigação acessória.\n\nA integração entre o CGIBS e a Receita Federal envolve ainda a coordenação dos cadastros, o compartilhamento de dados, a construção dos sistemas de apuração assistida e a adoção de uma comunicação institucional integrada, com o objetivo de oferecer orientações uniformes aos contribuintes.\n\nOutro tema apresentado foi o cronograma de obrigatoriedade dos documentos fiscais eletrônicos com os campos relativos ao IBS e à CBS. As datas foram estabelecidas pelo Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026. Para documentos como a Nota Fiscal Eletrônica, a Nota Fiscal de Consumidor Eletrônica, o Conhecimento de Transporte Eletrônico e o Manifesto Eletrônico de Documentos Fiscais, a obrigatoriedade começa em 3 de agosto, enquanto outros documentos seguem datas específicas ao longo de 2026 e no início de 2027.\n\nO ato também determinou a instituição de um programa de conformidade voltado à emissão dos documentos fiscais em 2026, com caráter orientador e destinado a apoiar a adaptação dos contribuintes ao novo modelo. Paralelamente, permanecem em desenvolvimento o aperfeiçoamento dos regulamentos, a análise das sugestões recebidas, a publicação de novos leiautes técnicos e a consolidação dos atos conjuntos necessários à operação completa do IBS e da CBS.\n\nA reunião ainda abordou os mecanismos permanentes de harmonização. O CGIBS e a Receita Federal mantêm interlocução contínua sobre interpretações normativas, obrigações acessórias, procedimentos de fiscalização, sistemas e regras de governança conjunta do IVA Dual.\n\nO Regulamento do IBS prevê a atuação coordenada do CGIBS, da Receita Federal e da Procuradoria-Geral da Fazenda Nacional, além da criação do Comitê de Harmonização das Administrações Tributárias, composto de forma paritária por quatro representantes da Receita Federal e quatro representantes do Comitê Gestor, sendo dois estaduais e dois municipais.\n\nPara Flávio César, a governança compartilhada é uma condição indispensável para que a Reforma Tributária alcance os resultados esperados. Segundo ele, não basta que o IBS e a CBS tenham regras semelhantes; é necessário que as administrações responsáveis pelos dois tributos dialoguem permanentemente e construam soluções convergentes para os contribuintes.\n\n“Estamos construindo uma reforma tributária a quatro mãos. O Comitê Gestor do IBS já está instalado, com a participação de estados e municípios, e temos avançado em parceria com o Ministério da Fazenda e a Receita Federal”.\n\nA reunião com Dario Durigan reafirmou o compromisso de manter uma agenda permanente de trabalho entre o Ministério da Fazenda, a Receita Federal e o Comitê Gestor. Mais do que apresentar os avanços já alcançados, o encontro permitiu discutir os desafios ainda existentes e reforçar que a implementação do IVA Dual depende de instituições capazes de atuar de maneira integrada."
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Resolucoes",
+   "url": "https://www.cgibs.gov.br/resolucoes",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 18,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 1, DE 23 DE FEVEREIRO de 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202602/27102250-resoluc-a-o-csibs-n-1-de-23-de-fevereiro-de-2026-assinatura.pdf",
+     "data": "2026-02-23",
+     "pasta_arquivo": "2026-02",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 2, DE 10 DE MARÇO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202603/11173106-resolucao-cgibs-n-2-de-10-de-marco-de-2026-regimento-eleitoral.pdf",
+     "data": "2026-03-10",
+     "pasta_arquivo": "2026-03",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 3, DE 10 DE MARÇO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202603/11173011-resolucao-cgibs-n-3-de-10-de-marco-de-2026-altera-resolucao-n-1.pdf",
+     "data": "2026-03-10",
+     "pasta_arquivo": "2026-03",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 4, DE 8 DE ABRIL DE 2026 - Regimento Interno Procedimental",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/13174441-resolucao-cgibs-n-4-de-8-de-abril-de-2026-regimento-interno-procedimental.pdf",
+     "data": "2026-04-08",
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 5, DE 30 DE ABRIL DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30221158-resolucao-cgibs-n-5-de-30-de-abril-de-2026.pdf",
+     "data": "2026-04-30",
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 6, DE 30 DE ABRIL DE 2026 - Regulamento do IBS",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+     "data": "2026-04-30",
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 7, DE 18 DE MAIO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/15121804-19123917-2026-05-18-min-resoluc-ao-diretrizes-orc-amento-cg-ct-tes-alterada-versa-o3-2-l.pdf",
+     "data": "2026-05-18",
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 8, DE 26 DE MAIO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202605/26184150-resolucao-cgibs-n-8-de-2026-3.pdf",
+     "data": "2026-05-26",
+     "pasta_arquivo": "2026-05",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 9, DE 10 DE JUNHO DE 2026 - Altera o Regimento Procedimental",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/17170454-resolucao-cgibs-n-9-de-10-de-junho-de-2026-altera-o-regimento-procedimental-1.pdf",
+     "data": "2026-06-10",
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 10, DE 29 DE JUNHO DE 2026 - Proposta Orçamentária 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/01163740-resolucao-cgibs-n-10-de-29-de-junho-de-2026-proposta-orcamentaria-2026.pdf",
+     "data": "2026-06-29",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 11, DE 30 DE JUNHO DE 2026 - Adoção do Marco Regulatório de Licitações",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/01163901-resolucao-cgibs-n-11-de-30-de-junho-de-2026-adocao-do-marco-regulatorio-de-licitacoes.pdf",
+     "data": "2026-06-30",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS N 12, DE 17 DE JULHO DE 2026 - Diretrizes para Elaboração do Orçamento do CGIBS 2027",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/20110450-resolucao-cgibs-n-12-de-17-de-julho-de-2026-diretrizes-para-elaboracao-do-orcamento-do-cgibs-2027.pdf",
+     "data": "2026-07-17",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 13, DE 22 DE JULHO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/22121010-resolucao-cgibs-n-13-de-22-de-julho-de-2026.pdf",
+     "data": "2026-07-22",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 14, DE 29 DE JULHO DE 2026 - Proposta Percentual IBS CGIBS 2027",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31144942-resoluc-ao-cgibs-n-14-de-29-de-julho-de-2026-proposta-percentual-ibs-cgibs-2027.pdf",
+     "data": "2026-07-29",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 15, DE 29 DE JULHO DE 2026 - Proposta Orçamentária CGIBS 2027",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31145053-resoluc-ao-cgibs-n-15-de-29-de-julho-de-2026-proposta-orc-amenta-ria-cgibs-2027.pdf",
+     "data": "2026-07-29",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 16, DE 29 DE JULHO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/29175824-doc-20260729-wa0035-260729-175811.pdf",
+     "data": "2026-07-29",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 17, DE 30 DE JULHO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/30184100-doc-20260730-wa0034-260730-183903.pdf",
+     "data": "2026-07-30",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Atos Conjuntos",
+   "url": "https://www.cgibs.gov.br/atos-conjuntos",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 7,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "SEI MGI 60959979 Portaria Conjunta (.pdf 100,91 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30094136-sei-mgi-60959979-portaria-conjunta.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Conjunto RFB e CIBS %2827 05%29 assinado (.pdf 715,87 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/03111600-ato-conjunto-rfb-e-cibs-2827-05-29-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Conjunto nro 3 DeRE (.pdf 887,74 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/22083423-ato-conjunto-nro-3-dere.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "20260730 16h30 ATO CONJUNTO RFB CGIBS NA%C2%BA 4 260731 090909 (.pdf 846,91 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31091735-20260730-16h30-ato-conjunto-rfb-cgibs-na-c2-ba-4-260731-090909.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Conjunto RFB CGIBS n%C2%BA 5 2026 Regulamenta o Programa Nacional de Conformidade Tributaria docx assinado (.pdf 369,59 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/13065932-ato-conjunto-rfb-cgibs-n-c2-ba-5-2026-regulamenta-o-programa-nacional-de-conformidade-tributaria-docx-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "ADE RFB CGIBS N 6 (.pdf 854,51 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/28193542-ade-rfb-cgibs-n-6-28-8-2026-com-paragrafo-unico-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Atos Tecnicos Conj.",
+   "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 3,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "AM Ato Tecnico Conjunto RFB e CGIBS Ratificacao NTs DFEs Revisao assinado (.pdf 505,12 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/01153321-am-ato-tecnico-conjunto-rfb-e-cgibs-ratificacao-nts-dfes-revisao-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "20260821 Ato Tecnico Conjunto n 2 assinado CGIBS (.pdf 1,83 MBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/24185346-20260821-ato-tecnico-conjunto-n-2-assinado-cgibs.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Portarias",
+   "url": "https://www.cgibs.gov.br/portarias",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 11,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 1 2026 (.pdf 587,21 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202605/18155850-portaria-cgibs-n-1-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-05",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 2 2026 (.pdf 550,86 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/08135751-portaria-cgibs-n-2-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 3 2026 (.pdf 640,56 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/09172813-portaria-cgibs-n-3-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 4 2026 (.pdf 549,92 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/29131357-portaria-cgibs-n-4-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS n 5 de 2026 Eleição e Posse do DIREX (.pdf 829,23 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/07125402-portaria-cgibs-n-5-de-2026-eleicao-e-posse-do-direx.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "2026 07 10 PORTARIA Equipe e Informações Orçamento CGIBS 2027 L v2 (.pdf 401,53 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/13154419-2026-07-10-portaria-equipe-e-informacoes-orcamento-cgibs-2027-l-v2.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 7 2026 (.pdf 610,68 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/14171015-portaria-cgibs-n-7-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 8 2026 Eleição e a posse dos diretores da Diretoria Executiva, do Corregedor Geral e do Auditor Inter (.pdf 575,67 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/17191458-portaria-cgibs-n-8-2026-eleicao-e-a-posse-dos-diretores-da-diretoria-executiva-do-corregedor-geral-e-do-auditor-interno-geral.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 9 2026 Eleição e a posse da Segunda Vice Presidente do Conselho Superior CGIBS (.pdf 329,50 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/17191457-portaria-cgibs-n-9-2026-eleicao-e-a-posse-da-segunda-vice-presidente-do-conselho-superior-cgibs.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 10 2026 (.pdf 502,00 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/28152155-minuta-portaria-cgibs-n-10-2026-acordos-de-adesao-28-08.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "RFB - Noticias 2026",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 8,
+   "itens": [
+    {
+     "titulo": "Aderir ao Piloto da Reforma Tributária da Contribuição sobre Bens e Serviços (CBS)",
+     "url": "https://www.gov.br/pt-br/servicos/aderir-ao-piloto-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Emitir Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consultar Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/pt-br/servicos/consultar-nota-fiscal-de-servico-eletronica",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Escolher Regime de Apuração de IBS e CBS",
+     "url": "https://www.gov.br/pt-br/servicos/escolher-regime-de-apuracao-de-bens-e-servicos-ibs-e-da-contribuicao-sobre-bens-e-servicos-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/nfse/pt-br",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Nota Fiscal Eletrônica do Ouro (NF-e Ouro)",
+     "url": "https://www.gov.br/receitafederal/nfeouro",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional",
+     "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal alerta: começa hoje o prazo para opção pelo Simples Nacional e para a escolha do modelo de recolhimento do IBS e da CBS em 2027",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-alerta-comeca-hoje-o-prazo-para-opcao-pelo-simples-nacional-e-para-a-escolha-do-modelo-de-recolhimento-do-ibs-e-da-cbs-em-2027",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "RFB - Reforma do Consumo",
+   "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 16,
+   "itens": [
+    {
+     "titulo": "Aderir ao Piloto da Reforma Tributária da Contribuição sobre Bens e Serviços (CBS)",
+     "url": "https://www.gov.br/pt-br/servicos/aderir-ao-piloto-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Emitir Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/pt-br/servicos/emitir-nota-fiscal-de-servico-eletronica",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consultar Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/pt-br/servicos/consultar-nota-fiscal-de-servico-eletronica",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Escolher Regime de Apuração de IBS e CBS",
+     "url": "https://www.gov.br/pt-br/servicos/escolher-regime-de-apuracao-de-bens-e-servicos-ibs-e-da-contribuicao-sobre-bens-e-servicos-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Nota Fiscal de Serviço Eletrônica (NFS-e)",
+     "url": "https://www.gov.br/nfse/pt-br",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Nota Fiscal Eletrônica do Ouro (NF-e Ouro)",
+     "url": "https://www.gov.br/receitafederal/nfeouro",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional",
+     "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal alerta: começa hoje o prazo para opção pelo Simples Nacional e para a escolha do modelo de recolhimento do IBS e da CBS em 2027",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-alerta-comeca-hoje-o-prazo-para-opcao-pelo-simples-nacional-e-para-a-escolha-do-modelo-de-recolhimento-do-ibs-e-da-cbs-em-2027",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal, Comitê Gestor do IBS e CFC alinham diretrizes do Plano Nacional de Conformidade Tributária",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/receita-federal-comite-gestor-do-ibs-e-cfc-alinham-diretrizes-do-plano-nacional-de-conformidade-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional: NFS-e Nacional será obrigatória para ME e EPP a partir de 1º de novembro de 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/simples-nacional-nfs-e-nacional-sera-obrigatoria-para-me-e-epp-a-partir-de-1o-de-novembro-de-2026",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Regime de caixa deixa de ser utilizado na apuração do Simples Nacional",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/regime-de-caixa-deixa-de-ser-utilizado-na-apuracao-do-simples-nacional",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e CGIBS regulamentam Programa Nacional de Conformidade Tributária para apoiar adaptação à Reforma Tributária no ano de 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-e-cgibs-regulamentam-programa-nacional-de-conformidade-tributaria-para-apoiar-adaptacao-a-reforma-tributaria-no-ano-de-2026",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "CGSN atualiza regras do Simples Nacional para adequação à Reforma Tributária do Consumo",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/cgsn-atualiza-regras-do-simples-nacional-para-adequacao-a-reforma-tributaria-do-consumo",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e CGIBS flexibilizarão obrigatoriedade de informações em documentos fiscais",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-cgibs-flexibilizarao-obrigatoriedade-de-informacoes-em-documentos-fiscais",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS publicam o Cronograma de Implementação dos Documentos Fiscais Eletrônicos da Reforma Tributária do Consumo",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-publicam-o-cronograma-de-implementacao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria-do-consumo",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS divulgarão cronograma para emissão dos documentos fiscais eletrônicos da Reforma Tributária",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-divulgarao-cronograma-para-emissao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "Portal DF-e SVRS - Noticias",
+   "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 8,
+   "itens": [
+    {
+     "titulo": "SEFAZ VIRTUAL RS",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "https://cgibs.gov.br/regulamento-do-ibs-e-publicado-na-pagina-do-comite-gestor-do-ibs",
+     "url": "https://cgibs.gov.br/regulamento-do-ibs-e-publicado-na-pagina-do-comite-gestor-do-ibs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-receita-federal-divulgam-orientacoes-sobre-a-entrada-em-vigor-da-cbs-e-do-ibs-em-1-de-janeiro-de-2026",
+     "url": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-receita-federal-divulgam-orientacoes-sobre-a-entrada-em-vigor-da-cbs-e-do-ibs-em-1-de-janeiro-de-2026",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "https://www.cgibs.gov.br/cartilha-orientativa-para-emissao-da-nf-e-do-ibs-volume-1",
+     "url": "https://www.cgibs.gov.br/cartilha-orientativa-para-emissao-da-nf-e-do-ibs-volume-1",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "https://dfe-portal.svrs.rs.gov.br/Cff/ValidadorRtcNfe",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Cff/ValidadorRtcNfe",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "https://dfe-portal.svrs.rs.gov.br/CFF/ValidadorRTC",
+     "url": "https://dfe-portal.svrs.rs.gov.br/CFF/ValidadorRTC",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria",
+     "url": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaCreditoPresumido",
+     "url": "https://dfe-portal.svrs.rs.gov.br/DFE/TabelaCreditoPresumido",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "Portal NF-e - Informes/NTs",
+   "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 6,
+   "itens": [
+    {
+     "titulo": "Conheça a NF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaSubMenu.aspx?Id=6H4uVlIEaKs=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consultar NF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Atos RFB/CGIBS",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=ECxaPvwFHQE=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Atos Técnicos RFB/CGIBS",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=hXHrw4cadF8=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Visualizador de DF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Central de Atendimento",
+     "url": "https://www.serpro.gov.br/menu/suporte/central-de-atendimento-serpro-nfe-cte",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Regulamentos",
+   "url": "https://www.cgibs.gov.br/regulamentos",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 5,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Res CGIBS N 6, 30 abr 2026 Regulamenta o IBS (.pdf 2,76 MBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "SEI MGI 60959979 Portaria Conjunta (.pdf 100,91 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30094136-sei-mgi-60959979-portaria-conjunta.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "Resolução CGIBS Nº 13, de 22 de julho de 2026 (.pdf 469,88 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/22121010-resolucao-cgibs-n-13-de-22-de-julho-de-2026.pdf",
+     "data": "2026-07-22",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "Em construção",
+     "url": "https://www.cgibs.gov.br/regulamento-aaaaaaaa",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "Em construção."
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Leis",
+   "url": "https://www.cgibs.gov.br/leis",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 1,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Relatorios",
+   "url": "https://www.cgibs.gov.br/relatorios",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 3,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Relatorios Fiscais CG IBS atualizado assinado (.pdf 2,95 MBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/15185302-relatorios-fiscais-cg-ibs-atualizado-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "balanço geral CGIBS 2025 assinado (1) (.pdf 563,60 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/16130427-balanco-geral-cgibs-2025-assinado-1.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    }
+   ]
+  }
+ ]
+}
