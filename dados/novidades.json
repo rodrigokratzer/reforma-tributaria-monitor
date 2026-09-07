@@ -1,7 +1,27 @@
 {
- "data": "2026-09-04",
- "quantidade": 0,
- "itens": [],
+ "data": "2026-09-07",
+ "quantidade": 2,
+ "itens": [
+  {
+   "primeira_vez": "2026-09-07",
+   "fonte": "CGIBS - Noticias",
+   "titulo": "CGIBS e Receita Federal publicam versão 1.2.0 da documentação técnica da Declaração de Regimes Específicos",
+   "url": "https://www.cgibs.gov.br/cgibs-e-receita-federal-publicam-versao-1-2-0-da-documentacao-tecnica-da-dere",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "texto": "O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) comunicam a publicação da versão 1.2.0 do pacote de documentação técnica da Declaração de Regimes Específicos (DeRE). A medida foi aprovada pelo Ato Técnico Conjunto RFB/SUFIS/CGIBS/DIRETORIA-EXECUTIVA nº 3, de 2 de setembro de 2026, que também ratifica tecnicamente os termos da Nota Orientativa DeRE nº 2026.001.\n\nA versão 1.2.0 institui o controle de deduções da base de cálculo, a reabertura de períodos encerrados e a versão inicial dos leiautes dos eventos transacionais para identificação individualizada de adquirentes e destinatários.\n\nLeiautes dos Eventos Transacionais e evolução incremental\n\nA versão 1.2.0 disponibiliza os leiautes dos eventos periódicos transacionais (séries D-2000, D-3000 e D-4000). Essa estrutura foi projetada para viabilizar a identificação de tomadores, credenciados e beneficiários, em atendimento ao princípio do destino, ao direito à apropriação de créditos pelo adquirente e à operacionalização da devolução personalizada (cashback), em conformidade com a Lei Complementar nº 214/2025.\n\nRessalta-se que os eventos transacionais disponibilizados nesta versão correspondem à primeira etapa de implementação da escrituração transacional da DeRE. A expansão estrutural desses eventos e o acréscimo gradual de novos campos e críticas de validação serão executados de forma incremental nas próximas versões da DeRE, assegurando previsibilidade e tempo hábil para a adequação dos sistemas emissores.\n\nDisponibilização da documentação técnica e atualização do Manual (MOD)\n\nEsta publicação contempla exclusivamente a documentação técnica voltada à programação, recepção estruturada e parametrização dos sistemas corporativos:\n\n02 - Leiautes da DeRE – Eventos (v.1.2.0): Especificação técnica dos eventos de tabela, periódicos mensais, periódicos transacionais e totalizadores de retorno;\n\n03 - Leiautes da DeRE – Anexo I – Tabelas (v.1.2.0): Relação atualizada de tabelas de domínio, incluindo Códigos de Tributação (codTrib), Códigos de Base de Cálculo (codBC), Tabela de Países e planos de contas referenciais;\n\n04 - Leiautes da DeRE – Anexo II – Regras de Validação (v.1.2.0): Documento unificado contendo o catálogo de regras de consistência e mensagens de erro do sistema;\n\n06 - Arquivos XSD (XML Schema Definition): Esquemas formais para validação sintática e estrutural dos arquivos XML.\n\nO Manual de Orientação do Usuário (MOD), com as instruções de preenchimento da declaração e o detalhamento dos novos eventos transacionais, não acompanha esta publicação e será disponibilizado em ato conjunto subsequente.\n\nAcesso à documentação: \n\nA documentação técnica completa da da DeRE está disponível no portal oficial do Comitê Gestor do IBS e no Portal SPED da RFB.\n\nPara acessar a documentação, clique aqui.\n\n \n\nComitê Gestor do Imposto sobre Bens e Serviços\n\nSecretaria Especial da Receita Federal do Brasil"
+  },
+  {
+   "primeira_vez": "2026-09-07",
+   "fonte": "CGIBS - Atos Tecnicos Conj.",
+   "titulo": "Ato Tecnico Conjunto n 3 DeRE (.pdf 877,73 KBytes)",
+   "url": "https://www.cgibs.gov.br/upload/arquivos/202609/04223716-ato-tecnico-conjunto-n-3-dere.pdf",
+   "data": null,
+   "pasta_arquivo": "2026-09",
+   "alerta": null
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
