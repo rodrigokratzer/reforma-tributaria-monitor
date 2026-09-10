@@ -1,8 +1,10 @@
 {
- "data": "2026-09-09",
+ "data": "2026-09-10",
  "quantidade": 0,
  "itens": [],
- "fontes_com_erro": [],
+ "fontes_com_erro": [
+  "DOU (INLABS)"
+ ],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
  "fontes_puladas": []

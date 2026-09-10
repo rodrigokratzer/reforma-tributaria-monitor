@@ -1,0 +1,13 @@
+{
+ "data": "2026-09-10",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": null,
+   "total": 0,
+   "itens": [],
+   "erro": "RuntimeError: login do INLABS falhou apos 30 tentativas: RemoteDisconnected: Remote end closed connection without response"
+  }
+ ]
+}
