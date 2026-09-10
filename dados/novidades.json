@@ -1,7 +1,26 @@
 {
- "data": "2026-09-09",
- "quantidade": 0,
- "itens": [],
+ "data": "2026-09-10",
+ "quantidade": 2,
+ "itens": [
+  {
+   "primeira_vez": "2026-09-10",
+   "fonte": "CGIBS - Atos Conjuntos",
+   "titulo": "ATO CONJUNTO RFB CGIBS Nº 1, DE 22 DE DEZEMBRO DE 2025 (.pdf 160,22 KBytes)",
+   "url": "https://www.cgibs.gov.br/upload/arquivos/202609/09104120-ato-conjunto-rfb-cgibs-n-1-de-22-de-dezembro-de-2025.pdf",
+   "data": "2025-12-22",
+   "pasta_arquivo": "2026-09",
+   "alerta": "data declarada (2025-12-22) esta 9 meses antes da publicacao do arquivo (2026-09); provavel erro de cadastro na fonte — conferir o texto oficial antes de reportar"
+  },
+  {
+   "primeira_vez": "2026-09-10",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "DeRE - Receita Federal publica versão 1.2.0 da documentação técnica da DeRE",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/dere-receita-federal-publica-versao-1-2-0-da-documentacao-tecnica-da-dere",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
