@@ -2470,5 +2470,14 @@
   "continuacao": false,
   "alerta": null,
   "pasta_arquivo": null
+ },
+ "3ace7b390f48b828": {
+  "primeira_vez": "2026-09-11",
+  "fonte": "Portal DF-e SVRS - Noticias",
+  "titulo": "COORDENAÇÃO TÉCNICA DO ENCAT",
+  "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null
  }
 }
