@@ -1,12 +1,22 @@
 {
- "data": "2026-09-11",
- "quantidade": 1,
+ "data": "2026-09-14",
+ "quantidade": 2,
  "itens": [
   {
-   "primeira_vez": "2026-09-11",
-   "fonte": "Portal DF-e SVRS - Noticias",
-   "titulo": "COORDENAÇÃO TÉCNICA DO ENCAT",
-   "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#",
+   "primeira_vez": "2026-09-14",
+   "fonte": "CGIBS - Noticias",
+   "titulo": "Comitê Gestor do IBS publica Editais de Chamamento Público para a celebração de Acordos de Cooperação Técnica",
+   "url": "https://www.cgibs.gov.br/comite-gestor-publica-editais-de-chamamento-publico-para-a",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "texto": "O Comitê Gestor do Imposto sobre Bens e Serviços publicou nesta sexta-feira (11/09) três Editais de Chamamento Público, destinados à seleção de entes federados com o intuito de celebrar de Acordos de Cooperação Técnica com o CGIBS.\n\nO primeiro deles busca entes interessados em colaborar com o desenvolvimento do ANDIC - Ambiente Nacional de Dados e Informações Cadastrais, destinado à constituição e manutenção de um ambiente nacional de dados cadastrais, componente do Ambiente Nacional de Dados compartilhado entre a Receita Federal do Brasil (RFB) e o Comitê Gestor do IBS (CGIBS). \n\nO Edital de Chamamento Público 2 convida os entes federados à apresentação de proposições para participação no desenvolvimento do Módulo de Repositório Nacional de DF-es, RIBS (Resumo do IBS) e Compartilhamento de Documentos Fiscais Eletrônicos e Declarações alinhado e compatível com os sistemas e módulos já implementados pelos entes federativos, especialmente no que se refere à Apuração, Arrecadação e Distribuição do IBS.\n\nPor sua vez, para participar do terceiro Edital de Chamamento Público é preciso apresentar propostas técnicas de participação colaborativa no desenvolvimento do Sistema de Ressarcimento do IBS, destinado à operacionalização dos procedimentos de ressarcimento de saldos credores do IBS, nos termos dos arts. 39 e 40 da Lei Complementar nº 214/2025. \n\nAs soluções deverão assegurar interoperabilidade, disponibilidade, segurança, integração, sincronização, desempenho e a integridade das informações referentes aos modelos propostos. \n\nOs resultados dos Chamamentos para Manifestação de Interesse regidos pelos Editais terão validade de 12 meses, contados da data de homologação do resultado definitivo, podendo, a critério do CGIBS, ser renovado por igual período.   \n\nO texto completo dos Editais de Chamamento 1, 2 e 3 podem ser conferidos aqui!"
+  },
+  {
+   "primeira_vez": "2026-09-14",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "Conformidade",
+   "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/paineis/conformidade",
    "data": null,
    "pasta_arquivo": null,
    "alerta": null
