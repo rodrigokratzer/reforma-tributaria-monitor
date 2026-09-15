@@ -2820,5 +2820,33 @@
   "continuacao": false,
   "alerta": null,
   "pasta_arquivo": null
+ },
+ "f31d5fd1ca40e2ae": {
+  "primeira_vez": "2026-09-15",
+  "fonte": "CGIBS - Noticias",
+  "titulo": "Prazo para opção pelo Simples Nacional e escolha do modelo de recolhimento do IBS e da CBS para 2027 termina no dia 30/09",
+  "url": "https://www.cgibs.gov.br/prazo-para-opcao-pelo-simples-nacional-e-escolha-do-modelo-de-recolhimento-do-ibs-e-da-cbs-em-2027-termina-em-30-de-setembro",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null,
+  "texto": "O prazo para que microempresas e empresas de pequeno porte realizem a opção pelo Simples Nacional para o ano-calendário de 2027 e, também, para que as empresas já optantes pelo regime, ou que venham a optar, façam sua escolha quanto à forma de recolhimento da Contribuição sobre Bens e Serviços (CBS) e do Imposto sobre Bens e Serviços (IBS), vai até o dia 30 de setembro.  \n\nEmpresas que desejam ingressar no Simples Nacional em 2027\n\nEmpresas que atualmente não são optantes pelo Simples Nacional e desejam aderir ao regime no próximo ano, devem formalizar a solicitação até o dia 30 de setembro de 2026. Se deferida, produzirá efeitos a partir de 1º de janeiro de 2027.\n\nÉ fundamental o pleiteante verificar previamente a existência de eventuais pendências cadastrais ou fiscais que possam impedir o ingresso no regime.\n\nEmpresas já optantes pelo Simples Nacional\n\nEmpresas que já integram o Simples Nacional não precisam realizar nova opção para permanecer no regime, salvo se existente no cadastro um registro de exclusão futura.\n\nEntretanto, o pleiteante deverá avaliar se deseja manter a CBS e o IBS dentro do recolhimento unificado do Simples Nacional ou se prefere recolher esses tributos pelo regime regular.\n\nEntenda as opções: Simples Nacional \"puro\" e \"híbrido\"\n\nCom a chegada da CBS e do IBS, surge uma nova possibilidade para as empresas optantes pelo Simples Nacional.\n\nSimples Nacional \"puro\"\n\nNesse modelo, a empresa continua recolhendo todos os tributos abrangidos pelo regime na guia única do Simples Nacional, incluindo CBS e IBS.\n\nSe a empresa não exercer nenhuma opção específica em setembro, essa será a sistemática aplicável no primeiro semestre de 2027.\n\nSimples Nacional \"híbrido\"\n\nA empresa permanece enquadrada no Simples Nacional para os demais tributos, mas escolhe recolher CBS e IBS pelo regime regular, fora da guia única.\n\nEssa alternativa pode ser especialmente relevante para empresas que realizam operações com outras pessoas jurídicas e desejam possibilitar o aproveitamento mais amplo de créditos pelos seus clientes. A avaliação deve considerar as características específicas de cada negócio.\n\nAtenção: a decisão produz efeitos para o primeiro semestre de 2027\n\nA escolha realizada em setembro de 2026 em relação à CBS e ao IBS produzirá efeitos entre janeiro e junho de 2027. Caso o contribuinte não opte pelo regime regular nesse período, os novos tributos permanecerão incluídos no Simples Nacional.\n\nA regulamentação prevê ainda nova oportunidade de opção em março de 2027, com efeitos para o segundo semestre daquele ano.\n\nPossibilidade de desistência\n\nA legislação traz a oportunidade de cancelamento de ambas as opções, ou seja, pelo Simples Nacional e de apuração no regime “híbrido”, até 30 de novembro, caso o contribuinte se arrependa de uma ou mesmo das duas escolhas.\n\nEmpresas em início de atividade\n\nPara as empresas cuja inscrição no CNPJ ocorrer entre 1º de outubro e 31 de dezembro de 2026, a legislação prevê tratamento específico.\n\nNesses casos, a opção pelo Simples Nacional efetuada no momento da abertura da empresa produzirá efeitos tanto para o período remanescente de 2026 quanto para todo o ano de 2027.\n\nMEI\n\nPara o empresário individual, não mudou o prazo! O período de solicitação de opção para se tornar ou permanecer sendo MEI permanece em janeiro. Também não existe opção por regime regular ou híbrido em relação à CBS e ao IBS.\n\nBase legal\n\n - Lei Complementar nº 214, de 2025.\n\n - Resolução CGSN nº 186, de 2026.\n\n - Resoluções CGSN nº 190 e nº 191, de 2026.\n\nFonte: RFB e CGIBS"
+ },
+ "ef1d82392ceef683": {
+  "primeira_vez": "2026-09-15",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Receita Federal disponibiliza opção pelo regime específico do IBS e da CBS das sociedades cooperativas",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-disponibiliza-opcao-pelo-regime-especifico-do-ibs-e-da-cbs-das-sociedades-cooperativas",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null
+ },
+ "b7a96023e22628b7": {
+  "primeira_vez": "2026-09-15",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Receita Federal publica nova documentação técnica das APIs de apuração da CBS",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-publica-nova-documentacao-tecnica-das-apis-de-apuracao-de-cbs",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null
  }
 }
