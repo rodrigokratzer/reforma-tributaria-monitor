@@ -4,8 +4,14 @@ on:
   schedule:
     # 09:40 UTC = 06:40 em Brasília (UTC-3), de segunda a sexta.
     # Roda ~20 min antes do e-mail das 07h para o dado já estar no ar.
-    # O cron do GitHub é "melhor esforço" e pode atrasar em horário de pico.
     - cron: "40 9 * * 1-5"
+    # Rede de segurança: às vezes o cron do GitHub não é só "melhor esforço e
+    # atrasa" — em 2026-09-15 ele simplesmente não disparou (nenhum run com
+    # evento "schedule" naquele dia). Este segundo horário, 1h depois, repete
+    # a varredura só quando o arquivo do dia ainda não existe (ver passo
+    # "Verificar se já varreu hoje" abaixo), então não dobra o trabalho nos
+    # dias em que o primeiro horário funcionou.
+    - cron: "40 10 * * 1-5"
   workflow_dispatch:        # permite disparar na mão pela aba Actions
   push:
     paths:
@@ -40,9 +46,23 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps chromium
 
+      - name: Verificar se já varreu hoje
+        id: checar
+        if: github.event_name == 'schedule'
+        run: |
+          hoje=$(date -u +%F)
+          if [ -f "dados/${hoje}.json" ]; then
+            echo "ja_rodou=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ja_rodou=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Varrer fontes oficiais
         id: varrer
-        if: github.event_name != 'push'   # push só precisa regenerar o painel, não re-varrer
+        # push só precisa regenerar o painel, não re-varrer. Em "schedule",
+        # só varre se o arquivo do dia ainda não existe (ver cron acima) —
+        # workflow_dispatch sempre força, para permitir re-rodar na mão.
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && steps.checar.outputs.ja_rodou != 'true')
         env:
           # Sem estes secrets a varredura roda igual: o DOU e' pulado e aparece
           # como fonte sem credencial. As 12 fontes web nao dependem disto.
