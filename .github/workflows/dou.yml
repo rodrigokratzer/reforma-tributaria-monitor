@@ -1,10 +1,10 @@
 name: DOU (INLABS)
 
 # Separado da Varredura Reforma Tributária de proposito: roda mais cedo
-# (02:00 Brasília) para não concorrer por horário com os outros 12 portais
-# às 06:40, e tem orçamento de tempo próprio — o login do INLABS pode levar
-# até 30 tentativas com espera crescente (até 120s cada) para superar
-# manutenção programada.
+# (01:07 Brasília) para não concorrer por horário com os outros 12 portais
+# (02:10) nem com o catch-up (03:15), e tem orçamento de tempo próprio — o
+# login do INLABS pode levar até 30 tentativas com espera crescente (até
+# 120s cada) para superar manutenção programada.
 on:
   schedule:
     # Fora do início exato da hora de propósito: o GitHub documenta que
@@ -12,7 +12,7 @@ on:
     # atrasar ou ser pulado silenciosamente nesses horários — foi o que
     # aconteceu em 27-28/08/2026, quando o agendamento parou de disparar
     # por dois dias seguidos sem erro nenhum.
-    - cron: "7 5 * * 1-5"   # 05:07 UTC ~= 02:07 Brasília, dias úteis
+    - cron: "7 4 * * 1-5"   # 04:07 UTC ~= 01:07 Brasília, dias úteis
   workflow_dispatch:        # permite disparar na mão pela aba Actions
 
 permissions:

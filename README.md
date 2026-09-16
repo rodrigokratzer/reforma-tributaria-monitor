@@ -23,7 +23,8 @@ publicados normalmente.
 
 ## O que ele varre
 
-**Doze fontes web, todo dia útil às 06:40 (Brasília):**
+**Doze fontes web, todo dia útil às 02:10 (Brasília), com um catch-up às 03:15
+caso o horário principal seja pulado pelo agendador do GitHub:**
 
 - **CGIBS** — notícias, leis, resoluções, regulamentos, portarias, atos conjuntos,
   atos técnicos conjuntos e relatórios
@@ -39,7 +40,7 @@ também têm o texto completo capturado na hora da coleta, para a análise diár
 ler o texto do repositório em vez de depender de busca externa — mesmo ganho
 que a Parte A trouxe para o DOU.
 
-**DOU (via INLABS), separado, às 02:00 (Brasília):** a edição completa do
+**DOU (via INLABS), separado, às 01:07 (Brasília):** a edição completa do
 Diário Oficial, em workflow próprio — não compete por horário com os outros
 12 portais nem com o orçamento de tempo deles. Ver
 [DOU: coleta separada, com mais retentativa](#dou-coleta-separada-com-mais-retentativa)
@@ -73,12 +74,12 @@ automática (continua aceitando `analises/AAAA-MM-DD.md` escrito à mão). Ver
 ## Estrutura
 
 ```
-scripts/varredura.py          orquestra a coleta das 12 fontes web (06:40)
+scripts/varredura.py          orquestra a coleta das 12 fontes web (02:10, catch-up 03:15)
 scripts/portais/              cada fonte web como objeto Portal — base.py tem a
                                mecânica de coleta e os pontos de extensão,
                                cgibs.py a subclasse que lê o texto das notícias,
                                registro.py a lista PORTAIS das 12 instâncias
-scripts/dou_diario.py         coleta o DOU via INLABS, separado (02:00)
+scripts/dou_diario.py         coleta o DOU via INLABS, separado (01:07)
 scripts/dou.py                login e classificação do DOU — compartilhado por
                                dou_diario.py e scripts/medir_inlabs.py
 scripts/lacuna_analise.py     identifica o que falta analisar desde a última
@@ -241,9 +242,9 @@ não credencial (25/08/2026), com a mesma credencial funcionando pouco depois.
 `scripts/dou.py` agora tenta até **30 vezes**, com espera crescente até um teto
 de **120s** entre tentativas — e repete nos dois casos, não só em 5xx (ver
 "Decisões de projeto" acima). Coleta separada dos 12 portais web, workflow
-próprio às 02:00 Brasília (`.github/workflows/dou.yml`), com orçamento de tempo
+próprio às 01:07 Brasília (`.github/workflows/dou.yml`), com orçamento de tempo
 de 60 minutos — dá margem para o login se recuperar sem atrapalhar a varredura
-principal das 06:40 nem concentrar tudo no mesmo horário de pico de acesso aos
+principal das 02:10 nem concentrar tudo no mesmo horário de pico de acesso aos
 portais `.gov.br`.
 
 **E uma coisa que o DOU não resolve:** o esclarecimento do CGIBS de 06/08/2026

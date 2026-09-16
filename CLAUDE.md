@@ -55,8 +55,9 @@ No linter or formatter is configured.
 
 ### Data flow
 
-1. `scripts/varredura.py` (web sources, 06:40 BRT weekdays) and `scripts/dou_diario.py`
-   (DOU, 02:00 BRT weekdays) both call the shared `grava_resultado()` in
+1. `scripts/varredura.py` (web sources, 02:10 BRT weekdays, plus a 03:15 catch-up
+   that only re-scrapes if the day's file is still missing) and `scripts/dou_diario.py`
+   (DOU, 01:07 BRT weekdays) both call the shared `grava_resultado()` in
    `scripts/varredura.py` to write their results.
 2. **The two collectors never write the same file.** Web writes
    `dados/AAAA-MM-DD.json` + `dados/novidades.json`; DOU writes
@@ -96,13 +97,15 @@ busca externa (que costuma vir bloqueada).
 
 ### GitHub Actions workflows
 
-- `.github/workflows/varredura.yml` — scrapes the 12 web sources on a cron
-  (weekdays), regenerates the panel, commits. Also fires on `push` to
+- `.github/workflows/varredura.yml` — scrapes the 12 web sources on two crons
+  (weekdays): 02:10 BRT, plus a 03:15 catch-up that only re-scrapes if the
+  day's `dados/AAAA-MM-DD.json` doesn't exist yet (the GitHub cron scheduler
+  can silently skip a run — see Gotchas). Also fires on `push` to
   `estado.json`, `analises/**`, `dados/analise_status.json`, `dados/*-dou.json`,
-  `dados/novidades_dou.json`, or `scripts/**` — but the scrape step is skipped on
-  `push` (`if: github.event_name != 'push'`) so it only regenerates the panel, it
-  never re-scrapes.
-- `.github/workflows/dou.yml` — scrapes the DOU on its own cron (02:00 BRT), with
+  `dados/novidades_dou.json`, or `scripts/**`, and on `workflow_dispatch`. The
+  scrape step only runs for `workflow_dispatch` or a `schedule` event that
+  still needs to scrape — `push` always just regenerates the panel.
+- `.github/workflows/dou.yml` — scrapes the DOU on its own cron (01:07 BRT), with
   its own 60-minute budget, decoupled from the web scrape's timing and time budget.
 - `.github/workflows/medicao-inlabs.yml` — one-off recall measurement against the
   full DOU corpus. Self-retires: skips its body once `dados/medicao_inlabs.json`

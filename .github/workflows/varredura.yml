@@ -2,23 +2,26 @@ name: Varredura Reforma Tributária
 
 on:
   schedule:
-    # 09:40 UTC = 06:40 em Brasília (UTC-3), de segunda a sexta.
-    # Roda ~20 min antes do e-mail das 07h para o dado já estar no ar.
-    - cron: "40 9 * * 1-5"
+    # 05:10 UTC = 02:10 em Brasília (UTC-3), de segunda a sexta — 1h depois
+    # do DOU (01:07) para não concorrer por horário com ele, e bem antes do
+    # e-mail das 07h para o dado já estar no ar.
+    - cron: "10 5 * * 1-5"
     # Rede de segurança: às vezes o cron do GitHub não é só "melhor esforço e
-    # atrasa" — em 2026-09-15 ele simplesmente não disparou (nenhum run com
-    # evento "schedule" naquele dia). Este segundo horário, 1h depois, repete
-    # a varredura só quando o arquivo do dia ainda não existe (ver passo
-    # "Verificar se já varreu hoje" abaixo), então não dobra o trabalho nos
-    # dias em que o primeiro horário funcionou.
-    - cron: "40 10 * * 1-5"
+    # atrasa" — em 2026-09-15 e 2026-09-16 ele simplesmente não disparou
+    # (nenhum run com evento "schedule" nesses dias). Este segundo horário,
+    # 1h depois, repete a varredura só quando o arquivo do dia ainda não
+    # existe (ver passo "Verificar se já varreu hoje" abaixo), então não
+    # dobra o trabalho nos dias em que o primeiro horário funcionou. Os
+    # minutos (:10 e :15) são de propósito fora do início exato da hora —
+    # ver comentário equivalente em dou.yml sobre o incidente de 27-28/08.
+    - cron: "15 6 * * 1-5"
   workflow_dispatch:        # permite disparar na mão pela aba Actions
   push:
     paths:
       - "estado.json"       # editou a camada curada? regenera o painel
       - "analises/**"
       - "dados/analise_status.json"   # status da rotina de análise, mesmo em dia sem novidade
-      - "dados/*-dou.json"   # coleta do DOU (workflow próprio, 02:00) publicou resultado
+      - "dados/*-dou.json"   # coleta do DOU (workflow próprio, 01:07) publicou resultado
       - "dados/novidades_dou.json"
       - "scripts/**"
 
