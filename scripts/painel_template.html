@@ -4,41 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Painel — Reforma Tributária</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lora:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root{
     color-scheme: light;
-    --surface-1:#fcfcfb; --plane:#f9f9f7;
-    --ink-1:#0b0b0b; --ink-2:#52514e; --ink-3:#898781;
-    --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --surface-1:#ffffff; --plane:#ededed;
+    --ink-1:#1c2c39; --ink-2:#4d5e6b; --ink-3:#7c8791;
+    --grid:#e4ddd0; --axis:#cfc6b4; --border:rgba(28,44,57,0.12);
     --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
-    --s1:#2a78d6; --wash:rgba(11,11,11,0.035);
+    --s1:#c49f74; --wash:rgba(28,44,57,0.035);
   }
   @media (prefers-color-scheme: dark){
     :root:where(:not([data-theme="light"])){
       color-scheme: dark;
-      --surface-1:#1a1a19; --plane:#0d0d0d;
-      --ink-1:#ffffff; --ink-2:#c3c2b7; --ink-3:#898781;
-      --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
-      --s1:#3987e5; --wash:rgba(255,255,255,0.04);
+      --surface-1:#24333f; --plane:#1c2c39;
+      --ink-1:#ededed; --ink-2:#b7c2ca; --ink-3:#8996a1;
+      --grid:#2f3f4c; --axis:#3c4d5a; --border:rgba(237,237,237,0.12);
+      --s1:#c49f74; --wash:rgba(237,237,237,0.045);
     }
   }
   :root[data-theme="dark"]{
     color-scheme: dark;
-    --surface-1:#1a1a19; --plane:#0d0d0d;
-    --ink-1:#ffffff; --ink-2:#c3c2b7; --ink-3:#898781;
-    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
-    --s1:#3987e5; --wash:rgba(255,255,255,0.04);
+    --surface-1:#24333f; --plane:#1c2c39;
+    --ink-1:#ededed; --ink-2:#b7c2ca; --ink-3:#8996a1;
+    --grid:#2f3f4c; --axis:#3c4d5a; --border:rgba(237,237,237,0.12);
+    --s1:#c49f74; --wash:rgba(237,237,237,0.045);
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--plane);color:var(--ink-1);
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.55}
+    font-family:'Inter',system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.55}
   .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 64px}
   header.top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
-  h1{font-size:22px;margin:0 0 2px;letter-spacing:-0.01em}
+  h1{font-family:'Lora',Georgia,serif;font-size:24px;font-weight:600;margin:0 0 2px;letter-spacing:-0.01em}
   .sub{color:var(--ink-2);font-size:13.5px;margin:0}
   .toggle{border:1px solid var(--border);background:var(--surface-1);color:var(--ink-2);
     border-radius:8px;padding:6px 11px;font-size:12.5px;cursor:pointer;font-family:inherit}
-  .toggle:hover{background:var(--wash)}
+  .toggle:hover{background:var(--wash);border-color:var(--s1);color:var(--s1)}
   h2{font-size:12px;text-transform:uppercase;letter-spacing:0.07em;color:var(--ink-3);
     margin:34px 0 12px;font-weight:600}
   .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(196px,1fr));gap:12px}
@@ -54,9 +57,9 @@
   .chip .dot{width:7px;height:7px;border-radius:50%}
   .card{background:var(--surface-1);border:1px solid var(--border);border-radius:12px;padding:18px 20px}
   .card + .card{margin-top:12px}
-  .analise h1,.analise h2{font-size:15px;text-transform:none;letter-spacing:0;color:var(--ink-1);
-    margin:20px 0 8px;font-weight:650}
-  .analise h3{font-size:14px;margin:16px 0 4px}
+  .analise h1,.analise h2{font-family:'Lora',Georgia,serif;font-size:16px;text-transform:none;letter-spacing:0;color:var(--ink-1);
+    margin:20px 0 8px;font-weight:600}
+  .analise h3{font-family:'Lora',Georgia,serif;font-size:15px;margin:16px 0 4px;font-weight:600}
   .analise p{margin:0 0 10px}
   .analise ul{margin:0 0 12px;padding-left:20px}
   .analise li{margin-bottom:5px}
@@ -105,6 +108,8 @@
   a.inline:hover{border-bottom-color:currentColor}
   footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--grid);
     font-size:12px;color:var(--ink-3)}
+  footer .marca{display:flex;justify-content:center;margin:22px 0 18px}
+  footer .marca img{height:34px;width:auto;opacity:0.85}
   .vazio{color:var(--ink-2);font-size:14px;margin:0}
   @media (max-width:560px){ .ev{grid-template-columns:80px 14px 1fr} }
 </style>
@@ -162,6 +167,7 @@
        texto enviado por e-mail. <strong>Proposta não é norma vigente</strong>: resolução do CGIBS
        que propõe percentual não fixa alíquota, e estimativa divulgada na imprensa não é norma.</p>
     <p id="gerado"></p>
+    <div class="marca"><img src="assets/logo-carolina-loth.png" alt="Carolina Loth" loading="lazy"></div>
   </footer>
 </div>
 
