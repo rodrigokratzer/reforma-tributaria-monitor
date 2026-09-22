@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": null,
+   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
    "total": 9,
    "itens": [
     {
@@ -78,7 +78,8 @@
      "url": "https://www.cgibs.gov.br/cgibs-e-rfb-esclarecem-prazos-de-cumprimento-das-obrigacoes-relativas-a-dere-estabelecidos-pelo-ato-conjunto-n-4",
      "data": null,
      "pasta_arquivo": null,
-     "alerta": null
+     "alerta": null,
+     "texto": "O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) esclarecem aos contribuintes e desenvolvedores de sistemas as diretrizes de envio e os prazos de cumprimento das obrigações relativas à DeRE, estabelecidos pelo Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026.\n\n1. Marco Inicial de Recepção dos Eventos de Tabela (D-1001 e D-1011)\n\nA data de 1º de outubro de 2026 estabelecida no art. 1º, XVII, \"a\", do Ato Conjunto nº 4/2026 constitui o termo inicial de recepção e vigência cadastral, e não uma data limite de entrega.\n\nAbertura do Sistema: A partir de 01/10/2026, o Ambiente da DeRE passa a recepcionar os eventos de tabela:\n\nD-1001 – Informações do Contribuinte; e\n\nD-1011 – Plano Geral de Contas Comentado (PGCC).\n\nPrazo-Limite de Envio: A transmissão dos eventos de tabela pode ser realizada a partir de 01/10/2026 e deve estar concluída e processada com sucesso antes da transmissão dos Eventos Periódicos Mensais relativos à competência outubro de 2026, os quais têm data limite em 15/11/2026.\n\n2. Cronograma de Entrega dos Eventos Periódicos Mensais\n\nA primeira escrituração contábil-fiscal mensal (competência outubro de 2026) deverá ser entregue até 15 de novembro de 2026, abrangendo o conjunto de eventos periódicos aplicáveis:\n\nD-1101 – Balancete Mensal;\n\nD-1106 – Identificação de Aplicações Financeiras (quando houver obrigatoriedade);\n\nD-1121 – Relação de Deduções Utilizadas na Apuração;\n\nD-2101 – Débito em Operações com Títulos de Dívida com Oferta Pública (quando aplicável ao setor financeiro); e\n\nD-1199 – Fechamento Mensal (consolidador da escrituração e confissão de dívida).\n\nNota: Conforme o Manual de Orientação da DeRE (Cap. III, item 2.1.2), a data-limite de entrega dos eventos periódicos mensais é fixada no dia 15 do mês subsequente, não sendo prorrogada caso recaia em sábado, domingo ou feriado.\n\nOrientações para transmissão dos eventos\n\nEm observância às diretrizes estabelecidas na documentação técnica da DeRE, os Eventos de Tabela do Contribuinte devem ser transmitidos previamente à entrega dos Eventos Periódicos Mensais correspondentes, de forma a assegurar que as informações cadastrais e estruturantes estejam devidamente recepcionadas e validadas antes do processamento dos eventos de natureza periódica.\n\nAdicionalmente, recomenda-se que eventos que possuam relação de dependência lógica não sejam transmitidos em um mesmo lote, especialmente quando a validação de um evento dependa de informações produzidas ou alteradas por outro evento ainda não processado com sucesso.\n\nComo exemplo, na hipótese de transmissão simultânea de uma atualização do D-1011 - Plano Geral de Contas Comentado (PGCC) e do D-1101 - Balancete Mensal, eventual rejeição do D-1011 não impedirá, necessariamente, o processamento do D-1101. Nessa situação, as validações do balancete poderão ser realizadas com base na versão do PGCC anteriormente vigente na base da DeRE.\n\nCom vistas a assegurar a consistência das informações prestadas, recomenda-se a observância da seguinte sequência operacional:\n\nTransmitir os Eventos de Tabela do Contribuinte (D-1001 e D-1011);\n\nAguardar e verificar o respectivo processamento com sucesso;\n\nCorrigir eventuais inconsistências apontadas pelo sistema;\n\nSomente após a confirmação da recepção e validação desses eventos transmitir os Eventos Periódicos Mensais.\n\nA observância dessas orientações contribuirá para a adequada execução das validações da DeRE, reduzindo a ocorrência de rejeições e de processamentos baseados em informações anteriormente vigentes na base de dados."
     }
    ]
   },
@@ -814,7 +815,8 @@
      "url": "https://www.cgibs.gov.br/regulamento-aaaaaaaa",
      "data": null,
      "pasta_arquivo": null,
-     "alerta": null
+     "alerta": null,
+     "texto": "Em construção."
     }
    ]
   },

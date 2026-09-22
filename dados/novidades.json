@@ -1,18 +1,7 @@
 {
  "data": "2026-09-22",
- "quantidade": 1,
- "itens": [
-  {
-   "primeira_vez": "2026-09-22",
-   "fonte": "CGIBS - Noticias",
-   "titulo": "Regimes Específicos: veja atualização dos esquemas XSD dos eventos D-1011 e D-1101 na Produção Restrita",
-   "url": "https://www.cgibs.gov.br/dere-atualizacao-dos-esquemas-xsd-dos-eventos-d-1011-e-d-1101-na-producao-restrita",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null,
-   "texto": "O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) comunicam a disponibilização do pacote técnico atualizado “06-Arquivos XSD (Produção Restrita - Empresas Piloto)”, destinado aos contribuintes e desenvolvedores participantes do ambiente de produção restrita da Declaração de Regimes Específicos (DeRE).\n\nA atualização promove a ampliação da capacidade volumétrica do grupo {infoConta} em dois eventos:\n\nEvento D-1011 – Plano Geral de Contas Comentado (v.1.0.3): expansão do limite de ocorrências (`maxOccurs`) de 50.000 para 150.000 contas;\n\nEvento D-1101 – Balancete Mensal (v.1.0.1): expansão do limite de ocorrências (`maxOccurs`) de 10.000 para 90.000 contas.\n\nCronograma de Disponibilização e Vigência\n\nSegunda-feira à noite (21/09/2026): Atualização dos esquemas nos servidores do ambiente de Produção Restrita;\n\nTerça-feira (22/09/2026): Início da vigência e recepção oficial dos arquivos XML com os novos limites volumétricos.\n\n \n\nOrientações Técnicas\n\nAs alterações limitam-se estritamente à cardinalidade máxima (`maxOccurs`) do grupo `{infoConta}`, permanecendo inalteradas as regras de negócio, tipos de dados e os demais campos dos leiautes. As empresas participantes devem atualizar seus esquemas locais para evitar rejeições a partir de terça-feira (22/09/2026).\n\n \n\nAcesso aos Arquivos\n\nO arquivo 06 Arquivos XSD (Produção Restrita Empresas Piloto) está disponível na página oficial da DeRE.\n\nPara acessar os documentos técnicos, clique aqui.\n\n \n\nComitê Gestor do Imposto sobre Bens e Serviços\n\nSecretaria Especial da Receita Federal do Brasil"
-  }
- ],
+ "quantidade": 0,
+ "itens": [],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
