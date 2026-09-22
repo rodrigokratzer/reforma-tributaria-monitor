@@ -1,0 +1,15 @@
+[Unit]
+Description=Reforma Tributaria - coleta do DOU (INLABS)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=rodrigo
+Group=rodrigo
+Environment=HOME=/home/rodrigo
+WorkingDirectory=/home/rodrigo/projects/reforma-tributaria-monitor
+EnvironmentFile=-/home/rodrigo/projects/reforma-tributaria-monitor/.env
+ExecStart=/home/rodrigo/projects/reforma-tributaria-monitor/scripts/rodar_dou.sh
+StandardOutput=journal
+StandardError=journal
