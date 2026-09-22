@@ -2,9 +2,7 @@
  "data": "2026-09-22",
  "quantidade": 0,
  "itens": [],
- "fontes_com_erro": [
-  "DOU (INLABS)"
- ],
+ "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
  "fontes_puladas": []
