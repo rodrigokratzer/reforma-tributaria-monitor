@@ -103,6 +103,12 @@ dados/                        gerado pelo robô — não editar à mão
 docs/index.html               o painel publicado — gerado, não editar à mão
 ```
 
+Esta instância específica do projeto roda com coleta e análise primárias
+num notebook dedicado, não só em GitHub Actions — ver
+[`docs/operacao-local.md`](docs/operacao-local.md) para como isso funciona
+na prática. O guia de fork logo abaixo continua valendo tal como está: só
+GitHub Actions, sem depender de máquina local nenhuma.
+
 **O que se edita à mão:** só `estado.json` (quando um prazo muda ou uma pendência
 é resolvida). `analises/` e `dados/analise_status.json` também podem ser
 editados à mão, mas normalmente são escritos pela rotina de análise diária.

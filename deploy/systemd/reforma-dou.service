@@ -1,0 +1,24 @@
+[Unit]
+Description=Reforma Tributaria - coleta do DOU (INLABS)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=rodrigo
+Group=rodrigo
+Environment=HOME=/home/rodrigo
+WorkingDirectory=/home/rodrigo/projects/reforma-tributaria-monitor
+EnvironmentFile=-/home/rodrigo/projects/reforma-tributaria-monitor/.env
+# As tres unidades compartilham um unico checkout git. Com Persistent=true,
+# um catch-up depois de o notebook ficar desligado pode disparar as tres
+# quase ao mesmo tempo, e ai elas brigariam pelo index/rebase do git. O
+# flock no mesmo arquivo de lock serializa: quem chega depois espera.
+ExecStart=/usr/bin/flock /run/lock/reforma-pipeline.lock /home/rodrigo/projects/reforma-tributaria-monitor/scripts/rodar_dou.sh
+# 1h: o login do INLABS pode levar ate 30 tentativas com espera crescente
+# (ate 120s cada), mesmo orcamento do workflow dou.yml. O default do
+# systemd (DefaultTimeoutStartUSec, 90s nesta maquina) mataria o servico
+# no meio. Folga tambem para esperar atras de outra unidade no flock.
+TimeoutStartSec=3600
+StandardOutput=journal
+StandardError=journal

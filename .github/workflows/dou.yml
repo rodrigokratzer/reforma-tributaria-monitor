@@ -7,12 +7,16 @@ name: DOU (INLABS)
 # 120s cada) para superar manutenção programada.
 on:
   schedule:
-    # Fora do início exato da hora de propósito: o GitHub documenta que
-    # "high load times include the start of each hour", e um cron pode
-    # atrasar ou ser pulado silenciosamente nesses horários — foi o que
-    # aconteceu em 27-28/08/2026, quando o agendamento parou de disparar
-    # por dois dias seguidos sem erro nenhum.
-    - cron: "7 4 * * 1-5"   # 04:07 UTC ~= 01:07 Brasília, dias úteis
+    # Plano B: a coleta primária do DOU agora roda no notebook lenovo-claude,
+    # todo dia às 01:07 Brasília (systemd timer, ver docs/operacao-local.md).
+    # Este workflow só age como rede de segurança, 3h depois — 07:10 UTC =
+    # 04:10 Brasília, todo dia — e só coleta de verdade se
+    # dados/AAAA-MM-DD-dou.json ainda não existir (ver "Verificar se já
+    # coletou hoje" abaixo). Fora do início exato da hora de propósito: o
+    # GitHub documenta que "high load times include the start of each hour",
+    # e um cron pode atrasar ou ser pulado silenciosamente nesses horários —
+    # foi o que aconteceu em 27-28/08/2026.
+    - cron: "10 7 * * *"
   workflow_dispatch:        # permite disparar na mão pela aba Actions
 
 permissions:
@@ -33,7 +37,31 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Verificar se já coletou hoje
+        id: checar
+        if: github.event_name == 'schedule'
+        run: |
+          hoje=$(date -u +%F)
+          arquivo="dados/${hoje}-dou.json"
+          # Existência do arquivo não basta: dou_diario.py grava um snapshot
+          # degradado ({"metodo": null, "erro": "sem credencial..."}) mesmo
+          # quando não conseguiu coletar nada. Se o notebook local gravar e
+          # empurrar um snapshot desses, o plano B precisa coletar mesmo
+          # assim — ele tem credencial própria (GitHub Secrets). Só pulamos
+          # quando alguma fonte tem "metodo" não-nulo, ou seja, quando algo
+          # foi de fato coletado.
+          if [ -f "$arquivo" ] && python3 -c "
+          import json, sys
+          d = json.load(open('$arquivo'))
+          sys.exit(0 if any(f.get('metodo') for f in d['fontes']) else 1)
+          "; then
+            echo "ja_rodou=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ja_rodou=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Coletar DOU (INLABS)
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && steps.checar.outputs.ja_rodou != 'true')
         env:
           INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
           INLABS_SENHA: ${{ secrets.INLABS_SENHA }}

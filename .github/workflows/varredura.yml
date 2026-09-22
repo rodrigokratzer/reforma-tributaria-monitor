@@ -2,19 +2,15 @@ name: Varredura Reforma Tributária
 
 on:
   schedule:
-    # 05:10 UTC = 02:10 em Brasília (UTC-3), de segunda a sexta — 1h depois
-    # do DOU (01:07) para não concorrer por horário com ele, e bem antes do
-    # e-mail das 07h para o dado já estar no ar.
-    - cron: "10 5 * * 1-5"
-    # Rede de segurança: às vezes o cron do GitHub não é só "melhor esforço e
-    # atrasa" — em 2026-09-15 e 2026-09-16 ele simplesmente não disparou
-    # (nenhum run com evento "schedule" nesses dias). Este segundo horário,
-    # 1h depois, repete a varredura só quando o arquivo do dia ainda não
-    # existe (ver passo "Verificar se já varreu hoje" abaixo), então não
-    # dobra o trabalho nos dias em que o primeiro horário funcionou. Os
-    # minutos (:10 e :15) são de propósito fora do início exato da hora —
-    # ver comentário equivalente em dou.yml sobre o incidente de 27-28/08.
-    - cron: "15 6 * * 1-5"
+    # Plano B: a coleta primária agora roda no notebook lenovo-claude, todo
+    # dia às 02:10 Brasília (systemd timer, ver docs/operacao-local.md). Este
+    # workflow só age como rede de segurança, 3h depois — 08:10 UTC = 05:10
+    # Brasília, todo dia (não só dia útil, porque fontes publicam fim de
+    # semana também) — e só coleta de verdade se dados/AAAA-MM-DD.json ainda
+    # não existir (ver "Verificar se já varreu hoje" abaixo). O minuto (:10)
+    # é de propósito fora do início exato da hora — ver comentário
+    # equivalente em dou.yml sobre o incidente de 27-28/08.
+    - cron: "10 8 * * *"
   workflow_dispatch:        # permite disparar na mão pela aba Actions
   push:
     paths:

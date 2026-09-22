@@ -1,0 +1,19 @@
+[Unit]
+Description=Reforma Tributaria - analise diaria automatizada (Claude)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=rodrigo
+Group=rodrigo
+Environment=HOME=/home/rodrigo
+WorkingDirectory=/home/rodrigo/projects/reforma-tributaria-monitor
+# Mesmo lock das outras duas unidades: um unico checkout git, uma unidade
+# por vez (ver comentario em reforma-dou.service).
+ExecStart=/usr/bin/flock /run/lock/reforma-pipeline.lock /home/rodrigo/projects/reforma-tributaria-monitor/scripts/rodar_analise_diaria.sh
+# 1h, uniforme nas tres unidades: cobre a propria execucao do claude -p
+# mais o tempo de espera atras de outra unidade no flock.
+TimeoutStartSec=3600
+StandardOutput=journal
+StandardError=journal
