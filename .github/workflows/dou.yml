@@ -42,7 +42,19 @@ jobs:
         if: github.event_name == 'schedule'
         run: |
           hoje=$(date -u +%F)
-          if [ -f "dados/${hoje}-dou.json" ]; then
+          arquivo="dados/${hoje}-dou.json"
+          # Existência do arquivo não basta: dou_diario.py grava um snapshot
+          # degradado ({"metodo": null, "erro": "sem credencial..."}) mesmo
+          # quando não conseguiu coletar nada. Se o notebook local gravar e
+          # empurrar um snapshot desses, o plano B precisa coletar mesmo
+          # assim — ele tem credencial própria (GitHub Secrets). Só pulamos
+          # quando alguma fonte tem "metodo" não-nulo, ou seja, quando algo
+          # foi de fato coletado.
+          if [ -f "$arquivo" ] && python3 -c "
+          import json, sys
+          d = json.load(open('$arquivo'))
+          sys.exit(0 if any(f.get('metodo') for f in d['fontes']) else 1)
+          "; then
             echo "ja_rodou=true" >> "$GITHUB_OUTPUT"
           else
             echo "ja_rodou=false" >> "$GITHUB_OUTPUT"

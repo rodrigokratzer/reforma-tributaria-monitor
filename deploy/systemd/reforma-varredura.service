@@ -9,7 +9,12 @@ User=rodrigo
 Group=rodrigo
 Environment=HOME=/home/rodrigo
 WorkingDirectory=/home/rodrigo/projects/reforma-tributaria-monitor
-ExecStart=/home/rodrigo/projects/reforma-tributaria-monitor/scripts/rodar_varredura.sh
-TimeoutStartSec=900
+# Mesmo lock das outras duas unidades: um unico checkout git, uma unidade
+# por vez (ver comentario em reforma-dou.service).
+ExecStart=/usr/bin/flock /run/lock/reforma-pipeline.lock /home/rodrigo/projects/reforma-tributaria-monitor/scripts/rodar_varredura.sh
+# 1h, uniforme nas tres unidades: o orcamento interno do varredura.py e de
+# 10 minutos, mas a unidade pode ficar esperando atras de outra no flock
+# antes de comecar o proprio trabalho.
+TimeoutStartSec=3600
 StandardOutput=journal
 StandardError=journal
