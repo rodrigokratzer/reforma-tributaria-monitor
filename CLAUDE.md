@@ -95,21 +95,22 @@ própria, uma subclasse pequena + a linha. Mesmo ganho que a Parte A trouxe ao
 DOU: texto completo capturado na coleta, então a análise diária não depende de
 busca externa (que costuma vir bloqueada).
 
-### GitHub Actions workflows
+### Where this actually runs
 
-- `.github/workflows/varredura.yml` — scrapes the 12 web sources on two crons
-  (weekdays): 02:10 BRT, plus a 03:15 catch-up that only re-scrapes if the
-  day's `dados/AAAA-MM-DD.json` doesn't exist yet (the GitHub cron scheduler
-  can silently skip a run — see Gotchas). Also fires on `push` to
-  `estado.json`, `analises/**`, `dados/analise_status.json`, `dados/*-dou.json`,
-  `dados/novidades_dou.json`, or `scripts/**`, and on `workflow_dispatch`. The
-  scrape step only runs for `workflow_dispatch` or a `schedule` event that
-  still needs to scrape — `push` always just regenerates the panel.
-- `.github/workflows/dou.yml` — scrapes the DOU on its own cron (01:07 BRT), with
-  its own 60-minute budget, decoupled from the web scrape's timing and time budget.
-- `.github/workflows/medicao-inlabs.yml` — one-off recall measurement against the
-  full DOU corpus. Self-retires: skips its body once `dados/medicao_inlabs.json`
-  already exists.
+Primary execution moved to a dedicated always-on local machine — see
+`docs/operacao-local.md` for the full picture (systemd timers, schedule,
+credentials). Summary:
+
+### GitHub Actions workflows (now a daily fallback, not primary)
+
+- `.github/workflows/varredura.yml` — runs daily at 05:10 BRT (3h after the
+  local systemd timer), and only actually scrapes if `dados/AAAA-MM-DD.json`
+  doesn't exist yet — i.e. only when the local machine failed to collect.
+  Also fires on `push` (same paths as before) and `workflow_dispatch`.
+- `.github/workflows/dou.yml` — same fallback pattern, daily at 04:10 BRT,
+  only scrapes if `dados/AAAA-MM-DD-dou.json` doesn't exist yet.
+- `.github/workflows/medicao-inlabs.yml` — unchanged, one-off recall
+  measurement, self-retires once `dados/medicao_inlabs.json` exists.
 
 ## Gotchas (each cost a real bug — see README's "Decisões de projeto" for the full stories)
 
