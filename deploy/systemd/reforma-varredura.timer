@@ -1,0 +1,9 @@
+[Unit]
+Description=Agenda diaria da varredura dos 12 portais (02:10, horario de Brasilia, todos os dias)
+
+[Timer]
+OnCalendar=*-*-* 02:10:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
