@@ -1,7 +1,27 @@
 {
- "data": "2026-09-24",
- "quantidade": 0,
- "itens": [],
+ "data": "2026-09-25",
+ "quantidade": 2,
+ "itens": [
+  {
+   "primeira_vez": "2026-09-25",
+   "fonte": "CGIBS - Noticias",
+   "titulo": "Informe: conta do Comitê Gestor do IBS no Instagram (cgibs.oficial) passa por instabilidade temporária",
+   "url": "https://www.cgibs.gov.br/informe-instabilidade-da-conta-do-cgibs-no-instagram",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "texto": "O Comitê Gestor do Imposto Sobre Bens e Serviços informa que sua conta no Instagram (cgibs.oficial) está passando por uma instabilidade.\n\nNossa equipe já está em contato com a empresa responsável por esta rede social a fim de solucionar o problema com celeridade. \n\nInformamos que principais as notícias do CGIBS também podem ser acompanhadas pelo portal www.cgibs.gov.br."
+  },
+  {
+   "primeira_vez": "2026-09-25",
+   "fonte": "CGIBS - Atos Tecnicos Conj.",
+   "titulo": "Ato Tecnico Conjunto 5 RFB CGIBS assinado assinado (.pdf 462,39 KBytes)",
+   "url": "https://www.cgibs.gov.br/upload/arquivos/202609/24094106-ato-tecnico-conjunto-5-rfb-cgibs-assinado-assinado.pdf",
+   "data": null,
+   "pasta_arquivo": "2026-09",
+   "alerta": null
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
