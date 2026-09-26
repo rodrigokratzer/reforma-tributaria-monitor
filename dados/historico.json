@@ -4054,5 +4054,14 @@
   "continuacao": false,
   "alerta": null,
   "pasta_arquivo": null
+ },
+ "61256508800abb02": {
+  "primeira_vez": "2026-09-26",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Receita Federal divulga novo balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-divulga-novo-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null
  }
 }
