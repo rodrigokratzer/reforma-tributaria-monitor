@@ -1,0 +1,11 @@
+[Unit]
+Description=Alerta de falha da unidade %i (push/e-mail)
+
+[Service]
+Type=oneshot
+User=rodrigo
+Group=rodrigo
+Environment=HOME=/home/rodrigo
+WorkingDirectory=/home/rodrigo/projects/reforma-tributaria-monitor
+EnvironmentFile=-/home/rodrigo/projects/reforma-tributaria-monitor/.env
+ExecStart=/home/rodrigo/projects/reforma-tributaria-monitor/.venv/bin/python3 scripts/notificar.py --falha "A unidade %i falhou ou estourou o tempo no lenovo-claude. Ver journalctl -u %i."

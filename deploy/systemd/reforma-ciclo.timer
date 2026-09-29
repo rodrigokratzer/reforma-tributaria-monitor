@@ -1,0 +1,12 @@
+[Unit]
+Description=Ciclo do monitor da reforma: 05:00 (matinal) e 17:00 (noturna), horario de Brasilia, todos os dias
+
+[Timer]
+OnCalendar=*-*-* 05:00:00
+OnCalendar=*-*-* 17:00:00
+# Notebook desligado no horario: roda assim que ligar. O turno sai da hora
+# real da execucao (antes de 12h = matinal), entao o catch-up cai no certo.
+Persistent=true
+
+[Install]
+WantedBy=timers.target

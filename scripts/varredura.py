@@ -89,11 +89,15 @@ def grava_resultado(hoje, resultado, arquivo_dados, arquivo_novidades):
     historico = json.loads(hist_path.read_text("utf-8")) if hist_path.exists() else {}
 
     novidades = []
+    visto_em = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for f in resultado:
         for it in f["itens"]:
             k = chave(it)
             if k not in historico:
-                historico[k] = {"primeira_vez": hoje, "fonte": f["fonte"], **it}
+                # primeira_vez e' so' a data; com dois ciclos por dia, visto_em
+                # (UTC) diz em qual deles o item apareceu
+                historico[k] = {"primeira_vez": hoje, "fonte": f["fonte"], **it,
+                                "visto_em": visto_em}
                 novidades.append(historico[k])
 
     falhas = [f["fonte"] for f in resultado if not f["metodo"]
