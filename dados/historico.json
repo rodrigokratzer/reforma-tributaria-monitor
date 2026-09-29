@@ -4259,5 +4259,24 @@
   "continuacao": false,
   "alerta": null,
   "pasta_arquivo": null
+ },
+ "2dec76c0e697f13a": {
+  "primeira_vez": "2026-09-29",
+  "fonte": "CGIBS - Noticias",
+  "titulo": "Declaração de Regimes Específicos: CGIBS e Receita Federal divulgam endpoints do ambiente de produção",
+  "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-divulgam-endpoints-do-ambiente-de-producao",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null,
+  "texto": "O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) comunicam aos contribuintes, desenvolvedores de sistemas e provedores de soluções fiscais a disponibilização dos endereços oficiais (endpoints) para transmissão e consulta de lotes de eventos no Ambiente de Produção da Declaração de Regimes Específicos (DeRE).\n\nA comunicação antecipada tem por finalidade viabilizar a parametrização dos módulos de comunicação corporativos antes do início da vigência operacional do ambiente produtivo.\n\nEndpoints de Produção\n\nA integração com os serviços da DeRE dar-se-á por meio das seguintes URLs oficiais:\n\nRecepção de Lotes de Eventos:\n\nPOST https://api.receitafederal.gov.br/dere/v1/recepcao/lotes\n\nConsulta do Processamento de Lotes:\n\nGET https://api.receitafederal.gov.br/dere/v1/consulta/lotes/{protocolo}\n\n \n\nCronograma e Horário de Início de Operação\n\nDivulgação Técnica e Parametrização: Imediata. Os desenvolvedores já podem configurar as URLs e rotinas de chamada nos sistemas emissores;\n\nAbertura do Tráfego de Transmissão: Quinta-feira, 1º de outubro de 2026, às 09h00 (horário oficial de Brasília).\n\nAtenção: Tentativas de conexão ou envio de lotes direcionadas aos endereços de produção antes do horário fixado serão rejeitadas pelo barramento de recepção.\n\n \n\nRequisitos de Conectividade e Assinatura Digital\n\nPara a transmissão de dados no ambiente produtivo, as aplicações integradas deverão atender estritamente aos seguintes critérios técnicos:\n\nAutenticação (Receita Integra): O acesso aos serviços exige autenticação prévia via protocolo OAuth 2.0 (fluxo Client Credentials), mediante envio de Bearer Token válido no cabeçalho `Authorization` de todas as requisições HTTPS, gerado a partir das credenciais obtidas na plataforma Receita Integra;\n\nAssinatura Digital dos Eventos (ICP-Brasil): Todos os eventos em formato XML contidos no lote devem ser assinados digitalmente (padrão XMLDSig) com certificado digital padrão ICP-Brasil (tipo A1 ou A3, e-CNPJ da matriz, responsável legal perante o CNPJ ou procurador habilitado com outorga específica);\n\nConformidade Estrutural e de Negócio: Os lotes gerados deverão utilizar a última versão dos esquemas XSD “06-Arquivos XSD (PRODUÇÃO)” estabelecidos da documentação técnica da DeRE;\n\nNatureza Assíncrona: A transmissão do lote à API de recepção retorna um protocolo provisório de entrega (`HTTP 201`). A comprovação do cumprimento da obrigação acessória e sua eficácia fiscal ocorrem exclusivamente após a consulta à API de processamento e a obtenção do respectivo Recibo de Processamento Definitivo.\n\n \n\nAcesso à Documentação\n\nAs orientações detalhadas de comunicação, especificação de cabeçalhos e fluxos de integração constam no Manual do Desenvolvedor e no Manual de Integração Técnica – Receita Integra.\n\nPara consultar a documentação técnica atualizada da DeRE, clique aqui.\n\n \n\nComitê Gestor do Imposto sobre Bens e Serviços\n\nSecretaria Especial da Receita Federal do Brasil"
+ },
+ "fff76b8cf345a1fa": {
+  "primeira_vez": "2026-09-29",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null
  }
 }
