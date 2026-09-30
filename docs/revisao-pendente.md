@@ -75,6 +75,23 @@ você. Nada aqui bloqueia o funcionamento; tudo pode ser ajustado depois.
 13. **Falha gera dois pushes** (o do `rodar_ciclo.sh` e o do `OnFailure=` do
     systemd, que cobre timeout/travamento). Se incomodar, deixo só um.
 
+## Painel sempre em dia (30/09/2026)
+
+14. **A análise agora mantém prazos, pendências e linha do tempo.** Quando uma
+    publicação muda um prazo, resolve/abre uma pendência ou marca um fato, a
+    análise propõe o novo `estado.json`; `scripts/atualizar_estado.py` valida e
+    aplica. O histórico de alterações aparece no painel (abaixo dos cards) e no
+    alerta. Revisão completa feita em 30/09: 3 prazos novos (Simples 15/10,
+    regime regular IBS/CBS 30/10, cooperativas 31/10), 10 marcos na linha do
+    tempo, split payment atualizado. Revise se concorda com a escolha dos
+    cards: o marco "Simples entra / CBS substitui PIS/Cofins" (01/01/2027) saiu
+    dos cards para dar lugar aos prazos mais próximos — continua na linha do
+    tempo.
+15. **Ciclo sem publicação nova não revisa o painel** (não chama o Claude).
+    Prazo vencido sai dos cards sozinho (filtro por data no navegador), mas
+    uma pendência vencida só é reescrita no próximo ciclo com publicação —
+    na prática, quase todo ciclo tem.
+
 ## Backup
 
 - Tag `backup-pre-evolucao-20260929-1754` e branch
