@@ -45,7 +45,7 @@ você. Nada aqui bloqueia o funcionamento; tudo pode ser ajustado depois.
 6. **Estoque triado (30/09).** Os 360 itens anteriores ao fluxo novo receberam
    veredito numa triagem retroativa única (marcados com `em:
    "retroativa-2026-09-30"` em `dados/triagem.json`): 45 relevantes, 57
-   contexto, 276 ruído. Dos 246 "revisar" do DOU, só 3 saíram relevantes.
+   contexto, 276 ruído. Dos 264 itens "revisar" do DOU, 259 são ruído, 4 contexto e só 1 relevante (a Solução de Consulta nº 2.004, sobre o art. 537 da LC 214).
 7. **Uso da assinatura dobra.** Duas análises por dia em vez de uma (a de
    29/09 consumiu o equivalente a ~US$ 0,90 em tokens de lista, coberto pela
    assinatura). Se bater limite, o ciclo não marca nada como analisado e os
