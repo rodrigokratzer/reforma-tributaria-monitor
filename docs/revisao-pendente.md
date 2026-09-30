@@ -57,6 +57,24 @@ você. Nada aqui bloqueia o funcionamento; tudo pode ser ajustado depois.
     integral (antes cortava em 20.000 caracteres antes de classificar; 11
     matérias já tinham batido no teto).
 
+## O que aconteceu no deploy (30/09/2026)
+
+11. **Rotina antiga na nuvem do Claude pausada.** Existia uma rotina agendada
+    em claude.ai ("Análise diária — reforma tributária", dias úteis 07:15)
+    rodando em paralelo ao notebook — era ela que mandava o push pelo app do
+    Claude. Com o fluxo novo ela duplicaria a análise no formato antigo, então
+    foi **pausada** (não apagada). Se o ntfy ficar bom, dá para apagá-la em
+    claude.ai → Code → Routines.
+12. **Primeiro ciclo falhou, segundo passou.** O push do deploy disparou o
+    GitHub Actions, que regenerou `docs/index.html` e o rebase local conflitou
+    nesse arquivo gerado. Corrigido na causa (o Actions não regenera mais o
+    painel em push, só quando `estado.json` muda) e na consequência
+    (`scripts/publicar.sh` resolve conflito em `docs/` regenerando). Você deve
+    ter recebido 2 pushes de falha às 09:06 (um do script, outro do systemd) e
+    depois o push normal da análise matinal.
+13. **Falha gera dois pushes** (o do `rodar_ciclo.sh` e o do `OnFailure=` do
+    systemd, que cobre timeout/travamento). Se incomodar, deixo só um.
+
 ## Backup
 
 - Tag `backup-pre-evolucao-20260929-1754` e branch
