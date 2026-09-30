@@ -1,92 +1,1892 @@
 {
+ "0056347203df2e3c": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "01110ce2da0e4f90": {
+  "veredito": "ruido",
+  "motivo": "Exige curso aduaneiro para credenciamento no Porto do Rio; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "013499c9e09121c1": {
+  "veredito": "relevante",
+  "motivo": "CGIBS e RFB divulgam orientações sobre entrada em vigor da CBS e do IBS em 01/01/2026",
+  "em": "retroativa-2026-09-30"
+ },
+ "018909aa4cafd593": {
+  "veredito": "contexto",
+  "motivo": "eleição e posse de vice-presidente do Conselho Superior do CGIBS; governança interna",
+  "em": "retroativa-2026-09-30"
+ },
+ "0219e8fc5550038e": {
+  "veredito": "ruido",
+  "motivo": "extinção de escritório regional da PGFN, ato administrativo interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "036649dd229c570a": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS nº 11 adota marco regulatório de licitações do órgão",
+  "em": "retroativa-2026-09-30"
+ },
+ "037f59ed7f17cec5": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS nº 10 aprova proposta orçamentária interna 2026",
+  "em": "retroativa-2026-09-30"
+ },
+ "049c828556ad3e85": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre lucro presumido em serviços de saúde; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "04e8e86bca62bb98": {
+  "veredito": "ruido",
+  "motivo": "grupo de trabalho interno da CVM sobre emissores não registrados",
+  "em": "retroativa-2026-09-30"
+ },
+ "05c3911e8dabdfa3": {
+  "veredito": "ruido",
+  "motivo": "Reabre unidade física da RFB em Ilhéus/BA; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "05edb85dbe0024d5": {
+  "veredito": "ruido",
+  "motivo": "Altera metas de desempenho institucional do Ministério da Fazenda, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "06e38527fc929f56": {
+  "veredito": "relevante",
+  "motivo": "Aprova manuais técnicos de habilitação e de redes da Plataforma Pública do Split Payment.",
+  "em": "retroativa-2026-09-30"
+ },
+ "0711ec70c43972f5": {
+  "veredito": "ruido",
+  "motivo": "Fragmento do modelo de comprovante cadastral do CNPJ, sem conteúdo próprio",
+  "em": "retroativa-2026-09-30"
+ },
+ "07c1cc817e9663b8": {
+  "veredito": "ruido",
+  "motivo": "Portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "08aaea2ea6356247": {
+  "veredito": "ruido",
+  "motivo": "Altera regras dos fundos Eco Invest; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "09e53b49df5e3416": {
+  "veredito": "ruido",
+  "motivo": "homologação de aumento de capital e estatuto de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "0bf7b772105ab2a8": {
+  "veredito": "ruido",
+  "motivo": "institui plataforma e-Editais para publicações da RFB; procedimento administrativo interno, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
  "1099e8623c68f067": {
   "veredito": "ruido",
   "motivo": "tabela do RREO (restos a pagar), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "10d84c55fbae7983": {
+  "veredito": "ruido",
+  "motivo": "Exclui súmula do CARF com efeito vinculante; contencioso geral, sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "10dc7419158e59c9": {
+  "veredito": "ruido",
+  "motivo": "Altera regras de IRPJ/CSLL para servicos hospitalares e perdas de credito bancario, imposto sobre a renda",
+  "em": "retroativa-2026-09-30"
+ },
+ "110ba4cc24bcb7ed": {
+  "veredito": "ruido",
+  "motivo": "regras de licença para capacitação de servidores da Susep",
+  "em": "retroativa-2026-09-30"
+ },
+ "119f98069cb356cc": {
+  "veredito": "relevante",
+  "motivo": "CGSN altera prazos de opção pelo Simples e pelo regime regular do IBS/CBS em 2027",
+  "em": "retroativa-2026-09-30"
+ },
+ "128cba459bebb200": {
+  "veredito": "ruido",
+  "motivo": "Republicação de RDC da Anvisa sobre laboratórios analíticos; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
  },
  "12f7ac1e59b1d39e": {
   "veredito": "ruido",
   "motivo": "eleição de administradores de seguradora (Mapfre Capitalização), sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "153bbd68b08e5507": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS sem indicação de conteúdo no título nem ementa",
+  "em": "retroativa-2026-09-30"
+ },
+ "15a1d0beffa4a3a2": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores e autorização de seguradora",
+  "em": "retroativa-2026-09-30"
+ },
+ "15bab9733351485c": {
+  "veredito": "relevante",
+  "motivo": "matéria da RFB sobre os novos prazos do Simples Nacional 2027 e opção pelo regime regular",
+  "em": "retroativa-2026-09-30"
+ },
+ "160efa77678e6ccc": {
+  "veredito": "contexto",
+  "motivo": "ferramenta técnica de validação de NF-e, sem novidade normativa",
+  "em": "retroativa-2026-09-30"
+ },
  "16a461b3f1d932bc": {
   "veredito": "ruido",
   "motivo": "solução de consulta sobre incidência de IRPJ/CSLL em subvenções a empresas públicas, sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "1732b464f9c47791": {
+  "veredito": "contexto",
+  "motivo": "balanço financeiro interno do CGIBS, ato de governança",
+  "em": "retroativa-2026-09-30"
+ },
+ "189ddf2cfc32ed1b": {
+  "veredito": "contexto",
+  "motivo": "página de serviço para adesão ao piloto da CBS, sem prazo ou mudança nova indicada",
+  "em": "retroativa-2026-09-30"
+ },
+ "1a150dae1ec18e06": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "1ae2060e6c8f1716": {
+  "veredito": "ruido",
+  "motivo": "Altera regras do Programa Sintonia de conformidade tributária; sem relação com a reforma do consumo.",
+  "em": "retroativa-2026-09-30"
+ },
+ "1b903d0c0a4f95d3": {
+  "veredito": "ruido",
+  "motivo": "página institucional genérica do Simples Nacional, sem menção à reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "1c153ad9c92bbaf1": {
+  "veredito": "ruido",
+  "motivo": "conversão de autorização de sandbox regulatório para seguradora",
+  "em": "retroativa-2026-09-30"
+ },
+ "1c532453bc4f62f4": {
+  "veredito": "relevante",
+  "motivo": "regime de caixa deixa de ser usado na apuração do Simples Nacional",
+  "em": "retroativa-2026-09-30"
+ },
+ "1d591a5dc4c1972a": {
+  "veredito": "ruido",
+  "motivo": "Altera regras da linha Eco Invest Brasil; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "1d6ea164c4bd2be1": {
+  "veredito": "ruido",
+  "motivo": "Solucao de consulta sobre tratado Brasil-Franca e premios de resseguro, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "1e1899d5aab9385e": {
+  "veredito": "ruido",
+  "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
+  "em": "retroativa-2026-09-30"
+ },
+ "1f5581c8ce3d25bb": {
+  "veredito": "contexto",
+  "motivo": "Noticia sobre palestra de dirigente do CGIBS em evento do TJSP, carater informativo, sem norma",
+  "em": "retroativa-2026-09-30"
+ },
+ "1f6ff2587adce161": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre lucro presumido em serviços de saúde; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "1f8fcf1d30ebda50": {
+  "veredito": "relevante",
+  "motivo": "Ato Conjunto nº 5 regulamenta o Programa Nacional de Conformidade Tributária",
+  "em": "retroativa-2026-09-30"
+ },
+ "20fb02ef46f6f127": {
+  "veredito": "relevante",
+  "motivo": "Interpreta arts. 537/540 da LC214 sobre concentracao de PIS/Cofins do etanol em produtor/importador",
+  "em": "retroativa-2026-09-30"
+ },
+ "212b550eb9ca49df": {
+  "veredito": "ruido",
+  "motivo": "Altera circulares da Susep sobre registro de operações de seguros; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "216a45496eee3b52": {
+  "veredito": "ruido",
+  "motivo": "Edital de concurso da UFC com ementas de disciplinas, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "21ff81e935354d9d": {
+  "veredito": "ruido",
+  "motivo": "comitê interno da CVM para acompanhar ADI sobre fiscalização, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "22a0398cd624a9d5": {
+  "veredito": "relevante",
+  "motivo": "Prorroga obrigatoriedade de inscrição no CNPJ para emissão de documentos fiscais",
+  "em": "retroativa-2026-09-30"
+ },
+ "239f14fd26cce0fe": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS nº 3 altera resolução interna nº 1",
+  "em": "retroativa-2026-09-30"
+ },
+ "23a389de92bbe7ee": {
+  "veredito": "ruido",
+  "motivo": "Solução de consulta sobre contribuição previdenciária de notários; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "23d24a294b612a42": {
+  "veredito": "ruido",
+  "motivo": "altera cronograma de desembolso orçamentário do Executivo; execução financeira geral, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "23fba35b569e319f": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre presunção de IRPJ/CSLL em serviços de saúde",
+  "em": "retroativa-2026-09-30"
+ },
+ "24e067f72bf804e0": {
+  "veredito": "relevante",
+  "motivo": "RFB e CGIBS lançam programa de conformidade tributária para adaptação à reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "255f407d992d7bc7": {
+  "veredito": "ruido",
+  "motivo": "Lista contratos de transportadoras de e-commerce (Amazon) no Remessa Conforme; sem relação com IBS/CBS.",
+  "em": "retroativa-2026-09-30"
+ },
+ "257827805d8cc47a": {
+  "veredito": "ruido",
+  "motivo": "altera regras do Programa Novo Desenrola Brasil (crédito/educação financeira), sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "263accd2a00a99c3": {
+  "veredito": "ruido",
+  "motivo": "Institui politica interna de auditoria de TI da Susep, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "27553d6df862c1e7": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS nº 15 aprova proposta orçamentária interna 2027",
+  "em": "retroativa-2026-09-30"
+ },
+ "276c417297d62dff": {
+  "veredito": "ruido",
+  "motivo": "Designa membros de grupo tecnico de taxonomia sustentavel, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "276ed51b241e4608": {
+  "veredito": "ruido",
+  "motivo": "Altera prazos de transferência de cargas no Porto de Santos; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "277ef3594bb3babe": {
+  "veredito": "ruido",
+  "motivo": "subvenção econômica ao diesel via MP, sem relação com a reforma do consumo",
+  "em": "retroativa-2026-09-30"
  },
  "2835b5e111aa61dd": {
   "veredito": "ruido",
   "motivo": "solução de consulta sobre retenção de IRRF/CSLL em serviços de manutenção, sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "2902191e06708a5d": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administrador de seguradora, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "293c693529148622": {
+  "veredito": "relevante",
+  "motivo": "Adia regras de validação dos documentos fiscais eletrônicos da reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "2b25652a1dc8aed9": {
+  "veredito": "contexto",
+  "motivo": "resolução do CGIBS sem ementa disponível para confirmar o teor exato",
+  "em": "retroativa-2026-09-30"
+ },
+ "2bb433940b0ea32a": {
+  "veredito": "ruido",
+  "motivo": "Portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "2d8e2fdd4add5a49": {
+  "veredito": "contexto",
+  "motivo": "Portaria CGIBS sem indicação do assunto no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "2da38a7b90780ead": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "2dec76c0e697f13a": {
+  "veredito": "relevante",
+  "motivo": "CGIBS/RFB divulgam endpoints de produção e requisitos técnicos da DeRE",
+  "em": "retroativa-2026-09-30"
+ },
+ "2e5c646ed7bdca84": {
+  "veredito": "contexto",
+  "motivo": "Minuta de Portaria CGIBS sobre acordos de adesão; ainda é proposta, não norma vigente.",
+  "em": "retroativa-2026-09-30"
+ },
+ "2f9149d6bf032f3a": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sem ementa disponível; nada indica relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "30b6d19cb1c62217": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administrador de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "3113aca84b9506b2": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "31db731d45b99efc": {
+  "veredito": "relevante",
+  "motivo": "Institui regime Redata p/ datacenters, com possivel suspensao de CBS/IBS na importacao de bens de capital",
+  "em": "retroativa-2026-09-30"
+ },
+ "321dd9f481b80661": {
+  "veredito": "ruido",
+  "motivo": "especificação técnica da EFD ICMS/IPI, obrigação do ICMS atual",
+  "em": "retroativa-2026-09-30"
+ },
+ "3272794bde02ed99": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "32df5b352d0f55c7": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre alíquota zero de PIS/Cofins em compensação de energia; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "33740f2c067104a7": {
+  "veredito": "relevante",
+  "motivo": "RFB/CGIBS aprovam manuais técnicos (operação, integração, segurança) da Plataforma do Split Payment",
+  "em": "retroativa-2026-09-30"
+ },
+ "33db0586170f5c86": {
+  "veredito": "contexto",
+  "motivo": "CGIBS abre chamamento público para entes desenvolverem sistemas do IBS, sem efeito imediato ao contribuinte",
+  "em": "retroativa-2026-09-30"
+ },
+ "33f865c3fefcd7d4": {
+  "veredito": "ruido",
+  "motivo": "continuação de tabela de equalização de juros do Plano Safra",
+  "em": "retroativa-2026-09-30"
+ },
+ "36098cf2f4cad454": {
+  "veredito": "ruido",
+  "motivo": "Solução de consulta sem ementa/texto; sem indício de relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "36b24426b87829ad": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta sobre CPRB, reoneração da folha e CNPJ, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "36e5b1223a174fa6": {
+  "veredito": "ruido",
+  "motivo": "procedimentos sobre apostas de quota fixa irregulares, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "379143105850937a": {
+  "veredito": "ruido",
+  "motivo": "Autoriza linha de crédito rural para composição de dívidas; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "381f87a1f425172c": {
+  "veredito": "relevante",
+  "motivo": "CGIBS e Receita publicam v1.2.0 dos leiautes da DeRE, com regras de dedução e cashback.",
+  "em": "retroativa-2026-09-30"
+ },
+ "388f142b9a19f708": {
+  "veredito": "ruido",
+  "motivo": "Portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "38988a3a2b4b22ef": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administrador de capitalização, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "38c99eab95914dff": {
+  "veredito": "relevante",
+  "motivo": "publicação do cronograma oficial de implementação dos DF-e da reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "3a1cfb023350f6d2": {
+  "veredito": "contexto",
+  "motivo": "Reunião institucional apresentando avanços da implementação do IBS, sem norma",
+  "em": "retroativa-2026-09-30"
+ },
+ "3a3ad8043f9035d8": {
+  "veredito": "relevante",
+  "motivo": "CGSN atualiza regras do Simples Nacional para adequação à reforma tributária",
+  "em": "retroativa-2026-09-30"
+ },
+ "3aa031a521176e80": {
+  "veredito": "ruido",
+  "motivo": "link de navegação institucional, sem conteúdo",
+  "em": "retroativa-2026-09-30"
+ },
+ "3ac198435a1d340a": {
+  "veredito": "relevante",
+  "motivo": "Publica cronograma de implementação dos documentos fiscais eletrônicos (DF-e)",
+  "em": "retroativa-2026-09-30"
+ },
+ "3ace7b390f48b828": {
+  "veredito": "ruido",
+  "motivo": "título genérico sobre coordenação do ENCAT, sem texto ou indício de mudança ligada à reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "3ada88ac3654c9ac": {
+  "veredito": "ruido",
+  "motivo": "Regras de loteria (Dia de Sorte), sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "3b5eef4bfe1d0305": {
+  "veredito": "contexto",
+  "motivo": "Ato Conjunto RFB/CGIBS nº 4 sem indicação do assunto no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "3bc2d05bcc914746": {
+  "veredito": "ruido",
+  "motivo": "perda de objeto de resolução do FCVS da Caixa, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "3d702d02f4e37a5e": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre isenção de IRPF em venda de imóvel residencial",
+  "em": "retroativa-2026-09-30"
+ },
+ "3e048baf3b86bc6e": {
+  "veredito": "ruido",
+  "motivo": "IRRF/CIDE/PIS-Cofins sobre reembolso intragrupo, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "3e35fda4f2b6e0e3": {
+  "veredito": "contexto",
+  "motivo": "Debate institucional sobre transição da reforma, sem efeito normativo",
+  "em": "retroativa-2026-09-30"
+ },
+ "4056d504a4b21715": {
+  "veredito": "relevante",
+  "motivo": "Ato Técnico Conjunto CGIBS nº 2 assinado; provável norma operacional da reforma, sem texto disponível.",
+  "em": "retroativa-2026-09-30"
+ },
+ "40fd8c9c9380548a": {
+  "veredito": "contexto",
+  "motivo": "Portaria CGIBS sem indicação do assunto no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "410e1e0cf1c0f404": {
+  "veredito": "contexto",
+  "motivo": "LC sobre renúncia fiscal em combustíveis por choque energético; cita termos da reforma sem fixar obrigação.",
+  "em": "retroativa-2026-09-30"
+ },
+ "41675de36e20687d": {
+  "veredito": "ruido",
+  "motivo": "Consultas sobre isenção de PIS/Cofins na exportação de serviços e sobre IRPF; sem relação com IBS/CBS.",
+  "em": "retroativa-2026-09-30"
+ },
+ "42ac751815c1a522": {
+  "veredito": "contexto",
+  "motivo": "Decreto estadual indica representantes de RR no Conselho Superior do CGIBS; ato de governança.",
+  "em": "retroativa-2026-09-30"
+ },
+ "448ea1017099bf5a": {
+  "veredito": "ruido",
+  "motivo": "constitui comissão de fiscalização de porto seco em Corumbá/MS; matéria aduaneira local, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "4527220042b37a29": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS sem indicação de conteúdo no título nem ementa",
+  "em": "retroativa-2026-09-30"
+ },
+ "45b3dbc1c2550ae8": {
+  "veredito": "ruido",
+  "motivo": "página de painel de conformidade da RFB, sem texto ou indício de relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "45eac6af225cea5c": {
+  "veredito": "ruido",
+  "motivo": "Solucao de consulta sobre presuncao de IRPJ/CSLL em servicos de saude, imposto sobre a renda",
+  "em": "retroativa-2026-09-30"
+ },
+ "46fcdd90e8105a88": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administradores de resseguradora, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "4707d49dbd8a6cd4": {
+  "veredito": "ruido",
+  "motivo": "homologação de aumento de capital social de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "47fcaf589b96f86b": {
+  "veredito": "ruido",
+  "motivo": "Suspende atendimento presencial do CAC em São José dos Campos, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "482fcf7e19b21351": {
+  "veredito": "ruido",
+  "motivo": "Soluções de consulta de classificação fiscal (NCM) de mercadorias diversas",
+  "em": "retroativa-2026-09-30"
+ },
+ "485d701844887c7f": {
+  "veredito": "ruido",
+  "motivo": "diferimento de ICMS de combustíveis, tributo atual",
+  "em": "retroativa-2026-09-30"
+ },
+ "487e892e6e5488ce": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre presunção de IRPJ/CSLL em aterro sanitário",
+  "em": "retroativa-2026-09-30"
+ },
+ "4898bd0fef61882f": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta sobre lucro presumido de serviços odontológicos e de saúde (IRPJ/CSLL)",
+  "em": "retroativa-2026-09-30"
+ },
+ "48de4c6c22f5a188": {
+  "veredito": "ruido",
+  "motivo": "Solucao de consulta sobre CIDE em licenca de software, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "495a3a6f66d14665": {
+  "veredito": "ruido",
+  "motivo": "Realocação de cargo comissionado na CVM; ato interno sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "49d37ff9d68582f5": {
+  "veredito": "relevante",
+  "motivo": "CGIBS/RFB ampliam limite de contas dos eventos XSD da DeRE, empresas piloto devem ajustar sistemas",
+  "em": "retroativa-2026-09-30"
+ },
+ "4a5410f3084732bc": {
+  "veredito": "ruido",
+  "motivo": "aviso de instabilidade do Instagram do CGIBS, sem conteúdo normativo",
+  "em": "retroativa-2026-09-30"
+ },
+ "4a6a77d8b2dcb382": {
+  "veredito": "ruido",
+  "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "4c441cc9f992e685": {
+  "veredito": "ruido",
+  "motivo": "Exclusão de empresa do Refis por inadimplência, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "4c86cd441a9e35e2": {
+  "veredito": "ruido",
+  "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "4eddb92c3fb4b3ab": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "5099dc786e6b4fad": {
+  "veredito": "ruido",
+  "motivo": "modelo de desenvolvimento interno de software da RFB, questão de TI institucional, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "50b271b03e57f202": {
+  "veredito": "ruido",
+  "motivo": "prazo administrativo geral do Simples Nacional (notícia RFB comum), sem menção a IBS/CBS no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "51d7cd79a19056c1": {
+  "veredito": "ruido",
+  "motivo": "Solução de consulta sem ementa/texto disponível; sem indício de relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "522bbbcf95b00810": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de coordenação, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "528869138e7a78ca": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sem ementa disponível; nada indica relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "52e276db7b7d3631": {
+  "veredito": "relevante",
+  "motivo": "RFB e CGIBS flexibilizam obrigatoriedade de informações em documentos fiscais",
+  "em": "retroativa-2026-09-30"
+ },
+ "530453e3111ffb0d": {
+  "veredito": "contexto",
+  "motivo": "página de índice de atos técnicos RFB/CGIBS, sem conteúdo normativo específico",
+  "em": "retroativa-2026-09-30"
+ },
+ "530eac32b80c8099": {
+  "veredito": "ruido",
+  "motivo": "prorroga grupo de trabalho do Cadastro Imobiliário Brasileiro, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "54a1573cc3f91601": {
+  "veredito": "contexto",
+  "motivo": "Portaria interna sobre equipe e orçamento do CGIBS para 2027",
+  "em": "retroativa-2026-09-30"
+ },
+ "5507d4a2f35dffd3": {
+  "veredito": "contexto",
+  "motivo": "ferramenta de visualização de DF-e, sem novidade normativa",
+  "em": "retroativa-2026-09-30"
+ },
+ "552797d9ab0167b6": {
+  "veredito": "ruido",
+  "motivo": "preço médio de combustíveis (PMPF) para ICMS monofásico, não trata de IBS/CBS/IS",
+  "em": "retroativa-2026-09-30"
+ },
+ "55afcc71c8c70bfa": {
+  "veredito": "ruido",
+  "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "55fe49f3a29b66f0": {
+  "veredito": "ruido",
+  "motivo": "Altera prazos de convocação de reuniões da COTEPE/ICMS, ato interno do CONFAZ",
+  "em": "retroativa-2026-09-30"
+ },
+ "562a3ed0b7df2287": {
+  "veredito": "ruido",
+  "motivo": "Regras Susep sobre reversao de provisao de previdencia por vesting, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "577a44022d7989e8": {
+  "veredito": "ruido",
+  "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "578da9d8f1bb835b": {
+  "veredito": "relevante",
+  "motivo": "Prazo 30/09 para opção pelo Simples e escolha do modelo de recolhimento IBS/CBS 2027",
+  "em": "retroativa-2026-09-30"
+ },
+ "57dda15b61d1c53d": {
+  "veredito": "ruido",
+  "motivo": "Homologa cisao societaria de seguradora, sem relacao com a reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
+ "585257dce30ab27c": {
+  "veredito": "contexto",
+  "motivo": "Eleição e posse do DIREX; ato interno de governança do CGIBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "5af5fcfe04a5fc29": {
+  "veredito": "contexto",
+  "motivo": "Recebimento de sugestões ao texto-base do Regulamento do IBS; proposta, não norma",
+  "em": "retroativa-2026-09-30"
+ },
+ "5b2fb98cac59dead": {
+  "veredito": "ruido",
+  "motivo": "cadastro de transportadores de gás natural para ICMS atual, não é reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
+ "5c488512d8d4a393": {
+  "veredito": "contexto",
+  "motivo": "RFB, CGIBS e CFC alinham diretrizes de conformidade tributária; anúncio de alinhamento, sem obrigação concreta",
+  "em": "retroativa-2026-09-30"
+ },
  "5c707ec2754bc13d": {
   "veredito": "ruido",
   "motivo": "tabela do RREO (despesas por função/subfunção), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "5e0cce846bd5edc8": {
+  "veredito": "ruido",
+  "motivo": "altera plano de regulação da SUSEP para 2026; agenda regulatória de seguros, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "5e4cb61d929533ee": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de comitê de auditoria de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "5f26a3013d21078f": {
+  "veredito": "ruido",
+  "motivo": "Remanejamento orcamentario entre ministerios, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "5f723f727aff3bf4": {
+  "veredito": "ruido",
+  "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
+  "em": "retroativa-2026-09-30"
+ },
+ "5ff7a57e5deb6ce2": {
+  "veredito": "ruido",
+  "motivo": "suspensão de expediente de agência da Receita por festejo municipal",
+  "em": "retroativa-2026-09-30"
+ },
+ "605e3ccc6cf41f24": {
+  "veredito": "ruido",
+  "motivo": "prorroga equipe de auditoria de créditos de PIS/Cofins, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "61099f988dffa03d": {
+  "veredito": "relevante",
+  "motivo": "Ato Conjunto nº 3 sobre a documentação técnica da DeRE",
+  "em": "retroativa-2026-09-30"
+ },
+ "61256508800abb02": {
+  "veredito": "relevante",
+  "motivo": "balanço da RFB sobre opções pelo Simples e pelo regime regular do IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "619a501ecbfd4371": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre benefício fiscal do Perse (setor de eventos); sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "61c2955442be9ff3": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta sobre Simples Nacional, Dirbi, IRPF e PIS/Cofins, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "61cf5fa8e0a7daa2": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre portabilidade em previdência complementar; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "61f77cabb6cb001c": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sem ementa disponível; nada indica relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
  },
  "624891cb7a3e7943": {
   "veredito": "ruido",
   "motivo": "horário de atendimento de unidades da RFB na 8ª Região Fiscal, sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "62cc5b85ee529189": {
+  "veredito": "ruido",
+  "motivo": "Exige curso aduaneiro para credenciamento portuário; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "62f75e6db0ba3faa": {
+  "veredito": "ruido",
+  "motivo": "página de suporte técnico do Serpro, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "6438a55af547ea6f": {
+  "veredito": "ruido",
+  "motivo": "página institucional genérica sobre a NF-e, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "64e7b6a32d87d4ce": {
+  "veredito": "contexto",
+  "motivo": "tabela de referência técnica da reforma, sem novidade específica",
+  "em": "retroativa-2026-09-30"
+ },
+ "656da09e31af9392": {
+  "veredito": "ruido",
+  "motivo": "Homologa eleição de administradores da Brasilseg; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "66a14bd27153c84e": {
+  "veredito": "relevante",
+  "motivo": "NFS-e Nacional passa a ser obrigatória para ME/EPP a partir de 01/11/2026",
+  "em": "retroativa-2026-09-30"
+ },
+ "6737def4c2355a50": {
+  "veredito": "ruido",
+  "motivo": "Concede gratificação (GTATA) a servidores do Tesouro; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "67478c05525abd5e": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administrador de resseguradora, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "67682560342d76d9": {
+  "veredito": "ruido",
+  "motivo": "Exclusão de empresa do Refis por inadimplência, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "67682ec76c3122fd": {
+  "veredito": "ruido",
+  "motivo": "Autoriza BA e ES a registrar benefícios antigos de ICMS de 2017, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "678c277e31711849": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS nº 2: regimento eleitoral interno do comitê",
+  "em": "retroativa-2026-09-30"
+ },
  "67dc93e0b4419591": {
   "veredito": "ruido",
   "motivo": "eleição de administradores de seguradora (Banestes), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "68c77cfa9bf4a5bc": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administradores de seguradora, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "697056181590c009": {
+  "veredito": "ruido",
+  "motivo": "Disciplina atendimento em Libras na Receita Federal; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
  },
  "69f722b96ad7c133": {
   "veredito": "ruido",
   "motivo": "tabela do RREO (educação básica), sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "6b891da4884da836": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS nº 12 fixa diretrizes de orçamento interno para 2027",
+  "em": "retroativa-2026-09-30"
+ },
+ "6bd39561f8be738e": {
+  "veredito": "ruido",
+  "motivo": "Altera linha de financiamento do BNDES para fertilizantes; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "6bf060da171a8dc2": {
+  "veredito": "ruido",
+  "motivo": "Classificação fiscal (NCM) de mercadorias diversas; sem relação com IBS/CBS.",
+  "em": "retroativa-2026-09-30"
+ },
+ "6c29fbdf2474e89b": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "6c6856d8f4cd972e": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "6d0e2ee7e9ab6a52": {
+  "veredito": "relevante",
+  "motivo": "resolução CGIBS nº 6/2026 que regulamenta o IBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "6e40ba6f9a0edf91": {
+  "veredito": "relevante",
+  "motivo": "ato técnico conjunto RFB/CGIBS assinado; sem texto extraído (PDF), julgado pelo título",
+  "em": "retroativa-2026-09-30"
+ },
+ "6ed2e95400c86f98": {
+  "veredito": "ruido",
+  "motivo": "Altera circulares Susep sobre registro de operacoes de seguros, sem relacao com a reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
  "6f99b63f762da48b": {
   "veredito": "ruido",
   "motivo": "retificação de data em ato declaratório executivo da RFB, sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "7086b7bc2c6a7b83": {
+  "veredito": "ruido",
+  "motivo": "Não incidência de PIS/Cofins sobre crédito presumido de ICMS no regime cumulativo",
+  "em": "retroativa-2026-09-30"
+ },
+ "70aae33d04e44de2": {
+  "veredito": "ruido",
+  "motivo": "Convoca CSRF para votar súmulas sobre indébito, IRRF e ITR; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "71d66329b8bacb04": {
+  "veredito": "ruido",
+  "motivo": "convocação de turma do CARF para votar súmula de IRRF, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "7265c8095010b6f2": {
+  "veredito": "ruido",
+  "motivo": "Designa membros de grupo tecnico de taxonomia sustentavel, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "73d09ad281e3d675": {
+  "veredito": "ruido",
+  "motivo": "página de serviço genérica de emissão de NFS-e, sem relação específica com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "73e26c09b8e65eb0": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sem ementa disponível, sem sinal de relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "75a92a1a31b8d7f0": {
+  "veredito": "ruido",
+  "motivo": "ato COTEPE/ICMS de credenciamento de empresas a benefício de ICMS, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "763a637b17053346": {
+  "veredito": "ruido",
+  "motivo": "Retificação de vigência de ato declaratório de habilitação; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "771e7c7628ce456b": {
+  "veredito": "ruido",
+  "motivo": "Retificação sem ementa/texto disponível; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "7911ba734f93cb94": {
+  "veredito": "relevante",
+  "motivo": "CGIBS/RFB ajustam leiautes e XSD de eventos da DeRE; exige ajuste de sistemas de quem já opera a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "7a2d767008db3e77": {
+  "veredito": "ruido",
+  "motivo": "PMPF de combustíveis para ICMS, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "7b5962a512544c25": {
+  "veredito": "ruido",
+  "motivo": "Suspensão temporária do Chat RFB na 4ª Região Fiscal para treinamento, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "7f4975dd2ac6ab24": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "7f69c752844ee42a": {
+  "veredito": "ruido",
+  "motivo": "Solucao de consulta sobre presuncao de IRPJ/CSLL em servicos odontologicos, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "7f96bd002808537d": {
+  "veredito": "ruido",
+  "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
+  "em": "retroativa-2026-09-30"
+ },
+ "813d6a422bb8bd26": {
+  "veredito": "ruido",
+  "motivo": "Altera regras do Programa Eco Invest Brasil, sem relacao com a reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
+ "8168c8baef5c5e67": {
+  "veredito": "ruido",
+  "motivo": "Retificação de data em Atos Declaratórios da RFB; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "83068337426277e9": {
+  "veredito": "contexto",
+  "motivo": "RFB, CGIBS e CFC alinham diretrizes de conformidade tributária; anúncio de alinhamento, sem obrigação concreta",
+  "em": "retroativa-2026-09-30"
+ },
+ "83e9e219f2d20c74": {
+  "veredito": "ruido",
+  "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
  },
  "8403e04e9551b759": {
   "veredito": "ruido",
   "motivo": "tabela do RREO (ações e serviços públicos de saúde), sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "85174c7600d98835": {
+  "veredito": "ruido",
+  "motivo": "regime especial de ICMS para telecomunicações, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "85d8cb20d3ee01e4": {
+  "veredito": "relevante",
+  "motivo": "Abre hoje o prazo para escolher o modelo de recolhimento de IBS/CBS de 2027 e opção pelo Simples.",
+  "em": "retroativa-2026-09-30"
+ },
+ "85f5495496b081e8": {
+  "veredito": "ruido",
+  "motivo": "cadastro de contribuintes de ICMS com benefício fiscal no RJ",
+  "em": "retroativa-2026-09-30"
+ },
+ "86528ea50ec06bf4": {
+  "veredito": "ruido",
+  "motivo": "Retificacao de erro de digitacao em convenio de ICMS, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "885b1a55042ac0ac": {
+  "veredito": "ruido",
+  "motivo": "IRPJ/CSLL/PIS/Cofins sobre subvenção de programas estaduais (Prodepe/PEAP), sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "89ec730093555354": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sem ementa disponível; nada indica relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
  "89fe01f94ca0756e": {
   "veredito": "ruido",
   "motivo": "atribuição de competência aduaneira no Porto de São Luís, sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "8a0d3b10d94bcf89": {
+  "veredito": "ruido",
+  "motivo": "altera estrutura de comitês internos da CVM; governança interna de autarquia, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "8ac839206d6765c6": {
+  "veredito": "contexto",
+  "motivo": "Ato conjunto RFB-CGIBS de dez/2025, sem texto disponível para saber o conteúdo específico.",
+  "em": "retroativa-2026-09-30"
+ },
+ "8b672a2636bca9c0": {
+  "veredito": "ruido",
+  "motivo": "Concede gratificação (GTATA) a servidores da RFB; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "8baeeef633cc3ce9": {
+  "veredito": "relevante",
+  "motivo": "Resolução CGIBS nº 6 aprova o Regulamento do IBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "8c566726ea05e2e9": {
+  "veredito": "relevante",
+  "motivo": "cartilha orientativa oficial para emissão da NF-e do IBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "8cda554926b889b2": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de comitê de auditoria de resseguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "8cdbd3503a331d97": {
+  "veredito": "ruido",
+  "motivo": "limite anual de operações de crédito do setor público, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "8d5c8d7afee6428b": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS sobre diretrizes orçamentárias internas do comitê",
+  "em": "retroativa-2026-09-30"
+ },
+ "8d8e07373f538a15": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS sem indicação de conteúdo no título; aparenta normativa interna",
+  "em": "retroativa-2026-09-30"
+ },
+ "8e9c8e4d8d681148": {
+  "veredito": "ruido",
+  "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
+  "em": "retroativa-2026-09-30"
+ },
+ "8f30dc79e6f19ffe": {
+  "veredito": "contexto",
+  "motivo": "Balanço estatístico da RFB sobre opções pelo Simples/IBS/CBS, sem novo prazo ou obrigação",
+  "em": "retroativa-2026-09-30"
+ },
+ "8fd84c50bc7948cc": {
+  "veredito": "ruido",
+  "motivo": "continuação de tabela de equalização de juros do Plano Safra",
+  "em": "retroativa-2026-09-30"
  },
  "917f534983ffcac4": {
   "veredito": "ruido",
   "motivo": "suspensão temporária de agência da RFB em Lagoa Vermelha (RS), sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "91b3a474502d32fa": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre lucro presumido em serviços de saúde (mesmo tema); sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "94ff278c2db8ac3b": {
+  "veredito": "ruido",
+  "motivo": "credenciamento de contribuintes de ICMS (Petrobras) em regime especial atual",
+  "em": "retroativa-2026-09-30"
+ },
+ "967c9e0d1232caca": {
+  "veredito": "contexto",
+  "motivo": "Portaria conjunta do MGI sem indicação do assunto no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "989ed5ea54b98653": {
+  "veredito": "ruido",
+  "motivo": "Reestrutura comite interno de governanca de dados da STN, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "98f02c459708f0dd": {
+  "veredito": "ruido",
+  "motivo": "ajuste de zona primária alfandegária do porto de São Sebastião",
+  "em": "retroativa-2026-09-30"
+ },
+ "997763267d8dd0a8": {
+  "veredito": "ruido",
+  "motivo": "Homologação cadastral de resseguradora estrangeira (Allianz); sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "9a29a80899f9f4b5": {
+  "veredito": "ruido",
+  "motivo": "homologação de procuradora de resseguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "9a46db112857e8e2": {
+  "veredito": "ruido",
+  "motivo": "Metas de desempenho institucional do Ministério da Fazenda, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "9aaab2bee814c138": {
+  "veredito": "ruido",
+  "motivo": "tabela de equalização de juros do Plano Safra, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "9b3a95e4e4daac2c": {
+  "veredito": "relevante",
+  "motivo": "Ratifica notas técnicas de revisão dos documentos fiscais eletrônicos (DF-e)",
+  "em": "retroativa-2026-09-30"
+ },
+ "9b51ead5ad9ab63e": {
+  "veredito": "ruido",
+  "motivo": "procedimentos operacionais do porto de São Luís, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "9bc3680a941b4138": {
+  "veredito": "contexto",
+  "motivo": "eleição e posse de diretores do CGIBS; ato interno de governança, sem efeito externo",
+  "em": "retroativa-2026-09-30"
+ },
  "9bf9e02623a682c9": {
   "veredito": "ruido",
   "motivo": "estrutura interna das equipes de crédito tributário da RFB na 8ª Região Fiscal, sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "9c8134c8977f9c8a": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "9e9a21311ab02a7e": {
+  "veredito": "ruido",
+  "motivo": "institui programa de atendimento ao contribuinte na 4ª Região Fiscal; serviço geral, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "9ee1f24f5d4c24a5": {
+  "veredito": "ruido",
+  "motivo": "Consultas sobre deságio de crédito de ICMS e fator R do Simples; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "9eee3a92a543f49d": {
+  "veredito": "ruido",
+  "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
+  "em": "retroativa-2026-09-30"
+ },
+ "9fa24bb03a1cc812": {
+  "veredito": "ruido",
+  "motivo": "Disciplina representação extrajudicial da União pela PGFN, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "a1de5acf2bf8891e": {
+  "veredito": "contexto",
+  "motivo": "Portaria CGIBS sem indicação do assunto no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "a2580ac11ddf68d4": {
+  "veredito": "ruido",
+  "motivo": "homologação de reforma de estatuto de resseguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "a342b891a49128b8": {
+  "veredito": "ruido",
+  "motivo": "credenciamento de contribuintes no Convênio ICMS 49/24, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "a47677741c8d72ba": {
+  "veredito": "ruido",
+  "motivo": "homologação de destituição de administrador de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "a4f0cb8d4b8f8065": {
+  "veredito": "ruido",
+  "motivo": "Ato Cotepe atualiza cadastro de contribuintes de beneficio de ICMS, tributo atual sem ligacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "a57c35e9081148b4": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administradores de seguradora, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "a682624791e23f9f": {
+  "veredito": "ruido",
+  "motivo": "Compensação de saldos de PIS/Cofins de produtores de etanol, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "a6a577953cea364b": {
+  "veredito": "ruido",
+  "motivo": "Homologação de valores de projetos culturais (Lei Rouanet), sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "a8bfbddbb498dc1d": {
+  "veredito": "ruido",
+  "motivo": "Divulga demonstrativo da Receita Corrente Liquida do Tesouro, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "a8c632715d4cf56a": {
+  "veredito": "ruido",
+  "motivo": "Solucao de consulta sobre presuncao de IRPJ/CSLL em servicos de saude, imposto sobre a renda",
+  "em": "retroativa-2026-09-30"
+ },
+ "a8f78990704acbd1": {
+  "veredito": "ruido",
+  "motivo": "Anula certidão de regularidade fiscal individual; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "ac360ee50b2812a9": {
+  "veredito": "contexto",
+  "motivo": "ferramenta técnica de validação de NF-e, sem novidade normativa",
+  "em": "retroativa-2026-09-30"
+ },
+ "ac55af022eba85be": {
+  "veredito": "ruido",
+  "motivo": "retificação de numeração de itens de um Ato COTEPE/ICMS de credenciamento",
+  "em": "retroativa-2026-09-30"
+ },
+ "ac6559e2ca82f05d": {
+  "veredito": "ruido",
+  "motivo": "Atualiza modelo do Comprovante de Inscrição e Situação Cadastral do CNPJ, questão cadastral",
+  "em": "retroativa-2026-09-30"
+ },
+ "acf6c76567a77fb6": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre depreciação acelerada de IRPJ/CSLL; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "ad0951f3e5aedd0e": {
+  "veredito": "contexto",
+  "motivo": "tabela de referência técnica da reforma, sem novidade específica",
+  "em": "retroativa-2026-09-30"
+ },
+ "aecb33683b352872": {
+  "veredito": "ruido",
+  "motivo": "Atualização cadastral anual de ressegurador eventual, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "af53e91dc6a85627": {
+  "veredito": "ruido",
+  "motivo": "ato COTEPE/ICMS de credenciamento de empresas a benefício de ICMS, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "afb7e44358ac8089": {
+  "veredito": "ruido",
+  "motivo": "Fragmento do modelo de comprovante cadastral do CNPJ, sem conteúdo próprio",
+  "em": "retroativa-2026-09-30"
+ },
+ "afc99424414095c1": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS sem indicação de conteúdo no título nem ementa",
+  "em": "retroativa-2026-09-30"
+ },
+ "b036669e8c50e0bd": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS sem indicação de conteúdo no título nem ementa",
+  "em": "retroativa-2026-09-30"
+ },
+ "b1c2bee5261764c7": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores e autorização de seguradora",
+  "em": "retroativa-2026-09-30"
+ },
+ "b1ebabfb9a87accd": {
+  "veredito": "contexto",
+  "motivo": "decreto estadual indica conselheiro suplente do Amapá no Conselho Superior do CGIBS, ato de governança",
+  "em": "retroativa-2026-09-30"
+ },
+ "b24c885166831925": {
+  "veredito": "contexto",
+  "motivo": "Resolucao CGIBS sobre ampliacao da forca de trabalho, governanca interna do orgao sem efeito externo",
+  "em": "retroativa-2026-09-30"
+ },
+ "b310b33c1de57d34": {
+  "veredito": "ruido",
+  "motivo": "Segmentação de fundos de pensão para supervisão; 'CBS' no texto é sigla de entidade, não da reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "b359377dfb0d0a9d": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de coordenação, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
  },
  "b3c58b8c22eedcdc": {
   "veredito": "ruido",
   "motivo": "demais tabelas do RREO, sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "b3cd4a311a9769e7": {
+  "veredito": "contexto",
+  "motivo": "relatório fiscal interno do CGIBS, sem efeito externo direto",
+  "em": "retroativa-2026-09-30"
+ },
+ "b3fadf3aa08f42d0": {
+  "veredito": "ruido",
+  "motivo": "LC sobre datacenter/saude/resseguro so cita regime de LC214 em lista de excecoes fiscais, sem mudar reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "b6a00e6806567138": {
+  "veredito": "ruido",
+  "motivo": "página de serviço genérica de consulta de NFS-e, sem relação específica com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "b6d90fc3fe96e81c": {
+  "veredito": "ruido",
+  "motivo": "Exclui empresa do Refis a pedido; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "b7a96023e22628b7": {
+  "veredito": "relevante",
+  "motivo": "RFB publica documentacao tecnica das APIs de apuracao da CBS, afeta sistemas de contribuintes",
+  "em": "retroativa-2026-09-30"
+ },
+ "ba7977d24895415d": {
+  "veredito": "ruido",
+  "motivo": "Solucao de consulta sobre retencao de contribuicoes previdenciarias, sem relacao com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "baa7f40051473887": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS sem indicação de conteúdo no título nem ementa",
+  "em": "retroativa-2026-09-30"
+ },
+ "badae2fc07954b3f": {
+  "veredito": "ruido",
+  "motivo": "Amplia prazo e valor de financiamento de automóveis; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "bbf55c814e76b8e7": {
+  "veredito": "ruido",
+  "motivo": "Homologação cadastral de resseguradora estrangeira na Susep; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "bc23d72f4e6b87a2": {
+  "veredito": "ruido",
+  "motivo": "horário de atendimento de unidades da Receita na 8ª Região Fiscal, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "bc4803865a3d71ed": {
+  "veredito": "ruido",
+  "motivo": "Altera limites de crédito para setor público; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "bcc52705dfabd3c4": {
+  "veredito": "ruido",
+  "motivo": "PIS/Cofins regime cumulativo de vigilância eletrônica, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "bd8a486a114433c8": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "bdd7153aac0e769d": {
+  "veredito": "ruido",
+  "motivo": "Altera designacao de membros de grupo tecnico de taxonomia sustentavel, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "bf2c5ce11186b3bd": {
+  "veredito": "relevante",
+  "motivo": "anúncio de cronograma para emissão dos documentos fiscais eletrônicos da reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "c112262751a97f2f": {
+  "veredito": "ruido",
+  "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "c271fa02ae579bd1": {
+  "veredito": "ruido",
+  "motivo": "Gestão técnica de mandado de segurança na 8ª Região Fiscal, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "c2ad04206a1686fc": {
+  "veredito": "ruido",
+  "motivo": "Republicação da segmentação de fundos de pensão; 'CBS' no texto é sigla de entidade, não da reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "c31776d8c2e02c25": {
+  "veredito": "ruido",
+  "motivo": "Institui equipe de auditoria de PER/DCOMP de PIS/Cofins, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "c32e96ae43765648": {
+  "veredito": "ruido",
+  "motivo": "Regras internas de atividade correcional da RFB, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "c3d826cbb79820b4": {
+  "veredito": "ruido",
+  "motivo": "Homologa eleição de administradores de resseguradora; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "c54f82850b281ffc": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta sobre bônus capacitação e intervalo intrajornada, CPRB/IRPF",
+  "em": "retroativa-2026-09-30"
+ },
+ "c59e5c05f83258e8": {
+  "veredito": "relevante",
+  "motivo": "RFB e CGIBS regulamentam programa de conformidade para adaptação à reforma em 2026",
+  "em": "retroativa-2026-09-30"
+ },
+ "c5e6cd4ad929493a": {
+  "veredito": "ruido",
+  "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "c6a8f17d86f4d8ad": {
+  "veredito": "ruido",
+  "motivo": "ato COTEPE/ICMS sobre credenciamento de transportadoras de gás, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "c6b2305ad4dde61e": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sem ementa disponível, sem sinal de relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "c71282d187e40e49": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de conselho fiscal de seguradora, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "c772006ebf3532af": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta sobre PIS/Cofins, Simples e IRPF, sem relação com IBS/CBS/IS",
+  "em": "retroativa-2026-09-30"
+ },
+ "c7a027f1054b39b1": {
+  "veredito": "ruido",
+  "motivo": "Regras da Anvisa para laboratórios analíticos; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "c7a390525ea784f2": {
+  "veredito": "contexto",
+  "motivo": "altera regras gerais de julgamento nas Delegacias da RFB citando LC 227/2026, mas não é específico da reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
+ "c7c5a42d84439dfc": {
+  "veredito": "ruido",
+  "motivo": "Vedação de crédito de PIS/Cofins sobre energia elétrica autogerada, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "c7e86841125949d4": {
+  "veredito": "contexto",
+  "motivo": "Ato conjunto RFB/CGIBS sem indicação do assunto no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "c8411608425a6612": {
+  "veredito": "ruido",
+  "motivo": "cadastro de contribuinte de ICMS de gás natural no RJ",
+  "em": "retroativa-2026-09-30"
+ },
+ "c8b1e98edc519031": {
+  "veredito": "ruido",
+  "motivo": "ato COTEPE/ICMS de credenciamento de empresas aeronáuticas a benefício de ICMS",
+  "em": "retroativa-2026-09-30"
+ },
+ "c9b3426394b63fd5": {
+  "veredito": "contexto",
+  "motivo": "página de índice de atos RFB/CGIBS, sem conteúdo normativo específico",
+  "em": "retroativa-2026-09-30"
+ },
+ "c9bb434a511db7d5": {
+  "veredito": "contexto",
+  "motivo": "Portaria CGIBS sem indicação do assunto no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "cb36d6c4c6a4e911": {
+  "veredito": "ruido",
+  "motivo": "Homologa eleição de administrador do Bradesco Seguros; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "ccb5bb2b7a7d8d97": {
+  "veredito": "ruido",
+  "motivo": "Prorroga portaria administrativa da RFB na 8ª região fiscal; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "ccf4edaccd5903d4": {
+  "veredito": "ruido",
+  "motivo": "homologação de aumento de capital e estatuto de seguradora",
+  "em": "retroativa-2026-09-30"
+ },
+ "cd4463d661090713": {
+  "veredito": "ruido",
+  "motivo": "altera circular da SUSEP; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "cd59fe04729171cb": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre lucro presumido em serviços de saúde; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "cef7928316316bfe": {
+  "veredito": "ruido",
+  "motivo": "continuação de tabela de equalização de juros do Plano Safra",
+  "em": "retroativa-2026-09-30"
+ },
+ "cf144f779bbca095": {
+  "veredito": "ruido",
+  "motivo": "altera cronograma de desembolso orçamentário do Executivo; execução financeira geral, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "cf852a3130736f15": {
+  "veredito": "ruido",
+  "motivo": "Consulta sobre lucro presumido em serviços de saúde (mesmo tema); sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "d11326d623afef14": {
+  "veredito": "ruido",
+  "motivo": "linha de financiamento do BNDES para veículos de taxistas, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "d1167aed35784720": {
+  "veredito": "ruido",
+  "motivo": "norma de jurisdição/procedimentos do TRF5; ato de tribunal sem relação com a reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
+ "d138173f675f3f14": {
+  "veredito": "contexto",
+  "motivo": "Portaria CGIBS sem indicação do assunto no título",
+  "em": "retroativa-2026-09-30"
+ },
+ "d1c187339dfc2a36": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "d2203b426505a58c": {
+  "veredito": "contexto",
+  "motivo": "Missão institucional do CGIBS à OCDE sobre IVA, sem efeito prático imediato",
+  "em": "retroativa-2026-09-30"
+ },
+ "d4c2255612e0e3ec": {
+  "veredito": "ruido",
+  "motivo": "ferramenta genérica de consulta de NF-e, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "d54c355d2a5c182e": {
+  "veredito": "ruido",
+  "motivo": "Institui núcleo de acolhimento contra assédio no Tesouro; ato interno sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "d6affd71c8f31be7": {
+  "veredito": "ruido",
+  "motivo": "altera cronograma de desembolso orçamentário do Executivo; execução financeira geral, não reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "d6edf796e3127b8e": {
+  "veredito": "ruido",
+  "motivo": "Suspende atividades de agência da RFB em Lagoa Vermelha-RS, ato interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "d9100b7bc7f86e11": {
+  "veredito": "ruido",
+  "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "d97b2dbb8fa96c90": {
+  "veredito": "ruido",
+  "motivo": "Altera Manual de Demonstrativos Fiscais do Tesouro, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "daec374892715d73": {
+  "veredito": "ruido",
+  "motivo": "resolução CMN sobre FIDCs com créditos judiciais, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "dba8b6bb85fe8127": {
+  "veredito": "ruido",
+  "motivo": "nota fiscal do ouro, sem relação com a reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
  "dbfd6aa163e98483": {
   "veredito": "ruido",
   "motivo": "Relatório Resumido da Execução Orçamentária, 4º bimestre de 2026, sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "dd44a01eb56c0012": {
+  "veredito": "ruido",
+  "motivo": "Dispensa de curso aduaneiro para credenciamento em Belém; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "dda6c5b198153012": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de comitê de auditoria de resseguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "df07bf363decaecb": {
+  "veredito": "relevante",
+  "motivo": "publicação do regulamento do IBS na página do Comitê Gestor do IBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "e022e30ccaf5c277": {
+  "veredito": "ruido",
+  "motivo": "PIS/Cofins regime cumulativo de vigilância eletrônica, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "e02720915c82851b": {
+  "veredito": "relevante",
+  "motivo": "Ato Conjunto nº 3/2026 traz nova etapa da documentação técnica da DeRE",
+  "em": "retroativa-2026-09-30"
+ },
+ "e098cf8b05ef00e9": {
+  "veredito": "relevante",
+  "motivo": "Ato Declaratório Executivo conjunto RFB/CGIBS nº 6; provável norma operacional da reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "e123aa6c9974be7a": {
+  "veredito": "relevante",
+  "motivo": "Página de serviço para o contribuinte escolher o regime de apuração de IBS e CBS.",
+  "em": "retroativa-2026-09-30"
+ },
+ "e1a0775180354ed8": {
+  "veredito": "ruido",
+  "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "e1a25d4a10faeb14": {
+  "veredito": "ruido",
+  "motivo": "Fixa subvencao para diesel via MP 1.391, programa de subsidio de combustivel sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "e2279e28f00a6179": {
+  "veredito": "relevante",
+  "motivo": "RFB e CGIBS estabelecem dispensas para o nanoempreendedor na reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "e23b6fbc0c12c7b0": {
+  "veredito": "ruido",
+  "motivo": "Solução de consulta sobre IRPJ/CSLL em rescisão de compra de imóvel; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "e276e17dc56bba4a": {
+  "veredito": "ruido",
+  "motivo": "retificação sem ementa disponível; nada indica relação com a reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
+ "e2acb1cc162fff34": {
+  "veredito": "ruido",
+  "motivo": "Ato Cotepe atualiza lista de empresas com reducao de base de ICMS, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "e3c47c726d3144e7": {
+  "veredito": "ruido",
+  "motivo": "portaria da Subsecretaria da Dívida Pública, sem ementa; dívida pública, não reforma do consumo",
+  "em": "retroativa-2026-09-30"
+ },
+ "e3cbc0682260c328": {
+  "veredito": "relevante",
+  "motivo": "Notícia da Receita sobre a publicação da v1.2.0 da documentação técnica da DeRE.",
+  "em": "retroativa-2026-09-30"
+ },
+ "e6e908de7c1e0497": {
+  "veredito": "ruido",
+  "motivo": "PMPF de combustíveis para ICMS em Alagoas, sem relação com IBS/CBS",
+  "em": "retroativa-2026-09-30"
+ },
+ "e7352c08e7f958f3": {
+  "veredito": "ruido",
+  "motivo": "Homologa eleição de administradores da Aliança do Brasil Seguros; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "e8f1ae4c93004be4": {
+  "veredito": "ruido",
+  "motivo": "retificação de data em ato declaratório de saída de aeronave, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "e9a2f86e5811c89f": {
+  "veredito": "contexto",
+  "motivo": "Orientação conjunta RFB/CGIBS anunciada, mas sem texto disponível para confirmar efeito",
+  "em": "retroativa-2026-09-30"
+ },
+ "ea31411ebb44a948": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre restituição de retenção indevida na fonte, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "ec04cc066893e30b": {
+  "veredito": "ruido",
+  "motivo": "Autorizacoes de pesquisa arqueologica do Iphan, mencao a reforma e coincidencia sem relacao real",
+  "em": "retroativa-2026-09-30"
+ },
+ "ec197933d71bee3b": {
+  "veredito": "ruido",
+  "motivo": "Retificação de data de vigência de ato declaratório de habilitação; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "ecc22551944b3755": {
+  "veredito": "ruido",
+  "motivo": "Solucao de consulta sobre exclusao do ICMS da base de PIS/Cofins (Tema 69 STF), regra ja consolidada",
+  "em": "retroativa-2026-09-30"
+ },
+ "edfdca59dab1c650": {
+  "veredito": "ruido",
+  "motivo": "resolução CNSP sobre contratos de seguro de danos; regulação de seguros, não reforma",
+  "em": "retroativa-2026-09-30"
  },
  "ee04e0b0d6b85f87": {
   "veredito": "ruido",
   "motivo": "eleição de administrador de seguradora (Youse), sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "ef1d82392ceef683": {
+  "veredito": "relevante",
+  "motivo": "RFB disponibiliza opção pelo regime específico do IBS/CBS para sociedades cooperativas",
+  "em": "retroativa-2026-09-30"
+ },
+ "efa5ccb8b2d342a3": {
+  "veredito": "ruido",
+  "motivo": "torna sem efeito ato sobre regime de ICMS de petroquímicas, tributo atual",
+  "em": "retroativa-2026-09-30"
+ },
+ "f167ebc9aca80f8d": {
+  "veredito": "ruido",
+  "motivo": "altera outra portaria da Secretaria Executiva do MF, sem ementa que indique relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "f171d447bd1f62de": {
+  "veredito": "contexto",
+  "motivo": "Resolução CGIBS nº 9 altera regimento procedimental interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "f282d3401682e5bb": {
+  "veredito": "ruido",
+  "motivo": "Homologa aumento de capital social de seguradora, ato societario interno",
+  "em": "retroativa-2026-09-30"
+ },
+ "f31c77c232b8d73e": {
+  "veredito": "relevante",
+  "motivo": "Ato técnico conjunto nº 3 que aprova a v1.2.0 dos leiautes da DeRE (PDF sem texto extraído).",
+  "em": "retroativa-2026-09-30"
+ },
+ "f31d5fd1ca40e2ae": {
+  "veredito": "relevante",
+  "motivo": "prazo 30/09 para optar pelo Simples e escolher recolhimento puro ou híbrido de IBS/CBS em 2027",
+  "em": "retroativa-2026-09-30"
+ },
+ "f399e43c7e9a7700": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de conselho de capitalização, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "f3e81dc710ad3bab": {
+  "veredito": "ruido",
+  "motivo": "página \"em construção\", sem conteúdo real",
+  "em": "retroativa-2026-09-30"
+ },
  "f423a3c5e0ecc768": {
   "veredito": "ruido",
   "motivo": "eleição de administrador de seguradora (Caixa Seguradora), sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "f462a5321bb08486": {
+  "veredito": "ruido",
+  "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "f46cf14121aaef6f": {
+  "veredito": "ruido",
+  "motivo": "Regras Susep sobre reversao de provisao de seguro por vesting, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "f48d42777c21e581": {
+  "veredito": "ruido",
+  "motivo": "Regulamento de acesso de serviço a ponte internacional; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "f4b8ee7a40d28178": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de comitê de auditoria de seguradora, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "f5343b3ec7da7a9a": {
+  "veredito": "contexto",
+  "motivo": "Posse de diretores e escolha de vice do CGIBS; ato interno de governança",
+  "em": "retroativa-2026-09-30"
+ },
+ "f53f40e5a175f6c7": {
+  "veredito": "contexto",
+  "motivo": "Propõe percentual de custeio do CGIBS para 2027; proposta, não fixa alíquota",
+  "em": "retroativa-2026-09-30"
+ },
+ "f5d435a81a030d3e": {
+  "veredito": "ruido",
+  "motivo": "Regula apostas ligadas à Copa do Mundo Feminina; sem relação com a reforma.",
+  "em": "retroativa-2026-09-30"
+ },
  "f64346429d2eebe8": {
   "veredito": "ruido",
   "motivo": "tabela do RREO (receitas e despesas previdenciárias), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "f6723e67781443ec": {
+  "veredito": "relevante",
+  "motivo": "CGIBS/RFB esclarecem prazos de obrigações da DeRE previstos no Ato Conjunto nº 4.",
+  "em": "retroativa-2026-09-30"
+ },
+ "f729376eb9be0870": {
+  "veredito": "ruido",
+  "motivo": "Exclui pessoa juridica do REFIS por descumprimento, sem relacao com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "f75d3def8661f460": {
+  "veredito": "contexto",
+  "motivo": "Regimento interno procedimental do CGIBS; norma de funcionamento do órgão",
+  "em": "retroativa-2026-09-30"
+ },
+ "f8ea1f6ca82402d8": {
+  "veredito": "ruido",
+  "motivo": "Organiza auditoria interna de PER/DCOMP previdenciário; sem relação com IBS/CBS.",
+  "em": "retroativa-2026-09-30"
+ },
+ "f97ad746e5556879": {
+  "veredito": "ruido",
+  "motivo": "Página inicial do site do CGIBS, sem conteúdo normativo próprio",
+  "em": "retroativa-2026-09-30"
+ },
+ "fa4f4da4b152f75b": {
+  "veredito": "ruido",
+  "motivo": "auditoria de PER/DCOMP de créditos de PIS/Cofins; procedimento de fiscalização já existente",
+  "em": "retroativa-2026-09-30"
+ },
+ "fae9fb86cddbe1c6": {
+  "veredito": "ruido",
+  "motivo": "exclui pessoa jurídica do REFIS, programa de parcelamento antigo, sem relação com a reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "fb20f6e3cb066001": {
+  "veredito": "ruido",
+  "motivo": "Altera regras de verificação de irregularidades em benefícios fiscais gerais (Cadin); não é da reforma.",
+  "em": "retroativa-2026-09-30"
+ },
+ "fba79f6ab3311d9d": {
+  "veredito": "ruido",
+  "motivo": "Solucao de consulta sobre presuncao de IRPJ/CSLL em servicos de saude, imposto sobre a renda",
+  "em": "retroativa-2026-09-30"
+ },
+ "fc2ab79495131189": {
+  "veredito": "ruido",
+  "motivo": "portal institucional genérico de NFS-e, sem conteúdo normativo da reforma",
+  "em": "retroativa-2026-09-30"
+ },
+ "fced101ba08e39f4": {
+  "veredito": "ruido",
+  "motivo": "retificação de número de parágrafo em Ajuste SINIEF do ICMS de gás natural",
+  "em": "retroativa-2026-09-30"
+ },
+ "fff76b8cf345a1fa": {
+  "veredito": "relevante",
+  "motivo": "RFB atualiza balanço de opções pelo Simples e pelo regime regular do IBS/CBS",
+  "em": "retroativa-2026-09-30"
  }
 }
