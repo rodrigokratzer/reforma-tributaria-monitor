@@ -17,6 +17,9 @@ Sai 1 se a analise nao pode ser fechada.
 import json, sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import atualizar_estado
+
 RAIZ = Path(__file__).resolve().parent.parent
 VEREDITOS = ("relevante", "contexto", "ruido")
 
@@ -99,7 +102,20 @@ def fechar(raiz, data, turno, chaves):
     # execucao com o carimbo errado
     if pendente.exists():
         pendente.unlink()
-    return {"ok": True, "motivo": "", "triados": len(validas)}
+
+    # Camada curada do painel (prazos, pendencias, linha do tempo): so' depois
+    # da analise validada. Proposta ruim e' descartada sem derrubar o
+    # fechamento — a analise e a triagem continuam valendo.
+    painel = atualizar_estado.aplica(raiz, data, turno)
+    if painel["aplicado"]:
+        st_path = dados / "analise_status.json"
+        status = _le_json(st_path, {})
+        status["painel_atualizado"] = [m["descricao"] for m in painel["mudancas"]]
+        _grava_json(st_path, status)
+    elif painel["motivo"] != "sem proposta":
+        print(f"aviso: proposta de atualizacao do painel descartada: {painel['motivo']}",
+              file=sys.stderr)
+    return {"ok": True, "motivo": "", "triados": len(validas), "painel": painel}
 
 
 def main(argv=None):

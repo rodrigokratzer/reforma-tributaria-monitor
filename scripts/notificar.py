@@ -111,6 +111,13 @@ def monta_mensagem(status, md_texto, painel_url):
     trecho = trecho_acao(md_texto)
     if trecho:
         partes.append(trecho)
+    # mudanca no painel (prazo, pendencia, marco) vai no alerta: quem so' le
+    # o push precisa saber que o prazo que estava na cabeca mudou
+    painel = [str(x).strip() for x in (status.get("painel_atualizado") or []) if str(x).strip()]
+    if painel:
+        partes.append("Painel atualizado:\n" + "\n".join("- " + x for x in painel[:6]))
+        if prioridade in ("low", "default"):
+            prioridade = "default"
     corpo = "\n\n".join(partes)
     corpo = _corta(corpo, LIMITE_CORPO - len(click) - 2) + "\n\n" + click
 
@@ -122,7 +129,8 @@ def monta_mensagem(status, md_texto, painel_url):
         "click": click,
         "tags": ["warning"] if acoes > 0 else [],
         # sem o .md (arquivo nao existe), o e-mail usa o proprio corpo
-        "md": md_texto,
+        "md": (md_texto + "\n\n### Painel atualizado\n\n" + "\n".join("- " + x for x in painel))
+              if (md_texto and painel) else md_texto,
     }
 
 

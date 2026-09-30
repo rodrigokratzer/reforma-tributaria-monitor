@@ -148,6 +148,14 @@ def ultimos_dias(itens, n=DIAS_EMBUTIDOS):
     return [i for i in itens if i.get("primeira_vez") in alvo]
 
 
+def ultimas_mudancas(hist, n=12):
+    """Ultimas alteracoes da camada curada (dados/estado_mudancas.json, mais
+    recente primeiro), para o painel mostrar o que mudou e quando."""
+    if not isinstance(hist, list):
+        return []
+    return [m for m in hist if isinstance(m, dict) and m.get("descricao")][:n]
+
+
 def main():
     DOCS.mkdir(parents=True, exist_ok=True)
     estado = ler_json(RAIZ / "estado.json", {})
@@ -202,6 +210,8 @@ def main():
         "fontes_historico": sorted({fonte_base(h["fonte"]) for h in historico if h.get("fonte")}),
         "analises": analises,
         "status_diario": status_diario,
+        "estado_atualizado_em": estado.get("atualizado_em"),
+        "estado_mudancas": ultimas_mudancas(ler_json(DADOS / "estado_mudancas.json", [])),
     }
 
     tpl = TEMPLATE.read_text("utf-8")

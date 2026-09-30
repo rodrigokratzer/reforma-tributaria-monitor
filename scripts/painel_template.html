@@ -111,6 +111,13 @@
   footer .marca{display:flex;justify-content:center;margin:22px 0 18px}
   footer .marca img{height:34px;width:auto;opacity:0.85}
   .vazio{color:var(--ink-2);font-size:14px;margin:0}
+  .curado{font-size:12.5px;color:var(--ink-3);margin:10px 0 0}
+  .curado summary{cursor:pointer;color:var(--ink-2);list-style:none;display:inline}
+  .curado summary::-webkit-details-marker{display:none}
+  .curado summary:hover{color:var(--s1)}
+  .curado ul{margin:8px 0 0;padding-left:18px;color:var(--ink-2);font-size:13px}
+  .curado li{margin-bottom:4px}
+  .curado li small{color:var(--ink-3)}
   .muted{color:var(--ink-3);font-size:12px;margin-top:2px}
   .nota{color:var(--ink-3);font-size:12px;margin:8px 0 0}
   .ctl{border:1px solid var(--border);background:var(--surface-1);color:var(--ink-1);
@@ -176,6 +183,7 @@
 
   <h2>Prazos em contagem regressiva</h2>
   <div class="tiles" id="tiles"></div>
+  <details class="curado" id="curado"></details>
 
   <h2 id="h-analise">Análises</h2>
   <div class="card" id="analises-card">
@@ -286,15 +294,35 @@ window.DADOS = /*__DADOS__*/null;
   }
   }catch(e){}
 
-  $('tiles').innerHTML = (D.prazos_destaque||[]).map(function(t){
+  // prazo vencido sai dos cards (continua na linha do tempo): filtra pela data
+  // de quem abre, nao pela de quando o painel foi gerado
+  var PZ = (D.prazos_destaque||[]).filter(function(t){ return dias(t.data) >= 0; });
+  $('tiles').innerHTML = PZ.length ? PZ.map(function(t){
     var n=dias(t.data);
     return '<div class="tile"><div class="rail" style="background:'+COR[t.status]+'"></div>'+
       '<div class="lbl">'+esc(t.rotulo)+'</div>'+
-      '<div class="val">'+n+'<span class="unit">dias</span></div>'+
+      '<div class="val">'+(n===0?'hoje':n+'<span class="unit">'+(n===1?'dia':'dias')+'</span>')+'</div>'+
       '<div class="foot">'+br(t.data)+' &middot; '+esc(t.nota||'')+'</div>'+
       '<div style="margin-top:9px"><span class="chip"><span class="dot" style="background:'+
       COR[t.status]+'"></span>'+NOME[t.status]+'</span></div></div>';
-  }).join('');
+  }).join('') : '<p class="vazio">Nenhum prazo em destaque à frente.</p>';
+
+  try{
+    var MU = D.estado_mudancas || [];
+    var TIPO = {incluido:'incluído', alterado:'alterado', removido:'removido', concluido:'concluído'};
+    var SEC = {prazos_destaque:'prazos', pendencias:'pendências', linha_do_tempo:'linha do tempo'};
+    var cab = 'Prazos, pendências e linha do tempo atualizados em ' +
+      (D.estado_atualizado_em ? br(D.estado_atualizado_em) : '—');
+    $('curado').innerHTML = MU.length
+      ? '<summary>' + esc(cab) + ' &middot; <u>ver últimas alterações</u></summary><ul>' +
+        MU.map(function(m){
+          var em = String(m.em||''); var d = em.slice(0,10);
+          var fonte = /^https?:/.test(m.fonte||'') ? ' <a class="inline" href="'+esc(m.fonte)+'" target="_blank" rel="noopener">fonte</a>' : '';
+          return '<li>' + esc(m.descricao) + fonte + ' <small>(' + esc(SEC[m.secao]||m.secao) + ', ' +
+            esc(TIPO[m.tipo]||m.tipo) + (d ? ', ' + br(d) + (em.length>11 ? ' ' + esc(em.slice(11)) : '') : '') + ')</small></li>';
+        }).join('') + '</ul>'
+      : '<summary>' + esc(cab) + '</summary>';
+  }catch(e){}
 
   // ---------- Análises: seletor por dia/turno, espelhado em #analise=<id> ----------
   var AN = D.analises || [];

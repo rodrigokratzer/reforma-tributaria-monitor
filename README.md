@@ -299,6 +299,14 @@ sem custo extra por execução. Quem faz fork do projeto tem a camada de fatos
 completa, mas precisa configurar sua própria rotina (ou escrever
 `analises/AAAA-MM-DD.md` à mão, que o painel sempre aceitou).
 
+**Painel sempre em dia.** Quando uma publicação muda um prazo, resolve ou
+abre uma pendência, ou marca um fato da transição, a própria análise propõe a
+atualização de `estado.json` (prazos em destaque, placar de pendências, linha
+do tempo) em `dados/estado_proposta.json`. `scripts/atualizar_estado.py` valida
+(estrutura, datas, status, nenhum item some sem ser declarado) e aplica; o
+painel mostra "atualizado em" e as últimas alterações, e o alerta do celular
+lista o que mudou. Proposta inválida é descartada sem derrubar a análise.
+
 **Histórico no painel.** Todas as análises ficam navegáveis por dia e turno
 (seletor na seção "Análises"; link direto `#analise=AAAA-MM-DD-turno`). O
 histórico de publicações mostra os últimos 3 dias e filtra por período, fonte,

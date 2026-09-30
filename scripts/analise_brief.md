@@ -28,7 +28,8 @@ execução anterior — a lista já vem pronta no arquivo de lacuna indicado no
 prompt (mesmo formato da saída de `scripts/lacuna_analise.py`; cada item traz
 o campo `chave`). Não recalcule a lacuna e não analise itens fora dela.
 
-Toda execução grava **exatamente três arquivos** e mais nada:
+Toda execução grava **três arquivos obrigatórios** e, quando for o caso, um
+quarto:
 
 1. `analises/AAAA-MM-DD-<turno>.md` — a análise (formato abaixo). **Sempre**,
    mesmo sem novidade relevante: o painel guarda o histórico de todas as
@@ -37,6 +38,9 @@ Toda execução grava **exatamente três arquivos** e mais nada:
 2. `dados/analise_status.json` — status da execução (formato abaixo).
 3. `dados/triagem_pendente.json` — um veredito por item da lacuna (formato
    abaixo).
+4. `dados/estado_proposta.json` — **só quando o painel precisa mudar**: a
+   proposta de atualização de prazos, pendências e linha do tempo (ver
+   "Manter o painel em dia" abaixo). Nunca edite `estado.json` direto.
 
 **Não rode nenhum comando git.** Um script valida os três arquivos, marca os
 itens como analisados e faz o commit. Se faltar algum arquivo, ou se o status
@@ -150,6 +154,65 @@ veredito no lugar de "revisar" e deixa o leitor esconder o ruído.
 - `ruido` — sem relação com a reforma do consumo.
 - `motivo` — uma frase curta (até ~120 caracteres), baseada no texto lido.
 - Use a `chave` exatamente como veio; chave inventada é descartada.
+
+## Manter o painel em dia (`dados/estado_proposta.json`)
+
+O painel não é só a análise: os cards "Prazos em contagem regressiva", o
+"Placar de pendências" e a "Linha do tempo da transição" vêm de `estado.json`
+— e é isso que o contador olha primeiro. Se uma publicação mudou um prazo e o
+card continua com a data velha, o painel está **errado**, por melhor que seja
+a análise. Exemplo real: a Resolução CGSN nº 194 prorrogou a opção pelo
+Simples/regime regular do IBS-CBS de 30/09 para 15/10 e 30/10, e o painel
+ficou semanas sem mostrar esse prazo.
+
+**Em toda execução**, depois de classificar os itens, leia `estado.json`
+inteiro e pergunte, para cada item `relevante` ou `contexto` desta lacuna:
+
+- **Mudou ou criou um prazo?** Atualize/inclua em `prazos_destaque` (se for
+  dos mais importantes dos próximos meses) e em `linha_do_tempo`. Prorrogação
+  = alterar a data e dizer na `nota`/`detalhe` que foi prorrogado e por qual
+  ato.
+- **Resolveu uma pendência?** Tire de `pendencias` (tipo `concluido`) e, se
+  for marco, registre na `linha_do_tempo`. **Avançou** uma pendência sem
+  resolver? Atualize a `situacao`.
+- **Abriu uma pendência nova** (norma prometida e não publicada, regra sem
+  data)? Inclua em `pendencias`.
+- **Marco relevante já ocorrido** (ato publicado, sistema em produção)?
+  Inclua na `linha_do_tempo` com a data do fato.
+
+Faxina, na mesma passada: prazo de `prazos_destaque` já vencido sai dos
+cards (o marco fica na linha do tempo); pendência com `prazo` vencido precisa
+de `situacao` atualizada. Mantenha 4 a 6 prazos em destaque — os mais
+importantes à frente, não todos.
+
+Se nada precisar mudar, **não grave** o arquivo. Se precisar, grave o
+`estado.json` **inteiro** (todas as seções, inclusive o que não mudou)
+dentro de `estado`, e declare cada alteração em `mudancas`:
+
+```json
+{"estado": {"prazos_destaque": [...], "pendencias": [...], "linha_do_tempo": [...]},
+ "mudancas": [
+  {"secao": "prazos_destaque", "tipo": "alterado",
+   "descricao": "Opção pelo Simples Nacional 2027 prorrogada de 30/09 para 15/10 (Res. CGSN 194)",
+   "fonte": "<url do item>"}]}
+```
+
+Regras que o script de validação aplica (proposta que violar qualquer uma é
+descartada inteira e o painel fica como estava):
+
+- `secao` ∈ `prazos_destaque`, `pendencias`, `linha_do_tempo`; `tipo` ∈
+  `incluido`, `alterado`, `removido`, `concluido`; `descricao` obrigatória —
+  é ela que aparece no alerta do celular e no painel, então escreva para o
+  contador ("Prazo X prorrogado para DD/MM (ato Y)"), não para o sistema.
+- Datas sempre `AAAA-MM-DD`. `status` ∈ `critical`, `serious`, `warning`,
+  `good` (crítico, atenção, monitorar, planejado).
+- Campos obrigatórios: prazos `rotulo`/`data`/`status` (+ `nota` curta);
+  pendências `item`/`situacao`/`status` (+ `prazo` ou `null`); linha do tempo
+  `data`/`titulo` (+ `detalhe`).
+- Todo item que sair ou mudar de nome precisa de uma mudança declarada
+  naquela seção (`removido`, `concluido` ou `alterado`). Nada some calado.
+- Só com base no que você leu (texto do item, `[VERIFICADO LITERAL]`).
+  Proposta não é norma: resolução que *propõe* percentual não vira prazo.
 
 ## Critério de relevância
 

@@ -174,3 +174,46 @@ class TestCli(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestFecharAtualizaPainel(unittest.TestCase):
+    def _estado(self):
+        return {"prazos_destaque": [{"rotulo": "P", "data": "2026-09-30", "status": "critical"}],
+                "pendencias": [], "linha_do_tempo": [{"data": "2026-01-01", "titulo": "M"}]}
+
+    def test_fechar_aplica_proposta_e_anota_status(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz)
+            escreve(raiz, "estado.json", self._estado())
+            novo = self._estado(); novo["prazos_destaque"][0]["data"] = "2026-10-15"
+            escreve(raiz, "dados/estado_proposta.json", {"estado": novo, "mudancas": [
+                {"secao": "prazos_destaque", "tipo": "alterado",
+                 "descricao": "Prazo P prorrogado para 15/10", "fonte": "u"}]})
+            r = fa.fechar(raiz, "2026-09-30", "noturna", ["a"])
+            self.assertTrue(r["ok"])
+            self.assertTrue(r["painel"]["aplicado"])
+            self.assertEqual(le(raiz, "estado.json")["prazos_destaque"][0]["data"], "2026-10-15")
+            self.assertEqual(le(raiz, "dados/analise_status.json")["painel_atualizado"],
+                             ["Prazo P prorrogado para 15/10"])
+
+    def test_analise_invalida_nao_aplica_proposta(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz, md=False)
+            escreve(raiz, "estado.json", self._estado())
+            escreve(raiz, "dados/estado_proposta.json", {"estado": {}, "mudancas": []})
+            fa.fechar(raiz, "2026-09-30", "noturna", ["a"])
+            self.assertEqual(le(raiz, "estado.json"), self._estado())
+
+    def test_proposta_invalida_nao_derruba_fechamento(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz)
+            escreve(raiz, "estado.json", self._estado())
+            escreve(raiz, "dados/estado_proposta.json", "{quebrado")
+            r = fa.fechar(raiz, "2026-09-30", "noturna", ["a"])
+            self.assertTrue(r["ok"])
+            self.assertFalse(r["painel"]["aplicado"])
+            self.assertIn("a", le(raiz, "dados/analisados.json")["chaves"])
+            self.assertNotIn("painel_atualizado", le(raiz, "dados/analise_status.json"))

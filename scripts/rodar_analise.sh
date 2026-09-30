@@ -43,7 +43,7 @@ json.dump({"data": sys.argv[1], "turno": sys.argv[2], "situacao": "sem_novidade"
 EOF
   resumo="sem publicacoes novas"
 else
-  PROMPT="Leia scripts/analise_brief.md e siga as instrucoes dele por completo. Data de hoje: $HOJE. Turno: $TURNO. A lacuna de cobertura (os $n itens que voce deve analisar, com o texto integral quando disponivel) ja foi calculada e esta em $LACUNA - leia esse arquivo, nao rode lacuna_analise.py de novo. Produza exatamente os tres arquivos que o brief especifica: $ARQ, dados/analise_status.json (com data=$HOJE e turno=$TURNO) e dados/triagem_pendente.json (um veredito para cada um dos $n itens). NAO rode nenhum comando git - o commit e feito depois por outro script. Nao pergunte nada - decida e execute sozinho."
+  PROMPT="Leia scripts/analise_brief.md e siga as instrucoes dele por completo. Data de hoje: $HOJE. Turno: $TURNO. A lacuna de cobertura (os $n itens que voce deve analisar, com o texto integral quando disponivel) ja foi calculada e esta em $LACUNA - leia esse arquivo, nao rode lacuna_analise.py de novo. Produza os tres arquivos obrigatorios que o brief especifica: $ARQ, dados/analise_status.json (com data=$HOJE e turno=$TURNO) e dados/triagem_pendente.json (um veredito para cada um dos $n itens). Siga tambem a secao 'Manter o painel em dia': se algum item mudar prazo, pendencia ou marco (ou houver prazo em destaque vencido), grave dados/estado_proposta.json - nunca edite estado.json direto. NAO rode nenhum comando git - o commit e feito depois por outro script. Nao pergunte nada - decida e execute sozinho."
 
   # tee: a saida crua vai para o journal (systemd) e para $SAIDA.
   claude -p "$PROMPT" --permission-mode bypassPermissions --output-format json | tee "$SAIDA"
@@ -53,6 +53,9 @@ else
     exit $codigo
   fi
   resumo=$($PY -c "import json; print(json.load(open('dados/analise_status.json')).get('resumo_curto','')[:90])" 2>/dev/null || echo "")
+  # estado.json so' muda pela proposta validada (atualizar_estado.py): se o
+  # claude editou o arquivo direto, a edicao e' desfeita aqui
+  git checkout -- estado.json 2>/dev/null || true
 fi
 
 # Codigo 0 do claude nao prova nada (limite de uso, recusa). fechar_analise
@@ -63,10 +66,11 @@ if ! $PY scripts/fechar_analise.py "$HOJE" "$TURNO" "$LACUNA"; then
   # solto no checkout, onde o 'git add analises' do proximo ciclo o pegaria.
   mv -f "$ARQ" "$ESTADO/" 2>/dev/null || true
   mv -f dados/triagem_pendente.json "$ESTADO/triagem_pendente-$HOJE-$TURNO.json" 2>/dev/null || true
+  mv -f dados/estado_proposta.json "$ESTADO/estado_proposta-$HOJE-$TURNO.json" 2>/dev/null || true
   git checkout -- dados/analise_status.json 2>/dev/null || true
   exit 1
 fi
 
 $PY scripts/gerar_painel.py >/dev/null
-scripts/publicar.sh "analise $HOJE $TURNO: ${resumo:-ver analise}" analises dados docs || exit 1
+scripts/publicar.sh "analise $HOJE $TURNO: ${resumo:-ver analise}" analises dados docs estado.json || exit 1
 echo "Analise $TURNO concluida ($n itens)."

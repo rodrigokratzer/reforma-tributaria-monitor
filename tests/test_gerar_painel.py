@@ -147,3 +147,15 @@ class TestMain(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestUltimasMudancas(unittest.TestCase):
+    def test_corta_e_ignora_lixo(self):
+        hist = [{"descricao": str(i)} for i in range(20)] + ["x", {"sem": "descricao"}]
+        self.assertEqual(len(gp.ultimas_mudancas(hist)), 12)
+        self.assertEqual(gp.ultimas_mudancas(hist)[0]["descricao"], "0")
+
+    def test_arquivo_ausente_ou_invalido(self):
+        self.assertEqual(gp.ultimas_mudancas({}), [])
+        self.assertEqual(gp.ultimas_mudancas([]), [])
+

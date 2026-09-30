@@ -55,7 +55,13 @@ No linter or formatter is configured.
   files — `analises/AAAA-MM-DD-<turno>.md`, `dados/analise_status.json`,
   `dados/triagem_pendente.json`; it never runs git. `scripts/fechar_analise.py`
   validates them and only then marks items as analyzed (`dados/analisados.json`)
-  and merges the per-item verdicts into `dados/triagem.json`.
+  and merges the per-item verdicts into `dados/triagem.json`. When a publication
+  changes a deadline, pending item or milestone, the analysis also writes
+  `dados/estado_proposta.json` (the full `estado.json` + declared `mudancas`);
+  `scripts/atualizar_estado.py` (called by `fechar_analise.py`) validates schema,
+  dates, status values and that nothing disappears undeclared, then applies it and
+  logs to `dados/estado_mudancas.json`. An invalid proposal is dropped; the panel
+  keeps the previous state.
 
 ### Data flow
 
@@ -84,8 +90,9 @@ No linter or formatter is configured.
    plus `docs/historico.json` (full history, fetched by the panel's period filter;
    both published via GitHub Pages, `/docs` on `main`).
 6. `docs/index.html`, everything under `dados/`, and `dados/analise_status.json` are
-   **generated** — never hand-edit them. `estado.json` and `scripts/analise_brief.md`
-   are the two files meant for manual editing; `analises/*.md` is normally written by
+   **generated** — never hand-edit them. `scripts/analise_brief.md` is meant for manual
+   editing; `estado.json` accepts manual edits but is normally updated by the
+   analysis through `scripts/atualizar_estado.py`; `analises/*.md` is normally written by
    the scheduled agent but accepts manual edits too.
 
 ### Os scrapers web (`scripts/portais/`)

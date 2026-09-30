@@ -221,3 +221,22 @@ class TestMain(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestPainelAtualizadoNoAlerta(unittest.TestCase):
+    def test_mudancas_do_painel_entram_no_corpo(self):
+        st = {"data": "2026-09-30", "turno": "matinal", "situacao": "sem_novidade", "acoes": 0,
+              "resumo_curto": "x", "painel_atualizado": ["Opção pelo Simples prorrogada para 15/10"]}
+        msg = nt.monta_mensagem(st, "**x**", "https://p/")
+        self.assertIn("Painel atualizado", msg["corpo"])
+        self.assertIn("15/10", msg["corpo"])
+        # sem novidade mas com painel mudado nao e' mais prioridade baixa
+        self.assertEqual(msg["prioridade"], "default")
+        self.assertIn("15/10", msg["md"])
+
+    def test_sem_mudanca_nada_muda(self):
+        st = {"data": "2026-09-30", "turno": "matinal", "situacao": "sem_novidade", "acoes": 0}
+        msg = nt.monta_mensagem(st, "**x**", "https://p/")
+        self.assertNotIn("Painel atualizado", msg["corpo"])
+        self.assertEqual(msg["prioridade"], "low")
+
