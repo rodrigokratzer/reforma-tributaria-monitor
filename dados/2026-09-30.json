@@ -8,7 +8,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
-   "total": 9,
+   "total": 10,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -16,6 +16,14 @@
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
+    },
+    {
+     "titulo": "Opção do contribuinte por Simples Nacional ou pelo regime regular de CBS e IBS para 2027 tem novos prazos",
+     "url": "https://www.cgibs.gov.br/embora-os-periodos-sejam-parecidos-tratam-de-escolhas-diferentes-por-isso-e-importante-entender-cada-situacao",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "Uma novidade divulgada essa semana traz impactos diretos em contribuintes que vão lidar com os novos impostos da reforma tributária sobre o consumo.  Por intermédio da Resoução CGSN 194, o Comitê Gestor do Simples Nacional (CGSN) ajustou os prazos relacionados para 2027, a partir do diálogo com o Sebrae e o Conselho Federal de Contabilidade.\n\nCom isso, microempresas e empresas de pequeno porte precisam ficar atentas a dois procedimentos diferentes:\n\n* a opção pelo Simples Nacional; e\n* a opção pelo regime regular do IBS e da CBS, aplicável às empresas já optantes pelo Simples Nacional.\n\nQuais são as decisões:\n\n1. Quero entrar ou retornar no Simples Nacional em 2027\n\nA empresa que deseja optar pelo Simples Nacional para o ano-calendário de 2027 poderá fazer a solicitação no período de:\n\n1º de setembro de 2026 a 15 de outubro de 2026.\n\nA opção, quando confirmada, produzirá efeitos a partir de 1º de janeiro de 2027.\n\nSe houver pendências\n\nCaso a solicitação seja inicialmente indeferida por conta de débitos ou outras pendências impeditivas, a empresa poderá regularizar a situação até:\n\n30 de outubro de 2026.\n\nO prazo de regularização é único para todos, independente da data de ciência do indeferimento:\n\nO novo prazo para regularizar as pendências (dia 30 de outubro) também alcança as empresas que fizeram a opção pelo Simples Nacional desde 1º de setembro; e\n\nComo o prazo para regularizar as pendências é fixo, quanto mais o contribuinte deixar para o final, menos tempo para regularizar essas pendências ele possui.\n\nPosso desistir da opção?\n\nSim. A solicitação poderá ser cancelada pelo próprio contribuinte entre:\n\n3 de novembro e 20 de dezembro de 2026.\n\n2. Sou optante pelo Simples e quero recolher IBS e CBS pelo regime regular\n\nA partir da Reforma Tributária, empresas do Simples Nacional poderão optar por apurar e recolher o IBS e a CBS pelo regime regular, em vez de recolher esses tributos dentro do Documento de Arrecadação do Simples Nacional (DAS).\n\nPara o período de janeiro a junho de 2027, essa opção poderá ser realizada entre:\n\n1º de setembro de 2026 e 30 de outubro de 2026.\n\nA escolha produzirá efeitos a partir de 1º de janeiro de 2027.\n\nPosso cancelar essa opção?\n\nSim. O cancelamento também poderá ser realizado entre:\n\n3 de novembro e 20 de dezembro de 2026.\n\nAtenção: são duas decisões diferentes\n\nOpção 1: Simples Nacional\n\nDefine se a empresa estará enquadrada no Simples Nacional em 2027.\n\nPrazo: 1º/09/2026 a 15/10/2026.\n\nOpção 2: Regime regular do IBS e da CBS\n\nAplica-se às empresas do Simples Nacional que desejarem recolher IBS e CBS pelo regime regular.\n\nPrazo: 1º/09/2026 a 30/10/2026.\n\nSe a decisão for apenas ingressar ou retornar no Simples Nacional, atenção ao prazo de 15 de outubro de 2026. Para a decisão que envolve a opção pelo regime regular do IBS e da CBS, o prazo vai até 30 de outubro de 2026.\n\nFONTE: RECEITA FEDERAL DO BRASIL"
     },
     {
      "titulo": "Declaração de Regimes Específicos: CGIBS e Receita Federal divulgam endpoints do ambiente de produção",
@@ -32,6 +40,14 @@
      "pasta_arquivo": null,
      "alerta": null,
      "texto": "O Comitê Gestor do Imposto Sobre Bens e Serviços informa que sua conta no Instagram (cgibs.oficial) está passando por uma instabilidade.\n\nNossa equipe já está em contato com a empresa responsável por esta rede social a fim de solucionar o problema com celeridade. \n\nInformamos que principais as notícias do CGIBS também podem ser acompanhadas pelo portal www.cgibs.gov.br."
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS divulgam Orientação Conjunta destinada às sociedades cooperativas",
+     "url": "https://www.cgibs.gov.br/receita-federal-e-comite-gestor-do-imposto-sobre-bens-e-servicos-divulgam-orientacao-conjunta",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "texto": "A Receita Federal do Brasil (RFB) e o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) informam que está disponível, no Portal de Serviços da Receita Federal, a funcionalidade para realização da opção pelo regime específico do IBS e da CBS destinado às sociedades cooperativas. O procedimento decorre das regras instituídas pela Reforma Tributária sobre o Consumo.\n\nO que é essa opção? \n\nA legislação prevê um regime específico para as sociedades cooperativas. Quando a cooperativa opta por esse regime, as alíquotas do IBS e da CBS ficam reduzidas a zero em operações expressamente previstas na legislação.  \n\nTrata-se de uma escolha facultativa da cooperativa. A decisão deve ser analisada com atenção, considerando as características da atividade exercida, a relação com cooperados e clientes, os impactos sobre créditos tributários, fluxo de caixa e demais aspectos da operação. \n\nQuem pode optar? \n\nPodem optar as sociedades cooperativas enquadradas nas regras previstas no art. 271 da Lei Complementar nº 214, de 2025.  \n\nQual é o prazo? \n\nA opção para produzir efeitos em 2027 poderá ser realizada entre 1º de setembro e 31 de outubro de 2026.  \n\nA escolha efetuada nesse período terá validade a partir de 1º de janeiro de 2027.  \n\nO que a cooperativa precisa fazer até 31 de outubro? \n\nA formalização da opção envolve duas etapas obrigatórias: \n\n1. Registrar a opção \n\nA cooperativa deve acessar o Portal Tributação sobre Consumo e registrar sua decisão de aderir ao regime específico.  \n\n2. Enviar a lista de associados \n\nAlém do registro da opção, é obrigatório o envio da listagem dos associados da cooperativa, contendo a identificação dos associados e suas respectivas datas de admissão. A legislação exige essa informação para o deferimento da opção.  \n\nAtenção: a simples manifestação da opção não conclui o procedimento. O envio da listagem de associados é etapa indispensável para sua efetivação.  \n\nComo acessar? \n\nO procedimento é realizado no Portal de Serviços da Receita Federal no endereço eletrônico Serviços da Receita Federal: seguir o seguinte caminho, através do menu lateral à esquerda ou através dos cards/ícones: Negócios → Regimes de Tributação → Outros Regimes → Enviar Arquivos de Dados. \n\nE se a cooperativa mudar de ideia? \n\nA legislação permite o cancelamento da opção até o último dia do prazo de opção, ou seja, até 31 de outubro de 2026. Após o cancelamento, a cooperativa deixará de estar enquadrada no regime específico.  \n\nPode optar depois? \n\nPara o ano de 2027 não, mas para anos seguintes sim. A cooperativa que não realizar a opção neste momento poderá fazê-lo em futuras janelas anuais de opção, que ocorrerão nos meses de setembro e outubro de cada ano. A escolha produzirá efeitos sempre a partir do ano-calendário seguinte ao da solicitação. \n\nPlanejamento é fundamental \n\nAntes de tomar a decisão, recomenda-se que a cooperativa avalie cuidadosamente os possíveis efeitos do enquadramento no regime específico e consulte o profissional contábil. \n\nA opção pode influenciar aspectos relevantes da gestão e da operação da entidade, como: \n\nfluxo de caixa; \n\nrelacionamento com fornecedores, clientes e cooperados; \n\naproveitamento de créditos na cadeia econômica; \n\nprecificação; \n\nplanejamento tributário e operacional. \n\nCada cooperativa possui características próprias, razão pela qual a decisão deve ser tomada após análise individualizada. \n\nServiço\n\nPrazo para opção: de 1º de setembro a 31 de outubro de 2026. \n\nQuem pode optar: sociedades cooperativas abrangidas pelo regime específico previsto na legislação. \n\nInício dos efeitos da opção realizada em 2026: 1º de janeiro de 2027. \n\nBase legal \n\nLei Complementar nº 214, de 16 de janeiro de 2025.  \n\nDecreto nº 12.955, de 29 de abril de 2026.  \n\nResolução CGIBS nº 6, de 30 de abril de 2026.  \n\nA opção pelo regime específico das cooperativas é uma novidade da Reforma Tributária sobre o Consumo. Para produzir efeitos em 2027, a cooperativa deve registrar sua opção e enviar a listagem de associados até 31 de outubro de 2026.\n\nFonte: Receita Federal do Brasil"
     },
     {
      "titulo": "Regimes Específicos: veja atualização dos esquemas XSD dos eventos D-1011 e D-1101 na Produção Restrita",
@@ -72,14 +88,6 @@
      "pasta_arquivo": null,
      "alerta": null,
      "texto": "O Comitê Gestor do Imposto sobre Bens e Serviços publicou nesta sexta-feira (11/09) três Editais de Chamamento Público, destinados à seleção de entes federados com o intuito de celebrar de Acordos de Cooperação Técnica com o CGIBS.\n\nO primeiro deles busca entes interessados em colaborar com o desenvolvimento do ANDIC - Ambiente Nacional de Dados e Informações Cadastrais, destinado à constituição e manutenção de um ambiente nacional de dados cadastrais, componente do Ambiente Nacional de Dados compartilhado entre a Receita Federal do Brasil (RFB) e o Comitê Gestor do IBS (CGIBS). \n\nO Edital de Chamamento Público 2 convida os entes federados à apresentação de proposições para participação no desenvolvimento do Módulo de Repositório Nacional de DF-es, RIBS (Resumo do IBS) e Compartilhamento de Documentos Fiscais Eletrônicos e Declarações alinhado e compatível com os sistemas e módulos já implementados pelos entes federativos, especialmente no que se refere à Apuração, Arrecadação e Distribuição do IBS.\n\nPor sua vez, para participar do terceiro Edital de Chamamento Público é preciso apresentar propostas técnicas de participação colaborativa no desenvolvimento do Sistema de Ressarcimento do IBS, destinado à operacionalização dos procedimentos de ressarcimento de saldos credores do IBS, nos termos dos arts. 39 e 40 da Lei Complementar nº 214/2025. \n\nAs soluções deverão assegurar interoperabilidade, disponibilidade, segurança, integração, sincronização, desempenho e a integridade das informações referentes aos modelos propostos. \n\nOs resultados dos Chamamentos para Manifestação de Interesse regidos pelos Editais terão validade de 12 meses, contados da data de homologação do resultado definitivo, podendo, a critério do CGIBS, ser renovado por igual período.   \n\nO texto completo dos Editais de Chamamento 1, 2 e 3 podem ser conferidos aqui!"
-    },
-    {
-     "titulo": "CGIBS e Receita Federal publicam versão 1.2.0 da documentação técnica da Declaração de Regimes Específicos",
-     "url": "https://www.cgibs.gov.br/cgibs-e-receita-federal-publicam-versao-1-2-0-da-documentacao-tecnica-da-dere",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null,
-     "texto": "O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) comunicam a publicação da versão 1.2.0 do pacote de documentação técnica da Declaração de Regimes Específicos (DeRE). A medida foi aprovada pelo Ato Técnico Conjunto RFB/SUFIS/CGIBS/DIRETORIA-EXECUTIVA nº 3, de 2 de setembro de 2026, que também ratifica tecnicamente os termos da Nota Orientativa DeRE nº 2026.001.\n\nA versão 1.2.0 institui o controle de deduções da base de cálculo, a reabertura de períodos encerrados e a versão inicial dos leiautes dos eventos transacionais para identificação individualizada de adquirentes e destinatários.\n\nLeiautes dos Eventos Transacionais e evolução incremental\n\nA versão 1.2.0 disponibiliza os leiautes dos eventos periódicos transacionais (séries D-2000, D-3000 e D-4000). Essa estrutura foi projetada para viabilizar a identificação de tomadores, credenciados e beneficiários, em atendimento ao princípio do destino, ao direito à apropriação de créditos pelo adquirente e à operacionalização da devolução personalizada (cashback), em conformidade com a Lei Complementar nº 214/2025.\n\nRessalta-se que os eventos transacionais disponibilizados nesta versão correspondem à primeira etapa de implementação da escrituração transacional da DeRE. A expansão estrutural desses eventos e o acréscimo gradual de novos campos e críticas de validação serão executados de forma incremental nas próximas versões da DeRE, assegurando previsibilidade e tempo hábil para a adequação dos sistemas emissores.\n\nDisponibilização da documentação técnica e atualização do Manual (MOD)\n\nEsta publicação contempla exclusivamente a documentação técnica voltada à programação, recepção estruturada e parametrização dos sistemas corporativos:\n\n02 - Leiautes da DeRE – Eventos (v.1.2.0): Especificação técnica dos eventos de tabela, periódicos mensais, periódicos transacionais e totalizadores de retorno;\n\n03 - Leiautes da DeRE – Anexo I – Tabelas (v.1.2.0): Relação atualizada de tabelas de domínio, incluindo Códigos de Tributação (codTrib), Códigos de Base de Cálculo (codBC), Tabela de Países e planos de contas referenciais;\n\n04 - Leiautes da DeRE – Anexo II – Regras de Validação (v.1.2.0): Documento unificado contendo o catálogo de regras de consistência e mensagens de erro do sistema;\n\n06 - Arquivos XSD (XML Schema Definition): Esquemas formais para validação sintática e estrutural dos arquivos XML.\n\nO Manual de Orientação do Usuário (MOD), com as instruções de preenchimento da declaração e o detalhamento dos novos eventos transacionais, não acompanha esta publicação e será disponibilizado em ato conjunto subsequente.\n\nAcesso à documentação: \n\nA documentação técnica completa da da DeRE está disponível no portal oficial do Comitê Gestor do IBS e no Portal SPED da RFB.\n\nPara acessar a documentação, clique aqui.\n\n \n\nComitê Gestor do Imposto sobre Bens e Serviços\n\nSecretaria Especial da Receita Federal do Brasil"
     }
    ]
   },
@@ -435,7 +443,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 13,
+   "total": 14,
    "itens": [
     {
      "titulo": "Aderir ao Piloto da Reforma Tributária da Contribuição sobre Bens e Serviços (CBS)",
@@ -489,6 +497,13 @@
     {
      "titulo": "Simples Nacional",
      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
@@ -537,7 +552,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 23,
+   "total": 24,
    "itens": [
     {
      "titulo": "Aderir ao Piloto da Reforma Tributária da Contribuição sobre Bens e Serviços (CBS)",
@@ -591,6 +606,13 @@
     {
      "titulo": "Simples Nacional",
      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
