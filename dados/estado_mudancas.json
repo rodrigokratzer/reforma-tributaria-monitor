@@ -1,5 +1,12 @@
 [
  {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "Balanço de indeferimento do Simples Nacional 2027 atualizado para 30/09: 63% (246.601 de 392.117 pedidos), ante 64% em 28/09",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
+  "em": "2026-09-30-noturna"
+ },
+ {
   "secao": "linha_do_tempo",
   "tipo": "incluido",
   "descricao": "Prazo \"Opção pelo Simples Nacional para 2027 — prazo prorrogado\" (15/10) incluído na linha do tempo",

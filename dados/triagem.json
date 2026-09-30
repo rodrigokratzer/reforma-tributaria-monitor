@@ -929,6 +929,11 @@
   "motivo": "solução de consulta sem ementa disponível, sem sinal de relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "74b1d8e9aa2c9ddf": {
+  "veredito": "relevante",
+  "motivo": "Confirma prazo de 31/10 para cooperativas e exige envio da lista de associados, não só registro",
+  "em": "2026-09-30-noturna"
+ },
  "75a92a1a31b8d7f0": {
   "veredito": "ruido",
   "motivo": "ato COTEPE/ICMS de credenciamento de empresas a benefício de ICMS, sem relação com IBS/CBS",
@@ -1529,6 +1534,11 @@
   "motivo": "Consulta sobre lucro presumido em serviços de saúde; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "ce7d8e60658311cd": {
+  "veredito": "relevante",
+  "motivo": "Detalha as duas opções (Simples e regime regular do IBS/CBS) já prorrogadas pela Res. CGSN 194",
+  "em": "2026-09-30-noturna"
+ },
  "cef7928316316bfe": {
   "veredito": "ruido",
   "motivo": "continuação de tabela de equalização de juros do Plano Safra",
@@ -1713,6 +1723,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta sobre restituição de retenção indevida na fonte, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "eb9948392c78fdd5": {
+  "veredito": "relevante",
+  "motivo": "Balanço atualizado: 63% dos pedidos do Simples 2027 ainda indeferidos, às vésperas do prazo",
+  "em": "2026-09-30-noturna"
  },
  "ec04cc066893e30b": {
   "veredito": "ruido",
