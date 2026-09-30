@@ -1,20 +1,8 @@
 {
  "data": "2026-09-30",
- "quantidade": 1,
- "itens": [
-  {
-   "primeira_vez": "2026-09-30",
-   "fonte": "RFB - Noticias 2026",
-   "titulo": "Simples Nacional 2027: Entenda os novos prazos e faça sua escolha com consciência e tranquilidade",
-   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-entenda-os-novos-prazos-e-faca-sua-escolha-com-consciencia-e-tranquilidade",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null
-  }
- ],
- "fontes_com_erro": [
-  "Portal NF-e - Informes/NTs"
- ],
+ "quantidade": 0,
+ "itens": [],
+ "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
  "fontes_puladas": []

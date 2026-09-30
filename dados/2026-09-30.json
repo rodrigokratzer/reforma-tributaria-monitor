@@ -772,12 +772,55 @@
   {
    "fonte": "Portal NF-e - Informes/NTs",
    "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
-   "metodo": null,
+   "metodo": "browser",
    "http_status": null,
-   "erro": "browser: TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false\", waiting until \"domcontentload | http: TimeoutError: The read operation timed out",
-   "erro_browser": "TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false\", waiting until \"domcontentload",
-   "total": 0,
-   "itens": []
+   "erro": null,
+   "erro_browser": null,
+   "total": 6,
+   "itens": [
+    {
+     "titulo": "Conheça a NF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaSubMenu.aspx?Id=6H4uVlIEaKs=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consultar NF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Atos RFB/CGIBS",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=ECxaPvwFHQE=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Atos Técnicos RFB/CGIBS",
+     "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=hXHrw4cadF8=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Visualizador de DF-e",
+     "url": "https://www.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Central de Atendimento",
+     "url": "https://www.serpro.gov.br/menu/suporte/central-de-atendimento-serpro-nfe-cte",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
   },
   {
    "fonte": "CGIBS - Regulamentos",
