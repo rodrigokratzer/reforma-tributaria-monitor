@@ -183,7 +183,11 @@ def artigos(conteudo):
                 a["_titulo"] = tit
                 a["_continuacao"] = herdado
                 a["_ementa"] = campos.get("Ementa", "")
-                a["_texto"] = campos.get("Texto", "")[:20000]
+                # guarda-se cortado (tamanho do historico), mas classifica-se
+                # pelo integral: mencao ao IBS depois do caractere 20.000
+                # sumia e a materia era descartada
+                a["_texto_integral"] = campos.get("Texto", "")
+                a["_texto"] = a["_texto_integral"][:20000]
                 a["_arquivo"] = nome
                 saida.append(a)
     return saida
@@ -207,7 +211,7 @@ def classifica(a):
     """
     titulo = a.get("_titulo", "")
     cabeca = " ".join([titulo, a.get("_ementa", ""), a.get("artType", "")])
-    corpo = a.get("_texto", "")
+    corpo = a.get("_texto_integral", a.get("_texto", ""))
 
     if REFS.search(cabeca) or TERMOS.search(cabeca):
         return "forte"

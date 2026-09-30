@@ -111,7 +111,54 @@
   footer .marca{display:flex;justify-content:center;margin:22px 0 18px}
   footer .marca img{height:34px;width:auto;opacity:0.85}
   .vazio{color:var(--ink-2);font-size:14px;margin:0}
-  @media (max-width:560px){ .ev{grid-template-columns:80px 14px 1fr} }
+  .muted{color:var(--ink-3);font-size:12px;margin-top:2px}
+  .nota{color:var(--ink-3);font-size:12px;margin:8px 0 0}
+  .ctl{border:1px solid var(--border);background:var(--surface-1);color:var(--ink-1);
+    border-radius:8px;padding:6px 9px;font-size:13px;font-family:inherit;min-width:0;width:100%;height:34px}
+  .ctl:focus{outline:2px solid var(--s1);outline-offset:1px}
+  .btn{border:1px solid var(--border);background:var(--surface-1);color:var(--ink-2);
+    border-radius:8px;padding:6px 11px;font-size:13px;cursor:pointer;font-family:inherit;height:34px;white-space:nowrap}
+  .btn:hover:not(:disabled){background:var(--wash);border-color:var(--s1);color:var(--s1)}
+  .btn:disabled{opacity:.4;cursor:default}
+  .anbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+  .anbar .ctl.sel{flex:1 1 200px;width:auto}
+  .anbar .ctl.dia{flex:0 1 160px;width:auto}
+  .anbar .btn{width:34px;padding:0;font-size:18px;line-height:1}
+  .anmsg{flex:1 0 100%;font-size:12.5px;color:var(--serious);display:none}
+  .anmsg.on{display:block}
+  .anbody{border-top:1px solid var(--grid);padding-top:14px}
+  .filtros{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px 12px;align-items:end}
+  .filtros label{display:flex;flex-direction:column;gap:4px;font-size:11px;text-transform:uppercase;
+    letter-spacing:0.06em;color:var(--ink-3);font-weight:600;min-width:0}
+  .filtros .busca{grid-column:span 2}
+  .histbar{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between;
+    margin:14px 0 4px;font-size:13px;color:var(--ink-2)}
+  .histbar strong{color:var(--ink-1);font-variant-numeric:tabular-nums}
+  .aviso{border-left:3px solid var(--warning);background:var(--wash);padding:8px 12px;
+    border-radius:0 8px 8px 0;font-size:12.5px;margin-top:12px;display:none}
+  .aviso.on{display:block}
+  .tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  td{overflow-wrap:anywhere}
+  td.dt{overflow-wrap:normal}
+  tr.ruido td{opacity:.6}
+  .fonte-m{display:none}
+  .mais{display:flex;justify-content:center;margin-top:12px}
+  .mais .btn{height:auto;padding:7px 16px}
+  @media (max-width:560px){
+    .ev{grid-template-columns:80px 14px 1fr}
+    .wrap{padding:22px 16px 56px}
+    .card{padding:16px 14px}
+    .filtros .busca{grid-column:1 / -1}
+    .anbar .ctl.dia{flex:1 1 100%}
+    /* tabelas de publicacao viram lista: 3 colunas em 330px espremem o titulo */
+    table.pub thead{display:none}
+    table.pub tr{display:block;padding:10px 0;border-bottom:1px solid var(--grid)}
+    table.pub tr:last-child{border-bottom:none}
+    table.pub td{display:block;border:none;padding:0}
+    table.pub td.dt{font-size:12px;color:var(--ink-3);margin-bottom:2px}
+    table.pub td.fonte{display:none}
+    table.pub .fonte-m{display:block}
+  }
 </style>
 </head>
 <body>
@@ -120,7 +167,7 @@
     <div>
       <h1>Painel — Reforma Tributária</h1>
       <p class="sub">Acompanhamento de publicações, prazos e impactos &middot;
-        varredura de <strong id="upd">—</strong> &middot; dias úteis</p>
+        varredura de <strong id="upd">—</strong> &middot; 2x ao dia (05h e 17h)</p>
     </div>
     <button class="toggle" id="tt">Alternar tema</button>
   </header>
@@ -130,8 +177,17 @@
   <h2>Prazos em contagem regressiva</h2>
   <div class="tiles" id="tiles"></div>
 
-  <h2 id="h-analise">Resumo do dia</h2>
-  <div class="card analise" id="analise"></div>
+  <h2 id="h-analise">Análises</h2>
+  <div class="card" id="analises-card">
+    <div class="anbar" id="anbar">
+      <button class="btn" id="an-ant" type="button" title="Análise anterior" aria-label="Análise anterior">&lsaquo;</button>
+      <select class="ctl sel" id="an-sel" aria-label="Escolher análise"></select>
+      <button class="btn" id="an-prox" type="button" title="Análise seguinte" aria-label="Análise seguinte">&rsaquo;</button>
+      <input class="ctl dia" type="date" id="an-dia" aria-label="Ir para a análise de um dia" title="Ir para a análise de um dia">
+      <div class="anmsg" id="an-msg"></div>
+    </div>
+    <div class="analise anbody" id="analise"></div>
+  </div>
 
   <h2>Publicações novas detectadas</h2>
   <div class="card" id="novid"></div>
@@ -154,17 +210,36 @@
   <h2>Fontes varridas</h2>
   <div class="card"><div class="src" id="src"></div><div id="srcalerta"></div></div>
 
-  <h2>Histórico</h2>
+  <h2 id="h-hist">Histórico de publicações</h2>
   <div class="card">
-    <table>
-      <thead><tr><th>Visto em</th><th>Publicação</th><th>Fonte</th></tr></thead>
-      <tbody id="hist"></tbody>
-    </table>
+    <div class="filtros">
+      <label>De<input class="ctl" type="date" id="f-de"></label>
+      <label>Até<input class="ctl" type="date" id="f-ate"></label>
+      <label>Fonte<select class="ctl" id="f-fonte"><option value="">todas</option></select></label>
+      <label>Triagem<select class="ctl" id="f-tri">
+        <option value="">todas</option>
+        <option value="relevante">relevantes</option>
+        <option value="sem_ruido" selected>ocultar ruído</option>
+      </select></label>
+      <label class="busca">Busca<input class="ctl" type="search" id="f-busca" placeholder="título, órgão, ementa ou número" autocomplete="off"></label>
+    </div>
+    <div class="aviso" id="h-aviso"></div>
+    <div class="histbar">
+      <span><strong id="h-count">0</strong> <span id="h-count-lbl">publicações</span><span id="h-escopo" class="muted" style="margin-left:6px"></span></span>
+      <button class="btn" id="f-limpar" type="button">limpar filtros</button>
+    </div>
+    <div class="tblwrap">
+      <table class="pub">
+        <thead><tr><th>Visto em</th><th>Publicação</th><th>Fonte</th></tr></thead>
+        <tbody id="hist"></tbody>
+      </table>
+    </div>
+    <div class="mais" id="h-mais" hidden><button class="btn" id="h-mais-btn" type="button">mostrar mais</button></div>
   </div>
 
   <footer>
-    <p>Gerado automaticamente a partir das fontes oficiais. O bloco “Resumo do dia” é o mesmo
-       texto enviado por e-mail. <strong>Proposta não é norma vigente</strong>: resolução do CGIBS
+    <p>Gerado automaticamente a partir das fontes oficiais. O bloco “Análises” também é
+       enviado por alerta (push/e-mail). <strong>Proposta não é norma vigente</strong>: resolução do CGIBS
        que propõe percentual não fixa alíquota, e estimativa divulgada na imprensa não é norma.</p>
     <p id="gerado"></p>
     <div class="marca"><img src="assets/logo-carolina-loth.png" alt="Carolina Loth" loading="lazy"></div>
@@ -200,9 +275,13 @@ window.DADOS = /*__DADOS__*/null;
     if(atraso > 1){ cor = 'var(--critical)'; texto = 'sem atualização há ' + atraso + ' dias — ' + texto; }
     var el = $('status-diario');
     el.style.borderLeftColor = cor;
-    el.innerHTML = '<strong>Última checagem da análise:</strong> ' + esc(br(sd.data)) +
+    var turnoTxt = sd.turno && sd.turno!=='unica' ? ' &middot; ' + esc(sd.turno) : '';
+    var idSd = sd.data + (sd.turno && sd.turno!=='unica' ? '-' + sd.turno : '');
+    var temAn = (D.analises||[]).some(function(a){return a.id===idSd;});
+    el.innerHTML = '<strong>Última checagem da análise:</strong> ' + esc(br(sd.data)) + turnoTxt +
       (sd.gerado_em ? ' &middot; ' + esc(sd.gerado_em.slice(11,16)) + ' UTC' : '') +
-      ' — ' + esc(texto);
+      ' — ' + esc(texto) +
+      (temAn ? ' &middot; <a class="inline" href="#analise='+esc(idSd)+'">ler</a>' : '');
     el.className = 'status-diario on';
   }
   }catch(e){}
@@ -217,25 +296,90 @@ window.DADOS = /*__DADOS__*/null;
       COR[t.status]+'"></span>'+NOME[t.status]+'</span></div></div>';
   }).join('');
 
-  if(D.analise_html){ $('analise').innerHTML = D.analise_html;
-    if(D.analise_data) $('h-analise').textContent = 'Resumo do dia — ' + br(D.analise_data);
+  // ---------- Análises: seletor por dia/turno, espelhado em #analise=<id> ----------
+  var AN = D.analises || [];
+  var anIdx = -1;
+  function idDoHash(){
+    var m = /(?:^#|&)analise=([^&]+)/.exec(location.hash || '');
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+  function gravaHash(id){
+    var h = '#analise=' + encodeURIComponent(id);
+    if(location.hash === h) return;
+    try{ history.replaceState(null, '', h); }catch(e){ location.hash = h; }
+  }
+  function mostraAnalise(i, doUsuario){
+    if(i < 0 || i >= AN.length) return;
+    anIdx = i;
+    var a = AN[i];
+    $('an-sel').value = a.id;
+    $('an-dia').value = a.data;
+    $('an-ant').disabled = i >= AN.length - 1;   // lista desc: "anterior" = mais antiga
+    $('an-prox').disabled = i <= 0;
+    $('an-msg').className = 'anmsg';
+    $('analise').innerHTML = a.html;
+    if(doUsuario) gravaHash(a.id);
+  }
+  function selecionaPorId(id, rolar){
+    for(var i=0;i<AN.length;i++){ if(AN[i].id===id){ mostraAnalise(i, false);
+      if(rolar) $('h-analise').scrollIntoView(); return true; } }
+    return false;
+  }
+  if(AN.length){
+    $('an-sel').innerHTML = AN.map(function(a){
+      return '<option value="'+esc(a.id)+'">'+esc(a.rotulo)+'</option>'; }).join('');
+    $('an-dia').min = AN[AN.length-1].data; $('an-dia').max = AN[0].data;
+    $('an-sel').addEventListener('change', function(){
+      for(var i=0;i<AN.length;i++) if(AN[i].id===this.value) mostraAnalise(i, true); });
+    $('an-ant').addEventListener('click', function(){ mostraAnalise(anIdx+1, true); });
+    $('an-prox').addEventListener('click', function(){ mostraAnalise(anIdx-1, true); });
+    $('an-dia').addEventListener('change', function(){
+      var v = this.value; if(!v) return;
+      for(var i=0;i<AN.length;i++){ if(AN[i].data===v){ mostraAnalise(i, true); return; } }
+      var msg = $('an-msg');
+      msg.textContent = 'Sem análise em ' + br(v).slice(0,5) + '.';
+      msg.className = 'anmsg on';
+    });
+    window.addEventListener('hashchange', function(){ var id = idDoHash(); if(id) selecionaPorId(id, true); });
+    var hid = idDoHash();
+    if(!(hid && selecionaPorId(hid, true))) mostraAnalise(0, false);
   } else {
-    $('analise').innerHTML = '<p class="vazio">Sem análise publicada para esta data. '+
-      'As publicações detectadas estão listadas abaixo; a leitura de impacto chega por e-mail.</p>';
+    $('anbar').style.display = 'none';
+    $('analise').className = 'analise';
+    $('analise').innerHTML = '<p class="vazio">Nenhuma análise publicada ainda. '+
+      'As publicações detectadas estão listadas abaixo.</p>';
+  }
+
+  // ---------- chip de triagem (veredito da IA; sem veredito cai no balde do DOU) ----------
+  function chipDot(cor, txt, titulo){
+    return '<span class="chip" style="margin-left:6px"'+(titulo?' title="'+esc(titulo)+'"':'')+
+      '><span class="dot" style="background:'+cor+'"></span>'+txt+'</span>';
+  }
+  function chipTriagem(i){
+    var tr = i.triagem;
+    if(tr && tr.veredito==='relevante') return chipDot('var(--critical)','relevante',tr.motivo);
+    if(tr && tr.veredito==='contexto') return chipDot('var(--ink-3)','contexto',tr.motivo);
+    if(tr && tr.veredito==='ruido') return chipDot('var(--axis)','ruído',tr.motivo);
+    if(i.balde==='revisar') return chipDot('var(--warning)','não triado');
+    if(i.balde==='forte') return chipDot('var(--critical)','forte');
+    return '';
+  }
+  function ehRuido(i){ return !!(i.triagem && i.triagem.veredito==='ruido'); }
+  function linhaPub(i, dataCampo){
+    var dt = i[dataCampo];
+    return '<tr'+(ehRuido(i)?' class="ruido"':'')+'><td class="dt">'+(dt?br(dt):'—')+'</td>'+
+      '<td><a class="inline" href="'+esc(i.url)+'" target="_blank" rel="noopener">'+esc(i.titulo)+'</a>'+chipTriagem(i)+
+      (i.orgao?'<div class="muted">'+esc(i.orgao)+'</div>':'')+
+      (i.triagem && i.triagem.motivo?'<div class="muted"><em>'+esc(i.triagem.motivo)+'</em></div>':'')+
+      '<div class="muted fonte-m">'+esc(i.fonte)+'</div>'+
+      (i.alerta?'<div class="alerta">⚠ '+esc(i.alerta)+'</div>':'')+'</td>'+
+      '<td class="fonte" style="color:var(--ink-2)">'+esc(i.fonte)+'</td></tr>';
   }
 
   var nv = D.novidades || [];
   $('novid').innerHTML = nv.length
-    ? '<table><thead><tr><th>Data</th><th>Publicação</th><th>Fonte</th></tr></thead><tbody>'+
-      nv.map(function(i){
-        var sel = i.balde==='forte' ? '<span class="chip" style="margin-left:6px"><span class="dot" style="background:var(--critical)"></span>forte</span>'
-                : i.balde==='revisar' ? '<span class="chip" style="margin-left:6px"><span class="dot" style="background:var(--warning)"></span>revisar</span>' : '';
-        return '<tr><td class="dt">'+(i.data?br(i.data):'—')+'</td>'+
-          '<td><a class="inline" href="'+esc(i.url)+'" target="_blank" rel="noopener">'+esc(i.titulo)+'</a>'+sel+
-          (i.orgao?'<div style="color:var(--ink-3);font-size:12px;margin-top:2px">'+esc(i.orgao)+'</div>':'')+
-          (i.alerta?'<div class="alerta">⚠ '+esc(i.alerta)+'</div>':'')+'</td>'+
-          '<td style="color:var(--ink-2)">'+esc(i.fonte)+'</td></tr>';
-      }).join('')+'</tbody></table>'
+    ? '<div class="tblwrap"><table class="pub"><thead><tr><th>Data</th><th>Publicação</th><th>Fonte</th></tr></thead><tbody>'+
+      nv.map(function(i){ return linhaPub(i, 'data'); }).join('')+'</tbody></table></div>'
     : '<p class="vazio">Nenhuma publicação nova desde a varredura anterior.</p>';
 
   $('pend').innerHTML = (D.pendencias||[]).map(function(p){
@@ -277,11 +421,102 @@ window.DADOS = /*__DADOS__*/null;
       comErro.map(function(f){return esc(f.fonte);}).join(', ')+
       '. O que estiver nelas não entrou no painel de hoje.</div>' : '';
 
-  $('hist').innerHTML = (D.historico||[]).map(function(h){
-    return '<tr><td class="dt">'+br(h.primeira_vez)+'</td>'+
-      '<td><a class="inline" href="'+esc(h.url)+'" target="_blank" rel="noopener">'+esc(h.titulo)+'</a></td>'+
-      '<td style="color:var(--ink-2)">'+esc(h.fonte)+'</td></tr>';
-  }).join('') || '<tr><td colspan="3" class="vazio">Histórico vazio — primeira execução.</td></tr>';
+  // ---------- Histórico filtrável ----------
+  // O HTML embute só os últimos dias; o resto vem de historico.json sob demanda.
+  // Aberto como arquivo local (file://) o fetch falha: segue com o embutido e avisa.
+  var HR = D.historico_recente || [];
+  var HIST = HR, histCompleto = false, histCarregando = false, histFalhou = false;
+  var cobreDesde = HR.reduce(function(m,h){ return (!m || h.primeira_vez < m) ? h.primeira_vez : m; }, null);
+  var maisRecente = HR.reduce(function(m,h){ return (!m || h.primeira_vez > m) ? h.primeira_vez : m; }, null);
+  var PASSO = 100, limite = PASSO;
+
+  function norm(s){
+    return String(s==null?'':s).normalize('NFD').replace(/[̀-ͯ]/g,'')
+      .toLowerCase().replace(/(\d)\.(?=\d)/g,'$1');
+  }
+  function iso(dt){ var z=function(n){return (n<10?'0':'')+n;};
+    return dt.getFullYear()+'-'+z(dt.getMonth()+1)+'-'+z(dt.getDate()); }
+
+  $('f-fonte').innerHTML += (D.fontes_historico||[]).map(function(f){
+    return '<option value="'+esc(f)+'">'+esc(f)+'</option>'; }).join('');
+  if(D.historico_inicio){ $('f-de').min = D.historico_inicio; $('f-ate').min = D.historico_inicio; }
+  // Padrao: tudo o que veio embutido (os 3 ultimos dias COM dados). "Mais recente
+  // menos 2 dias corridos" esconderia sexta/segunda quando ha' fim de semana no meio.
+  function padraoDatas(){
+    if(!maisRecente) return;
+    var x = d(maisRecente); x.setDate(x.getDate()-2);
+    var de = iso(x);
+    if(cobreDesde && cobreDesde < de) de = cobreDesde;
+    $('f-de').value = de; $('f-ate').value = maisRecente;
+  }
+  padraoDatas();
+
+  function precisaCompleto(){
+    var de = $('f-de').value;
+    return !de || (cobreDesde && de < cobreDesde);
+  }
+  function aviso(txt){ var a=$('h-aviso'); a.textContent = txt||''; a.className = 'aviso'+(txt?' on':''); }
+  function carregaCompleto(){
+    if(histCompleto || histCarregando || histFalhou) return;
+    // file:// nao permite fetch (o Chrome ainda loga erro no console): nem tenta.
+    if(typeof fetch !== 'function' || location.protocol === 'file:'){ histFalhou = true; return; }
+    histCarregando = true;
+    aviso('Carregando histórico completo…');
+    fetch('historico.json', {cache:'no-cache'}).then(function(r){
+      if(!r.ok) throw new Error('HTTP '+r.status); return r.json();
+    }).then(function(lista){
+      if(!Array.isArray(lista)) throw new Error('formato');
+      HIST = lista; histCompleto = true; histCarregando = false; aviso('');
+      renderHist();
+    }).catch(function(){
+      histCarregando = false; histFalhou = true; renderHist();
+    });
+  }
+
+  function filtra(){
+    var de=$('f-de').value, ate=$('f-ate').value, fonte=$('f-fonte').value, tri=$('f-tri').value;
+    var termos = norm($('f-busca').value).split(/\s+/).filter(Boolean);
+    return HIST.filter(function(h){
+      var pv = h.primeira_vez || '';
+      if(de && pv < de) return false;
+      if(ate && pv > ate) return false;
+      if(fonte && String(h.fonte||'').replace(/\s*\((revisar|forte)\)\s*$/,'') !== fonte) return false;
+      if(tri==='relevante' && !(h.triagem && h.triagem.veredito==='relevante')) return false;
+      if(tri==='sem_ruido' && ehRuido(h)) return false;
+      if(termos.length){
+        if(h._n === undefined) h._n = norm([h.titulo, h.orgao, h.ementa].join(' '));
+        for(var k=0;k<termos.length;k++) if(h._n.indexOf(termos[k]) < 0) return false;
+      }
+      return true;
+    });
+  }
+  function renderHist(){
+    if(precisaCompleto()) carregaCompleto();
+    if(histFalhou && precisaCompleto())
+      aviso('Histórico completo indisponível offline — mostrando os últimos 3 dias' +
+        (cobreDesde ? ' (desde ' + br(cobreDesde) + ')' : '') + '.');
+    else if(!histCarregando) aviso('');
+    var res = filtra();
+    $('h-count').textContent = res.length.toLocaleString('pt-BR');
+    $('h-count-lbl').textContent = res.length===1 ? 'publicação' : 'publicações';
+    $('h-escopo').textContent = histCompleto
+      ? '· histórico completo desde ' + br(D.historico_inicio || cobreDesde || '')
+      : (cobreDesde ? '· base: últimos 3 dias' : '');
+    $('hist').innerHTML = res.slice(0, limite).map(function(h){ return linhaPub(h, 'primeira_vez'); }).join('') ||
+      '<tr><td colspan="3" class="vazio">'+(HIST.length ? 'Nenhuma publicação com esses filtros.'
+        : 'Histórico vazio — primeira execução.')+'</td></tr>';
+    $('h-mais').hidden = res.length <= limite;
+    if(res.length > limite) $('h-mais-btn').textContent = 'mostrar mais (' + (res.length - limite) + ' restantes)';
+  }
+  function aoFiltrar(){ limite = PASSO; renderHist(); }
+  ['f-de','f-ate','f-fonte','f-tri'].forEach(function(id){ $(id).addEventListener('change', aoFiltrar); });
+  $('f-busca').addEventListener('input', aoFiltrar);
+  $('h-mais-btn').addEventListener('click', function(){ limite += PASSO; renderHist(); });
+  $('f-limpar').addEventListener('click', function(){
+    $('f-de').value=''; $('f-ate').value=''; $('f-fonte').value=''; $('f-tri').value=''; $('f-busca').value='';
+    aoFiltrar();
+  });
+  renderHist();
 
   $('tt').addEventListener('click',function(){
     var cur=document.documentElement.getAttribute('data-theme');

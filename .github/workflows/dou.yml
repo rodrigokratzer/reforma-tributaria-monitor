@@ -8,15 +8,16 @@ name: DOU (INLABS)
 on:
   schedule:
     # Plano B: a coleta primária do DOU agora roda no notebook lenovo-claude,
-    # todo dia às 01:07 Brasília (systemd timer, ver docs/operacao-local.md).
-    # Este workflow só age como rede de segurança, 3h depois — 07:10 UTC =
-    # 04:10 Brasília, todo dia — e só coleta de verdade se
+    # no ciclo das 05:00 e das 17:00 Brasília (systemd, ver
+    # docs/operacao-local.md). Este workflow só age como rede de segurança,
+    # ~2h depois do ciclo matinal — 10:10 UTC = 07:10 Brasília, todo dia — e
+    # só coleta de verdade se
     # dados/AAAA-MM-DD-dou.json ainda não existir (ver "Verificar se já
     # coletou hoje" abaixo). Fora do início exato da hora de propósito: o
     # GitHub documenta que "high load times include the start of each hour",
     # e um cron pode atrasar ou ser pulado silenciosamente nesses horários —
     # foi o que aconteceu em 27-28/08/2026.
-    - cron: "10 7 * * *"
+    - cron: "10 10 * * *"
   workflow_dispatch:        # permite disparar na mão pela aba Actions
 
 permissions:

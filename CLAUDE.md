@@ -49,16 +49,21 @@ No linter or formatter is configured.
   `scripts/portais/` package) and `scripts/dou_diario.py` (DOU/INLABS) run on
   their own GitHub Actions schedules, write JSON, and never interpret anything.
   No AI, no judgment calls.
-- **Análise** (analysis) — a Claude agent, scheduled externally to this repo (Claude
-  Code `/schedule`, not a GitHub Actions workflow, to avoid per-token API cost), reads
-  `scripts/analise_brief.md` and writes `analises/AAAA-MM-DD.md`.
+- **Análise** (analysis) — `claude -p` run by `scripts/rodar_analise.sh` on the
+  local machine (subscription, no per-token API cost), twice a day: turno `matinal`
+  (05:00) and `noturna` (17:00). It reads `scripts/analise_brief.md` and writes only
+  files — `analises/AAAA-MM-DD-<turno>.md`, `dados/analise_status.json`,
+  `dados/triagem_pendente.json`; it never runs git. `scripts/fechar_analise.py`
+  validates them and only then marks items as analyzed (`dados/analisados.json`)
+  and merges the per-item verdicts into `dados/triagem.json`.
 
 ### Data flow
 
-1. `scripts/varredura.py` (web sources, 02:10 BRT weekdays, plus a 03:15 catch-up
-   that only re-scrapes if the day's file is still missing) and `scripts/dou_diario.py`
-   (DOU, 01:07 BRT weekdays) both call the shared `grava_resultado()` in
-   `scripts/varredura.py` to write their results.
+1. `scripts/rodar_ciclo.sh` (systemd `reforma-ciclo.timer`, 05:00 and 17:00 BRT)
+   runs `scripts/dou_diario.py` (DOU), then `scripts/varredura.py` (web sources),
+   then the analysis, then `scripts/notificar.py` (ntfy push + optional SMTP email).
+   Both collectors call the shared `grava_resultado()` in `scripts/varredura.py`,
+   which stamps new history items with `visto_em` (UTC).
 2. **The two collectors never write the same file.** Web writes
    `dados/AAAA-MM-DD.json` + `dados/novidades.json`; DOU writes
    `dados/AAAA-MM-DD-dou.json` + `dados/novidades_dou.json`. This is deliberate —
@@ -68,13 +73,16 @@ No linter or formatter is configured.
    construction, because its dedup key (`chave()` in `scripts/portais/base.py`,
    imported by `varredura.py`) is a content hash (URL + title), not tied to which
    collector found the item first.
-4. `scripts/lacuna_analise.py` reads only `analises/*.md` (by filename date) and
-   `dados/historico.json` — it never touches the per-day snapshot files, so it's
-   agnostic to which collector found what.
+4. `scripts/lacuna_analise.py` returns every `dados/historico.json` item whose key is
+   not in `dados/analisados.json` — by item key, not by date, because two cycles run
+   on the same day. Analysis file stems: `AAAA-MM-DD` (legacy, turno `unica`),
+   `AAAA-MM-DD-matinal`, `AAAA-MM-DD-noturna`.
 5. `scripts/gerar_painel.py` reads `estado.json`, both pairs of per-day/novidades
-   files, `dados/historico.json`, `dados/analise_status.json`, and `analises/*.md`,
-   embeds one JSON payload into `scripts/painel_template.html`, and writes
-   `docs/index.html` (published via GitHub Pages, `/docs` on `main`).
+   files, `dados/historico.json`, `dados/triagem.json`, `dados/analise_status.json`,
+   and `analises/*.md`, embeds one JSON payload (all analyses + last 3 days of
+   publications) into `scripts/painel_template.html`, and writes `docs/index.html`
+   plus `docs/historico.json` (full history, fetched by the panel's period filter;
+   both published via GitHub Pages, `/docs` on `main`).
 6. `docs/index.html`, everything under `dados/`, and `dados/analise_status.json` are
    **generated** — never hand-edit them. `estado.json` and `scripts/analise_brief.md`
    are the two files meant for manual editing; `analises/*.md` is normally written by

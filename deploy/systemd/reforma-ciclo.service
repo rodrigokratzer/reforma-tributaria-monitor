@@ -1,0 +1,22 @@
+[Unit]
+Description=Reforma Tributaria - ciclo completo (DOU, portais, analise, alerta)
+After=network-online.target
+Wants=network-online.target
+# Falha (inclusive timeout) dispara o alerta de falha por push/e-mail.
+OnFailure=reforma-falha@%n.service
+
+[Service]
+Type=oneshot
+User=rodrigo
+Group=rodrigo
+Environment=HOME=/home/rodrigo
+WorkingDirectory=/home/rodrigo/projects/reforma-tributaria-monitor
+EnvironmentFile=-/home/rodrigo/projects/reforma-tributaria-monitor/.env
+# O flock continua: um disparo manual no meio de um ciclo agendado nao pode
+# brigar pelo mesmo checkout git.
+ExecStart=/usr/bin/flock /run/lock/reforma-pipeline.lock /home/rodrigo/projects/reforma-tributaria-monitor/scripts/rodar_ciclo.sh
+# 2h: DOU pode levar ate ~1h no pior caso de login do INLABS (30 tentativas),
+# mais 10 min de portais, mais a analise do claude.
+TimeoutStartSec=7200
+StandardOutput=journal
+StandardError=journal

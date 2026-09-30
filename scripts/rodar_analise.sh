@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+# Raia da analise de um ciclo (matinal ou noturna). Uso: rodar_analise.sh TURNO
+#
+# Diferenca em relacao a antiga rodar_analise_diaria.sh: o claude so' escreve
+# arquivos. Quem valida, marca os itens como analisados, regenera o painel e
+# faz commit/push e' este script - a parte nao deterministica fica menor, e
+# uma execucao que bateu em limite de uso nao marca nada como analisado.
+set -uo pipefail
+cd "$(dirname "$0")/.."
+TURNO="${1:?uso: rodar_analise.sh matinal|noturna}"
+HOJE=$(date +%Y-%m-%d)
+PY=.venv/bin/python3
+
+# Mesma guarda das outras raias: rebase conflitado nao pode seguir adiante.
+if ! git pull --rebase --autostash -q; then
+  echo "git pull --rebase falhou - abortando rebase para deixar o checkout limpo" >&2
+  git rebase --abort 2>/dev/null || true
+  exit 1
+fi
+
+ESTADO="$HOME/.local/state/reforma"
+mkdir -p "$ESTADO"
+LACUNA="$ESTADO/lacuna-$HOJE-$TURNO.json"
+SAIDA="$ESTADO/analise-$HOJE-$TURNO.json"
+ARQ="analises/$HOJE-$TURNO.md"
+
+# A lacuna e' congelada aqui, antes do claude: as chaves marcadas como
+# analisadas no fim sao exatamente as que ele recebeu, nem uma a mais.
+$PY scripts/lacuna_analise.py "$HOJE" > "$LACUNA" || exit 1
+n=$($PY -c "import json,sys; print(len(json.load(open(sys.argv[1]))['itens']))" "$LACUNA")
+
+if [ "$n" -eq 0 ]; then
+  # Nada novo desde a ultima analise: nao gasta uma chamada do claude, mas
+  # deixa registro do ciclo, para o historico do painel nao ter buraco.
+  cat > "$ARQ" <<EOF
+**Sem publicações novas desde a última análise.**
+
+Nenhuma das fontes monitoradas trouxe item novo neste ciclo ($TURNO de $(date +%d/%m/%Y)).
+EOF
+  $PY - "$HOJE" "$TURNO" <<'EOF'
+import json, sys, datetime
+json.dump({"data": sys.argv[1], "turno": sys.argv[2], "situacao": "sem_novidade",
+           "acoes": 0,
+           "gerado_em": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+           "resumo_curto": "nenhuma publicação nova"},
+          open("dados/analise_status.json", "w"), ensure_ascii=False)
+EOF
+  resumo="sem publicacoes novas"
+else
+  PROMPT="Leia scripts/analise_brief.md e siga as instrucoes dele por completo. Data de hoje: $HOJE. Turno: $TURNO. A lacuna de cobertura (os $n itens que voce deve analisar, com o texto integral quando disponivel) ja foi calculada e esta em $LACUNA - leia esse arquivo, nao rode lacuna_analise.py de novo. Produza exatamente os tres arquivos que o brief especifica: $ARQ, dados/analise_status.json (com data=$HOJE e turno=$TURNO) e dados/triagem_pendente.json (um veredito para cada um dos $n itens). NAO rode nenhum comando git - o commit e feito depois por outro script. Nao pergunte nada - decida e execute sozinho."
+
+  # tee: a saida crua vai para o journal (systemd) e para $SAIDA.
+  claude -p "$PROMPT" --permission-mode bypassPermissions --output-format json | tee "$SAIDA"
+  codigo=$?
+  if [ $codigo -ne 0 ]; then
+    echo "claude -p saiu com codigo $codigo - analise $TURNO NAO concluida. Ver $SAIDA" >&2
+    exit $codigo
+  fi
+  resumo=$($PY -c "import json; print(json.load(open('dados/analise_status.json')).get('resumo_curto','')[:90])" 2>/dev/null || echo "")
+fi
+
+# Codigo 0 do claude nao prova nada (limite de uso, recusa). fechar_analise
+# confere arquivo e status do turno; se faltar algo, sai 1 e nada e' marcado.
+if ! $PY scripts/fechar_analise.py "$HOJE" "$TURNO" "$LACUNA"; then
+  echo "fechar_analise recusou o resultado - itens continuam pendentes para o proximo ciclo" >&2
+  # O que o claude escreveu vai para $ESTADO (para diagnostico), nao fica
+  # solto no checkout, onde o 'git add analises' do proximo ciclo o pegaria.
+  mv -f "$ARQ" "$ESTADO/" 2>/dev/null || true
+  mv -f dados/triagem_pendente.json "$ESTADO/triagem_pendente-$HOJE-$TURNO.json" 2>/dev/null || true
+  git checkout -- dados/analise_status.json 2>/dev/null || true
+  exit 1
+fi
+
+$PY scripts/gerar_painel.py
+git add analises dados docs
+if git diff --staged --quiet; then
+  echo "Nada mudou (analise $TURNO)."
+else
+  git commit -q -m "analise $HOJE $TURNO: ${resumo:-ver analise}"
+  if ! git push -q; then
+    git pull --rebase --autostash -q && git push -q
+  fi
+fi
+echo "Analise $TURNO concluida ($n itens)."

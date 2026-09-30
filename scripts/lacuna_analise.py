@@ -1,25 +1,57 @@
 #!/usr/bin/env python3
 """
-Determina a lacuna de cobertura da analise diaria: quais dias desde a
-ultima analises/AAAA-MM-DD.md ja publicada ainda nao tem analise, e quais
-itens de dados/historico.json caem nessa janela.
+Determina a lacuna de cobertura da analise: quais itens de
+dados/historico.json ainda nao foram analisados.
+
+A lacuna e' por chave de item (dados/analisados.json), nao por data. Com dois
+ciclos no mesmo dia (05h e 17h), uma janela por data ou repetiria na analise
+das 17h o que a das 05h ja cobriu, ou perderia o que chegou entre as duas.
+A chave e' a propria chave do dicionario do historico (a mesma de
+portais.base.chave), entao nao depende de qual coletor achou o item.
 
 Uso: python scripts/lacuna_analise.py [hoje AAAA-MM-DD]
 Saida: JSON no stdout.
 """
-import json, re, sys, datetime
+import json, os, re, sys, datetime
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA_RX = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+ANALISE_RX = re.compile(r"^(\d{4}-\d{2}-\d{2})(?:-(matinal|noturna))?$")
+TURNOS = ("matinal", "noturna")
+# "unica" e' o turno das analises antigas (uma por dia, sem sufixo); no mesmo
+# dia, ela vem antes de qualquer turno nomeado
+ORDEM_TURNO = {"unica": 0, "matinal": 1, "noturna": 2}
 
 
-def data_ultima_analise(raiz):
+def id_analise(stem):
+    """'AAAA-MM-DD' -> (data, 'unica'); 'AAAA-MM-DD-matinal|noturna' ->
+    (data, turno); qualquer outro nome -> None."""
+    m = ANALISE_RX.match(stem)
+    if not m:
+        return None
+    return m.group(1), m.group(2) or "unica"
+
+
+def turno_atual(agora=None):
+    """Turno pela hora local da execucao: o catch-up do systemd
+    (Persistent=true) roda atrasado, e a hora real e' o que diz a que ciclo
+    ele pertence. A variavel TURNO sobrescreve (execucao manual)."""
+    env = os.environ.get("TURNO", "").strip()
+    if env in TURNOS:
+        return env
+    agora = agora or datetime.datetime.now()
+    return "matinal" if agora.hour < 12 else "noturna"
+
+
+def ultima_analise(raiz):
     analises = raiz / "analises"
     if not analises.exists():
         return None
-    datas = sorted(p.stem for p in analises.glob("*.md") if DATA_RX.match(p.stem))
-    return datas[-1] if datas else None
+    ids = [(i, p.stem) for p in analises.glob("*.md") if (i := id_analise(p.stem))]
+    if not ids:
+        return None
+    return max(ids, key=lambda x: (x[0][0], ORDEM_TURNO[x[0][1]]))[1]
 
 
 def dados_disponiveis(raiz):
@@ -29,30 +61,36 @@ def dados_disponiveis(raiz):
     return sorted(p.stem for p in dados.glob("*.json") if DATA_RX.match(p.stem))
 
 
-def itens_da_lacuna(raiz, desde, ate):
+def chaves_analisadas(raiz):
+    caminho = raiz / "dados" / "analisados.json"
+    if not caminho.exists():
+        return set()
+    return set(json.loads(caminho.read_text("utf-8")).get("chaves", []))
+
+
+def itens_pendentes(raiz, ate):
     caminho = raiz / "dados" / "historico.json"
     if not caminho.exists():
         return []
     historico = json.loads(caminho.read_text("utf-8"))
-    itens = [v for v in historico.values()
-             if v.get("primeira_vez") and
-             (desde is None or v["primeira_vez"] > desde) and
-             v["primeira_vez"] <= ate]
+    feitos = chaves_analisadas(raiz)
+    itens = [{**v, "chave": k} for k, v in historico.items()
+             if k not in feitos and v.get("primeira_vez")
+             and v["primeira_vez"] <= ate]
     itens.sort(key=lambda i: (i["primeira_vez"], i.get("fonte", "")))
     return itens
 
 
 def lacuna(raiz, hoje=None):
     hoje = hoje or datetime.date.today().isoformat()
-    desde = data_ultima_analise(raiz)
-    disponiveis = dados_disponiveis(raiz)
+    itens = itens_pendentes(raiz, hoje)
     return {
-        "desde": desde,
         "ate": hoje,
-        "dados_de_hoje_disponiveis": hoje in disponiveis,
-        "dias_com_dados_na_janela": [d for d in disponiveis
-                                      if (desde is None or d > desde) and d <= hoje],
-        "itens": itens_da_lacuna(raiz, desde, hoje),
+        "turno": turno_atual(),
+        "ultima_analise": ultima_analise(raiz),
+        "dados_de_hoje_disponiveis": hoje in dados_disponiveis(raiz),
+        "dias_com_dados_na_janela": sorted({i["primeira_vez"] for i in itens}),
+        "itens": itens,
     }
 
 

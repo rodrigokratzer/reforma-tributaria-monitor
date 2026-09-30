@@ -4,54 +4,70 @@ Este documento descreve como esta instância específica do projeto roda de
 fato — não é o guia genérico de fork (esse continua em README.md, "Como
 rodar uma cópia sua", e continua funcionando só com GitHub Actions).
 
-**Estado atual:** as unidades systemd descritas aqui existem como **arquivos
-neste repositório** (`deploy/systemd/`) e foram testadas manualmente, mas
-ainda **não estão instaladas nem habilitadas** na máquina de produção
-(`/home/rodrigo/projects/reforma-tributaria-monitor`, branch `main`) — que
-ainda não tem `.venv` nem `.env`. Ou seja: hoje quem coleta de verdade é o
-GitHub Actions, e os horários "todo dia às 01:07/02:10/02:40" descritos
-abaixo descrevem o alvo, não o que já acontece. Ativar isso é um passo de
-deploy manual, supervisionado por uma pessoa — ver
-"[Instalação inicial](#instalação-inicial)" abaixo, que é o próximo passo.
+**Estado atual (30/09/2026):** um único timer systemd, `reforma-ciclo.timer`,
+roda o ciclo completo duas vezes por dia. As três unidades antigas
+(`reforma-dou`, `reforma-varredura`, `reforma-analise`, 01:07/02:10/02:40)
+foram desabilitadas e removidas.
 
 ## O quê roda onde
 
 | Etapa | Onde | Quando |
 |---|---|---|
-| DOU (INLABS) | `lenovo-claude`, systemd | 01:07, todo dia |
-| 12 portais web | `lenovo-claude`, systemd | 02:10, todo dia |
-| Análise diária | `lenovo-claude`, systemd, via `claude -p` | 02:40, todo dia |
-| Plano B (DOU) | GitHub Actions | 04:10, todo dia, só se o notebook não coletou |
-| Plano B (portais) | GitHub Actions | 05:10, todo dia, só se o notebook não coletou |
+| Ciclo matinal: DOU → 12 portais → análise → alerta | `lenovo-claude`, systemd (`reforma-ciclo`) | 05:00, todo dia |
+| Ciclo noturno: idem | `lenovo-claude`, systemd (`reforma-ciclo`) | 17:00, todo dia |
+| Alerta de falha | `reforma-falha@.service` (via `OnFailure=`) | quando o ciclo falha ou estoura 2h |
+| Plano B (DOU) | GitHub Actions | 07:10, todo dia, só se o notebook não coletou |
+| Plano B (portais) | GitHub Actions | 07:40, todo dia, só se o notebook não coletou |
 
-As raias do DOU e da varredura regeneram `docs/index.html` elas mesmas
-(chamam `scripts/gerar_painel.py` no próprio wrapper), mas a raia da
-**análise não** — quando o único resultado do dia é uma análise nova
-(`analises/**` ou `dados/analise_status.json`), o painel é regenerado pelo
-gatilho `push` do GitHub Actions, que já observa exatamente esses caminhos.
-Isso é de propósito (é a arquitetura descrita na spec), não um esquecimento:
-`rodar_analise_diaria.sh` não chama `gerar_painel.py`.
+Por que 05:00 e não 01:07: à 01:07 a edição do DOU do próprio dia ainda não
+existe no INLABS (0 matérias, medido em 29/09/2026) — ela só entrava na
+coleta do dia seguinte. Às 05:00 já está lá.
 
-Os dois planos B só coletam de verdade quando o arquivo do dia **não existe
-ou não tem conteúdo real**: o `dou.yml` checa se alguma fonte tem `metodo`
-não-nulo, justamente para que um snapshot degradado (ex.: `.env` vazio no
-notebook, que faz `dou_diario.py` gravar `{"metodo": null}`) não desative a
-rede de segurança bem na hora em que ela é necessária.
+`scripts/rodar_ciclo.sh` chama, em ordem, `rodar_dou.sh`, `rodar_varredura.sh`
+e `rodar_analise.sh <turno>` (cada um faz o próprio pull/commit/push; a falha
+de um não impede os seguintes) e termina com `scripts/notificar.py`. O turno
+sai da hora real da execução (antes de 12h = `matinal`, senão `noturna`),
+então o catch-up do `Persistent=true` cai no turno certo. Para rodar na mão:
+
+```bash
+TURNO=noturna scripts/rodar_ciclo.sh            # ciclo inteiro
+sudo systemctl start reforma-ciclo.service      # idem, pelo systemd (com flock e .env)
+```
+
+A análise (`rodar_analise.sh`) congela a lacuna em
+`~/.local/state/reforma/lacuna-<data>-<turno>.json`, chama `claude -p` (que só
+escreve arquivos, nunca faz git), valida com `scripts/fechar_analise.py` e só
+então marca os itens como analisados, regenera o painel e faz commit/push. Se
+não houver item novo, não chama o Claude: grava uma análise curta "sem
+publicações novas", para o histórico do painel não ter buraco.
 
 ## Verificar status
 
 ```bash
 systemctl list-timers 'reforma-*'
-journalctl -u reforma-dou.service -n 50
-journalctl -u reforma-varredura.service -n 50
-journalctl -u reforma-analise.service -n 50
+journalctl -u reforma-ciclo.service -n 100
+ls ~/.local/state/reforma/     # lacunas e saída crua do claude de cada ciclo
 ```
+
+## Alertas
+
+`scripts/notificar.py` manda o resumo de cada ciclo:
+
+- **Push no celular (ntfy):** app ntfy (Android/iOS) inscrito no tópico que
+  está em `NTFY_TOPICO` no `.env`. O tópico é o segredo — quem souber o nome
+  recebe os alertas; por isso ele não fica no repositório.
+- **E-mail:** liga sozinho quando o `.env` tiver `SMTP_HOST`, `SMTP_USUARIO`,
+  `SMTP_SENHA` e `EMAIL_PARA` (Gmail: `smtp.gmail.com`, porta 587, senha de
+  app). Sem isso, o canal é pulado sem erro.
+
+Prioridade alta quando a análise tem itens em "Ação requerida" (`acoes` no
+status); urgente em falha do ciclo.
 
 ## Credenciais
 
-`INLABS_EMAIL`/`INLABS_SENHA` ficam em `.env` na raiz do repo (fora do git,
-ver `.env.example` para o formato), lidas pelas unidades systemd via
-`EnvironmentFile=`.
+`INLABS_EMAIL`/`INLABS_SENHA`, `NTFY_TOPICO` e as `SMTP_*` ficam em `.env` na
+raiz do repo (fora do git, ver `.env.example` para o formato), lidas pelas
+unidades systemd via `EnvironmentFile=`.
 
 ## Instalação inicial
 
@@ -116,15 +132,11 @@ sudo cp deploy/systemd/reforma-*.service deploy/systemd/reforma-*.timer /etc/sys
 sudo systemctl daemon-reload
 ```
 
-**5. Habilitar um timer de cada vez, deixando o DOU por último**
-
-O DOU é o mais lento e o mais arriscado (login do INLABS, até 30 tentativas),
-então habilite-o só depois de ver os outros dois funcionando:
+**5. Habilitar o timer do ciclo**
 
 ```bash
-sudo systemctl enable --now reforma-varredura.timer
-sudo systemctl enable --now reforma-analise.timer
-sudo systemctl enable --now reforma-dou.timer
+sudo systemctl enable reforma-ciclo.timer
+sudo systemctl start reforma-ciclo.timer
 ```
 
 Atenção: com `Persistent=true`, se o horário do dia já passou, o `--now` faz o
@@ -138,7 +150,7 @@ e acompanhe com `journalctl -u <unidade>.service -f`.
 systemctl list-timers 'reforma-*'
 ```
 
-Os três devem aparecer com `NEXT` no horário correto (01:07, 02:10 e 02:40).
+Deve aparecer `reforma-ciclo.timer` com `NEXT` às 05:00 ou 17:00.
 
 ## Reinstalar as unidades systemd depois de editar os arquivos em `deploy/systemd/`
 

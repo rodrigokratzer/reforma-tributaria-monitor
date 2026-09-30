@@ -23,8 +23,8 @@ publicados normalmente.
 
 ## O que ele varre
 
-**Doze fontes web, todo dia útil às 02:10 (Brasília), com um catch-up às 03:15
-caso o horário principal seja pulado pelo agendador do GitHub:**
+**Doze fontes web, duas vezes por dia (05:00 e 17:00, Brasília), no mesmo ciclo
+do DOU e da análise — ver [docs/operacao-local.md](docs/operacao-local.md):**
 
 - **CGIBS** — notícias, leis, resoluções, regulamentos, portarias, atos conjuntos,
   atos técnicos conjuntos e relatórios
@@ -40,9 +40,9 @@ também têm o texto completo capturado na hora da coleta, para a análise diár
 ler o texto do repositório em vez de depender de busca externa — mesmo ganho
 que a Parte A trouxe para o DOU.
 
-**DOU (via INLABS), separado, às 01:07 (Brasília):** a edição completa do
-Diário Oficial, em workflow próprio — não compete por horário com os outros
-12 portais nem com o orçamento de tempo deles. Ver
+**DOU (via INLABS), primeira etapa de cada ciclo (05:00 e 17:00):** a edição
+completa do Diário Oficial, com orçamento de tempo próprio — não compete com
+o dos outros 12 portais. Ver
 [DOU: coleta separada, com mais retentativa](#dou-coleta-separada-com-mais-retentativa)
 para o porquê e como funciona.
 
@@ -74,16 +74,19 @@ automática (continua aceitando `analises/AAAA-MM-DD.md` escrito à mão). Ver
 ## Estrutura
 
 ```
-scripts/varredura.py          orquestra a coleta das 12 fontes web (02:10, catch-up 03:15)
+scripts/rodar_ciclo.sh        ciclo 05:00/17:00: DOU -> portais -> análise -> alerta
+scripts/rodar_analise.sh      análise de um turno (claude -p só escreve; valida e comita)
+scripts/fechar_analise.py     valida a análise, marca itens analisados, grava a triagem
+scripts/notificar.py          alerta do ciclo: push (ntfy) e e-mail (SMTP)
+scripts/varredura.py          orquestra a coleta das 12 fontes web
 scripts/portais/              cada fonte web como objeto Portal — base.py tem a
                                mecânica de coleta e os pontos de extensão,
                                cgibs.py a subclasse que lê o texto das notícias,
                                registro.py a lista PORTAIS das 12 instâncias
-scripts/dou_diario.py         coleta o DOU via INLABS, separado (01:07)
+scripts/dou_diario.py         coleta o DOU via INLABS (primeira etapa do ciclo)
 scripts/dou.py                login e classificação do DOU — compartilhado por
                                dou_diario.py e scripts/medir_inlabs.py
-scripts/lacuna_analise.py     identifica o que falta analisar desde a última
-                               analises/AAAA-MM-DD.md publicada
+scripts/lacuna_analise.py     itens do histórico ainda fora de dados/analisados.json
 scripts/analise_brief.md      critério e formato que a análise diária segue
 scripts/gerar_painel.py       monta docs/index.html
 scripts/painel_template.html  layout e CSS do painel
@@ -92,7 +95,8 @@ tests/                        unittest, stdlib — test_lacuna_analise.py,
                                test_portais_base.py (classe Portal) e
                                test_portal_cgibs.py (subclasse CGIBS)
 estado.json                   camada curada: prazos, pendências, linha do tempo
-analises/AAAA-MM-DD.md        análise do dia (opcional, ver Análise diária automatizada)
+analises/AAAA-MM-DD-<turno>.md  análise de cada ciclo (matinal/noturna); as antigas
+                               AAAA-MM-DD.md continuam válidas (turno "única")
 dados/                        gerado pelo robô — não editar à mão
   ├─ AAAA-MM-DD.json          instantâneo dos 12 portais web do dia
   ├─ AAAA-MM-DD-dou.json      instantâneo do DOU do dia (arquivo próprio)
@@ -268,29 +272,37 @@ seguindo o mesmo critério e formato que as primeiras análises manuais do
 projeto (`analises/2026-08-17.md`, `analises/2026-08-20.md` são a régua de
 qualidade).
 
-**Como funciona, a cada dia útil:**
+**Como funciona, a cada ciclo (05:00 matinal, 17:00 noturna):**
 
-1. `scripts/lacuna_analise.py` compara `analises/*.md` já publicadas com
-   `dados/historico.json` e devolve o que ainda falta analisar — sem depender
-   de julgamento do agente para essa parte, é código determinístico.
-2. O agente lê `scripts/analise_brief.md` (critério de relevância, estrutura
-   de seções, armadilhas conhecidas do projeto — nunca classificar pelo
-   remetente ou pela URL, conferir data declarada contra a pasta de upload,
-   etc.) e aplica esse critério aos itens novos.
-3. Sem novidade relevante: só grava `dados/analise_status.json`
-   (`situacao: "sem_novidade"`), não cria arquivo em `analises/`.
-4. Com novidade: escreve `analises/AAAA-MM-DD.md`, grava
-   `dados/analise_status.json` com um resumo curto, comita e empurra.
-5. Sempre termina com uma notificação — sucesso, sem novidade, ou erro. Nunca
-   em silêncio.
+1. `scripts/lacuna_analise.py` devolve os itens de `dados/historico.json` que
+   nenhuma análise anterior cobriu (por chave de item, em `dados/analisados.json`)
+   — código determinístico, sem julgamento do agente.
+2. Sem item novo: o próprio script grava uma análise curta "sem publicações
+   novas", sem chamar o Claude.
+3. Com item novo: `claude -p` lê `scripts/analise_brief.md` (critério de
+   relevância, estrutura, armadilhas conhecidas) e escreve só três arquivos —
+   `analises/AAAA-MM-DD-<turno>.md` (sempre, mesmo sem novidade relevante),
+   `dados/analise_status.json` e `dados/triagem_pendente.json` (um veredito
+   `relevante`/`contexto`/`ruido` por item). Não faz git.
+4. `scripts/fechar_analise.py` confere que a saída existe e é deste turno; só
+   então marca os itens como analisados e incorpora a triagem em
+   `dados/triagem.json`. Se o Claude bateu em limite ou falhou, nada é marcado
+   e os itens entram no ciclo seguinte.
+5. O wrapper regenera o painel, comita, empurra, e `scripts/notificar.py` manda
+   o alerta (push via ntfy; e-mail via SMTP se configurado). Falha também
+   alerta. Nunca em silêncio.
 
 **Por que não é um `workflow` do GitHub Actions:** rodar em GitHub Actions
-chamando a API da Anthropic custaria por token. A rotina roda como agente
-agendado na nuvem do Claude Code (skill `/schedule`), vinculado à assinatura
-de quem opera — sem custo extra por execução. Isso também significa que essa
-peça é externa ao repositório: quem faz fork do projeto tem a camada de fatos
-completa, mas precisa configurar sua própria rotina (ou continuar escrevendo
+chamando a API da Anthropic custaria por token. A rotina roda com `claude -p`
+no notebook dedicado (`lenovo-claude`), vinculada à assinatura de quem opera —
+sem custo extra por execução. Quem faz fork do projeto tem a camada de fatos
+completa, mas precisa configurar sua própria rotina (ou escrever
 `analises/AAAA-MM-DD.md` à mão, que o painel sempre aceitou).
+
+**Histórico no painel.** Todas as análises ficam navegáveis por dia e turno
+(seletor na seção "Análises"; link direto `#analise=AAAA-MM-DD-turno`). O
+histórico de publicações mostra os últimos 3 dias e filtra por período, fonte,
+número/texto e veredito da triagem, lendo `docs/historico.json`.
 
 **Status sempre visível, mesmo sem novidade.** O painel mostra uma faixa fixa
 no topo (`dados/analise_status.json` → `scripts/painel_template.html`) com a
