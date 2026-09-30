@@ -42,10 +42,10 @@ você. Nada aqui bloqueia o funcionamento; tudo pode ser ajustado depois.
    Depois de ~2 semanas de triagem dá para medir e, se quiser, excluir da
    regra 5 órgãos que só geram ruído (SUSEP, CMN, CVM, Previc, Secretaria de
    Prêmios e Apostas — hoje ~80 dos 219 itens "revisar").
-6. **Itens antigos ficam "não triados".** Os ~234 itens "revisar" anteriores a
-   30/09 não têm veredito (você disse que não precisa refazer o passado). Se
-   quiser, rodo uma triagem única desse estoque — custa uma execução longa do
-   Claude.
+6. **Estoque triado (30/09).** Os 360 itens anteriores ao fluxo novo receberam
+   veredito numa triagem retroativa única (marcados com `em:
+   "retroativa-2026-09-30"` em `dados/triagem.json`): 45 relevantes, 57
+   contexto, 276 ruído. Dos 246 "revisar" do DOU, só 3 saíram relevantes.
 7. **Uso da assinatura dobra.** Duas análises por dia em vez de uma (a de
    29/09 consumiu o equivalente a ~US$ 0,90 em tokens de lista, coberto pela
    assinatura). Se bater limite, o ciclo não marca nada como analisado e os
