@@ -13,13 +13,13 @@ on:
     - cron: "40 10 * * *"
   workflow_dispatch:        # permite disparar na mão pela aba Actions
   push:
+    # Só estado.json (edição manual da camada curada, às vezes pelo site do
+    # GitHub). Análises, dados e scripts não disparam mais: o notebook
+    # regenera o painel em todo ciclo, e a regeneração duplicada aqui
+    # competia com ele pelo docs/index.html — derrubou o primeiro ciclo
+    # novo em 30/09/2026 com conflito de rebase.
     paths:
       - "estado.json"       # editou a camada curada? regenera o painel
-      - "analises/**"
-      - "dados/analise_status.json"   # status da rotina de análise, mesmo em dia sem novidade
-      - "dados/*-dou.json"   # coleta do DOU (workflow próprio, 01:07) publicou resultado
-      - "dados/novidades_dou.json"
-      - "scripts/**"
 
 permissions:
   contents: write           # necessário para o commit dos dados

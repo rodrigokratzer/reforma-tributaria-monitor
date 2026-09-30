@@ -139,3 +139,9 @@ credentials). Summary:
 - **Never merge two collectors' output into one file by reading-modifying-writing
   it.** Give each its own file instead (see Data flow above) — it removes the race
   condition entirely rather than making it rarer.
+- **`docs/` is generated, so a rebase conflict there is not a real conflict.** All
+  three lanes commit/push through `scripts/publicar.sh`, which resolves conflicts
+  limited to `docs/` by re-running `gerar_painel.py` and aborts on any other
+  conflict. The GitHub Actions `push` trigger was cut down to `estado.json` only:
+  regenerating the panel there raced the local cycle and took down the first new
+  cycle on 30/09/2026.

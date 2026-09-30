@@ -12,11 +12,7 @@ HOJE=$(date +%Y-%m-%d)
 PY=.venv/bin/python3
 
 # Mesma guarda das outras raias: rebase conflitado nao pode seguir adiante.
-if ! git pull --rebase --autostash -q; then
-  echo "git pull --rebase falhou - abortando rebase para deixar o checkout limpo" >&2
-  git rebase --abort 2>/dev/null || true
-  exit 1
-fi
+scripts/publicar.sh --sincronizar || exit 1
 
 ESTADO="$HOME/.local/state/reforma"
 mkdir -p "$ESTADO"
@@ -71,14 +67,6 @@ if ! $PY scripts/fechar_analise.py "$HOJE" "$TURNO" "$LACUNA"; then
   exit 1
 fi
 
-$PY scripts/gerar_painel.py
-git add analises dados docs
-if git diff --staged --quiet; then
-  echo "Nada mudou (analise $TURNO)."
-else
-  git commit -q -m "analise $HOJE $TURNO: ${resumo:-ver analise}"
-  if ! git push -q; then
-    git pull --rebase --autostash -q && git push -q
-  fi
-fi
+$PY scripts/gerar_painel.py >/dev/null
+scripts/publicar.sh "analise $HOJE $TURNO: ${resumo:-ver analise}" analises dados docs || exit 1
 echo "Analise $TURNO concluida ($n itens)."
