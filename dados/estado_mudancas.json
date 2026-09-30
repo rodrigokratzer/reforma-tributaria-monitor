@@ -1,0 +1,114 @@
+[
+ {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "Novo prazo: opção pelo Simples Nacional 2027 prorrogada de 30/09 para 15/10/2026 (Res. CGSN nº 194/2026).",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/09/2026&jornal=602&pagina=8",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "Novo prazo: opção pelo regime regular do IBS/CBS (quem sai do Simples só para esses tributos) prorrogada de 30/09 para 30/10/2026 (Res. CGSN nº 194/2026).",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/09/2026&jornal=602&pagina=8",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "Novo prazo: opção pelo regime específico de IBS/CBS para cooperativas, até 31/10/2026 (orientação conjunta RFB/CGIBS de 21/09).",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/orientacao-conjunta-rfb-cgibs",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "removido",
+  "descricao": "Retirado dos prazos em destaque \"Simples Nacional entra no cronograma; CBS substitui PIS/Cofins\" (01/01/2027) — há prazos mais próximos e urgentes agora (opções do Simples/IBS-CBS prorrogadas); o marco permanece na linha do tempo.",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/09/2026&jornal=602&pagina=8",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "Nota do prazo \"2ª onda de DF-e\" (01/10) atualizada: o ambiente de produção da DeRE também abre nessa data, às 9h (endpoints divulgados pelo CGIBS/RFB em 29/09).",
+  "fonte": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-divulgam-endpoints-do-ambiente-de-producao",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "pendencias",
+  "tipo": "alterado",
+  "descricao": "Split payment: os Atos Técnicos Conjuntos nº 4/2026 e nº 5/2026 publicaram os manuais técnicos de habilitação, redes, operação, integração, tempos e segurança da Plataforma Pública do Split Payment. Ainda falta regulamentar a liquidação (retenção e repasse do valor do imposto).",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=23/09/2026&jornal=602&pagina=5",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Ato Técnico Conjunto CGIBS nº 2/2026 (21/08) — primeira documentação técnica completa de NFAg, NFGas e NF-e ABI, base da 3ª onda de DF-e.",
+  "fonte": "https://www.cgibs.gov.br/upload/arquivos/202608/24185346-20260821-ato-tecnico-conjunto-n-2-assinado-cgibs.pdf",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Norma RFB/CGIBS nº 6 (28/08) — dispensa o nanoempreendedor de CNPJ e de DF-e até 31/12/2028, se não optar pelo regime regular do IBS/CBS.",
+  "fonte": "https://www.cgibs.gov.br/upload/arquivos/202608/28193542-ade-rfb-cgibs-n-6-28-8-2026-com-paragrafo-unico-assinado.pdf",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Abertura, em 01/09, da janela de opção pelo Simples Nacional 2027 e de escolha do modelo de recolhimento do IBS/CBS (prazo original antes de ser prorrogado em 28/09).",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-alerta-comeca-hoje-o-prazo-para-opcao-pelo-simples-nacional-e-para-a-escolha-do-modelo-de-recolhimento-do-ibs-e-da-cbs-em-2027",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Ato Técnico Conjunto nº 3/2026 (02/09) — versão 1.2.0 da documentação técnica da DeRE, com os leiautes dos eventos transacionais que sustentam crédito do adquirente e cashback.",
+  "fonte": "https://www.cgibs.gov.br/cgibs-e-receita-federal-publicam-versao-1-2-0-da-documentacao-tecnica-da-dere",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Ato Técnico Conjunto nº 4/2026 (publicado 08/09) — primeiros manuais técnicos (habilitação de participantes e redes) da Plataforma Pública do Split Payment.",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/09/2026&jornal=515&pagina=68",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Orientação conjunta RFB/CGIBS (21/09) sobre o regime específico de IBS/CBS para cooperativas: opção e envio da listagem de associados até 31/10/2026.",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/orientacao-conjunta-rfb-cgibs",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "IN RFB nº 2.344/2026 (21/09) — primeiro caso concreto de crédito de tributo extinto (PIS/Cofins de produtor de etanol) virando crédito de CBS a partir de 2027; habilitação até 04/10/2026.",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=21/09/2026&jornal=601&pagina=1",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Ato Técnico Conjunto nº 5/2026 (publicado 24/09) — novas versões dos manuais do Split Payment (operações, integração, tempos, segurança), com ratificação definitiva dos manuais antes em minuta.",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=23/09/2026&jornal=602&pagina=5",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Resolução CGSN nº 194/2026 (publicada 28/09) — prorroga os prazos de opção pelo Simples Nacional 2027 e pelo regime regular do IBS/CBS.",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/09/2026&jornal=602&pagina=8",
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "CGIBS/RFB divulgam, em 29/09, os endpoints do ambiente de produção da DeRE; tráfego abre 01/10 às 9h.",
+  "fonte": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-divulgam-endpoints-do-ambiente-de-producao",
+  "em": "2026-09-30-revisao"
+ }
+]

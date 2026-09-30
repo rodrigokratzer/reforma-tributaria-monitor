@@ -1,67 +1,202 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-08-17",
-
+ "atualizado_em": "2026-09-30",
  "prazos_destaque": [
-  {"rotulo": "Alíquotas do Imposto Seletivo — noventena para valer em 2027",
-   "data": "2026-10-03", "status": "critical", "nota": "Sem lei nem MP"},
-  {"rotulo": "2ª onda de DF-e: NFS-e (ISS geral), NFCom, DIR e DeRE de tabela",
-   "data": "2026-10-01", "status": "serious", "nota": "Ato Conjunto nº 4/2026"},
-  {"rotulo": "3ª onda: NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg, NF-e ABI",
-   "data": "2026-12-01", "status": "warning", "nota": "Ato Conjunto nº 4/2026"},
-  {"rotulo": "Simples Nacional entra no cronograma; CBS substitui PIS/Cofins",
-   "data": "2027-01-01", "status": "good", "nota": "Marco da transição"}
+  {
+   "rotulo": "Opção pelo Simples Nacional para 2027 — prazo prorrogado",
+   "data": "2026-10-15",
+   "status": "critical",
+   "nota": "Res. CGSN 194/2026 prorrogou de 30/09; balanço de 28/09 mostra 64% de indeferimento"
+  },
+  {
+   "rotulo": "Opção pelo regime regular do IBS/CBS para quem sai do Simples — prazo prorrogado",
+   "data": "2026-10-30",
+   "status": "serious",
+   "nota": "Res. CGSN 194/2026; mesma data vale para regularizar indeferimento no Simples"
+  },
+  {
+   "rotulo": "Opção pelo regime específico do IBS/CBS para cooperativas",
+   "data": "2026-10-31",
+   "status": "warning",
+   "nota": "Orientação conjunta RFB/CGIBS; inclui envio da listagem de associados"
+  },
+  {
+   "rotulo": "Alíquotas do Imposto Seletivo — noventena para valer em 2027",
+   "data": "2026-10-03",
+   "status": "critical",
+   "nota": "Sem lei nem MP"
+  },
+  {
+   "rotulo": "2ª onda de DF-e: NFS-e (ISS geral), NFCom, DIR e DeRE de tabela",
+   "data": "2026-10-01",
+   "status": "serious",
+   "nota": "Ato Conjunto nº 4/2026; ambiente de produção da DeRE abre às 9h"
+  },
+  {
+   "rotulo": "3ª onda: NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg, NF-e ABI",
+   "data": "2026-12-01",
+   "status": "warning",
+   "nota": "Ato Conjunto nº 4/2026"
+  }
  ],
-
  "pendencias": [
-  {"item": "Nova data para as regras de validação dos DF-e",
+  {
+   "item": "Nova data para as regras de validação dos DF-e",
    "situacao": "O Ato Técnico Conjunto CGIBS/RFB nº 1, de 31/07/2026, aprovou notas técnicas que prorrogaram o início das regras de validação — documentos não são rejeitados por falta dos campos de IBS/CBS. Nenhuma nova data foi divulgada. A obrigação de preencher continua; só a rejeição automática caiu.",
-   "prazo": null, "status": "critical"},
-  {"item": "Alíquotas do Imposto Seletivo",
+   "prazo": null,
+   "status": "critical"
+  },
+  {
+   "item": "Alíquotas do Imposto Seletivo",
    "situacao": "Não existe lei ordinária nem MP. A LC 214/2025 definiu incidência, base de cálculo e critérios de graduação, mas deixou o percentual para lei ordinária.",
-   "prazo": "2026-10-03", "status": "critical"},
-  {"item": "Mecânica de adesão ao Programa de Conformidade",
+   "prazo": "2026-10-03",
+   "status": "critical"
+  },
+  {
+   "item": "Mecânica de adesão ao Programa de Conformidade",
    "situacao": "O Ato Conjunto RFB/CGIBS nº 5/2026 fixa critérios e garantias, mas não detalha o procedimento de adesão nem a consequência da não adesão. Retificação de inconsistências até 31/12/2026 é critério de classificação.",
-   "prazo": "2026-12-31", "status": "serious"},
-  {"item": "Alíquota de referência definitiva do IBS/CBS",
+   "prazo": "2026-12-31",
+   "status": "serious"
+  },
+  {
+   "item": "Alíquota de referência definitiva do IBS/CBS",
    "situacao": "A Resolução CGIBS nº 14 traz proposta de 0,1% para 2027. A alíquota de referência do regime pleno segue sem resolução. Os 27,91% divulgados são estimativa, não norma.",
-   "prazo": null, "status": "serious"},
-  {"item": "Regulamentação operacional do split payment",
-   "situacao": "Sem ato publicado detalhando a liquidação. Impacto direto de fluxo de caixa quando entrar.",
-   "prazo": null, "status": "warning"},
-  {"item": "Saldo credor de ICMS na transição",
+   "prazo": null,
+   "status": "serious"
+  },
+  {
+   "item": "Regulamentação operacional do split payment",
+   "situacao": "Os Atos Técnicos Conjuntos RFB/CGIBS nº 4/2026 (habilitação de participantes e redes) e nº 5/2026 (operação, integração, tempos e segurança) já detalham como bancos, adquirentes e processadoras se habilitam a operar a Plataforma Pública do Split Payment. Falta regulamentar a liquidação em si — como e quando o valor do imposto é retido e repassado.",
+   "prazo": null,
+   "status": "warning"
+  },
+  {
+   "item": "Saldo credor de ICMS na transição",
    "situacao": "A LC 227/2026 trata da matéria; a operacionalização da homologação e do aproveitamento ainda não foi regulamentada.",
-   "prazo": null, "status": "warning"}
+   "prazo": null,
+   "status": "warning"
+  }
  ],
-
  "linha_do_tempo": [
-  {"data": "2026-01-01", "titulo": "Início da vigência de IBS e CBS",
-   "detalhe": "Alíquota de teste de 1% (0,9% CBS + 0,1% IBS), compensável."},
-  {"data": "2026-07-30", "titulo": "Ato Conjunto RFB/CGIBS nº 4 — cronograma dos DF-e",
-   "detalhe": "Fixa por onda quais documentos passam a exigir os campos de IBS e CBS."},
-  {"data": "2026-07-31", "titulo": "Ato Técnico Conjunto CGIBS/RFB nº 1 — validações prorrogadas",
-   "detalhe": "Aprova as notas técnicas que adiam as regras de validação. Sem rejeição automática."},
-  {"data": "2026-08-03", "titulo": "1ª onda de obrigatoriedade dos DF-e",
-   "detalhe": "NF-e, NFC-e, CT-e, CT-e OS, MDF-e, BP-e (demais), GTV-e, NF3e, DC-e. Emissão obrigatória com os campos — mas sem rejeição."},
-  {"data": "2026-08-12", "titulo": "Programa Nacional de Conformidade Tributária",
-   "detalhe": "Ato Conjunto RFB/CGIBS nº 5/2026."},
-  {"data": "2026-10-01", "titulo": "2ª onda: NFS-e (ISS geral), NFCom, DIR, DeRE de tabela",
-   "detalhe": "Ato Conjunto nº 4/2026."},
-  {"data": "2026-10-03", "titulo": "Limite para as alíquotas do Imposto Seletivo",
-   "detalhe": "Noventena para incidência em 01/01/2027. Ainda sem norma."},
-  {"data": "2026-11-01", "titulo": "NFS-e Nacional obrigatória para ME e EPP",
-   "detalhe": "Anunciado pela Receita Federal em 14/08/2026. Não confundir com o cronograma de campos de IBS/CBS."},
-  {"data": "2026-11-15", "titulo": "DeRE — eventos periódicos mensais",
-   "detalhe": "Primeira entrega cobrindo os dados de outubro/2026."},
-  {"data": "2026-12-01", "titulo": "3ª onda de DF-e",
-   "detalhe": "NFS-e restantes (plataformas digitais, locações, bens imateriais), BP-e aéreo e semiurbano, NFGas, NFAg, NF-e ABI, não-contribuintes de ICMS."},
-  {"data": "2026-12-31", "titulo": "Limite de retificação no Programa de Conformidade",
-   "detalhe": "Critério do art. 2º, §1º do Ato Conjunto nº 5/2026."},
-  {"data": "2027-01-01", "titulo": "Simples Nacional entra; CBS substitui PIS/Cofins; IS em vigor",
-   "detalhe": "Também Duimp, NF-e monofásica e demais eventos da DeRE. IBS segue em alíquota de teste."},
-  {"data": "2029-01-01", "titulo": "Início da redução escalonada de ICMS e ISS",
-   "detalhe": "Transição federativa até 2032."},
-  {"data": "2033-01-01", "titulo": "Regime pleno",
-   "detalhe": "ICMS e ISS extintos."}
+  {
+   "data": "2026-01-01",
+   "titulo": "Início da vigência de IBS e CBS",
+   "detalhe": "Alíquota de teste de 1% (0,9% CBS + 0,1% IBS), compensável."
+  },
+  {
+   "data": "2026-07-30",
+   "titulo": "Ato Conjunto RFB/CGIBS nº 4 — cronograma dos DF-e",
+   "detalhe": "Fixa por onda quais documentos passam a exigir os campos de IBS e CBS."
+  },
+  {
+   "data": "2026-07-31",
+   "titulo": "Ato Técnico Conjunto CGIBS/RFB nº 1 — validações prorrogadas",
+   "detalhe": "Aprova as notas técnicas que adiam as regras de validação. Sem rejeição automática."
+  },
+  {
+   "data": "2026-08-03",
+   "titulo": "1ª onda de obrigatoriedade dos DF-e",
+   "detalhe": "NF-e, NFC-e, CT-e, CT-e OS, MDF-e, BP-e (demais), GTV-e, NF3e, DC-e. Emissão obrigatória com os campos — mas sem rejeição."
+  },
+  {
+   "data": "2026-08-12",
+   "titulo": "Programa Nacional de Conformidade Tributária",
+   "detalhe": "Ato Conjunto RFB/CGIBS nº 5/2026."
+  },
+  {
+   "data": "2026-08-21",
+   "titulo": "Ato Técnico Conjunto CGIBS nº 2 — documentação técnica de NFAg, NFGas e NF-e ABI",
+   "detalhe": "Primeira especificação completa (manual, leiaute, validação) para os três documentos que entram na 3ª onda (01/12)."
+  },
+  {
+   "data": "2026-08-28",
+   "titulo": "Norma RFB/CGIBS nº 6 — dispensa do nanoempreendedor",
+   "detalhe": "Dispensa pessoa física com receita anual até ~R$ 40,5 mil (ou ~R$ 162 mil para quem usa 25% da receita, caso de motorista/entregador de app) de CNPJ e de DF-e, até 31/12/2028, desde que não opte pelo regime regular do IBS/CBS."
+  },
+  {
+   "data": "2026-09-01",
+   "titulo": "Abre a janela de opção pelo Simples Nacional 2027 e de escolha do modelo de recolhimento do IBS/CBS",
+   "detalhe": "Prazo original terminaria 30/09; depois prorrogado pela Res. CGSN 194 (ver 28/09)."
+  },
+  {
+   "data": "2026-09-02",
+   "titulo": "Ato Técnico Conjunto nº 3 — DeRE versão 1.2.0",
+   "detalhe": "Institui controle de deduções, reabertura de períodos e os leiautes dos eventos transacionais (D-2000/D-3000/D-4000), base técnica para crédito do adquirente e cashback."
+  },
+  {
+   "data": "2026-09-08",
+   "titulo": "Ato Técnico Conjunto nº 4 — primeiros manuais do Split Payment",
+   "detalhe": "Manual de Habilitação de Participantes e Manual de Redes — como bancos e processadoras se habilitam na Plataforma Pública do Split Payment."
+  },
+  {
+   "data": "2026-09-21",
+   "titulo": "Orientação conjunta RFB/CGIBS — regime específico de IBS/CBS para cooperativas",
+   "detalhe": "Opção de 01/09 a 31/10/2026, com envio da listagem de associados no mesmo prazo; efeitos a partir de 01/01/2027."
+  },
+  {
+   "data": "2026-09-21",
+   "titulo": "IN RFB nº 2.344/2026 — crédito de PIS/Cofins de etanol pode virar crédito de CBS",
+   "detalhe": "Produtor de etanol com saldo credor de PIS/Cofins pode pedir habilitação até 04/10/2026 (teto de R$ 750 milhões em 2026); o saldo habilitado e não usado pode compensar débitos de CBS a partir de 2027, fora desse teto."
+  },
+  {
+   "data": "2026-09-24",
+   "titulo": "Ato Técnico Conjunto nº 5 — novos manuais do Split Payment",
+   "detalhe": "Manuais de Operações, Integração, Tempos e Segurança, aplicáveis a IBS e CBS; ratifica em caráter definitivo os manuais antes em minuta."
+  },
+  {
+   "data": "2026-09-28",
+   "titulo": "Resolução CGSN nº 194 — prorroga prazos de opção do Simples/IBS-CBS para 2027",
+   "detalhe": "Simples Nacional: 30/09 → 15/10. Regime regular do IBS/CBS para quem sai do Simples: 30/09 → 30/10. Mesma data (30/10) para regularizar indeferimento no Simples."
+  },
+  {
+   "data": "2026-09-29",
+   "titulo": "DeRE — endpoints do ambiente de produção divulgados",
+   "detalhe": "URLs oficiais de recepção e consulta de lotes; tráfego de produção abre 01/10 às 9h (horário de Brasília)."
+  },
+  {
+   "data": "2026-10-01",
+   "titulo": "2ª onda: NFS-e (ISS geral), NFCom, DIR, DeRE de tabela",
+   "detalhe": "Ato Conjunto nº 4/2026. Ambiente de produção da DeRE também abre nesta data."
+  },
+  {
+   "data": "2026-10-03",
+   "titulo": "Limite para as alíquotas do Imposto Seletivo",
+   "detalhe": "Noventena para incidência em 01/01/2027. Ainda sem norma."
+  },
+  {
+   "data": "2026-11-01",
+   "titulo": "NFS-e Nacional obrigatória para ME e EPP",
+   "detalhe": "Anunciado pela Receita Federal em 14/08/2026. Não confundir com o cronograma de campos de IBS/CBS."
+  },
+  {
+   "data": "2026-11-15",
+   "titulo": "DeRE — eventos periódicos mensais",
+   "detalhe": "Primeira entrega cobrindo os dados de outubro/2026."
+  },
+  {
+   "data": "2026-12-01",
+   "titulo": "3ª onda de DF-e",
+   "detalhe": "NFS-e restantes (plataformas digitais, locações, bens imateriais), BP-e aéreo e semiurbano, NFGas, NFAg, NF-e ABI, não-contribuintes de ICMS."
+  },
+  {
+   "data": "2026-12-31",
+   "titulo": "Limite de retificação no Programa de Conformidade",
+   "detalhe": "Critério do art. 2º, §1º do Ato Conjunto nº 5/2026."
+  },
+  {
+   "data": "2027-01-01",
+   "titulo": "Simples Nacional entra; CBS substitui PIS/Cofins; IS em vigor",
+   "detalhe": "Também Duimp, NF-e monofásica e demais eventos da DeRE. IBS segue em alíquota de teste."
+  },
+  {
+   "data": "2029-01-01",
+   "titulo": "Início da redução escalonada de ICMS e ISS",
+   "detalhe": "Transição federativa até 2032."
+  },
+  {
+   "data": "2033-01-01",
+   "titulo": "Regime pleno",
+   "detalhe": "ICMS e ISS extintos."
+  }
  ]
 }
