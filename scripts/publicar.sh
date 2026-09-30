@@ -16,11 +16,13 @@ msg="${1:?uso: publicar.sh mensagem caminho... | publicar.sh --sincronizar}"; sh
 
 if [ "$msg" != "--sincronizar" ]; then
   git add "$@"
+  # sem mudanca, nao commita - mas segue para o push: pode haver commit
+  # local pendente (ex.: um merge feito antes) que precisa subir
   if git diff --staged --quiet; then
     echo "Nada mudou ($msg)."
-    exit 0
+  else
+    git commit -q -m "$msg"
   fi
-  git commit -q -m "$msg"
 fi
 
 for tentativa in 1 2 3 4 5; do
