@@ -296,7 +296,8 @@ window.DADOS = /*__DADOS__*/null;
 
   // prazo vencido sai dos cards (continua na linha do tempo): filtra pela data
   // de quem abre, nao pela de quando o painel foi gerado
-  var PZ = (D.prazos_destaque||[]).filter(function(t){ return dias(t.data) >= 0; });
+  var PZ = (D.prazos_destaque||[]).filter(function(t){ return dias(t.data) >= 0; })
+    .sort(function(a,b){ return String(a.data).localeCompare(String(b.data)); });
   $('tiles').innerHTML = PZ.length ? PZ.map(function(t){
     var n=dias(t.data);
     return '<div class="tile"><div class="rail" style="background:'+COR[t.status]+'"></div>'+
