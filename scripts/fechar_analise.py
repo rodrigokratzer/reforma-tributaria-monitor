@@ -110,7 +110,10 @@ def fechar(raiz, data, turno, chaves):
     if painel["aplicado"]:
         st_path = dados / "analise_status.json"
         status = _le_json(st_path, {})
-        status["painel_atualizado"] = [m["descricao"] for m in painel["mudancas"]]
+        # o marco incluido automaticamente (prazo -> linha do tempo) repete o
+        # que a mudanca do prazo ja' diz: fica fora do alerta
+        status["painel_atualizado"] = [m["descricao"] for m in painel["mudancas"]
+                                       if not m.get("auto")]
         _grava_json(st_path, status)
     elif painel["motivo"] != "sem proposta":
         print(f"aviso: proposta de atualizacao do painel descartada: {painel['motivo']}",

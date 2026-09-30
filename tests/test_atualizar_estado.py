@@ -115,7 +115,9 @@ class TestAplica(unittest.TestCase):
             escreve(raiz, "dados/estado_proposta.json", proposta(estado_base(), MUD))
             ae.aplica(raiz, "2026-09-30", "matinal")
             hist = le(raiz, "dados/estado_mudancas.json")
-            self.assertEqual([h["descricao"] for h in hist], ["Prazo A adiado", "antiga"])
+            descs = [h["descricao"] for h in hist]
+            self.assertEqual(descs[0], "Prazo A adiado")
+            self.assertEqual(descs[-1], "antiga")
 
     def test_proposta_invalida_preserva_estado(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -139,3 +141,36 @@ class TestAplica(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestPrazoNaLinhaDoTempo(unittest.TestCase):
+    def test_prazo_sem_marco_ganha_marco(self):
+        e = estado_base()
+        e["prazos_destaque"].append({"rotulo": "Opcao pelo Simples", "data": "2026-10-15",
+                                     "status": "critical", "nota": "Res. CGSN 194"})
+        novo, extras = ae.completa_linha_do_tempo(e)
+        datas = [m["data"] for m in novo["linha_do_tempo"]]
+        self.assertIn("2026-10-15", datas)
+        self.assertIn("2026-10-03", datas)  # o Prazo A da base tambem nao tinha marco
+        self.assertEqual(datas, sorted(datas))
+        marco = [m for m in novo["linha_do_tempo"] if m["data"] == "2026-10-15"][0]
+        self.assertEqual(marco["titulo"], "Opcao pelo Simples")
+        self.assertEqual(marco["detalhe"], "Res. CGSN 194")
+        self.assertEqual(len(extras), 2)
+        self.assertEqual(extras[0]["secao"], "linha_do_tempo")
+
+    def test_prazo_com_marco_na_mesma_data_nao_duplica(self):
+        e = estado_base()
+        e["linha_do_tempo"].append({"data": "2026-10-03", "titulo": "Outro nome", "detalhe": ""})
+        novo, extras = ae.completa_linha_do_tempo(e)
+        self.assertEqual(sum(1 for m in novo["linha_do_tempo"] if m["data"] == "2026-10-03"), 1)
+        self.assertEqual(extras, [])
+
+    def test_aplica_completa_e_registra(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp); escreve(raiz, "estado.json", estado_base())
+            escreve(raiz, "dados/estado_proposta.json", proposta(estado_base(), MUD))
+            r = ae.aplica(raiz, "2026-09-30", "matinal")
+            self.assertTrue(r["aplicado"])
+            self.assertIn("2026-10-03", [m["data"] for m in le(raiz, "estado.json")["linha_do_tempo"]])
+            self.assertEqual(len(r["mudancas"]), 2)

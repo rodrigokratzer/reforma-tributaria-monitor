@@ -1,5 +1,29 @@
 [
  {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Prazo \"Opção pelo Simples Nacional para 2027 — prazo prorrogado\" (15/10) incluído na linha do tempo",
+  "fonte": "",
+  "auto": true,
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Prazo \"Opção pelo regime regular do IBS/CBS para quem sai do Simples — prazo prorrogado\" (30/10) incluído na linha do tempo",
+  "fonte": "",
+  "auto": true,
+  "em": "2026-09-30-revisao"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Prazo \"Opção pelo regime específico do IBS/CBS para cooperativas\" (31/10) incluído na linha do tempo",
+  "fonte": "",
+  "auto": true,
+  "em": "2026-09-30-revisao"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "incluido",
   "descricao": "Novo prazo: opção pelo Simples Nacional 2027 prorrogada de 30/09 para 15/10/2026 (Res. CGSN nº 194/2026).",

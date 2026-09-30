@@ -94,6 +94,31 @@ def valida(proposta, atual):
     return erros
 
 
+def completa_linha_do_tempo(estado):
+    """Todo prazo em destaque vira marco da linha do tempo, se ainda nao ha
+    marco na mesma data. Devolve (estado, mudancas_extras).
+
+    Por que no codigo e nao so' no brief: na revisao de 30/09 a analise pos
+    os prazos prorrogados do Simples (15/10, 30/10) nos cards e esqueceu a
+    linha do tempo — quem olhava so' a linha nao via o prazo. Regra que o
+    leitor espera sempre valer nao pode depender de a IA lembrar.
+    """
+    linha = list(estado.get("linha_do_tempo") or [])
+    datas = {m.get("data") for m in linha if isinstance(m, dict)}
+    extras = []
+    for p in estado.get("prazos_destaque") or []:
+        if not isinstance(p, dict) or not p.get("data") or p["data"] in datas:
+            continue
+        linha.append({"data": p["data"], "titulo": p.get("rotulo", ""), "detalhe": p.get("nota", "")})
+        datas.add(p["data"])
+        extras.append({"secao": "linha_do_tempo", "tipo": "incluido",
+                       "descricao": f"Prazo \"{p.get('rotulo', '')}\" ({p['data'][8:10]}/{p['data'][5:7]}) "
+                                    "incluído na linha do tempo",
+                       "fonte": "", "auto": True})
+    linha.sort(key=lambda m: m.get("data") or "")
+    return dict(estado, linha_do_tempo=linha), extras
+
+
 def _le(p, padrao):
     return json.loads(p.read_text("utf-8")) if p.exists() else padrao
 
@@ -115,7 +140,7 @@ def aplica(raiz, data, turno):
     if erros:
         return {"aplicado": False, "motivo": "; ".join(erros)[:1000], "mudancas": []}
 
-    novo = dict(proposta["estado"])
+    novo, extras = completa_linha_do_tempo(dict(proposta["estado"]))
     # _leia_me e' instrucao para humanos, nao conteudo: fica o original
     if "_leia_me" in atual:
         novo["_leia_me"] = atual["_leia_me"]
@@ -126,7 +151,9 @@ def aplica(raiz, data, turno):
 
     em = f"{data}-{turno}"
     mudancas = [{"secao": m["secao"], "tipo": m["tipo"], "descricao": m["descricao"].strip(),
-                 "fonte": m.get("fonte") or "", "em": em} for m in proposta["mudancas"]]
+                 "fonte": m.get("fonte") or "", "em": em,
+                 **({"auto": True} if m.get("auto") else {})}
+                for m in proposta["mudancas"] + extras]
     hist_path = raiz / "dados" / "estado_mudancas.json"
     hist = mudancas + _le(hist_path, [])
     hist_path.write_text(json.dumps(hist[:MAX_HISTORICO], ensure_ascii=False, indent=1), "utf-8")
