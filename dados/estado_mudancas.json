@@ -1,5 +1,26 @@
 [
  {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Ato Técnico Conjunto nº 6 atualiza os leiautes/manual/XSD da DeRE de v1.2.0 para v1.3",
+  "fonte": "https://www.cgibs.gov.br/upload/arquivos/202610/01120219-dere-atc-rfb-sufis-cgibs-diretoria-executiva-n-6-de-28-de-setembro-de-2026.pdf",
+  "em": "2026-10-01-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Ato Técnico Conjunto nº 7 aprova os leiautes da NFS-e e NFS-e Via para IBS/CBS, base da 2ª onda de DF-e que começa em 01/10",
+  "fonte": "https://www.cgibs.gov.br/upload/arquivos/202610/01120218-nfse-e-nfsevia-atc-rfb-sufis-cgibs-diretoria-executiva-n-7-de-28-de-setembro-de-2026.pdf",
+  "em": "2026-10-01-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Ato Técnico Conjunto nº 8 aprova notas técnicas de NF-e, NFC-e, CT-e, NFCom, BP-e, NF3e, NFAg e NFGas para IBS/CBS",
+  "fonte": "https://www.cgibs.gov.br/upload/arquivos/202610/01120217-nfe-nfc-cte-notas-faturas-e-demais-atc-rfb-sufis-cgibs-diretoria-executiva-n-8-de-29-de-setembro-de-2026.pdf",
+  "em": "2026-10-01-noturna"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "alterado",
   "descricao": "Balanço de indeferimento do Simples Nacional 2027 atualizado para 30/09: 63% (246.601 de 392.117 pedidos), ante 64% em 28/09",

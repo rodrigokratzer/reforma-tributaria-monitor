@@ -1354,6 +1354,11 @@
   "motivo": "LC sobre datacenter/saude/resseguro so cita regime de LC214 em lista de excecoes fiscais, sem mudar reforma",
   "em": "retroativa-2026-09-30"
  },
+ "b4f7b68cd95acf3f": {
+  "veredito": "relevante",
+  "motivo": "ATC nº 8 aprova notas técnicas de NF-e/NFC-e/CT-e e outros DF-e para IBS/CBS",
+  "em": "2026-10-01-noturna"
+ },
  "b6a00e6806567138": {
   "veredito": "ruido",
   "motivo": "página de serviço genérica de consulta de NFS-e, sem relação específica com a reforma",
@@ -1689,6 +1694,11 @@
   "motivo": "Fixa subvencao para diesel via MP 1.391, programa de subsidio de combustivel sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "e1bf3810bcff7229": {
+  "veredito": "relevante",
+  "motivo": "ATC nº 6 atualiza os leiautes/manual/XSD da DeRE para v1.3 (IBS/CBS)",
+  "em": "2026-10-01-noturna"
+ },
  "e2279e28f00a6179": {
   "veredito": "relevante",
   "motivo": "RFB e CGIBS estabelecem dispensas para o nanoempreendedor na reforma.",
@@ -1918,6 +1928,11 @@
   "veredito": "ruido",
   "motivo": "retificação de número de parágrafo em Ajuste SINIEF do ICMS de gás natural",
   "em": "retroativa-2026-09-30"
+ },
+ "fd5fadfb092ff557": {
+  "veredito": "relevante",
+  "motivo": "ATC nº 7 aprova leiautes da NFS-e e NFS-e Via para IBS/CBS, base da 2ª onda",
+  "em": "2026-10-01-noturna"
  },
  "fff76b8cf345a1fa": {
   "veredito": "relevante",
