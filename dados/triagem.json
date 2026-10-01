@@ -84,6 +84,11 @@
   "motivo": "institui plataforma e-Editais para publicações da RFB; procedimento administrativo interno, não reforma",
   "em": "retroativa-2026-09-30"
  },
+ "0c7c72042641329d": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores da Mapfre Vida, sem relação com a reforma",
+  "em": "2026-10-01-matinal"
+ },
  "1099e8623c68f067": {
   "veredito": "ruido",
   "motivo": "tabela do RREO (restos a pagar), sem relação com a reforma",
@@ -729,6 +734,11 @@
   "motivo": "Remanejamento orcamentario entre ministerios, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "5f51a01e84032c4a": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores da HDI Seguros, sem relação com a reforma",
+  "em": "2026-10-01-matinal"
+ },
  "5f723f727aff3bf4": {
   "veredito": "ruido",
   "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
@@ -1309,6 +1319,11 @@
   "motivo": "decreto estadual indica conselheiro suplente do Amapá no Conselho Superior do CGIBS, ato de governança",
   "em": "retroativa-2026-09-30"
  },
+ "b21050af4c7c7ba9": {
+  "veredito": "ruido",
+  "motivo": "institui grupo de trabalho consultivo de seguros de infraestrutura na Susep, sem relação com a reforma",
+  "em": "2026-10-01-matinal"
+ },
  "b24c885166831925": {
   "veredito": "contexto",
   "motivo": "Resolucao CGIBS sobre ampliacao da forca de trabalho, governanca interna do orgao sem efeito externo",
@@ -1578,6 +1593,11 @@
   "veredito": "contexto",
   "motivo": "Missão institucional do CGIBS à OCDE sobre IVA, sem efeito prático imediato",
   "em": "retroativa-2026-09-30"
+ },
+ "d43fbb797f5fc94f": {
+  "veredito": "ruido",
+  "motivo": "homologação de aumento de capital e reforma de estatuto da Avla Seguros, sem relação com a reforma",
+  "em": "2026-10-01-matinal"
  },
  "d4c2255612e0e3ec": {
   "veredito": "ruido",

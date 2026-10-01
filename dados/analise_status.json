@@ -1,11 +1,1 @@
-{
- "data": "2026-09-30",
- "turno": "noturna",
- "situacao": "publicada",
- "acoes": 0,
- "gerado_em": "2026-09-30T20:05:00Z",
- "resumo_curto": "3 novidades, nenhuma muda prazo; balanço mostra 63% de indeferimento no Simples",
- "painel_atualizado": [
-  "Balanço de indeferimento do Simples Nacional 2027 atualizado para 30/09: 63% (246.601 de 392.117 pedidos), ante 64% em 28/09"
- ]
-}
+{"data": "2026-10-01", "turno": "matinal", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-10-01T08:03:33Z", "resumo_curto": "4 itens, nenhum relevante"}
