@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": null,
+   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
    "total": 10,
    "itens": [
     {
@@ -309,7 +309,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 5,
+   "total": 8,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -344,6 +344,27 @@
      "url": "https://www.cgibs.gov.br/upload/arquivos/202609/24094106-ato-tecnico-conjunto-5-rfb-cgibs-assinado-assinado.pdf",
      "data": null,
      "pasta_arquivo": "2026-09",
+     "alerta": null
+    },
+    {
+     "titulo": "DERE ATC RFB SUFIS CGIBS DIRETORIA EXECUTIVA Nº 6, DE 28 DE SETEMBRO DE 2026 (.pdf 874,12 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/01120219-dere-atc-rfb-sufis-cgibs-diretoria-executiva-n-6-de-28-de-setembro-de-2026.pdf",
+     "data": "2026-09-28",
+     "pasta_arquivo": "2026-10",
+     "alerta": null
+    },
+    {
+     "titulo": "NFSe e NFSeVia ATC RFB SUFIS CGIBS DIRETORIA EXECUTIVA Nº 7, DE 28 DE SETEMBRO DE 2026 (.pdf 878,25 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/01120218-nfse-e-nfsevia-atc-rfb-sufis-cgibs-diretoria-executiva-n-7-de-28-de-setembro-de-2026.pdf",
+     "data": "2026-09-28",
+     "pasta_arquivo": "2026-10",
+     "alerta": null
+    },
+    {
+     "titulo": "NFe NFC CTe notas faturas e demais ATC RFB SUFIS CGIBS DIRETORIA EXECUTIVA Nº 8, DE 29 DE SETEMBRO DE 2026 (.pdf 881,30 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/01120217-nfe-nfc-cte-notas-faturas-e-demais-atc-rfb-sufis-cgibs-diretoria-executiva-n-8-de-29-de-setembro-de-2026.pdf",
+     "data": "2026-09-29",
+     "pasta_arquivo": "2026-10",
      "alerta": null
     }
    ]
