@@ -81,19 +81,40 @@ uma ementa/texto que você realmente leu — nunca do órgão ou da fonte sozinh
 
 ## Leia o texto completo antes de classificar — ele já está no repositório
 
-Cada item de `itens` (no arquivo de lacuna) pode trazer um
-campo `texto` com o corpo integral da publicação, já extraído na coleta —
-você não precisa (e não deve) sair buscando na web para ler o que já está
-ali. Isso vale hoje para os itens do DOU; a mesma ideia deve se estender aos
-outros portais quando a coleta deles também passar a capturar o texto.
+Cada item de `itens` (no arquivo de lacuna) traz o texto integral da
+publicação, já extraído pela coleta ou pela raia de leitura (HTML, PDF, PDF
+escaneado via OCR e anexos linkados na página). Você não precisa (e não deve)
+sair buscando na web o que já está ali. Campos:
 
-- **Se o item tem `texto` preenchido:** leia esse campo inteiro antes de
-  classificar. É a fonte primária — marque `[VERIFICADO LITERAL]`.
-- **Se o item não tem `texto` (ou vem vazio) e você precisou buscar na web
-  para entender do que se trata:** marque `[PESQUISA]` e diga, em uma frase,
-  que a leitura veio de cobertura de terceiros, não do texto oficial.
+- `texto`: o texto, até 60.000 caracteres.
+- `texto_truncado` / `texto_chars` / `texto_arquivo`: se `texto_truncado` for
+  `true`, o texto inteiro está em `texto_arquivo` (caminho no repositório). Leia o
+  arquivo com a ferramenta de leitura antes de classificar. Para documentos muito
+  longos (ex.: Regulamento do IBS), leia o sumário e as partes relevantes ao
+  achado, e diga na análise quais partes leu.
+- `texto_origem`: `html`, `pdf`, `pdf+ocr`, `html+ocr` (página HTML cujo anexo
+  PDF precisou de OCR), `coleta` (o coletor já trouxe), `inlabs` (DOU) ou
+  `coleta_cortada` (DOU antigo, cortado em 20.000 caracteres). Quando contém
+  `ocr`, o texto saiu de reconhecimento óptico: um número ou caractere isolado
+  pode estar errado. Ao citar prazo, valor ou número de artigo vindo de OCR,
+  confira se faz sentido no contexto.
+- Anexos aparecem dentro do `texto`, depois de uma linha `===== ANEXO: <url> =====`.
+- `leitura`: só aparece quando a leitura falhou ou ficou parcial (`status`,
+  `erro`, `anexos_falhos`).
+
+Regras:
+
+- **Se `texto` está preenchido** (e você leu o arquivo, quando truncado):
+  marque `[VERIFICADO LITERAL]`. Quando `texto_origem` contém `ocr`,
+  acrescente " (OCR)" dentro da marca: `[VERIFICADO LITERAL (OCR)]`.
+- **Se `texto` está vazio** (a leitura desistiu, e o motivo está em `leitura.erro`)
+  e você precisou buscar na web: marque `[PESQUISA]` e diga, em uma frase, que a
+  leitura veio de cobertura de terceiros, não do texto oficial.
+- **`aguardando_leitura`** (no topo da lacuna) lista itens que ainda vão ser
+  lidos. Não os analise agora: eles voltam no próximo ciclo, já com texto. Se
+  houver algum, registre a quantidade em uma frase na Nota sobre a coleta.
 - Não gaste espaço da análise explicando *por que* um item não tinha
-  `texto` — isso é assunto da Nota sobre a coleta (curta, no fim), não do
+  `texto`. Isso é assunto da Nota sobre a coleta (curta, no fim), não do
   corpo do achado.
 
 ### Marcadores de proveniência
@@ -103,6 +124,8 @@ entre colchetes ao lado da fonte, indicando como a informação foi obtida:
 
 - `` `[VERIFICADO LITERAL]` `` — você leu o texto integral do ato/norma (campo
   `texto` do item, PDF, página do órgão) e a análise se apoia nesse texto.
+- `` `[VERIFICADO LITERAL (OCR)]` `` — idem, mas o texto veio de OCR de PDF
+  escaneado (`texto_origem` contém `ocr`).
 - `` `[PESQUISA]` `` — você não teve acesso ao texto integral (sem campo
   `texto`, bloqueado, paywall, captcha) e a classificação se apoia em outros
   sinais (ementa, título, cobertura de terceiros). Precisa vir acompanhada de

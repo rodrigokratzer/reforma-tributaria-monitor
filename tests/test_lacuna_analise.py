@@ -20,7 +20,7 @@ def escreve(raiz, rel, conteudo):
         caminho.write_text(conteudo, "utf-8")
 
 
-def item(primeira_vez, titulo, fonte="Z"):
+def item(primeira_vez, titulo, fonte="DOU Z"):
     return {"primeira_vez": primeira_vez, "fonte": fonte, "titulo": titulo,
             "url": "https://x/" + titulo, "data": None, "pasta_arquivo": None,
             "alerta": None}
@@ -117,7 +117,7 @@ class TestLacuna(unittest.TestCase):
             escreve(raiz, "dados/historico.json", {
                 "a": item("2026-09-28", "ta"),
                 "b": item("2026-09-29", "tb"),
-                "c": item("2026-09-29", "tc", fonte="A"),
+                "c": item("2026-09-29", "tc", fonte="DOU A"),
             })
             escreve(raiz, "dados/analisados.json", {"chaves": ["a"]})
             r = la.lacuna(raiz, hoje="2026-09-29")
@@ -178,6 +178,83 @@ class TestLacuna(unittest.TestCase):
             r = la.lacuna(Path(tmp), hoje="2026-09-30")
             self.assertEqual(r["itens"], [])
             self.assertEqual(r["dias_com_dados_na_janela"], [])
+
+
+import textos as _textos
+
+
+class TestTextoNaLacuna(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.raiz = Path(self.tmp.name)
+        (self.raiz / "dados").mkdir()
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _hist(self, itens, leituras=None):
+        (self.raiz / "dados" / "historico.json").write_text(json.dumps(itens), "utf-8")
+        if leituras is not None:
+            (self.raiz / "dados" / "leituras.json").write_text(json.dumps(leituras), "utf-8")
+
+    def _it(self, fonte="RFB - Noticias 2026", pv="2026-10-01", **kw):
+        return {"titulo": "t", "url": "u", "fonte": fonte, "primeira_vez": pv, **kw}
+
+    def test_texto_do_arquivo_entra_no_item(self):
+        self._hist({"k1": self._it()}, {"k1": {"status": "lido", "origem": "pdf+ocr"}})
+        _textos.grava(self.raiz / "dados", "k1", "CORPO")
+        it = la.lacuna(self.raiz, "2026-10-01")["itens"][0]
+        self.assertEqual((it["texto"], it["texto_origem"], it["texto_truncado"]),
+                         ("CORPO", "pdf+ocr", False))
+        self.assertEqual(it["texto_arquivo"], "dados/textos/k1.txt")
+
+    def test_texto_grande_vem_truncado_com_arquivo(self):
+        self._hist({"k1": self._it()}, {"k1": {"status": "lido", "origem": "pdf"}})
+        _textos.grava(self.raiz / "dados", "k1", "a" * 965_000)
+        it = la.lacuna(self.raiz, "2026-10-01")["itens"][0]
+        self.assertEqual(len(it["texto"]), la.TETO_LACUNA)
+        self.assertTrue(it["texto_truncado"])
+        self.assertEqual(it["texto_chars"], 965_000)
+
+    def test_texto_legado_do_historico_ainda_vale(self):
+        self._hist({"k1": self._it(fonte="DOU DO1", texto="legado")})
+        it = la.lacuna(self.raiz, "2026-10-01")["itens"][0]
+        self.assertEqual(it["texto"], "legado")
+        self.assertIsNone(it["texto_arquivo"])
+
+    def test_sem_tentativa_recente_aguarda(self):
+        self._hist({"k1": self._it()}, {})
+        lac = la.lacuna(self.raiz, "2026-10-01")
+        self.assertEqual(lac["itens"], [])
+        self.assertEqual(lac["aguardando_leitura"][0]["chave"], "k1")
+
+    def test_falhou_aguarda(self):
+        self._hist({"k1": self._it()}, {"k1": {"status": "falhou", "tentativas": 1, "erro": "HTTP 503"}})
+        self.assertEqual(la.lacuna(self.raiz, "2026-10-01")["itens"], [])
+
+    def test_desistiu_libera_com_motivo(self):
+        self._hist({"k1": self._it()}, {"k1": {"status": "desistiu", "tentativas": 4, "erro": "HTTP 503"}})
+        it = la.lacuna(self.raiz, "2026-10-01")["itens"][0]
+        self.assertEqual(it["texto"], "")
+        self.assertEqual(it["leitura"]["status"], "desistiu")
+        self.assertEqual(it["leitura"]["erro"], "HTTP 503")
+
+    def test_libera_depois_de_tres_dias_sem_leitura(self):
+        self._hist({"k1": self._it(pv="2026-09-27")}, {})
+        lac = la.lacuna(self.raiz, "2026-10-01")
+        self.assertEqual([i["chave"] for i in lac["itens"]], ["k1"])
+        self.assertEqual(lac["aguardando_leitura"], [])
+
+    def test_dou_sem_texto_nao_aguarda(self):
+        self._hist({"k1": self._it(fonte="DOU DO1")}, {})
+        self.assertEqual(len(la.lacuna(self.raiz, "2026-10-01")["itens"]), 1)
+
+    def test_parcial_tem_texto_e_avisa_anexo_que_falhou(self):
+        self._hist({"k1": self._it()}, {"k1": {"status": "parcial", "origem": "html",
+                    "anexos_falhos": [{"url": "a.pdf", "erro": "HTTP 404"}]}})
+        _textos.grava(self.raiz / "dados", "k1", "CORPO")
+        it = la.lacuna(self.raiz, "2026-10-01")["itens"][0]
+        self.assertEqual(it["leitura"]["anexos_falhos"][0]["url"], "a.pdf")
 
 
 if __name__ == "__main__":

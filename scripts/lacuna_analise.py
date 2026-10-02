@@ -9,11 +9,23 @@ das 17h o que a das 05h ja cobriu, ou perderia o que chegou entre as duas.
 A chave e' a propria chave do dicionario do historico (a mesma de
 portais.base.chave), entao nao depende de qual coletor achou o item.
 
+Itens ainda nao lidos pela raia de leitura (ler_textos.py) ficam de fora por
+ate' textos.DIAS_SEM_LEITURA dias e aparecem em "aguardando_leitura"; como nao
+estao em "itens", fechar_analise.py nao os marca e eles voltam no proximo ciclo.
+
 Uso: python scripts/lacuna_analise.py [hoje AAAA-MM-DD]
 Saida: JSON no stdout.
 """
 import json, os, re, sys, datetime
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import textos
+
+# Texto que vai inline na lacuna. Acima disto o item traz texto_truncado e
+# texto_arquivo, e o brief manda ler o arquivo (o Regulamento do IBS tem
+# ~965 mil caracteres; inline estouraria o contexto da analise).
+TETO_LACUNA = 60000
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA_RX = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -81,9 +93,60 @@ def itens_pendentes(raiz, ate):
     return itens
 
 
+def _leituras(raiz):
+    p = raiz / "dados" / "leituras.json"
+    return json.loads(p.read_text("utf-8")) if p.exists() else {}
+
+
+def aguardando_leitura(item, meta, tem_texto, hoje):
+    """A analise espera a raia de leitura, para nao ver sem texto um item que
+    so' nao foi lido ainda (OCR na fila, site fora do ar por um ciclo).
+
+    Nunca espera: item com texto, item do DOU (texto vem do INLABS) e item
+    em que a leitura desistiu. Rede de seguranca: passados DIAS_SEM_LEITURA
+    dias, libera de qualquer jeito — raia parada nao pode travar a analise.
+    """
+    if tem_texto or (item.get("fonte") or "").startswith("DOU"):
+        return False
+    if meta and meta.get("status") == "desistiu":
+        return False
+    try:
+        dias = (datetime.date.fromisoformat(hoje)
+                - datetime.date.fromisoformat(item["primeira_vez"])).days
+    except (KeyError, ValueError):
+        return False
+    return dias < textos.DIAS_SEM_LEITURA
+
+
+def _anexa_texto(dados, item, meta):
+    k = item["chave"]
+    t = textos.le(dados, k)
+    item["texto_arquivo"] = f"dados/textos/{k}.txt" if t is not None else None
+    if t is None:
+        t = item.get("texto") or ""
+    item["texto"] = t[:TETO_LACUNA]
+    item["texto_chars"] = len(t)
+    item["texto_truncado"] = len(t) > TETO_LACUNA
+    item["texto_origem"] = (meta or {}).get("origem") or ("coleta" if t else None)
+    if meta and (not t or meta.get("anexos_falhos")):
+        item["leitura"] = {"status": meta.get("status"), "erro": meta.get("erro"),
+                           "anexos_falhos": meta.get("anexos_falhos", [])}
+    return bool(t)
+
+
 def lacuna(raiz, hoje=None):
     hoje = hoje or datetime.date.today().isoformat()
-    itens = itens_pendentes(raiz, hoje)
+    leituras = _leituras(raiz)
+    itens, aguardando = [], []
+    for i in itens_pendentes(raiz, hoje):
+        meta = leituras.get(i["chave"])
+        tem = _anexa_texto(raiz / "dados", i, meta)
+        if aguardando_leitura(i, meta, tem, hoje):
+            aguardando.append({"chave": i["chave"], "fonte": i.get("fonte"),
+                               "titulo": i.get("titulo"),
+                               "status": (meta or {}).get("status", "nao_tentado")})
+        else:
+            itens.append(i)
     return {
         "ate": hoje,
         "turno": turno_atual(),
@@ -91,6 +154,7 @@ def lacuna(raiz, hoje=None):
         "dados_de_hoje_disponiveis": hoje in dados_disponiveis(raiz),
         "dias_com_dados_na_janela": sorted({i["primeira_vez"] for i in itens}),
         "itens": itens,
+        "aguardando_leitura": aguardando,
     }
 
 
