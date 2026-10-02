@@ -71,6 +71,13 @@ def ocr_pagina(arq, n, pasta):
         png.unlink(missing_ok=True)
 
 
+def _compacta(t):
+    """pdftotext -layout enche de espacos para alinhar colunas: 2+ espacos/tabs
+    viram um so' e o fim de linha e' aparado (newlines ficam)."""
+    t = re.sub(r"[ \t]{2,}", " ", t or "")
+    return re.sub(r"[ \t]+$", "", t, flags=re.M)
+
+
 def _uteis(t):
     return len(re.sub(r"\s+", "", t or ""))
 
@@ -91,7 +98,7 @@ def extrai_pdf(dados):
                     if _uteis(o) > _uteis(t):
                         t = o
                         ocr.append(i)
-            partes.append(f"[pagina {i}]\n{t.strip()}")
+            partes.append(f"[pagina {i}]\n{_compacta(t).strip()}")
     if sem_ocr:
         raise ErroPDF(f"paginas {sem_ocr} sem texto e tesseract nao instalado")
     return {"texto": "\n\n".join(partes), "paginas": n, "paginas_ocr": ocr,

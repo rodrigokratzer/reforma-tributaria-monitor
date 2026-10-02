@@ -43,7 +43,7 @@ publicações novas", para o histórico do painel não ter buraco.
 
 ## Leitura integral (OCR)
 
-Depois da varredura, `rodar_varredura.sh` chama `scripts/ler_textos.py`, que
+`rodar_varredura.sh` coleta e publica a varredura primeiro; depois chama `scripts/ler_textos.py`, que
 guarda o texto integral de cada publicação em `dados/textos/<chave>.txt`
 (HTML, PDF por `pdftotext` e OCR nas páginas sem camada de texto). Pacotes do
 sistema:
@@ -54,7 +54,7 @@ tesseract --list-langs | grep -x por
 ```
 
 Orçamento: 45 min por ciclo (o OCR é lento e tudo bem; o que sobra fica para o
-ciclo seguinte). Falha na leitura não impede a publicação da varredura. Para
+ciclo seguinte). A leitura é publicada num segundo commit (`leitura AAAA-MM-DD`). Falha na leitura não impede a publicação, mas o script sai com código 3 e o ciclo avisa "leitura de textos" na notificação de falha. Para
 diagnóstico, `dados/leituras.json` tem o status de cada item (`lido`,
 `parcial`, `falhou`, `desistiu`) e a origem do texto. Reler um item:
 

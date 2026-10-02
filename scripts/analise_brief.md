@@ -86,10 +86,14 @@ publicação, já extraído pela coleta ou pela raia de leitura (HTML, PDF, PDF
 escaneado via OCR e anexos linkados na página). Você não precisa (e não deve)
 sair buscando na web o que já está ali. Campos:
 
-- `texto`: o texto, até 60.000 caracteres.
+- `texto`: prévia do texto, até 60.000 caracteres numa única linha do JSON. A
+  ferramenta de leitura trunca linhas muito longas, então não confie nele para
+  textos grandes: sempre que `texto_arquivo` estiver presente, leia o texto a
+  partir desse arquivo (ferramenta de leitura, com offset/limit nos arquivos
+  longos).
 - `texto_truncado` / `texto_chars` / `texto_arquivo`: se `texto_truncado` for
-  `true`, o texto inteiro está em `texto_arquivo` (caminho no repositório). Leia o
-  arquivo com a ferramenta de leitura antes de classificar. Para documentos muito
+  `true`, o texto inteiro só existe em `texto_arquivo`. Leia o arquivo antes de
+  classificar. Para documentos muito
   longos (ex.: Regulamento do IBS), leia o sumário e as partes relevantes ao
   achado, e diga na análise quais partes leu.
 - `texto_origem`: `html`, `pdf`, `pdf+ocr`, `html+ocr` (página HTML cujo anexo
@@ -104,7 +108,7 @@ sair buscando na web o que já está ali. Campos:
 
 Regras:
 
-- **Se `texto` está preenchido** (e você leu o arquivo, quando truncado):
+- **Se há `texto`** (e você leu `texto_arquivo`, quando presente):
   marque `[VERIFICADO LITERAL]`. Quando `texto_origem` contém `ocr`,
   acrescente " (OCR)" dentro da marca: `[VERIFICADO LITERAL (OCR)]`.
 - **Se `texto` está vazio** (a leitura desistiu, e o motivo está em `leitura.erro`)

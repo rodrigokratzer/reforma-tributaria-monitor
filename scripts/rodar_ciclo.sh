@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Um ciclo completo: DOU -> 12 portais -> analise -> alerta. Roda as 05:00
+# Um ciclo completo: DOU -> 16 portais + leitura integral -> analise -> alerta. Roda as 05:00
 # (matinal) e as 17:00 (noturna) pelo reforma-ciclo.timer.
 #
 # As raias continuam scripts separados (cada uma faz o proprio pull/commit/
@@ -15,7 +15,14 @@ echo "=== ciclo $TURNO $(date '+%Y-%m-%d %H:%M') ==="
 
 falhas=()
 scripts/rodar_dou.sh       || falhas+=("coleta do DOU")
-scripts/rodar_varredura.sh || falhas+=("varredura dos portais")
+# rodar_varredura.sh sai com 3 quando so' a raia de leitura falhou (a coleta
+# foi publicada); qualquer outro codigo diferente de zero e' falha da varredura.
+scripts/rodar_varredura.sh; rc=$?
+case $rc in
+  0) ;;
+  3) falhas+=("leitura de textos") ;;
+  *) falhas+=("varredura dos portais") ;;
+esac
 scripts/rodar_analise.sh "$TURNO" || falhas+=("analise $TURNO")
 
 if [ ${#falhas[@]} -eq 0 ]; then

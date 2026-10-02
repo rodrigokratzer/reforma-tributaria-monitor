@@ -144,5 +144,28 @@ class TestRegistroVazio(unittest.TestCase):
                              "total": 0, "itens": []})
 
 
+class TestColetaPortal(unittest.TestCase):
+    class Quebrado(Portal):
+        def coletar(self, ctx, limite=None):
+            raise RuntimeError("charset bogus")
+
+    def test_excecao_vira_registro_de_falha(self):
+        import varredura
+        r = varredura.coleta_portal(self.Quebrado("Q", "https://q"), None, 0)
+        self.assertIsNone(r["metodo"])
+        self.assertIn("RuntimeError", r["erro"])
+        self.assertEqual((r["fonte"], r["total"], r["itens"]), ("Q", 0, []))
+
+    def test_grava_resultado_classifica_como_falha(self):
+        import json, tempfile, varredura
+        from pathlib import Path
+        r = varredura.coleta_portal(self.Quebrado("Q", "https://q"), None, 0)
+        with tempfile.TemporaryDirectory() as d, \
+             patch.object(varredura, "DADOS", Path(d)):
+            varredura.grava_resultado("2026-10-02", [r], "x.json", "n.json")
+            n = json.loads((Path(d) / "n.json").read_text("utf-8"))
+        self.assertEqual(n["fontes_com_erro"], ["Q"])
+
+
 if __name__ == "__main__":
     unittest.main()

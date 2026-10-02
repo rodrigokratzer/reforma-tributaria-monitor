@@ -153,5 +153,23 @@ class TestAspNetForm(unittest.TestCase):
         self.assertEqual(anexos, ["https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=abc"])
 
 
+class TestPloneView(unittest.TestCase):
+    HTML = ('<div id="parent-fieldname-text"><p>Texto da noticia com conteudo.</p>'
+            '<a href="/receitafederal/arquivos/ato.pdf/view">Ato</a>'
+            '<a href="/receitafederal/arquivos/ato.pdf">Ato de novo</a>'
+            '<a href="/receitafederal/arquivos/OUTRO.PDF/VIEW?x=1">Outro</a></div>')
+
+    def test_pdf_view_e_anexo(self):
+        self.assertTrue(paginas.eh_anexo("https://www.gov.br/a/ato.pdf/view"))
+        self.assertTrue(paginas.eh_anexo("https://www.gov.br/a/ATO.PDF/View"))
+        self.assertFalse(paginas.eh_anexo("https://www.gov.br/a/pagina/view"))
+
+    def test_view_normalizado_e_deduplicado(self):
+        _, anexos = paginas.extrai_pagina("https://www.gov.br/receitafederal/pt-br/n", self.HTML)
+        self.assertEqual(anexos, [
+            "https://www.gov.br/receitafederal/arquivos/ato.pdf",
+            "https://www.gov.br/receitafederal/arquivos/OUTRO.PDF?x=1"])
+
+
 if __name__ == "__main__":
     unittest.main()

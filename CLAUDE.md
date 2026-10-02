@@ -18,8 +18,8 @@ pip install -r requirements.txt
 playwright install --with-deps chromium   # only needed for scripts/varredura.py
 ```
 
-Run the tests (stdlib `unittest`, no fixtures on disk — three files:
-`test_lacuna_analise.py`, `test_portais_base.py`, `test_portal_cgibs.py`):
+Run the tests (stdlib `unittest`, files under `tests/`, no fixtures on disk; use the
+venv python for the full suite, since `test_gerar_painel` needs the `markdown` package):
 ```bash
 python3 -m unittest discover -s tests -v
 ```
@@ -78,9 +78,13 @@ No linter or formatter is configured.
 ### Data flow
 
 1. `scripts/rodar_ciclo.sh` (systemd `reforma-ciclo.timer`, 05:00 and 17:00 BRT)
-   runs `scripts/dou_diario.py` (DOU), then `scripts/varredura.py` (web sources),
-   (`rodar_varredura.sh` runs `scripts/ler_textos.py` right after it; a reading failure
-   does not block publishing the scrape), then the analysis, then `scripts/notificar.py` (ntfy push + optional SMTP email).
+   runs `scripts/dou_diario.py` (DOU), then `scripts/rodar_varredura.sh`, then the
+   analysis, then `scripts/notificar.py` (ntfy push + optional SMTP email).
+   `rodar_varredura.sh` runs `scripts/varredura.py` (web sources) and publishes the
+   collection, then runs `scripts/ler_textos.py` (full-text reading lane) and publishes
+   again. Publishing twice keeps the long reading lane from racing the Actions
+   fallback. If only the reading lane fails, the script still publishes everything and
+   exits 3, which the cycle reports as "leitura de textos".
    Both collectors call the shared `grava_resultado()` in `scripts/varredura.py`,
    which stamps new history items with `visto_em` (UTC).
 2. **The two collectors never write the same file.** Web writes
@@ -114,8 +118,7 @@ No linter or formatter is configured.
 
 Cada fonte web é um objeto `Portal` (`scripts/portais/base.py`). A classe base
 tem toda a mecânica de coleta (2 tentativas via navegador, fallback HTTP puro,
-filtro por um regex global) e dois pontos de extensão: `filtro_relevancia()` e
-`extrai_texto()`. `scripts/portais/registro.py` lista as 16 instâncias
+filtro por um regex global) e um ponto de extensão: `filtro_relevancia()`. `scripts/portais/registro.py` lista as 16 instâncias
 (`PORTAIS`), na ordem que importa para o orçamento de tempo. As subclasses são
 `GovBrNoticiasPortal` (`govbr.py`), `SVRSNoticiasPortal` (`svrs.py`),
 `NFeInformesPortal` e `NFeListaPortal` (`nfe.py`); cada uma só sabe achar as

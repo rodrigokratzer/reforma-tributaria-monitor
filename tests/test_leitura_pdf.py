@@ -45,6 +45,12 @@ class TestDecisaoPorPagina(unittest.TestCase):
         self.assertEqual(ocr.call_count, 1)
         self.assertIn("[pagina 2]\npagina escaneada", r["texto"])
 
+    def test_espacos_do_layout_sao_compactados(self):
+        r, _ = self._roda(["a     b   \n   c\t\td  \n" + LONGO], {})
+        self.assertIn("[pagina 1]\na b\n c d\n" + LONGO, r["texto"])
+        r, _ = self._roda(["x"], {1: "ocr     texto   \nlinha " + LONGO})
+        self.assertIn("ocr texto\nlinha", r["texto"])
+
     def test_ocr_pior_que_texto_mantem_texto(self):
         r, _ = self._roda(["curto mas real"], {1: ""})
         self.assertEqual(r["origem"], "pdf")

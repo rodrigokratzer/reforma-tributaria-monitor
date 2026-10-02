@@ -14,7 +14,7 @@ import re
 from html.parser import HTMLParser
 
 from leitura.baixar import ErroDownload, Sessao
-from portais.base import Portal, REFORMA, extrai_data, monta_item
+from portais.base import HTTP_TIMEOUT_S, Portal, REFORMA, extrai_data, monta_item
 
 MAX_NOTICIAS = 30
 
@@ -100,7 +100,7 @@ class SVRSNoticiasPortal(Portal):
     def coletar(self, ctx, limite=None):
         reg = self._registro_vazio()
         try:
-            html, _ = Sessao().baixa_html(self.url)
+            html, _ = Sessao(timeout=HTTP_TIMEOUT_S * 2).baixa_html(self.url)
         except ErroDownload as e:
             reg["erro"] = f"http: {e}"
             return reg

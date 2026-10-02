@@ -138,6 +138,17 @@ def grava_resultado(hoje, resultado, arquivo_dados, arquivo_novidades):
               "execucao; o historico acumulado nao se perde.", file=sys.stderr)
 
 
+def coleta_portal(portal, ctx, limite):
+    """portal.coletar() com guarda: qualquer excecao vira um registro de falha
+    (metodo None) em vez de derrubar a varredura inteira."""
+    try:
+        return portal.coletar(ctx, limite)
+    except Exception as e:
+        r = portal._registro_vazio()
+        r["erro"] = f"excecao: {type(e).__name__}: {str(e)[:150]}"
+        return r
+
+
 def main():
     hoje = os.environ.get("DATA_REF") or datetime.date.today().isoformat()
     from playwright.sync_api import sync_playwright
@@ -156,7 +167,7 @@ def main():
                                   "erro": "nao tentada: orcamento de tempo esgotado"})
                 print(f"  {portal.nome:32} PULADA (tempo esgotado)", file=sys.stderr)
                 continue
-            r = portal.coletar(ctx, limite)
+            r = coleta_portal(portal, ctx, limite)
             resultado.append(r)
             print(f"  {portal.nome:32} metodo={r['metodo'] or 'FALHOU':7} "
                   f"itens={r['total']:3} http={r['http_status']} "

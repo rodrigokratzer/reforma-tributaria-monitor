@@ -134,9 +134,19 @@ def extrai_generico(html, base=""):
     return None, []
 
 
+def normaliza_anexo(url):
+    """Plone: `arquivo.pdf/view` e' a pagina de visualizacao; o arquivo em si
+    esta' na mesma URL sem o /view."""
+    u = urllib.parse.urlparse(url)
+    if u.path.lower().endswith(".pdf/view"):
+        return urllib.parse.urlunparse(u._replace(path=u.path[:-len("/view")]))
+    return url
+
+
 def eh_anexo(url):
     p = urllib.parse.urlparse(url).path.lower()
-    return (p.endswith(".pdf") or "/upload/arquivos/" in p
+    return (p.endswith(".pdf") or p.endswith(".pdf/view")
+            or "/upload/arquivos/" in p
             or "@@download" in p or p.endswith("exibirarquivo.aspx"))
 
 
@@ -154,6 +164,8 @@ def extrai_pagina(url, html):
     anexos = []
     for l in links:
         l = l.split("#")[0]
-        if eh_anexo(l) and l != proprio and l not in anexos:
-            anexos.append(l)
+        if eh_anexo(l):
+            l = normaliza_anexo(l)
+            if l != proprio and l not in anexos:
+                anexos.append(l)
     return texto, anexos
