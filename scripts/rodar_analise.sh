@@ -28,11 +28,20 @@ n=$($PY -c "import json,sys; print(len(json.load(open(sys.argv[1]))['itens']))" 
 if [ "$n" -eq 0 ]; then
   # Nada novo desde a ultima analise: nao gasta uma chamada do claude, mas
   # deixa registro do ciclo, para o historico do painel nao ter buraco.
-  cat > "$ARQ" <<EOF
+  aguard=$($PY -c "import json,sys; print(len(json.load(open(sys.argv[1])).get('aguardando_leitura', [])))" "$LACUNA" 2>/dev/null || echo 0)
+  if [ "${aguard:-0}" -gt 0 ]; then
+    cat > "$ARQ" <<EOF
+**Sem publicações para analisar neste ciclo.**
+
+$aguard publicação(ões) aguardando a leitura do texto integral; entram na próxima análise.
+EOF
+  else
+    cat > "$ARQ" <<EOF
 **Sem publicações novas desde a última análise.**
 
 Nenhuma das fontes monitoradas trouxe item novo neste ciclo ($TURNO de $(date +%d/%m/%Y)).
 EOF
+  fi
   $PY - "$HOJE" "$TURNO" <<'EOF'
 import json, sys, datetime
 json.dump({"data": sys.argv[1], "turno": sys.argv[2], "situacao": "sem_novidade",

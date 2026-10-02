@@ -63,6 +63,25 @@ class TestCGIBS(unittest.TestCase):
         t, _ = paginas.extrai_artigo_cgibs("<div class='artigo__texto'><p>abc<div>sem fechar")
         self.assertIn("abc", t)
 
+    def test_shell_js_sem_artigo_texto_devolve_none(self):
+        shell = "<html><body><div id='app'></div></body></html>"
+        self.assertEqual(paginas.extrai_artigo_cgibs(shell), (None, []))
+        self.assertEqual(
+            paginas.extrai_pagina("https://www.cgibs.gov.br/noticia-x", shell), (None, []))
+
+    def test_div_interno_sem_fechar_sobre_captura_mas_devolve_o_artigo(self):
+        # <div> aberto e nunca fechado dentro do corpo: a profundidade nunca
+        # zera e o extrator engole o resto da pagina. Trade-off aceito: o que
+        # importa e' que o texto do artigo esteja la'.
+        html = ("<html><body><div class='artigo__texto'><div>"
+                "<p>Corpo do artigo sobre o IBS e a CBS.</p>"
+                "<footer>Rodape do site</footer><nav>Inicial | Contato</nav>"
+                "</body></html>")
+        t, _ = paginas.extrai_artigo_cgibs(html)
+        self.assertIn("Corpo do artigo sobre o IBS e a CBS", t)
+        t2, _ = paginas.extrai_pagina("https://www.cgibs.gov.br/noticia-x", html)
+        self.assertIn("Corpo do artigo sobre o IBS e a CBS", t2)
+
     def test_vazio_ou_none(self):
         self.assertEqual(paginas.extrai_artigo_cgibs(""), (None, []))
         self.assertEqual(paginas.extrai_artigo_cgibs(None), (None, []))

@@ -13,9 +13,9 @@ foram desabilitadas e removidas.
 
 | Etapa | Onde | Quando |
 |---|---|---|
-| Ciclo matinal: DOU → 12 portais → análise → alerta | `lenovo-claude`, systemd (`reforma-ciclo`) | 05:00, todo dia |
+| Ciclo matinal: DOU → 16 fontes web → leitura (OCR) → análise → alerta | `lenovo-claude`, systemd (`reforma-ciclo`) | 05:00, todo dia |
 | Ciclo noturno: idem | `lenovo-claude`, systemd (`reforma-ciclo`) | 17:00, todo dia |
-| Alerta de falha | `reforma-falha@.service` (via `OnFailure=`) | quando o ciclo falha ou estoura 2h |
+| Alerta de falha | `reforma-falha@.service` (via `OnFailure=`) | quando o ciclo falha ou estoura 4h |
 | Plano B (DOU) | GitHub Actions | 07:10, todo dia, só se o notebook não coletou |
 | Plano B (portais) | GitHub Actions | 07:40, todo dia, só se o notebook não coletou |
 
@@ -40,6 +40,30 @@ escreve arquivos, nunca faz git), valida com `scripts/fechar_analise.py` e só
 então marca os itens como analisados, regenera o painel e faz commit/push. Se
 não houver item novo, não chama o Claude: grava uma análise curta "sem
 publicações novas", para o histórico do painel não ter buraco.
+
+## Leitura integral (OCR)
+
+Depois da varredura, `rodar_varredura.sh` chama `scripts/ler_textos.py`, que
+guarda o texto integral de cada publicação em `dados/textos/<chave>.txt`
+(HTML, PDF por `pdftotext` e OCR nas páginas sem camada de texto). Pacotes do
+sistema:
+
+```bash
+sudo apt-get install -y tesseract-ocr tesseract-ocr-por poppler-utils
+tesseract --list-langs | grep -x por
+```
+
+Orçamento: 45 min por ciclo (o OCR é lento e tudo bem; o que sobra fica para o
+ciclo seguinte). Falha na leitura não impede a publicação da varredura. Para
+diagnóstico, `dados/leituras.json` tem o status de cada item (`lido`,
+`parcial`, `falhou`, `desistiu`) e a origem do texto. Reler um item:
+
+```bash
+.venv/bin/python3 scripts/ler_textos.py --chave <chave>
+.venv/bin/python3 scripts/ler_textos.py --sem-limite     # backfill manual
+```
+
+A lacuna da análise espera a leitura por até 3 dias (`aguardando_leitura`).
 
 ## Verificar status
 

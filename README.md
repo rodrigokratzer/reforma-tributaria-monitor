@@ -35,14 +35,14 @@ do DOU e da análise — ver [docs/operacao-local.md](docs/operacao-local.md):**
 Um navegador real (Playwright/Chromium) abre cada página, porque várias delas
 montam o conteúdo por JavaScript e voltam vazias para um cliente HTTP comum.
 
-Cada fonte web é um objeto `Portal` (`scripts/portais/`). As notícias do CGIBS
-também têm o texto completo capturado na hora da coleta, para a análise diária
-ler o texto do repositório em vez de depender de busca externa — mesmo ganho
-que a Parte A trouxe para o DOU.
+Cada fonte web é um objeto `Portal` (`scripts/portais/`). O texto completo
+de cada publicação (HTML, PDF, OCR) é lido por uma raia à parte, depois da coleta,
+para a análise diária ler o texto do repositório em vez de depender de busca
+externa — mesmo ganho que a Parte A trouxe para o DOU.
 
 **DOU (via INLABS), primeira etapa de cada ciclo (05:00 e 17:00):** a edição
 completa do Diário Oficial, com orçamento de tempo próprio — não compete com
-o dos outros 12 portais. Ver
+o dos outros portais. Ver
 [DOU: coleta separada, com mais retentativa](#dou-coleta-separada-com-mais-retentativa)
 para o porquê e como funciona.
 
@@ -57,7 +57,7 @@ para o porquê e como funciona.
 3. **Settings → Pages → Source:** *Deploy from a branch*, branch `main`, pasta `/docs`.
 4. **Actions → Varredura Reforma Tributária → Run workflow** para a primeira carga.
 
-Não há segredo obrigatório para os 12 portais web. As credenciais do INLABS
+Não há segredo obrigatório para os 16 portais web. As credenciais do INLABS
 (`INLABS_EMAIL`, `INLABS_SENHA`, cadastro gratuito em inlabs.in.gov.br) são
 necessárias só para o workflow **DOU (INLABS)** — sem elas, essa fonte é
 simplesmente pulada, sem derrubar o resto.
@@ -78,11 +78,15 @@ scripts/rodar_ciclo.sh        ciclo 05:00/17:00: DOU -> portais -> análise -> a
 scripts/rodar_analise.sh      análise de um turno (claude -p só escreve; valida e comita)
 scripts/fechar_analise.py     valida a análise, marca itens analisados, grava a triagem
 scripts/notificar.py          alerta do ciclo: push (ntfy) e e-mail (SMTP)
-scripts/varredura.py          orquestra a coleta das 12 fontes web
+scripts/varredura.py          orquestra a coleta das 16 fontes web
 scripts/portais/              cada fonte web como objeto Portal — base.py tem a
                                mecânica de coleta e os pontos de extensão,
-                               cgibs.py a subclasse que lê o texto das notícias,
-                               registro.py a lista PORTAIS das 12 instâncias
+                               govbr.py, svrs.py e nfe.py as subclasses que acham as
+                               publicações de cada fonte,
+                               registro.py a lista PORTAIS das 16 instâncias
+scripts/ler_textos.py         raia de leitura: texto integral em dados/textos/ e
+                               status em dados/leituras.json (scripts/leitura/ tem
+                               paginas, pdf e baixar)
 scripts/dou_diario.py         coleta o DOU via INLABS (primeira etapa do ciclo)
 scripts/dou.py                login e classificação do DOU — compartilhado por
                                dou_diario.py e scripts/medir_inlabs.py
@@ -92,13 +96,13 @@ scripts/gerar_painel.py       monta docs/index.html
 scripts/painel_template.html  layout e CSS do painel
 scripts/medir_inlabs.py       medição do filtro do DOU (opcional, ver abaixo)
 tests/                        unittest, stdlib — test_lacuna_analise.py,
-                               test_portais_base.py (classe Portal) e
-                               test_portal_cgibs.py (subclasse CGIBS)
+                               test_portais_base.py (classe Portal),
+                               test_portais_fontes.py (subclasses) e test_leitura_*.py
 estado.json                   camada curada: prazos, pendências, linha do tempo
 analises/AAAA-MM-DD-<turno>.md  análise de cada ciclo (matinal/noturna); as antigas
                                AAAA-MM-DD.md continuam válidas (turno "única")
 dados/                        gerado pelo robô — não editar à mão
-  ├─ AAAA-MM-DD.json          instantâneo dos 12 portais web do dia
+  ├─ AAAA-MM-DD.json          instantâneo dos 16 portais web do dia
   ├─ AAAA-MM-DD-dou.json      instantâneo do DOU do dia (arquivo próprio)
   ├─ novidades.json           novidades da última varredura web
   ├─ novidades_dou.json       novidades da última coleta do DOU
@@ -183,9 +187,19 @@ Detalhe do GitHub: workflows agendados em repositório público são **desativad
 após 60 dias sem atividade no repositório**. O passo *Sinal de vida* faz um commit
 por execução para evitar isso.
 
+### Texto integral em `dados/textos/`, lido numa raia à parte
+
+O texto de cada publicação fica em um arquivo próprio, `dados/textos/<chave>.txt`,
+sem corte e sem corrida: nenhum outro processo escreve o mesmo arquivo, e o
+tamanho não depende do limite que cabe num JSON de coleta. A leitura
+(`scripts/ler_textos.py`) é uma raia separada da coleta porque o OCR é lento e
+não pode competir com o orçamento de 600 s da varredura; se a leitura falha ou
+estoura, a coleta já foi publicada e o item é tentado de novo no ciclo seguinte.
+A análise espera a leitura por até 3 dias antes de seguir com o que houver.
+
 ### Duas coletas por dia, arquivos separados — nunca mesclar na escrita
 
-O DOU e os 12 portais web rodam em horários e workflows diferentes, mas podem
+O DOU e os 16 portais web rodam em horários e workflows diferentes, mas podem
 gravar no mesmo dia. A tentação óbvia seria fazer o segundo a rodar mesclar seu
 resultado no arquivo do primeiro. Não fazemos isso: cada coleta grava só o seu
 próprio arquivo (`AAAA-MM-DD.json` vs `AAAA-MM-DD-dou.json`, `novidades.json`
@@ -251,7 +265,7 @@ seis vezes seguidas (17/08/2026) e "200 sem cookie" que se revelou manutenção,
 não credencial (25/08/2026), com a mesma credencial funcionando pouco depois.
 `scripts/dou.py` agora tenta até **30 vezes**, com espera crescente até um teto
 de **120s** entre tentativas — e repete nos dois casos, não só em 5xx (ver
-"Decisões de projeto" acima). Coleta separada dos 12 portais web, workflow
+"Decisões de projeto" acima). Coleta separada dos portais web, workflow
 próprio às 01:07 Brasília (`.github/workflows/dou.yml`), com orçamento de tempo
 de 60 minutos — dá margem para o login se recuperar sem atrapalhar a varredura
 principal das 02:10 nem concentrar tudo no mesmo horário de pico de acesso aos
