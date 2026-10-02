@@ -1,5 +1,3 @@
-import contextlib
-import io
 import sys
 import unittest
 from pathlib import Path
@@ -53,12 +51,6 @@ class TestFiltra(unittest.TestCase):
         self.assertEqual(itens[0]["titulo"], "Nova resolucao sobre o IBS")
 
 
-class TestExtraiTextoDefault(unittest.TestCase):
-    def test_default_e_none(self):
-        p = Portal("teste", "https://x/y")
-        self.assertIsNone(p.extrai_texto(None, {"url": "https://x/artigo"}))
-
-
 class TestColetar(unittest.TestCase):
     """coletar() com rede mockada: confirma que o fluxo browser/http e o
     filtro continuam produzindo os mesmos itens da varredura v2."""
@@ -93,20 +85,6 @@ class TestColetar(unittest.TestCase):
         self.assertIsNone(reg["metodo"])
         self.assertIn("browser:", reg["erro"])
 
-    def test_extrai_texto_que_lanca_nao_derruba_coleta(self):
-        class Explode(Portal):
-            def extrai_texto(self, ctx, item, limite=None):
-                raise RuntimeError("erro proposital")
-
-        p = Explode("teste", "https://x/lista")
-        pares = [("Resolucao CGIBS sobre o IBS", "https://x/r/1")]
-        with patch("portais.base.via_browser", return_value=(pares, None)):
-            with contextlib.redirect_stderr(io.StringIO()) as err:
-                reg = p.coletar(None)
-        self.assertEqual(reg["total"], 1)
-        self.assertNotIn("texto", reg["itens"][0])
-        self.assertIn("extrai_texto falhou", err.getvalue())
-
 
 class TestRegistro(unittest.TestCase):
     def test_doze_portais_na_ordem_das_fontes(self):
@@ -127,13 +105,21 @@ class TestRegistro(unittest.TestCase):
             "CGIBS - Relatorios",
         ])
 
-    def test_cgibs_usa_a_subclasse_e_precisa_js(self):
+    def test_cgibs_e_portal_puro_e_precisa_js(self):
         from portais.registro import PORTAIS
-        from portais.cgibs import CGIBSPortal
+        from portais.base import Portal
         cgibs = [p for p in PORTAIS if p.nome.startswith("CGIBS")]
         self.assertEqual(len(cgibs), 8)
-        self.assertTrue(all(isinstance(p, CGIBSPortal) for p in cgibs))
+        self.assertTrue(all(type(p) is Portal for p in cgibs))
         self.assertTrue(all(p.precisa_js for p in cgibs))
+        self.assertFalse(any(hasattr(p, "extrai_texto") for p in cgibs))
+
+    def test_rfb_usa_govbr(self):
+        from portais.registro import PORTAIS
+        from portais.govbr import GovBrNoticiasPortal
+        rfb = [p for p in PORTAIS if p.nome.startswith("RFB")]
+        self.assertEqual(len(rfb), 2)
+        self.assertTrue(all(isinstance(p, GovBrNoticiasPortal) for p in rfb))
 
     def test_fontes_sem_js_sao_marcadas(self):
         from portais.registro import PORTAIS
@@ -142,6 +128,14 @@ class TestRegistro(unittest.TestCase):
             "RFB - Noticias 2026", "RFB - Reforma do Consumo",
             "Portal DF-e SVRS - Noticias", "Portal NF-e - Informes/NTs",
         })
+
+
+class TestRegistroVazio(unittest.TestCase):
+    def test_formato(self):
+        r = Portal("F", "https://x")._registro_vazio()
+        self.assertEqual(r, {"fonte": "F", "url": "https://x", "metodo": None,
+                             "http_status": None, "erro": None, "erro_browser": None,
+                             "total": 0, "itens": []})
 
 
 if __name__ == "__main__":

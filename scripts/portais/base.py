@@ -5,7 +5,7 @@ As funcoes livres (via_http, via_browser, monta_item, ...) eram funcoes de
 scripts/varredura.py ate' a Parte B; agora vivem aqui para que os objetos
 Portal as usem. O comportamento e' identico ao da varredura v2.
 """
-import re, ssl, sys, time, datetime, hashlib
+import re, ssl, time, datetime, hashlib
 import urllib.parse
 import urllib.request, urllib.error
 from html.parser import HTMLParser
@@ -185,10 +185,12 @@ class Portal:
 
     A classe base reproduz exatamente o comportamento generico que valia
     para as 12 fontes ate' a Parte B: 2 tentativas via navegador, fallback
-    HTTP puro, filtro por um regex global unico. Subclasses sobrescrevem
-    filtro_relevancia() e/ou extrai_texto() quando uma fonte precisa de
-    regra propria; adicionar uma fonte sem regra especial e' so' uma linha
-    Portal(...) em portais.registro.
+    HTTP puro, filtro por um regex global unico. O texto integral
+    nao e' extraido aqui: e' a raia de leitura (scripts/ler_textos.py),
+    depois da coleta, que le cada item. Subclasses sobrescrevem
+    filtro_relevancia() ou coletar() (fontes cujos itens nao sao links, ex.:
+    portais/svrs.py). Adicionar uma fonte sem regra especial e' so' uma
+    linha Portal(...) em portais.registro.
     """
 
     precisa_js = True
@@ -211,17 +213,6 @@ class Portal:
         return bool(RELEVANTE.search(titulo)
                     or RELEVANTE.search(caminho_normalizado(url)))
 
-    def extrai_texto(self, ctx, item, limite=None):
-        """Corpo integral da publicacao do item, ou None.
-
-        Default: None — ate' a Parte B nenhuma fonte web capturava texto
-        completo. Chamado so' para itens que ja' passaram no filtro de
-        relevancia, nunca para o volume bruto de links de uma pagina.
-        `limite` e' o instante (time.monotonic) em que o orcamento da
-        varredura acaba; a implementacao deve desistir se estiver perto.
-        """
-        return None
-
     # -- mecanica de coleta (identica a coleta() da varredura v2) --------
 
     def _filtra(self, pares):
@@ -237,10 +228,13 @@ class Portal:
             itens.append(monta_item(t, h))
         return itens
 
+    def _registro_vazio(self):
+        return {"fonte": self.nome, "url": self.url, "metodo": None,
+                "http_status": None, "erro": None, "erro_browser": None,
+                "total": 0, "itens": []}
+
     def coletar(self, ctx, limite=None):
-        reg = {"fonte": self.nome, "url": self.url, "metodo": None,
-               "http_status": None, "erro": None, "erro_browser": None,
-               "total": 0, "itens": []}
+        reg = self._registro_vazio()
 
         pares = None
         for tentativa, tmo in ((1, GOTO_MS_1), (2, GOTO_MS_2)):
@@ -271,15 +265,5 @@ class Portal:
         if reg["metodo"] == "http" and reg["total"] == 0 and self.precisa_js:
             reg["erro"] = ("browser falhou e o HTTP puro nao traz os itens "
                            "(pagina montada por script)")
-
-        for it in reg["itens"]:
-            try:
-                txt = self.extrai_texto(ctx, it, limite)
-            except Exception as e:
-                txt = None
-                print(f"      extrai_texto falhou em {it.get('url')}: "
-                      f"{type(e).__name__}: {str(e)[:120]}", file=sys.stderr)
-            if txt:
-                it["texto"] = txt
 
         return reg
