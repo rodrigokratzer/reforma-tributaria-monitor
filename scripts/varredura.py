@@ -22,6 +22,7 @@ Grava:
   dados/AAAA-MM-DD.json  status e itens da execucao
   dados/historico.json   indice acumulado {chave: item}
   dados/novidades.json   o que apareceu pela primeira vez
+  dados/textos/<chave>.txt  texto integral, quando o coletor o traz (texto_integral)
 """
 import json, os, sys, time, datetime
 from pathlib import Path
@@ -29,6 +30,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from portais.base import UA, chave
 from portais.registro import PORTAIS
+import textos
 
 RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "dados"
@@ -92,7 +94,12 @@ def grava_resultado(hoje, resultado, arquivo_dados, arquivo_novidades):
     visto_em = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for f in resultado:
         for it in f["itens"]:
+            # O texto integral vai para dados/textos/<chave>.txt (textos.py),
+            # nunca para os JSON: sem corte de tamanho e sem inchar o historico.
+            integral = it.pop("texto_integral", None)
             k = chave(it)
+            if integral and integral.strip() and not textos.existe(DADOS, k):
+                textos.grava(DADOS, k, integral)
             if k not in historico:
                 # primeira_vez e' so' a data; com dois ciclos por dia, visto_em
                 # (UTC) diz em qual deles o item apareceu

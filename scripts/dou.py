@@ -273,7 +273,9 @@ def coleta(dias, email, senha, log=sys.stderr):
                     "fonte": f"DOU {secao}",
                     "orgao": a.get("artCategory", "")[:140],
                     "ementa": a.get("_ementa", "")[:300],
-                    "texto": a.get("_texto", ""),
+                    # integral, sem corte: grava_resultado() o leva para
+                    # dados/textos/<chave>.txt e o tira do item
+                    "texto_integral": a.get("_texto_integral", a.get("_texto", "")),
                     "balde": b,
                     "continuacao": bool(a.get("_continuacao")),
                     "alerta": None,
