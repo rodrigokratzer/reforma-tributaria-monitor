@@ -13,6 +13,9 @@ Para cada item: baixa a URL com sessao de cookies; se for PDF, pdftotext
 pagina a pagina com OCR nas paginas sem texto; se for HTML, o corpo pela
 regra do dominio, mais os anexos (PDF) linkados dentro do corpo.
 
+Valores de `origem` em leituras.json: coleta, coleta_cortada, inlabs, html,
+pdf, pdf+ocr e html+ocr (pagina HTML cujo anexo PDF precisou de OCR).
+
 Itens do DOU nao sao baixados aqui: o texto deles vem do INLABS na coleta
 (dou.py) ou, para os antigos, de scripts/reler_dou.py.
 
@@ -133,13 +136,17 @@ def le_item(sessao, it):
     for a in anexos[:MAX_ANEXOS]:
         try:
             t, o, n_ocr, _ = _de_resposta(sessao.baixa(a))   # anexo de anexo nao e' seguido
-        except (baixar.ErroDownload, pdf.ErroPDF) as e:
-            falhos.append({"url": a, "erro": str(e)[:200]})
+        except Exception as e:     # um anexo nunca descarta o texto principal ja' extraido
+            falhos.append({"url": a, "erro": f"{type(e).__name__}: {str(e)[:200]}"})
             continue
-        if t:
+        if t and t.strip():
             partes.append(f"===== ANEXO: {a} =====\n{t}")
             lidos.append(a)
             ocr += n_ocr
+        else:
+            falhos.append({"url": a, "erro": "anexo sem texto legivel"})
+    for a in anexos[MAX_ANEXOS:]:
+        falhos.append({"url": a, "erro": "acima de MAX_ANEXOS"})
     final = "\n\n".join(partes)
     if len(final.strip()) < MINIMO_CHARS:
         raise ErroLeitura("sem conteudo legivel")
@@ -176,8 +183,13 @@ def executa(dados, orcamento=ORCAMENTO_S, chaves=None, sessao=None):
             r = le_item(sessao, it)
         except Exception as e:      # um item nunca derruba a raia
             st = "desistiu" if tent >= textos.MAX_TENTATIVAS else "falhou"
-            leituras[k] = {**ant, "status": st, "tentativas": tent,
-                           "erro": f"{type(e).__name__}: {str(e)[:200]}", "tentado_em": agora()}
+            erro = {"tentativas": tent, "erro": f"{type(e).__name__}: {str(e)[:200]}",
+                    "tentado_em": agora()}
+            if ant.get("status") in ("lido", "parcial") and textos.existe(dados, k):
+                st = ant["status"]     # releitura que falha nao rebaixa texto valido
+                leituras[k] = {**ant, **erro}
+            else:
+                leituras[k] = {**ant, "status": st, **erro}
         else:
             textos.grava(dados, k, r["texto"])
             st = "parcial" if r["anexos_falhos"] else "lido"

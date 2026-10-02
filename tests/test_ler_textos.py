@@ -216,5 +216,76 @@ class TestLegado(Base):
         self.assertEqual((l["origem"], l["chars"]), ("inlabs", 35000))
 
 
+class TestCorrecoes(Base):
+    U = "https://www.gov.br/x/orientacao"
+    A = "https://www.gov.br/x/orientacao.pdf"
+
+    def test_html_com_anexo_ocr_vira_html_ocr(self):
+        self.hist({"k1": item(self.U)})
+        with patch.object(pdf, "extrai_pdf", return_value={
+                "texto": "ANEXO ESCANEADO", "paginas": 1, "paginas_ocr": [1], "origem": "pdf+ocr"}):
+            self.roda(FakeSessao({self.U: html_govbr(LONGO, anexo=self.A), self.A: b"%PDF-1.4"}))
+        l = self.leituras()["k1"]
+        self.assertEqual((l["status"], l["origem"], l["paginas_ocr"]), ("lido", "html+ocr", 1))
+
+    def test_anexo_sem_texto_e_registrado(self):
+        self.hist({"k1": item(self.U)})
+        with patch.object(pdf, "extrai_pdf", return_value={
+                "texto": "", "paginas": 1, "paginas_ocr": [], "origem": "pdf"}):
+            self.roda(FakeSessao({self.U: html_govbr(LONGO, anexo=self.A), self.A: b"%PDF-1.4"}))
+        l = self.leituras()["k1"]
+        self.assertEqual(l["status"], "parcial")
+        self.assertEqual(l["anexos_falhos"], [{"url": self.A, "erro": "anexo sem texto legivel"}])
+
+    def test_anexos_acima_do_limite_sao_registrados(self):
+        a2 = "https://www.gov.br/x/outro.pdf"
+        h = (f'<html><body><div id="parent-fieldname-text"><p>{LONGO}</p>'
+             f'<a href="{self.A}">a</a><a href="{a2}">b</a></div></body></html>').encode()
+        self.hist({"k1": item(self.U)})
+        s = FakeSessao({self.U: h, self.A: b"%PDF-1.4", a2: b"%PDF-1.4"})
+        with patch.object(ler_textos, "MAX_ANEXOS", 1), patch.object(pdf, "extrai_pdf", return_value={
+                "texto": "TXT", "paginas": 1, "paginas_ocr": [], "origem": "pdf"}):
+            self.roda(s)
+        l = self.leituras()["k1"]
+        self.assertEqual(l["status"], "parcial")
+        self.assertEqual(l["anexos_falhos"], [{"url": a2, "erro": "acima de MAX_ANEXOS"}])
+        self.assertNotIn(a2, s.pedidos)
+
+    def test_erro_inesperado_em_anexo_preserva_texto_principal(self):
+        self.hist({"k1": item(self.U)})
+        with patch.object(pdf, "extrai_pdf", side_effect=RuntimeError("boom")):
+            self.roda(FakeSessao({self.U: html_govbr(LONGO, anexo=self.A), self.A: b"%PDF-1.4"}))
+        l = self.leituras()["k1"]
+        self.assertEqual(l["status"], "parcial")
+        self.assertEqual(l["anexos_falhos"][0]["erro"], "RuntimeError: boom")
+        self.assertIn("Corpo integral", textos.le(self.dados, "k1"))
+
+    def test_releitura_falha_nao_rebaixa_lido(self):
+        u = "https://www.gov.br/x/a"
+        self.hist({"k1": item(u)})
+        self.roda(FakeSessao({u: html_govbr(LONGO)}))
+        antes = textos.le(self.dados, "k1")
+        l0 = self.leituras()["k1"]
+        self.roda(FakeSessao({}), chaves={"k1"})
+        l = self.leituras()["k1"]
+        self.assertEqual(l["status"], "lido")
+        for c in ("origem", "chars", "lido_em"):
+            self.assertEqual(l[c], l0[c])
+        self.assertIn("ErroDownload", l["erro"])
+        self.assertEqual(l["tentativas"], 1)
+        self.assertEqual(textos.le(self.dados, "k1"), antes)
+
+    def test_retentativa_de_parcial_que_falha_continua_parcial(self):
+        self.hist({"k1": item(self.U)})
+        self.roda(FakeSessao({self.U: html_govbr(LONGO, anexo=self.A)}))   # anexo 404
+        self.assertEqual(self.leituras()["k1"]["status"], "parcial")
+        self.roda(FakeSessao({}))                                          # pagina caiu
+        l = self.leituras()["k1"]
+        self.assertEqual(l["status"], "parcial")
+        self.assertEqual(l["tentativas"], 2)
+        self.assertIn("erro", l)
+        self.assertTrue(textos.existe(self.dados, "k1"))
+
+
 if __name__ == "__main__":
     unittest.main()
