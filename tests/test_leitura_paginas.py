@@ -114,5 +114,25 @@ class TestEhAnexo(unittest.TestCase):
         self.assertFalse(paginas.eh_anexo("https://www.gov.br/receitafederal/noticia"))
 
 
+class TestMalformedHref(unittest.TestCase):
+    def test_url_malformada_nao_trunca_texto(self):
+        """Texto após href malformado deve ser extraído, link malformado ignorado."""
+        html = '<div id="parent-fieldname-text"><p>antes</p><a href="http://[bad">x</a><p>depois com mais conteudo aqui</p></div>'
+        t, anexos = paginas.extrai_pagina("https://www.gov.br/receitafederal/pt-br/teste", html)
+        self.assertIn("antes", t)
+        self.assertIn("depois", t)
+        self.assertEqual(anexos, [])
+
+
+class TestAspNetForm(unittest.TestCase):
+    def test_aspnet_form_wrapper_nao_bloqueia_extracao(self):
+        """ASP.NET pages com <form id="aspnetForm"> wrappendo tudo devem extrair conteúdo."""
+        html = '<html><body><form id="aspnetForm"><div><h1>Titulo</h1><p>' + ("Texto tecnico relevante. " * 15) + '</p><a href="exibirArquivo.aspx?conteudo=abc">pdf</a></div></form></body></html>'
+        t, anexos = paginas.extrai_pagina("https://www.nfe.fazenda.gov.br/portal/pagina.aspx", html)
+        self.assertIn("Titulo", t)
+        self.assertIn("Texto tecnico relevante", t)
+        self.assertEqual(anexos, ["https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=abc"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -25,6 +25,7 @@ class _Bloco(HTMLParser):
     termina. Trade-off herdado do extrator do CGIBS: se o bloco tiver uma
     tag-alvo aberta e nunca fechada, a contagem nao zera e o extrator segue
     ate' o fim do documento — sobre-captura, nunca texto truncado.
+    Links malformados (e.g. href="http://[bad") sao silenciosamente ignorados.
     """
     IGNORA_SEMPRE = {"script", "style", "noscript", "template"}
     QUEBRA = {"p", "br", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6",
@@ -53,7 +54,10 @@ class _Bloco(HTMLParser):
         if tag in self.QUEBRA:
             self._buf.append("\n")
         if tag == "a" and a.get("href") and not self._ign:
-            self.links.append(urllib.parse.urljoin(self.base, a["href"]))
+            try:
+                self.links.append(urllib.parse.urljoin(self.base, a["href"]))
+            except ValueError:
+                pass        # href malformado, ignorado
 
     def handle_startendtag(self, tag, attrs):
         if self._dentro and not self._feito and tag in self.QUEBRA:
@@ -117,7 +121,7 @@ def extrai_govbr(html, base=""):
     return (f"{resumo}\n\n{corpo}" if resumo else corpo), links
 
 
-SEM_CONTEUDO = ("nav", "header", "footer", "aside", "form")
+SEM_CONTEUDO = ("nav", "header", "footer", "aside")
 
 
 def extrai_generico(html, base=""):
