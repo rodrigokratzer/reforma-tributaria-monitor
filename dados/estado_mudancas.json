@@ -1,6 +1,27 @@
 [
  {
   "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "Nota do prazo da opção pelo Simples Nacional 2027 (15/10) atualizada com o balanço de 02/10: 441.825 pedidos, 277.755 indeferidos (~63%)",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+  "em": "2026-10-02-noturna"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "Nota do prazo do regime regular do IBS/CBS (30/10) atualizada com o balanço de 02/10: 840.516 solicitações recebidas",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+  "em": "2026-10-02-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Marco incluído: balanço de opção pelo Simples/IBS-CBS divulgado pela Receita Federal em 02/10/2026",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+  "em": "2026-10-02-noturna"
+ },
+ {
+  "secao": "prazos_destaque",
   "tipo": "removido",
   "descricao": "Card \"2ª onda de DF-e\" (01/10) saiu dos prazos em destaque por já ter vencido; o marco continua na linha do tempo",
   "fonte": "",
