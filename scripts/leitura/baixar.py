@@ -11,6 +11,7 @@ classe existe.
 import http.cookiejar
 import ssl
 import urllib.error
+import urllib.parse
 import urllib.request
 from collections import namedtuple
 
@@ -39,6 +40,7 @@ class Sessao:
             urllib.request.HTTPSHandler(context=ssl.create_default_context()))
 
     def baixa(self, url):
+        url = urllib.parse.quote(url, safe=":/?=&%+#")   # espaco literal em href do NF-e
         req = urllib.request.Request(url, headers={
             "User-Agent": UA,
             "Accept": "text/html,application/xhtml+xml,application/pdf,*/*;q=0.8",

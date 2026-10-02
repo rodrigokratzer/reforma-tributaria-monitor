@@ -110,6 +110,13 @@ class TestSVRS(unittest.TestCase):
         self.assertEqual(it["data"], "2026-09-10")
         self.assertIn("leiaute da NF-e para o IBS", it["texto_integral"])
 
+    def test_df_e_generico_nao_basta(self):
+        html = SVRS_HTML.replace("Novidade: Link para o MOC Online", "Novidade: DF-e no menu")
+        p = svrs.SVRSNoticiasPortal("S", SVRS_URL)
+        with _sessao_com(html):
+            reg = p.coletar(None)
+        self.assertEqual([i["url"][-4:] for i in reg["itens"]], ["3007"])
+
     def test_limite_de_noticias(self):
         bloco = SVRS_HTML.split("<article")[1].split("</article>")[0]
         muitas = "".join(f'<article{bloco.replace("#3007", "#" + str(i))}</article>' for i in range(50))
@@ -145,6 +152,23 @@ class TestNFeInformes(unittest.TestCase):
 
 
 class TestNFeLista(unittest.TestCase):
+    def test_url_com_espaco_e_codificada(self):
+        html = '<p><a href="exibirArquivo.aspx?conteudo=h9o7idH OcI="><span class="tituloConteudo">Informe IBS</span></a><br />x</p>'
+        ns = nfe.extrai_lista(html, LISTA_URL)
+        self.assertEqual(ns[0]["url"],
+                         "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=h9o7idH%20OcI=")
+
+    def test_nt_de_layout_fora_da_reforma_e_filtrada(self):
+        html = (
+            '<p><a href="exibirArquivo.aspx?conteudo=aaa="><span class="tituloConteudo">Nota Tecnica 2019.001 v.1.00</span></a><br />Leiaute da NF-e e NFC-e</p>'
+            '<p><a href="exibirArquivo.aspx?conteudo=bbb="><span class="tituloConteudo">Nota Tecnica 2025.002 v.1.00</span></a><br />Reforma Tributaria do Consumo - RTC</p>'
+            '<p><a href="exibirArquivo.aspx?conteudo=ccc="><span class="tituloConteudo">Nota Tecnica 2026.001</span></a><br />Campos do IBS</p>')
+        p = nfe.NFeListaPortal("L", LISTA_URL)
+        with _sessao_com(html):
+            reg = p.coletar(None)
+        self.assertEqual([i["titulo"] for i in reg["itens"]],
+                         ["Nota Tecnica 2025.002 v.1.00", "Nota Tecnica 2026.001"])
+
     def test_extrai_lista(self):
         ns = nfe.extrai_lista(NFE_LISTA_HTML, LISTA_URL)
         self.assertEqual(ns[0]["url"],

@@ -18,7 +18,7 @@ import urllib.parse
 from html.parser import HTMLParser
 
 from leitura.baixar import ErroDownload, Sessao
-from portais.base import Portal, RELEVANTE, extrai_data, monta_item
+from portais.base import Portal, REFORMA, extrai_data, monta_item
 
 
 def _limpa(t):
@@ -92,7 +92,8 @@ class _Lista(HTMLParser):
             self._em_p = True
         elif tag == "a" and "exibirarquivo.aspx" in (a.get("href") or "").lower():
             self._fecha()
-            self._href = urllib.parse.urljoin(self.base, a["href"])
+            self._href = urllib.parse.quote(
+                urllib.parse.urljoin(self.base, a["href"]), safe=":/?=&%+#")
         elif tag == "span" and "tituloConteudo" in (a.get("class") or ""):
             self._em_tit = True
 
@@ -150,7 +151,7 @@ class NFeInformesPortal(_NFePortal):
         if html is None:
             return reg
         for n in extrai_informes(html):
-            if not (RELEVANTE.search(n["titulo"]) or RELEVANTE.search(n["corpo"])):
+            if not (REFORMA.search(n["titulo"]) or REFORMA.search(n["corpo"])):
                 continue
             it = monta_item(n["titulo"], f"{self.url}#{n['id']}")
             it["data"] = n["data"] or it["data"]
@@ -167,7 +168,7 @@ class NFeListaPortal(_NFePortal):
         if html is None:
             return reg
         for n in extrai_lista(html, self.url):
-            if not (RELEVANTE.search(n["titulo"]) or RELEVANTE.search(n["ementa"])):
+            if not (REFORMA.search(n["titulo"]) or REFORMA.search(n["ementa"])):
                 continue
             it = monta_item(n["titulo"], n["url"])
             it["ementa"] = n["ementa"]

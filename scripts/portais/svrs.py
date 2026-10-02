@@ -14,7 +14,7 @@ import re
 from html.parser import HTMLParser
 
 from leitura.baixar import ErroDownload, Sessao
-from portais.base import Portal, RELEVANTE, extrai_data, monta_item
+from portais.base import Portal, REFORMA, extrai_data, monta_item
 
 MAX_NOTICIAS = 30
 
@@ -106,7 +106,7 @@ class SVRSNoticiasPortal(Portal):
             return reg
         reg["metodo"], reg["http_status"] = "http", 200
         for n in extrai_noticias(html)[:MAX_NOTICIAS]:
-            if not (RELEVANTE.search(n["titulo"]) or RELEVANTE.search(n["corpo"])):
+            if not (REFORMA.search(n["titulo"]) or REFORMA.search(n["corpo"])):
                 continue
             it = monta_item(n["titulo"], f"{self.url}#{n['id']}")
             it["data"] = n["data"] or it["data"]

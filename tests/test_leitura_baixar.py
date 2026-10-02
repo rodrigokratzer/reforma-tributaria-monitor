@@ -33,6 +33,10 @@ class _Handler(BaseHTTPRequestHandler):
             self.send_header("Content-Type", "application/octet-stream")
             self.end_headers()
             self.wfile.write(b"%PDF-1.4\n...")
+        elif self.path == "/doc%20com%20espaco":
+            self.send_response(200)
+            self.end_headers()
+            self.wfile.write(b"ok")
         elif self.path == "/grande":
             self.send_response(200)
             self.end_headers()
@@ -62,6 +66,10 @@ class TestSessao(unittest.TestCase):
     def test_pdf_reconhecido_pelo_conteudo_nao_pelo_cabecalho(self):
         r = baixar.Sessao(timeout=5).baixa(self.base + "/doc")
         self.assertTrue(baixar.eh_pdf(r.dados))
+
+    def test_url_com_espaco_literal_e_codificada(self):
+        r = baixar.Sessao(timeout=5).baixa(self.base + "/doc com espaco")
+        self.assertEqual(r.dados, b"ok")
 
     def test_404_vira_erro_download(self):
         with self.assertRaises(baixar.ErroDownload) as cm:

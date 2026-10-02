@@ -24,6 +24,15 @@ RELEVANTE = re.compile(
     re.I,
 )
 
+# SVRS e Portal NF-e publicam sobre NF-e/DF-e o tempo todo (leiautes, NTs de 2014
+# em diante); RELEVANTE casaria tudo. Nessas fontes so' interessa o que cita a
+# reforma. "reforma tribut\w*" porque o \b final de RELEVANTE nao casa "tributaria".
+REFORMA = re.compile(
+    r"\b(ibs|cbs|imposto seletivo|reforma tribut\w*|rtc|lc\s*214|lc\s*227|ec\s*132|"
+    r"cgibs|comit[eê] gestor|split payment)\b",
+    re.I,
+)
+
 MESES = {"janeiro":1,"fevereiro":2,"marco":3,"março":3,"abril":4,"maio":5,"junho":6,
          "julho":7,"agosto":8,"setembro":9,"outubro":10,"novembro":11,"dezembro":12}
 RE_NUM = re.compile(r"(\d{1,2})[/\-.](\d{1,2})[/\-.](\d{4})")
