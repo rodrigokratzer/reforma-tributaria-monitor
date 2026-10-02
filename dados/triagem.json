@@ -89,6 +89,16 @@
   "motivo": "homologação de eleição de administradores da Mapfre Vida, sem relação com a reforma",
   "em": "2026-10-01-matinal"
  },
+ "0fc27f3d8e53b20d": {
+  "veredito": "ruido",
+  "motivo": "Portaria Susep homologa eleição de administrador de seguradora, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
+ "10027fef6f47399d": {
+  "veredito": "ruido",
+  "motivo": "Resolução Susep sobre prevenção à lavagem de dinheiro, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
  "1099e8623c68f067": {
   "veredito": "ruido",
   "motivo": "tabela do RREO (restos a pagar), sem relação com a reforma",
@@ -123,6 +133,16 @@
   "veredito": "ruido",
   "motivo": "eleição de administradores de seguradora (Mapfre Capitalização), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "133f22d2130ca1e8": {
+  "veredito": "relevante",
+  "motivo": "DOU publica Ato Técnico Conjunto nº 8 (notas técnicas NF-e/CT-e/NFCom etc.), já no painel desde 29/09",
+  "em": "2026-10-02-matinal"
+ },
+ "1520f605af5bfba7": {
+  "veredito": "ruido",
+  "motivo": "Legenda de tabela anexa à portaria de equalização de juros, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "153bbd68b08e5507": {
   "veredito": "contexto",
@@ -394,6 +414,11 @@
   "motivo": "continuação de tabela de equalização de juros do Plano Safra",
   "em": "retroativa-2026-09-30"
  },
+ "3573a6b3277e73ba": {
+  "veredito": "ruido",
+  "motivo": "Portaria da Receita sobre trânsito aduaneiro entre aeroportos, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
  "36098cf2f4cad454": {
   "veredito": "ruido",
   "motivo": "Solução de consulta sem ementa/texto; sem indício de relação com a reforma.",
@@ -444,6 +469,11 @@
   "motivo": "CGSN atualiza regras do Simples Nacional para adequação à reforma tributária",
   "em": "retroativa-2026-09-30"
  },
+ "3a6fc835f93f3c01": {
+  "veredito": "ruido",
+  "motivo": "Soluções de consulta sobre Simples Nacional e CPRB no regime atual, sem relação com a reforma do consumo",
+  "em": "2026-10-02-matinal"
+ },
  "3aa031a521176e80": {
   "veredito": "ruido",
   "motivo": "link de navegação institucional, sem conteúdo",
@@ -488,6 +518,11 @@
   "veredito": "contexto",
   "motivo": "Debate institucional sobre transição da reforma, sem efeito normativo",
   "em": "retroativa-2026-09-30"
+ },
+ "3fad552566a4914a": {
+  "veredito": "ruido",
+  "motivo": "Portaria Susep homologa eleição de administrador de seguradora, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "4056d504a4b21715": {
   "veredito": "relevante",
@@ -679,6 +714,11 @@
   "motivo": "Regras Susep sobre reversao de provisao de previdencia por vesting, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "5708b895fdfe02d3": {
+  "veredito": "ruido",
+  "motivo": "Resolução CNSP altera norma de seguros, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
  "577a44022d7989e8": {
   "veredito": "ruido",
   "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
@@ -718,6 +758,11 @@
   "veredito": "ruido",
   "motivo": "tabela do RREO (despesas por função/subfunção), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "5df8e5e94768fe9a": {
+  "veredito": "ruido",
+  "motivo": "Soluções de consulta sobre contribuições previdenciárias e IRPJ no regime atual, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "5e0cce846bd5edc8": {
   "veredito": "ruido",
@@ -788,6 +833,11 @@
   "veredito": "ruido",
   "motivo": "horário de atendimento de unidades da RFB na 8ª Região Fiscal, sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "62738d2e321bd0ea": {
+  "veredito": "relevante",
+  "motivo": "DOU publica Ato Técnico Conjunto nº 7 (leiautes NFS-e/NFS-e Via), já no painel desde 28/09",
+  "em": "2026-10-02-matinal"
  },
  "62cc5b85ee529189": {
   "veredito": "ruido",
@@ -894,6 +944,11 @@
   "motivo": "resolução CGIBS nº 6/2026 que regulamenta o IBS",
   "em": "retroativa-2026-09-30"
  },
+ "6e1e32b93c64c0a2": {
+  "veredito": "ruido",
+  "motivo": "Ato Cotepe altera lista de contribuintes de ICMS na armazenagem de etanol, sem relação com a reforma do consumo",
+  "em": "2026-10-02-matinal"
+ },
  "6e40ba6f9a0edf91": {
   "veredito": "relevante",
   "motivo": "ato técnico conjunto RFB/CGIBS assinado; sem texto extraído (PDF), julgado pelo título",
@@ -933,6 +988,11 @@
   "veredito": "ruido",
   "motivo": "página de serviço genérica de emissão de NFS-e, sem relação específica com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "73d77c4de7380a3e": {
+  "veredito": "ruido",
+  "motivo": "Consulta pública do Ministério da Saúde sobre classificação de risco de agentes biológicos, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "73e26c09b8e65eb0": {
   "veredito": "ruido",
@@ -988,6 +1048,11 @@
   "veredito": "ruido",
   "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
   "em": "retroativa-2026-09-30"
+ },
+ "8129198469d2c7df": {
+  "veredito": "ruido",
+  "motivo": "Portaria Susep homologa atualização cadastral de resseguradora, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "813d6a422bb8bd26": {
   "veredito": "ruido",
@@ -1069,6 +1134,11 @@
   "motivo": "Resolução CGIBS nº 6 aprova o Regulamento do IBS",
   "em": "retroativa-2026-09-30"
  },
+ "8bcfbb0e40473b04": {
+  "veredito": "ruido",
+  "motivo": "Portaria Susep homologa atualização cadastral de resseguradora, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
  "8c566726ea05e2e9": {
   "veredito": "relevante",
   "motivo": "cartilha orientativa oficial para emissão da NF-e do IBS",
@@ -1119,6 +1189,11 @@
   "motivo": "Consulta sobre lucro presumido em serviços de saúde (mesmo tema); sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "91c161233f633c84": {
+  "veredito": "ruido",
+  "motivo": "Tabela de limites equalizáveis anexa à portaria de equalização de juros, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
  "94ff278c2db8ac3b": {
   "veredito": "ruido",
   "motivo": "credenciamento de contribuintes de ICMS (Petrobras) em regime especial atual",
@@ -1128,6 +1203,11 @@
   "veredito": "contexto",
   "motivo": "Portaria conjunta do MGI sem indicação do assunto no título",
   "em": "retroativa-2026-09-30"
+ },
+ "987e80506a927dc9": {
+  "veredito": "ruido",
+  "motivo": "Portaria Susep homologa atualização cadastral de resseguradora, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "989ed5ea54b98653": {
   "veredito": "ruido",
@@ -1244,6 +1324,16 @@
   "motivo": "Homologação de valores de projetos culturais (Lei Rouanet), sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "a7f8fbbeee67455c": {
+  "veredito": "ruido",
+  "motivo": "Portaria MF sobre equalização de juros para tecnologia assistiva, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
+ "a86842d7d30a2f04": {
+  "veredito": "ruido",
+  "motivo": "Portaria da Receita delega competência em alfândega, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
  "a8bfbddbb498dc1d": {
   "veredito": "ruido",
   "motivo": "Divulga demonstrativo da Receita Corrente Liquida do Tesouro, sem relacao com a reforma",
@@ -1288,6 +1378,11 @@
   "veredito": "ruido",
   "motivo": "Atualização cadastral anual de ressegurador eventual, ato interno",
   "em": "retroativa-2026-09-30"
+ },
+ "af21d41b02a593ed": {
+  "veredito": "ruido",
+  "motivo": "Tabela anexa à portaria de equalização de juros, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "af53e91dc6a85627": {
   "veredito": "ruido",
@@ -1529,10 +1624,20 @@
   "motivo": "Portaria CGIBS sem indicação do assunto no título",
   "em": "retroativa-2026-09-30"
  },
+ "caeb1a4e12fe1c72": {
+  "veredito": "ruido",
+  "motivo": "Portaria da Receita disciplina controle aduaneiro no Aeroporto de Viracopos, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
  "cb36d6c4c6a4e911": {
   "veredito": "ruido",
   "motivo": "Homologa eleição de administrador do Bradesco Seguros; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "cb63bc6c3557fb7e": {
+  "veredito": "ruido",
+  "motivo": "Solução de consulta sobre regime de apuração de PIS/Cofins de empresa de monitoramento de segurança, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "ccb5bb2b7a7d8d97": {
   "veredito": "ruido",
@@ -1639,6 +1744,11 @@
   "motivo": "resolução CMN sobre FIDCs com créditos judiciais, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "db7972d97e60b398": {
+  "veredito": "ruido",
+  "motivo": "Portaria do MDIC sobre execução de emendas parlamentares, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
  "dba8b6bb85fe8127": {
   "veredito": "ruido",
   "motivo": "nota fiscal do ouro, sem relação com a reforma do consumo",
@@ -1648,6 +1758,11 @@
   "veredito": "ruido",
   "motivo": "Relatório Resumido da Execução Orçamentária, 4º bimestre de 2026, sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "dd08fe5d067cd444": {
+  "veredito": "ruido",
+  "motivo": "Resolução Susep altera circular de seguros, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "dd44a01eb56c0012": {
   "veredito": "ruido",
@@ -1663,6 +1778,11 @@
   "veredito": "relevante",
   "motivo": "publicação do regulamento do IBS na página do Comitê Gestor do IBS",
   "em": "retroativa-2026-09-30"
+ },
+ "df6b86c35e072c86": {
+  "veredito": "ruido",
+  "motivo": "Tabela anexa à portaria de equalização de juros, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
  },
  "e022e30ccaf5c277": {
   "veredito": "ruido",
@@ -1753,6 +1873,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta sobre restituição de retenção indevida na fonte, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "eb4ef2381d6d8f77": {
+  "veredito": "relevante",
+  "motivo": "DOU publica Ato Técnico Conjunto nº 6 (DeRE v1.3), já refletido na linha do tempo do painel desde 28/09",
+  "em": "2026-10-02-matinal"
  },
  "eb9948392c78fdd5": {
   "veredito": "relevante",
@@ -1933,6 +2058,16 @@
   "veredito": "relevante",
   "motivo": "ATC nº 7 aprova leiautes da NFS-e e NFS-e Via para IBS/CBS, base da 2ª onda",
   "em": "2026-10-01-noturna"
+ },
+ "fd6fc2eae15992a7": {
+  "veredito": "ruido",
+  "motivo": "Resolução Susep sobre acesso à informação, sem relação com a reforma",
+  "em": "2026-10-02-matinal"
+ },
+ "ff48b2835f863cb2": {
+  "veredito": "ruido",
+  "motivo": "Portaria PGFN sobre transação de pequeno valor em dívida ativa, sem relação com a reforma do consumo",
+  "em": "2026-10-02-matinal"
  },
  "fff76b8cf345a1fa": {
   "veredito": "relevante",

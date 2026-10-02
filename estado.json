@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-10-01",
+ "atualizado_em": "2026-10-02",
  "prazos_destaque": [
   {
    "rotulo": "Opção pelo Simples Nacional para 2027 — prazo prorrogado",
@@ -25,12 +25,6 @@
    "data": "2026-10-03",
    "status": "critical",
    "nota": "Sem lei nem MP"
-  },
-  {
-   "rotulo": "2ª onda de DF-e: NFS-e (ISS geral), NFCom, DIR e DeRE de tabela",
-   "data": "2026-10-01",
-   "status": "serious",
-   "nota": "Ato Conjunto nº 4/2026; ambiente de produção da DeRE abre às 9h"
   },
   {
    "rotulo": "3ª onda: NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg, NF-e ABI",
@@ -151,12 +145,12 @@
   {
    "data": "2026-09-28",
    "titulo": "Ato Técnico Conjunto nº 6 — leiautes da DeRE atualizados para v1.3",
-   "detalhe": "Manual, leiautes dos eventos, tabelas, regras de validação e XSD da Declaração de Regimes Específicos, de v1.2.0 (ATC nº 3) para v1.3."
+   "detalhe": "Manual, leiautes dos eventos, tabelas, regras de validação e XSD da Declaração de Regimes Específicos, de v1.2.0 (ATC nº 3) para v1.3. Publicado no DOU em 02/10."
   },
   {
    "data": "2026-09-28",
    "titulo": "Ato Técnico Conjunto nº 7 — leiautes da NFS-e e NFS-e Via",
-   "detalhe": "Notas técnicas SE/CGNFS-e nº 009 e nº 010 para IBS/CBS; base técnica da 2ª onda de DF-e (NFS-e geral), que começa em 01/10."
+   "detalhe": "Notas técnicas SE/CGNFS-e nº 009 e nº 010 para IBS/CBS; base técnica da 2ª onda de DF-e (NFS-e geral), que começa em 01/10. Publicado no DOU em 02/10."
   },
   {
    "data": "2026-09-29",
@@ -166,7 +160,7 @@
   {
    "data": "2026-09-29",
    "titulo": "Ato Técnico Conjunto nº 8 — notas técnicas de NF-e, NFC-e, CT-e e demais DF-e",
-   "detalhe": "Pacote de notas técnicas para IBS/CBS cobrindo NF-e, NFC-e, CT-e, NFCom, BP-e, NF3e, NFAg e NFGas — inclui DANFE simplificado, emissão exclusiva por contribuinte do IBS/CBS, valor líquido do produto e DANFE da reforma."
+   "detalhe": "Pacote de notas técnicas para IBS/CBS cobrindo NF-e, NFC-e, CT-e, NFCom, BP-e, NF3e, NFAg e NFGas — inclui DANFE simplificado, emissão exclusiva por contribuinte do IBS/CBS, valor líquido do produto e DANFE da reforma. Publicado no DOU em 02/10."
   },
   {
    "data": "2026-10-01",

@@ -1,13 +1,11 @@
 {
- "data": "2026-10-01",
- "turno": "noturna",
+ "data": "2026-10-02",
+ "turno": "matinal",
  "situacao": "publicada",
  "acoes": 0,
- "gerado_em": "2026-10-01T20:30:00Z",
- "resumo_curto": "3 itens, pacote técnico da DeRE/NFS-e/NF-e para IBS-CBS, nenhum exige ação imediata",
+ "gerado_em": "2026-10-02T08:09:11Z",
+ "resumo_curto": "27 itens; 3 confirmam no DOU atos técnicos já no painel, nenhum exige ação nova",
  "painel_atualizado": [
-  "Ato Técnico Conjunto nº 6 atualiza os leiautes/manual/XSD da DeRE de v1.2.0 para v1.3",
-  "Ato Técnico Conjunto nº 7 aprova os leiautes da NFS-e e NFS-e Via para IBS/CBS, base da 2ª onda de DF-e que começa em 01/10",
-  "Ato Técnico Conjunto nº 8 aprova notas técnicas de NF-e, NFC-e, CT-e, NFCom, BP-e, NF3e, NFAg e NFGas para IBS/CBS"
+  "Card \"2ª onda de DF-e\" (01/10) saiu dos prazos em destaque por já ter vencido; o marco continua na linha do tempo"
  ]
 }

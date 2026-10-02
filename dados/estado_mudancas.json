@@ -1,5 +1,12 @@
 [
  {
+  "secao": "prazos_destaque",
+  "tipo": "removido",
+  "descricao": "Card \"2ª onda de DF-e\" (01/10) saiu dos prazos em destaque por já ter vencido; o marco continua na linha do tempo",
+  "fonte": "",
+  "em": "2026-10-02-matinal"
+ },
+ {
   "secao": "linha_do_tempo",
   "tipo": "incluido",
   "descricao": "Ato Técnico Conjunto nº 6 atualiza os leiautes/manual/XSD da DeRE de v1.2.0 para v1.3",
