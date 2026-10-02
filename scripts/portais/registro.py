@@ -10,6 +10,10 @@ modulo deste pacote (so' o metodo que muda) + uma linha aqui.
 """
 from portais.base import Portal
 from portais.govbr import GovBrNoticiasPortal
+from portais.nfe import NFeInformesPortal, NFeListaPortal
+from portais.svrs import SVRSNoticiasPortal
+
+LISTA_NFE = "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo="
 
 PORTAIS = [
     Portal("CGIBS - Noticias",            "https://www.cgibs.gov.br/noticias"),
@@ -21,12 +25,14 @@ PORTAIS = [
            "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026"),
     GovBrNoticiasPortal("RFB - Reforma do Consumo",
            "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias"),
-    Portal("Portal DF-e SVRS - Noticias",
-           "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias",
-           precisa_js=False),
-    Portal("Portal NF-e - Informes/NTs",
-           "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
-           precisa_js=False),
+    SVRSNoticiasPortal("Portal DF-e SVRS - Noticias",
+           "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias"),
+    NFeInformesPortal("Portal NF-e - Informes/NTs",
+           "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false"),
+    NFeListaPortal("Portal NF-e - Atos RFB/CGIBS",          LISTA_NFE + "ECxaPvwFHQE="),
+    NFeListaPortal("Portal NF-e - Atos Tecnicos RFB/CGIBS", LISTA_NFE + "hXHrw4cadF8="),
+    NFeListaPortal("Portal NF-e - Notas Tecnicas",          LISTA_NFE + "04BIflQt1aY="),
+    NFeListaPortal("Portal NF-e - Informes Tecnicos",       LISTA_NFE + "hXzemuyNHW4="),
     Portal("CGIBS - Regulamentos",        "https://www.cgibs.gov.br/regulamentos"),
     Portal("CGIBS - Leis",                "https://www.cgibs.gov.br/leis"),
     Portal("CGIBS - Relatorios",          "https://www.cgibs.gov.br/relatorios"),

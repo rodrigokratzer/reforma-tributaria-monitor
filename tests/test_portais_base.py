@@ -87,7 +87,7 @@ class TestColetar(unittest.TestCase):
 
 
 class TestRegistro(unittest.TestCase):
-    def test_doze_portais_na_ordem_das_fontes(self):
+    def test_portais_na_ordem(self):
         from portais.registro import PORTAIS
         nomes = [p.nome for p in PORTAIS]
         self.assertEqual(nomes, [
@@ -100,6 +100,10 @@ class TestRegistro(unittest.TestCase):
             "RFB - Reforma do Consumo",
             "Portal DF-e SVRS - Noticias",
             "Portal NF-e - Informes/NTs",
+            "Portal NF-e - Atos RFB/CGIBS",
+            "Portal NF-e - Atos Tecnicos RFB/CGIBS",
+            "Portal NF-e - Notas Tecnicas",
+            "Portal NF-e - Informes Tecnicos",
             "CGIBS - Regulamentos",
             "CGIBS - Leis",
             "CGIBS - Relatorios",
@@ -127,6 +131,8 @@ class TestRegistro(unittest.TestCase):
         self.assertEqual(sem_js, {
             "RFB - Noticias 2026", "RFB - Reforma do Consumo",
             "Portal DF-e SVRS - Noticias", "Portal NF-e - Informes/NTs",
+            "Portal NF-e - Atos RFB/CGIBS", "Portal NF-e - Atos Tecnicos RFB/CGIBS",
+            "Portal NF-e - Notas Tecnicas", "Portal NF-e - Informes Tecnicos",
         })
 
 
