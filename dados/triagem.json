@@ -2064,6 +2064,11 @@
   "motivo": "retificação de número de parágrafo em Ajuste SINIEF do ICMS de gás natural",
   "em": "retroativa-2026-09-30"
  },
+ "fd05b35b9140f0ed": {
+  "veredito": "relevante",
+  "motivo": "Manual do Usuário e leiautes v1.3.0 da DeRE, com novos eventos para regimes específicos de IBS/CBS",
+  "em": "2026-10-03-noturna"
+ },
  "fd5fadfb092ff557": {
   "veredito": "relevante",
   "motivo": "ATC nº 7 aprova leiautes da NFS-e e NFS-e Via para IBS/CBS, base da 2ª onda",
