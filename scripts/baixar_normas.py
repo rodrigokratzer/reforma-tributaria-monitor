@@ -62,18 +62,38 @@ GATILHO = re.compile(
     r"|altera a lei complementar n[º°o.]*\s*(214|227)", re.I)
 
 
+LINE_THROUGH = re.compile(r"line-through", re.I)
+_RAW_RISCO = re.compile(
+    r"<(?:strike|s|del)\b|<[a-z][^>]*\bstyle\s*=\s*[\"'][^\"']*line-through", re.I)
+
+
 class ErroNorma(Exception):
     pass
 
 
 class _Texto(HTMLParser):
     IGNORA = {"script", "style", "head", "title"}
-    BLOCO = {"p", "br", "div", "tr", "li", "h1", "h2", "h3", "h4", "h5", "h6", "table", "blockquote"}
+    BLOCO = {"p", "br", "div", "tr", "td", "th", "li", "h1", "h2", "h3", "h4", "h5", "h6",
+             "table", "blockquote"}
     RISCO = {"strike", "s", "del"}
+    VOID = {"br", "img", "hr", "meta", "link", "input", "area", "base", "col", "wbr", "param",
+            "source", "track", "embed"}
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.buf, self._ign, self._risco = [], 0, 0
+        # pilha de elementos abertos: (tag, abriu_risco_por_css)
+        self._pilha = []
+
+    def _abre_risco(self):
+        if self._risco == 0:
+            self.buf.append("[NÃO VIGENTE: ")
+        self._risco += 1
+
+    def _fecha_risco(self):
+        self._risco -= 1
+        if self._risco == 0:
+            self.buf.append("]")
 
     def handle_starttag(self, tag, attrs):
         if tag in self.IGNORA:
@@ -81,19 +101,29 @@ class _Texto(HTMLParser):
         elif tag in self.BLOCO:
             self.buf.append(self._quebra())
         elif tag in self.RISCO:
-            if self._risco == 0:
-                self.buf.append("[NÃO VIGENTE: ")
-            self._risco += 1
+            self._abre_risco()
+        if tag in self.VOID:
+            return
+        css = bool(LINE_THROUGH.search(dict(attrs).get("style") or ""))
+        if css and not self._ign:
+            self._abre_risco()
+        self._pilha.append((tag, css))
 
     def handle_endtag(self, tag):
         if tag in self.IGNORA and self._ign:
             self._ign -= 1
         elif tag in self.RISCO and self._risco:
-            self._risco -= 1
-            if self._risco == 0:
-                self.buf.append("]")
+            self._fecha_risco()
         elif tag in self.BLOCO:
             self.buf.append(self._quebra())
+        # fecha o elemento aberto correspondente (e os que ficaram sem fechar acima dele)
+        for i in range(len(self._pilha) - 1, -1, -1):
+            if self._pilha[i][0] == tag:
+                for _, css in reversed(self._pilha[i:]):
+                    if css and self._risco:
+                        self._fecha_risco()
+                del self._pilha[i:]
+                break
 
     def _quebra(self):
         # risco que atravessa paragrafos: fecha e reabre a marca em cada linha,
@@ -202,11 +232,19 @@ def _novidades(raiz):
 
 
 def baixa_norma(sessao, norma):
-    texto = html_para_texto(_decodifica(sessao.baixa(norma["url"])))
+    """Devolve (texto, riscados_html, marcas_nao_vigente)."""
+    html = _decodifica(sessao.baixa(norma["url"]))
+    texto = html_para_texto(html)
+    # salvaguarda: riscado no HTML cru precisa virar [NÃO VIGENTE: ...] (antes do recorte)
+    raw = len(_RAW_RISCO.findall(html))
+    marcas = texto.count("[NÃO VIGENTE:")
+    if raw and (marcas == 0 or marcas < raw * 0.5):
+        raise ErroNorma(f"{raw} elemento(s) riscado(s) no HTML mas so' {marcas} marca(s) "
+                        "[NÃO VIGENTE]: marcacao de revogado nao reconhecida")
     if norma["recortes"]:
         texto = recorta(texto, norma["recortes"])
     valida(texto, norma["minimo_artigos"])
-    return texto
+    return texto, raw, marcas
 
 
 def executa(raiz, forcar=False, sessao=None, hoje=None):
@@ -228,7 +266,7 @@ def executa(raiz, forcar=False, sessao=None, hoje=None):
     sessao = sessao or Sessao()
     for n in NORMAS:
         try:
-            texto = baixa_norma(sessao, n)
+            texto, raw, marcas = baixa_norma(sessao, n)
         except (ErroDownload, ErroNorma) as e:
             status["erros"].append(f"{n['id']}: {type(e).__name__}: {e}")
             print(f"normas: {n['id']} FALHOU ({e}); arquivo anterior mantido", file=sys.stderr)
@@ -241,7 +279,8 @@ def executa(raiz, forcar=False, sessao=None, hoje=None):
         indice[n["id"]] = {"titulo": n["titulo"], "rotulo": n["rotulo"], "url": n["url"],
                            "baixado_em": quando,
                            "sha256": hashlib.sha256(texto.encode("utf-8")).hexdigest(),
-                           "chars": len(texto)}
+                           "chars": len(texto),
+                           "riscados_html": raw, "marcas_nao_vigente": marcas}
         print(f"normas: {n['id']} ok ({len(texto)} chars)", file=sys.stderr)
     _grava_atomico(arq_idx, json.dumps(indice, ensure_ascii=False, indent=1, sort_keys=True))
     status.update(resultado="falha_parcial" if status["erros"] else "atualizado", motivo=motivo)

@@ -1,6 +1,6 @@
 # Lei Complementar nº 227, de 13 de janeiro de 2026 (texto compilado)
 # Fonte: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm
-# Texto compilado baixado em: 2026-10-05T14:04:57Z
+# Texto compilado baixado em: 2026-10-05T14:09:31Z
 # Trechos riscados no Planalto (revogados ou com redação anterior) aparecem como [NÃO VIGENTE: ...] e não estão em vigor.
 
 Presidência da República
@@ -10,6 +10,7 @@ Secretaria Especial para Assuntos Jurídicos
 LEI COMPLEMENTAR Nº 227, DE 13 DE JANEIRO DE 2026
 
 Mensagem de veto
+
 Institui o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS); dispõe sobre o processo administrativo tributário do Imposto sobre Bens e Serviços (IBS) e sobre a distribuição do produto da arrecadação do IBS aos entes federativos; institui normais gerais relativas ao Imposto sobre Transmissão Causa mortis e Doação de Quaisquer Bens ou Direitos (ITCMD); altera a Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional), a Lei nº 1.079, de 10 de abril de 1950, a Lei nº 9.430, de 27 de dezembro de 1996, a Lei nº 10.893, de 13 julho de 2004, a Lei nº 14.113, de 25 de dezembro de 2020, a Lei Complementar nº 63, de 11 de janeiro de 1990, a Lei Complementar nº 87, de 13 de setembro de 1996 (Lei Kandir), a Lei Complementar nº 123, de 14 de dezembro de 2006, a Lei Complementar nº 141, de 13 de janeiro de 2012, a Lei Complementar nº 192, de 11 de março de 2022, a Lei Complementar nº 214, de 16 de janeiro de 2025, o Decreto-Lei nº 37, de 18 de novembro de 1966, e o Decreto nº 70.235, de 6 de março de 1972; e revoga dispositivos da Lei nº 10.833, de 29 de dezembro de 2003, e da Medida Provisória nº 2.158-35, de 24 de agosto de 2001.
 
 O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei Complementar:
@@ -5279,6 +5280,7 @@ ALIMENTOS DESTINADOS AO CONSUMO HUMANO SUBMETIDOS À REDUÇÃO DE 60% (SESSENTA 
 .............................................................................................................................................................
 
 2
+
 (VETADO)
 
 ..................................................................................................................................................... ” (NR)
@@ -5298,76 +5300,127 @@ Para os anos-calendário 2027 e 2028
 .............................................................................................................................................................
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 4,00%
+
 3,50%
+
 15,43%
+
 43,40%
+
 33,50%
+
 0,17%
 
 2ª Faixa
+
 4,00%
+
 3,50%
+
 16,91%
+
 43,40%
+
 32,00%
+
 0,19%
 
 3ª Faixa
+
 4,00%
+
 3,50%
+
 16,41%
+
 43,40%
+
 32,50%
+
 0,19%
 
 4ª Faixa
+
 4,00%
+
 3,50%
+
 16,41%
+
 43,40%
+
 32,50%
+
 0,19%
 
 5ª Faixa
+
 4,00%
+
 3,50%
+
 15,43%
+
 43,40%
+
 33,50% (*)
+
 0,17%
 
 6ª Faixa
+
 35,09%
+
 15,04%
+
 19,29%
+
 30,58%
 
 (*) O percentual efetivo máximo devido ao ISS será de 5%, transferindo-se a diferença, de forma proporcional, aos tributos federais da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 14,92537%, a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 14,93%
+
 (Alíquota efetiva - 5%) x 6,02%
+
 (Alíquota efetiva - 5%) x 5,26%
+
 (Alíquota efetiva - 5%) x 23,20%
+
 (Alíquota efetiva - 5%) x 65,26%
+
 Percentual de ISS fixo em 5%
+
 (Alíquota efetiva - 5%) x 0,26%
 
 .............................................................................................................................................................
@@ -5375,76 +5428,127 @@ Percentual de ISS fixo em 5%
 Para o ano-calendário 2029
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 4,00%
+
 3,50%
+
 15,60%
+
 43,40%
+
 30,15%
+
 3,35%
 
 2ª Faixa
+
 4,00%
+
 3,50%
+
 17,10%
+
 43,40%
+
 28,80%
+
 3,20%
 
 3ª Faixa
+
 4,00%
+
 3,50%
+
 16,60%
+
 43,40%
+
 29,25%
+
 3,25%
 
 4ª Faixa
+
 4,00%
+
 3,50%
+
 16,60%
+
 43,40%
+
 29,25%
+
 3,25%
 
 5ª Faixa
+
 4,00%
+
 3,50%
+
 15,60%
+
 43,40%
+
 30,15% (*)
+
 3,35%
 
 6ª Faixa
+
 35,00%
+
 15,00%
+
 19,50%
+
 30,50%
 
 (*) O percentual efetivo máximo devido ao ISS será de 4,5%, transferindo-se a diferença, de forma proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 14,92537% a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 14,92537%
+
 (Alíquota efetiva - 4,5%) x 5,73%
+
 (Alíquota efetiva - 4,5%) x 5,01%
+
 (Alíquota efetiva - 4,5%) x 22,33%
+
 (Alíquota efetiva - 4,5%) x 62,13%
+
 Percentual de ISS fixo em 4,5%
+
 (Alíquota efetiva - 4,5%) x 4,8%
 
 (Vigência: 1º/1/2030 até 31/12/2030)
@@ -5452,76 +5556,127 @@ Percentual de ISS fixo em 4,5%
 Para o ano-calendário 2030
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 4,00%
+
 3,50%
+
 15,60%
+
 43,40%
+
 26,80%
+
 6,70%
 
 2ª Faixa
+
 4,00%
+
 3,50%
+
 17,10%
+
 43,40%
+
 25,60%
+
 6,40%
 
 3ª Faixa
+
 4,00%
+
 3,50%
+
 16,60%
+
 43,40%
+
 26,00%
+
 6,50%
 
 4ª Faixa
+
 4,00%
+
 3,50%
+
 16,60%
+
 43,40%
+
 26,00%
+
 6,50%
 
 5ª Faixa
+
 4,00%
+
 3,50%
+
 15,60%
+
 43,40%
+
 26,80% (*)
+
 6,70%
 
 6ª Faixa
+
 35,00%
+
 15,00%
+
 19,50%
+
 30,50%
 
 (*) O percentual efetivo máximo devido ao ISS será de 4%, transferindo-se a diferença, de forma proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 14,92537% a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 14,92537%
+
 (Alíquota efetiva - 4%) x 5,46%
+
 (Alíquota efetiva - 4%) x 4,78%
+
 (Alíquota efetiva - 4%) x 21,31%
+
 (Alíquota efetiva - 4%) x 59,29%
+
 Percentual de ISS fixo em 4%
+
 (Alíquota efetiva - 4%) x 9,15%
 
 (Vigência: 1º/1/2031 até 31/12/2031)
@@ -5529,76 +5684,127 @@ Percentual de ISS fixo em 4%
 Para o ano-calendário 2031
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 4,00%
+
 3,50%
+
 15,60%
+
 43,40%
+
 23,45%
+
 10,05%
 
 2ª Faixa
+
 4,00%
+
 3,50%
+
 17,10%
+
 43,40%
+
 22,40%
+
 9,60%
 
 3ª Faixa
+
 4,00%
+
 3,50%
+
 16,60%
+
 43,40%
+
 22,75%
+
 9,75%
 
 4ª Faixa
+
 4,00%
+
 3,50%
+
 16,60%
+
 43,40%
+
 22,75%
+
 9,75%
 
 5ª Faixa
+
 4,00%
+
 3,50%
+
 15,60%
+
 43,40%
+
 23,45% (*)
+
 10,05%
 
 6ª Faixa
+
 35,00%
+
 15,00%
+
 19,50%
+
 30,50%
 
 (*) O percentual efetivo máximo devido ao ISS será de 3,5%, transferindo-se a diferença, de forma proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 14,92537% a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 14,92537%
+
 (Alíquota efetiva - 3,5%) x 5,23%
+
 (Alíquota efetiva - 3,5%) x 4,57%
+
 (Alíquota efetiva - 3,5%) x 20,38%
+
 (Alíquota efetiva - 3,5%) x 56,69%
+
 Percentual de ISS fixo em 3,5%
+
 (Alíquota efetiva - 3,5%) x 13,13%
 
 (Vigência: 1º/1/2032 até 31/12/2032)
@@ -5606,76 +5812,127 @@ Percentual de ISS fixo em 3,5%
 Para o ano-calendário 2032
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 4,00%
+
 3,50%
+
 15,60%
+
 43,40%
+
 20,10%
+
 13,40%
 
 2ª Faixa
+
 4,00%
+
 3,50%
+
 17,10%
+
 43,40%
+
 19,20%
+
 12,80%
 
 3ª Faixa
+
 4,00%
+
 3,50%
+
 16,60%
+
 43,40%
+
 19,50%
+
 13,00%
 
 4ª Faixa
+
 4,00%
+
 3,50%
+
 16,60%
+
 43,40%
+
 19,50%
+
 13,00%
 
 5ª Faixa
+
 4,00%
+
 3,50%
+
 15,60%
+
 43,40%
+
 20,10% (*)
+
 13,40%
 
 6ª Faixa
+
 35,00%
+
 15,00%
+
 19,50%
+
 30,50%
 
 (*) O percentual efetivo máximo devido ao ISS será de 3%, transferindo-se a diferença, de forma proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 14,92537% a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 CPP
+
 ISS (*)
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 14,92537%
+
 (Alíquota efetiva - 3%) x 5,01%
+
 (Alíquota efetiva - 3%) x 4,38%
+
 (Alíquota efetiva - 3%) x 19,52%
+
 (Alíquota efetiva - 3%) x 54,32%
+
 Percentual de ISS fixo em 3%
+
 (Alíquota efetiva - 3%) x 16,77%
 
 .............................................................................................................................................................
@@ -5691,67 +5948,109 @@ ANEXO IV
 Para o ano-calendário 2029
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 18,80%
+
 15,20%
+
 21,50%
+
 40,05%
+
 4,45%
 
 2ª Faixa
+
 19,80%
+
 15,20%
+
 25,00%
+
 36,00%
+
 4,00%
 
 3ª Faixa
+
 20,80%
+
 15,20%
+
 24,00%
+
 36,00%
+
 4,00%
 
 4ª Faixa
+
 17,80%
+
 19,20%
+
 23,00%
+
 36,00%
+
 4,00%
 
 5ª Faixa
+
 18,80%
+
 19,20%
+
 22,00%
+
 36,00% (*)
+
 4,00%
 
 6ª Faixa
+
 53,50%
+
 21,50%
+
 25,00%
 
 (*) O percentual efetivo máximo devido ao ISS será de 4,5%, transferindo-se a diferença, de forma proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 12,5% a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 ISS (*)
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 12,5%
+
 (Alíquota efetiva - 4,5%) x 29,38%
+
 (Alíquota efetiva - 4,5%) x 30%
+
 (Alíquota efetiva - 4,5%) x 34,38%
+
 Percentual de ISS fixo em 4,5%
+
 (Alíquota efetiva - 4,5%) x 6,25%
 
 (Vigência: 1º/1/2030 até 31/12/2030)
@@ -5759,67 +6058,109 @@ Percentual de ISS fixo em 4,5%
 Para o ano-calendário 2030
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 18,80%
+
 15,20%
+
 21,50%
+
 35,60%
+
 8,90%
 
 2ª Faixa
+
 19,80%
+
 15,20%
+
 25,00%
+
 32,00%
+
 8,00%
 
 3ª Faixa
+
 20,80%
+
 15,20%
+
 24,00%
+
 32,00%
+
 8,00%
 
 4ª Faixa
+
 17,80%
+
 19,20%
+
 23,00%
+
 32,00%
+
 8,00%
 
 5ª Faixa
+
 18,80%
+
 19,20%
+
 22,00%
+
 32,00% (*)
+
 8,00%
 
 6ª Faixa
+
 53,50%
+
 21,50%
+
 25,00%
 
 (*) O percentual efetivo máximo devido ao ISS será de 4%, transferindo-se a diferença, de forma proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 12,5% a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 ISS (*)
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 12,5%
+
 (Alíquota efetiva - 4%) x 27,65%
+
 (Alíquota efetiva - 4%) x 28,24%
+
 (Alíquota efetiva - 4%) x 32,35%
+
 Percentual de ISS fixo em 4%
+
 (Alíquota efetiva - 4%) x 11,76%
 
 (Vigência: 1º/1/2031 até 31/12/2031)
@@ -5827,67 +6168,109 @@ Percentual de ISS fixo em 4%
 Para o ano-calendário 2031
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 18,80%
+
 15,20%
+
 21,50%
+
 31,15%
+
 13,35%
 
 2ª Faixa
+
 19,80%
+
 15,20%
+
 25,00%
+
 28,00%
+
 12,00%
 
 3ª Faixa
+
 20,80%
+
 15,20%
+
 24,00%
+
 28,00%
+
 12,00%
 
 4ª Faixa
+
 17,80%
+
 19,20%
+
 23,00%
+
 28,00%
+
 12,00%
 
 5ª Faixa
+
 18,80%
+
 19,20%
+
 22,00%
+
 28,00% (*)
+
 12,00%
 
 6ª Faixa
+
 53,50%
+
 21,50%
+
 25,00%
 
 (*) O percentual efetivo máximo devido ao ISS será de 3,5%, transferindo-se a diferença, de forma proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 12,5% a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 ISS (*)
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 12,5%
+
 (Alíquota efetiva - 3,5%) x 26,11%
+
 (Alíquota efetiva - 3,5%) x 26,67%
+
 (Alíquota efetiva - 3,5%) x 30,56%
+
 Percentual de ISS fixo em 3,5%
+
 (Alíquota efetiva - 3,5%) x 16,67%
 
 (Vigência: 1º/1/2032 até 31/12/2032)
@@ -5895,67 +6278,109 @@ Percentual de ISS fixo em 3,5%
 Para o ano-calendário 2032
 
 Faixas
+
 Percentual de Repartição dos Tributos
 
 IRPJ
+
 CSLL
+
 CBS
+
 ISS (*)
+
 IBS
 
 1ª Faixa
+
 18,80%
+
 15,20%
+
 21,50%
+
 26,70%
+
 17,80%
 
 2ª Faixa
+
 19,80%
+
 15,20%
+
 25,00%
+
 24,00%
+
 16,00%
 
 3ª Faixa
+
 20,80%
+
 15,20%
+
 24,00%
+
 24,00%
+
 16,00%
 
 4ª Faixa
+
 17,80%
+
 19,20%
+
 23,00%
+
 24,00%
+
 16,00%
 
 5ª Faixa
+
 18,80%
+
 19,20%
+
 22,00%
+
 24,00% (*)
+
 16,00%
 
 6ª Faixa
+
 53,50%
+
 21,50%
+
 25,00%
 
 (*) O percentual efetivo máximo devido ao ISS será de 3%, transferindo-se a diferença, de forma proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 12,5% a repartição será:
 
 IRPJ
+
 CSLL
+
 CBS
+
 ISS (*)
+
 IBS
 
 5ª Faixa, com alíquota efetiva superior a 12,5%
+
 (Alíquota efetiva - 3%) x 24,74%
+
 (Alíquota efetiva - 3%) x 25,26%
+
 (Alíquota efetiva - 3%) x 28,95%
+
 Percentual de ISS fixo em 3%
+
 (Alíquota efetiva - 3%) x 21,05%
 
 ........................................................................................................................................................ ’

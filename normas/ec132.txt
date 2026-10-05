@@ -1,6 +1,6 @@
 # Emenda Constitucional nº 132, de 20 de dezembro de 2023
 # Fonte: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm
-# Texto compilado baixado em: 2026-10-05T14:04:53Z
+# Texto compilado baixado em: 2026-10-05T14:09:27Z
 # Trechos riscados no Planalto (revogados ou com redação anterior) aparecem como [NÃO VIGENTE: ...] e não estão em vigor.
 
 Presidência da República
@@ -10,6 +10,7 @@ Secretaria Especial para Assuntos Jurídicos
 EMENDA CONSTITUCIONAL Nº 132, DE 20 DE DEZEMBRO DE 2023
 
 Vigência
+
 Altera o Sistema Tributário Nacional.
 
 As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
@@ -1261,25 +1262,30 @@ III - na data de sua publicação, em relação aos demais dispositivos.
 Brasília, em 20 de dezembro de 2023
 
 Mesa da Câmara dos Deputados
+
 Mesa do Senado Federal
 
 Deputado ARTHUR LIRA
 Presidente
+
 Senador RODRIGO PACHECO
 Presidente
 
 Deputado MARCOS PEREIRA
 1º Vice-Presidente
+
 Senador VENEZIANO VITAL DO RÊGO
 1º Vice-Presidente
 
 Deputado SÓSTENES CAVALCANTE
 2º Vice-Presidente
+
 Senador RODRIGO CUNHA
 2º Vice-Presidente
 
 Deputado LUCIANO BIVAR
 1º Secretário
+
 Senador ROGÉRIO CARVALHO
 1º Secretário
 
@@ -1297,6 +1303,7 @@ Senador CHICO RODRIGUES
 
 Deputado LUCIO MOSQUINI
 4º Secretário
+
 Senador STYVENSON VALENTIM
 4º Secretário
 

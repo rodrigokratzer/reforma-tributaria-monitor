@@ -3,6 +3,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
@@ -77,6 +78,44 @@ class TestHtmlParaTexto(unittest.TestCase):
                                "<p><strike>§ 9º\nAplica-se o disposto\nno § 8º. </strike></p>")
         self.assertIn("Art. 26. Não são contribuintes do IBS, ressalvado o disposto.", t)
         self.assertIn("[NÃO VIGENTE: § 9º Aplica-se o disposto no § 8º.]", t)
+
+    def test_riscado_por_css_line_through(self):
+        # caso real (lcp214.htm): revogado marcado por estilo, nao por <strike>
+        t = bn.html_para_texto(
+            '<p><span style="font-family: Arial,sans-serif; text-decoration:line-through">'
+            '<font size="2">§ 4º O IBS e a CBS incidem sobre qualquer operação…</font></span></p>'
+            '<p>§ 4º Novo texto vigente.</p>')
+        self.assertIn("[NÃO VIGENTE: § 4º O IBS e a CBS incidem sobre qualquer operação…]", t)
+        self.assertRegex(t, r"(?m)^§ 4º Novo texto vigente\.$")
+
+    def test_css_aninhado_equilibra_e_nao_vaza(self):
+        t = bn.html_para_texto(
+            '<p><span style="TEXT-DECORATION: Line-Through"><font><b>x</b></font></span> depois</p>'
+            '<p>proximo paragrafo</p><p><span><b>y</b></span> neutro</p>')
+        self.assertIn("[NÃO VIGENTE: x] depois", t)
+        self.assertRegex(t, r"(?m)^proximo paragrafo$")
+        self.assertRegex(t, r"(?m)^y neutro$")
+
+    def test_css_em_celula_de_tabela_e_span_interno_comum(self):
+        t = bn.html_para_texto(
+            '<table><tr><td style="text-decoration:line-through"><span>a</span> b<br>c</td>'
+            '<td>vigente</td></tr></table>')
+        self.assertIn("[NÃO VIGENTE: a b]", t)
+        self.assertIn("[NÃO VIGENTE: c]", t)
+        self.assertRegex(t, r"(?m)^vigente$")
+
+    def test_salvaguarda_levanta_se_ha_riscado_e_nenhuma_marca(self):
+        # simula marcacao nao reconhecida: parser que ignora <strike>
+        class FakeSessao1:
+            def baixa(self, url):
+                return baixar.Resposta(b"<p>Art. 1\xba a</p><p><strike>Art. 2\xba b</strike></p>",
+                                       "text/html", None, url)
+        norma = dict(bn.NORMAS[0], minimo_artigos=1)
+        with mock.patch.object(bn._Texto, "RISCO", set()):
+            with self.assertRaises(bn.ErroNorma):
+                bn.baixa_norma(FakeSessao1(), norma)
+        texto, raw, marcas = bn.baixa_norma(FakeSessao1(), norma)   # sem o patch passa
+        self.assertEqual((raw, marcas), (1, 1))
 
     def test_anotacao_de_redacao_preservada(self):
         self.assertIn("(Redação dada pela Lei Complementar nº 227, de 2026)",

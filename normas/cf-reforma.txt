@@ -1,6 +1,6 @@
 # Constituição Federal — arts. 145 a 162 e 195; ADCT arts. 124 a 138 (texto compilado)
 # Fonte: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
-# Texto compilado baixado em: 2026-10-05T14:04:54Z
+# Texto compilado baixado em: 2026-10-05T14:09:28Z
 # Trechos riscados no Planalto (revogados ou com redação anterior) aparecem como [NÃO VIGENTE: ...] e não estão em vigor.
 
 ===== CONSTITUIÇÃO FEDERAL — arts. 145 a 162 =====
