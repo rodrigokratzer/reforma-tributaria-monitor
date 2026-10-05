@@ -15,7 +15,7 @@ v2 — mudancas em relacao a primeira versao:
 Parte B — a mecanica de coleta (2 tentativas via navegador, fallback HTTP,
 filtro por relevancia) saiu daqui para scripts/portais/base.py, onde vive
 como a classe Portal. Este modulo fica so' com a orquestracao (main), a
-gravacao (grava_resultado) e o DOU (coleta_dou). As 12 fontes web sao as
+gravacao (grava_resultado) e o DOU (coleta_dou). As 16 fontes web sao as
 instancias em portais.registro.PORTAIS.
 
 Grava:

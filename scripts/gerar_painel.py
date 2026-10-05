@@ -4,7 +4,7 @@ Monta docs/index.html e docs/historico.json a partir de:
   estado.json                camada curada (prazos, pendencias, linha do tempo)
   dados/AAAA-MM-DD.json      status das fontes na ultima varredura
   dados/AAAA-MM-DD-dou.json  status do DOU (workflow proprio) (opcional)
-  dados/novidades.json       o que apareceu pela primeira vez (12 portais)
+  dados/novidades.json       o que apareceu pela primeira vez (16 portais)
   dados/novidades_dou.json   o que apareceu pela primeira vez (DOU) (opcional)
   dados/historico.json       indice acumulado
   dados/triagem.json         veredito da IA por item (opcional)

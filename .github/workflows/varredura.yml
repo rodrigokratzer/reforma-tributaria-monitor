@@ -64,7 +64,7 @@ jobs:
         if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && steps.checar.outputs.ja_rodou != 'true')
         env:
           # Sem estes secrets a varredura roda igual: o DOU e' pulado e aparece
-          # como fonte sem credencial. As 12 fontes web nao dependem disto.
+          # como fonte sem credencial. As 16 fontes web nao dependem disto.
           INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
           INLABS_SENHA: ${{ secrets.INLABS_SENHA }}
         run: python scripts/varredura.py
