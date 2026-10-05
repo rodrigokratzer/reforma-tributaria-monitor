@@ -1,0 +1,531 @@
+Opção pelo Regime Específico do IBS e da CBS para Sociedades Cooperativas
+
+A Receita Federal do Brasil (RFB) e o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) informam que está disponível, no Portal de Serviços da Receita Federal, a funcionalidade para realização da opção pelo regime específico do IBS e da CBS destinado às sociedades cooperativas. O procedimento decorre das regras instituídas pela Reforma Tributária sobre o Consumo.  
+
+O que é essa opção? 
+
+A legislação prevê um regime específico para as sociedades cooperativas. Quando a cooperativa opta por esse regime, as alíquotas do IBS e da CBS ficam reduzidas a zero em operações expressamente previstas na legislação.  
+
+Trata-se de uma escolha facultativa da cooperativa. A decisão deve ser analisada com atenção, considerando as características da atividade exercida, a relação com cooperados e clientes, os impactos sobre créditos tributários, fluxo de caixa e demais aspectos da operação. 
+
+Quem pode optar? 
+
+Podem optar as sociedades cooperativas enquadradas nas regras previstas no art. 271 da Lei Complementar nº 214, de 2025.  
+
+Qual é o prazo? 
+
+A opção para produzir efeitos em 2027 poderá ser realizada entre 1º de setembro e 31 de outubro de 2026.  
+
+A escolha efetuada nesse período terá validade a partir de 1º de janeiro de 2027.  
+
+O que a cooperativa precisa fazer até 31 de outubro? 
+
+A formalização da opção envolve duas etapas obrigatórias: 
+
+1. Registrar a opção 
+
+A cooperativa deve acessar o Portal de Serviços da Receita Federal e registrar sua decisão de aderir ao regime específico.  
+
+2. Enviar a lista de associados 
+
+Além do registro da opção, é obrigatório o envio da listagem dos associados da cooperativa, contendo a identificação dos associados e suas respectivas datas de admissão. A legislação exige essa informação para o deferimento da opção.  
+
+Atenção: a simples manifestação da opção não conclui o procedimento. O envio da listagem de associados é etapa indispensável para sua efetivação.  
+
+Como acessar? 
+
+O procedimento é realizado no Portal de Serviços da Receita Federal no endereço eletrônico Serviços da Receita Federal: seguir o seguinte caminho, através do menu lateral à esquerda ou através dos cards/ícones: Negócios → Regimes de Tributação → Outros Regimes → Enviar Arquivos de Dados. 
+
+Outros Regimes
+E se a cooperativa mudar de ideia? 
+
+A legislação permite o cancelamento da opção até o último dia do prazo de opção, ou seja, até 31 de outubro de 2026. Após o cancelamento, a cooperativa deixará de estar enquadrada no regime específico.  
+
+Pode optar depois? 
+
+Para o ano de 2027 não, mas para anos seguintes sim. A cooperativa que não realizar a opção neste momento poderá fazê-lo em futuras janelas anuais de opção, que ocorrerão nos meses de setembro e outubro de cada ano. A escolha produzirá efeitos sempre a partir do ano-calendário seguinte ao da solicitação. 
+
+Planejamento é fundamental 
+
+Antes de tomar a decisão, recomenda-se que a cooperativa avalie cuidadosamente os possíveis efeitos do enquadramento no regime específico e consulte o profissional contábil. 
+
+A opção pode influenciar aspectos relevantes da gestão e da operação da entidade, como: 
+
+fluxo de caixa; 
+
+relacionamento com fornecedores, clientes e cooperados; 
+
+aproveitamento de créditos na cadeia econômica; 
+
+precificação; 
+
+planejamento tributário e operacional. 
+
+Cada cooperativa possui características próprias, razão pela qual a decisão deve ser tomada após análise individualizada. 
+
+Serviço 
+
+Prazo para opção: de 1º de setembro a 31 de outubro de 2026. 
+
+Quem pode optar: sociedades cooperativas abrangidas pelo regime específico previsto na legislação. 
+
+Início dos efeitos da opção realizada em 2026: 1º de janeiro de 2027. 
+
+Base legal 
+
+Lei Complementar nº 214, de 16 de janeiro de 2025.  
+
+Decreto nº 12.955, de 29 de abril de 2026.  
+
+Resolução CGIBS nº 6, de 30 de abril de 2026.  
+
+A opção pelo regime específico das cooperativas é uma novidade da Reforma Tributária sobre o Consumo. Para produzir efeitos em 2027, a cooperativa deve registrar sua opção e enviar a listagem de associados até 31 de outubro de 2026. 
+
+Acesse aqui o Manual das Cooperativas.
+
+===== ANEXO: https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/manuais/reforma-tributaria-do-consumo/manual_cooperativas.pdf =====
+[pagina 1]
+Roteiro da Opção pelo
+Regime Específico do IBS e
+ da CBS – Sociedades
+ Cooperativas
+
+
+
+
+ Publicado em 15 de setembro de 2026
+
+ Versão 1.1
+
+[pagina 2]
+SUMÁRIO
+
+1. Objetivo do manual
+2. Condições para optar pelo regime específico das sociedades cooperativas
+3. Acesso
+3.1. Autenticação
+3.2. Acesso pelo Portal de Serviços da Receita Federal
+3.3. Representação
+4. À opção
+4.1. Leiaute do Arquivo
+
+5. Cancelamento da Opção
+
+4
+
+as NOoOoaqadasUo
+
+o EB
+
+[pagina 3]
+1. Objetivo do manual
+ O objetivo deste manual é orientar sobre os procedimentos para formalização da opção pelo regime
+ específico do IBS (Imposto sobre Bens e Serviços) e da CBS (Contribuição sobre Bens e Serviços)
+ pelas sociedades cooperativas. No regime específico, as alíquotas dos citados tributos ficam
+ reduzidas a zero nas operações expressamente previstas na legislação vigente.
+
+
+
+ Fundamentação Legal
+
+ Arts. 271 e 272, da Lei Complementar nº 214, de 2025;
+
+ Arts. 391 a 395, do Decreto nº 12.955, de 2026;
+
+ Arts. 391 a 395, da Resolução CGIBS nº 06, de 2026.
+
+
+
+
+ 3
+
+[pagina 4]
+2. Condições para optar pelo regime específico das sociedades cooperativas
+ A opção será formalizada no período compreendido entre o primeiro dia de setembro e o último dia
+ do mês de outubro do ano anterior e produzirá efeitos a partir do primeiro dia do ano-calendário
+ seguinte ao da opção.
+
+ Para fins de deferimento da opção pelo regime específico, será obrigatória apresentação de listagem
+ com identificação e data de admissão dos associados inscritos.
+
+
+
+
+ 4
+
+[pagina 5]
+3. Acesso
+
+ 3.1. Autenticação
+ Para acesso à opção pelo regime específico das cooperativas é necessário possuir conta gov.br
+ prata ou ouro. Poderá ser utilizado:
+
+ • A senha específica do CPF do representante ou procurador digital ou
+
+ • Certificado digital da empresa, do seu representante ou procurador digital.
+
+ Caso o acesso seja realizado por uma pessoa física, é necessário representar um CNPJ.
+
+ Se o acesso se der por meio de um procurador digital, também será necessário representar o
+ CNPJ que pretende optar. Para saber mais sobre representação, ver o item 3.3.
+
+
+ 3.2. Acesso pelo Portal de Serviços da Receita Federal
+ • Acesse o Portal de Serviços da Receita Federal no endereço eletrônico Serviços da
+ Receita Federal.
+
+ • Deverá fazer login com a conta gov.br (ver item 3.1);
+
+ • Depois de escolher a representação (ver item 3.3), seguir o seguinte caminho, através
+ do menu lateral à esquerda ou através dos cards/ícones: Negócios → Regimes de
+ Tributação → Outros Regimes → Enviar Arquivos de Dados, conforme imagens abaixo:
+
+
+
+
+ (Acesso pelo menu lateral à esquerda)
+
+
+
+
+ 5
+
+[pagina 6]
+(Acesso pelos cards/ícones)
+
+
+
+ • Para os procedimentos da opção, ver o item 4.
+ • Para os procedimentos de cancelamento da opção, ver o item 5.
+
+3.3. Representação
+ A representação é a troca de papéis do usuário. Por exemplo, se o representante legal da
+ empresa acessar com seu acesso gov.br ou certificado digital de pessoa física, é necessário
+ representar a empresa.
+
+ É possível fazer a representação diretamente na identificação do usuário, no canto superior
+ direito da tela, clicando na pequena seta:
+
+
+
+
+ 6
+
+[pagina 7]
+Será exibida a tela de representação:
+
+
+
+
+Atenção! Após concluir a representação, verifique se o CNPJ representado está sendo exibido no canto
+superior direito da tela. Caso não esteja, atualize a página pressionando a tecla F5 para que as
+informações sejam carregadas corretamente. Para fazer a opção, ver item 4.
+
+
+
+
+4. A opção
+ Ao clicar em “Enviar Arquivos de Dados”, o contribuinte será direcionado para a tela da aplicação.
+
+
+
+
+ 7
+
+[pagina 8]
+O primeiro passo é a cooperativa optar pelo regime diferenciado, clicando em “Preencher/Enviar
+Formulário”, que é o primeiro ícone da coluna Ações, localizada do lado direito da linha
+correspondente ao primeiro passo.
+
+
+
+
+Na próxima tela, deve-se selecionar “Original” e “Confirmar”.
+
+
+
+
+Na tela seguinte, o usuário deve clicar na seta ao lado de “Optar pelo Regime Específico de
+IBS/CBS?” e, em seguida, clicar no “[1]”. No campo Opção, selecione a alternativa desejada no menu
+suspenso.
+
+
+
+ 8
+
+[pagina 9]
+- LEIAUTE
+- OPÇÃO PELO REGIME ESF
+
+» 1)
+
+4 Ocorênciatde1 » | Nova Excluir Ajuda
+
+OPTAR PELO REGIME ESPECÍFICO DE IBS/CBS?
+OPCAO *
+Selecione hd
+
+Cancelar
+
+Desisto da opção
+
+< TOO >
+
+Verificar Pendências Transmitir Fechar
+
+O usuário deve clicar em “Confirmo opção”.
+
+Caso clique em “Desisto da opção”, a opção pelo regime específico não será registrada.
+
+Após confirmar a opção, clicar em “Validar ocorrência” e “Transmitir”.
+
+Transmissão efetuada com Sucesso. Recibo Fechar
+
+O usuário será informado que a transmissão foi efetuada com sucesso, podendo baixar o recibo no
+seu computador.
+
+[pagina 10]
+Importante: a formalização da opção é apenas o primeiro passo. O contribuinte também deve
+entregar a listagem de associados, etapa obrigatória para a conclusão do procedimento.
+
+A entrega da listagem de associados é o segundo passo. O contribuinte deve clicar em “Enviar”, que
+é o primeiro ícone da coluna Ações, localizada do lado direito da linha correspondente ao segundo
+passo.
+
+
+
+
+Ao clicar em enviar, automaticamente, será feito o download do validador do arquivo. Deve-se clicar
+duas vezes sobre o validador baixado.
+
+
+
+
+ 10
+
+[pagina 11]
+Downloads O OQ
+
+ColetaNac-desktop.jnlp
+
+Abrir arquivo
+
+Aparecerá mensagem perguntando se o usuário deseja executar o aplicativo. Deve-se clicar em
+
+“Executar”.
+
+Deseja executar este aplicativo?
+
+Nome: Coleta Nacional
+4, Editor: SERVICO FEDERAL DE PROCESSAMENTO DE ....
+
+= Locais: http://servicos.receita.fazenda.gov.br
+Iniciado pelo arquivo JNLP baixado
+Este aplicativo será executado com acesso irrestrito, o que pode colocar
+suas informações pessoais e as do computador em risco. Execute-o
+somente se confiar no editor e nos locais acima.
+
+() Não mostrar novamente para aplicativos do editor acima
+
+E Mais Informações Cancelar
+
+Depois de executar, será exibido um aviso sobre a versão mais atual do validador. Após a leitura, o
+contribuinte pode clicar em “OK” e, em seguida, “Adicionar Arquivos”.
+
+[pagina 12]
+O contribuinte deve selecionar em seu computador o arquivo que deseja enviar. O arquivo deve
+ obedecer ao leiaute, conforme item 4.1
+
+
+
+
+Após adicionar o arquivo, deve-se clicar em no primeiro ícone da coluna Ações, localizada no lado direito,
+para validar o arquivo. Caso haja erro que impeça a transmissão, o ícone da situação ficará vermelho.
+No caso de erro, pode-se consultar o log da validação clicando no segundo ícone da coluna Ações.
+
+ 12
+
+[pagina 13]
+Caso não haja nenhum erro, o ícone da situação ficará verde e o validador habilitará o botão “Transmitir”.
+
+e ColetaNacional Sociedades Cooperativas - Entrega da Listagem de Associados
+
+8» Coleta Nacional - 3.5.3973937 - 24/07/2026 21:06 X
+Receita Federal ”
+0 ora 1 ç Receitanet
+| r Selecione um certificado digital
+Arquivos 4 [ui] Emitido para | Emitido | Data Exp | Container | k
+Ordem A | Ações
+u HEã OU Ti
+
+E frransmitindo arquivos para as bases da RFB. icion:
+
+Após clicar para transmitir, o usuário deve selecionar o certificado. O botão “Assinar” ficará disponível
+e deve ser acionado para prosseguir.
+
+pa ColetaNacional Sociedades Cooperativas - Entrega da Listagem de Associados
+
+4) foi transmitido com sucesso
+
+está disponível em seu computador junto com o arquivo
+
+Arquivos
+
+Ordem — Arquivo Para imprimi-lo, acione a opção correspondente no programa gerador ação Ações
+de seu arquivo
+
+Bial
+
+| = [Fransmitindo arquivos para as bases da RFB.
+
+Aparecerá mensagem de transmissão com sucesso e o recibo de entrega do arquivo será
+disponibilizado.
+
+[pagina 14]
+OBRIGAÇÃO ACESSÓRIA / INTIMAÇÃO FISCAL:
+
+Sociedades Cooperativas - Entrega da Listagem de Associados
+
+RECIBO DE ENTREGA DE ARQUIVOS
+
+Dados da entrega
+
+CPF do Contribuinte
+
+Período de Apuração:
+
+Entrega retificadora
+Não
+
+Nome
+
+Regime específico das cooperativas - Listagem de associados entregue com sucesso.
+
+Arquivos Recebidos
+
+Esta entrega foi assinada com certificado digital do CFR
+
+None
+
+1 Listagem .csv
+
+4.1. Leiaute do Arquivo
+
+Entrega Recebida
+via internet pelo agente receptor Serpro
+em 0 (O:
+
+Pão. 1 de 1
+
+O arquivo de listagem de associados de sociedades cooperativas deve seguir o formato .txt e
+
+separador “;” (ponto e vírgula).
+
+A estrutura é composta por dois tipos de registros:
+
+Registro Código Tamanho Finalidade
+Listagem de
+96 REG001 28 Informar os associados da cooperativa
+Associados
+
+14
+
+[pagina 15]
+Registro Código Tamanho Finalidade
+
+ Informar a quantidade de registros
+Registro Totalizador REG099 12
+ REG001
+
+
+
+ REG001 — Listagem de Associados
+
+ Cada associado é informado com três campos:
+
+Ordem Campo Tamanho Tipo Formato Obrigatório Conteúdo
+
+ Deve ser
+1 Tipo de Registro 6 Alfanumérico — Sim
+ REG001
+
+ CPF ou
+2 NUM_IDENTIFICADOR 14 CNPJ/CPF — Sim CNPJ do
+ associado
+
+ Data de
+3 DATA_ADMISSAO 8 Data DDMMAAAA Sim admissão do
+ associado
+
+
+
+ Validação: o campo “Tipo de Registro” deve obrigatoriamente ser REG001. Caso contrário,
+ ocorre erro “Tipo de Registro Inválido”.
+
+
+
+ REG099 — Totalizador
+
+Ordem Campo Tamanho Tipo Obrigatório Conteúdo
+
+1 Tipo de Registro 6 Alfanumérico Sim Deve ser REG099
+
+2 Totalizador 6 Numérico Sim Quantidade de registros REG001
+
+
+
+ Validação: o valor do “Totalizador” deve ser exatamente igual à quantidade de registros REG001
+ existentes no arquivo.
+
+
+
+ Exemplo de arquivo:
+
+
+ 15
+
+[pagina 16]
+Ou seja, nesse exemplo há 3 associados, e o REG099 informa 000003.
+
+
+5. Cancelamento da Opção
+ A cooperativa poderá cancelar sua opção até o último dia do prazo estabelecido. Nessa hipótese,
+ deixará de estar enquadrada no regime específico das cooperativas. Para isso, ao clicar em “Enviar
+ Arquivos de Dados”, o contribuinte será direcionado para a tela da aplicação.
+
+
+
+
+ Para cancelar, o usuário clicará em “Preencher/Enviar Formulário”, que é o primeiro ícone da coluna
+ Ações, localizada do lado direito da linha “Sociedades Cooperativas - Opção pelo Regime Específico
+ do IBS e da CBS”.
+
+
+
+
+ 16
+
+[pagina 17]
+Na próxima tela, deve-se selecionar “Retificadora” e “Confirmar”.
+
+Na tela seguinte, o usuário deve clicar na seta ao lado de “Optar pelo Regime Específico de
+IBS/CBS?” e, em seguida, clicar no “[1]”. No campo Opção, selecione a alternativa desejada no menu
+suspenso.
+
+
+
+
+Para cancelar, o usuário deve clicar em “Desisto da opção”.
+
+Após confirmar, clicar em “Validar ocorrência” e “Transmitir”.
+
+
+
+
+O usuário será informado que a transmissão foi efetuada com sucesso, podendo baixar o recibo no
+seu computador.
+
+
+
+
+ 17

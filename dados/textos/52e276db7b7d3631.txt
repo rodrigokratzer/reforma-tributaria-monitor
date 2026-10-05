@@ -1,0 +1,5 @@
+Regras de validação que exigem informações da CBS e do IBS serão alteradas para evitar rejeição de documentos fiscais.
+
+A Receita Federal e o Comitê Gestor do IBS – CGIBS aprovarão, em Ato Técnico Conjunto, a suspensão da obrigatoriedade do preenchimento de informações relativas a CBS e IBS em documentos fiscais eletrônicos como NF-e, NFC-e, CT-e, CT-e OS, GTV-e, BP-e, NF3e e NFCom. O Ato aprovará alterações em regras de validação para ajustes decorrentes da Reforma Tributária do Consumo e ratificará documentações técnicas anteriormente publicadas.
+
+Portanto, os documentos fiscais não serão rejeitados na ausência de campos da CBS e do IBS.

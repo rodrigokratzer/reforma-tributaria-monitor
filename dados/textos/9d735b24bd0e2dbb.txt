@@ -1,0 +1,114 @@
+[pagina 1]
+Documentos Fiscais
+
+Reforma Tributária do Consumo — Lei Complementar 214/2025
+
+IT 2026.002 v.1.00
+
+BP Bilhete de Passagem
+Ê Eletrônico
+“NF Nota Fiscal de Energia
+(4 Elétrica Eletrônica
+NFC Nota Fiscal de Consumidor
+| e Eletrônica
+4 Nota Fiscal
+NFe Eletrônica
+NFGAS ci:
+
+NFSe Via
+
+Nota Fiscal de Serviço Eletrônica
+de Exploração de Via
+
+(T Conhecimento de
+g Transporte Eletrônico
+NF Nota Fiscal de Água e
+q Saneamento Eletrônica
+NEC Nota Fiscal Fatura de Serviço de
+om Comunicação Eletrônica
+É Nota Fiscal Eletrôni
+
+N FSe Nota Fiscal de
+Serviço Eletrônica
+
+Projeto Reforma Tributária do Consumo
+
+Tabelas: Alíquota da CBS
+
+Informe Técnico 2026.002 - Versão 1.00
+
+12 de maio de 2026
+
+O Receita Fedora
+
+Página 1/4
+
+[pagina 2]
+Documentos Fiscais
+ Reforma Tributária do Consumo – Lei Complementar 214/2025
+ IT 2026.002 v.1.00
+
+ Versão 1.00
+
+Sumário
+01. Objetivo ............................................................................................................................................... 4
+
+
+
+
+ Página 2 / 4
+
+[pagina 3]
+Documentos Fiscais
+ Reforma Tributária do Consumo – Lei Complementar 214/2025
+ IT 2026.002 v.1.00
+
+
+ Controle de Versões
+ Versão 1.00
+
+
+
+Versão Publicação Descrição HML PROD
+ 1.00 Maio/2026 Publicação do IT
+
+
+
+
+ Informação sobre a finalidade do IT – Informe Técnico
+ De forma geral, o Informe Técnico tem a finalidade de:
+
+ • Divulgar orientações e aperfeiçoamentos para os Serviços de Autorização de Uso dos
+ DF-e, que são usados pelas Empresas;
+
+ • Divulgar e manter registro da atualização de tabelas de domínio usadas pelo Serviço
+ de Autorização, não significando obrigatoriamente a necessidade de alteração no
+ Sistema de Computação das Empresas;
+
+ • Divulgar e manter registro de orientações sobre a prestação de informações no leiaute
+ do DF-e, informando sobre o preenchimento de campo e outros;
+
+ • Divulgar e manter registro de comunicados e outras necessidades de comunicação
+ com as empresas.
+
+
+
+
+ Página 3 / 4
+
+[pagina 4]
+Documentos Fiscais
+ Reforma Tributária do Consumo – Lei Complementar 214/2025
+ IT 2026.002 v.1.00
+
+Versão 1.00
+ 01. Objetivo
+ O presente Informe Técnico tem como objetivo divulgar tabela de alíquota da CBS a ser
+ utilização nos documentos fiscais.
+
+ A tabela está disponível no Portal Nacional da NF-e, na aba “Documentos”, opção “Diversos.
+
+
+
+
+ Página 4 / 4

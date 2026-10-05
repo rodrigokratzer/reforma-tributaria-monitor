@@ -1,0 +1,340 @@
+O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) comunicam aos contribuintes e desenvolvedores de sistemas participantes da Produção Restrita a publicação da Nota Orientativa 2026.001, que promove a implementação de ajustes nos leiautes de eventos e nos respectivos arquivos XSD da Declaração de Regimes Específicos (DeRE).
+
+As alterações têm por finalidade promover adequações técnicas, aprimorar as regras de validação e compatibilizar os esquemas XSD com as funcionalidades disponibilizadas no ambiente de Produção Restrita.
+
+Quadro-resumo das Alterações
+
+Documento/Evento
+
+Descrição das Alterações
+
+D-1011
+
+(Plano Geral de Contas Comentado)
+
+Inclusão do plano de contas referencial da PREVIC para permitir o mapeamento contábil das Entidades Fechadas de Previdência Complementar.
+
+D-1106
+
+(Identificação de Aplicações Financeiras)
+
+Permissão para escrituração de variações mensais negativas na carteira de ativos, bloqueio de períodos de apuração futuros e validação matemática do saldo final e dos rendimentos apurados.
+
+D-9101 e D-9106
+
+(Retornos Totalizadores)
+
+Disponibilização do número do recibo do PGCC utilizado no processamento dos balancetes e das aplicações financeiras, garantindo a rastreabilidade da versão contábil aplicada.
+
+Anexo I – Tabelas
+
+Inclusão da Tabela 24 (Plano de Contas Referencial – PREVIC) como tabela de referência externa.
+
+Anexo II – Regras de Validação
+
+Atualização da regra de validação de contas referenciais e inclusão de críticas para conferência do saldo final do ativo, do valor apurado e de rejeição de competências futuras.
+
+Arquivos XSD
+
+Atualização dos esquemas de validação estrutural dos arquivos XML.
+
+ Atualização dos Esquemas XSD
+
+Os esquemas XML Schema Definition (XSD) da DeRE foram atualizados para assegurar a conformidade estrutural dos arquivos XML com a versão implantada no ambiente de Produção Restrita em 18 de agosto de 2026, a partir das 19h00.
+
+Os ajustes compreendem:
+
+Padronização da nomenclatura dos arquivos e atualização dos identificadores de versão;
+
+Compatibilização dos esquemas de validação estrutural com as regras de negócio vigentes;
+
+Atualização dos pacotes de validação dos eventos de entrada e dos eventos de retorno totalizador.
+
+As alterações divulgadas nesta Nota Orientativa possuem caráter de comunicação técnica antecipada e serão formalmente consolidadas nas futuras versões dos seguintes documentos técnicos:
+
+Manual de Orientação do Usuário da DeRE (MOD);
+
+Leiautes da DeRE – Eventos;
+
+Leiautes da DeRE – Anexo I (Tabelas);
+
+Leiautes da DeRE – Anexo II (Regras de Validação);
+
+Demais documentações técnicas do projeto.
+
+A publicação oficial dessas atualizações ocorrerá mediante Ato Técnico Conjunto da RFB e do CGIBS.
+
+ 
+
+Orientações Finais
+
+As adaptações devem ser implementadas tempestivamente no ambiente de Produção Restrita, observando os arquivos XSD atualizados e as especificações técnicas publicadas nos portais oficiais do Comitê Gestor do Imposto sobre Bens e Serviços e da Secretaria Especial da Receita Federal do Brasil.
+
+Dúvidas adicionais poderão ser esclarecidas por meio dos canais oficiais de atendimento da DeRE.
+
+ Acesso à documentação: 
+
+A Nota Orientativa 2026.001 está disponível nos portais oficiais do Comitê Gestor do IBS e da Receita Federal do Brasil. Veja abaixo!
+
+DeRE Nota Orientativa 2026 001 (18 08 2026) (.pdf 4,04 MBytes) 
+
+Para acessar a documentação completa da DeRE, clique aqui.
+
+===== ANEXO: https://www.cgibs.gov.br/upload/arquivos/202608/18211950-dere-nota-orientativa-2026-001-18-08-2026.pdf =====
+[pagina 1]
+CGIBS RECEITA FEDERAL
+
+Comitê Gestor do IBS Ministério da Fazenda
+
+DeRE
+
+Declaração de Regimes Específicos
+
+Nota Orientativa
+2026.001
+
+CGIBS
+
+COMITÊ GESTOR DO IMPOSTO
+SOBRE BENS E SERVIÇOS
+
+Kd
+
+Receita Federal
+
+Nota Orientativa 2026.001
+
+18 de agosto de 2026
+
+[pagina 2]
+Nota Orientativa 2026.001 18 de agosto de 2026
+
+
+
+ SUMÁRIO
+
+ NOTA ORIENTATIVA 2026.001 ........................................................................................................................................................................................ 2
+
+ 1 OBJETIVO DA NOTA ORIENTATIVA ........................................................................................................................................................................ 2
+ 1.1 Destaques da Nota Orientativa: ......................................................................................................................................................................... 2
+ 2 LEIAUTES DA DERE - EVENTOS ............................................................................................................................................................................ 3
+ 2.1 Evento D-1011 – Plano Geral de Contas Comentado ......................................................................................................................................... 3
+ 2.2 Evento D-1106 – Identificação de Aplicações Financeiras .................................................................................................................................. 3
+ 2.3 Evento D-9101 – Retorno Totalizador – Balancete Mensal ................................................................................................................................. 3
+ 2.4 Evento D-9106 – Retorno Totalizador – Identificação de Aplicações Financeiras ............................................................................................... 3
+ 3 LEIAUTES DA DERE - ANEXO I – TABELAS .......................................................................................................................................................... 4
+ 3.1 Tabela 24 – Plano de Contas Referencial – PREVIC .......................................................................................................................................... 4
+ 4 LEIAUTES DA DERE - ANEXO II - REGRAS DE VALIDAÇÃO ................................................................................................................................ 5
+ 5 ARQUIVOS XSD ....................................................................................................................................................................................................... 6
+
+
+
+
+ Página 1 de 6
+
+[pagina 3]
+Nota Orientativa 2026.001 18 de agosto de 2026
+
+
+
+ NOTA ORIENTATIVA 2026.001
+
+ Data de Publicação: 18/08/2026
+ Ambiente: Produção Restrita da DeRE
+
+ Documentos Técnicos Relacionados
+ Documento Técnico Versão
+ 02 - Leiautes da DeRE - Eventos v.1.1.0
+ 03 - Leiautes da DeRE - Anexo I (Tabelas) v.1.1.0
+ 04 - Leiautes da DeRE - Anexo II (Regras) v.1.1.0
+ 06 - Arquivos XSD v.1.1.0
+
+
+
+ 1 OBJETIVO DA NOTA ORIENTATIVA
+
+ A presente nota orientativa tem por objetivo comunicar aos contribuintes, desenvolvedores de
+ sistemas e entidades participantes do ambiente de Produção Restrita a publicação de atualizações
+ técnicas nos leiautes de eventos, no catálogo de regras de validação e nos respectivos esquemas
+ estruturais XML Schema Definition (XSD) da Declaração de Regimes Específicos (DeRE).
+
+ 1.1 Destaques da Nota Orientativa:
+
+ a) Adequar a estrutura cadastral e de mapeamento contábil para recepcionar o Plano de Contas
+ Referencial das Entidades Fechadas de Previdência Complementar (PREVIC);
+ b) Ajustar os tipos de dados e limites de campos numéricos para viabilizar o registro de oscilações
+ e variações negativas no evento D-1106 – Identificação de Aplicações Financeiras;
+ c) Incorporar novas regras de consistência nos eventos periódicos mensais; e
+ d) Assegurar a rastreabilidade do Plano Geral de Contas Comentado (PGCC) nos eventos de
+ retorno totalizadores gerados pelo Ambiente Nacional da DeRE.
+
+
+
+
+ Página 2 de 6
+
+[pagina 4]
+Nota Orientativa 2026.001 18 de agosto de 2026
+
+
+
+ 2 LEIAUTES DA DERE - EVENTOS
+
+ 2.1 Evento D-1011 – Plano Geral de Contas Comentado
+
+ Evento D-1011 – Plano Geral de Contas Comentado
+ Campo / Grupo Ação Descrição da Alteração Justificativa Técnica
+ planoCtaRef ALTERAÇÃO Inclusão do item [5 – PREVIC] nos valores válidos e no arquivo XSD. Possibilitar o uso do plano de contas
+ referencial da PREVIC para os setores de
+ previdência complementar.
+ cCtaRef ALTERAÇÃO Ajuste na redação da descrição para referenciar o campo Adequar a documentação técnica e habilitar a
+ {planoCtaRef} e inclusão da validação para o domínio [5] apontando validação do novo domínio inserido para a
+ para a Tabela 24 – Plano de Contas Referencial – PREVIC. PREVIC.
+
+
+
+ 2.2 Evento D-1106 – Identificação de Aplicações Financeiras
+
+ Evento D-1106 – Identificação de Aplicações Financeiras
+ Campo / Grupo Ação Descrição da Alteração Justificativa Técnica
+ perApur ALTERAÇÃO Inclusão da regra de validação Aprimorar as críticas do sistema em relação à competência
+ REJEITAR_PERAPUR_FUTURO. informada.
+ vVarMensal ALTERAÇÃO Alteração do limite de tamanho aceito no Permitir o envio do sinal de subtração ("-"), viabilizando a
+ leiaute/XSD de 4-18 para 4-19 caracteres. declaração de variações mensais negativas na carteira de
+ ativos.
+ vSaldoFinal ALTERAÇÃO Inclusão da regra de validação Garantir a verificação da equação de saldo de encerramento
+ CONFERIR_SALDO_FINAL_ATIVO. do ativo.
+ vApur ALTERAÇÃO Inclusão da regra de validação Validar a consistência do cálculo do campo {vApur}.
+ VALIDAR_VAPUR_D1106.
+
+
+
+ 2.3 Evento D-9101 – Retorno Totalizador – Balancete Mensal
+
+ D-9101 – Retorno Totalizador – Balancete Mensal
+ Campo / Grupo Ação Descrição da Alteração Justificativa Técnica
+ infoAdic INCLUSÃO Criação do grupo de informações adicionais dentro do grupo Disponibilizar um grupo de retorno de dados
+ {infoEvento}. complementares sobre os parâmetros utilizados
+ durante o processamento do balancete.
+ nrReciboPGCC INCLUSÃO Inclusão de campo dentro do grupo {infoAdic} para retornar o Assegurar a rastreabilidade da versão do PGCC
+ número do recibo do evento D-1011 (Plano Geral de Contas utilizada no processamento do Balancete Mensal.
+ Comentado) utilizado no processamento do Balancete Mensal.
+
+
+
+ 2.4 Evento D-9106 – Retorno Totalizador – Identificação de Aplicações Financeiras
+
+ Evento D-9106 – Retorno Totalizador – Identificação de Aplicações Financeiras
+ Campo / Grupo Ação Descrição da Alteração Justificativa Técnica
+ infoAdic INCLUSÃO Criação do grupo de informações adicionais dentro do grupo Disponibilizar um grupo de retorno de dados
+ {infoEvento}. complementares sobre os parâmetros utilizados
+ durante o processamento do evento de
+ Identificação de Aplicações Financeiras.
+ nrReciboPGCC INCLUSÃO Inclusão de campo dentro do grupo {infoAdic} para retornar o Assegurar a rastreabilidade da versão do PGCC
+ número do recibo do evento D-1011 (Plano Geral de Contas utilizada no processamento do evento de
+ Comentado) utilizado no processamento do evento de Identificação de Aplicações Financeiras.
+ Identificação de Aplicações Financeiras.
+
+
+
+
+ Página 3 de 6
+
+[pagina 5]
+Nota Orientativa 2026.001 18 de agosto de 2026
+
+
+
+ 3 LEIAUTES DA DERE - ANEXO I – TABELAS
+
+ 3.1 Tabela 24 – Plano de Contas Referencial – PREVIC
+
+ ⚠️ NOTA TÉCNICA DE REFERÊNCIA EXTERNA
+
+ As informações detalhadas desta tabela não constam no corpo deste documento, em virtude da
+ governança externa e da periodicidade dinâmica de suas atualizações.
+
+ Para fins de mapeamento, o contribuinte deve adotar estritamente o elenco de contas padronizado vigente
+ na data de ocorrência do fato gerador.
+
+ Órgão Regulador Responsável: Superintendência Nacional de Previdência Complementar (PREVIC).
+
+ Fonte Oficial de Obtenção: Sítio institucional da PREVIC.
+
+
+
+
+ Página 4 de 6
+
+[pagina 6]
+Nota Orientativa 2026.001 18 de agosto de 2026
+
+
+
+ 4 LEIAUTES DA DERE - ANEXO II - REGRAS DE VALIDAÇÃO
+
+ Anexo II – Regras de Validação
+ Nome da Regra Ação Descrição da Regra de Validação Aplicação / Contexto
+ CONTA_NO_PLANO_CONTAS_REF ALTERAÇÃO Verificar se o código da conta contábil ({cCtaRef}) informado no PGCC • D-1011 - Plano Geral de
+ ERENCIAL existe no Plano de Contas Referencial: Contas Comentado.
+ 1. Identificar o plano referencial associado à empresa (COSIF, ANS,
+ SUSEP, SPED ou PREVIC), através do campo {planoCtaRef};
+ 2. Consultar a tabela de contas referenciais correspondente;
+ 3. Verificar se o código da conta contábil informado está cadastrado
+ no plano referencial aplicável.
+ (Mensagem de erro: MS1077 - Interrompe o processamento: Sim)
+
+ CONFERIR_SALDO_FINAL_ATIVO INCLUSÃO O saldo final deve ser igual a {vSaldoInic} + {vVarMensal} - • D-1106 – Identificação de
+ {vPrincLiqResg}; Aplicações Financeiras.
+ Se o valor vVarMensal não for informado, atribuir a ele o valor zero
+ para fazer o cálculo.
+ (Mensagem de erro: MS1163 - Interrompe o processamento: Não)
+
+ REJEITAR_PERAPUR_FUTURO INCLUSÃO O período de apuração informado no evento não deve ser posterior • D-1106 – Identificação de
+ ao mês/ano do dia do processamento do evento. Aplicações Financeiras.
+ (Mensagem de erro: MS1155 - Interrompe o processamento: Não)
+
+ VALIDAR_VAPUR_D1106 INCLUSÃO O valor do campo {vApur} deve ser igual a soma dos campos • D-1106 – Identificação de
+ {vRendPerReceb} e {vRendLiqResg}. Aplicações Financeiras.
+ Observação: Como os campos {vRendPerReceb} e {vRendLiqResg}
+ são opcionais, caso algum deles não seja informado no evento, deve
+ ser atribuído a ele o valor zero, para fazer o cálculo.
+ (Mensagem de erro: MS1154 - Interrompe o processamento: Não)
+
+
+
+
+ Página 5 de 6
+
+[pagina 7]
+Nota Orientativa 2026.001 18 de agosto de 2026
+
+
+
+ 5 ARQUIVOS XSD
+
+ Para garantir a recepção dos arquivos e evitar rejeições por erro de estrutura XML, os
+ contribuintes devem adequar seus sistemas para utilizar as seguintes versões dos arquivos XSD:
+
+ • evtInfoContrib-v1_0_1;
+
+ • evtPGCC-v1_0_2;
+
+ • evtBalancete-v1_0_0;
+
+ • evtAplicResTec-v1_0_0;
+
+ • evtRetornoTabela-v1_0_1;
+
+ • evtRetornoBalan-v1_0_0;
+
+ • evtRetornoAplicFin-v1_0_0;
+
+ • envioLoteDere-v1_0_1;
+
+ • retornoLoteDere-v1_0_1.
+
+
+
+
+ Página 6 de 6

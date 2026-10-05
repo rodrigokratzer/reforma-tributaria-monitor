@@ -1,0 +1,3252 @@
+[pagina 1]
+NFe
+
+Nota Fiscal
+Eletrônica
+
+Nrle
+
+Nota Fiscal de Consumidor
+Eletrônica
+
+Projeto Reforma Tributária do
+Consumo - Adequações NF-e | NFC-e
+
+RT Nota Técnica 2024.002 - Versão 1.10
+
+[pagina 2]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Sumário
+
+
+1. Sumário
+Introdução ....................................................................................................................................... 5
+1 Tipos Básicos da Tributação .................................................................................................... 6
+2 Código Situação Tributária e Código de Classificação da Tributação ...................................... 6
+3 Finalidades débito e crédito da NF-e........................................................................................ 6
+4 Alterações no arquivo XML da NF-e ........................................................................................ 7
+ 4.1 Esquema gráfico do leiaute do IBS da UF, contemplando IBS, CBS e Imposto Seletivo. 7
+ 4.2 Inserção dos novos campos de informação no leiaute da NF-e e NFC-e ........................ 8
+ 4.3 Disposição dos campos do Imposto Seletivo ................................................................... 9
+ 4.4 Imposto de Bens e Serviços - IBS das UFs e Municípios ................................................ 9
+ 4.5 Disposição dos campos do IBS da UF........................................................................... 10
+ 4.6 Disposição dos campos do IBS dos Municípios ............................................................. 11
+ 4.7 Disposição dos campos da CBS.................................................................................... 12
+ 4.8 Disposição dos campos do IBS Monofásico .................................................................. 13
+ 4.9 Disposição dos campos totalizadores ............................................................................ 14
+ 4.10 Indicadores de multa, juros e compra governamental e tipo de nota de crédito. ............ 15
+ 4.11 Referenciamento de Item da NF-e ................................................................................. 16
+5 Protocolo da NFe ................................................................................................................... 17
+6 Leiaute da NF-e (Modelo 55 e 65) ......................................................................................... 18
+ Grupo B. Identificação da Nota Fiscal eletrônica ....................................................................... 18
+ Grupo N01. ICMS Normal e ST ................................................................................................. 19
+ Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo ........................................... 19
+ Grupo VB. Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e .................. 25
+ Grupo W03. Total da NF-e - IBS / CBS / IS ............................................................................... 25
+7 Regras de Validação.............................................................................................................. 27
+ Grupo B. Identificação da Nota Fiscal eletrônica ....................................................................... 27
+ Grupo BA. Documento Fiscal Referenciado .............................................................................. 29
+ Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo ........................................... 29
+ Grupo VB. Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e .................. 37
+ Grupo W03. Total da NF-e - IBS / CBS / IS ............................................................................... 37
+3A. Banco de Dados: NF-e Referenciada ..................................................................................... 39
+8 Eventos.................................................................................................................................. 39
+ 8.1 Lista de eventos ............................................................................................................ 41
+ 7.2 Registro de Eventos ............................................................................................................ 42
+ 7.2.1 Leiaute Mensagem de Retorno da Parte Geral ............................................................. 42
+
+ Página 2 / 67
+
+[pagina 3]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+ 7.2.2 Evento: Informação de efetivo pagamento integral para liberar crédito presumido do
+ adquirente .............................................................................................................................. 42
+ 7.2.3 Evento: Solicitação de Apropriação de crédito presumido ............................................. 44
+ 7.2.4 Evento: Destinação de item para consumo pessoal ...................................................... 46
+ 7.2.5 Evento: Imobilização de Item ........................................................................................ 48
+ 7.2.6 Evento: Solicitação de Apropriação de Crédito de Combustível .................................... 50
+ 7.2.7 Evento: Solicitação de Apropriação de Crédito de fornecimento de bem móvel usado . 52
+ 7.2.8 Evento: Solicitação de Apropriação de Crédito para bens e serviços que dependem de
+ atividade do adquirente .......................................................................................................... 54
+ 7.2.9 Evento: Manifestação sobre Pedido de Transferência de Crédito de IBS em Operações
+ de Sucessão .......................................................................................................................... 55
+ 7.2.10 Evento: Manifestação sobre Pedido de Transferência de Crédito CBS em Operações de
+ Sucessão ............................................................................................................................... 56
+ 7.2.11 Evento: Manifestação do Fisco sobre Pedido de Transferência de Crédito de IBS em
+ Operações de Sucessão ........................................................................................................ 57
+ 7.2.12 Evento: Manifestação do Fisco sobre Pedido de Transferência de Crédito de CBS em
+ Operações de Sucessão ........................................................................................................ 58
+ 7.2.13 Evento: Evento de cancelamento de evento do emitente ............................................ 59
+ 7.2.14 Evento: Evento de cancelamento de evento do destinatário ....................................... 61
+ 7.2.15 Evento: Evento de cancelamento de evento da sucessora ......................................... 62
+9 DANFE .................................................................................................................................. 64
+
+
+
+
+ Página 3 / 67
+
+[pagina 4]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Controle de Versões
+
+ Versão Publicação Descrição
+
+ 1.00 07/2024 Criação deste manual como documento com campos e regras para informação do Imposto
+ de Bens e Serviços - IBS, Contribuição de Bens e Serviços - CBS e Imposto Seletivo - IS.
+
+ 1.10 12/2024 Inserção de campos de controle e criação de eventos para utilização na apuração do IBS e
+ da CBS
+
+
+
+
+Histórico de Alterações / Cronograma
+
+ Versão Histórico de atualizações Implantação Implantação
+ Teste Produção
+ Versão inicial com a previsão dos campos do imposto seletivo,
+ 1.00 01/09/2025 31/10//2025
+ IBS e CBS na NF-e e NFC-e.
+ Versão contemplando campos, eventos e regras de validação
+ 1.10 01/09/2025 31/10//2025
+ para apuração do IBS e da CBS
+
+
+
+
+ Página 4 / 67
+
+[pagina 5]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+2. Introdução
+O Projeto de Lei Complementar Federal PLP 68, aprovado na Câmara dos Deputados e
+encaminhado para aprovação junto ao Senado federal, definiu na Seção VIII – Disposições
+transitórias, Art. 61, a obrigatoriedade para Estados, o Distrito Federal e os Municípios adaptarem
+os sistemas autorizadores de Documentos Fiscais Eletrônicos (DFe) vigentes para utilização de
+leiaute padronizado, que permita aos contribuintes informarem os dados relativos ao Imposto sobre
+Bens e Serviços (IBS), Contribuição sobre Bens e Serviços (CBS) e Imposto Seletivo (IS).
+
+Como as infraestruturas autorizadoras de Documentos Fiscais Eletrônicos (DFe) das Unidades
+Federadas e Municípios, além das aplicações e sistemas dos contribuintes, necessitam de, no
+mínimo, 1 ano para o desenvolvimento das alterações necessárias, estamos divulgando esta Nota
+Técnica (NT) para implantação, em produção, a partir do dia 31/10/2025, de forma a entrar em
+efetiva operacionalização a partir 01/01/2026.
+
+Como as discussões envolvendo a implantação da Reforma Tributária ainda estão em curso,
+esclarecemos que esta NT será ajustada ao longo do seu processo de execução, da mesma forma
+como ocorre com as demais NT já implementadas.
+
+Esta NT, discutida conjuntamente entre os três entes responsáveis pela implantação da RTC, cria
+novos eventos e modifica o leiaute da NF-e e NFC-e, inserindo os grupos e campos opcionais
+relacionados à tributação do Imposto sobre Bens e Serviços (IBS), da Contribuição sobre Bens e
+Serviços (CBS) e do Imposto Seletivo (IS), em atendimento as alterações previstas na Emenda
+Constitucional 132 de 20 de dezembro de 2023 para implementação da Reforma Tributária.
+
+
+
+
+ Página 5 / 67
+
+[pagina 6]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+3. Tipos Básicos da Tributação
+Em busca de uma padronização entre os diversos documentos fiscais eletrônicos existentes, esta
+NT introduz o arquivo “DFeTiposBasicos_v1.00.xsd” ao conjunto dos arquivos que compõem do
+schema de todos os Documentos Fiscais Eletrônicos - DF-e, entre eles a NF-e e NFC-e.
+
+Este arquivo define de forma estruturada a previsão de campos a serem informados para o registro
+das informações referentes a tributação do IBS e da CBS em um tipo complexo referenciado no
+leiaute padrão da NF-e e NFC-e conforme estrutura demonstrada no item 5, e também será utilizado
+nos demais documentos fiscais eletrônicos.
+
+
+4. Código de Classificação Tributária do IBS/CBS
+O grupo de informações do IBS, CBS e IS associado aos itens do documento fiscal contém o Código
+de Situação Tributária (CST) e Código de Classificação Tributária (cClassTrib) do IBS, CBS e IS.
+O Informe Técnico RT 2024.001 divulga a publicação da tabela com esta codificação, que está
+disponível no Portal Nacional da NF-e (www.nfe.fazenda.gov.br), na aba “Documentos”, opção
+“Diversos”.
+
+Cada código “cClassTrib” corresponde a um dispositivo específico do PLP68, tornando objetiva a
+informação do contribuinte sobre como interpreta que é realizada a tributação do IBS e da CBS para
+cada item da NF-e.
+
+A tabela também contém indicadores que vinculam de forma dinâmica códigos “CST-IBS/CBS” e
+“cClassTrib” com as Regras de Validação descritas na RT Nota Técnica 2024.002 - IBS/CBS, ou
+que contêm informações necessárias para a preparação das apurações assistidas do IBS e da CBS,
+em atendimento ao disposto no PLP68.
+
+Caso a versão final aprovada pelo Congresso Nacional altere algum dos dispositivos do PLP68, a
+tabela será alterada para refletir esta modificação. Da mesma maneira, a tabela poderá sofrer
+alterações em virtude de aperfeiçoamentos, novidades introduzidas em sede de Regulamento, ou
+para atender a necessidades relacionadas com a apuração assistida do IBS e da CBS.
+
+
+5. Finalidades débito e crédito da NF-e
+Notas de Débito e Crédito são nomes de instrumentos utilizados mundialmente para documentar
+situações contábeis onde é necessário corrigir informações comerciais que foram registradas em
+um documento, que no Brasil é a Nota Fiscal.
+
+Esta Nota Técnica cria na NF-e modelo 55 as finalidades de emissão correspondentes. O sentido
+das palavras “débito” e “crédito” sempre se referem ao ponto de vista do emissor:
+
+ • Uma nota de débito documenta uma situação na qual o emitente registra um aumento no
+imposto devido (consequentemente, uma redução no imposto devido pelo adquirente, que é o
+destinatário);
+ • Uma nota de crédito documenta uma situação na qual o emitente registra uma redução no
+imposto devido (consequentemente, um aumento no imposto devido pelo adquirente, que é o
+destinatário);
+
+As finalidades de emissão “Nota de Ajuste” e “Nota Complementar”, já existentes, são casos
+especiais de Nota de Débito; uma nota de entrada emitida para documentar, por exemplo, a
+
+ Página 6 / 67
+
+[pagina 7]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+devolução de mercadoria que havia sido vendida a um consumidor final, é um caso especial de
+Nota de Crédito.
+
+A regulamentação do IBS disporá sobre a utilização de notas de crédito e notas de débito para
+lançamentos de ajuste, com a finalidade de instrumentalizar a preparação da declaração assistida
+a ser oferecida para os contribuintes, de maneira automatizada, a partir de documentos fiscais
+eletrônicos, em cumprimento ao que preconiza o PLP 68. A menos que ocorra alteração na
+regulamentação do ICMS e do IPI, notas de crédito e notas de débito não poderão ser utilizadas
+para ajustes relativos a estes tributos.
+
+
+
+6. Alterações no arquivo XML da NF-e
+6.1. Esquema gráfico do leiaute do IBS da UF, contemplando IBS, CBS e
+ Imposto Seletivo.
+
+
+
+
+ Página 7 / 67
+
+[pagina 8]
+Nota Fiscal Eletrônica - NF-e Fe
+Reforma Tributária - Emenda Constitucional 132/2023 li
+NT 2024.002 Versão 1.10
+
+6.2. Inserção dos novos campos de informação no leiaute da NF-e e
+
+NFC-e
+prod E
+
+Dados dos produtos e
+serviços da NF-e
+
+-“ vTotTrib :
+
+Valor estimado total de
+impostos federais, estaduais
+e munidipais
+
+“EE
+
+o
+
+re eeeaaaaaaaquaa aaa penanaaneqe dona aanaquea ana eapenana que aeee
+2)
+:
++
+
+I
+
+-— imposto E | [ H
+Tributos incidentes nos
+produtos ou serviços da NF-e
+
+y
+
+Dados do COFINS da
+Substituição Tributaria;
+
+Grupo a ser informado nas
+vendas interestarduais para
+consumidor final, não
+contribuinte de ICMS
+
+Página 8/67
+
+[pagina 9]
+Nota Fiscal Eletrônica - NF-e Fe
+
+Reforma Tributária - Emenda Constitucional 132/2023 doca
+NT 2024.002 Versão 1.10
+
+6.4. Disposição dos campos do Imposto Seletivo
+
+csT
+
+Código Situação Tributária
+do Impásto Seletivo
+
+|
+|
+|
+|
+|
+|
+
+Código de Classificação
+Tributario do Imposto
+Seletivo
+
+alor do E
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+ôliquota do Imposto Seletiwr |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+oi | “vBCImpSel
+
+(percentual)
+
++= E pImpSelEspec ;
+
+ôliquota especifica por
+
+dont unidade de medida
+Voa glmpSel apropriada,
+Unidade de medida
+
+* apropriada especificada em
+
+pasa a Lei Ordinaria para fins de
+
+apuração do Imposto Seletiwr
+
+Quantidade com abse no
+carmpo uTrib informado
+
+'talor do Imposto Seletiwr
+calculado |
+
+6.5. Imposto de Bens e Serviços - IBS das UFs e Municípios
+
+Página 9/67
+
+[pagina 10]
+Nota Fiscal Eletrônica - NF-e
+
+Reforma Tributária - Emenda Constitucional 132/2023 li
+NT 2024.002 Versão 1.10
+
+Valor do BC
+
+| |
+| Grupo de informações do IBS |
+|
+
+giBSCBS —..— na UF
+
+| IBS / CBS gIBSMun
+
+| Grupo de Informações do IBS
+| no Municipio
+
+pIBSUF
+
+Alíquota do IBS de
+competência das UF
+
+Grupo de Informações do
+“00 Crédito Presumido, quando
+aproveitado pelo emitente do
+
+Grupo de campos do
+A otssur E CH o
+Grupo de informações do IBS “-- gDevTrib
+IBSC| —s..— na UF
+9 Bs Grupo de Informações da
+IBS / CBS devolução de tributos
+
+de alíquota
+
+pon.
+
+Grupo de informações da
+Desoneração. Exemplo 1:
+
+Art. 442, 64. Operações com
+ZFM e ALC. Exemplo 2:
+Operações com suspensão do
+tributo.
+
+Valor do IBS de competência
+das UF
+
+Página 10/67
+
+[pagina 11]
+Nota Fiscal Eletrônica - NF-e Fe
+Reforma Tributária - Emenda Constitucional 132/2023 li
+NT 2024.002 Versão 1.10
+
+piBSMun
+
+Alíquota do IBS Municipal
+
+Grupo de Informações do
+
+SN Crédito Presumido, quando
+[o ee a aproveitado pelo emitente do
+documento.
+
+-- gDif
+
+Grupo de campos do
+Diferimento
+
+EE CH
+“-- gDevTrib E
+
+pe o)
+Grupo de Informações do IBS
+
+no Município Grupo de Informações da
+devolução de tributos
+
+de aliquota
+
+Grupo de informações da
+Desoneração. Exemplo 1:
+
+Art. 442, 64. Operações com
+ZFM e ALC. Exemplo 2:
+Operações com suspensão do
+tributo.
+
+Valor do IBS Municipal
+
+Página 11/67
+
+[pagina 12]
+Nota Fiscal Eletrônica - NF-e Fe
+Reforma Tributária - Emenda Constitucional 132/2023 li
+NT 2024.002 Versão 1.10
+
+-=="=. Grupo de Informações do
+
+|
+
+Grupo de Tributação da CBS -4 gDevTrib E
+
+4
+T
+0
+$
+T
+
+de aliquota
+
+Grupo de informações da
+Desoneração
+
+Valor da CBS
+
+Página 12/67
+
+[pagina 13]
+Nota Fiscal Eletrônica - NF-e
+
+Reforma Tributária - Emenda Constitucional 132/2023 li
+NT 2024.002 Versão 1.10
+
+6.10. Disposição dos campos do IBS Monofásico
+
+| TMonofasia
+
+r
+'
+
+: Informar a EX quantidade
+
+1 conforme unidade de medida
+: estsbeteddas rs legizdação ps
+1 oproduo
+
+'
+
+'
+
+E
+A
+
+r
+
+quota específica do 18
+
+Miquota espedfiac da (3
+
+NT
+&
+o
+E
+3
+õ
+
+Valor do 185 Momctasior
+
+$
+o
+à
+5
+o
+
+Valor da CHS Momotasicr
+
+qBCMonoReten '
+
+Quardidade tributadas sujeis
+
+reterção
+po =
+(E FadRemlBSReten
+Uso em operações com Aiquots ad rem do imposto
+
+combustiveis derivados de
+petróleo (Gasolina A) [ou "Qu
+Diesei A*] para retenção do
+imposto sobre o
+
+Diocomiusivel s ser misturas . .
+Met 173 PU ÉS/24 Valor do 185 com retenção, s
+ser somado so valor de 185 s
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+[ gIBSCESMono 3H er reiido |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+E
+ê
+]
+
+| Morctasia dos combustiveis
+
+Perceríual de crédio press
+do 185 monctssico
+
+À
+
+2 Valor do crédito presumidic
+[— E E 185 monctsdco
+Uso em operações com crédia =
+presumido. Exemplo: compra 1 =pCredPresCBS
+combustivel por traraportador =
+de passaqeiros, vendas para Percerâual de crédito press
+órgão público, venda equipar: do CES monofásico
+
+a exportação, erfre outros.
+
+É
+ê
+
+Valor do crédito presumidc
+CES monctasdco
+
+aplicado aos biocomibustveis
+Exemplo: operação do produ
+de Diocomibeustvel (uma)
+
+FvTotiBSMono
+
+Total de 185 Monctssico,
+corsiderando a adição do vs
+de retenção e deduzindo a
+parceia diferidas conforme o
+caso
+
+EvTotCBSMono
+
+Total de CES Monctasico,
+corsiderando a adição do vs
+de retenção e deduzsndo a
+parceis diferids conforme o
+
+| Qperações com diferimento,
+| = |
+
+Página 13/67
+
+[pagina 14]
+Nota Fiscal Eletrônica - NF-e A Fe
+Reforma Tributária - Emenda Constitucional 132/2023 li
+NT 2024.002 Versão 1.10
+
+Total Base de Calculo
+
+...-= =
+
+gIBSUFTot
+
+Totalização do IBS de
+competêcnia da UF
+
+Totalização do IBS Totalização do IBS de
+competência Municipal
+
+FvIBSTot
+Total Valor do IBS Total
+
+vCredPres
+Total do Credito Presumido
+
+TIoICIBSSe1 EE
+Grupo de informações de Total do Diferimento
+totais do CBS/IBS com =
+Monofasia = vDevTrib
+Totalização da CBS o o devoluções de
+FvDeson
+Valor desonerado
+
+--------- Valor Total do IBS
+Monofásico
+
+Totais da Monofasia
+
+VBalor Total da CBS
+Monofásica
+
+Valor Total da NF
+considerando os impostos por
+fora IBS, CBS e IS
+
+Página 14/67
+
+[pagina 15]
+Nota Fiscal Eletrônica - NF-e
+
+Reforma Tributária - Emenda Constitucional 132/2023 li
+NT 2024.002 Versão 1.10
+
+FtpEmis
+
+Forma de emissão da NF-e
+1 - Normal;
+
+2 - Contingência FS
+
+3 - Regime Espedal NFF (NT
+2021.002)
+
+4 - Contingência DPEC
+
+5 - Contingência FSDA
+
+6 - Contingência SWC - AN
+7 - Contingência SWC - RS
+9 - Contingência off-line
+NFCe
+
+ap E
+
+Digito Verificador da Chave
+identificação da NF-< de Acesso da NF-e
+
+tpamb
+
+Identificação do Ambiente:
+1 - Produção
+
+2 - Homologação
+
+Finalidade da emissão da NF.
+
+- NFe normal
+
+- NFe complementar
+- NFe de ajuste
+
+- Devolução/Retomo
+- Nota de crédito
+
+- Nota de débito
+
+sssonsosnnnansosnssannnansonnasannas
+
+CAR ES RR]
+
+versão do aplicativo utilizado
+no processo de
+emissão
+
+Informar apenas
+para tpEmis diferente de 1
+
+Grupo de infromações da NF
+referenciada
+
+1=União
+ro 22000000==005 2=Estados
+-. gCompraGov [| 3=Distrito Federal
+
+4=Municipios
+
+Percentual de redução de
+afiquota em compra
+govermamental
+
+Tipo de Nota de Crédito
+
+Página 15/67
+
+[pagina 16]
+Nota Fiscal Eletrônica - NF-e Fe
+Reforma Tributária - Emenda Constitucional 132/2023 li
+NT 2024.002 Versão 1.10
+
+imposto
+
+1..990
+Dados dos detalhes da NF-e
+
+Tributos incidentes nos
+produtos ou serviços da NF-e
+
+Loco---200--------—+
+
+---: impostoDevol
+
+E dae o]
+
+--; infAdProd l
+
+Informações adicionais do
+produto (norma
+referenciada, informações
+complementares, etc)
+
+Grupo de observações de
+uso livre (para o item da NF-
+
+e)
+
+Referenciamento de item de
+outros DFe
+
+Chave de Acesso do DFe
+referenciado
+
+nu
+i
+[19
+3
+EE.
+
+Número do item do
+
+: documento referenciado.
+
+! Corresponde ao atributo
+
+! nItem do elemento det do
+' documento original.
+
+Página 16/67
+
+[pagina 17]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+
+
+7. Protocolo da NFe
+
+Alteração da seção 5.2.2 do MOC - Leiaute Mensagem de Retorno.
+
+Retorno: Estrutura XML com o resultado do processamento da mensagem de envio de lote de NF-e.
+
+Schema XML: retConsReciNFe_v4.00.xsd
+
+* Para cada Protocolo de uma NF-e processada teremos o seguinte leiaute:
+
+ # Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+ PR01 protNFe Raiz - - - - TAG raiz do Protocolo de recebimento da NFe
+ PR02 versao A PR01 N 1-1 2v2 Versão do leiaute das informações de Protocolo.
+ PR03 infProt G PR01 - 1-1 - Informações do Protocolo de resposta.
+ TAG a ser assinada
+ PR04 Id ID PR03 C 0-1 - Identificador da TAG a ser assinada, somente precisa ser informado se a UF assinar a resposta.
+ Em caso de assinatura da resposta pela SEFAZ preencher o campo com o Número do Protocolo,
+ precedido com o literal “ID”
+ PR05 tpAmb E PR03 N 1-1 1 Identificação do Ambiente:
+ 1=Produção/2=Homologação
+ PR06 verAplic E PR03 C 1-1 1-20 Versão do Aplicativo que processou o Lote.
+ A versão deve ser iniciada com a sigla da UF nos casos de WS próprio ou a sigla SVAN ou SVRS nos
+ demais casos.
+ PR07 chNFe E PR03 N 1-1 44 Chave de Acesso da NF-e
+ PR08 dhRecbto E PR03 D 1-1 - Preenchido com a data e hora do processamento (informado também no caso de rejeição).
+ Formato: “AAAA-MM-DDThh:mm:ssTZD” (UTC – Universal Coordinated Time).
+ PR09 nProt E PR03 N 0-1 15 Número do Protocolo da NF-e, conforme item Erro! Fonte de referência não encontrada.
+ PR10 digVal E PR03 C 0-1 28 Digest Value da NF-e processada
+ Utilizado para conferir a integridade da NFe original.
+ PR11 cStat E PR03 N 1-1 4 Código do status da resposta
+ PR12 xMotivo E PR03 C 1-1 1-255 Descrição literal do status da resposta para a NF-e.
+ PR13 Sequência XML G PR03 0-1 Grupo de informações para envio de mensagens do interesse da SEFAZ (Criado na NT 2018.005)
+ PR14 cMsg E PR13 N 0-1 1-4 Código da Mensagem. (Criado na NT 2018.005)
+ PR15 xMsg E PR13 C 1-1 1-200 Mensagem da SEFAZ para o emissor. (Criado na NT 2018.005)
+ PR90 Signature G PR01 xml 0-1 - Assinatura XML do grupo identificado pelo atributo “Id”
+ A decisão de assinar a mensagem fica a critério da UF interessada.
+
+ Página 17 / 67
+
+[pagina 18]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+8. Leiaute da NF-e (Modelo 55 e 65)
+8.1. Grupo B. Identificação da Nota Fiscal eletrônica
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+16 B12 cMunFG Código do Município de Ocorrência do Fato Gerador do ICMS Informar o município de ocorrência do
+ fato gerador do ICMS. Utilizar a Utilizar
+ E B01 N 1-1 7
+ a Tabela de código de Município do
+ IBGE
+16a B12a cMunFGIBS Código do Município de consumo, fato gerador do IBS / CBS Informar o município de ocorrência do
+ fato gerador do fato gerador do IBS /
+ CBS.
+ Campo preenchido somente quando
+ E B01 N 0-1 7
+ “indPres = 5 (Operação presencial, fora
+ do estabelecimento) ”, e não tiver
+ endereço do destinatário (Grupo: E05)
+ ou local de entrega (Grupo: G01).
+29 B25 finNFe Finalidade de emissão da NF-e 1=NF-e normal;
+ 2=NF-e complementar;
+ 3=NF-e de ajuste;
+ 4=Devolução de mercadoria.
+ E B01 N 1-1 1 5=Nota de crédito
+ 6=Nota de débito
+
+
+29e B30 indMultaJuros Indicador de Multa e Juros 0=Indicador de Multa
+ E B01 N 0-1 1 1=Indicador de Juros
+
+29f B31 gCompraGov Grupo de Compra Governamental G B01 0-1
+29f.1 B32 tpCompraGov Tipo de compra governamental 1=União
+ 2=Estados
+ E B31 N 1-1 1 3=Distrito Federal
+ 4=Municípios
+
+
+29f.2 B33 pRedutor Percentual de redução de aliquota em compra governamental Conforme Seção XI, Art. 41 PLP
+ E B31 N 1-1 3v2-4
+ 68/2024.
+29f.3 B34 tipoNotaCredito Indicador do tipo de nota de crédito que está sendo utilizada E B01 N 0-1 1 Aguardando GT06. A definir.
+
+
+
+ Página 18 / 67
+
+[pagina 19]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+8.2. Grupo N01. ICMS Normal e ST
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+164 N01 ICMS Informações do ICMS da Operação própria e ST Informar apenas um dos grupos de tributação do
+ CG M01 - 0-1 - ICMS (ICMS00, ICMS10, ...) (v2.0)
+
+
+
+
+8.3. Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+324.01 UB01 IBSCBSSel Informações do Imposto de Bens e Serviços -
+ IBS, Contribuição de Bens e Serviços - CBS e G H01 - 0-1 -
+ Imposto Seletivo
+324.02 UB02 seletivo Informações do Imposto Seletivo G UB01 - 0-1 -
+324.03 UB03 CST Código de Situação Tributária do Imposto Seletivo Utilizar tabela CÓDIGO DE CLASSIFICAÇÃO
+ E UB02 N 1-1 3 TRIBUTÁRIA DO IMPOSTO SELETIVO
+324.04 UB04 cClassTrib Código de Classificação Tributária do Imposto Utilizar tabela CÓDIGO DE CLASSIFICAÇÃO
+ Seletivo E UB02 C 1-1 6 TRIBUTÁRIA DO IMPOSTO SELETIVO
+324.05 UB05 gImpSel Grupo de Informações do Imposto Seletivo G UB02 - 0-1 -
+324.06 UB06 vBCImpSel Valor da Base de Cálculo do Imposto Seletivo E UB05 N 1-1 13v2
+324.07 UB07 pImpSel Alíquota do Imposto Seletivo E UB05 N 1-1 3v2-4
+324.08 UB08 pImpSelEspec Alíquota específica por unidade de medida
+ E UB05 N 0-1 3v2-4
+ apropriada
+324.09 UB09 uTrib Unidade de Medida Tributável E UB05 C 0-1 1-6
+324.10 UB10 qTrib Quantidade Tributável E UB05 N 0-1 11v0-4
+324.11 UB11 vImpSel Valor do Imposto Seletivo E UB05 N 1-1 13v2
+324.12 UB12 CST Código de Situação Tributária do IBS e CBS Utilizar tabela CÓDIGO DE CLASSIFICAÇÃO
+ E UB01 N 0-1 3 TRIBUTÁRIA DO IBS E DA CBS
+324.13 UB13 cClassTrib Código de Classificação Tributária do IBS e CBS Utilizar tabela CÓDIGO DE CLASSIFICAÇÃO
+ E UB01 C 0-1 6 TRIBUTÁRIA DO IBS E DA CBS
+324.14 UB14 indPerecimento Indicador de Perecimento, furto, roubo ou extravio “1”= Perecimento, roubo, furto ou extravio do
+ E UB01 C 0-1 1
+ item
+324.15 UB15 gIBSCBS Grupo de Informações do IBS, CBS e Imposto
+ CG UB01 1-1
+ Seletivo
+324.16 UB16 vBC Base de cálculo do IBS e CBS E UB15 N 1-1 3v2-4
+
+ Página 19 / 67
+
+[pagina 20]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+324.17 UB17 gIBSUF Grupo de Informações do IBS para a UF G UB15 - 1-1 -
+324.18 UB18 pIBSUF Alíquota do IBS de competência das UF E UB17 N 1-1 3v2-4 Alíquota vigente do IBS da UF
+324.19 UB19 -x- Sequencia XML G UB17 - 0-1 -
+324.20 UB20 vTribOP Valor bruto do tributo na operação Valor do tributo considerando BC x Alq do IBS,
+ E UB19 N 1-1 13v2 sem considerar qualquer desoneração.
+324.21 UB21 gDif Grupo de Informações do Diferimento G UB19 0-1
+324.22 UB22 pDif Percentual do diferimento E UB21 N 1-1 3v2-4
+324.23 UB23 vDif Valor do Diferimento E UB21 N 1-1 13v2
+324.24 UB24 gDevTrib Grupo de Informações da devolução de tributos G UB19 0-1
+324.25 UB25 vDevTrib Valor do tributo devolvido Valor do tributo devolvido. No fornecimento de
+ E UB24 N 1-1 13v2 energia elétrica, água, esgoto e gás natural e
+ em outras hipóteses definidas no regulamento
+324.26 UB26 gRed Grupo de informações da redução da alíquota G UB17 - 0-1 -
+324.27 UB27 pRedAliq Percentual da redução de alíquota E UB26 N 1-1 3v2-4
+324.28 UB28 pAliqEfet Aliquota Efetiva do IBS de competência das UF Alíquota efetiva, após aplicação da redução de
+ E UB26 N 1-1 3v2-4
+ que será aplicada a Base de Cálculo alíquota.
+324.29 UB29 gDeson Grupo de informações da Desoneração Grupo de informações da Desoneração.
+ Exemplo 1: Art. 442, §4. Operações com ZFM
+ G UB17 - 0-1 -
+ e ALC. Exemplo 2: Operações com
+ suspensão do tributo.
+324.30 UB30 CST Código de Situação Tributária do IBS e CBS Informado como se a operação fosse tributada
+ integralmente. Utilizar tabela CÓDIGO DE
+ E UB29 N 0-1 3
+ CLASSIFICAÇÃO TRIBUTÁRIA DO IBS E DA
+ CBS
+324.31 UB31 cClassTrib Código de Classificação Tributária do IBS e CBS Informado como se a operação fosse tributada
+ integralmente. Utilizar tabela CÓDIGO DE
+ E UB29 C 0-1 6
+ CLASSIFICAÇÃO TRIBUTÁRIA DO IBS E DA
+ CBS
+324.32 UB32 vBC Valor da BC Info: Avaliando retirar e deixar a BC do grupo
+ E UB29 N 0-1 13v2
+ anterior
+324.33 UB33 pAliq Valor da alíquota Informado como se a operação fosse tributada
+ E UB29 N 1-1 3v2-4
+ integralmente
+324.34 UB34 vDeson Valor desonerado E UB29 N 1-1 13v2
+324.35 UB35 vIBSUF Valor do IBS de competência da UF E UB17 N 1-1 13v2
+324.36 UB36 gIBSMun Grupo de Informações do IBS para o município G UB15 - 1-1 -
+324.37 UB37 pIBSMun Alíquota do IBS de competência dos Municípios E UB36 N 1-1 3v2-4 Alíquota vigente do IBS do Município
+324.38 UB38 -x- Sequencia XML G UB41 - 0-1 -
+
+
+ Página 20 / 67
+
+[pagina 21]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+324.39 UB39 vTribOP Valor bruto do tributo na operação Valor do tributo considerando BC x Alq do IBS,
+ E UB38 N 1-1 13v2 sem considerar qualquer desoneração.
+324.40 UB40 gDif Grupo de Informações do Diferimento G UB38 0-1
+324.41 UB41 pDif Percentual do diferimento E UB40 N 1-1 3v2-4
+324.42 UB42 vDif Valor do Diferimento E UB40 N 1-1 13v2
+324.43 UB43 gDevTrib Grupo de Informações da devolução de tributos G UB38 0-1
+324.44 UB44 vDevTrib Valor do tributo devolvido Valor do tributo devolvido. No fornecimento de
+ E UB43 N 1-1 13v2 energia elétrica, água, esgoto e gás natural e
+ em outras hipóteses definidas no regulamento
+324.45 UB45 gRed Grupo de informações da redução da alíquota G UB36 - 0-1 -
+324.46 UB46 pRedAliq Percentual da redução de alíquota E UB45 N 1-1 3v2-4
+324.47 UB47 pAliqEfet Aliquota Efetiva do IBS de competência dos Alíquota efetiva, após aplicação da redução de
+ E UB45 N 1-1 3v2-4
+ Municípios que será aplicada a Base de Cálculo alíquota.
+324.48 UB48 gDeson Grupo de informações da Desoneração Grupo de informações da Desoneração.
+ Exemplo 1: Art. 442, §4. Operações com ZFM
+ G UB36 - 0-1 -
+ e ALC. Exemplo 2: Operações com
+ suspensão do tributo.
+324.49 UB49 CST Código de Situação Tributária do IBS e CBS Informado como se a operação fosse tributada
+ integralmente. Utilizar tabela CÓDIGO DE
+ E UB48 N 0-1 3
+ CLASSIFICAÇÃO TRIBUTÁRIA DO IBS E DA
+ CBS
+324.50 UB50 cClassTrib Código de Classificação Tributária do IBS e CBS Informado como se a operação fosse tributada
+ integralmente. Utilizar tabela CÓDIGO DE
+ E UB48 C 0-1 6
+ CLASSIFICAÇÃO TRIBUTÁRIA DO IBS E DA
+ CBS
+324.51 UB51 vBC Valor da BC Info: Avaliando retirar e deixar a BC do grupo
+ E UB48 N 1-1 13v2
+ anterior
+324.52 UB52 pAliq Valor da alíquota Informado como se a operação fosse tributada
+ E UB48 N 1-1 3v2-4
+ integralmente
+324.53 UB53 vDeson Valor desonerado E UB48 N 1-1 13v2
+324.54 UB54 vIBSMun Valor do IBS de competência dos Municípios E UB36 N 1-1 13v2
+
+
+
+
+ Página 21 / 67
+
+[pagina 22]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+324.55 UB55 gIBSCredPres Grupo de Informações do Crédito Presumido Grupo de Informações do Crédito Presumido
+ referente ao IBS do IBS, quando aproveitado pelo emitente do
+ documento. Exemplos: 1 - Aquisição de PR
+ não contribuinte. 2 - Tomador de serviço de
+ transporte de TAC PF não contrib. 3 -
+ G UB15 - 0-1 -
+ Aquisição de pessoa física com destino a
+ reciclagem. 4 - Aquisição de bens móveis de
+ PF não contrib. para revenda (veículos /
+ brecho). 5 - Regime opcional para
+ cooperativa.
+324.56 UB56 cCredPres Código de Classificação do Crédito Presumido Utilizar tabela CÓDIGO DE CLASSIFICAÇÃO
+ E UB55 N 1-1 2
+ DO CRÉDITO PRESUMIDO
+324.57 UB57 pCredPres Percentual do Crédito Presumido E UB55 N 1-1 3v2-4
+324.58 UB58 vCredPres Valor do Crédito Presumido E UB55 CE 1-1 13v2
+324.59 UB59 vCredPresCondSus Valor do Crédito Presumido em condição Valor do Crédito Presumido Condição
+ suspensiva. Suspensiva. Preencher apenas para
+ cClassCredPres com indicação de Condição
+ Suspensiva.
+ E UB55 CE 1-1 13v2
+ Incluir regra de validação para permitir apenas
+ com o código 4 - Aquisição de bens móveis de
+ PF não contrib. para revenda (veículos /
+ brecho).
+324.60 UB60 gCBS Grupo de Informações da CBS G UB15 - 1-1 -
+324.61 UB61 pCBS Alíquota da CBS E UB60 N 1-1 3v2-4 Alíquota vigente da CBS.
+324.62 UB62 -x- Sequencia XML G UB60 - 0-1 -
+324.63 UB63 vTribOp Valor bruto do tributo na operação Valor do tributo considerando BC x Alq da CBS,
+ E UB62 N 1-1 sem considerar qualquer desoneração.
+ Grupo de Informações do Crédito Presumido
+ da CBS, quando aproveitado pelo emitente
+ do documento. Exemplos: 1 - Aquisição de
+ PR não contribuinte. 2 - Tomador de serviço
+ Grupo de Informações do Crédito Presumido de transporte de TAC PF não contrib. 3 -
+324.64 UB64 gCBSCredPres G UB62 - 0-1
+ referente a CBS Aquisição de pessoa física com destino a
+ reciclagem. 4 - Aquisição de bens móveis de
+ PF não contrib. para revenda (veículos /
+ brecho). 5 - Regime opcional para
+ cooperativa.
+324.65 UB65 cCredPres Código de Classificação do Crédito Presumido Utilizar tabela CÓDIGO DE CLASSIFICAÇÃO
+ E UB64 N 1-1 2
+ DO CRÉDITO PRESUMIDO
+
+
+ Página 22 / 67
+
+[pagina 23]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+324.66 UB66 pCredPres Percentual do Crédito Presumido E UB64 N 1-1 3v2-4
+324.67 UB67 vCredPres Valor do Crédito Presumido E UB64 CE 1-1 13v2
+324.68 UB68 vCredPresCondSus Valor do Crédito Presumido em condição Valor do Crédito Presumido Condição
+ suspensiva. Suspensiva. Preencher apenas para
+ E UB64 CE 1-1 13v2
+ cClassCredPres com indicação de Condição
+ Suspensiva.
+324.69 UB69 gDif Grupo de Informações do Diferimento G UB62 - 0-1
+324.70 UB70 pDif Percentual do diferimento E UB69 N 1-1 3v2-4
+324.71 UB71 vDif Valor do Diferimento E UB69 N 1-1 13v2
+324.72 UB72 gDevTrib Grupo de Informações da devolução de tributos G UB62 - 0-1
+324.73 UB73 vDevTrib Valor do tributo devolvido Valor do tributo devolvido. No fornecimento de
+ E UB72 N 1-1 13v2 energia elétrica, água, esgoto e gás natural e
+ em outras hipóteses definidas no regulamento
+324.74 UB74 gRed Grupo de informações da redução da alíquota G UB60 - 0-1 -
+324.75 UB75 pRedAliq Percentual da redução de alíquota E UB74 N 1-1 3v2-4
+324.76 UB76 pAliqEfet Alíquota Efetiva da CBS que será aplicada a Base Alíquota efetiva, após aplicação da redução de
+ E UB74 N 1-1 3v2-4
+ de Cálculo alíquota.
+324.77 UB77 gDeson Grupo de informações da Desoneração UB60 Grupo de informações da Desoneração.
+ Exemplo 1: Art. 442, §4. Operações com ZFM
+ G - 0-1 -
+ e ALC. Exemplo 2: Operações com
+ suspensão do tributo.
+324.78 UB78 CST Código de Situação Tributária do IBS e CBS Informado como se a operação fosse tributada
+ integralmente. Utilizar tabela CÓDIGO DE
+ E UB77 N 0-1 3
+ CLASSIFICAÇÃO TRIBUTÁRIA DO IBS E DA
+ CBS
+324.79 UB79 cClassTrib Código de Classificação Tributária do IBS e CBS Informado como se a operação fosse tributada
+ integralmente. Utilizar tabela CÓDIGO DE
+ E UB77 C 0-1 6
+ CLASSIFICAÇÃO TRIBUTÁRIA DO IBS E DA
+ CBS
+324.80 UB80 vBC Valor da BC Info: Avaliando retirar e deixar a BC do grupo
+ E UB77 N 1-1 13v2
+ anterior
+324.81 UB81 pAliq Valor da alíquota Informado como se a operação fosse tributada
+ E UB77 N 1-1 3v2-4
+ integralmente
+324.82 UB82 vDeson Valor desonerado E UB77 N 1-1 13v2
+324.83 UB83 vCBS Valor da CBS E UB60 N 1-1 13v2
+324.84 UB84 gIBSCBSMono Grupo de Informações do IBS e CBS em Monofasia dos Combustíveis
+ CG UB01 1-1
+ operações com imposto monofásico
+
+
+
+ Página 23 / 67
+
+[pagina 24]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+324.85 UB85 qBCMono Quantidade tributada na monofasia Informar a BC quantidade conforme unidade de
+ E UB84 N 0-1 11v0-4 medida estabelecida na legislação para o
+ produto.
+324.86 UB86 adRemIBS Alíquota ad rem do IBS E UB84 N 1-1 3v2-4
+324.87 UB87 adRemCBS Alíqutoa ad rem da CBS E UB84 N 1-1 3v2-4
+324.88 UB88 vIBSMono Valor do IBS monofásico O valor do imposto é obtido pela multiplicação
+ da alíquota ad rem pela quantidade do produto
+ E UB84 N 1-1 13v2
+ conforme unidade de medida estabelecida na
+ legislação.
+324.89 UB89 vCBSMono Valor da CBS monofásica O valor do imposto é obtido pela multiplicação
+ da alíquota ad rem pela quantidade do produto
+ E UB84 N 1-1 13v2
+ conforme unidade de medida estabelecida na
+ legislação.
+324.90 UB90 -x- Sequencia XML UB84 Uso em operações com combustíveis
+ derivados de petróleo (Gasolina A) [ou *Óleo
+ G 0-1 Diesel A*] para retenção do imposto sobre o
+ biocombustível a ser misturado. Art 173 PLP
+ 68/24.
+324.91 UB91 qBCMonoReten Quantidade tributada sujeita à retenção na Informar a BC do ICMS sujeita a retenção em
+ monofasia E UB90 N 0-1 11v0-4 quantidade conforme unidade de medida
+ estabelecida na legislação para o produto.
+324.92 UB92 adRemIBSREten Alíquota ad rem do imposto sujeito a retenção E UB90 N 1-1 3v2-4
+324.93 UB93 vIBSMonoReten Valor do IBS monofásico sujeito a retenção Valor do IBS com retenção, a ser somado ao
+ E UB90 N 1-1 13v2
+ valor de IBS a ser recolhido.
+324.94 UB94 -x- Sequencia XML Uso em operações com crédito presumido.
+ Exemplo: compra de combustível por
+ G UB84 0-1 transportador de passageiros, venda para
+ órgão público, venda equiparada a
+ exportação, entre outros.
+324.95 UB95 pCredPresIBS Percentual de crédito presumido do IBS
+ E UB94 N 1-1 3v2-4
+ monofásico.
+324.96 UB96 vCRedPresIBS Valor do crédito presumido do IBS monofásico. E UB94 N 1-1 13v2
+324.97 UB97 pCredPresCBS Percentual de crédito presumido da CBS
+ E UB94 N 1-1 3v2-4
+ monofásica.
+324.98 UB98 vCredPresCBS Valor do crédito presumido da CBS monofásica. E UB94 N 1-1 13v2
+324.99 UB99 -x- Sequencia XML Operações com diferimento, aplicado aos
+ G UB84 0-1 biocombustíveis. Exemplo: operação do
+ produtor de biocombustível (usina).
+324.100 UB100 pDifIBS Percentual do diferimento do imposto monofásico. E UB99 N 1-1 3v2-4 A ser aplicado em vIBSMono.
+
+
+ Página 24 / 67
+
+[pagina 25]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+324.101 UB101 vIBSMonoDif Valor do IBS mono diferido. E UB99 N 1-1 13v2 A ser deduzido do valor do IBS.
+324.102 UB102 pDifCBS Percentual do diferimento do imposto monofásico E UB99 N 1-1 3v2-4 A ser aplicado em vCBSMono
+324.103 UB103 vCBSMonoDif Valor do CBS Mono diferido. E UB99 N 1-1 13v2 A ser deduzido do valor da CBS.
+324.104 UB104 vTotIBSMono Total de IBS Monofásico. Considerando a adição do valor de retenção e
+ E UB84 N 1-1 13v2 deduzindo a parcela diferida conforme o caso.
+324.105 UB105 vTotCBSMono Total da CBS Monofásica. Considerando a adição do valor de retenção e
+ E UB84 N 1-1 13v2 deduzindo a parcela diferida conforme o caso.
+
+
+
+
+8.4. Grupo VB. Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+325h VB01 DFeReferenciado Documento Fiscal Eletrônico Referenciado Grupo para referenciamento de itens de outro
+ G H01 0-1 1
+ DF-e.
+325i VB02 chaveAcesso Chave de acesso do DF-e referenciado E VB01 N 1-1 44 Chave de acesso do DF-e referenciado.
+325j VB03 nItem Número do item do documento referenciado. Corresponde ao atributo “nItem” do elemento “det”
+ do documento original.
+ E VB01 N 1-1 3
+ Se o documento referenciado não tiver item, indicar
+ “1”
+
+
+
+8.5. Grupo W03. Total da NF-e - IBS / CBS / IS
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+355.1 W31 IBSCBSSelTot Totais da NF-e com IBS, CBS e IS O grupo de valores totais da NF-e deve ser
+ informado com o somatório do campo
+ correspondente dos itens.
+ G A01 - 0-1 -
+ O IBS, a CBS e o IS são por fora, por isso
+ seus valores devem ser adicionados ao valor
+ total da NF.
+355.2 W32 gSel Grupo total do imposto seletivo G W31 - 0-1 -
+355.3 W33 vBCSel Total da base de cálculo do imposto seletivo E W32 N 1-1 11v0-4
+
+
+ Página 25 / 67
+
+[pagina 26]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+355.4 W34 vImpSel Total do imposto seletivo E W32 N 1-1 13v2
+355.5 W35 vBCIBSCBS Valor total da BC do IBS e da CBS E W31 N 1-1 13v2
+355.6 W36 gIBS Grupo total do IBS G W31 - 1-1 -
+355.7 W37 gIBSUFTot Grupo total do IBS da UF G W36 - 1-1 -
+355.8 W38 vDif Valor total do diferimento E W37 N 1-1 13v2
+355.9 W39 vDevTrib Valor total de devolução de tributos E W37 N 1-1 13v2
+355.10 W40 vDeson Valor total de desoneração E W37 N 1-1 13v2
+355.11 W41 vIBSUF Valor total do IBS da UF E W37 N 1-1 13v2
+355.12 W42 gIBSMunTot Grupo total do IBS do Município G W36 - 1-1 -
+355.13 W43 vDif Valor total do diferimento E W42 N 1-1 13v2
+355.14 W44 vDevTrib Valor total de devolução de tributos E W42 N 1-1 13v2
+355.15 W45 vDeson Valor total de desoneração E W42 N 1-1 13v2
+355.16 W46 vIBSMun Valor total do IBS do Município E W42 N 1-1 13v2
+355.17 W47 vIBSTot Valor total do IBS
+ E W42 N 1-1 13v2
+
+355.18 W48 vCresPres Valor total do crédito presumido
+ E W36 N 1-1 13v2
+
+355.19 W49 vCredPresCondSus Valor total do crédito presumido em condição suspensiva.
+ E W36 N 1-4 13v2
+
+355.20 W50 gCBS Grupo total da CBS
+ G W31 - 1-1 -
+
+355.21 W51 vCresPres Valor total do crédito presumido
+ E W49 N 1-1 13v2
+
+355.22 W52 vCredPresCondSus Valor total do crédito presumido em condição suspensiva.
+ E W49 N 1-4 13v2
+
+355.23 W53 vDif Valor total do diferimento
+ E W49 N 1-1 13v2
+
+355.24 W54 vDevTrib Valor total de devolução de tributos
+ E W49 N 1-1 13v2
+
+
+ Página 26 / 67
+
+[pagina 27]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+# ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+355.25 W55 vDeson Valor total de desoneração
+ E W49 N 1-1 13v2
+
+355.26 W56 vCBS Valor total da CBS
+ E W49 N 1-1 13v2
+
+355.27
+ W57 gMono Grupo total da Monofasia G W31 - 0-1 -
+
+355.28
+ W58 vTotIBSMono Total do IBS monofásico E W57 N 1-1 13v2
+
+355.29
+ W59 vTotCBSMono Total da CBS monofásica E W57 N 1-1 13v2
+
+355.30
+ W60 vTotNF Valor total da NF-e com IBS / CBS / IS E W57 N 1-1 13v2
+
+
+
+
+9. Regras de Validação
+9.1. Grupo B. Identificação da Nota Fiscal eletrônica
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Rejeição: Município do fato gerador do IBS deve ser
+ Se infomado município do fato gerador IBS (tag: cMunUFIBS) , validar se
+ B12a-20 65 Obrig. 1000 informado apenas em operação presencial fora do
+ operação é presencial fora do estabelecimento (tag: indPres = 5)
+ estabelecimento.
+ Se NF-e complementar ou de crédito (tag:finNFe=2 ou 5):
+ Rejeição: NF referenciada com UF diferente da NF-e
+ B25-60 55 – UF da NF-e referenciada diferente da UF do emitente (NF-e, NFC-e, Obrig. 678
+ complementar
+ NF modelo 1) (NT 2013/003)
+
+
+
+
+ Página 27 / 67
+
+[pagina 28]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se finalidade da NF-e igual a crédito ou débito (tag:finNFe=5 ou 6):
+ Não pode ser informado ICMS (tag: ICMS), ISSQN (tag: ISSQN), IPI
+ Rejeição: NF-e com finalidade de débito ou crédito somente
+ B25-80 55/65 (tag: IPI), II (tag: II), PIS (tag: PIS), PIS ST (tag: PISST), COFINS(tag: Obrig. 1001
+ para IBS/CBS.
+ COFINS), COFINS ST (tag: COFINSST), ICMS UF Destino (tag:
+ ICMSUFDest) e Imposto Devolvido (tag: impostoDevol).
+ Se finalidade da NF-e diferente de crédito ou débito (tag:finNFe=5 ou 6):
+ B25-90 55/65 Obrig. 1002 Rejeição: NF-e sem informação de ICMS / ISSQN.
+ Deve ser informado ICMS (tag: ICMS) ou ISSQN (tag: ISSQN).
+ Se NF-e de crédito (tag: finNF-e = 5), somente pode ser referenciada Rejeição: NF-e de cŕedito referencia documento fiscal
+ B25-100 55/65 Obrig. 1003
+ NF-e (tag: NFref/refNfe) e modelo deve ser 55. diferente de NF-e modelo 55.
+ Se NF-e de devolução de mercadoria (tag: finNF-e = 4) exige
+ Rejeição: NF-e de devolução de mercadoria exige
+ B25-110 55 referenciamento de NF-e (tag: refNFe) do item da NF-e (tag: Obrig. 1102
+ referenciamento do item da NF-e original.
+ DFeReferenciado/nItem).
+ NFC-e com entrega a domicílio (tag:indPres=4) e endereço do Rejeição: NFC-e de entrega a domicílio e não informado
+ B25b-50 65 Obrig. 1004
+ destinatário não foi informado (id: E5, grupo: enderDest) endereço do destinatário.
+
+ NFCe com operação presencial fora do estabelecimento (tag: indPres = Rejeição: Operação presencial fora do estabelecimento deve
+ B25b-60 65 Obrig. 1005
+ 5) e município do fato gerador do IBS não infomado (tag: cMunFGIBS) informar o município do fato gerador do IBS.
+
+ Se informado indicador de juros e multa (tag: indMultaJuros), validar se é Rejeição: Indicador de multa e juros deve ser informado
+ B30-10 55 Obrig. 1006
+ nota de crédito (tag: finNFe = 5) ou nota de débito (tag: finNFe = 6) somente para nota de crédito ou débito
+
+ Indicador de juros e multa (tag: indMultaJuros) exige referenciamento de Rejeição: NF-e com indicador de multa e juros exige
+ B30-20 55 Obrig. 1007
+ NF-e (tag: refNFe) do item da NF-e (tag: DFeReferenciado/nItem). referenciamento do item da NF-e original.
+ Se informado tpCompraGov (nota de compra governamental), verificar
+ se alíquota de outros entes é diferente a zero.
+ Para compra da união (tag: tpCompraGov = 1)
+ Alíquota do IBS da UF (tag: pUBSUF) deve ser igual a zero.
+ Alíquota do IBS do Município (tag: pUBSMun) deve ser igual a zero.
+ Para compra estadual (tag: tpCompraGov = 2)
+ Alíquota do IBS do Município (tag: pUBSMun) deve ser igual a zero.
+ Rejeição: Nota de compra governamental e alíquota dos
+ B32-10 55 Alíquota da CBS (tag: pCBS) deve ser igual a zero. Obrig. 1008
+ outros entes diferente de zero.
+ Para compra do DF (tag: tpCompraGov = 3)
+ Alíquota da CBS (tag: pCBS) deve ser igual a zero.
+ Para compra municipal (tag: tpCompraGov = 4)
+ Alíquota do IBS da UF (tag: pUBSUF) deve ser igual a zero.
+ Alíquota da CBS (tag: pCBS) deve ser igual a zero.
+ Observação: Conforme PLP 68/24, Art 41, § 1o e seus Incisos I, II, III e
+ IV
+
+
+ Página 28 / 67
+
+[pagina 29]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se informado tipo de nota de cŕedito (tag: tipoNotaCredito), validar se Rejeição: Tipo de nota de crédito deve ser informado apenas
+ B34-10 55 Obrig. 1009
+ finalidade = 5 (tag:finNfe) - Nota de cŕedito para nota com finalidade de nota de cŕedito.
+
+
+9.2. Grupo BA. Documento Fiscal Referenciado
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Não pode haver documento referenciado (tag: NFref), quando existe Rejeição: NF-e com referenciamento de documento e de
+ BA01-20 55/65 Obrig. 1010
+ referenciamento de item (tag: DFeReferenciado/nItem) item de documento.
+
+
+
+9.3. Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Não é permitido uso do Imposto Seletivo (grupo: seletivo) para este Rejeição: Não é permitido uso do Imposto Seletivo para
+ UB02-10 55/65 Obrig. 1011
+ cClass. esta classificação da operação.
+ Rejeição: É exigido o uso do Imposto Seletivo para esta
+ UB02-20 55/65 É exigido uso do Imposto Seletivo (grupo: seletivo) para este cClass. Obrig. 1012
+ classificação da operação.
+
+ Rejeição: É exigido o uso do Imposto Seletivo para esta
+ UB02-30 55/65 É exigido uso do Imposto Seletivo (grupo: seletivo) para este NCM. Obrig. 1013
+ classificação da operação para este NCM.
+
+ Se CST do Imposto Seletivo for informado, este deve existir na tabela de
+ UB03-10 55/65 Obrig. 1014 Rejeição: CST do Imposto Seletivo informado inexistente
+ Código de Situação Tributária (tag: seletivo/CST).
+ Se cClassTrib for informado, este deve existir na tabela de Classificação Rejeição: Classificação Tributária do Imposto Seletivo
+ UB04-10 55/65 Obrig. 1015
+ Tributária do Imposto Seletivo (tag: seletivo/cClassTrib) informada inexistente
+ Se cClassTrib informado exigir grupo do Imposto Seletivo e exigir a
+ Rejeição: CST/cClassTrib do Imposto Seletivo obriga
+ UB07-10 55/65 alíquota (tag: pImpSel) diferente de Zero e alíquota (tag: pImpSel) do Obrig. 1016
+ informação de alíquota de Imposto Seletivo
+ imposto seletivo for zero. (tag: seletivo/pImpSel).
+ Se cClassTrib informado exigir grupo do Imposto Seletivo e exigir a
+ Rejeição: Obrigatório informação de alíquota específica de
+ UB08-10 55-65 alíquota específica (tag: gImpSel/pImpSelEspec) diferente de Zero e Obrig. 1017
+ Imposto Seletivo
+ NCM do item for 2401, 2402, 2403, 2404, 2203, 2204, 2205, 2206, 2208.
+
+
+
+ Página 29 / 67
+
+[pagina 30]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se cClassTrib informado exigir grupo do Imposto Seletivo (grupo:
+ Rejeição: Unidade tributável (UTrib) e Quantidade tributável
+ UB09-10 55/65 seletivo) e unidade tributável (tag: seletivo/uTrib) e quantidade tributável Obrig. 1018
+ (QTrib) do imposto seletivo não informados.
+ (tag: seletivo/qtrib) não informadas ou iguais a zero.
+ Se informado imposto seletivo (tag: imposto/seletivo):
+
+ Valor do IS (vImpSel) = BC (tag: seletivo/vBC) * Alq (tag:
+ seletivo/pImpSel)
+ Rejeição: Valor do Imposto Seletivo diferente de Base de
+ UB11-10 55/65 Observação 1: Obrig. 1019
+ Cálculo x Alíquota
+ Se informada alíquota específica (tag: seletivo/pImpSelEspec):
+ Valor do IS (vImpSel) = qtd (tag: seletivo/vTrib) * Alq (tag:
+ seletivo/pImpSelEspec)
+
+ Observação 2: Aceitar uma tolerância de 0,01 a mais ou a menos.
+ Se CST do IBS/CBS for informado, este deve existir na tabela de Código
+ UB12-10 55/65 Obrig. 1020 Rejeição: CST do IBS/CBS informado inexistente
+ de Situação Tributária (tag: gIBSCBS/CST)
+ Se o CST do IBS/CBS (tag: gIBSCBS/CST) informado VEDAR
+ Rejeição: Grupo IBS/CBS não deve ser preenchido para o
+ UB12-20 55/65 preenchimento do grupo de informações específicas do IBS/CBS, este Obrig. 1021
+ CST informado
+ grupo NÃO DEVE estar informado (grupo: imposto/IBSCBSSel)
+ Se o CST do IBS/CBS (tag: gIBSCBS/CST) informado EXIGIR
+ Rejeição: Grupo IBS/CBS deve ser preenchido para o CST
+ UB12-30 55/65 preenchimento do grupo de informações específicas do IBS/CBS, este Obrig. 1022
+ informado
+ grupo DEVE estar informado (grupo: imposto/IBSCBSSel)
+ Se cClassTrib for informado, este deve existir na tabela de Classificação Rejeição: Classificação Tributária do IBS/CBS informada
+ UB13-10 55/65 Obrig. 1023
+ Tributária do IBS/CBS (tag: gIBSCBS/cClassTrib) inexistente
+ cClassTrib (tag: gIBSCBS/cClassTrib) for informado deve ser compatível Rejeição: Rejeição: Classificação Tributária incompatível
+ UB13-20 55/65 Obrig. 1024
+ com CST (tag: gIBSCBS/CST) com o CST informado
+ Indicador de perecimento (tag: indPerecimento = 1) apenas para NF-e Rejeição: Indicador de perecimento deve ser infomado
+ UB14-10 55/65 modelo 55 e tipo de operação de saída (tag: tpNF = 1) e CNPJ / CPF do Obrig. 1025 apenas para NF-e operação de saída para o próprio
+ emitente igual ao CNPJ / CPF do destinatário. contribuinte.
+ Alíquota do IBS da UF (tag: pIBSUF) deve ser igual a 0,1% para Rejeição: Alíiquota do IBS da UF deve ser igual a 0,1%
+ UB18-10 55/65 Obrig. 1026
+ documento com data de emissão no ano de 2026. Art 342 PL 68/24. para documento emitido em 2026
+ Alíiquota do IBS da UF (tag: pIBSUF) deve ser igual a 0,05% para
+ Rejeição: Alíiquota do IBS da UF deve ser igual a 0,05%
+ UB18-20 55/65 documento com data de emissão nos anos de 2027 e 2028. Art 343 PL Obrig. 1027
+ para documento emitido em 2027 e 2028
+ 68/24.
+
+
+
+
+ Página 30 / 67
+
+[pagina 31]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se informado grupo IBS de competência das Unidades Federadas
+ (gIBSUF)
+ O valor bruto do tributo do IBS das UF deve ser igual à multiplicação da
+ Base de Cálculo pela Alíquota.
+ Rejeição: NF-e com valor bruto do tributo do IBS das UFs
+ UB20-10 55/65 Obrig. 1028
+ calculado incorretamente.
+ vTribOP (tag: gIBSUF/vTribOP) = vBC (tag: gIBSCBS/vBC) * pIBSUF
+ (tag: gIBSUF/pIBSUF)
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos.
+ Rejeição: Não é permitido o uso de Diferimento para esta
+ UB22-10 55/65 Não é permitido o uso de diferimento (grupo: gDif) para este cClassTrib Obrig. 1029
+ classificação da operação.
+ Rejeição: É exigido o uso de Diferimento da UF para esta
+ UB22-20 55/65 É exigido o uso de diferimento da UF (grupo: gDif) para este cClassTrib Obrig. 1030
+ classificação da operação.
+ Se informado grupo do Diferimento (gIBSUF/gDif):
+ O valor do Diferimento (vDif) deverá ser resultante da Base de Cálculo x
+ Rejeição: Valor do Diferimento da UF diferente de Base de
+ UB23-10 55/65 Percentual do Diferimento (vBC x pDif) Obrig. 1031
+ Cálculo x Percentual
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+ Não é permitido o uso de redução de alíquota (grupo: gRed) para este Rejeição: Não é permitido o uso de Redução de Alíquota
+ UB26-10 55/65 Obrig. 1032
+ cClassTrib. para esta classificação da operação.
+ É exigido o uso de redução de alíquota (grupo: gRed) para este Rejeição: É exigido o uso de Redução de Alíquota para
+ UB26-20 55/65 Obrig. 1033
+ cClassTrib esta classificação da operação.
+ Se informado grupo de Redução de Alíquota (gIBSUF/gRed):
+ Rejeição: Percentual de redução de alíquota da UF não é
+ UB27-10 55/65 Percentual de Redução de Alíquota (pRedAliq) não é válido para este Obrig. 1034
+ válido para este cClassTrib
+ cClassTrib (IBSCBSSel/cClassTrib)
+
+ Se informado grupo de Redução de Alíquota (gIBSUF/gRed):
+ Alíquota Efetiva (tag: pAliqEfet) deve ser o resultado da aplicação do
+ percentual de redução da alíquota (tag: pRedAliq) na alíquota do IBS da
+ UF (tag: pIBSUF).
+ Exemplo: Rejeição: Valor da Alíquota Efetiva do IBS da UF calculado
+ UB28-10 55/65 Obrig. 1035
+ Redução de 40% na alíquota: incorretamente
+ Alíquota vigente (A): 10%
+ Redução na alíquota (R): 40%
+ Alíquota Efetiva (E): E = A * (1 - R)
+ E = 10 * (1 - 0,4) = 6
+
+
+
+ Página 31 / 67
+
+[pagina 32]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Não é permitido o uso de desoneração (grupo: gDeson) para este Rejeição: Não é permitido o uso de Desoneração para esta
+ UB29-10 55/65 Obrig. 1036
+ cClassTrib. classificação da operação.
+
+ Rejeição: É exigido o uso de Desoneração da UF para esta
+ UB29-20 55/65 É exigido o uso de desoneração (grupo: gDeson) para este cClassTrib. Obrig. 1037
+ classificação da operação.
+ Se informado grupo da desoneração (gIBSUF/gDeson):
+ Rejeição: CST informado na desoneração da UF
+ UB30-10 55/65 O CST for informado, este deve existir na tabela de Classificação Obrig. 1038
+ inexistente
+ Tributária do IBS/CBS (tag: gDeson/CST)
+ Se informado grupo da desoneração (gIBSUF/gDeson):
+ Rejeição: Classificação Tributária informada na
+ UB31-10 55/65 O cClassTrib for informado, este deve existir na tabela de Classificação Obrig. 1039
+ desoneração da UF inexistente
+ Tributária do IBS/CBS (tag: gDeson/cClassTrib)
+ Se informado grupo da desoneração (gIBSUF/gDeson):
+ O valor desonerado (vDeson) deverá ser resultante da Base de Cálculo x
+ Rejeição: Valor Desonerado do Município diferente de Base
+ UB34-10 55/65 Aliquota (gDeson/vBC x gDeson/pAliq) Obrig. 1040
+ de Cálculo x Alíquota
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+
+ Se informado grupo IBS de competência das Unidades Federadas
+ (gIBSUF):
+
+ O valor do IBS (vIBSUF) deverá ser resultante da Base de Cálculo x
+ Alíquota (vBC [tag: gIBSCBS/vBC] x pIBSUF) - vCredPres - vDif -
+ vDevTrib
+ Rejeição: NF-e com valor do IBS da UF calculado
+ UB35-10 55/65 Obrig. 1041
+ Observação 1: Aceitar uma tolerância de 0,01 a mais ou a menos incorretamente.
+
+ Observação 2: Em caso de preenchimento do grupo de redução (pRed)
+ a alíquota utilizada deverá ser a tag Alíquota Efetiva (pAliqEfet)
+
+ Observação 3: Conforme cClass escolhido o valor do crédito presumido
+ (vCredPres) deve ser subtraído do total do IBS.
+
+ Alíquota do IBS do município (tag: pIBSMun) deve ser igual a 0,05%
+ Rejeição: Alíquota do IBS da Município deve ser igual a
+ UB37-10 55/65 para documento com data de emissão nos anos de 2027 e 2028. Art 343 Obrig. 1042
+ 0,05% para documento emitido em 2027 e 2028
+ PL 68/24.
+
+
+
+
+ Página 32 / 67
+
+[pagina 33]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se informado grupo IBS de competência dos Municipios (gIBSMun)
+ O valor bruto do tributo do IBS dos Municípios deve ser igual à
+ multiplicação da Base de Cálculo pela Alíquota.
+ Rejeição: NF-e com valor bruto do tributo do IBS dos
+ UB39-10 55/65 Obrig. 1043
+ vTribOP (tag: gIBSMun/vTribOP) = vBC (tag: gIBSCBS/vBC) * pIBSMun Municípios calculado incorretamente.
+ (tag: gIBSMun/pIBSMun)
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos.
+ É exigido o uso de diferimento (grupo: gDif) Municipal para este Rejeição: É exigido o uso de Diferimento Municipal para
+ UB40-10 55/65 Obrig. 1044
+ cClassTrib. esta classificação da operação.
+ Se informado grupo do Diferimento (gIBSMun/gDif):
+ O valor do Diferimento (vDif) deverá ser resultante da Base de Cálculo x
+ Rejeição: Valor do Diferimento dos Municípios diferente de
+ UB42-10 55/65 Percentual do Diferimento (vBC x pDif) Obrig. 1045
+ Base de Cálculo x Percentual
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+ Se informado grupo de Redução de Alíquota (gIBSMun/gRed):
+ Rejeição: Percentual de redução de alíquota dos
+ UB46-10 55/65 Percentual de Redução de Alíquota (pRedAliq) não é válido para este Obrig. 1046
+ Municípios não é válido para este cClassTrib
+ cClassTrib (IBSCBSSel/cClassTrib)
+ Se informado grupo de Redução de Alíquota (gIBSMun/gRed):
+ O valor da alíquota efetiva (pAliqEfet) deve ser igual a aplicação da
+ redução da alíquota do IBS dos Municípios (pRedAliq) na alíquota do
+ IBS dos Municípios (pIBSMun).
+ Exemplo: Rejeição: Valor da Alíquota Efetiva do IBS dos Municípios
+ UB47-10 55/65 Obrig. 1047
+ Redução de 40% na alíquota: calculado incorretamente
+ Alíquota vigente (A): 10%
+ Redução na alíquota (R): 40%
+ Alíquota Efetiva (E): E = A * (1 - R)
+ E = 10 * (1 - 0,4) = 6
+ Código de Classificação Tributária exige informação do grupo de Rejeição: CST informado exige informação de desoneração
+ UB48-10 55/65 Obrig. 1048
+ Desoneração Municipal (gIBSMun/gDeson) dos Municípios
+ Se informado grupo da desoneração (gIBSMun/gDeson):
+ Rejeição: CST informado na desoneração dos Municípios
+ UB49-10 55/65 O CST for informado, este deve existir na tabela de Classificação Obrig. 1049
+ inexistente
+ Tributária do IBS/CBS (tag: gDeson/CST)
+ Se informado grupo da desoneração (gIBSMun/gDeson):
+ Rejeição: Classificação Tributária informada na
+ UB50-10 55/65 Se cClassTrib for informado, este deve existir na tabela de Classificação Obrig. 1050
+ desoneração dos Municípios inexistente
+ Tributária do IBS/CBS (tag: gDeson/cClassTrib)
+
+ Página 33 / 67
+
+[pagina 34]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se informado grupo da desoneração (gIBSMun/gDeson):
+ O valor desonerado (vDeson) deverá ser resultante da Base de Cálculo x
+ Rejeição: Valor Desonerado do Município diferente de Base
+ UB53-10 55/65 Aliquota (gDeson/vBC x gDeson/pAliq) Obrig. 1051
+ de Cálculo x Alíquota
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+
+ Se informado grupo IBS de competência dos Municípios (gIBSMun):
+
+ O valor do IBS (vIBSMun) deverá ser resultante da Base de Cálculo x
+ Alíquota (vBC [tag: gIBSCBS/vBC] x pIBSMun) - vCredPres - vDif -
+ vDeson - vDevTrib
+ Rejeição: NF-e com valor do IBS dos Municípios calculado
+ UB54-10 55/65 Observação 1: Aceitar uma tolerância de 0,01 a mais ou a menos Obrig. 1052
+ incorretamente.
+ Observação 2: Em caso de preenchimento do grupo de redução (pRed)
+ a alíquota utilizada deverá ser a tag Alíquota Efetiva (pAliqEfet)
+
+ Observação 3: Conforme cClass escolhido o valor do crédito presumido
+ (vCredPres) deve ser subtraído do total do IBS.
+
+ Não é permitido o uso de crédito presumido do IBS (grupo:
+ Rejeição: Não é permitido o uso de Crédito Presumido para
+ UB55-10 55/65 gIBSCredPres) para este código de classificação tributária (tag: Obrig. 1053
+ esta classificação da operação.
+ IBSCBSSel/cClassTrib).
+ É exigido o uso de crédito presumido do IBS (grupo: gIBSCredPres) para Rejeição: É exigido o uso de Crédito Presumido do IBS
+ UB55-20 55/65 Obrig. 1054
+ este código de classificação tributária (tag: IBSCBSSel/cClassTrib). para esta classificação da operação.
+ Se informado grupo do crédito presumido (grupo:
+ gIBSCBS/gIBSCredPres):
+ O valor do Crédito Presumido (tag: vCredPres) deverá ser resultante da Rejeição: Valor do Crédito Presumido do IBS diferente de
+ UB58-10 55/65 Obrig. 1055
+ Base de Cálculo x Percentual do Crédito Presumido (vBC x pCredPres) Base de Cálculo x Percentual
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+ Se informado Valor do Crédito Presumido em condição suspensiva
+ Rejeição: Valor do Crédito Presumido em condição
+ (tag:gIBSCredPres/vCredPresCondSus) , validar se código de
+ suspensiva deve ser informado somente para cCredPres =
+ UB59-10 55/65 classificação do crédito presumido (tag: gIBSCredPres/cCredPres) = 4 - Obrig. 1056
+ 4 - Aquisição de bens móveis de PF não contrib. para
+ Aquisição de bens móveis de PF não contrib. para revenda (veículos /
+ revenda (veículos / brecho).
+ brecho).
+
+
+
+
+ Página 34 / 67
+
+[pagina 35]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se informado grupo CBS (gCBS)
+ O valor bruto do tributo da CBS deve ser igual à multiplicação da Base
+ de Cálculo pela Alíquota.
+ Rejeição: NF-e com valor bruto do tributo da CBS calculado
+ UB63-10 55/65 Obrig. 1057
+ vTribOP (tag: gCBS/vTribOP) = vBC (tag: gIBSCBS/vBC) * pCBS (tag: incorretamente.
+ gCBS/pCBS)
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos.
+ É exigido o uso de crédito presumido da CBS (grupo: gCBSCredPres) Rejeição: É exigido o uso de Crédito Presumido da CBS
+ UB64-10 55/65 Obrig. 1058
+ para este cClassTrib. para esta classificação da operação.
+ Se informado grupo do crédito presumido (gCBS/gCBSCredPres):
+ O valor do Crédito Presumido (vCredPres) deverá ser resultante da Base
+ Rejeição: Valor do Crédito Presumido da CBS diferente de
+ UB67-10 55/65 de Cálculo x Percentual do Crédito Presumido (vBC x pCredPres) Obrig. 1059
+ Base de Cálculo x Percentual
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+ Se informado Valor do Crédito Presumido em condição suspensiva
+ Rejeição: Valor do Crédito Presumido em condição
+ (tag:gCBSCredPres/vCredPresCondSus) , validar se código de
+ suspensiva deve ser informado somente para cCredPres =
+ UB68-10 55/65 classificação do crédito presumido (tag: gCBSCredPres/cCredPres) = 4 - Obrig. 1060
+ 4 - Aquisição de bens móveis de PF não contrib. para
+ Aquisição de bens móveis de PF não contrib. para revenda (veículos /
+ revenda (veículos / brecho).
+ brecho).
+ É exigido o uso de diferimento (grupo: gDif) da CBS para este Rejeição: É exigido o uso de Diferimento da CBS para esta
+ UB69-10 55/65 Obrig. 1061
+ cClassTrib. classificação da operação.
+ Se informado grupo do Diferimento (gCBS/gDif):
+ O valor do Diferimento (vDif) deverá ser resultante da Base de Cálculo x
+ Rejeição: Valor do Diferimento da CBS diferente de Base
+ UB71-10 55/65 Percentual do Diferimento (vBC x pDif) Obrig. 1062
+ de Cálculo x Percentual
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+ Se informado grupo de Redução de Alíquota (gCBS/gRed):
+ Rejeição: Percentual de redução de alíquota da CBS não é
+ UB75-10 55/65 Percentual de Redução de Alíquota (pRedAliq) não é válido para este Obrig. 1063
+ válido para este cClassTrib
+ cClassTrib (IBSCBSSel/cClassTrib)
+
+
+
+
+ Página 35 / 67
+
+[pagina 36]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se informado grupo de Redução de Alíquota (gCBS/gRed):
+ O valor da alíquota efetiva (pAliqEfet) deve ser igual a aplicação da
+ redução da alíquota da CBS (pRedAliq) na alíquota da CBS (pCBS).
+ Exemplo:
+ Rejeição: Valor da Alíquota Efetiva da CBS calculado
+ UB76-10 55/65 Redução de 40% na alíquota: Obrig. 1064
+ incorretamente
+ Alíquota vigente (A): 10%
+ Redução na alíquota (R): 40%
+ Alíquota Efetiva (E): E = A * (1 - R)
+ E = 10 * (1 - 0,4) = 6
+ Código de Classificação Tributária exige informação do grupo de Rejeição: CST informado exige informação de desoneração
+ UB77-10 55/65 Obrig. 1065
+ Desoneração da CBS (gCBS/gDeson) da CBS
+ Se informado grupo da desoneração (gCBS/gDeson):
+ Rejeição: CST informado na desoneração da CBS
+ UB78-10 55/65 Se o CST for informado, este deve existir na tabela de Classificação Obrig. 1066
+ inexistente
+ Tributária do IBS/CBS (tag: gDeson/CST)
+ Se informado grupo da desoneração (gCBS/gDeson):
+ Rejeição: Classificação Tributária informada na
+ UB79-10 55/65 Se o cClassTrib for informado, este deve existir na tabela de Obrig. 1067
+ desoneração a CBS inexistente
+ Classificação Tributária do IBS/CBS (tag: gDeson/cClassTrib)
+ Se informado grupo da desoneração (gCBS/gDeson):
+ O valor desonerado (vDeson) deverá ser resultante da Base de Cálculo x
+ Rejeição: Valor Desonerado da CBS diferente de Base de
+ UB82-10 55/65 Aliquota (gDeson/vBC x gDeson/pAliq) Obrig. 1068
+ Cálculo x Alíquota
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+
+ Se informado grupo CBS (gCBS):
+
+ O valor da CBS (vCBS) deverá ser resultante da Base de Cálculo x
+ Alíquota (vBC [tag: gIBSCBS/vBC] x pCBS) - vCredPres - vDif - vDevTrib
+
+ Observação 1: Aceitar uma tolerância de 0,01 a mais ou a menos Rejeição: NF-e com valor da CBS calculado
+ UB83-10 55/65 Obrig. 1069
+ incorretamente.
+ Observação 2: Em caso de preenchimento do grupo de redução (pRed)
+ a alíquota utilizada deverá ser a tag Alíquota Efetiva (pAliqEfet)
+
+ Observação 3: Conforme cClass escolhido o valor do crédito presumido
+ (vCredPres) deve ser subtraído do total do IBS.
+
+
+
+
+ Página 36 / 67
+
+[pagina 37]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Se informado grupo do IBS e CBS monofásico (grupo: gIBSCBSMono):
+ O valor total do IBS Monofásico (tag: vTotIBSMono) deverá ser
+ resultante de: Rejeição: Valor do IBS monofásico calculado
+ UB104-10 55/65 Obrig. 1070
+ vIBSMono + vIBSMonoReten -vIBSMonoDif incorretamente.
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+
+ Se informado grupo do IBS e CBS monofásico (grupo: gIBSCBSMono):
+ O valor total da CBS Monofásica (tag: vTotCBSMono) deverá ser
+ resultante de: Rejeição: Valor da CBS monofásico calculado
+ UB105-10 55/65 Obrig. 1071
+ vCBSMono + vCBSMonoReten -vCBSMonoDif incorretamente.
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a menos
+
+
+
+
+9.4. Grupo VB. Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ Item referenciado em duplicidade.
+ VB02-10 55/65 Informado mais de uma vez uma mesma chave de acesso (tag: Obrig. 1072 Rejeição: Item referenciado em duplicidade.
+ DFeReferenciado/chaveAcesso) e item (tag: DFeReferenciado/nItem).
+ Um único documento fiscal deve ser referenciado.
+ VB02-20 55/65 Informado chaves de acesso diferentes em documento referenciado (tag: Obrig. 1072 Rejeição: Mais de um documento fiscal referenciado.
+ DFeReferenciado/chaveAcesso).
+
+
+
+9.5. Grupo W03. Total da NF-e - IBS / CBS / IS
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ O grupo de totais do IBS, CBS e IS (IBSCBSSelTot) só deve ser
+ Rejeição: Total de IBS, CBS e IS só deve ser informado se
+ W31-10 55/65 informado se existir pelo menos uma ocorrência de IBS, CBS ou Imposto Obrig. 1073
+ existir IBS/CBS declarado nos itens do DFe
+ Seletivo nos itens.
+
+ Página 37 / 67
+
+[pagina 38]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ O total da BC do imposto seletivo deverá ser a soma dos campos vBC Rejeição: Total da BC do Imposto Seletivo difere da soma
+ W33-10 55/65 Obrig. 1074
+ (tag: seletivo/vBC) informados nos itens. dos itens
+ O total do Imposto Seletivo deverá ser a soma dos campos vImpSel (tag: Rejeição: Total do Imposto Seletivo difere da soma dos
+ W34-10 55/65 Obrig. 1075
+ seletivo/vImpSel) informados nos itens. itens
+ O total da BC do IBS e da CBS de deverá ser a soma dos campos vBC Rejeição: Total da BC do IBS e da CBS difere da soma dos
+ W35-10 55/65 Obrig. 1076
+ (tag: gIBSCBS/vBC) informados nos itens itens
+ O total do diferimento do IBS UF deverá ser a soma do campo vDif do Rejeição: Total de Diferimento do IBS UF difere da soma
+ W38-10 55/65 Obrig. 1077
+ IBS UF informados nos itens dos itens
+ O total devolvido do IBS UF deverá ser a soma do campo vDevTrib do Rejeição: Total Devolvido do IBS UF difere da soma dos
+ W39-10 55/65 Obrig. 1078
+ IBS UF informados nos itens itens
+ O total desonerado do IBS UF deverá ser a soma do campo vDeson do Rejeição: Total Desonerado do IBS UF difere da soma dos
+ W40-10 55/65 Obrig. 1079
+ IBS UF informados nos itens itens
+ O total do IBS UF deverá ser a soma do campo vIBSUF informados nos
+ W41-10 55/65 Obrig. 1080 Rejeição: Total de IBS UF difere da soma dos itens
+ itens
+ O total do Diferimento do IBS Municipal deverá ser a soma do campo Rejeição: Total de Diferimento do IBS Municipal difere da
+ W43-10 55/65 Obrig. 1081
+ vDif do IBS Municipal informados nos itens soma dos itens
+ O total devolvido do IBS Municipal deverá ser a soma do campo Rejeição: Total Devolvido do IBS Municipal difere da soma
+ W44-10 55/65 Obrig. 1082
+ vDevTrib do IBS Municipal informados nos itens dos itens
+ O total desonerado do IBS Municipal deverá ser a soma do campo Rejeição: Total Desonerado do IBS Municipal difere da
+ W45-10 55/65 Obrig. 1083
+ vDeson do IBS Municipal informados nos itens soma dos itens
+ O total do IBS Municipal deverá ser a soma do campo vIBSMun
+ W46-10 55/65 Obrig. 1084 Rejeição: Total de IBS Municipal difere da soma dos itens
+ informados nos itens
+ O total do IBS deverá ser a soma do IBS das UF e do IBS Municipal Rejeição: Total do IBS difere da soma do IBS UF e IBS
+ W47-10 55/65 Obrig. 1085
+ (vIBSUF + vIBSMun) Municipal
+ O total do Crédito Presumido do IBS deverá ser a soma do campo Rejeição: Total de Crédito Presumido do IBS UF difere da
+ W48-10 55/65 Obrig. 1086
+ vCredPres do IBS informados nos itens soma dos itens
+ O total do Crédito Presumido do CBS deverá ser a soma do campo Rejeição: Total de Crédito Presumido do CBS difere da
+ W51-10 55/65 Obrig. 1087
+ vCredPres do CBS informados nos itens soma dos itens
+ O total do Diferimento do CBS deverá ser a soma do campo vDif do CBS Rejeição: Total de Diferimento do CBS difere da soma dos
+ W53-10 55/65 Obrig. 1088
+ informados nos itens itens
+ O total devolvido do CBS deverá ser a soma do campo vDevTrib do CBS
+ W54-10 55/65 Obrig. 1089 Rejeição: Total Devolvido do CBS difere da soma dos itens
+ informados nos itens
+ O total desonerado do CBS deverá ser a soma do campo vDeson do Rejeição: Total Desonerado do CBS difere da soma dos
+ W55-10 55/65 Obrig. 1090
+ CBS informados nos itens itens
+
+
+
+ Página 38 / 67
+
+[pagina 39]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Campo-
+ Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Seq
+ W56-10 55/65 O total do CBS deverá ser a soma do campo vCBS informados nos itens Obrig. 1091 Rejeição: Total de CBS difere da soma dos itens
+
+ O total do IBS monofásico deverá ser a soma dos campos
+ W58-10 55/65 Obrig. 1092 Rejeição: Total do IBS monofásico difere da soma dos itens
+ vTOTIBSMono informados nos itens
+ O total da CBS monofásica deverá ser a soma dos campos Rejeição: Total da CBS monofásica difere da soma dos
+ W59-10 55/65 Obrig. 1093
+ vTOTCBSMono informados nos itens itens
+ O total geral do DFe deverá ser a soma do total NF (grupo total/vNF) +
+ vTotIBS (IBSCBSSelTot/gIBS/vTotIBS) + vCBS
+ Rejeição: Total da NFe difere da soma do total da Nota
+ W60-10 55/65 (IBSCBSSelTot/gCBS/vCBS)+ vSel (IBSCBSSelTot/gSel/vImpSel) + Obrig. 1094
+ Fiscal, IBS, CBS e IS
+ vTotIBSMono (gIBSCBSMono/vTotIBSMono) +
+ (gIBSCBSMono/vTotCBSMono) vTotCBSMono
+
+
+
+
+3A. Banco de Dados: NF-e Referenciada
+Campo-Seq Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Para cada NF-e referenciada (tag:refNFe), se a UF da Chave de Acesso
+ referenciada for igual a UF do Emitente:
+ - Acessar BD NFE com Chave de Acesso referenciada (se mod=55)
+ - NF-e referenciada inexistente
+
+ Exceção: A NF-e referenciada pode não existir no caso de Emissão em
+ Contingência (tpEmis = 2, 4 ou 5) (NT 2013/003), desde que a Chave de
+ Rejeição: Chave de Acesso referenciada inexistente [nRef:
+ 3BA02-10 55 Acesso da NF-e referenciada tenha o Ano-Mês de Emissão inferior a 1 Facult 267
+ xxx]
+ mês da data atual ou desde que exista o EPEC (NT 2021.004). Esta
+ exceção não se aplica para NF-e com finalidade de crédito (tag: finNF-e =
+ 5).
+ Observação 1: A exceção acima não se aplica para “finNFe=2" (NF-e
+ Complementar).
+ Observação 2: Regra de validação se aplica obrigatoriamente para
+ “finNFe=5" (NF-e de cŕedito).
+
+
+
+
+ Página 39 / 67
+
+[pagina 40]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Descrição Erro
+ Se NF-e de crédito (tag: finNFe = 5) com indicador de juros / multa (tag:
+ indMultaJuros):
+ Chave de acesso referenciada deve estar autorizada ter finalidade de
+ débito (tag: finNFe = 6) e ter indicador de multa/ juros (tag:
+ indMultaJuros).
+ Nota Explicativa: Em operação entre empresas, o fornecedor pode
+ cobrar multa e juros do cliente e no valor cobrado de juros e multas, Rejeição: Nota de crédito de multa/juros deve ter NF-e de
+ incide o IBS e a CBS. débito de multa/juros referenciada.
+ 3BA02-70 55 Obrig. 1095
+ O cliente ao pagar este valor adicional pode se creditar do imposto pago.
+ Nesta situação pode ser emitida uma nota com o acerto dos juros e
+ multas.
+ A cobrança de juros e multas podem ser provenientes de atraso de
+ pagamento no boleto bancário, sem que haja uma nota para juros e
+ multas.
+ Nessa situação deve haver um evento para que o adquirente possa
+ garantir o crédito adicional, gerando um débito para o outro contribuinte.
+
+
+
+
+ Página 40 / 67
+
+[pagina 41]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+10. Eventos
+10.1. Lista de eventos
+
+Esta NT cria os eventos a seguir para a apuração do IBS e da CBS.
+
+ CÓDIGO EVENTO DE
+ CÓDIGO EVENTO Autor
+ CANC. CANCELAMENTO
+ Informação de efetivo pagamento integral para liberar crédito Cancelamento do evento
+ 112110 112111 Emitente
+ presumido do adquirente 112110
+ Cancelamento do evento
+ 211110 Solicitação de Apropriação de crédito presumido 211111 Destinatário
+ 211110
+ Cancelamento do evento
+ 211120 Destinação de item para consumo pessoal 211121 Destinatário
+ 211120
+ Cancelamento do evento
+ 211130 Imobilização de Item 211131 Destinatário
+ 211130
+ Cancelamento do evento
+ 211140 Solicitação de Apropriação de Crédito de Combustível 211141 Destinatário
+ 211140
+ Solicitação de Apropriação de Crédito de fornecimento de bem Cancelamento do evento
+ 412110 412111 Fisco
+ móvel usado 412110
+ Solicitação de Apropriação de Crédito para bens e serviços que Cancelamento do evento
+ 211150 211151 Destinatário
+ dependem de atividade do adquirente 211150
+ Manifestação sobre Pedido de Transferência de Crédito de IBS Cancelamento do evento
+ 212110 212111 Sucessora
+ em Operações de Sucessão 212110
+ Manifestação sobre Pedido de Transferência de Crédito CBS em Cancelamento do evento
+ 212120 212121 Sucessora
+ Operações de Sucessão 212120
+ Manifestação do Fisco sobre Pedido de Transferência de Crédito Cancelamento do evento
+ 412120 412121 Fisco
+ de IBS em Operações de Sucessão 412120
+ Manifestação do Fisco sobre Pedido de Transferência de Crédito Cancelamento do evento
+ 412130 412131 Fisco
+ de CBS em Operações de Sucessão 412130
+
+
+
+
+ Página 41 / 67
+
+[pagina 42]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+10.2. Registro de Eventos
+
+O Web Service de Registro de Evento possui uma parte geral, complementada por uma área específica para cada tipo de evento.
+
+A parte geral se mantém a mesma para envio de todos os eventos e está especificada na seção 5.8 do Manual de Orientação do Contribuinte e na
+seção Web Service – NFeRecepcaoEvento – Parte Geral do MOC Online.
+
+A mensagem de retorno será modificada, conforme apresentado na seção 7.2.1 e o leiaute das partes específicas dos novos eventos está especificado
+nas seções seguintes.
+
+
+10.2.1. Leiaute Mensagem de Retorno da Parte Geral
+
+O Web Service de Registro de Evento possui uma interface genérica complementada por uma área específica para cada tipo de evento. Segue o
+leiaute da mensagem de retorno (resposta)
+
+Schema XML: retEnvEventoNFe_v1.0.xsd
+
+ # Campo Ele Pai Tipo Ocor. Tam. Descrição / Observações
+ R01 envEvento Raiz - - - - TAG raiz
+ R02 versão A R01 N 1-1 2v2 Versão do leiaute
+ R03 idLote E R01 N 1-1 1-15 Idem a mensagem de entrada
+ R04 tpAmb E R01 N 1-1 1 Idem a mensagem de entrada
+ R05 verAplic E R01 C 1-1 1-20 Versão da aplicação que processou o evento.
+ R06 cOrgao E R01 N 1-1 2 Órgão da recepção do Evento, idem a mensagem de entrada.
+ Código do status da resposta para o Lote de Eventos. Se não tiver erro, será
+ R07 cStat E R01 N 1-1 3
+ retornado: “128-Lote de Evento Processado“.
+ R08 xMotivo E R01 C 1-1 1-255 Descrição do status da resposta
+ R09 retEvento G R01 - 0-20 - Grupo do resultado do processamento do para cada Evento
+ R10 versão A R09 N 1-1 2v2 Versão do leiaute
+ R11 infEvento G R09 - 1-1 - Grupo de informações do registro do Evento.
+ Identificador da TAG a ser assinada, somente deve ser informado se o órgão de
+ R12 id ID R11 C 0-1 17 registro assinar a resposta. No caso de assinatura, preencher com o número do
+ protocolo, precedido pela literal “ID”.
+ R13 tpAmb E R11 C 1-1 1 Idem a mensagem de entrada
+
+
+
+ Página 42 / 67
+
+[pagina 43]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ # Campo Ele Pai Tipo Ocor. Tam. Descrição / Observações
+ Versão da aplicação que registrou o Evento, utilizar literal que permita a
+ R14 verAplic E R11 N 1-1 1-20
+ identificação do órgão, como a sigla da UF ou do órgão.
+ R15 cOrgao E R11 N 1-1 2 Idem a mensagem de entrada
+ R16 cStat E R11 N 1-1 4 Código do status da resposta.
+ R17 xMotivo E R11 C 1-1 1-255 Descrição do status da resposta
+ R18 chNFe E R11 N 1-1 44 Idem a mensagem de entrada
+ R19 tpEvento E R11 N 0-1 6 Idem a mensagem de entrada
+ R20 xEvento E R11 C 0-1 5-60 Idem a mensagem de entrada
+ R21 nSeqEvento E R11 N 0-1 1-2 Idem a mensagem de entrada
+ Data e hora de registro do evento no formato AAAA-MM-DDTHH:MM:SS TZD
+ R50 dhRegEvento E R11 D 1-1 - (formato UTC). Se o evento for rejeitado informar a data e hora de recebimento do
+ evento.
+ Número Protocolo do Evento 1 posição (1- Secretaria da Fazenda Estadual, 2-
+ R51 nProt E R11 N 0-1 15 RFB, 3-SVRS), 2 posições para o código da UF, 2 posições para o ano e 10
+ posições para o sequencial no ano.
+ Assinatura Digital do documento XML, a assinatura deverá ser aplicada no
+ P91 Signature G R09 XML 1-1 1
+ elemento infEvento.
+
+
+
+10.2.2. Evento: Informação de efetivo pagamento integral para liberar crédito presumido do adquirente
+
+Função: Permitir que o emitente da NFe informe o efetivo pagamento integral a fim de liberar crédito presumido do adquirente
+Modelo: NF-e modelo 55
+Autor do Evento: Emitente da NFe (emitente)
+Código do Tipo de Evento: 112110
+
+10.2.2.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+
+
+
+ Página 43 / 67
+
+[pagina 44]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e112110_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 85 Descrição do evento: "Informação de efetivo pagamento integral para liberar crédito presumido do adquirente"
+P20 cOrgaoAutor E P17 N 1-1 2 Código do Órgão Autor do Evento. Informar o Código da UF para este Evento.
+ Informar 1=Empresa emitente.
+P21 tpAutor E P17 N 1-1 1
+ Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco; 6=RFB; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 indQuitacao E P17 N 1-1 1 Indicador de efetiva quitação do pagamento integral referente a NFe referenciada. Valor deve ser igual a "1"
+
+
+
+10.2.2.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.3. Evento: Solicitação de Apropriação de crédito presumido
+
+Função: Evento a ser gerado pelo adquirente em relação às notas fiscais de aquisição de emissão de terceiros e que lhe gerem o direito à apropriação
+de crédito presumido.
+Autor: Adquirente/Destinatário (quando os dois estiverem preenchidos, devem ser iguais) da nota fiscal
+Modelo: NF-e modelo 55
+Código do Tipo de Evento: 211110
+
+10.2.3.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+
+
+ Página 44 / 67
+
+[pagina 45]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e211110_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 47 Descrição do evento: "Solicitação de Apropriação de crédito presumido"
+P20 cOrgaoAutor E P17 N 1-1 2 Código do Órgão Autor do Evento. Informar o Código da UF para este Evento.
+ Informar 1=Empresa emitente.
+P21 tpAutor E P17 N 1-1 1 Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco;
+ 6=RFB; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 gCredPres G P17 N 1-N - Informações de crédito presumido por item
+P24 nitem A P23 N 1-1 1-3 Corresponde ao atributo “nItem” do elemento “det” do documento referenciado.
+P25 vBC A P23 N 1-1 1 Valor do base de cálculo do item
+P26 gIBS G P23 0-1 - Grupo de Informações do Crédito Presumido do IBS
+ Código de Classificação do Crédito presumido, conforme tabela de
+P27 cCredPres E P27 N 1-1 2
+ CÓDIGO DE CLASSIFICAÇÃO DO CRÉDITO PRESUMIDO
+P28 pCredPres E P27 N 1-1 3v2-4 Percentual do Crédito Presumido
+P29 vCredPres E P27 N 1-1 13v2 Valor do Crédito Presumido
+
+10.2.3.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.3.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+
+
+
+ Página 45 / 67
+
+[pagina 46]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+
+# Regra de Validação Aplic. Msg Descrição Erro
+Banco de Dados: NF-e
+ Se tpAutor=2-Empresa Destinatário:
+2P21-10 - CNPJ/CPF do Autor diverge do CNPJ/CPF do Obrig. 575 Rejeição: Autor do evento diverge do destinatário da NF-e
+ Destinatário da NF-e
+ Acessar BD e verificar se número do item do evento (tag:
+2P24-10 gCredPres/nItem) informado existe na NFe referenciada (tag: Obrig. 1096 Rejeição: Número de item não existe na NFe
+ det/nItem)
+
+
+
+10.2.4. Evento: Destinação de item para consumo pessoal
+
+Função: Permitir ao adquirente informar quando uma aquisição for destinada para o consumo de pessoa física, hipótese em que não haverá direito à
+apropriação de crédito.
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NF-e. A mensagem XML do evento será assinada com o certificado digital que tenha o CNPJ-Base (8 primeiras
+posições do CNPJ) ou CPF do Destinatário da NF-e.
+Código do Tipo de Evento: 211120
+
+10.2.4.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+
+
+
+ Página 46 / 67
+
+[pagina 47]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e211120_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 39 Descrição do evento: "Destinação de item para consumo pessoal"
+P20 cOrgaoAutor E P17 N 1-1 2 Código do Órgão Autor do Evento. Informar o Código da UF para este Evento.
+ Informar 2=Empresa destinatária.
+ Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco;
+P21 tpAutor E P17 N 1-1 1 6=RFB; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 gConsumo G P17 N 1-N 1 Informações de crédito a ser estornado por item
+P24 nItem A P23 N 1-1 1 Corresponde ao atributo “nItem” do elemento “det” do documento referenciado.
+P25 vIBS A P23 N 1-1 13v2 Valor do IBS a ser estornado
+P26 vCBS A P23 N 1-1 13v2 Valor da CBS a ser estornado
+P27 gControleEstoque G P23 N 1-1 1 Informações de crédito presumido por item
+P28 qConsumo E P27 N 1-1 11v0-4 Informar a quantidade para consumo de pessoa física
+P29 uConsumo E P27 C 1-1 1-6 Informar a unidade relativa ao campo gConsumo
+
+
+
+10.2.4.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+
+
+ Página 47 / 67
+
+[pagina 48]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+10.2.4.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+# Regra de Validação Aplic. Msg Descrição Erro
+ Se tpAutor=2-Empresa Destinatário:
+2P21-10 - CNPJ/CPF do Autor diverge do CNPJ/CPF do Obrig. 575 Rejeição: Autor do evento diverge do destinatário da NF-e
+ Destinatário da NF-e
+ Acessar BD e verificar se número do item do evento (tag:
+2P24-10 gconsumo/nItem) informado existe na NFe referenciada (tag: Obrig. 1096 Rejeição: Número de item não existe na NFe
+ det/nItem)
+ Acessar BD e verificar se valor do IBS do evento (tag:
+ Rejeição: O valor do IBS do item não pode ser maior que o valor do IBS
+ gConsumo/vIBS) é maior que o valor do IBS do item Obrig. 1097
+ do respectivo item na NFe.
+2P25-10 informado na NFe
+ Acessar BD e verificar se valor da CBS do evento (tag:
+ Rejeição: O valor da CBS do item não pode ser maior que o valor da CBS
+ gConsumo/vCBS) é maior que o valor da CBS do item Obrig. 1098
+ do respectivo item na NFe.
+2P26-10 informado na NFe
+ Se unidade de consumo for igual a unidade da nota, acessar
+ BD e verificar se a quantidade de consumo do item informado Rejeição: A quantidade de consumo não pode ser maior que a quantidade
+2P28-10 Obrig. 1099
+ (tag: gControleEstoque/qConsumo) é maior que a quantidade do respectivo item na NFe (qCom)
+ no item da NFe (tag: det/prod/qCom)
+
+
+
+10.2.5. Evento: Imobilização de Item
+
+Função: Evento a ser gerado pelo adquirente de bem, quando este for integrado ao seu ativo imobilizado, a fim de viabilizar a adequada identificação,
+pelos sistemas da administração tributária, de prazo-limite para apreciação de eventuais pedidos de ressarcimento do respectivo crédito, nos termos
+do art. 59, I do PLP 68/2024.
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NF-e (Adquirente). A mensagem XML do evento será assinada com o certificado digital que tenha o CNPJ-Base (8
+primeiras posições do CNPJ) ou CPF do Destinatário da NF-e.
+Código do Tipo de Evento: 211130
+
+
+
+
+ Página 48 / 67
+
+[pagina 49]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+10.2.5.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e211130_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 5-60 Descrição do evento: "Imobilização de Item"
+P20 cOrgaoAutor E P17 N 1-1 2 Código da UF do emitente do Evento
+
+ Informar 2=Empresa destinatária.
+ Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco;
+P21 tpAutor E P17 N 1-1 1 6=RFB; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+ P23 gImobilizacao G P17 N 1-N 1 Informações de itens integrados ao ativo imobilizado
+P24 nitem A P23 N 1-1 1 Corresponde ao atributo “nItem” do elemento “det” do documento referenciado.
+P25 vIBS A P23 N 1-1 13v2 Valor do IBS relativo a imobilização
+P26 vCBS A P23 N 1-1 13v2 Valor da CBS relativo a imobilização
+P26 gControleEstoque G P26 N 1-1 1 Informações de crédito presumido por item
+P27 qImobilizada E P26 N 1-1 11v0-4 Informar a quantidade do item a ser imabilizado
+P28 uImobilizada E P26 C 1-1 1-6 Informar a unidade relativa ao campo qImobilizada
+
+
+
+10.2.5.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+ Página 49 / 67
+
+[pagina 50]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+10.2.5.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+# Regra de Validação Aplic. Msg Descrição Erro
+Banco de Dados: NF-e
+ Se tpAutor=2-Empresa Destinatário: Obrig. 575 Rejeição: Autor do evento diverge do destinatário da NF-e
+2P21-10 - CNPJ/CPF do Autor diverge do CNPJ/CPF do
+ Destinatário da NF-e
+ Acessar BD e verificar se número do item do evento (tag:
+2P24-10 gImobilizacao/nItem) informado existe na NFe referenciada Obrig. 1096 Rejeição: Número de item não existe na NFe
+ (tag: det/nItem)
+ Acessar BD e verificar se valor do IBS do evento (tag:
+ Rejeição: O valor do IBS do item não pode ser maior que o valor do IBS
+ gImobilizacao/vIBS) é maior que o valor do IBS do item Obrig. 1097
+ do respectivo item na NFe.
+2P25-10 informado na NFe
+ Acessar BD e verificar se valor da CBS do evento (tag:
+ Rejeição: O valor da CBS do item não pode ser maior que o valor da CBS
+ gImobilizacao /vCBS) é maior que o valor da CBS do item Obrig. 1098
+ do respectivo item na NFe.
+2P26-10 informado na NFe
+ Se unidade for igual a unidade da nota, acessar BD e verificar
+ se a quantidade de consumo do item informado (tag: Rejeição: A quantidade de consumo não pode ser maior que a quantidade
+2P28-10 Obrig. 1100
+ gControleEstoque/qImobilizada) é maior que a quantidade no do respectivo item na NFe (qCom)
+ item da NFe (tag: det/prod/qCom)
+
+
+
+10.2.6. Evento: Solicitação de Apropriação de Crédito de Combustível
+
+Função: Evento a ser gerado pelo adquirente de combustível listado no art. 167 do PLP 68/2024 e que pertença à cadeia produtiva desses
+combustíveis, para solicitar a apropriação de crédito referente à parcela que for consumida em sua atividade comercial.
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NF-e (Adquirente de combustível que faça parte da cadeia produtiva de combustíveis). A mensagem XML do evento
+será assinada com o certificado digital que tenha o CNPJ-Base (8 primeiras posições do CNPJ) ou CPF do Destinatário da NF-e.
+Código do Tipo de Evento: 211140
+
+10.2.6.1. Leiaute Mensagem de Entrada
+
+
+
+ Página 50 / 67
+
+[pagina 51]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e211140_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 52 Descrição do evento: "Solicitação de Apropriação de Crédito de Combustível"
+P20 cOrgaoAutor E P17 N 1-1 2 Código da UF do emitente do Evento
+ Informar 2=Empresa destinatária.
+ Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco;
+P21 tpAutor E P17 N 1-1 1 6=RFB; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 gConsumoComb G P17 N 1-N 1 Informações de consumo de combustíveis
+P24 nitem A P23 N 1-1 1 Corresponde ao atributo “nItem” do elemento “det” do documento referenciado.
+P25 vIBS A P23 N 1-1 13v2 Valor do IBS relativo ao consumo de combustível
+P26 vCBS A P23 N 1-1 13v2 Valor da CBS relativo ao consumo de combustível
+P27 gControleEstoque G P26 N 1-1 1 Informações de crédito presumido por item
+P28 qComb A P27 N 1-1 11v0-4 Informar a quantidade de consumo do item
+P28 uComb G P27 N 1-N 1 Informar a unidade relativa ao campo qComb
+
+
+
+10.2.6.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.6.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+
+ Página 51 / 67
+
+[pagina 52]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+
+ # Regra de Validação Aplic. Msg Descrição Erro
+Banco de Dados: NF-e
+ Se tpAutor=2-Empresa Destinatário: Rejeição: Autor do evento diverge do destinatário da
+2P21-10 Obrig. 575
+ - CNPJ/CPF do Autor diverge do CNPJ/CPF do Destinatário da NF-e NF-e
+ Acessar BD e verificar se número do item do evento (tag:
+2P24-10 gConsumoComb/nItem) informado existe na NFe referenciada (tag: Obrig. 1096 Rejeição: Número de item não existe na NFe
+ det/nItem)
+ Acessar BD e verificar se valor do IBS do evento (tag:
+ Rejeição: O valor do IBS do item não pode ser maior
+ gConsumoComb/vIBS) é maior que o valor do IBS do item informado na Obrig. 1097
+ que o valor do IBS do respectivo item na NFe.
+2P25-10 NFe
+ Acessar BD e verificar se valor da CBSdo evento (tag:
+ Rejeição: O valor da CBS do item não pode ser maior
+ gConsumoComb/vCBS) é maior que o valor da CBS do item informado na Obrig. 1098
+ que o valor da CBS do respectivo item na NFe.
+2P26-10 NFe
+ Se unidade de consumo for igual a unidade da nota, acessar BD e verificar
+ Rejeição: A quantidade do item a ser imobilizado não
+ se a quantidade de consumo do item informado (tag:
+2P28-10 Obrig. 1101 pode ser maior que a quantidade do respectivo item na
+ gConsumoComb/qComb) é maior que a quantidade no item da NFe (tag:
+ NFe (qCom)
+ det/prod/qCom)
+
+
+
+10.2.7. Evento: Solicitação de Apropriação de Crédito de fornecimento de bem móvel usado
+
+Função: Evento a ser gerado pelo fisco sempre que for emitida nota fiscal de venda de bem móvel usado por contribuinte do regime regular de
+apuração, que referencie nota fiscal de aquisição em que tenha havido solicitação de apropriação de crédito presumido sob condição resolutória.
+Modelo: NF-e modelo 55
+Autor do Evento: Fisco (evento de propagação)
+Código do Tipo de Evento: 412110
+
+10.2.7.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+
+
+
+ Página 52 / 67
+
+[pagina 53]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e412110_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 72 Descrição do evento: "Solicitação de Apropriação de Crédito de fornecimento de bem móvel usado"
+P20 cOrgaoAutor E P17 N 1-1 2 Código da UF do emitente do Evento
+ Informar 5=Fisco.
+P21 tpAutor E P17 N 1-1 1 Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco; 6=RFB; 8= Empresa
+ sucessora; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 chaveNotaCredPres E P17 N 1-1 44 Chave da NFe com a indicação de crédito presumido apropriado
+P24 tpNF E P17 N 1-1 1 Indicação de entrada ou saída da nota com o crédito presumido apropriado.
+P25 gCredPres G P17 N 1-N - Informações de crédito presumido apropriado na saída por item
+P26 nitem A P25 N 1-1 1-3 Corresponde ao atributo “nItem” do elemento “det” do documento referenciado.
+P27 pCredPres E P25 N 1-1 3v2-4 Percentual do Crédito Presumido
+P28 vCredPres E P25 N 1-1 13v2 Valor do Crédito Presumido
+
+
+
+10.2.7.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.7.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+ # Regra de Validação Aplic. Msg Descrição Erro
+Banco de Dados: NF-e
+
+
+
+
+ Página 53 / 67
+
+[pagina 54]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+ Acessar BD e verificar se número do item do evento (tag:
+P24-10 gCredPres/nItem) informado existe na NFe referenciada Obrig. 1096 Rejeição: Número de item não existe na NFe
+ (tag: det/nItem)
+
+10.2.8. Evento: Solicitação de Apropriação de Crédito para bens e serviços que dependem de atividade do adquirente
+
+Função: Evento a ser gerado pelo adquirente para apropriação de crédito de bens e serviços que dependam da sua atividade
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NFe (adquirente). A mensagem XML do evento será assinada com o certificado digital que tenha o CNPJ-Base (8
+primeiras posições do CNPJ) ou CPF do Destinatário da NF-e.
+Código do Tipo de Evento: 211150
+
+10.2.8.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e211150_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 98 Descrição do evento: "Solicitação de Apropriação de Crédito para bens e serviços que dependem de atividade do adquirente"
+P20 cOrgaoAutor E P17 N 1-1 2 Código da UF do emitente do Evento
+ Informar 2=Empresa destinatária.
+P21 tpAutor E P17 N 1-1 1 Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco; 6=RFB; 8= Empresa sucessora; 9=Outros
+ Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 gCredito G P17 N 1-N 1 Informações de crédito
+P24 nitem A P23 N 1-1 1 Corresponde ao atributo “nItem” do elemento “det” do documento referenciado.
+P25 vCredIBS E P23 N 1-1 13v2 Valor da solicitação de crédito a ser apropriado de IBS
+P26 vCredCBS E P23 N 1-1 13v2 Valor da solicitação de crédito a ser apropriado de CBS
+
+
+
+
+ Página 54 / 67
+
+[pagina 55]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+10.2.8.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.8.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+ # Regra de Validação Aplic. Msg Descrição Erro
+Banco de Dados: NF-e
+ Se tpAutor=2-Empresa Destinatário:
+2P21-10 - CNPJ/CPF do Autor diverge do CNPJ/CPF do Destinatário da Obrig. 575 Rejeição: Autor do evento diverge do destinatário da NF-e
+ NF-e
+ Acessar BD e verificar se número do item do evento (tag:
+P24-10 gCredito/nItem) informado existe na NFe referenciada (tag: Obrig. 1096 Rejeição: Número de item não existe na NFe
+ det/nItem)
+ Acessar BD e verificar se valor do crédito de IBS do evento (tag:
+ Rejeição: O valor do crédito de IBS do item não pode ser
+ gCredito/vCredIBS) é maior que o valor do IBS do item informado Obrig. 1097
+ maior que o valor do IBS do respectivo item na NFe.
+P25-10 na NFe
+ Acessar BD e verificar se valor do crédito de CBS do evento (tag:
+ Rejeição: O valor do crédito de CBS do item não pode ser
+ gCredito/vCredCBS) é maior que o valor do IBS do item informado Obrig. 1098
+ maior que o valor da CBS do respectivo item na NFe.
+P26-10 na NFe
+
+
+
+10.2.9. Manifestação sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão
+
+Função: Evento a ser gerado pela sucessora em relação às notas fiscais de transferência de crédito de outra sucessora da mesma empresa sucedida
+para informar aceite da transferência de crédito de IBS.
+Autor: Empresa sucessora
+Modelo: NF-e modelo 55
+Código do Tipo de Evento: 212110
+
+
+
+ Página 55 / 67
+
+[pagina 56]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+10.2.9.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+
+
+
+ Página 56 / 67
+
+[pagina 57]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e212110.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 - 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+ Descrição do evento: "Manifestação sobre Pedido de Transferência de Crédito de IBS em Operações de
+P19 descEvento E P17 C 1-1 85
+ Sucessão"
+P20 cOrgaoAutor E P17 N 1-1 2 Código da UF do emitente do Evento
+ Informar 8=Empresa sucessora.
+P21 tpAutor E P17 N 1-1 1 Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco; 6=RFB; 8= Empresa sucessora;
+ 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+ Indicador de aceitação do valor de transferência para a empresa que emitiu a nota referenciada. Valores: 0 = não
+P23 indAceitacao A P17 N 1-1 1
+ aceite; 1 = aceite.
+
+
+
+10.2.9.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.10. Manifestação sobre Pedido de Transferência de Crédito CBS em Operações de Sucessão
+
+Função: Evento a ser gerado pela sucessora em relação às notas fiscais de transferência de crédito de outra sucessora da mesma empresa sucedida
+para informar aceite da transferência de crédito de CBS.
+Autor: Empresa sucessora
+Modelo: NF-e modelo 55
+Código do Tipo de Evento: 212120
+
+10.2.10.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+ Página 57 / 67
+
+[pagina 58]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e212120_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+ Descrição do evento: "Manifestação sobre Pedido de Transferência de Crédito CBS em
+P19 descEvento E P17 C 1-1 82
+ Operações de Sucessão"
+P20 cOrgaoAutor E P17 N 1-1 2 Código da UF do emitente do Evento
+ Informar 8=Empresa sucessora.
+P21 tpAutor E P17 N 1-1 1 Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco; 6=RFB; 8=
+ Empresa sucessora; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+ Indicador de aceitação do valor de transferência para a empresa que emitiu a nota referenciada.
+P23 indAceitacao A P17 N 1-1 1
+ Valores: 0 = não aceite; 1 = aceite.
+
+
+
+10.2.10.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.11. Evento: Manifestação do Fisco sobre Pedido de Transferência de Crédito de IBS em Operações de Sucessão
+
+Função: Evento a ser gerado pelo fisco em relação às notas fiscais de transferência de crédito para informar aceite ou não aceite da transferência de
+crédito de IBS.
+Autor: Fisco
+Modelo: NF-e modelo 55
+Código do Tipo de Evento: 412120
+
+10.2.11.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+ Página 58 / 67
+
+[pagina 59]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e412120_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+ Descrição do evento: "Manifestação do Fisco sobre Pedido de Transferência de Crédito de IBS em
+P19 descEvento E P17 C 1-1 94
+ Operações de Sucessão"
+P20 cOrgaoAutor E P17 N 1-1 2 Código da UF do emitente do Evento
+ Informar 5=Fisco.
+P21 tpAutor E P17 N 1-1 1 Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco; 6=RFB; 8= Empresa
+ sucessora; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+ Indicador de aceitação do valor de transferência para a empresa que emitiu a nota referenciada. Valores: 0 =
+P23 indDeferimento A P17 N 1-1 1
+ não aceite; 1 = aceite.
+P24 cMotivo E P17 N 1-1 1 1 – Falta de manifestação de todas as sucessoras. 2 – Outros
+P25 xMotivo E P17 C 1-1 500
+
+
+
+10.2.11.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.12. Manifestação do Fisco sobre Pedido de Transferência de Crédito de CBS em Operações de Sucessão
+
+Função: Evento a ser gerado pelo fisco em relação às notas fiscais de transferência de crédito para informar aceite ou não aceite da transferência de
+crédito de CBS.
+Autor: Fisco
+Modelo: NF-e modelo 55
+Código do Tipo de Evento: 412130
+
+10.2.12.1. Leiaute Mensagem de Entrada
+
+
+
+ Página 59 / 67
+
+[pagina 60]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e412130_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 94
+ Descrição do evento: "Manifestação do Fisco sobre Pedido de Transferência de Crédito de CBS em
+P20 cOrgaoAutor E P17 N 1-1 2
+ Operações de Sucessão"
+ Informar 5=Fisco.
+P21 tpAutor E P17 N 1-1 1 Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco; 6=RFB; 8= Empresa
+ sucessora; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+ Indicador de aceitação do valor de transferência para a empresa que emitiu a nota referenciada.
+P23 indDeferimento A P17 N 1-1 1
+ Valores: 0 = não aceite; 1 = aceite.
+P24 cMotivo E P17 N 1-1 1 1 – falta de manifestação de todas as sucessoras. 2 – Outros
+P25 xMotivo E P17 C 1-1 500
+
+
+
+10.2.12.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.13. Evento: Evento de cancelamento de evento do emitente
+
+Função: Permitir que o emitente da NFe efetue o cancelamento de evento de NFe.
+Modelo: NF-e modelo 55
+Autor do Evento: Emitente da NFe (emitente)
+Tipo de Evento (Código - Descrição):
+ 112111 - Cancelamento do evento 112110
+
+
+ Página 60 / 67
+
+[pagina 61]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+10.2.13.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e112XXX_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 - 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 29 Descrição do evento.
+P20 cOrgaoAutor E P17 N 1-1 2 Código do Órgão Autor do Evento. Informar o Código da UF para este Evento.
+P21 tpAutor E P17 N 1-1 1 Informar 1=Empresa emitente.
+ Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco;
+ 6=RFB; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 nProtEvento E P17 N 1-1 1 Informar o número do Protocolo de Autorização do Evento da
+ NF-e a que se refere este cancelamento.
+
+
+
+10.2.13.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+10.2.13.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+ # Regra de Validação Aplic. Msg Descrição Erro
+*** Banco de Dados: Evento 2
+ Acesso BD de Eventos (Chave: Chave de Acesso,
+4P15-10 Obrig. 459 Rejeição: Cancelamento de Evento inexistente
+ tpEvento=XXXXXX, nSeqEvento): - Evento inexistente
+
+
+ Página 61 / 67
+
+[pagina 62]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+4P23-10 Número do Protocolo não encontrado Obrig. 460 Rejeição: Protocolo do Evento difere do cadastrado
+
+10.2.14. Evento: Evento de cancelamento de evento do destinatário
+
+Função: Permitir que o destinatário da NFe efetue o cancelamento de evento de NFe.
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NF-e. A mensagem XML do evento será assinada com o certificado digital que tenha o CNPJ-Base (8 primeiras
+posições do CNPJ) ou CPF do Destinatário da NF-e.
+Tipo de Evento (Código - Descrição):
+ • 211111 - Cancelamento do evento 211110
+ • 211121 - Cancelamento do evento 211120
+ • 211131 - Cancelamento do evento 211130
+ • 211141 - Cancelamento do evento 211140
+ • 211151 - Cancelamento do evento 211150
+
+
+10.2.14.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e211XXX_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 29 Descrição do evento.
+P20 cOrgaoAutor E P17 N 1-1 2 Código do Órgão Autor do Evento. Informar o Código da UF para este Evento.
+P21 tpAutor E P17 N 1-1 1 Informar 2=Empresa destinatária.
+ Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco;
+ 6=RFB; 8= Empresa sucessora; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 nProtEvento E P17 N 1-1 1 Informar o número do Protocolo de Autorização do Evento da
+ NF-e a que se refere este cancelamento.
+
+ Página 62 / 67
+
+[pagina 63]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+
+
+10.2.14.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+
+10.2.14.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+# Regra de Validação Aplic. Msg Descrição Erro
+Banco de Dados: NF-e
+ Se tpAutor=2-Empresa Destinatário:
+2P21-10 - CNPJ/CPF do Autor diverge do Obrig. 575 Rejeição: Autor do evento diverge do destinatário da NF-e
+ CNPJ/CPF do Destinatário da NF-e
+Banco de Dados: Evento 2
+
+ Acesso BD de Eventos (Chave: Chave de
+4P15-10 Acesso, tpEvento=XXXXXX, nSeqEvento): - Obrig. 459 Rejeição: Cancelamento de Evento inexistente
+ Evento inexistente
+
+
+4P23-10 Número do Protocolo não encontrado Obrig. 460 Rejeição: Protocolo do Evento difere do cadastrado
+
+
+
+10.2.15. Evento: Evento de cancelamento de evento da sucessora
+
+Função: Permitir que a sucessora efetue o cancelamento de evento de NFe.
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NF-e. A mensagem XML do evento será assinada com o certificado digital que tenha o CNPJ-Base (8 primeiras
+posições do CNPJ) ou CPF do Destinatário da NF-e.
+Tipo de Evento (Código - Descrição):
+ Página 63 / 67
+
+[pagina 64]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+ • 212111 - Cancelamento do evento 212110
+ • 212121 - Cancelamento do evento 212120
+
+10.2.15.1. Leiaute Mensagem de Entrada
+
+Entrada: Estrutura XML da parte específica do evento, a ser inserida na tag detEvento (P17) da Parte Geral do Web Service de Registro de Eventos
+especificada na seção Erro! Fonte de referência não encontrada. do MOC.
+
+Schema XML: envEventoNFe_v9.99.xsd
+Schema XML - parte específica: e212XXX_v1.00.xsd
+
+# Campo Ele Pai Tipo Ocor. Tam. Descrição/Observação
+P17 detEvento G P06 1-1 - Detalhes do Evento
+P18 versao A P17 N 1-1 2v2 Versão do leiaute do evento (P16)
+P19 descEvento E P17 C 1-1 29 Descrição do evento.
+P20 cOrgaoAutor E P17 N 1-1 2 Código do Órgão Autor do Evento. Informar o Código da UF para este Evento.
+P21 tpAutor E P17 N 1-1 1 Informar 8=Empresa sucessora.
+ Valores: 1=Empresa Emitente, 2=Empresa destinatária; 3=Empresa; 5=Fisco;
+ 6=RFB; 8= Empresa sucessora; 9=Outros Órgãos.
+P22 verAplic E P17 N 1-1 1-20 Versão do aplicativo do autor do evento.
+P23 nProtEvento E P17 N 1-1 1 Informar o número do Protocolo de Autorização do Evento da
+ NF-e a que se refere este cancelamento.
+
+
+
+10.2.15.2. Leiaute Mensagem de Retorno
+
+Retorno: Estrutura XML com a mensagem do resultado da transmissão, conforme retorno do Web Service de Registro de Eventos – Parte Geral,
+especificado no item 7.2.1.
+
+10.2.15.3. Validação das Regras de Negócio – Específicas
+
+Serão aplicadas as regras de validação gerais apresentadas no item Erro! Fonte de referência não encontrada. do MOC e as regras de negócio
+específicas listadas a seguir.
+
+ # Regra de Validação Aplic. Msg Descrição Erro
+
+ Página 64 / 67
+
+[pagina 65]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+Banco de Dados: Evento 2
+ Acesso BD de Eventos (Chave: Chave de Acesso,
+4P15-10 Obrig. 459 Rejeição: Cancelamento de Evento inexistente
+ tpEvento=XXXXXX, nSeqEvento): - Evento inexistente
+4P23-10 Número do Protocolo não encontrado Obrig. 460 Rejeição: Protocolo do Evento difere do cadastrado
+
+
+11. DANFE
+Alterações no DANFE para exibir informações relativas aos novos tributos estão em estudo, e serão
+publicadas em uma nova versão desta Nota Técnica.
+
+
+
+
+ Página 65 / 67
+
+[pagina 66]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+ ANEXO I
+ NCM DO IMPOSTO SELETIVO
+Link para a tabela:
+
+https://docs.google.com/spreadsheets/d/1TnXQPmAgAyvOgSIznmw1oxdVmvUIqkYTMH0Xxbepby8/edit?usp=sharing
+
+
+
+
+ ANEXO II
+ CÓDIGO DE CLASSIFICAÇÃO TRIBUTÁRIA DO IMPOSTO SELETIVO
+
+Tabela a ser publicada.
+
+
+
+
+ ANEXO III
+ CÓDIGO DE CLASSIFICAÇÃO TRIBUTÁRIA DO IBS E DA CBS
+
+
+Tabela a ser publicada.
+
+
+
+
+ Página 66 / 67
+
+[pagina 67]
+Nota Fiscal Eletrônica - NF-e
+Reforma Tributária - Emenda Constitucional 132/2023
+NT 2024.002 Versão 1.10
+
+
+ ANEXO IV
+ CÓDIGO DE CLASSIFICAÇÃO DO CRÉDITO PRESUMIDO
+
+
+Tabela a ser publicada.
+
+
+
+
+ Página 67 / 67

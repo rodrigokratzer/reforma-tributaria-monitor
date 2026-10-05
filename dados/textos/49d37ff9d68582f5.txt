@@ -1,0 +1,33 @@
+O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) comunicam a disponibilização do pacote técnico atualizado “06-Arquivos XSD (Produção Restrita - Empresas Piloto)”, destinado aos contribuintes e desenvolvedores participantes do ambiente de produção restrita da Declaração de Regimes Específicos (DeRE).
+
+A atualização promove a ampliação da capacidade volumétrica do grupo {infoConta} em dois eventos:
+
+Evento D-1011 – Plano Geral de Contas Comentado (v.1.0.3): expansão do limite de ocorrências (`maxOccurs`) de 50.000 para 150.000 contas;
+
+Evento D-1101 – Balancete Mensal (v.1.0.1): expansão do limite de ocorrências (`maxOccurs`) de 10.000 para 90.000 contas.
+
+Cronograma de Disponibilização e Vigência
+
+Segunda-feira à noite (21/09/2026): Atualização dos esquemas nos servidores do ambiente de Produção Restrita;
+
+Terça-feira (22/09/2026): Início da vigência e recepção oficial dos arquivos XML com os novos limites volumétricos.
+
+ 
+
+Orientações Técnicas
+
+As alterações limitam-se estritamente à cardinalidade máxima (`maxOccurs`) do grupo `{infoConta}`, permanecendo inalteradas as regras de negócio, tipos de dados e os demais campos dos leiautes. As empresas participantes devem atualizar seus esquemas locais para evitar rejeições a partir de terça-feira (22/09/2026).
+
+ 
+
+Acesso aos Arquivos
+
+O arquivo 06 Arquivos XSD (Produção Restrita Empresas Piloto) está disponível na página oficial da DeRE.
+
+Para acessar os documentos técnicos, clique aqui.
+
+ 
+
+Comitê Gestor do Imposto sobre Bens e Serviços
+
+Secretaria Especial da Receita Federal do Brasil

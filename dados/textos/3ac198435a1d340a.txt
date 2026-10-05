@@ -1,0 +1,247 @@
+Receita Federal e o CGIBS informam que foi aprovado o Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026, em cumprimento ao art. 112 do Decreto nº 12.955/2026 (Regulamento da CBS) e da Resolução CGIBS nº 06/2026 (Regulamento do IBS).
+
+Esse ato divulga o cronograma de obrigatoriedade de emissão dos documentos fiscais e de publicação dos leiautes nos termos a seguir descritos.
+
+As datas previstas para publicação dos leiautes representam a expectativa de entrega e serão referência para o planejamento dos contribuintes e desenvolvedores. Excepcionalmente, em função de necessidades técnicas ou operacionais supervenientes, poderá haver ajuste pontual em determinadas datas, sem prejuízo do compromisso da Receita Federal e do CGIBS com a implementação tempestiva da Reforma Tributária do Consumo. O calendário considera a especificidade dos diversos setores econômicos envolvidos, a necessidade de adequação dos sistemas emissores e a realização de testes prévios pelos contribuintes.
+
+DF-e
+
+Especificidade
+
+Início da obrigatoriedade
+
+Publicação dos leiautes
+
+Bilhete de Passagem Eletrônico - BP-e
+
+Transporte de passageiros, exceto transportes aéreo, urbano, semiurbano e metropolitano
+
+03/08/2026
+
+Já publicado
+
+Conhecimento de Transporte Eletrônico – CT-e
+
+Transporte de carga intermunicipal e interestadual
+
+03/08/2026
+
+Já publicado
+
+Conhecimento de Transporte Eletrônico Para Outros Serviços – CT-e OS
+
+Transporte de pessoas por agência de viagem ou transportadoras, transporte de valores e excesso de bagagem
+
+03/08/2026
+
+Já publicado
+
+Declaração de Conteúdo eletrônica – DC-e
+
+ Bens transportados sem a obrigação de emissão de outro documento fiscal
+
+03/08/2026
+
+Já publicado
+
+Guia de Transporte de Valores Eletrônica – GTV-e
+
+Transporte de valores intermunicipal e interestadual
+
+03/08/2026
+
+Já publicado
+
+Manifesto Eletrônico de Documentos Fiscais – MDF-e
+
+Controle do transporte de cargas, reunindo informações dos documentos fiscais da operação ou do transporte próprio.
+
+03/08/2026
+
+Já publicado
+
+Nota Fiscal de Energia Elétrica Eletrônica – NF3e
+
+ Fornecimento de energia elétrica ao consumidor.
+
+03/08/2026
+
+Já publicado
+
+Nota Fiscal eletrônica - NF-e
+
+Fornecimento de bens materiais e outros fornecimentos específicos
+
+03/08/2026
+
+Já publicado
+
+Nota Fiscal de Consumidor Eletrônica - NFC-e
+
+Fornecimento de bens  no comércio varejista
+
+03/08/2026
+
+Já publicado
+
+Nota Fiscal de Serviço eletrônica de Exploração de Via – NFS-e Via
+
+Cobrança de pedágio pela utilização de vias.
+
+03/08/2026
+
+Já publicado
+
+Nota Fiscal de Serviços Eletrônica – NFS-e, exceto serviços específicos
+
+Prestação de serviços em geral sem obrigatoriedade específica, sujeitos ao ISS
+
+01/10/2026
+
+Já publicado
+
+Nota Fiscal Fatura de Serviços de Comunicação Eletrônica – NFCom
+
+Prestação de serviços de comunicação
+
+01/10/2026
+
+Já publicado
+
+Declaração de Importação de Remessa (DIR)
+
+Declaração para registro da entrada de encomendas internacionais.
+
+01/10/2026
+
+03/08/2026
+
+Declaração de Regimes Específicos – DeRE 1ª Fase
+
+Eventos de Tabela dos Contribuintes
+
+01/10/2026
+
+Já publicado
+
+Declaração de Regimes Específicos – DeRE 2ª Fase
+
+Eventos Periódicos Mensais
+
+15/11/2026
+
+Já publicado
+
+Bilhete de Passagem Eletrônico - BP-e
+
+Transporte semiurbano, metropolitano ou aéreo de passageiros
+
+01/12/2026
+
+Já publicado
+
+Nota Fiscal Eletrônica de Alienação de Bens Imóveis – NF-e ABI
+
+Alienação de imóveis
+
+01/12/2026
+
+01/09/2026
+
+Nota Fiscal de Água e Saneamento Eletrônica – NFAg
+
+Abastecimento de água e esgotamento sanitário
+
+01/12/2026
+
+Já disponibilizado
+
+Nota Fiscal Eletrônica do Gás – NFGas
+
+Distribuição de gás canalizado ao consumidor
+
+01/12/2026
+
+Já publicado
+
+Nota Fiscal de Serviços Eletrônica - NFS-e para Plataformas
+
+Serviços promovidos pelas plataformas digitais e serviços intermediados em hipóteses específicas
+
+01/12/2026
+
+01/09/2026
+
+Nota Fiscal Eletrônica - NF-e - Sujeito passivo do IBS e da CBS  não contribuinte do ICMS
+
+Fornecimentos sujeitos ao IBS e à CBS, movimentações de bens materiais ou devoluções de operações
+
+01/12/2026
+
+01/09/2026
+
+NFS-e para fornecimento de serviços também sujeitos ao ISS, enquadrados nos subitens 1.03, 1.05, 1.09 e 16.01 da LC 116
+
+01/12/2026
+
+Já publicado
+
+NFS-e para fornecimentos de bens imateriais não enquadrados na lista de serviços e não sujeitos ao ICMS
+
+01/12/2026
+
+Já publicado
+
+NFS-e na cobrança de taxas e demais valores condominiais pelo condomínio edilício, bem como outras receitas do condomínio
+
+01/12/2026
+
+01/10/2026
+
+NFS-e nas locações de bens móveis e nas locações, cessões onerosas e arrendamentos de bens imóveis
+
+01/12/2026
+
+Já publicado
+
+Documentos fiscais para contribuintes do Simples Nacional (NF-e, NFC-e, CT-e, NFS-e e outros)
+
+01/01/2027
+
+01/09/2026
+
+Declaração Única de Importação (Duimp)
+
+Declaração eletrônica para registro e controle das operações de importação.
+
+01/01/2027
+
+03/11/2026
+
+Nota Fiscal Eletrônica - NF-e na Importação
+
+Documento fiscal emitido pelo importador para nacionalizar e registrar a entrada de produtos estrangeiros
+
+01/01/2027
+
+Já publicado
+
+Declaração de Regimes Específicos – DeRE 3ª Fase
+
+Demais eventos não enquadrados nas fases anteriores
+
+01/01/2027
+
+01/09/2026
+
+Nota Fiscal Eletrônica - NFe - Tributação Monofásica
+
+Fornecimentos de combustíveis sujeitos à tributação monofásica
+
+01/01/2027
+
+Já publicado
+
+O calendário considera a especificidade dos diversos setores econômicos envolvidos, a necessidade de adequação dos sistemas emissores e a realização de testes prévios pelos contribuintes. Ainda na primeira quinzena de agosto será divulgado o cronograma de disponibilização dos ambientes para emissão dos documentos fiscais.
+
+O Ato Conjunto RFB/CGIBS nº 4, de 2026, prevê ainda a edição de um programa de conformidade para o ano de 2026, com caráter orientador da implantação. Este programa será destinado aos contribuintes que demonstrem conduta cooperativa no cumprimento das suas obrigações acessórias, pela concessão de prazo adicional para a regularização.

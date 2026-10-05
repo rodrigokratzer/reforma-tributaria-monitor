@@ -1,0 +1,15 @@
+CSS - Portais NF-e e CT-e
+
+Esta central atende a problemas nos portais NF-e - Nota Fiscal Eletrônica ou CT-e - Conhecimento de Transporte Eletrônico. Verifique se o assunto que procura pode ser solucionado conforme indicações abaixo.
+
+1. Para problemas relativos à autorização da NF-e, entre em contato com a SEFAZ da sua jurisdição.
+
+2. Questões sobre preenchimento ou legislação referentes à Nota Fiscal Eletrônica, consulte a Documentação Técnica ou Perguntas Frequentes.
+
+3. Para problemas no Portal da Nota Fiscal Eletrônica (http://www.nfe.fazenda.gov.br), acessar o Fale Conosco RFB ou a Central de Serviços SERPRO (0800 978 2327).
+
+1. Para problemas relativos à autorização do CT-e, entre em contato com a SEFAZ da sua jurisdição. 
+
+2. Questões sobre preenchimento ou legislação referentes ao Conhecimento de Transporte Eletrônico, consulte a Documentação Técnica ou Perguntas Frequentes.
+
+3. Para problemas no Portal do Conhecimento de Transporte Eletrônico (http://www.cte.fazenda.gov.br), acessar o Fale Conosco RFB ou a Central de Serviços SERPRO (0800 978 2327).

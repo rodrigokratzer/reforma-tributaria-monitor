@@ -1,0 +1,40 @@
+[pagina 1]
+ATO CONJUNTO RFB/CGIBS Nº 2, DE 27 DE MAIO DE 2026.
+
+Dispõe sobre a autorização conjunta da Secretaria
+Especial da Receita Federal do Brasil (RFB) e do
+Comitê Gestor do Imposto sobre Bens e Serviços
+(CGIBS) para publicação na Internet, em domínios
+públicos próprios da RFB e do CGIBS, do Manual de
+Integração e do Swagger da solução para a
+Plataforma Pública do Split Payment.
+
+O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL E O PRESIDENTE DO COMITÊ
+GESTOR DO IBS, no uso das atribuições que lhes conferem os artigos 60, 88 2º e 3º, e 480 da Lei
+Complementar nº, 214, de 16 de janeiro de 2025,
+
+RESOLVEM:
+
+Art. 1º Este Ato Conjunto autoriza a publicação na Internet, em domínios públicos próprios
+da RFB e do CGIBS, do Manual de Integração e do Swagger da solução para a Plataforma Pública do Split
+Payment.
+
+Art. 2º A publicação a que se refere o art.1º tem o objetivo de dar conhecimento, para
+início do desenvolvimento de suas soluções, aos prestadores de serviços de pagamento eletrônico e às
+instituições operadoras de sistemas de pagamento, que realizarão a segregação e o recolhimento à RFB e
+ao CGIBS, na liquidação financeira das transações de consumo, dos valores de CBS e IBS, conforme
+previsto na LC nº 214/2025.
+
+Art. 3º Este Ato Conjunto será publicado no Diário Oficial da União e produzirá efeitos a
+partir da data de sua publicação.
+
+FLAVIO CESAR Assinado de forma digital
+
+Documento assinado digitalmente MENDES DE por FLAVIO CESAR MENDES
+b ROBINSON SAKIYAMA BARREIRINHAS OLIVEIRA:39055043 Dia De ot
+g q Data: 29/05/2026 14:43:58-0300 168 oa
+Verifique em https://validar.iti.gov.br
+Assinatura digital Assinatura digital
+ROBINSON SAKIYAMA BARREIRINHAS FLÁVIO CESAR MENDES DE OLIVEIRA
+
+Secretário Especial da Receita Federal do Brasil Presidente do Comitê Gestor do IBS

@@ -1,0 +1,73 @@
+Nova versão permitirá consultas incrementais, reduzindo o tempo de processamento e o volume de dados trafegados.
+
+Atendendo a sugestões apresentadas por profissionais da área contábil, empresas de software e contribuintes com elevado volume de transações, a Receita Federal disponibilizará, a partir de outubro de 2026, novas APIs gratuitas para consulta de informações relacionadas à Contribuição sobre Bens e Serviços (CBS).
+
+A documentação técnica já está disponível no endereço:
+
+Entre as novidades estão serviços para consulta de: 🔗 https://docs.receitafederal.gov.br/apuracao-cbs/
+
+- Débitos
+
+- Créditos;
+
+- Pagamentos;
+
+- Recolhimentos realizados pelo adquirente;
+
+Além disso, estarão disponíveis serviços para:
+
+- Emissão de DARF para Recolhimento pelo Adquirente (RAD);
+
+- Emissão de DARF para Pagamento do Contribuinte (PCONT).
+
+O que muda com a nova versão?
+
+Diferentemente da versão anterior, as novas APIs passarão a operar com consultas incrementais. Isso significa que cada requisição retornará apenas as alterações ocorridas desde a última consulta realizada pelo usuário.
+
+Na prática, serão disponibilizados:
+
+- Novos débitos, créditos e pagamentos registrados no período;
+
+- Atualizações de transações já previamente consultadas.
+
+Essa abordagem reduz significativamente o volume de dados retornados em cada consulta, proporcionando:
+
+- Menor tempo de processamento;
+
+- Menor consumo de recursos computacionais;
+
+- Arquivos mais leves para download e armazenamento;
+
+- Maior eficiência na integração dos sistemas dos contribuintes.
+
+Cronograma de disponibilização
+
+As novas APIs serão disponibilizadas gradualmente nos ambientes de Produção Restrita (Piloto da CBS) e Produção Beta, conforme o cronograma abaixo:
+
+Início de outubro de 2026
+
+Serviços de consulta
+
+- Consulta de débitos;
+
+- Consulta de créditos.
+
+Início de novembro de 2026
+
+Novos serviços de consulta
+
+- Consulta de pagamentos;
+
+- Consulta de recolhimentos realizados pelo adquirente.
+
+Final de novembro de 2026
+
+Serviços de emissão de DARF
+
+- Emitir DARF para Recolhimento pelo Adquirente (RAD);
+
+- Emitir DARF para Pagamento do Contribuinte (PCONT).
+
+Recomenda-se atenção das equipes de desenvolvimento
+
+As empresas desenvolvedoras de software e os contribuintes que utilizam integração sistêmica devem consultar a documentação técnica e iniciar o planejamento das adequações necessárias, observando o cronograma de disponibilização dos serviços para garantir a correta integração às novas APIs.

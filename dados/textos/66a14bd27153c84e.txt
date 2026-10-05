@@ -1,0 +1,55 @@
+A Resolução CGSN nº 191/2026 prorroga o prazo de obrigatoriedade para 1º de novembro de 2026 e esclarece que as regras relativas à CBS e ao IBS para os optantes do Simples Nacional passam a produzir efeitos somente a partir de 1º de janeiro de 2027.
+
+A Resolução CGSN nº 191, de 4 de agosto de 2026, tornou obrigatória a emissão da Nota Fiscal de Serviços eletrônica (NFS-e) de padrão nacional pelas microempresas e empresas de pequeno porte optantes pelo Simples Nacional, com efeitos a partir de 1º de novembro de 2026. A medida altera a Resolução CGSN nº 140, de 2018, e determina que a emissão ocorra por meio do Emissor Nacional da NFS-e, seja pela aplicação web, seja por integração via API.
+
+O que muda para as empresas do Simples Nacional?
+
+A resolução CGSN nº 191, de 2026, revogou expressamente a Resolução CGSN nº 189, de 2026, que estabelecia essa previsão para o dia 1º de setembro de 2026. Agora, o prazo foi prorrogado para 1º de novembro de 2026.
+
+As ME e EPP optantes pelo Simples Nacional que prestem serviços sujeitos à emissão de NFS-e deverão utilizar o Emissor Nacional da NFS-e. Essa obrigatoriedade foi introduzida pela Resolução CGSN nº 191/2026, editada no exercício da competência normativa do Comitê Gestor do Simples Nacional (CGSN).
+
+Entenda a aplicação conjunta da Resolução CGSN nº 191/2026 com o Ato Conjunto RFB/CGIBS nº 4/2026
+
+A partir de 1º de novembro de 2026, as empresas do Simples Nacional deverão emitir a NFS-e pelo Emissor Nacional da NFS-e.
+
+Já a obrigatoriedade relacionada à CBS e ao IBS, inclusive os respectivos destaques no documento fiscal quando cabíveis, somente passa a produzir efeitos para os optantes do Simples Nacional a partir de 1º de janeiro de 2027, quando esses tributos passam a integrar o regime.
+
+A Resolução CGSN nº 191/2026 e o Ato Conjunto RFB/CGIBS nº 4/2026 devem ser compreendidos de forma complementar.
+
+A Resolução CGSN nº 191/2026 trata da obrigatoriedade de utilização da NFS-e de padrão nacional pelas microempresas e empresas de pequeno porte optantes pelo Simples Nacional, estabelecendo que a emissão deverá ocorrer por meio do Emissor Nacional da NFS-e a partir de 1º de novembro de 2026.
+
+Por sua vez, o Ato Conjunto RFB/CGIBS nº 4/2026 está relacionado às regras aplicáveis aos sujeitos passivos da CBS e do IBS. Nesse contexto, sua aplicação aos optantes pelo Simples Nacional deve ser compreendida à luz da implantação desses tributos no regime.
+
+Como interpretar as duas normas?
+
+Até 31 de dezembro de 2026, as empresas enquadradas no Simples Nacional permanecem sujeitas às regras próprias do regime simplificado. Nesse período, aplica-se a obrigatoriedade de emissão NFS-e prevista pela Resolução CGSN nº 191/2026 a partir de 1º de novembro de 2026.
+
+A partir de 1º de janeiro de 2027, com a incidência da CBS e do IBS nas hipóteses previstas pela Reforma Tributária, passam a produzir efeitos as disposições do Ato Conjunto RFB/CGIBS nº 4/2026 relativas aos sujeitos passivos desses tributos que estão no Simples Nacional.
+
+Assim, a Resolução CGSN nº 191/2026 e o Ato Conjunto RFB/CGIBS nº 4/2026 são  compreendidos como normas voltadas a momentos e situações distintas, sem sobreposição de comandos.
+
+Assim, não há incompatibilidade entre os atos normativos. As regras devem ser lidas de forma combinada:
+
+de 1º de novembro de 2026 a 31 de dezembro de 2026, as ME e EPP optantes pelo Simples Nacional deverão emitir a NFS-e pelo Emissor Nacional da NFS-e, conforme determinado pela Resolução CGSN nº 191/2026;
+
+a partir de 1º de janeiro de 2027, além da utilização obrigatória da NFS-e nacional, passam a ser observadas as disposições relacionadas à CBS e ao IBS aplicáveis aos optantes do Simples Nacional, nos termos da regulamentação específica.
+
+Em outras palavras, a obrigação de utilizar o Emissor Nacional da NFS-e começa em novembro de 2026, enquanto as regras relativas à CBS e ao IBS para os contribuintes do Simples Nacional passam a produzir efeitos a partir de janeiro de 2027.
+
+O que a empresa deve fazer?
+
+De 1º/11/2026 a 31/12/2026
+
+✅ Emitir a NFS-e pelo Emissor Nacional da NFS-e.
+
+✅ Observar as regras atualmente aplicáveis ao Simples Nacional.
+
+✅ Sem necessidade de aplicação das regras relativas à CBS e ao IBS no âmbito do Simples Nacional.
+
+A partir de 1º/1/2027
+
+✅ Continuar emitindo a NFS-e pelo Emissor Nacional da NFS-e.
+
+✅ Observar também as regras relativas à CBS e ao IBS aplicáveis aos optantes do Simples Nacional.
+
+✅ Nas hipóteses previstas na regulamentação, fornecer as informações e realizar os destaques relacionados à CBS e ao IBS no documento fiscal.

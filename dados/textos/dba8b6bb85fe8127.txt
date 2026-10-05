@@ -1,0 +1,1207 @@
+Documentação Técnica da Nota Fiscal eletrônica do Ouro Ativo Financeiro (NF-e Ouro)
+
+Instrução Normativa RFB Nº 2.138 de 29 de março de 2023
+
+Instrução Normativa RFB Nº 2.150 de 07 de julho de 2023 (prorroga a obrigatoriedade de emissão da NF-e Ouro Ativo Financeiro para 01 de agosto de 2023)
+
+Manual Técnico de Orientação
+
+Atualizações de Leiaute - 01/08/2023
+
+Leiaute da Declaração de Aquisição do Ouro (DAO)
+
+Regras de Negócio da Declaração de Aquisição do Ouro (DAO)
+
+Leiaute da Nota Fiscal eletrônica do Ouro Ativo Financeiro (NF-e Ouro)
+
+Pacote de Esquemas XSD da NF-e Ouro
+
+Tabela IBGE de Códigos Municipais
+
+Tabela de Países ISO 3166-1 alfa-2
+
+Swagger
+
+Consulta Pública e Geração do Documento Auxiliar (DANF-e Ouro)
+
+Contato: atendimento.nfeouro@rfb.gov.br
+
+Estatísticas NF-e Ouro
+
+===== ANEXO: https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/documentos-tecnicos/nf-e-ouro/manual-nf-e-ouro-v11.pdf =====
+[pagina 1]
+Ministério da Kd Receita Federal
+2
+
+Nota Fiscal Eletrônica do Ouro Ativo Financeiro
+(NF-e Ouro Ativo Financeiro)
+
+Manual Técnico de Orientação
+
+Versão 1.0
+Junho 2023
+
+[pagina 2]
+Sumário
+
+
+
+
+1. Introdução ...................................................................................................................................................................... 4
+3. Layout DAO (Documento de Aquisição de Ouro Financeiro) .................................................................................... 5
+ 3.1 Informações Comuns a todas as operações ......................................................................................................... 5
+ 3.1.1 Informações Básicas da DAO ...................................................................................................................... 5
+ 3.1.2 Emitente da DAO ......................................................................................................................................... 6
+ 3.1.3 Vendedor do Ouro Ativo Financeiro ........................................................................................................... 6
+ 3.1.4 Comprador do Ouro Ativo Financeiro ....................................................................................................... 7
+ 3.1.5 Transportador ............................................................................................................................................... 7
+ 3.1.6 As informações do Ouro Ativo Financeiro ................................................................................................. 8
+ 3.1.7 Cancelamento por Substituição ................................................................................................................... 8
+ 3.1.8 Notas Referenciadas ..................................................................................................................................... 9
+ 3.1.9 Assinatura Digital ......................................................................................................................................... 9
+ 3.2 Informações específicas para operação de primeira aquisição de ouro, em bruto, exclusivamente por
+ instituição autorizada pelo BCB (IN RFB nº 2.138, de 2023 – art. 3º, inciso I) ............................................................. 9
+ 3.2.1 Primeira Aquisição do Ouro Ativo Financeiro ........................................................................................... 9
+ 3.2.2 Posto de Atendimento ................................................................................................................................. 10
+ 3.2.3 Pagamento da Operação ............................................................................................................................ 10
+ 3.3 Informações específicas para operação de importação, exclusivamente por instituição autorizada pelo
+ BCB (IN RFB nº 2.138, de 2023 – art. 3º, inciso II) ....................................................................................................... 11
+ 3.4 Informações específicas para operação de exportação, exclusivamente por instituição autorizada pelo
+ BCB (IN RFB nº 2.138, de 2023 – art. 3º, inciso III) ...................................................................................................... 11
+ 3.5 Informações específicas para operações internas com participação de instituição financeira autorizada
+ pelo BCB (IN RFB nº 2.138, de 2023 - art. 3º, inciso IV) ............................................................................................. 12
+ 3.6 Informações específicas para operação de remessa (IN RFB nº 2.138, de 2023 – art. 3º, inciso V) .............. 13
+4. Sistema Nacional NF-e Ouro Ativo Financeiro.......................................................................................................... 14
+ 4.1 Padrões Técnicos ........................................................................................................................................................ 14
+ 4.1.1 Padrão de Documento XML ...................................................................................................................... 14
+ a. Padrão de Codificação ........................................................................................................................................ 14
+ b. Declaração namespace ........................................................................................................................................ 14
+ c. Documentos da NF-e Ouro Ativo Financeiro .................................................................................................... 15
+ d. Otimização na montagem do arquivo ................................................................................................................ 16
+ e. Validação de Schema ........................................................................................................................................... 16
+ 4.1.2 Padrão de Comunicação .................................................................................................................................... 16
+ 4.1.3 Padrão de Certificado Digital ............................................................................................................................ 17
+ 2
+
+[pagina 3]
+4.1.4 Padrão de Assinatura Digital ............................................................................................................................. 17
+ 4.1.5 Validação de Assinatura Digital pelo Autorizador Nacional NF-e ouro ......................................................... 19
+ 4.2 Modelo Operacional ................................................................................................................................................... 20
+ 4.2.1 Serviços Síncronos ............................................................................................................................................... 20
+ 4.2.2 Serviços Assíncronos ........................................................................................................................................... 20
+ 4.2.3 Validação da Estrutura XML dos Documentos ................................................................................................ 20
+ 4.2.4 Utilização da API ................................................................................................................................................. 20
+ 4.2.5 Esquemas XML dos Documentos....................................................................................................................... 20
+5. Controle de Acesso ao Sistema Nacional NF-e Ouro Ativo Financeiro para API ................................................... 21
+ 5.1 Cadastro de Emitente ................................................................................................................................................. 21
+6. API Eventos .................................................................................................................................................................. 21
+7. Leiautes, Regras de Negócio e Mensagens de Erro, Documentação Técnica das APIs (Swagger) ........................ 22
+8. Glossário ....................................................................................................................................................................... 22
+
+
+
+
+ 3
+
+[pagina 4]
+1. Introdução
+
+ Este documento contempla as orientações e informações técnicas necessárias para
+emissão da Nota Fiscal Eletrônica do Ouro Ativo Financeiro (NF-e Ouro Ativo Financeiro) pelas
+instituições integrantes do Sistema Financeiro Nacional, autorizadas pelo Banco Central do Brasil (BCB)
+a operar com ouro, ativo financeiro ou instrumento cambial, conforme disposto na 1Instrução Normativa
+RFB nº 2.138, de 29 de março de 2023.
+ A arquitetura de processamento eletrônico desse documento fiscal está estruturada para
+recepção e validação das informações sobre operações com ouro, transmitidas pela instituição autorizada
+por meio da Declaração de Aquisição do Ouro (DAO), de acordo com o leiaute e os requisitos
+apresentados neste manual.
+ A figura a seguir representa resumidamente o fluxo de emissão da NF-e Ouro Ativo
+Financeiro:
+
+
+
+
+ 2. Módulo NF-e Ouro Ativo Financeiro
+
+ O ambiente de emissão da NF-e Ouro Ativo Financeiro se baseia nas seguintes premissas:
+• arquitetura sistêmica padronizada e de alta disponibilidade para recepção, validação, armazenamento
+ e consulta dos documentos fiscais eletrônicos;
+• padronização dos modelos de leiautes nacionais para:
+ ▪ Declaração de Aquisição de Ouro – ativo financeiro (DAO);
+
+1 BRASIL, Instrução Normativa da Secretária Especial da Receita Federal do Brasil nº 2138 de 29 de março de 2023, Dispõe sobre
+
+a Nota Fiscal Eletrônica do Ouro Ativo Financeiro (NF-e Ouro Ativo Financeiro) destinada ao registro de operações com ouro, ativo
+financeiro ou instrumento cambial. Disponível em: http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=129816 .Acesso
+em 23 jun 2023
+
+
+
+
+ 4
+
+[pagina 5]
+▪ NF-e Ouro Ativo Financeiro; e
+ ▪ Evento de Cancelamento por Substituição da NF-e Ouro Ativo Financeiro.
+
+
+
+
+• controle de acesso aos serviços realizado exclusivamente por meio de certificado digital emitido por
+ entidade credenciada pela Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), contendo o
+ número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) de qualquer dos
+ estabelecimentos do contribuinte;
+• uso de APIs2 para disponibilização de serviços do sistema nacional que serão acessados pelos
+ usuários.
+
+
+
+ 3. Layout DAO (Documento de Aquisição de Ouro Financeiro)
+
+ 3.1 Informações Comuns a todas as operações
+
+ 3.1.1 Informações Básicas da DAO
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+ - DAO Raiz - - - -
+DAO/ versao A C 1-1 1-4V2 Versão do leiaute da DAO.
+ Grupo de Informações da
+DAO/ infDAO G - 1-1 -
+ Declaração de Aquisição de Ouro ativo financeiro - DAO
+
+ O identificador da DAO é composto pela concatenação de campos que constam no leiaute da DAO.
+ A formação deste identificador considera o literal "DAO" associado a outras 30 posições numéricas, conforme
+ descrito abaixo:
+
+DAO/infDAO/ id ID C 1-1 33 "DAO" +
+ Cód.Mun.Emis (7) +
+ CNPJ Emitente (14) +
+ Série DAO (3) +
+ Núm. DAO (6)
+
+ Identificação do tipo de ambiente no Sistema Nacional NF-e do Ouro:
+DAO/infDAO/ tpAmb E N 1-1 1
+ 1 - Produção;
+ 2 - Homologação;
+ Data e hora da emissão da DAO.
+DAO/infDAO/ dhEmi E D 1-1 - Data e hora no formato UTC (Universal Coordinated Time):
+ AAAA-MM-DDThh:mm:ssTZD
+DAO/infDAO/ verAplic E C 1-1 1-20 Versão do aplicativo que gerou a DAO.
+DAO/infDAO/ serieDAO E N 1-1 3 Série da DAO.
+DAO/infDAO/ nDAO E N 1-1 6 Número da DAO.
+ Operação da DAO:
+
+ 1 - Primeira aquisição do ouro produzido sob o regime de Permissão de Lavra Garimpeira (PLG);
+ 2 - Primeira venda do ouro produzido sob outros regimes de aproveitamento mineral;
+DAO/infDAO/ opDAO E N 1-1 1
+ 3 - Nota de remessa de ouro;
+ 4 - Nota de negociação com ouro;
+ 5 - Exportação de Ouro Ativo Financeiro/Instrumento Cambial;
+ 6 - Importação de Ouro Ativo Financeiro/Instrumento Cambial;
+ Tipo de operação realizada na DAO:
+
+ 1 - Compra;
+DAO/infDAO/ tpOp E N 1-1 1 2 - Venda;
+ 3 - Remessa;
+ 4 - Intermediação;
+ 5 - Transferência da titularidade da custódia;
+ Data de competência da prestação do serviço ou aquisição do ouro ativo financeiro.
+DAO/infDAO/ dCompet E D 1-1 8
+ Ano, Mês e Dia (AAAA-MM-DD)
+
+DAO/infDAO/ cMunEmi E N 1-1 7 Código de 7 dígitos do municipio em que a NF-e do Ouro foi emitida
+
+
+
+
+2
+ Application Programming Interface (API): consiste em uma interface de programação de aplicação que, por meio de um conjunto de
+normas, padrões e protocolos, possibilita a comunicação entre plataformas. Fonte: IBM. Disponível em: https://www.ibm.com/topics/api
+Acesso em 23 jun 2023.
+
+ 5
+
+[pagina 6]
+3.1.2 Emitente da DAO
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/ emit G - 1-1 - Grupo de informações relativas ao emitente da DAO
+DAO/infDAO/emit/ CNPJ CE N 1-1 14 Número da inscrição federal (CNPJ) do emitente da DAO.
+DAO/infDAO/emit/ IM E C 1-1 1-15 Número de inscrição municipal do emitente da DAO.
+DAO/infDAO/emit/ xNome E C 0-1 1-150 Nome / Nome Empresarial do emitente da DAO.
+DAO/infDAO/emit/ end G - 0-1 - Grupo de informações do endereço do emitente da DAO.
+ Código do município do endereço do emitente da DAO.
+DAO/infDAO/emit/end/ cMun E N 1-1 7
+ (Tabela do IBGE)
+ Código numérico do Endereçamento Postal nacional (CEP)
+DAO/infDAO/emit/end/ CEP E C 1-1 8
+ do endereço do emitente do serviço.
+DAO/infDAO/emit/end/ xLgr E C 1-1 1-255 Tipo e nome do logradouro do endereço do emitente da DAO.
+DAO/infDAO/emit/end/ nro E C 1-1 1-60 Número no logradouro do endereço do emitente da DAO.
+DAO/infDAO/emit/end/ xCpl E C 0-1 1-150 Complemento do endereço do emitente da DAO.
+DAO/infDAO/emit/end/ xBairro E C 1-1 1-60 Bairro do endereço do emitente da DAO.
+ Número do telefone do emitente.
+ (Preencher com o Código DDD + número do telefone.
+DAO/infDAO/emit/ fone E N 0-1 6-20
+ Nas operações com exterior é permitido informar o código do país + código da localidade + número do
+ telefone)
+DAO/infDAO/emit/ email E C 0-1 1-80 E-mail do emitente.
+
+
+
+
+ 3.1.3 Vendedor do Ouro Ativo Financeiro
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/ vendedor G - 0-1 - Grupo de informações relativas ao vendedor do ouro
+ Tipo de Vendedor:
+
+ 1 - Titular da PLG (Permissão da Lavra Garimpeira);
+ 2 - Mandatário Legalmente Constituído;
+DAO/infDAO/vendedor/ tpVend E C 1-1 1
+ 3 - Titular de Outros Regimes de Aproveitamento Mineral;
+ 4 - Instituição Financeira (Negociação);
+ 5 – Vendedor (PF/PJ);
+ 6 - Vendedor Localizado no Exterior (Importação);
+DAO/infDAO/vendedor/ idCNPJ CG - 1-1 - Grupo de informações do CNPJ do vendedor do ouro.
+DAO/infDAO/vendedor/idCNPJ/ CNPJ E N 1-1 14 Número da inscrição federal (CNPJ) do vendedor do ouro.
+DAO/infDAO/vendedor/idCNPJ/ cpfRepPJ E N 1-1 11 CPF do representante da PJ
+DAO/infDAO/vendedor/ idCPF CG - 1-1 - Grupo de informações do CPF do vendedor do ouro.
+DAO/infDAO/vendedor/idCPF/ CPF E N 1-1 11 CPF do vendedor.
+DAO/infDAO/vendedor/idCPF/ nDI E N 1-1 6-9 Número do registro da carteira de identidade do vendedor.
+DAO/infDAO/vendedor/idCPF/ orgExp E C 1-1 1-60 Órgão Expeditor do registro da carteira de identidade do vendedor.
+ NIF (Número de Identificação Fiscal) do vendedor.
+DAO/infDAO/vendedor/ NIF CE C 1-1 1-40
+ Número de identificação fiscal pode obtido do órgão de administração tributária no exterior.
+DAO/infDAO/vendedor/ xNome CE C 1-1 1-150 Nome / Nome Empresarial do vendedor.
+DAO/infDAO/vendedor/ nRegVend E N 0-1 1-10 Número de registro no órgão do comércio da sede do vendedor.
+DAO/infDAO/vendedor/ end G - 1-1 - Grupo de informações do endereço do vendedor.
+DAO/infDAO/vendedor/end/ endNac CG - 1-1 - Grupo de informações do endereço nacional.
+ Código do município do endereço do vendedor.
+DAO/infDAO/vendedor/end/endNac/ cMun E N 1-1 7
+ (Tabela do IBGE)
+ Código numérico do Endereçamento Postal nacional (CEP)
+DAO/infDAO/vendedor/end/endNac/ CEP E C 1-1 8
+ do endereço do vendedor.
+DAO/infDAO/vendedor/end/ endExt CG - 1-1 - Grupo de informações do endereço no exterior.
+ Código do país do endereço do emitente do vendedor.
+DAO/infDAO/vendedor/end/endExt/ cPais E C 1-1 2
+ (Tabela de Países ISO)
+DAO/infDAO/vendedor/end/endExt/ cEndPost E C 1-1 1-11 Código alfanumérico do endereçamento postal no exterior do vendedor.
+DAO/infDAO/vendedor/end/endExt/ xCidade E C 1-1 1-60 Nome da cidade no exterior do vendedor.
+DAO/infDAO/vendedor/end/endExt/ xEstProvReg E C 1-1 1-60 Estado, província ou região da cidade no exterior do vendedor.
+DAO/infDAO/vendedor/end/ xLgr E C 1-1 1-255 Tipo e nome do logradouro do endereço do vendedor.
+DAO/infDAO/vendedor/end/ nro E C 1-1 1-60 Número no logradouro do endereço do vendedor.
+DAO/infDAO/vendedor/end/ xCpl E C 0-1 1-150 Complemento do endereço do vendedor.
+DAO/infDAO/vendedor/end/ xBairro E C 1-1 1-60 Bairro do endereço do vendedor.
+ Número do telefone do vendedor.
+ (Preencher com o Código DDD + número do telefone.
+DAO/infDAO/vendedor/ fone E N 0-1 6-20
+ Nas operações com exterior é permitido informar o código do país + código da localidade + número do
+ telefone)
+DAO/infDAO/vendedor/ email E C 0-1 1-80 E-mail do vendedor.
+
+
+
+
+ 6
+
+[pagina 7]
+3.1.4 Comprador do Ouro Ativo Financeiro
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/ comprador G - 1-1 - Grupo de informações relativas ao comprador do ouro.
+ Tipo de Comprador:
+
+ 1 - Mandatário Legalmente Constituído;
+DAO/infDAO/comprador/ tpComp E C 1-1 1
+ 2 - Instituição Financeira (Negociação);
+ 3 – Comprador (PF/PJ);
+ 4 - Comprador Localizado no Exterior (Exportação);
+DAO/infDAO/comprador/ CNPJ CE N 1-1 11 CNPJ do comprador do ouro.
+DAO/infDAO/comprador/ idCPF CG N 1-1 11 Grupo de informações relativas ao CPF do comprador do ouro.
+DAO/infDAO/comprador/idCPF/ CPF E N 1-1 11 CPF do comprador.
+DAO/infDAO/comprador/idCPF/ nDI E N 1-1 6-9 Número do registro da carteira de identidade do comprador.
+DAO/infDAO/comprador/idCPF/ orgExp E C 1-1 1-60 Órgão Expeditor do registro da carteira de identidade do comprador.
+ NIF (Número de Identificação Fiscal) do comprador do ouro.
+DAO/infDAO/comprador/ NIF CE C 1-1 1-40
+ Número de identificação fiscal pode obtido do órgão de administração tributária no exterior.
+DAO/infDAO/comprador/ xNome CE N 1-1 1-150 Nome ou razão social do comprador do ouro.
+DAO/infDAO/comprador/ end G - 1-1 - Grupo de informações do endereço do comprador do ouro.
+DAO/infDAO/comprador/end/ endNac CG - 1-1 - Grupo de informações do endereço nacional.
+ Código do município do endereço do comprador do ouro.
+DAO/infDAO/comprador/end/endNac/ cMun E N 1-1 7
+ (Tabela do IBGE)
+DAO/infDAO/comprador/end/endNac/ CEP E C 0-1 8 Código numérico do endereçamento postal nacional (CEP) do endereço do comprador do ouro.
+DAO/infDAO/vendedor/end/ endExt CG - 1-1 - Grupo de informações do endereço no exterior.
+ Código do país do endereço do emitente do vendedor.
+DAO/infDAO/comprador/end/endExt/ cPais E C 1-1 2
+ (Tabela de Países ISO)
+DAO/infDAO/comprador/end/endExt/ cEndPost E C 1-1 1-11 Código alfanumérico do endereçamento postal no exterior do vendedor.
+DAO/infDAO/comprador/end/endExt/ xCidade E C 1-1 1-60 Nome da cidade no exterior do vendedor.
+DAO/infDAO/comprador/end/endExt/ xEstProvReg E C 1-1 1-60 Estado, província ou região da cidade no exterior do vendedor.
+DAO/infDAO/comprador/end/ xLgr E C 1-1 1-255 Tipo e nome do logradouro do endereço do comprador do ouro.
+DAO/infDAO/comprador/end/ nro E C 1-1 1-60 Número no logradouro do endereço do comprador do ouro.
+DAO/infDAO/comprador/end/ xCpl E C 0-1 1-150 Complemento do endereço do comprador do ouro.
+DAO/infDAO/comprador/end/ xBairro E C 1-1 1-60 Bairro do endereço do comprador do ouro.
+ Número do telefone do comprador do ouro.
+ (Preencher com o Código DDD + número do telefone.
+DAO/infDAO/comprador/ fone E N 0-1 6-20
+ Nas operações com exterior é permitido informar o código do país + código da localidade + número do
+ telefone)
+DAO/infDAO/comprador/ email E C 0-1 1-80 E-mail do local da aquisição do ouro.
+
+
+
+
+ 3.1.5 Transportador
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/ transp G - 0-1 - Grupo de informações relativas ao transportador nacional do ouro
+DAO/infDAO/transp/ idTransp G - 1-5 - Grupo de informações relativas à identificação do(s) transportador(es) do ouro
+DAO/infDAO/transp/idTransp CNPJ CE N 1-1 14 CNPJ da transportadora do ouro.
+DAO/infDAO/transp/idTransp CPF CE N 1-1 11 CPF do transportador do ouro.
+DAO/infDAO/transp/idTransp xNome E N 1-1 1-150 Nome / Nome Empresarial da transportadora do ouro.
+DAO/infDAO/transp/idTransp cMunOr E N 1-1 7 Código do município da origem do ouro transportado (Tabela do IBGE).
+DAO/infDAO/transp/idTransp cMunDest E N 1-1 7 Código do município da destino do ouro transportado (Tabela do IBGE).
+
+
+
+
+ 7
+
+[pagina 8]
+3.1.6 As informações do Ouro34 Ativo Financeiro
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/ ouro G - 1-1 - Grupo de informações relativas ao ouro da operação
+DAO/infDAO/ouro/ vUnGrOuro E N 1-1 1-15V2 Valor unitário por grama de ouro (puro).
+DAO/infDAO/ouro/ infOuro G - 1-100 - Grupo de informações detalhadas do ouro da operação
+ Tipologia do ouro:
+
+ 01 - Barra de ouro;
+ 02 - Lingote;
+ 03 - Ouro esponja;
+ 04 - Amalgama;
+DAO/infDAO/ouro/infOuro/ tpOuro E N 1-1 2
+ 05 - Pepita;
+ 06 - Minério de ouro;
+ 07 - Minério de tapete
+ 08 - Cavaco;
+ 09 - Joia, semijoia e bijuteria;
+ 10 - Ouro Refinado;
+DAO/infDAO/ouro/infOuro/ teorOuro E N 1-1 1-2V2 Teor do Ouro.
+DAO/infDAO/ouro/infOuro/ metodo E C 1-1 1-150 Método de análise do teor do ouro.
+DAO/infDAO/ouro/infOuro/ qtdOuroBruto E N 1-1 1-15V2 Quantidade de ouro bruto (gr).
+DAO/infDAO/ouro/infOuro/ cNCM E N 1-1 8 Código da NCM (Nomenclatura Comum do Mercosul) para ouro.
+DAO/infDAO/ xInfComp E C 0-1 1-255 Campo livre para preenchimento pelo emitente da DAO.
+
+
+
+
+ 3.1.7 Cancelamento por Substituição
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+ DAO/infDAO/ subst G - 0-1 - Grupo de informações relativas à NF-e Ouro a ser substituída
+ DAO/infDAO/subst/ chSubstda E C 1-1 40 Chave de Acesso da NF-e Ouro a ser substituída.
+ DAO/infDAO/subst/ cMotivo E N 1-1 2 99 - Outros;
+ Descrição do motivo da substituição da NF-e Ouro quando o emitente deve descrever o motivo da substituição
+ DAO/infDAO/subst/ xMotivo E C 0-1 15-255
+ para outros motivos (cMotivo = 99).
+
+ Atualmente, apenas o motivo 99 é permitido.
+
+
+
+ 3
+ Barra de ouro - Produto da fundição do ouro em liga moldada em formato retangular, Barras de ouro fundidas de forma bruta (bullion
+ doré ) e barras de ouro refinadas padronizadas. Com características que denotam diferentes origens: garimpo, mineração, recicladora ou
+ indústria. Lingotes - Produto da fundição do ouro em liga sólida cilíndrica ou irregular. Relacionáveis a peças fundidas em lingoteiras e as
+ demais peças sem formato padronizados. Ouro Esponja - Denomina-se como ouro esponja o produto aurífero oriundo da queima do
+ amalgama de ouro-mercúrio. Caracteriza-se por aglomerados de grãos minerais semi-fundidos com predomínio de grãos de ouro. Grande
+ parte é composto por grãos arredondados e com minerais resistatos associados, indicando produto de extração mineral de depósito
+ aluvionar. Amalgama - A amalgamação é um processo de concentração do ouro baseado na ligação preferencial do ouro ao mercúrio, com
+ a formação de uma liga. A amalgamação é geralmente aplicada a concentrados gravíticos provenientes de aluviões ou de minérios primários
+ onde o ouro encontra-se livre (CETEM - Aspectos Diversos da Garimpagem de Ouro). Pepita - a peça de ouro nativo encaminhado em
+ seu formato natural em grãos ou palhetas individualizáveis. As pepitas são encaminhadas em diferentes tamanhos em formato irregular e
+ montadas como adornos em pingentes. Minério de ouro - agregado de minerais, constituído de ouro e outros minerais associados, extraídos
+ porém ainda não beneficiado ou pouco processado. Podem ser aluvionares ou em fragmentos de rocha. Minério de tapete - Material
+ mineral oriundo de "tapete" ou "carpete", composto por minerais extraídos e encaminhados a etapa de pré- beneficiamento mineral
+ rudimentar, normalmente de garimpo ou pesquisa mineral. Cavaco - Amostras (lascas) de barra de ouro ou outras peças, retiradas com
+ auxílio de furadeira ou serra. Joia, semijoia e bijuteria - Peça de adorno pessoal confeccionadas com ligas metálicas de metais nobres e
+ bom acabamento (joias) e de ligas metais menos nobres que podem ser recobertos (banhado ou folheado) com metais nobres (semijoias)
+ ou não recobertos (bijuterias). Fonte: Crespo, Priscila T; Joko, Caio Tadao, GoldRush – Glossário, INC/DITEC Polícia Federal, fev /2021
+ 4
+ Ouro Refinado – ouro bruto submetido a processo de cloretação Miller (refino pirometalúrgico) ou processo Wohlwill (refino eletrolítico).
+ Fonte: Barbosa, Juliano Peres, Refino de Ouro, capitulo 6 – CETEM/MCT. Disponível em:
+ http://mineralis.cetem.gov.br/bitstream/cetem/1224/1/extracao-ouro%20cap.6.pdf . Acesso em 23 jun 2023.
+
+
+ 8
+
+[pagina 9]
+3.1.8 Notas Referenciadas
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/ notasRef G - 0-1 - Grupo de notas referenciadas
+DAO/infDAO/notasRef/ chaveAcesso E N 1-100 40 Chave da NF-e Ouro.
+
+
+
+ 3.1.9 Assinatura Digital
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+ Assinatura XML da DAO segundo o Padrão XML Digital Signature
+DAO/ Signature G - 1-1 -
+ Obrigatório por ser enviado para API.
+
+
+
+
+ 3.2 Informações específicas para operação de primeira aquisição de ouro, em bruto,
+ exclusivamente por instituição autorizada pelo BCB (IN RFB nº 2.138, de 2023 – art. 3º,
+ inciso I)
+
+ 3.2.1 Primeira Aquisição do Ouro Ativo Financeiro
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/ infOp G - 1-1 - Grupo de informações relativas às operações com ouro
+ Grupo de informações relativas à operação de aquisição do ouro produzido sob o regime de permissão de
+DAO/infDAO/infOp/ aquis CG - 1-1 -
+ lavra garimpeira
+DAO/infDAO/infOp/aquis/ nTitLavra E N 1-1 20 Número do título minerário autorizativo de lavra garimpeira.
+DAO/infDAO/infOp/aquis/ CNPJ CE N 1-1 14 CNPJ do titular da PLG.
+DAO/infDAO/infOp/aquis/ CPF CE N 1-1 11 CPF do titular da PLG.
+ Número do Processo de Permissão de Lavra Garimpeira (PLG) emitido pela ANM
+DAO/infDAO/infOp/aquis/ nProcPermLavra E N 1-1 15
+ (Agência Nacional de Mineração).
+DAO/infDAO/infOp/aquis/ cMun E N 1-1 7 Código IBGE do município localidade da extração do ouro.
+DAO/infDAO/infOp/aquis/ areaLavra E C 1-1 1-255 Área de Lavra
+ Fase do processo de permissão:
+DAO/infDAO/infOp/aquis/ faseProcPerm E N 1-1 1
+ 0 - Requerimento de PLG;
+ 1 - PLG outorgada;
+ Situação da PLG:
+DAO/infDAO/infOp/aquis/ sitPLG E N 1-1 1
+ 0 - Ativa;
+ 1 - Inativa;
+DAO/infDAO/infOp/aquis/ dtVencPLG E D 1-1 8 Data do vencimento da PLG.
+DAO/infDAO/infOp/aquis/ nLicAmb E N 1-1 20 Número da Licença Ambiental.
+DAO/infDAO/infOp/aquis/ orgLicAmb E N 1-1 1-255 Órgão emissor da licença ambiental.
+DAO/infDAO/infOp/aquis/ nGuia E N 0-1 20 Número da guia de transporte e custódia do ouro.
+DAO/infDAO/infOp/aquis/ dEmisGuia E D 0-1 8 Data da emissão da guia de transporte e custódia do ouro.
+DAO/infDAO/infOp/aquis/ dFimTrans E D 0-1 8 Data do término do trânsito da guia de transporte e custódia do ouro.
+
+
+
+
+ 9
+
+[pagina 10]
+3.2.2 Posto de Atendimento
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+ Grupo de informações relativas ao local da aquisição do ouro
+DAO/infDAO/infOp/aquis/ localAq G - 1-1 -
+ (posto de atendimento, agência ou estabelecimento congênere responsável pela compra)
+DAO/infDAO/infOp/aquis/localAq/ CPF E N 1-1 11 CPF do funcionário do local da aquisição do ouro responsável pela operação.
+DAO/infDAO/infOp/aquis/localAq/ nUnicad E N 0-1 2 Número do Unicad.
+DAO/infDAO/infOp/aquis/localAq/ xNome E N 1-1 1-150 Nome do local da aquisição do ouro.
+DAO/infDAO/infOp/aquis/localAq/ end G - 1-1 - Grupo de informações do endereço do local da aquisição do ouro.
+ Código do município do endereço do local da aquisição do ouro.
+DAO/infDAO/infOp/aquis/localAq/end/ cMun E N 1-1 7
+ (Tabela do IBGE)
+DAO/infDAO/infOp/aquis/localAq/end/ CEP E C 0-1 8 Código numérico do Eedereçamento postal nacional (CEP) do endereço do local da aquisição do ouro.
+DAO/infDAO/infOp/aquis/localAq/end/ xLgr E C 1-1 1-255 Tipo e nome do logradouro do endereço do local da aquisição do ouro.
+DAO/infDAO/infOp/aquis/localAq/end/ nro E C 1-1 1-60 Número no logradouro do endereço do local da aquisição do ouro.
+DAO/infDAO/infOp/aquis/localAq/end/ xCpl E C 0-1 1-150 Complemento do endereço do local da aquisição do ouro.
+DAO/infDAO/infOp/aquis/localAq/end/ xBairro E C 1-1 1-60 Bairro do endereço do local da aquisição do ouro.
+ Número do telefone do local da aquisição do ouro.
+ (Preencher com o Código DDD + número do telefone.
+DAO/infDAO/infOp/aquis/localAq/ fone E N 0-1 6-20
+ Nas operações com exterior é permitido informar o código do país + código da localidade + número do
+ telefone)
+DAO/infDAO/infOp/aquis/localAq/ email E C 0-1 1-80 E-mail do local da aquisição do ouro.
+
+
+
+
+ 3.2.3 Pagamento da Operação
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+ Grupo de informações relativas ao pagamento referente à operação
+DAO/infDAO/infOp/aquis/ pgtoOp G - 0-1 -
+ que poderá ser paga a partir de crédito à conta de depósito ou de pagamento.
+DAO/infDAO/infOp/aquis/pgtoOp/ nBanco E N 1-1 3 Número do banco onde foi realizado o pagamento.
+DAO/infDAO/infOp/aquis/pgtoOp/ nAgencia E N 1-1 1-6 Número da agência do banco onde foi realizado o pagamento.
+DAO/infDAO/infOp/aquis/pgtoOp/ nConta E N 1-1 1-10 Número da conta do banco onde foi realizado o pagamento.
+
+
+ Além dos grupos de informações específicos da operação, devem ser preenchidos os grupos:
+ • 3.1.1 Informações Básicas da DAO.
+ • 3.1.2 Emitente da DAO.
+ • 3.1.3 Vendedor do Ouro Ativo Financeiro.
+ • 3.1.6 Informações sobre o ouro.
+ • 3.1.9 Assinatura Digital.
+
+
+
+
+ 10
+
+[pagina 11]
+3.3 Informações específicas para operação de importação, exclusivamente por instituição
+ autorizada pelo BCB (IN RFB nº 2.138, de 2023 – art. 3º, inciso II)
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/infOp/ comex CG - 1-1 - Grupo de informações relativas a exportação ou importação de Ouro Ativo Financeiro/Instrumento Cambial
+DAO/infDAO/infOp/comex/ nEdmov E N 1-1 10 Número do E-Dmov da exportação ou importação.
+DAO/infDAO/infOp/comex/ cMun E N 0-1 7 Município destino do ingresso do ouro no pais na operação de importação (Tabela IBGE).
+
+
+
+
+Além do grupo específico da operação, devem ser preenchidos os grupos:
+
+ • 3.1.1 Informações Básicas da DAO.
+ • 3.1.2 Emitente da DAO.
+ • 3.1.3 Vendedor do Ouro Ativo Financeiro, nesse caso, o vendedor do ouro ativo
+ financeiro está localizado no exterior.
+ • 3.1.5 Transportador, apenas as informações dos transportadores nacionais, pois os
+ transportadores internacionais devem ser informados na e-Dmov correspondente.
+ • 3.1.6 Informações sobre o ouro.
+ • 3.1.9 Assinatura Digital.
+
+ Para a operação de importação, o campo “Município destino do ingresso do ouro no país na
+operação de importação (Tabela IBGE).” é de preenchimento obrigatório.
+
+
+
+ 3.4 Informações específicas para operação de exportação, exclusivamente por instituição
+ autorizada pelo BCB (IN RFB nº 2.138, de 2023 – art. 3º, inciso III)
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/infOp/ comex CG - 1-1 - Grupo de informações relativas a exportação ou importação de Ouro Ativo Financeiro/Instrumento Cambial
+DAO/infDAO/infOp/comex/ nEdmov E N 1-1 10 Número do E-Dmov da exportação ou importação.
+
+
+Além do grupo específico da operação, devem ser preenchidos os grupos:
+ • 3.1.1 Informações Básicas da DAO.
+ • 3.1.2 Emitente da DAO.
+ • 3.1.4 Comprador do Ouro Ativo Financeiro, nesse caso, o comprador do ouro ativo
+ financeiro está localizado no exterior.
+ • 3.1.5 Transportador, apenas as informações dos transportadores nacionais, pois os
+ transportadores internacionais devem ser informados na e-Dmov correspondente.
+ • 3.1.6 Informações sobre o ouro.
+ • 3.1.9 Assinatura Digital.
+
+
+
+
+ 11
+
+[pagina 12]
+3.5 Informações específicas para operações internas com participação de instituição
+ financeira autorizada pelo BCB (IN RFB nº 2.138, de 2023 - art. 3º, inciso IV)
+
+
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+ DAO/infDAO/infOp/ negoc CG - 1-1 - Grupo de informações relativas a negociação de ouro
+
+ Informações sobre a natureza da negociação:
+
+ 1 - Compra e venda efetuada entre instituições financeiras dentro do país;
+ 2 - Compra e venda efetuada no mercado de balcão, em que apenas uma das partes é instituição financeira;
+ 3 - Compra e venda de ouro custodiado, em que apenas uma das partes é instituição financeira;
+ DAO/infDAO/ natOp E N 1-1 1
+ 4 - Compra e venda de ouro custodiado, com interveniência de instituição financeira;
+ 5 - Transferência da titularidade da custódia, do depositante para a bolsa, relativamente à primeira
+ negociação do metal realizada em seu pregão;
+ 6 - Transferência da titularidade da custódia, da bolsa para o adquirente, quando solicitada por este;
+ 7 - Ouro, em bruto, realizada entre duas instituições financeiras;
+
+ DAO/infDAO/ custodCNPJ E N 0-1 14 CNPJ do Custodiante.
+
+
+
+Além do grupo específico da operação, devem ser preenchidos os grupos:
+ • 3.1.1 Informações Básicas da DAO.
+ • 3.1.2 Emitente da DAO.
+ • 3.1.3 Vendedor do Ouro Ativo Financeiro, se o emitente da DAO for o comprador do
+ ouro ativo financeiro.
+ • 3.1.4 Comprador do Ouro Ativo Financeiro, se o emitente da DAO for o vendedor do
+ ouro.
+ • 3.1.6 Informações sobre o ouro.
+ • 3.1.9 Assinatura Digital.
+
+ No caso da operação “4 - Compra e venda de ouro custodiado, com interveniência de instituição
+financeira;”, os grupos Vendedor do Ouro Ativo Financeiro e Comprador do Ouro Ativo Financeiro
+devem ser preenchidos, para os demais casos, apenas um dos grupos deve ser preenchido, dependendo
+da natureza da operação de compra ou venda.
+
+
+
+
+ 12
+
+[pagina 13]
+3.6 Informações específicas para operação de remessa (IN RFB nº 2.138, de 2023 – art. 3º,
+ inciso V)
+ CAMINHO NO XML CAMPO ELE TIPO OCOR. TAM. DESCRIÇÃO
+DAO/infDAO/infOp/ remes CG - 1-1 - Grupo de informações relativas a remessa de ouro
+ Natureza da Remessa:
+
+ 1 - Por empresa de mineração, de ouro a ser alienado a instituição financeira;
+ 2 – Tratamento, refino ou fracionamento;
+DAO/infDAO/infOp/remes/ natRem E 1-1 1 3 - Outro estabelecimento da mesma instituição financeira;
+ 4 - Ouro para custódia;
+ 5 - Transferência de ouro de uma custódia para outra;
+ 6 - Remessa de ouro para análise;
+ 7 - Retirada de ouro da custódia para o domicílio do proprietário ou de seu representante legal;
+DAO/infDAO/infOp/remes/ CNPJ CE N 1-1 14 Número da inscrição federal (CNPJ) do destinatário do ouro.
+DAO/infDAO/infOp/remes/ CPF CE N 1-1 11 Número da inscrição federal (CPF) do destinatário do ouro.
+DAO/infDAO/infOp/remes/ xNome E C 0-1 1-150 Nome / Nome Empresarial do destinatário do ouro.
+DAO/infDAO/infOp/remes/ end G - 0-1 - Grupo de informações do endereço do destinatário do ouro.
+DAO/infDAO/infOp/remes/end/ cMun E N 1-1 7 Código do município do endereço do destinatário do ouro (Tabela do IBGE).
+ Código numérico do Endereçamento Postal nacional (CEP)
+DAO/infDAO/infOp/remes/end/ CEP E C 1-1 8
+ do endereço do destinatário do ouro.
+DAO/infDAO/infOp/remes/end/ xLgr E C 1-1 1-255 Tipo e nome do logradouro do endereço do destinatário do ouro.
+DAO/infDAO/infOp/remes/end/ nro E C 1-1 1-60 Número no logradouro do endereço do destinatário do ouro.
+DAO/infDAO/infOp/remes/end/ xCpl E C 0-1 1-150 Complemento do endereço do destinatário do ouro.
+DAO/infDAO/infOp/remes/end/ xBairro E C 1-1 1-60 Bairro do endereço do destinatário do ouro.
+ Número do telefone do destinatário do ouro.
+ (Preencher com o Código DDD + número do telefone.
+DAO/infDAO/infOp/remes/ fone E N 0-1 6-20
+ Nas operações com exterior é permitido informar o código do país + código da localidade + número do
+ telefone)
+DAO/infDAO/infOp/remes/ email E C 0-1 1-80 E-mail do destinatário do ouro.
+
+
+
+
+ Além do grupo específico da operação, devem ser preenchidos os grupos:
+
+ • 3.1.1 Informações Básicas da DAO.
+ • 3.1.2 Emitente da DAO.
+ • 3.1.5 Transportador.
+ • 3.1.6 Informações sobre o ouro.
+ • 3.1.9 Assinatura Digital.
+
+
+
+
+ 13
+
+[pagina 14]
+4. Sistema Nacional NF-e Ouro Ativo Financeiro
+
+ 4.1 Padrões Técnicos
+
+ 4.1.1 Padrão de Documento XML
+
+ a. Padrão de Codificação
+ A especificação do documento XML5 adotada é a recomendação W3C para XML 1.0,
+disponível em www.w3.org/TR/REC-xml , e a codificação dos caracteres será em UTF-8. Assim, todos
+os documentos XML serão iniciados com a seguinte declaração:
+ <?xml version="1.0" encoding="UTF-8"?>
+ Cada arquivo XML somente poderá ter uma única declaração <?xml version="1.0"
+encoding="UTF-8"?>.
+
+ b. Declaração namespace
+ O documento XML da DAO e do Pedido de Registro de Evento deverá ter a declaração
+de namespace no elemento raiz, com o seguinte padrão:
+ <DAO xmlns=”http://www.sped.fazenda.gov.br/nfeouro”>
+ <pedRegEvento xmlns=” http://www.sped.fazenda.gov.br/nfeouro”>
+ A declaração do namespace da assinatura digital deverá ser realizada na tag <Signature>,
+com o seguinte padrão:
+ <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+ Após a recepção da DAO ou do Pedido de Registro de Evento assinados e da sua
+validação pelo sistema, a NF-e Ouro Ativo Financeiro e o Evento serão gerados, conforme leiaute
+nacional, e conterão a declaração de namespace no elemento raiz, com o seguinte padrão
+respectivamente:
+ <NFeouro xmlns="http://www.sped.fazenda.gov.br/nfeouro">
+ <Evento xmlns="http://www.sped.fazenda.gov.br/nfeouro">
+
+
+
+
+5 Um Schema XML é uma linguagem que define o conteúdo do documento XML, descrevendo os seus elementos e a sua organização,
+
+além de estabelecer regras de preenchimento de conteúdo e de obrigatoriedade de cada elemento ou grupo de informação. A validação da
+estrutura XML da mensagem é realizada por um analisador sintático (parser) que verifica se a mensagem atende as definições e regras de
+seu Schema XML. Qualquer divergência da estrutura XML da mensagem em relação ao seu Schema XML provoca um erro de validação
+do Schema XML. A primeira condição para que a mensagem seja validada com sucesso é que ela seja submetida ao Schema XML correto.
+Fonte: IBM. Disponível em: https://www.ibm.com/docs/pt-br/integration-bus/10.0?topic=model-xml-schema . Acesso em 23 jun 2023
+
+ 14
+
+[pagina 15]
+A declaração do namespace da assinatura digital é válida para todos os documentos da
+NF-e Ouro Ativo Finanaceiro (DAO, NF-e ouro, Pedido de Registro de Evento e Evento);
+ É vedado o uso de declaração namespace diferente do padrão estabelecido;
+ Não é permitida a utilização de prefixos de namespace. Essa restrição visa otimizar o
+tamanho do arquivo XML. Assim, em vez da declaração <DAO
+xmlns:DAO=http://www.sped.fazenda.gov.br/nfeouro> (exemplo para o XML de DAO com prefixo
+DAO), deverá ser adotada a declaração <DAO xmlns =”http://www.sped.fazenda.gov.br/nfeouro ”>;
+
+
+Exemplo:
+
+
+
+
+ <NFeouro xmlns="http://www.sped.fazenda.gov.br/nfeouro" versao="1.00">
+ <infNFeouro id="ID31062001100005392612628000000000000019010153978386">
+ <DAO xmlns="http://www.sped.fazenda.gov.br/nfeouro">
+ <infDAO Id="ID310602438167190001085500000010001234567890" versao="1.00">
+ ...
+ </infDAO>
+ <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+ …
+ </Signature>
+ </DAO>
+ </infNFeouro>
+ <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+ …
+ </Signature>
+ </NFeouro>
+
+
+
+
+ c. Documentos da NF-e Ouro Ativo Financeiro
+ Para otimizar a infraestrutura de rede, os documentos XML trafegados nas mensagens de
+requisição e de resposta deverão ser compactados no padrão GZip com representação base64binary.
+
+
+
+
+ 15
+
+[pagina 16]
+d. Otimização na montagem do arquivo
+ Para reduzir o tamanho final do arquivo XML da DAO, deverão ser adotadas as seguintes
+regras de programação:
+ • não incluir "zeros não significativos" para campos numéricos;
+ • não incluir "espaços" no início ou no final de campos numéricos e alfanuméricos;
+ • não incluir comentários no arquivo XML;
+ • não incluir anotação e documentação no arquivo XML (TAG annotation e TAG
+ documentation);
+ • não incluir caracteres de formatação no arquivo XML ("line-feed", "carriage return", "tab",
+ caractere de "espaço" entre as TAGs);
+ • não incluir prefixo no namespace das tags de DAO;
+
+ e. Validação de Schema
+ Para garantir minimamente a integridade das informações prestadas e a correta formação
+dos arquivos XML, o contribuinte deverá submeter o arquivo da DAO e as demais mensagens XML para
+validação pelo Schema do XML (XSD – XML Schema Definition).
+
+
+4.1.2 Padrão de Comunicação
+ • A comunicação é realizada via internet, com o uso do protocolo TLS 1.0 e versões
+ superiores, com autenticação mútua, que além de garantir um duto de comunicação seguro
+ na Internet, permite a identificação do servidor e do cliente por meio de certificados digitais;
+ • A comunicação é baseada em API REST6 e disponibilizada pelo Autorizador Nacional NF-
+ e Ouro Ativo Financeiro. Por ser uma formatação leve, de fácil interpretação e geração,
+ utiliza-se o formato JavaScript Object Notation (JSON)7, para as mensagens de requisição
+ e resposta.
+
+6 REST (Representational State Transfer – Transferência de Estado Representacional) é um estilo arquitetural que consiste em princípios,
+
+regras e restrições que, quando seguidas, permitem a criação de um projeto com interfaces bem definidas. O REST é um estilo arquitetural
+que utiliza o protocolo HTTP e toda a infraestrutura web já estabelecida e reconhecida, o que traz facilidade de integração, facilidade de
+desenvolvimento e esforço de aprendizado pequeno. A utilização de uma arquitetura A utilização de uma arquitetura simples que possibilite
+a padronização dos ambientes e facilita a integração das aplicações de mercado com as APIs. Fonte: IBM. Disponível em:
+https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=style-representational-state-transfer . Acesso em 23 jun 2023
+7 JSON (JavaScript Object Notation - Notação de Objetos JavaScript) é uma formatação leve de troca de dados. Para seres humanos, é fácil
+
+de ler e escrever. Para máquinas, é fácil de interpretar e gerar. Está baseado em um subconjunto da linguagem de programação JavaScript.
+JSON é em formato texto e completamente independente de linguagem, pois usa convenções que são familiares às linguagens C e
+familiares, incluindo C++, C#, Java, JavaScript, Perl, Python e muitas outras. Estas propriedades fazem com que JSON seja um formato
+ideal de troca de dados.JSON está constituído em duas estruturas: Uma coleção de pares nome/valor. Em várias linguagens, isto é
+caracterizado como um object, record, struct, dicionário, hash table, keyed list, ou arrays associativas; Uma lista ordenada de valores. Na
+maioria das linguagens, isto é caracterizado como uma array, vetor, lista ou sequência; Estas são estruturas de dados universais.
+Virtualmente todas as linguagens de programação modernas as suportam, de uma forma ou de outra. É aceitável que um formato de troca
+de dados que seja independente de linguagem de programação se baseie nestas estruturas. Fonte: IBM. Disponível em:
+https://www.ibm.com/docs/pt-br/was-nd/8.5.5?topic=djrwa-using-json-content-in-jax-rs-application-requests-responses. Acesso em: 23
+jun 2023.
+
+
+ 16
+
+[pagina 17]
+4.1.3 Padrão de Certificado Digital
+ O certificado digital utilizado no Autorizador Nacional NF-e Ouro Ativo Financeiro
+deverá ser emitido por Autoridade Certificadora credenciada pela Infraestrutura de Chaves Públicas
+Brasileira – ICP-Brasil, tipo A1 ou A3, devendo conter o CNPJ da pessoa jurídica titular do certificado
+digital no campo “otherName OID=2.16.76.1.3.3” ou o CPF da pessoa física titular do certificado digital
+no campo “otherName OID=2.16.76.1.3.1”.
+ Os certificados digitais serão exigidos em momentos distintos:
+ a) transmissão: o certificado digital será utilizado para a troca de mensagens entre a
+máquina do usuário e os servidores do Autorizador Nacional, devendo ter a extensão Extended Key
+Usage com permissão de "Autenticação Cliente".
+ b) assinatura de documentos: o certificado digital deverá conter a raiz do CNPJ do
+emitente. Na visão do usuário, os documentos assinados são a DAO e os Pedidos de Registro de Eventos.
+Na visão geral, a NF-e Ouro Ativo Financeiro e Eventos também são documentos assinados.
+
+
+
+4.1.4 Padrão de Assinatura Digital
+ As DAO enviadas para o Autorizador Nacional devem ser assinadas digitalmente com
+um certificado digital que contenha o CNPJ do emitente da DAO. Uma vez validada a DAO, de acordo
+com as regras de negócio estabelecidas, a NF-e Ouro Ativo Financeiro será gerada conforme o respectivo
+leiaute e assinada com um certificado digital que contenha o CNPJ emissor.
+ Alguns elementos estão presentes dentro do certificado do contribuinte, tornando
+desnecessária a sua representação individualizada no arquivo XML. Portanto, o arquivo XML não deve
+conter os seguintes elementos:
+ <X509SubjectName>
+ <X509IssuerSerial>
+ <X509IssuerName>
+ <X509SerialNumber>
+ <X509SKI>
+ Deve-se evitar o uso das seguintes TAG, pois as informações serão obtidas a partir do
+Certificado do emitente:
+ <KeyValue>
+ <RSAKeyValue>
+ <Modulus>
+ <Exponent>
+
+ A assinatura do contribuinte na DAO será feita sobre a TAG <infDAO> identificada pelo
+atributo Id, cujo conteúdo deverá ser um identificador único da DAO precedido do literal ‘#ID’ para
+cada DAO, conforme o respectivo leiaute.
+
+
+ 17
+
+[pagina 18]
+O identificador único precedido do literal ‘#ID’ deverá ser informado no atributo URI da
+TAG <Reference>. Para as demais mensagens a serem assinadas, o processo é o mesmo, mantendo
+sempre um identificador único para o atributo Id na TAG a ser assinada.
+
+
+Exemplo:
+
+
+ <DAO xmlns="http://www.sped.fazenda.gov.br/nfeouro" versao="1.00">
+ <infDAO Id="ID310620011000053926126280000000000000190101" versao="1.00">
+ ... ... ... ...
+ </infDAO>
+ <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+ <SignedInfo>
+ <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+ <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+ <Reference URI="#ID ID310620011000053926126280000000000000190101">
+ <Transforms>
+ <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+ <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+ </Transforms>
+ <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+ <DigestValue>vFL68WETQ+mvj1aJAMDx+oVi928=</DigestValue>
+ </Reference>
+ </SignedInfo>
+ <SignatureValue>IhXNhbdL1F9UGb2ydVc5v/gTB/y6r0KIFaf5evUi1i ...</SignatureValue>
+ <KeyInfo>
+ <X509Data>
+ <X509Certificate>MIIFazCCBFOgAwIBAgIQaHEfNaxSeOEvZGlVDANB ... </X509Certificate>
+ </X509Data>
+ </KeyInfo>
+ </Signature>
+ </DAO>
+
+
+
+
+ Para o processo de assinatura, o contribuinte não deve fornecer a lista de certificados
+revogados, já que essa será montada e validada por cada autorizador gerador de NF-e Ouro Ativo
+Financeiro, no momento da conferência da assinatura digital.
+
+
+
+
+ 18
+
+[pagina 19]
+A assinatura digital do documento eletrônico deverá atender aos seguintes padrões:
+a. Padrão de assinatura: “XML Digital Signature”, utilizando o formato “Enveloped”
+ (http://www.w3.org/TR/xmldsig-core/);
+b. Certificado digital: Emitido por AC credenciada no ICP-Brasil
+ (http://www.w3.org/2000/09/xmldsig#X509Data);
+c. Cadeia de Certificação: EndCertOnly (incluir na assinatura apenas o certificado do usuário final);
+d. Tipo do certificado: A1 ou A3;
+e. Tamanho da Chave Criptográfica: compatível com os certificados A1 e A3 (1024 bits);
+f. Função criptográfica assimétrica: RSA (http://www.w3.org/2000/09/xmldsig#rsa-sha1);
+g. Função de “message digest”: SHA-1 (http://www.w3.org/2000/09/xmldsig#sha1);
+h. Codificação: Base64 (http://www.w3.org/2000/09/xmldsig#base64); e
+i. Transformações exigidas: Útil para realizar a canonicalização do XML enviado para realizar a
+ validação correta da Assinatura Digital. São elas: 1) Enveloped
+ (http://www.w3.org/2000/09/xmldsig#enveloped-signature); e 2) C14N
+ (http://www.w3.org/TR/2001/REC-xml-c14n-20010315)
+
+
+
+4.1.5 Validação de Assinatura Digital pelo Autorizador Nacional NF-e ouro
+
+
+ O procedimento para a validação da assinatura digital adotado pelo Autorizador
+ Nacional é:
+
+
+ 1. Extrair a chave pública do certificado;
+ 2. Verificar o prazo de validade do certificado utilizado;
+ 3. Montar e validar a cadeia de confiança dos certificados validando também a LCR (Lista de
+ Certificados Revogados) de cada certificado da cadeia;
+ 4. Validar o uso da chave utilizada (Assinatura Digital) de tal forma a aceitar certificados somente
+ do tipo A (não serão aceitos certificados do tipo S);
+ 5. Garantir que o certificado utilizado é de um usuário final e não de uma Autoridade Certificadora;
+ 6. Adotar as regras definidas pelo RFC 3280 para as LCR e cadeia de confiança;
+ 7. Validar a integridade de todas as LCR utilizadas pelo autorizador; e
+ 8. Prazo de validade de cada LCR utilizada (verificar data inicial e final).
+
+
+
+
+ 19
+
+[pagina 20]
+A forma de conferência da LCR fica a critério de cada usuário que implementar seu
+próprio autorizador informatizado de NF-e Ouro Ativo Financeiro no modelo do Autorizador Nacional,
+podendo ser feita de 2 (duas) maneiras: online ou via download periódico.
+ As assinaturas digitais das mensagens serão verificadas considerando a lista de
+certificados revogados disponível no momento da conferência da assinatura.
+
+
+4.2 Modelo Operacional
+ O processamento síncrono e assíncrono das solicitações de serviços são as formas de
+processamento disponíveis no Autorizador Nacional.
+ 4.2.1 Serviços Síncronos
+ As solicitações de serviços de implementação síncrona são processadas imediatamente e
+o resultado do processamento é obtido em uma única conexão.
+ 4.2.2 Serviços Assíncronos
+ As solicitações de serviços de implementação assíncrona são processadas posteriormente
+à solicitação, e o resultado do processamento é obtido em uma nova solicitação/conexão em outra API
+especificada.
+ 4.2.3 Validação da Estrutura XML dos Documentos
+ As informações são enviadas ou recebidas pelas APIs por meio de mensagens no padrão
+XML definido na documentação de cada API.
+ As alterações de leiaute e da estrutura de dados XML realizadas nas mensagens são
+controladas via atribuição de um número de versão para a mensagem.
+
+ 4.2.4 Utilização da API
+
+A utilização da API segue as seguintes premissas:
+
+ a) envio da solicitação e a obtenção do retorno realizados na mesma conexão por meio de um único
+ método;
+ b) o processo de utilização da API REST sempre é iniciado pelo interessado com o envio de uma
+ mensagem no padrão JSON, via protocolo SSL com autenticação mútua;
+ c) a ocorrência de qualquer erro na validação dos dados recebidos interrompe o processo,
+ disponibilizando uma mensagem contendo o código e a descrição do erro;
+
+4.2.5 Esquemas XML dos Documentos
+ Toda alteração de leiaute das mensagens das APIs implica na atualização do respectivo
+Schema XML.
+ A identificação da versão dos Schemas será realizada conforme controle de
+versionamento especificado neste manual.
+
+
+
+ 20
+
+[pagina 21]
+A maioria dos Schemas XML da NF-e Ouro Ativo Financeiro utilizam as definições de
+tipos básicos ou tipos complexos que estão definidos em outros Schemas XML (ex.:
+tiposSimples_v1.00.xsd, etc.). Nesses casos, a modificação de versão do Schema básico será repercutida
+no Schema principal.
+ Por exemplo, o tipo numérico de 15 posições com 2 decimais é definido no Schema
+tiposSimples_v1.00.xsd. Caso ocorra alguma modificação na definição desse tipo, todos os Schemas que
+utilizam o tipo básico devem ter a sua versão atualizada. Com isso, as declarações “import” ou “include”
+devem ser atualizadas com o nome do Schema básico atualizado.
+ As modificações de leiaute das mensagens dos APIs podem ser causadas por necessidades
+técnicas ou em razão da modificação de alguma legislação. As modificações decorrentes de alteração da
+legislação deverão ser implementadas nos prazos previstos no ato normativo que introduziu a alteração.
+As modificações de ordem técnica serão divulgadas pela Coordenação Técnica do Autorizador e poderão
+ocorrer sempre que se fizerem necessárias.
+
+ 5. Controle de Acesso ao Sistema Nacional NF-e Ouro Ativo Financeiro para API
+ O emitente da DAO enviada a qualquer API do sistema da NF-e Ouro Ativo Financeiro
+deve ser o mesmo do certificado digital da assinatura do documento enviado, ou seja, o CNPJ do emitente
+do documento enviado deve ser o mesmo CNPJ do certificado digital da assinatura.
+
+
+ 5.1 Cadastro de Emitente
+ Os emitentes deverão ser previamente cadastrados e autorizados, sendo incluídos em
+tabela de instituições financeiras autorizadas a operar com ouro ativo financeiro ou instrumento cambial.
+
+
+ 6. API Eventos
+ Recepciona os Pedidos de Registros de Eventos de NF-e Ouro Ativo Financeiro gerados
+e enviados para a API, validando-os conforme as regras de negócio e gerando o Evento de NF-e Ouro
+Ativo Financeiro. O evento gerado é vinculado à NF-e ouro Ativo Financeiro para a qual o pedido de
+registro de evento foi enviado.
+ O evento de NF-e Ouro Ativo Financeiro implementado no sistema é:
+ i. Evento de Cancelamento por Substituição de NF-e Ouro Ativo Financeiro, que altera a situação
+ do documento fiscal para o sistema. O cancelamento de NF-e Ouro Ativo Financeiro por
+ substituição de nota ocorre com a ação de substituição de NF-e Ouro Ativo Financeiro pelo
+ envio de nova DAO, indicando uma chave de acesso de NF-e Ouro Ativo Financeiro existente
+ no sistema. Ao receber uma DAO contendo a chave de acesso a ser substituída, o sistema
+ cancela a NF-e Ouro Ativo Financeiro existente e gera uma substituta, vinculando os dois
+ documentos (notas substituída e substituta).
+
+
+
+
+ 21
+
+[pagina 22]
+7. Leiautes, Regras de Negócio e Mensagens de Erro, Documentação Técnica das APIs
+ (Swagger)
+
+ Os leiautes dos arquivos XML, as regras de negócio, as mensagens, os códigos de erros
+e a especificação para as APIs da NF-e Ouro que estão descritas neste manual estão disponíveis no link
+abaixo:
+ https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/guias-e-manuais/nf-e-ouro
+
+
+ 8. Glossário
+
+ • CAMINHO NO XML
+
+ O XML (Extensible Markup Language) é uma linguagem de marcação utilizada para
+ estruturar e armazenar dados em um formato legível por máquina que obedece aos layouts
+ dispostos neste documento e que possui regras a serem seguidas, em uma sequência pré-
+ definida e ordenada. Esta coluna informa o path, ou caminho, ordenado em que as
+ informações devem ser dispostas na formatação do XML.
+
+ • CAMPO
+ Nome do campo/informação que deve constar no XML.
+
+ • ELE
+ Elemento ou valor do campo que deve ser informado. Pode ser dos tipos:
+ o ID: Campo identificador do documento;
+ o E: Element (Elemento), atributo deve ser informado no campo;
+ o G: Group (Grupo), tag que identifica um grupo de informações que será formado
+ por elements (E), choice elements (CE) ou outros grupos;
+ o CG: Choice Group (Grupo de Escolha), tag que identifica um grupo que deverá
+ ser informado a depender da escolha do emitente;
+ o CE: Choice Element (Elemento de Escolha), elemento de uma lista pré-
+ determinada, a ser preenchida pelo emitente.
+
+ • TIPO
+ Tipo do campo que deve ser informado para a tag específica. Pode ser dos tipos:
+ o N: Numérico;
+ o C: Caractere;
+ o D: Data.
+
+ Nas tags G ou CG (Group ou Choice Group), como são apenas informações de
+ agrupamento de campos, não há um tipo relacionado.
+
+
+
+
+ 22
+
+[pagina 23]
+• OCOR.
+
+ Quantidade de ocorrências possíveis para o campo/tag.
+ Por exemplo:
+ o 0-1: A informação não é obrigatória e, caso seja informada, só será possível de ser
+ informada uma única vez no documento;
+ o 1-1: Informação obrigatória e que deverá ser informada apenas uma vez no
+ documento;
+ o 1-100: Informação obrigatória que deverá ser informada até, no máximo, 100
+ vezes no documento.
+
+• TAM.
+
+ Tamanho da informação para o campo/tag.
+ Por exemplo:
+ o 14: Campo de tamanho fixo com 14 caracteres;
+ o 1-150: Campo de tamanho variável, podendo possuir de 1 a 150 caracteres.
+
+ Nas tags G ou CG (Group ou Choice Group), como são apenas informações de
+ agrupamento de campos, não há um tamanho relacionado.
+
+• DESCRIÇÃO
+
+ Descrição sucinta do que representa cada campo e como deve ser preenchido.
+
+• NOTA EXPLICATIVA
+
+ Informações complementares sobre o campo e o seu correto preenchimento.
+
+
+
+
+ 23
+
+===== ANEXO: https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/documentos-tecnicos/nf-e-ouro/atualizacoes-de-leiaute-da-declaracao-de-aquisicao-do-ouro.pdf =====
+[pagina 1]
+Essas alterações serão disponibilizadas no ambiente de homologação no dia 28/07/2023 e no
+ambiente de produção no dia 01/08/2023.
+
+ 1. Mudança do campo “Valor unitário por grama de ouro (puro)” para “Valor unitário por
+ grama na operação”. Com isso o valor total da nota ouro será calculado pelo campo
+ “Quantidade de ouro bruto (gr)” multiplicado pelo “Valor unitário por grama na
+ operação”. Não mais utilizando o teor do ouro no cálculo.
+ 2. Criação do campo “Valor do Imposto de Renda Retido na Fonte informado pelo emitente
+ da DAO”. Esse campo deve ser utilizado para informar o valor do IRRF na operação.
+ Portanto, o sistema não mais calculará o imposto retido.
+ 3. Aumento do número de casas decimais para o campo “Valor unitário por grama na
+ operação” permitindo valores entre 2 e 8 casas decimais.
+ 4. Os campos “Teor do ouro” e “Método de análise do teor do ouro” são obrigatórios para
+ as operações 1 (Primeira aquisição do ouro produzido sob o regime de Permissão de
+ Lavra Garimpeira (PLG) e operação 2 (Aquisição do ouro fora do mercado financeiro) e
+ opcionais para as demais operações. Consequentemente, quando o teor do ouro não
+ estiver preenchido, não é possível preencher o método de análise do teor do ouro.
+ 5. Aumento da quantidade de números para o campo “Número do registro da carteira de
+ identidade do vendedor”, permitindo entre 6 e 15 números. Quando o número do
+ registro for menor que seis, inserir zeros a esquerda.
+ 6. Campo “Número do registro da carteira de identidade do vendedor” e “Órgão Expedidor
+ do registro da carteira de identidade do vendedor” são opcionais. Consequentemente,
+ quando o número do registro não estiver preenchido, não é possível preencher o órgão
+ expedidor.
+ 7. Aumento da quantidade de números para o campo “Número da conta do banco onde
+ foi realizado o pagamento.”, permitindo até 15 números.
+ 8. Possibilidade de preenchimento do Grupo de informações relativas à identificação do(s)
+ transportador(es) do ouro quando a operação da DAO for “4 - Nota de negociação com
+ ouro”.
+ 9. Inclusão de campo cPaisOr e cPaisDest no Grupo de informações relativas à
+ identificação do(s) transportador(es) do ouro. Esses campos apenas devem ser
+ preenchidos nas operações de importação e exportação.
+ a. Quando a operação da DAO for “5 - Exportação de Ouro Ativo
+ Financeiro/Instrumento Cambial;”, o campo país de destino (cPaisDest) deve ser
+ preenchido e o campo Município de destino deve ficar em branco.
+ b. Quando a operação da DAO for “6 - Importação de Ouro Ativo
+ Financeiro/Instrumento Cambial;”, o campo país de origem (cPaisOr) deve ser
+ preenchido e o campo Município de origem deve ficar em branco.
+ 10. Criação da operação 2 “Aquisição do ouro fora do mercado financeiro” e especificação
+ do grupo próprio no layout.
+ a. A natureza dessa operação pode ser: 01 - Regimes de aproveitamento mineral;
+ 02 - Leilão CEF; 03 - Leilão (Outros); 04 - Jóias; 05 - Scrap; 06 - Ouro adquirido
+ antes de 1988; 99 – Outras.
+ b. Apenas Tipo de Operação=1 (Compra)
+ c. Para essa operação deve ser preenchido o “Grupo de informações relativas ao
+ vendedor do ouro” e os grupos obrigatórios para todas as operações, a saber,
+ “Grupo de Informações da Declaração de Aquisição de Ouro ativo financeiro -
+
+[pagina 2]
+DAO “, “Grupo de informações relativas ao emitente da DAO” e “Grupo de
+ informações relativas do ouro da operação”.
+d. Não pode ser preenchidos o “Grupo de informações relativas ao comprador do
+ ouro” e “Grupo de informações relativas ao transportador nacional do ouro”.
+e. Incide IOF e não incide CFEM na operação.

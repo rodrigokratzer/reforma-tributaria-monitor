@@ -1,0 +1,20 @@
+Você está aqui: 
+
+Página Principal 
+
+> 
+ Serviços 
+ > 
+ Consultar NF-e 
+
+Consultar NF-e 
+
+Chave de Acesso da NF-e 
+
+Observações 
+
+Chave de Acesso: deve ser informado o número de 44 dígitos presentes no DANFE (Documento Auxiliar de Nota Fiscal Eletrônica). 
+
+Código impresso ao lado: digite os 6 caracteres da imagem. Essa informação ajuda a evitar consultas por programas automáticos, que dificultam a utilização do aplicativo pelos demais contribuintes. 
+
+Para que a consulta funcione corretamente, é necessário que seu navegador esteja habilitado para gravação de "cookies".

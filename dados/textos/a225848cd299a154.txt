@@ -1,0 +1,2223 @@
+[pagina 1]
+NFe
+
+Nota Fiscal
+Eletrônica
+
+NrCe
+
+Nota Fiscal de Consumidor
+Eletrônica
+
+Projeto Reforma Tributária do
+Consumo - Adequações NF-e | NFC-e
+
+Nota Técnica 2024.002 — Versão 1.0
+01 de agosto de 2024
+
+[pagina 2]
+Projeto
+ Reforma Tributária do Consumo
+ NT-RT 2024.002 Versão 1.00
+
+Sumário
+
+Contents
+Introdução ....................................................................................................................................... 4
+1 Tipos Básicos da Tributação .................................................................................................... 4
+2 Código Situação Tributária e Código de Classificação da Tributação ...................................... 4
+3 Finalidades débito e crédito da NF-e ........................................................................................ 5
+4 Alterações no arquivo XML da NF-e ........................................................................................ 6
+ 4.1 Esquema gráfico do leiaute do IBS da UF, contemplando IBS, CBS e Imposto Seletivo. 6
+ 4.2 Inserção dos novos campos de informação no leiaute da NF-e e NFC-e ........................ 7
+ 4.4 Disposição dos campos do Imposto Seletivo .................................................................. 8
+ 4.5 Imposto de Bens e Serviços - IBS das UFs e Municípios ................................................ 9
+ 4.6 Disposição dos campos do IBS da UF ............................................................................ 9
+ 4.7 Disposição dos campos do IBS dos Municípios ............................................................ 10
+ 4.9 Disposição dos campos da CBS ................................................................................... 11
+ 4.10 Disposição dos campos do IBS Monofásico.................................................................. 12
+ 4.11 Disposição dos campos totalizadores ........................................................................... 13
+5 Leiaute da NF-e (Modelo 55 e 65).......................................................................................... 14
+ 5.1 Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo .............................. 14
+ 5.2 Grupo W. Total da NF-e ................................................................................................ 21
+6 Regras de Validação .............................................................................................................. 23
+ 6.1 Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo .............................. 24
+7 Eventos .................................................................................................................................. 38
+ 7.1 Evento: “Decurso de Prazo de Internalização na Área de Livre Comércio - ALC ou Zona
+ Franca de Manaus - ZFM” ........................................................................ 38
+ 7.2 Evento: “Cancelamento do Evento Decurso de Prazo de Internalização na Área de Livre
+ Comércio - ALC ou Zona Franca de Manaus - ZFM” ................................ 38
+ 7.3 Evento: “Solicitação de Apropriação de Crédito Presumido” ......................................... 38
+ 7.4 Evento: “Cancelamento do Evento Solicitação de Apropriação de Crédito Presumido”. 39
+ 7.5 Evento: “Destinação de Item para Consumo Pessoal” .................................................. 39
+ 7.6 Evento: “Cancelamento do Evento Destinação de Item para Consumo Pessoal” .......... 39
+ 7.7 Evento: “Imobilização de Item” ...................................................................................... 39
+ 7.8 Evento: “Cancelamento do Evento Imobilização de Item” ............................................. 40
+ 7.9 Evento: “Solicitação de Apropriação de Crédito de Combustível”.................................. 40
+ 7.10 Evento: “Cancelamento do Evento Solicitação de Apropriação de Crédito de Combustível”
+ ................................................................................................................. 40
+8 DANFE................................................................................................................................... 41
+ANEXO I - NCM DO IMPOSTO SELETIVO .................................................................................. 41
+ANEXO II - CÓDIGO DE CLASSIFICAÇÃO TRIBUTÁRIA DO IMPOSTO SELETIVO .................. 41
+ANEXO III - CÓDIGO DE CLASSIFICAÇÃO TRIBUTÁRIA DO IBS E DA CBS ............................ 41
+
+
+
+
+ Página 2 / 41
+
+[pagina 3]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+Controle de Versões
+
+Versão Publicação Descrição
+
+1.00 08/2024 NT que inseri campos e regras para informação do Imposto de Bens e Serviços - IBS,
+ Contribuição de Bens e Serviços - CBS e Imposto Seletivo - IS.
+
+
+
+
+Histórico de Alterações / Cronograma
+
+ Versão Histórico de atualizações Implantação Implantação
+ Teste Produção
+ Versão inicial com a previsão dos campos do Imposto Seletivo,
+ 1.00 01/09/2025 31/10//2025
+ IBS e CBS na NF-e e NFC-e.
+
+
+
+
+ Página 3 / 41
+
+[pagina 4]
+Projeto
+ Reforma Tributária do Consumo
+ NT-RT 2024.002 Versão 1.00
+
+Introdução
+
+O Projeto de Lei Complementar Federal PLP 68, aprovado na Câmara dos Deputados e
+encaminhado para aprovação junto ao Senado Federal, definiu na Seção VIII – Disposições
+Transitórias, Art. 61, a obrigatoriedade para Estados, o Distrito Federal e os Municípios adaptarem
+os sistemas autorizadores de Documentos Fiscais Eletrônicos (DFe) vigentes para utilização de
+leiaute padronizado, que permita aos contribuintes informarem os dados relativos ao Imposto sobre
+Bens e Serviços (IBS), Contribuição sobre Bens e Serviços (CBS) e Imposto Seletivo (IS).
+
+Como as infraestruturas autorizadoras de Documentos Fiscais Eletrônicos (DFe) das Unidades
+Federadas e Municípios, além das aplicações e sistemas dos contribuintes, necessitam de, no
+mínimo, 1 ano para o desenvolvimento das alterações necessárias, estamos divulgando esta Nota
+Técnica (NT) para implantação, em produção, a partir do dia 31/10/2025, de forma a entrar em
+efetiva operacionalização a partir 01/01/2026.
+
+Como as discussões envolvendo a implantação da Reforma Tributária ainda estão em curso,
+esclarecemos que esta NT poderá ser ajustada ao longo do seu processo de execução, da mesma
+forma como ocorre com as demais NT já implementadas.
+
+Desta forma, esta NT, discutida conjuntamente com a RFB e entidades representantes dos
+municípios, modifica o leiaute da NF-e e NFC-e, inserindo os grupos e campos opcionais
+relacionados a tributação do Imposto sobre Bens e Serviços (IBS), Contribuição sobre Bens e
+Serviços (CBS) e Imposto Seletivo (IS), em atendimento as alterações previstas na Emenda
+Constitucional 132 de 20 de dezembro de 2023 para implementação da Reforma Tributária.
+
+
+1 Tipos Básicos da Tributação
+
+Em busca de uma padronização entre os diversos documentos fiscais eletrônicos existentes, esta
+NT introduz o arquivo “DFeTiposBasicos_v1.00.xsd” ao conjunto dos arquivos que compõem do
+schema de todos os Documentos Fiscais Eletrônicos - DF-e, entre eles a NF-e e NFC-e.
+
+Este arquivo define de forma estruturada a previsão de campos a serem informados para o registro
+das informações referentes a tributação do IBS e da CBS em um tipo complexo referenciado no
+leiaute padrão da NF-e e NFC-e conforme estrutura demonstrada no item 5.1, e também será
+utilizado nos demais documentos fiscais eletrônicos.
+
+
+2 Código Situação Tributária e Código de Classificação da
+ Tributação
+
+O grupo de informações do IBS, CBS e IS associado aos itens do documento fiscal devem ser
+classificados de acordo com Código de Situação Tributária (CST) e Código de Classificação
+Tributária (cClassTrib) do IBS, CBS e IS.
+
+As duas tabelas estarão publicadas nos portais nacionais dos documentos fiscais eletrônicos e as
+ocorrências previstas para preenchimento estão relacionadas às previsões legais do texto da
+Reforma Tributária.
+
+
+
+
+ Página 4 / 41
+
+[pagina 5]
+Projeto
+ Reforma Tributária do Consumo
+ NT-RT 2024.002 Versão 1.00
+Associados a estas tabelas, serão publicados indicadores de obrigatoriedade de preenchimento dos
+grupos de informações do IBS, da CBS e do IS nos itens da DF-e. Essas configurações vinculam
+de forma dinâmica os CST e cClassTrib com as Regras de Validação descritas logo abaixo.
+
+
+3 Finalidades débito e crédito da NF-e
+
+Notas de Débito e Crédito são nomes de instrumentos utilizados mundialmente para documentar
+situações contábeis onde é necessário corrigir informações comerciais que foram registradas em
+um documento, que no Brasil é a Nota Fiscal.
+
+Esta Nota Técnica cria na NF-e modelo 55 as finalidades de emissão correspondentes. O sentido
+das palavras “débito” e “crédito” sempre se referem ao ponto de vista do emissor:
+
+• Uma nota de débito documenta uma situação na qual o emitente registra um aumento no imposto
+ devido (consequentemente, uma redução no imposto devido pelo adquirente, que é o
+ destinatário);
+• Uma nota de crédito documenta uma situação na qual o emitente registra uma redução no
+ imposto devido (consequentemente, um aumento no imposto devido pelo adquirente, que é o
+ destinatário);
+
+As finalidades de emissão “Nota de Ajuste” e “Nota Complementar”, já existentes, são casos
+especiais de Nota de Débito; uma nota de entrada emitida para documentar, por exemplo, a
+devolução de mercadoria que havia sido vendida a um consumidor final, é um caso especial de
+Nota de Crédito.
+
+A regulamentação do IBS disporá sobre a utilização de notas de crédito e notas de débito para
+lançamentos de ajuste, com a finalidade de instrumentalizar a preparação da declaração assistida
+a ser oferecida para os contribuintes, de maneira automatizada, a partir de documentos fiscais
+eletrônicos, em cumprimento ao que preconiza o PLP 68. A menos que ocorra alteração na
+regulamentação do ICMS e do IPI, notas de crédito e notas de débito não poderão ser utilizadas
+para ajustes relativos a estes tributos.
+
+
+
+
+ Página 5 / 41
+
+[pagina 6]
+Projeto A Fe
+Reforma Tributária do Consumo pe ca
+NT-RT 2024.002 Versão 1.00
+
+4 Alterações no arquivo XML da NF-e
+
+4.1 Esquema gráfico do leiaute do IBS da UF, contemplando IBS, CBS e
+Imposto Seletivo.
+
+Código Situação Tributária do
+IBS/CBS
+
+cClassTrib
+
+Código de Classificação
+Tributario do TIBS e CBS
+
+Grupo de Tributação de
+Imposto Seletivo
+
+“|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+=
+
+pocos
+
+Grupo de informações da
+Tributação da NFe
+
+Valor do BC do IBS e CBS
+
+ESSE:
+
+|
+
+|
+
+|
+
+Grupo de informações do IBS |
+
+| gIBSCBS E ( à na UF |
+|
+
+|
+
+IBS / CBS / Imposto Seletivo gIBSMun
+
+Grupo de Informações do IBS
+no Municipio
+
+x
+
+|
+|
+
+a
+
+Ê
+
+Grupo de Tributação da CBS
+
+gIBSCBSMono
+
+Página 6 /41
+Do
+
+[pagina 7]
+Projeto Fe
+Reforma Tributária do Consumo bos
+NT-RT 2024.002 Versão 1.00
+
+4.2 Inserção dos novos campos de informação no leiaute da NF-e e
+
+NFC-e
+prod E
+
+Dados dos produtos e
+serviços da NF-e
+
+-4 vTotTrib
+
+Valor estimado total de
+impostos federais, estaduais
+e munidipais
+
+'
+'
+'
+'
+£L
+
+A
+uu
++
+
+1..990
+Dados dos detalhes da NF-e
+
+Dados do PIS Substituição
+Tributária
+
+memoB——p
+
+Tributos incidentes nos
+produtos ou serviços da NF-e
+
+p
+R
+8
+Q
+ã
+&
+
+y
+
+Dados do COFINS da
+Substituição Tributaria;
+
+Grupo a ser informado nas
+vendas interestarduais para
+consumidor final, não
+contribuinte de ICMS
+
+PR
+
+I
+
+)
+É)
+1
+)
+1
+1
+É)
+)
+)
+1
+1
+)
+'
+1
+1
+1
+)
+1
+1
+1
+1
+)
+1
+)
+)
+1
+)
+1
+1
+r
+É)
+1
+)
+1
+1
++
+1
+1
+1
+)
+)
+1
+1
+)
+)
+)
+1
+1
+1
+1
+1
+1
+1
+)
+1
+1
+1
+1
+)
+)
+1
+)
+'
+É)
+1
+)
+)
+1
+É)
+)
+1
+1
+1
+1
+1
+1
+1
+É)
+1
+)
+1
+1
+1
+)
+1
+1
+1
+1
+1
+1
+1
+)
+
+Página 7/41
+Do
+
+[pagina 8]
+Projeto Fe
+Reforma Tributária do Consumo Eli
+NT-RT 2024.002 Versão 1.00
+
+4.4 Disposição dos campos do Imposto Seletivo
+| TimpSel
+
+csT
+
+Código Situação Tributária
+do Imposto Seletivo
+
+Código de Classificação
+Tributario do Imposto
+
+|
+
+|
+
+|
+
+| —
+
+| FeClassTrib
+|
+
+| Seletivo
+|
+
++ seletivo [3 (cume Valor do BC
+
+Alíquota do Imposto
+b Seletivo (percentual)
+
+ET--------=0 000004
+N
+q
+1
+
+1 Alíquota do Imposto
+Seletivo (por valor)
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+DO ia e apropriada especificada
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Unidade de medida
+= em Lei Ordinaria para fins
+de apuração do Imposto
+
+Seletivo
+
+Quantidade com abse no
+campo uTrib informado
+
+Valor do Imposto Seletivo
+calculado
+
+Página 8 /41
+Do
+
+[pagina 9]
+Projeto A Fe
+Reforma Tributária do Consumo pe ca
+NT-RT 2024.002 Versão 1.00
+
+4.5 Imposto de Bens e Serviços - IBS das UFs e Municípios
+|
+|
+
+gIBSCES E | giaSur
+
+talor do BC do IRS e &
+
+E
+
+IES [CES [Imposto Seleti 11 rã (Grupo de informações do
+
++ gIBS ã IBS na IF
+
+(grupo de Tributação do IB: ku
+gIBSMun
+
+!
+
+(Grupo de Informações da
+IES no Municipio
+
+4.6 Disposição dos campos do IBS da UF
+
+Aliquota do IBS de
+competência das UF
+
+vTribOp
+
+Valor do tributo Bruto na
+
+operação
+ce gCredPres E
+Aiii . Grupo de Informações do
+aaa E Crédito Presumido
+
+b
+
+=! gDif
+
+Grupo de campos do
+gIBSUF ( EM : Diferimento
+
+Grupo de informações do IBS o
+na UF *--- gDevol
+
+i
+
+Grupo de Informações da
+devolução do IBS
+
+- gRed
+Grupo de campos da redução
+porteseeenooa de aliquota
+iges E (ee EH E
+: gDeson
+
+Grupo de Tributação do IBS
+
+Grupo de informações da
+Desoneração
+
+Valor do IBS de competência
+das UF
+
+Página 9/41
+
+[pagina 10]
+Projeto
+
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+SN Fiscal
+»» Eletrônica
+
+4.7 Disposição dos campos do IBS dos Municípios
+
+Grupo de Tributação do IBS
+
+Grupo de Informações do
+IBS no Município
+
+=
+
+Aliquota do IBS Municipal
+
+vTribOp
+
+Valor do tributo Bruto na
+operação
+
+ata aa aa ata o
+
+een ' Grupo de Informações do
+Crédito Presumido
+
+Grupo de campos do
+Diferimento
+
+Grupo de Informações da
+devolução do IBS
+
+Grupo de campos da redução
+de aliquota
+
+Grupo de informações da
+Desoneração
+
+Valor do IBS Municipal
+
+Página 10/41
+
+[pagina 11]
+Projeto Fe
+Reforma Tributária do Consumo Eli
+NT-RT 2024.002 Versão 1.00
+
+4.9 Disposição dos campos da CBS
+
+Aliquota da CBS
+| vTribOp
+Valor do tributo Bruto na
+operação
+-» gCredPres
+===. Grupo de Informações do
+
+Ê
+|
+ê
+
+tes &—
+
+Grupo de Tributação da CBS
+
+devolução de tributos
+
+de aliquota
+
+Grupo de informações da
+Desoneração
+
+Valor da CBS
+
+Página 11/41
+Do
+
+[pagina 12]
+Projeto
+
+Reforma Tributária do Consumo
+
+NT-RT 2024.002 Versão 1.00
+
+NFe
+
+Nota Fiscal
+»» Eletrônica
+
+4.10 Disposição dos campos do IBS Monofásico
+
+| TMonofasia
+
+1 gIBSCBSMono E! ———
+
+Moncêssia dos comia veis
+
+--qBCMono '
+
+Informar a EX quantidade
+conforme uridade de medida
+estabelecidas ms legisiação pa
+o procuão.
+
+|
+
+E
+A
+
+Micquucta especifica do 18
+
+r
+
+quotas especfiac ds (3
+
+NT
+&
+o
+E
+3
+õ
+
+Valor do 185 Momctasior
+
+$
+o
+à
+5
+o
+
+Valor da CHS Momotasicr
+
+Quardidade tributadas sujeis
+retenção
+
+Uso em operações com
+
+veis derivados de
+petróleo (Gasolina A) [ou "Qu
+Diesel A*| para reterção do
+Imposto sobre o
+Diocomiusivel s ser misturas
+Bet 173 PLP 68/24
+
+Uso em operações com crédia
+presumido. Exemplo: compra +
+comitersaivei por trarsportador
+de passageiros, vera para
+órgão público, veria equipar:
+a exportação, erfre outros.
+
+$$
+=.
+”
+
+Qperações com diferimento,
+aplicado aos Diocomibust veis
+Exemplo: operação do produ
+de Diocomibusavel (ueiris)
+
+FvTotiBSMono
+
+Total de 185 Monctssico,
+corsiderando a adição do vs
+de reterção e deduzindo s
+parceia diferidas conforme o
+
+caso
+
+vTotCBSMono
+
+Total de CES Monctssico,
+corsiderando s adição do vs
+de retenção e deduzindo a
+parceia diferidas conforme o
+caso
+
+FadRemiBSReten
+
+Aliquots ad rem do imposto cx
+retenção
+
+Valor do 185 com retenção, a
+ser somado so valor de 185 s
+ser recolrido
+
+EpCredPresiBS
+
+Perceríual de crédio press
+do 185 monctssico
+
+EvCredPresiBS
+
+Valor do crédito presumido
+185 monctsdco
+
+E
+ê
+
+Percerâuai de crédito pres
+do CES monctssico
+
+É
+ê
+
+Valor do crédito presumide
+CES monctsdco
+
+Página 12/41
+
+[pagina 13]
+Projeto Fe
+Reforma Tributária do Consumo Not fia
+
+»» Eletrônica
+
+NT-RT 2024.002 Versão 1.00
+4.11 Disposição dos campos totalizadores
+
+(E
+
+Total Base de Calculo
+
+===]
+
+gIBSUFTot
+
+Totalização do IBS de
+competêcnia da UF
+
+Totalização do IBS Totalização do IBS de
+competência Municipal
+
+vIBSTot
+Total Valor do IBS Total
+
+vCredPres
+Total do Credito Presumido
+
+TTotCIBSSel El =
+
+Grupo de informações de
+totais do CBS/IBS com
+
+E Total de devoluções de
+Totalização da CBS trade
+
+Total do Diferimento
+
+po------- Valor Total do IBS
+Monofásico
+
+Totais da Monofasia
+
+VBalor Total da CBS
+Monofásica
+
+Valor Total da NF
+considerando os impostos por
+fora IBS, CBS e IS
+
+Página 13/41
+Do
+
+[pagina 14]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+5 Leiaute da NF-e (Modelo 55 e 65)
+
+Grupo B. Identificação da Nota Fiscal eletrônica
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+ 29 B25 finNFe Finalidade de emissão da NF-e E B01 N 1-1 1 1=NF-e normal;
+ 2=NF-e complementar;
+ 3=NF-e de ajuste;
+ 4=Devolução de mercadoria.
+ 5=Nota de crédito
+ 6=Nota de débito
+
+
+
+
+Grupo N01. ICMS Normal e ST
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+ 164 N01 ICMS Informações do ICMS da Operação própria e ST CG M01 0-1 Informar apenas um dos grupos de tributação do ICMS
+ (ICMS00, ICMS10, ...) (v2.0)
+
+
+
+
+5.1 Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+324.01 UB01 IBSCBSSel Informações do Imposto de Bens e Serviços - IBS, H01 0-1
+ Contribuição de Bens e Serviços - CBS e Imposto Seletivo
+
+324.02 UB02 seletivo Informações do Imposto Seletivo G UB04 0-1
+
+324.03 UB03 CST Código de Situação Tributária do Imposto Seletivo E UB02 N 1-1
+
+324.04 UB04 cClassTrib Código de Classificação Tributária do Imposto Seletivo E UB05 C 1-1
+
+324.05 UB05 gImpSel Grupo de Informações do Imposto Seletivo G UB02 0-1
+
+324.06 UB06 vBCImpSel Valor da Base de Cálculo do Imposto Seletivo E UB05 N 1-1 13v2
+
+
+
+
+ Página 14 / 41
+
+[pagina 15]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+324.07 UB07 pImpSel Alíquota do Imposto Seletivo E UB05 N 1-1 3v2-4
+
+324.08 UB08 pImpSelEspec Alíquota específica por unidade de medida apropriada E UB05 N 0-1 3v2-4
+
+324.09 UB09 uTrib Unidade de Medida Tributável E UB05 C 0-1 1-6
+
+324.10 UB10 qTrib Quantidade Tributável E UB05 N 0-1 11v0-4
+
+324.11 UB11 vImpSel Valor do Imposto Seletivo E UB05 N 1-1 13v2
+
+324.12 UB12 CST Código de Situação Tributária do IBS e CBS E UB01 N 0-1
+
+324.13 UB13 cClassTrib Código de Classificação Tributária do IBS e CBS E UB01 C 0-1
+
+324.14 UB14 gIBSCBS Grupo de Informações do IBS, CBS e Imposto Seletivo CG UB01 1-1
+
+324.15 UB15 vBC Base de cálculo do IBS e CBS E UB04 N 1-1 3v2-4
+
+324.16 UB16 gIBSUF Grupo de Informações do IBS para a UF G UB14 1-1
+
+324.17 UB17 pIBSUF Alíquota do IBS de competência das UF E UB15 N 1-1 3v2-4 Alíquota vigente do IBS da UF
+
+324.18 UB18 -x- Sequencia XML G UB15 0-1
+
+ Valor do tributo considerando BC x Alq do IBS, sem considerar
+324.19 UB19 vTribOP Valor bruto do tributo na operação E UB17 N 1-1 13v2 qualquer desoneração.
+ Grupo de Informações do Crédito Presumido, quando
+ aproveitado pelo emitente do documento. Exemplos: 1 -
+ Aquisição de PR não contribuinte. 2 - Tomador de serviço de
+324.20 UB20 gCredPres Grupo de Informações do Crédito Presumido G UB17 0-1 transporte de TAC PF não contrib. 3 - Aquisição de pessoa
+ física com destino a reciclagem. 4 - Aquisição de bens móveis
+ de PF não contrib. para revenda (veículos / brecho). 5 -
+ Regime opcional para cooperativa.
+
+324.21 UB21 pCredPres Percentual do Crédito Presumido E UB19 N 1-1 3v2-4
+
+324.22 UB22 vCredPres Valor do Crédito Presumido E UB19 N 1-1 13v2
+
+324.23 UB23 gDif Grupo de Informações do Diferimento G UB17 0-1
+
+324.24 UB24 pDif Percentual do diferimento E UB22 N 1-1 3v2-4
+
+324.25 UB25 vDif Valor do Diferimento E UB22 N 1-1 13v2
+
+
+
+ Página 15 / 41
+
+[pagina 16]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+324.26 UB26 gDevTrib Grupo de Informações da devolução de tributos G UB17 0-1
+
+ Valor do tributo devolvido. No fornecimento de energia
+324.27 UB27 vDevTrib Valor do tributo devolvido E UB25 N 1-1 13v2 elétrica, água, esgoto e gás natural e em outras hipóteses
+ definidas no regulamento
+
+324.28 UB28 gRed Grupo de informações da redução da alíquota G UB15 0-1
+
+324.29 UB29 pRedAliq Percentual da redução de alíquota E UB27 N 1-1 3v2-4
+
+ Aliquota Efetiva do IBS de competência das UF que será
+324.30 UB30 pAliqEfet aplicada a Base de Cálculo E UB27 N 1-1 3v2-4 Alíquota efetiva, após aplicação da redução de alíquota.
+
+ Grupo de informações da Desoneração. Exemplo 1: Art. 442,
+324.31 UB31 gDeson Grupo de informações da Desoneração G UB15 0-1 §4. Operações com ZFM e ALC. Exemplo 2: Operações com
+ suspensão do tributo.
+
+324.32 UB32 CST Código de Situação Tributária do IBS e CBS E UB30 N 0-1 Informado como se a operação fosse tributada integralmente
+
+324.33 UB33 cClassTrib Código de Classificação Tributária do IBS e CBS E UB30 C 0-1 Informado como se a operação fosse tributada integralmente
+
+324.34 UB34 vBC Valor da BC E UB30 N 0-1 13v2 Info: Avaliando retirar e deixar a BC do grupo anterior
+
+324.35 UB35 pAliq Valor da alíquota E UB30 N 1-1 3v2-4 Informado como se a operação fosse tributada integralmente
+
+324.36 UB36 vDeson Valor desonerado E UB30 N 1-1 13v2
+
+324.37 UB37 vIBSUF Valor do IBS de competência da UF E UB15 N 1-1 13v2
+
+324.38 UB38 gIBSMun Grupo de Informações do IBS para o município G UB14 1-1
+
+324.39 UB39 pIBSMun Alíquota do IBS de competência dos Municípios E UB37 N 1-1 3v2-4
+
+324.40 UB40 -x- Sequencia XML G UB37 0-1
+
+ Valor do tributo considerando BC x Alq do IBS, sem considerar
+324.41 UB41 vTribOP Valor bruto do tributo na operação E UB39 N 1-1 13v2 qualquer desoneração.
+
+
+
+
+ Página 16 / 41
+
+[pagina 17]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+ Grupo de Informações do Crédito Presumido, quando
+ aproveitado pelo emitente do documento. Exemplos: 1 -
+ Aquisição de PR não contribuinte. 2 - Tomador de serviço de
+324.42 UB42 gCredPres Grupo de Informações do Crédito Presumido G UB39 0-1 transporte de TAC PF não contrib. 3 - Aquisição de pessoa
+ física com destino a reciclagem. 4 - Aquisição de bens móveis
+ de PF não contrib. para revenda (veículos / brecho). 5 -
+ Regime opcional para cooperativa.
+
+324.43 UB43 pCredPres Percentual do Crédito Presumido E UB41 N 1-1 3v2-4
+
+324.44 UB44 vCredPres Valor do Crédito Presumido E UB41 N 1-1 13v2
+
+324.45 UB45 gDif Grupo de Informações do Diferimento G UB39 0-1
+
+324.46 UB46 pDif Percentual do diferimento E UB43 N 1-1 3v2-4
+
+324.47 UB47 vDif Valor do Diferimento E UB43 N 1-1 13v2
+
+324.48 UB48 gDevTrib Grupo de Informações da devolução de tributos G UB39 0-1
+
+ Valor do tributo devolvido. No fornecimento de energia
+ elétrica, água, esgoto e gás natural e em outras hipóteses
+324.49 UB49 vDevTrib Valor do tributo devolvido E UB46 N 1-1 13v2 definidas no regulamento
+
+324.50 UB50 gRed Grupo de informações da redução da alíquota G UB37 0-1
+
+324.51 UB51 pRedAliq Percentual da redução de alíquota E UB48 N 1-1 3v2-4
+
+ Aliquota Efetiva do IBS de competência dos Municípios
+324.52 UB52 pAliqEfet que será aplicada a Base de Cálculo E UB48 N 1-1 3v2-4 Alíquota efetiva, após aplicação da redução de alíquota.
+
+ Grupo de informações da Desoneração. Exemplo 1: Art. 442,
+324.53 UB53 gDeson Grupo de informações da Desoneração G UB37 0-1 §4. Operações com ZFM e ALC. Exemplo 2: Operações com
+ suspensão do tributo.
+
+324.54 UB54 CST Código de Situação Tributária do IBS e CBS E UB51 N 0-1 Informado como se a operação fosse tributada integralmente
+
+324.55 UB55 cClassTrib Código de Classificação Tributária do IBS e CBS E UB51 C 0-1 Informado como se a operação fosse tributada integralmente
+
+324.56 UB56 vBC Valor da BC E UB51 N 1-1 13v2 Info: Avaliando retirar e deixar a BC do grupo anterior
+
+324.57 UB57 pAliq Valor da alíquota E UB51 N 1-1 3v2-4 Informado como se a operação fosse tributada integralmente
+
+324.58 UB58 vDeson Valor desonerado E UB51 N 1-1 13v2
+
+
+ Página 17 / 41
+
+[pagina 18]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+324.59 UB59 vIBSMun Valor do IBS de competência dos Municípios E UB37 N 1-1 13v2
+
+324.60 UB60 gCBS Grupo de Informações da CBS G UB14 1-1
+
+324.61 UB61 pCBS Alíquota da CBS E UB58 N 1-1 3v2-4
+
+324.62 UB62 -x- Sequencia XML G UB58 0-1
+
+ Valor do tributo considerando BC x Alq da CBS, sem
+324.63 UB63 vTribOp Valor bruto do tributo na operação E UB60 N 1-1 considerar qualquer desoneração.
+ Grupo de Informações do Crédito Presumido, quando
+ aproveitado pelo emitente do documento. Exemplos: 1 -
+ Aquisição de PR não contribuinte. 2 - Tomador de serviço de
+324.64 UB64 gCredPres Grupo de Informações do Crédito Presumido G UB60 0-1 transporte de TAC PF não contrib. 3 - Aquisição de pessoa
+ física com destino a reciclagem. 4 - Aquisição de bens móveis
+ de PF não contrib. para revenda (veículos / brecho). 5 -
+ Regime opcional para cooperativa.
+
+324.65 UB65 pCredPres Percentual do Crédito Presumido E UB62 N 1-1 3v2-4
+
+324.66 UB66 vCredPres Valor do Crédito Presumido E UB62 N 1-1 13v2
+
+324.67 UB67 gDif Grupo de Informações do Diferimento G UB60 0-1
+
+324.68 UB68 pDif Percentual do diferimento E UB65 N 1-1 3v2-4
+
+324.69 UB69 vDif Valor do Diferimento E UB65 N 1-1 13v2
+
+324.70 UB70 gDevTrib Grupo de Informações da devolução de tributos G UB60 0-1
+
+ Valor do tributo devolvido. No fornecimento de energia
+ elétrica, água, esgoto e gás natural e em outras hipóteses
+324.71 UB71 vDevTrib Valor do tributo devolvido E UB68 N 1-1 13v2 definidas no regulamento
+
+324.72 UB72 gRed Grupo de informações da redução da alíquota G UB58 0-1
+
+324.73 UB73 pRedAliq Percentual da redução de alíquota E UB70 N 1-1 3v2-4
+ Alíquota Efetiva da CBS que será aplicada a Base de
+324.74 UB74 pAliqEfet Cálculo E UB70 N 1-1 3v2-4 Alíquota efetiva, após aplicação da redução de alíquota.
+
+ Grupo de informações da Desoneração. Exemplo 1: Art. 442,
+ §4. Operações com ZFM e ALC. Exemplo 2: Operações com
+324.75 UB75 gDeson Grupo de informações da Desoneração G UB58 0-1 suspensão do tributo.
+
+
+ Página 18 / 41
+
+[pagina 19]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+324.76 UB76 CST Código de Situação Tributária do IBS e CBS E UB73 N 0-1 Informado como se a operação fosse tributada integralmente
+
+324.77 UB77 cClassTrib Código de Classificação Tributária do IBS e CBS E UB73 C 0-1 Informado como se a operação fosse tributada integralmente
+
+324.78 UB78 vBC Valor da BC E UB73 N 1-1 13v2 Info: Avaliando retirar e deixar a BC do grupo anterior
+
+324.79 UB79 pAliq Valor da alíquota E UB73 N 1-1 3v2-4 Informado como se a operação fosse tributada integralmente
+
+324.80 UB80 vDeson Valor desonerado E UB73 N 1-1 13v2
+
+324.81 UB81 vCBS Valor da CBS E UB58 N 1-1 13v2
+
+ Grupo de Informações do IBS e CBS em operações com
+324.82 UB82 gIBSCBSMono imposto monofásico CG UB01 1-1 Monofasia dos Combustíveis
+
+ Informar a BC quantidade conforme unidade de medida
+324.83 UB83 qBCMono Quantidade tributada na monofasia E UB80 N 0-1 11v0-4 estabelecida na legislação para o produto.
+
+324.84 UB84 adRemIBS Alíquota ad rem do IBS E UB80 N 1-1 3v2-4
+
+324.85 UB85 adRemCBS Alíqutoa ad rem da CBS E UB80 N 1-1 3v2-4
+
+ O valor do imposto é obtido pela multiplicação da alíquota ad
+324.86 UB86 vIBSMono Valor do IBS monofásico E UB80 N 1-1 13v2 rem pela quantidade do produto conforme unidade de
+ medida estabelecida na legislação.
+
+ O valor do imposto é obtido pela multiplicação da alíquota ad
+324.87 UB87 vCBSMono Valor da CBS monofásica E UB80 N 1-1 13v2 rem pela quantidade do produto conforme unidade de
+ medida estabelecida na legislação.
+
+ Uso em operações com combustíveis derivados de petróleo
+324.88 UB88 -x- Sequencia XML G UB80 0-1 (Gasolina A) [ou *Óleo Diesel A*] para retenção do imposto
+ sobre o biocombustível a ser misturado. Art 173 PLP 68/24.
+
+ Informar a BC do ICMS sujeita a retenção em quantidade
+324.89 UB89 qBCMonoReten Quantidade tributada sujeita à retenção na monofasia E UB84 N 0-1 11v0-4 conforme unidade de medida estabelecida na legislação para
+ o produto.
+
+324.90 UB90 adRemIBSREten Alíquota ad rem do imposto sujeito a retenção E UB84 N 1-1 3v2-4
+
+ Valor do IBS com retenção, a ser somado ao valor de IBS a ser
+324.91 UB91 vIBSMonoReten Valor do IBS monofásico sujeito a retenção E UB84 N 1-1 13v2
+ recolhido.
+
+
+
+
+ Página 19 / 41
+
+[pagina 20]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+ Uso em operações com crédito presumido. Exemplo: compra
+324.92 UB92 -x- Sequencia XML G UB80 0-1 de combustível por transportador de passageiros, venda para
+ órgão público, venda equiparada a exportação, entre outros.
+
+324.93 UB93 pCredPresIBS Percentual de crédito presumido do IBS monofásico. E UB88 N 1-1 3v2-4
+
+324.94 UB94 vCRedPresIBS Valor do crédito presumido do IBS monofásico. E UB88 N 1-1 13v2
+
+324.95 UB95 pCredPresCBS Percentual de crédito presumido da CBS monofásica. E UB88 N 1-1 3v2-4
+
+324.96 UB96 vCredPresCBS Valor do crédito presumido da CBS monofásica. E UB88 N 1-1 13v2
+
+ Operações com diferimento, aplicado aos biocombustíveis.
+324.97 UB97 -x- Sequencia XML G UB80 0-1
+ Exemplo: operação do produtor de biocombustível (usina).
+
+324.98 UB98 pDifIBS Percentual do diferimento do imposto monofásico. E UB94 N 1-1 3v2-4 A ser aplicado em vIBSMono.
+
+324.99 UB99 vIBSMonoDif Valor do IBS mono diferido. E UB94 N 1-1 13v2 A ser deduzido do valor do IBS.
+
+324.10
+ UB100 pDifCBS Percentual do diferimento do imposto monofásico E UB94 N 1-1 A ser aplicado em vCBSMono
+ 0 3v2-4
+ 324.
+ UB101 vCBSMonoDif Valor do CBS Mono diferido. E UB94 N 1-1 13v2 A ser deduzido do valor da CBS.
+ 101
+ 324. Considerando a adição do valor de retenção e deduzindo a
+ UB102 vTotIBSMono Total de IBS Monofásico. E UB80 N 1-1 13v2
+ 102 parcela diferida conforme o caso.
+
+ 324. Considerando a adição do valor de retenção e deduzindo a
+ UB103 vTotCBSMono Total da CBS Monofásica. E UB80 N 1-1 13v2
+ 103 parcela diferida conforme o caso.
+
+
+
+
+ Página 20 / 41
+
+[pagina 21]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+5.2 Grupo W. Total da NF-e
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+ O grupo de valores totais da NF-e deve ser informado com o
+ somatório do campo correspondente dos itens.
+355.1 W31 IBSCBSSelTot Totais da NF-e com IBS, CBS e IS G A01 0-1
+ O IBS, a CBS e o IS são por fora, por isso seus valores devem
+ ser adicionados ao valor total da NF.
+
+355.2 W32 gSel Grupo total do imposto seletivo G W31 0-1
+
+355.3 W33 vBCSel Total da base de cálculo do imposto seletivo E W32 N 1-1 11v0-4
+
+355.4 W34 vImpSel Total do imposto seletivo E W32 N 1-1 13v2
+
+355.5 W35 vBCIBSCBS Valor total da BC do IBS e da CBS E W31 N 1-1 13v2
+
+355.6 W36 gIBS Grupo total do IBS G W31 1-1
+
+355.7 W37 gIBSUFTot Grupo total do IBS da UF G W36 1-1
+
+355.8 W38 vCresPres Valor total do crédito presumido E W37 N 1-1 13v2
+
+355.9 W39 vDif Valor total do diferimento E W37 N 1-1 13v2
+
+355.1 W40 vDevTrib Valor total de devolução de tributos E W37 N 1-1 13v2
+
+355.11 W41 vDeson Valor total de desoneração E W37 N 1-1 13v2
+
+355.12 W42 vIBSUF Valor total do IBS da UF E W37 N 1-1 13v2
+
+355.13 W43 gIBSMunTot Grupo total do IBS do Município G W36 1-1
+
+355.14 W44 vCresPres Valor total do crédito presumido E W43 N 1-1 13v2
+
+355.15 W45 vDif Valor total do diferimento E W43 N 1-1 13v2
+
+355.16 W46 vDevTrib Valor total de devolução de tributos E W43 N 1-1 13v2
+
+355.17 W47 vDeson Valor total de desoneração E W43 N 1-1 13v2
+
+355.18 W48 vIBSMun Valor total do IBS do Município E W43 N 1-1 13v2
+
+355.19 W49 vIBSTot Valor total do IBS E W43 N 1-1 13v2
+
+
+ Página 21 / 41
+
+[pagina 22]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+ # ID Campo Descrição Ele Pai Tipo Ocor. Tam. Observação
+
+355.2 W50 gCBS Grupo total da CBS G W36 1-1
+
+355.21 W51 vCresPres Valor total do crédito presumido E W50 N 1-1 13v2
+
+355.22 W52 vDif Valor total do diferimento E W50 N 1-1 13v2
+
+355.23 W53 vDevTrib Valor total de devolução de tributos E W50 N 1-1 13v2
+
+355.24 W54 vDeson Valor total de desoneração E W50 N 1-1 13v2
+
+355.25 W55 vCBS Valor total da CBS E W50 N 1-1 13v2
+
+355.26 W56 gMono Grupo total da Monofasia G W36 0-1
+
+355.27 W57 vTotIBSMono Total do IBS monofásico E W56 N 1-1 13v2
+
+355.28 W58 vTotCBSMono Total da CBS monofásica E W56 N 1-1 13v2
+
+ O IBS, a CBS e o IS são por fora, por isso seus valores devem
+355.29 W59 vTotNF Valor total da NF-e com IBS / CBS / IS E W56 N 1-1 13v2
+ ser adicionados ao valor total da NF.
+
+
+
+
+ Página 22 / 41
+
+[pagina 23]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+
+
+6 Regras de Validação
+
+Grupo B. Identificação da Nota Fiscal eletrônica
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se finalidade da NF-e igual a crédito ou débito
+ (tag:finNFe=5 ou 6):
+ Não pode ser informado ICMS (tag: ICMS), ISSQN (tag:
+ Rejeição: NF-e com finalidade de débito ou crédito
+ B25-80 55/65 ISSQN), IPI (tag: IPI), II (tag: II), PIS (tag: PIS), PIS ST (tag: Obrig. 391 Rej.
+ somente para IBS/CBS.
+ PISST), COFINS(tag: COFINS), COFINS ST (tag: COFINSST),
+ ICMS UF Destino (tag: ICMSUFDest) e Imposto Devolvido
+ (tag: impostoDevol).
+ Se finalidade da NF-e diferente de crédito ou débito
+ (tag:finNFe=5 ou 6):
+ B25-90 55/65 Obrig. 392 Rej. Rejeição: NF-e sem informação de ICMS / ISSQN.
+ Deve ser informado ICMS (tag: ICMS) ou ISSQN (tag:
+ ISSQN).
+ NF-e com indicativo de NFC-e com entrega a domicílio
+ Rejeição: NFC-e de entrega a domicílio e não
+ B25b-50 65 (tag:indPres=4) e não informado endereço do Obrig. 393 Rej.
+ informado endereço do destinatário.
+ destinatário (id: E5, grupo: enderDest)
+
+
+
+
+ Página 23 / 41
+
+[pagina 24]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+
+
+6.1 Grupo UB. Informações dos tributos IBS / CBS e Imposto Seletivo
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Não é permitido uso do Imposto Seletivo (grupo: seletivo) Rejeição: Não é permitido uso do Imposto Seletivo
+ UB02-10 55/65 Obrig. 363 Rej.
+ para este cClass. para esta classificação da operação.
+ É exigido uso do Imposto Seletivo (grupo: seletivo) para Rejeição: É exigido o uso do Imposto Seletivo para
+ UB02-20 55/65 Obrig. 367 Rej.
+ este cClass. esta classificação da operação.
+ É exigido uso do Imposto Seletivo (grupo: seletivo) para Rejeição: É exigido o uso do Imposto Seletivo para
+ UB02-30 55/65 este NCM. Obrig. 368 Rej. esta classificação da operação para este NCM.
+ Se CST do Imposto Seletivo for informado, este deve existir
+ Rejeição: CST do Imposto Seletivo informado
+ UB03-10 55/65 na tabela de Código de Situação Tributária (tag: Obrig. 369 Rej.
+ inexistente
+ seletivo/CST).
+ Se cClassTrib for informado, este deve existir na tabela de
+ Rejeição: Classificação Tributária do Imposto Seletivo
+ UB04-10 55/65 Classificação Tributária do Imposto Seletivo (tag: Obrig. 370 Rej.
+ informada inexistente
+ seletivo/cClassTrib)
+ Se Se CClassTrib informado exigir grupo do Imposto
+ Rejeição: CST/CCLassTrib do Imposto Seletivo obriga
+ UB07-10 55/65 Seletivo e Exigir o pImpSel diferente de Zero e pImpSel do Obrig. 371 Rej.
+ informação de alíquota de Imposto Seletivo
+ imposto for zero. (tag: seletivo/pSel).
+ Se Se CClassTrib informado exigir grupo do Imposto
+ Seletivo e Exigir o pImpSel diferente de Zero e NCM do Rejeição: Obrigatório informação de alíquota
+ UB08-10 55-65 Obrig. 372 Rej.
+ item for 2401, 2402, 2403, 2404, 2203, 2204, 2205, 2206, específica de Imposto Seletivo
+ 2208 e pImpSelEspec.
+ Se CClassTrib informado exigir grupo do Imposto Seletivo
+ (grupo: seletivo) e unidade tributável (tag: seletivo/uTrib) Rejeição: UTrib e QTrib do imposto seletivo não
+ UB09-10 55/65 Obrig. 373 Rej.
+ e quantidade tributável (tag: seletivo/qtrib) não informados
+ informadas ou iguais a zero.
+
+
+
+
+ Página 24 / 41
+
+[pagina 25]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se informado grupo do IBS e CBS monofásico (grupo:
+ gIBSCBSMono):
+ O valor total do IBS Monofásico (tag: vTotIBSMono)
+ deverá ser resultante de: Rejeição: Valor do IBS monofásico calculado
+UB102-10 55/65 Obrig. 374 Rej.
+ vIBSMono + vIBSMonoReten -vIBSMonoDif incorretamente.
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+ Se informado grupo do IBS e CBS monofásico (grupo:
+ gIBSCBSMono):
+ O valor total da CBS Monofásica (tag: vTotCBSMono)
+ deverá ser resultante de: Rejeição: Valor da CBS monofásico calculado
+UB103-10 55/65 Obrig. 375 Rej.
+ vCBSMono + vCBSMonoReten -vCBSMonoDif incorretamente.
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+ Se informado imposto seletivo (tag: imposto/seletivo):
+
+ Valor do IS (vImpSel) = BC (tag: seletivo/vBC) * Alq (tag:
+ seletivo/pImpSel)
+
+ Observação 1:
+ Rejeição: Valor do Imposto Seletivo diferente de Base
+ UB11-10 55/65 Se informada alíquota específica (tag: Obrig. 376 Rej.
+ de Cálculo x Alíquota
+ seletivo/pImpSelEspec):
+ Valor do IS (vImpSel) = qtd (tag: seletivo/vTrib) * Alq (tag:
+ seletivo/pImpSelEspec)
+
+ Observação 2: Aceitar uma tolerância de 0,01 a mais ou a
+ menos.
+
+ Se CST do IBS/CBS for informado, este deve existir na
+ UB12-10 55/65 Obrig. 310 Rej. Rejeição: CST do IBS/CBS informado inexistente
+ tabela de Código de Situação Tributária (tag: gIBSCBS/CST)
+
+
+ Página 25 / 41
+
+[pagina 26]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se o CST do IBS/CBS (tag: gIBSCBS/CST) informado VEDAR
+ preenchimento do grupo de informações específicas do Rejeição: Grupo IBS/CBS não deve ser preenchido
+ UB12-20 55/65 Obrig. 313 Rej.
+ IBS/CBS, este grupo NÂO DEVE estar informado (grupo: para o CST informado
+ imposto/IBSCBSSel)
+ Se o CST do IBS/CBS (tag: gIBSCBS/CST) informado EXIGIR
+ preenchimento do grupo de informações específicas do Rejeição: Grupo IBS/CBS deve ser preenchido para o
+ UB12-30 55/65 Obrig. 314 Rej.
+ IBS/CBS, este grupo DEVE estar informado (grupo: CST informado
+ imposto/IBSCBSSel)
+ Se cClassTrib for informado, este deve existir na tabela de
+ Rejeição: Classificação Tributária do IBS/CBS
+ UB13-10 55/65 Classificação Tributária do IBS/CBS (tag: Obrig. 311 Rej.
+ informada inexistente
+ gIBSCBS/cClassTrib)
+ cClassTrib (tag: gIBSCBS/cClassTrib) for informado deve Rejeição: Rejeição: Classificação Tributária
+ UB13-20 55/65 Obrig. 312 Rej.
+ ser compatível com CST (tag: gIBSCBS/CST) incompatível com o CST informado
+ Alíiquota do IBS da UF (tag: pIBSUF) deve ser igual a 0,1%
+ Rejeição: Alíiquota do IBS da UF deve ser igual a 0,1%
+ UB17-10 55/65 para documento com data de emissão no ano de 2026. Art Obrig. 377 Rej.
+ para documento emitido em 2026
+ 342 PL 68/24.
+ Alíiquota do IBS da UF (tag: pIBSUF) deve ser igual a 0,05%
+ Rejeição: Alíiquota do IBS da UF deve ser igual a 0,05%
+ UB17-20 55/65 para documento com data de emissão nos anos de 2027 e Obrig. 378 Rej.
+ para documento emitido em 2027 e 2028
+ 2028. Art 343 PL 68/24.
+ Se informado grupo IBS de competência das Unidades
+ Federadas (gIBSUF)
+ O valor bruto do tributo do IBS das UF deve ser igual à
+ multiplicação da Base de Cálculo pela Alíquota.
+ Rejeição: NF-e com valor bruto do tributo do IBS das
+ UB19-10 55/65 Obrig. 316 Rej.
+ vTribOP (tag: gIBSUF/vTribOP) = vBC (tag: gIBSCBS/vBC) * UFs calculado incorretamente.
+ pIBSUF (tag: gIBSUF/pIBSUF)
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos.
+
+
+
+ Página 26 / 41
+
+[pagina 27]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Não é permitido o uso de crédito presumido (grupo: Rejeição: Não é permitido o uso de Crédito Presumido
+ UB20-10 55/65 Obrig 379 Rej.
+ gCredPres) para este cClass. para esta classificação da operação.
+ É exigido o uso de crédito presumido da UF (grupo: Rejeição: É exigido o uso de Crédito Presumido da UF
+ UB20-20 55/65 Obrig. 317 Rej.
+ gCredPres) para este cClass. para esta classificação da operação.
+ Se informado grupo do crédito presumido (grupo:
+ gIBSUF/gCredPres):
+ O valor do Crédito Presumido (tag: vCredPres) deverá ser
+ resultante da Base de Cálculo x Percentual do Crédito Rejeição: Valor do Crédito Presumido da UF diferente
+ UB22-10 55/65 Obrig. 318 Rej.
+ Presumido (vBC x pCredPres) de Base de Cálculo x Percentual
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+ Não é permitido o uso de diferimento (grupo: gDif) para Rejeição: Não é permitido o uso de Diferimento para
+ UB23-10 55/65 Obrig 380 Rej.
+ este cClass. esta classificação da operação.
+ É exigido o uso de diferimento da UF (grupo: gDif) para Rejeição: É exigido o uso de Diferimento da UF para
+ UB23-20 55/65 Obrig 319 Rej.
+ este cClass. esta classificação da operação.
+
+ Se informado grupo do Diferimento (gIBSUF/gDif):
+ O valor do Diferimento (vDif) deverá ser resultante da
+ Base de Cálculo x Percentual do Diferimento (vBC x pDif) Rejeição: Valor do Diferimento da UF diferente de
+ UB25-10 55/65 Obrig. 320 Rej.
+ Base de Cálculo x Percentual
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+
+ Não é permitido o uso de redução de alíquota (grupo: Rejeição: Não é permitido o uso de Redução de
+ UB28-10 55/65 Obrig 381 Rej.
+ gRed) para este cClass. Alíquota para esta classificação da operação.
+ É exigido o uso de redução de alíquota (grupo: gRed) para Rejeição: É exigido o uso de Redução de Alíquota para
+ UB28-20 55/65 Obrig 382 Rej.
+ este cClass. esta classificação da operação.
+
+
+
+
+ Página 27 / 41
+
+[pagina 28]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se informado grupo de Redução de Alíquota
+ (gIBSUF/gRed): Rejeição: Percentual de redução de alíquota da UF
+ UB29-10 55/65 Obrig. 383 Rej.
+ Percentual de Redução de Alíquota (pRedAliq) não é válido não é válido para este cClassTrib
+ para este cClassTrib (IBSCBSSel/cClassTrib)
+ Se informado grupo de Redução de Alíquota
+ (gIBSUF/gRed):
+ Alíquota Efetiva (tag: pAliqEfet) deve ser o resultado da
+ aplicação do percentual de redução da alíquota (tag:
+ pRedAliq) na alíquota do IBS da UF (tag: pIBSUF).
+ Rejeição: Valor da Alíquota Efetiva do IBS da UF
+ UB30-10 55/65 Exemplo: Obrig. 384 Rej.
+ calculado incorretamente
+ Redução de 40% na alíquota:
+ Alíquota vigente (A): 10%
+ Redução na alíquota (R): 40%
+ Alíquota Efetiva (E): E = A * (1 - R)
+ E = 10 * (1 - 0,4) = 6
+ Não é permitido o uso de desoneração (grupo: gDeson) Rejeição: Não é permitido o uso de Desoneração para
+ UB31-10 55/65 Obrig 385 Rej.
+ para este cClass. esta classificação da operação.
+ É exigido o uso de desoneração (grupo: gDeson) para este Rejeição: É exigido o uso de Desoneração da UF para
+ UB31-20 55/65 Obrig 321 Rej.
+ cClass. esta classificação da operação.
+ Se informado grupo da desoneração (gIBSUF/gDeson):
+ Rejeição: CST informado na desoneração da UF
+ UB32-10 55/65 O CST for informado, este deve existir na tabela de Obrig. 322 Rej.
+ inexistente
+ Classificação Tributária do IBS/CBS (tag: gDeson/CST)
+ Se informado grupo da desoneração (gIBSUF/gDeson):
+ O cClassTrib for informado, este deve existir na tabela de Rejeição: Classificação Tributária informada na
+ UB33-10 55/65 Obrig. 323 Rej.
+ Classificação Tributária do IBS/CBS (tag: desoneração da UF inexistente
+ gDeson/cClassTrib)
+
+
+
+
+ Página 28 / 41
+
+[pagina 29]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+
+ Se informado grupo da desoneração (gIBSUF/gDeson):
+ O valor desonerado (vDeson) deverá ser resultante da
+ Base de Cálculo x Aliquota (gDeson/vBC x gDeson/pAliq) Rejeição: Valor Desonerado do Município diferente de
+ UB36-10 55/65 Obrig. 324 Rej.
+ Base de Cálculo x Alíquota
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+
+ Se informado grupo IBS de competência das Unidades
+ Federadas (gIBSUF):
+
+ O valor do IBS (vIBSUF) deverá ser resultante da Base de
+ Cálculo x Alíquota (vBC [tag: gIBSCBS/vBC] x pIBSUF) -
+ vCredPres - vDif - vDevTrib
+
+ Observação 1: Aceitar uma tolerância de 0,01 a mais ou a
+ Rejeição: NF-e com valor do IBS da UF calculado
+ UB37-10 55/65 menos Obrig. 315 Rej.
+ incorretamente.
+ Observação 2: Em caso de preenchimento do grupo de
+ redução (pRed) a alíquota utilizada deverá ser a tag
+ Alíquota Efetiva (pAliqEfet)
+
+ Observação 3: Conforme cClass escolhido o valor do
+ crédito presumido (vCredPres) deve ser subtraído do total
+ do IBS.
+ Alíiquota do IBS do município (tag: pIBSMun) deve ser
+ Rejeição: Alíiquota do IBS da Município deve ser igual
+ UB39-10 55/65 igual a 0,05% para documento com data de emissão nos Obrig. 386 Rej.
+ a 0,05% para documento emitido em 2027 e 2028
+ anos de 2027 e 2028. Art 343 PL 68/24.
+
+
+
+
+ Página 29 / 41
+
+[pagina 30]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se informado grupo IBS de competência dos Municipios
+ (gIBSMun)
+ O valor bruto do tributo do IBS dos Municípios deve ser
+ igual à multiplicação da Base de Cálculo pela Alíquota.
+ Rejeição: NF-e com valor bruto do tributo do IBS dos
+ UB41-10 55/65 Obrig. 326 Rej.
+ vTribOP (tag: gIBSMun/vTribOP) = vBC (tag: gIBSCBS/vBC) Municípios calculado incorretamente.
+ * pIBSMun (tag: gIBSMun/pIBSMun)
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos.
+ É exigido o uso de crédito presumido do Município (grupo: Rejeição: É exigido o uso de Crédito Presumido do
+ UB42-10 55/65 Obrig. 327 Rej.
+ gCredPres) para este cClass. Município para esta classificação da operação.
+ Se informado grupo do crédito presumido
+ (gIBSMun/gCredPres):
+ O valor do Crédito Presumido (vCredPres) deverá ser
+ resultante da Base de Cálculo x Percentual do Crédito Rejeição: Valor do Crédito Presumido dos Municípios
+ UB44-10 55/65 Obrig. 328 Rej.
+ Presumido (vBC x pCredPres) diferente de Base de Cálculo x Percentual
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+ É exigido o uso de diferimento (grupo: gDif) Municipal para Rejeição: É exigido o uso de Diferimento Municipal
+ UB45-10 55/65 Obrig 329 Rej.
+ este cClass. para esta classificação da operação.
+
+ Se informado grupo do Diferimento (gIBSMun/gDif):
+ O valor do Diferimento (vDif) deverá ser resultante da
+ Base de Cálculo x Percentual do Diferimento (vBC x pDif) Rejeição: Valor do Diferimento dos Municípios
+ UB47-10 55/65 Obrig. 330 Rej.
+ diferente de Base de Cálculo x Percentual
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+
+
+
+
+ Página 30 / 41
+
+[pagina 31]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se informado grupo de Redução de Alíquota
+ (gIBSMun/gRed): Rejeição: Percentual de redução de alíquota dos
+ UB51-10 55/65 Obrig. 387 Rej.
+ Percentual de Redução de Alíquota (pRedAliq) não é válido Municípios não é válido para este cClassTrib
+ para este cClassTrib (IBSCBSSel/cClassTrib)
+ Se informado grupo de Redução de Alíquota
+ (gIBSMun/gRed):
+ O valor da alíquota efetiva (pAliqEfet) deve ser igual a
+ aplicação da redução da alíquota do IBS dos Municípios
+ (pRedAliq) na alíquota do IBS dos Municípios (pIBSMun).
+ Rejeição: Valor da Alíquota Efetiva do IBS dos
+ UB52-10 55/65 Exemplo: Obrig. 388 Rej.
+ Municípios calculado incorretamente
+ Redução de 40% na alíquota:
+ Alíquota vigente (A): 10%
+ Redução na alíquota (R): 40%
+ Alíquota Efetiva (E): E = A * (1 - R)
+ E = 10 * (1 - 0,4) = 6
+ Código de Classificação Tributária exige informação do Rejeição: CST informado exige informação de
+ UB53-10 55/65 Obrig. 331 Rej.
+ grupo de Desoneração Municipal (gIBSMun/gDeson) desoneração dos Municípios
+ Se informado grupo da desoneração (gIBSMun/gDeson):
+ Rejeição: CST informado na desoneração dos
+ UB54-10 55/65 O CST for informado, este deve existir na tabela de Obrig. 332 Rej.
+ Municípios inexistente
+ Classificação Tributária do IBS/CBS (tag: gDeson/CST)
+ Se informado grupo da desoneração (gIBSMun/gDeson):
+ O cClassTrib for informado, este deve existir na tabela de Rejeição: Classificação Tributária informada na
+ UB55-10 55/65 Obrig. 333 Rej.
+ Classificação Tributária do IBS/CBS (tag: desoneração dos Municípios inexistente
+ gDeson/cClassTrib)
+
+ Se informado grupo da desoneração (gIBSMun/gDeson):
+ O valor desonerado (vDeson) deverá ser resultante da
+ Base de Cálculo x Aliquota (gDeson/vBC x gDeson/pAliq) Rejeição: Valor Desonerado do Município diferente de
+ UB58-10 55/65 Obrig. 334 Rej.
+ Base de Cálculo x Alíquota
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+
+
+ Página 31 / 41
+
+[pagina 32]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se informado grupo IBS de competência dos Municípios
+ (gIBSMun):
+
+ O valor do IBS (vIBSMun) deverá ser resultante da Base de
+ Cálculo x Alíquota (vBC [tag: gIBSCBS/vBC] x pIBSMun) -
+ vCredPres - vDif - vDeson - vDevTrib
+
+ Observação 1: Aceitar uma tolerância de 0,01 a mais ou a
+ Rejeição: NF-e com valor do IBS dos Municípios
+ UB59-10 55/65 menos Obrig. 325 Rej.
+ calculado incorretamente.
+ Observação 2: Em caso de preenchimento do grupo de
+ redução (pRed) a alíquota utilizada deverá ser a tag
+ Alíquota Efetiva (pAliqEfet)
+
+ Observação 3: Conforme cClass escolhido o valor do
+ crédito presumido (vCredPres) deve ser subtraído do total
+ do IBS.
+ Se informado grupo CBS (gCBS)
+ O valor bruto do tributo da CBS deve ser igual à
+ multiplicação da Base de Cálculo pela Alíquota.
+ Rejeição: NF-e com valor bruto do tributo da CBS
+ UB63-10 55/65 vTribOP (tag: gCBS/vTribOP) = vBC (tag: gIBSCBS/vBC) * Obrig. 336 Rej.
+ calculado incorretamente.
+ pCBS (tag: gCBS/pCBS)
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos.
+ É exigido o uso de crédito presumido da CBS (grupo: Rejeição: É exigido o uso de Crédito Presumido da CBS
+ UB64-10 55/65 Obrig. 337 Rej.
+ gCredPres) para este cClass. para esta classificação da operação.
+
+
+
+
+ Página 32 / 41
+
+[pagina 33]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se informado grupo do crédito presumido
+ (gCBS/gCredPres):
+ O valor do Crédito Presumido (vCredPres) deverá ser
+ resultante da Base de Cálculo x Percentual do Crédito Rejeição: Valor do Crédito Presumido da CBS
+ UB66-10 55/65 Obrig. 338 Rej.
+ Presumido (vBC x pCredPres) diferente de Base de Cálculo x Percentual
+
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+ É exigido o uso de diferimento (grupo: gDif) da CBS para Rejeição: É exigido o uso de Diferimento da CBS para
+ UB67-10 55/65 Obrig 339 Rej.
+ este cClass. esta classificação da operação.
+
+ Se informado grupo do Diferimento (gCBS/gDif):
+ O valor do Diferimento (vDif) deverá ser resultante da
+ Base de Cálculo x Percentual do Diferimento (vBC x pDif) Rejeição: Valor do Diferimento da CBS diferente de
+ UB69-10 55/65 Obrig. 340 Rej.
+ Base de Cálculo x Percentual
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+
+ Se informado grupo de Redução de Alíquota (gCBS/gRed):
+ Rejeição: Percentual de redução de alíquota da CBS
+ UB73-10 55/65 Percentual de Redução de Alíquota (pRedAliq) não é válido Obrig. 389 Rej.
+ não é válido para este cClassTrib
+ para este cClassTrib (IBSCBSSel/cClassTrib)
+
+ Se informado grupo de Redução de Alíquota (gCBS/gRed):
+ O valor da alíquota efetiva (pAliqEfet) deve ser igual a
+ aplicação da redução da alíquota da CBS (pRedAliq) na
+ alíquota da CBS (pCBS).
+ Exemplo: Rejeição: Valor da Alíquota Efetiva da CBS calculado
+ UB74-10 55/65 Obrig. 390 Rej.
+ Redução de 40% na alíquota: incorretamente
+ Alíquota vigente (A): 10%
+ Redução na alíquota (R): 40%
+ Alíquota Efetiva (E): E = A * (1 - R)
+ E = 10 * (1 - 0,4) = 6
+
+
+
+ Página 33 / 41
+
+[pagina 34]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Código de Classificação Tributária exige informação do Rejeição: CST informado exige informação de
+ UB75-10 55/65 Obrig. 341 Rej.
+ grupo de Desoneração da CBS (gCBS/gDeson) desoneração da CBS
+ Se informado grupo da desoneração (gCBS/gDeson):
+ Rejeição: CST informado na desoneração da CBS
+ UB76-10 55/65 O CST for informado, este deve existir na tabela de Obrig. 342 Rej.
+ inexistente
+ Classificação Tributária do IBS/CBS (tag: gDeson/CST)
+ Se informado grupo da desoneração (gCBS/gDeson):
+ O cClassTrib for informado, este deve existir na tabela de Rejeição: Classificação Tributária informada na
+ UB77-10 55/65 Obrig. 343 Rej.
+ Classificação Tributária do IBS/CBS (tag: desoneração a CBS inexistente
+ gDeson/cClassTrib)
+
+ Se informado grupo da desoneração (gCBS/gDeson):
+ O valor desonerado (vDeson) deverá ser resultante da
+ Base de Cálculo x Aliquota (gDeson/vBC x gDeson/pAliq) Rejeição: Valor Desonerado da CBS diferente de Base
+ UB80-10 55/65 Obrig. 344 Rej.
+ de Cálculo x Alíquota
+ Observação: Aceitar uma tolerância de 0,01 a mais ou a
+ menos
+
+
+
+
+ Página 34 / 41
+
+[pagina 35]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ Se informado grupo CBS (gCBS):
+
+ O valor da CBS (vCBS) deverá ser resultante da Base de
+ Cálculo x Alíquota (vBC [tag: gIBSCBS/vBC] x pCBS) -
+ vCredPres - vDif - vDevTrib
+
+ Observação 1: Aceitar uma tolerância de 0,01 a mais ou a
+ menos Rejeição: NF-e com valor da CBS calculado
+ UB81-10 55/65 Obrig. 335 Rej.
+ incorretamente.
+ Observação 2: Em caso de preenchimento do grupo de
+ redução (pRed) a alíquota utilizada deverá ser a tag
+ Alíquota Efetiva (pAliqEfet)
+
+ Observação 3: Conforme cClass escolhido o valor do
+ crédito presumido (vCredPres) deve ser subtraído do total
+ do IBS.
+
+
+
+Grupo W03. Total da NF-e - IBS / CBS / IS
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ O grupo de totais do IBS, CBS e IS (IBSCBSSelTot) só deve
+ Rejeição: Total de IBS, CBS e IS só deve ser informado
+ W31-10 55/65 ser informado se existir pelo menos uma ocorrência de Obrig 345 Rej.
+ se existir IBS/CBS declarado nos itens do DFe
+ IBS, CBS ou Imposto Seletivo nos itens.
+
+ O total da BC do imposto seletivo deverá ser a soma dos Rejeição: Total da BC do Imposto Seletivo difere da
+ W33-10 55/65 Obrig 394 Rej.
+ campos vBC (tag: seletivo/vBC) informados nos itens. soma dos itens
+
+ O total do Imposto Seletivo deverá ser a soma dos
+ Rejeição: Total do Imposto Seletivo difere da soma
+ W34-10 55/65 campos vImpSel (tag: seletivo/vImpSel) informados nos Obrig 395 Rej.
+ dos itens
+ itens.
+
+ Página 35 / 41
+
+[pagina 36]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ O total da BC do IBS e da CBS de deverá ser a soma dos Rejeição: Total da BC do IBS e da CBS difere da soma
+ W35-10 55/65 Obrig. 396 Rej.
+ campos vBC (tag: gIBSCBS/vBC) informados nos itens dos itens
+ O total do Crédito Presumido do IBS UF deverá ser a
+ Rejeição: Total de Crédito Presumido do IBS UF
+ W38-10 55/65 soma do campo vCredPres do IBS UF informados nos Obrig 346 Rej.
+ difere da soma dos itens
+ itens
+ O total do Diferimento do IBS UF deverá ser a soma do Rejeição: Total de Diferimento do IBS UF difere da
+ W39-10 55/65 Obrig 347 Rej.
+ campo vDif do IBS UF informados nos itens soma dos itens
+ O total Devolvido do IBS UF deverá ser a soma do campo Rejeição: Total Devolvido do IBS UF difere da soma
+ W40-10 55/65 Obrig 348 Rej.
+ vDevTrib do IBS UF informados nos itens dos itens
+ O total Desonerado do IBS UF deverá ser a soma do Rejeição: Total Desonerado do IBS UF difere da soma
+ W41-10 55/65 Obrig 349 Rej.
+ campo vDeson do IBS UF informados nos itens dos itens
+ O total do IBS UF deverá ser a soma do campo vIBSUF
+ W42-10 55/65 Obrig 350 Rej. Rejeição: Total de IBS UF difere da soma dos itens
+ informados nos itens
+ O total do Crédito Presumido do IBS Municipal deverá ser
+ Rejeição: Total de Crédito Presumido do IBS
+ W44-10 55/65 a soma do campo vCredPres do IBS Municipal informados Obrig 351 Rej.
+ Municipal difere da soma dos itens
+ nos itens
+ O total do Diferimento do IBS Municipal deverá ser a
+ Rejeição: Total de Diferimento do IBS Municipal
+ W45-10 55/65 soma do campo vDif do IBS Municipal informados nos Obrig 352 Rej.
+ difere da soma dos itens
+ itens
+ O total Devolvido do IBS Municipal deverá ser a soma do Rejeição: Total Devolvido do IBS Municipal difere da
+ W46-10 55/65 Obrig 353 Rej.
+ campo vDevTrib do IBS Municipal informados nos itens soma dos itens
+ O total Desonerado do IBS Municipal deverá ser a soma Rejeição: Total Desonerado do IBS Municipal difere
+ W47-10 55/65 Obrig 355 Rej.
+ do campo vDeson do IBS Municipal informados nos itens da soma dos itens
+ O total do IBS Municipal deverá ser a soma do campo Rejeição: Total de IBS Municipal difere da soma dos
+ W48-10 55/65 Obrig 354 Rej.
+ vIBSMun informados nos itens itens
+
+
+
+ Página 36 / 41
+
+[pagina 37]
+Projeto
+Reforma Tributária do Consumo
+NT-RT 2024.002 Versão 1.00
+
+
+Campo-Seq Modelo Regra de Validação Aplic. Msg Efeito Descrição Erro
+
+ O Total do IBS deverá ser a soma do IBS das UF e do IBS Rejeição: Total do IBS difere da soma do IBS UF e IBS
+ W49-10 55/65 Obrig 356 Rej.
+ Municipal (vIBSUF + vIBSMun) Municipal
+ O total do Crédito Presumido do CBS deverá ser a soma Rejeição: Total de Crédito Presumido do CBS difere
+ W51-10 55/65 Obrig 357 Rej.
+ do campo vCredPres do CBS informados nos itens da soma dos itens
+ O total do Diferimento do CBS deverá ser a soma do Rejeição: Total de Diferimento do CBS difere da soma
+ W52-10 55/65 Obrig 358 Rej.
+ campo vDif do CBS informados nos itens dos itens
+ O total Devolvido do CBS deverá ser a soma do campo Rejeição: Total Devolvido do CBS difere da soma dos
+ W53-10 55/65 Obrig 359 Rej.
+ vDevTrib do CBS informados nos itens itens
+ O total Desonerado do CBS deverá ser a soma do campo Rejeição: Total Desonerado do CBS difere da soma
+ W54-10 55/65 Obrig 360 Rej.
+ vDeson do CBS informados nos itens dos itens
+ O total do CBS deverá ser a soma do campo vCBS
+ W55-10 55/65 Obrig 361 Rej. Rejeição: Total de CBS difere da soma dos itens
+ informados nos itens
+
+ O total do IBS monofásico deverá ser a soma dos campos Rejeição: Total do IBS monofásico difere da soma dos
+ W57-10 55/65 Obrig 397 Rej.
+ vTOTIBSMono informados nos itens itens
+
+ O total da CBS monofásica deverá ser a soma dos campos Rejeição: Total da CBS monofásica difere da soma
+ W58-10 55/65 Obrig 398 Rej.
+ vTOTCBSMono informados nos itens dos itens
+ O total geral do DFe deverá ser a soma do total NF (grupo
+ total/vNF) + vTotIBS (IBSCBSSelTot/gIBS/vTotIBS) + vCBS
+ (IBSCBSSelTot/gCBS/vCBS)+ vSel Rejeição: Total da NFe difere da soma do total da
+ W59-10 55/65 Obrig 362 Rej.
+ (IBSCBSSelTot/gSel/vImpSel) + vTotIBSMono Nota Fiscal, IBS, CBS e IS
+ (gIBSCBSMono/vTotIBSMono) +
+ (gIBSCBSMono/vTotCBSMono) vTotCBSMono
+
+
+
+
+ Página 37 / 41
+
+[pagina 38]
+Projeto
+ Reforma Tributária do Consumo
+ NT-RT 2024.002 Versão 1.00
+
+
+7 Eventos
+
+7.1 Evento: “Decurso de Prazo de Internalização na Área de Livre
+ Comércio - ALC ou Zona Franca de Manaus - ZFM”
+
+Função: Evento para marcar as notas não internalizadas na Suframa (evento de internalização) no
+prazo regulamentar e que tem por propósito disparar o lançamento do IBS desonerado para o fornecedor
+e o estorno do crédito presumido para o destinatário.
+Autor do Evento: Fisco das regiões incentivadas (ou Comitê Gestor). -- A definir
+Modelo: NF-e modelo 55
+Validação: Não deve existir evento Internamento Suframa atrelado à NF-e. Somente pode ser gerado
+a partir do decurso do prazo regulamentar.
+
+Código do Tipo de Evento: XXXXXXX
+
+
+7.2 Evento: “Cancelamento do Evento Decurso de Prazo de Internalização
+ na Área de Livre Comércio - ALC ou Zona Franca de Manaus - ZFM”
+
+Função: Cancelar o Evento “Decurso de Prazo de Internalização na Área de Livre Comércio - ALC ou
+Zona Franca de Manaus – ZFM”
+Modelo: NF-e modelo 55
+Validação: Deve existir o evento de “Decurso de prazo de internalização na Área de Livre Comércio -
+ALC ou Zona Franca de Manaus – ZFM” identificado pelo respectivo protocolo de autorização
+Código do Tipo de Evento: XXXXXXX
+
+
+7.3 Evento: “Solicitação de Apropriação de Crédito Presumido”
+
+Função: Evento a ser gerado pelo adquirente em relação às notas fiscais de aquisição de emissão de
+terceiros, e que lhe gerem o direito à apropriação de crédito presumido.
+Autor: Adquirente/Destinatário (quando os dois estiverem preenchidos, devem ser iguais) da nota fiscal
+Exemplo: Emissão de NF-e destinada à ZFM onde o contribuinte emitente não declara, ou declara a
+menor o crédito presumido que o destinatário tem direito. Nesta ocasião o destinatário efetua o registro
+deste evento. Este evento substitui totalmente os valores de crédito presumido declarados na NF-e
+original.
+Modelo: NF-e modelo 55
+Código do Tipo de Evento: XXXXXXX
+Campos:
+ 1. Tipos de Crédito
+ a. Aquisição de material para reciclagem de Cooperativa
+ b. Aquisição de material intermediário produzido na ZFM (validação que só permite a
+ emissão quando o emitente do evento é o destinatário da NF e emitente e destinatário
+ estejam em situação habilitada na ZFM).
+ c. Aquisição para ALC ou ZFM de região não incentivada (validação que só permite a
+ emissão quando o emitente do evento é o destinatário da NF e quando houver evento de
+ internamento na Suframa vinculado à respectiva NF-e).
+ Obs: a identificação do tipo de crédito é importante porque possuem prazos prescricionais
+ diferentes, gerando controles no sistema de apuração
+ 2. Valor do crédito
+Validação:
+
+
+
+
+ Página 38 / 41
+
+[pagina 39]
+Projeto
+ Reforma Tributária do Consumo
+ NT-RT 2024.002 Versão 1.00
+ 1. Quando o campo tipo de crédito for igual a 2: emissão do evento permitida somente quando o
+ emitente for o destinatário da NF e emitente e destinatário da NF-e estejam na ZFM;
+ 2. Quando o campo tipo de crédito for igual a 3:
+ a. emissão do evento permitida somente quando o emitente for o destinatário da NF e
+ quando houver evento internamento Suframa vinculado à respectiva NFe.
+ b. O valor do crédito é limitado a 7,5% ou 13,5% do valor da operação, dependendo do
+ Estado de origem do fornecedor.
+ c. Para definir: Prazo para emitir o evento e o termo inicial de contagem desse prazo
+
+
+7.4 Evento: “Cancelamento do Evento Solicitação de Apropriação de
+ Crédito Presumido”
+
+Função: Cancelar o evento “Solicitação de Apropriação de Crédito Presumido”
+Modelo: NF-e modelo 55
+Validação: Deve existir o evento de “Solicitação de Apropriação de Crédito Presumido” identificado pelo
+respectivo protocolo de autorização
+Código do Tipo de Evento: XXXXXXX
+
+
+7.5 Evento: “Destinação de Item para Consumo Pessoal”
+
+Função: Permitir ao adquirente informar quando uma aquisição for destinada para o consumo de
+pessoa física, hipótese em que não haverá direito à apropriação de crédito.
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NF-e
+Código do Tipo de Evento: XXXXXXX
+Campos:
+ ● Indicar item
+ ● indicar quantidade
+
+7.6 Evento: “Cancelamento do Evento Destinação de Item para Consumo
+ Pessoal”
+
+Função: Cancelar o evento “Destinação de Item para Consumo Pessoal”
+Modelo: NF-e modelo 55
+Validação: Deve existir o evento de “Destinação de Item para Consumo Pessoal” identificado pelo
+respectivo protocolo de autorização
+Código do Tipo de Evento: XXXXXXX
+
+
+7.7 Evento: “Imobilização de Item”
+
+Função: Evento a ser gerado pelo adquirente de bem, quando este for integrado ao seu ativo
+imobilizado, a fim de viabilizar a adequada identificação, pelos sistemas da administração tributária, de
+prazo-limite para apreciação de eventuais pedidos de ressarcimento, nos termos do art. 59, I do PLP
+68/2024.
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NF-e (Adquirente)
+Código do Tipo de Evento: XXXXXXX
+Campos:
+ ● Indicar item
+ ● indicar quantidade
+
+
+
+
+ Página 39 / 41
+
+[pagina 40]
+Projeto
+ Reforma Tributária do Consumo
+ NT-RT 2024.002 Versão 1.00
+
+7.8 Evento: “Cancelamento do Evento Imobilização de Item”
+
+Função: Cancelar o evento “Imobilização de Item”
+Modelo: NF-e modelo 55
+Validação: Deve existir o evento de “Imobilização de Item” identificado pelo respectivo protocolo de
+autorização
+Código do Tipo de Evento: XXXXXXX
+
+
+7.9 Evento: “Solicitação de Apropriação de Crédito de Combustível”
+
+Função: Evento a ser gerado pelo adquirente de combustível listado no art. 167 do PLP 68/2024 e que
+pertença à cadeia produtiva desses combustíveis, para solicitar a apropriação de crédito referente à
+parcela que for consumida.
+Modelo: NF-e modelo 55
+Autor do Evento: Destinatário da NF-e (Adquirente de combustível que faça parte da cadeia produtiva
+de combustíveis)
+Código do Tipo de Evento: XXXXXXX
+Campos:
+ ● Indicar item
+ ● indicar quantidade
+Validação: Verificar se o item indicado é combustível.
+
+
+7.10 Evento: “Cancelamento do Evento Solicitação de Apropriação de
+ Crédito de Combustível”
+
+Função: Cancelar o evento “Solicitação de Apropriação de Crédito de Combustível”
+Modelo: NF-e modelo 55
+Validação: Deve existir o evento de “Solicitação de Apropriação de Crédito de Combustível” identificado
+pelo respectivo protocolo de autorização
+Código do Tipo de Evento: XXXXXXX
+
+
+
+
+ Página 40 / 41
+
+[pagina 41]
+Projeto
+ Reforma Tributária do Consumo
+ NT-RT 2024.002 Versão 1.00
+
+8 DANFE
+
+Alterações no DANFE para exibir informações relativas aos novos tributos estão em estudo, e serão
+publicadas em uma nova versão desta Nota Técnica.
+
+
+ ANEXO I - NCM DO IMPOSTO SELETIVO
+Link para a tabela:
+
+https://docs.google.com/spreadsheets/d/1TnXQPmAgAyvOgSIznmw1oxdVmvUIqkYTMH0Xxbepby8/e
+dit?usp=sharing
+
+
+
+
+ANEXO II - CÓDIGO DE CLASSIFICAÇÃO TRIBUTÁRIA DO
+ IMPOSTO SELETIVO
+
+Tabela a ser publicada.
+
+
+
+
+ ANEXO III - CÓDIGO DE CLASSIFICAÇÃO TRIBUTÁRIA
+ DO IBS E DA CBS
+
+Tabela a ser publicada.
+
+
+
+
+ Página 41 / 41

@@ -1,0 +1,117 @@
+O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) publicaram, em 22 de junho de 2026, o Ato Conjunto RFB/CGIBS nº 3/2026, que autoriza a disponibilização, na internet, da versão 1.1.0 do pacote de documentação técnica da Declaração de Regimes Específicos (DeRE), consolidando e ampliando o conjunto de especificações necessárias à implementação da obrigação acessória.
+
+A publicação abrange o pacote completo de documentos técnicos da DeRE, incluindo:
+
+Manual de Orientação do Usuário (MOD);
+
+Leiautes da DeRE (Especificação Técnica dos Eventos);
+
+Anexo I – Tabelas;
+
+Anexo II – Regras de Validação;
+
+Arquivos XSD (XML Schema Definition).
+
+Compõem também o pacote o Manual do Desenvolvedor, as mensagens de erro do sistema e o Manual de Integração Técnica – Receita Integra.
+
+Acesse aqui a página da DeRE!
+
+O ato ratifica as versões preliminares anteriormente divulgadas em forma de Minuta (1.0.0 e 1.0.1), consolidando, nesta versão 1.1.0, as regras de negócio, os leiautes e as especificações técnicas já estabilizadas.
+
+Como medida adicional de apoio à implementação, o CGIBS e a RFB mantêm seção de perguntas e respostas, destinada ao esclarecimento de dúvidas recorrentes e ao acompanhamento da evolução da solução, reforçando o compromisso com a transparência e com a qualidade da informação disponibilizada aos usuários.
+
+Evolução da implementação da DeRE – visão panorâmica
+
+Síntese da primeira fase
+
+A primeira fase da DeRE concentrou-se na definição dos elementos estruturantes da obrigação, com a disponibilização inicial dos eventos de informações do contribuinte, do Plano Geral de Contas Comentado e do evento de retorno associado.
+
+Essa etapa estabeleceu a base conceitual e técnica da declaração, promovendo o alinhamento entre a escrituração contábil e a apuração fiscal no novo modelo, além de viabilizar o início da integração técnica pelos contribuintes e desenvolvedores.
+
+Segunda fase: evolução dos leiautes e ampliação funcional
+
+Sobre a base da primeira fase, desenvolve-se a segunda fase de implementação da DeRE, marcada pela evolução dos leiautes e pela ampliação do conjunto de eventos.
+
+Eventos já especificados, validados e homologados
+
+No âmbito da segunda fase de implementação da DeRE, já se encontram especificados, validados e homologados os principais eventos da declaração, no contexto de um fluxo estruturado de desenvolvimento interno que compreende etapas sucessivas de definição técnica, validação e consolidação das funcionalidades.
+
+Uma vez concluída a homologação, os eventos são disponibilizados em ambiente de produção restrita, etapa destinada à realização de testes controlados pelos contribuintes, com o objetivo de aferir o adequado funcionamento das funcionalidades, assegurar a consistência das informações prestadas e promover a integração com os sistemas corporativos.
+
+Esse encadeamento confere rastreabilidade ao desenvolvimento da DeRE, conciliando rigor técnico, interlocução institucional e preparação progressiva para sua implementação.
+
+Eventos já homologados:
+
+Eventos de Tabela:
+
+D-1001 – Informações do Contribuinte
+
+D-1011 – Plano Geral de Contas Comentado
+
+Eventos Periódicos:
+
+D-1101 – Balancete Mensal
+
+D-1106 – Identificação de Aplicações Financeiras
+
+D-1199 – Fechamento Mensal
+
+D-2101 – Débito em Operações com Títulos de Dívida com Oferta Pública
+
+Eventos de Retorno e Totalização:
+
+D-9001 – Retorno – Eventos de Tabela
+
+D-9101 – Retorno Totalizador – Balancete Mensal
+
+D-9106 – Retorno Totalizador – Identificação de Aplicações Financeiras
+
+D-9121 – Retorno Totalizador – Débito em Operações com Títulos de Dívida com Oferta Pública
+
+D-9199 – Retorno Totalizador – Fechamento Mensal
+
+Eventos contemplados na segunda fase (em especificação)
+
+Embora o conjunto de eventos já especificados constitua a base atual da declaração, a segunda fase abrange funcionalidades ainda em desenvolvimento técnico, cuja conformação se aperfeiçoa progressivamente ao longo do processo de especificação.
+
+Tal abordagem reflete o caráter progressivo e evolutivo da DeRE, concebida como solução em contínua expansão, orientada, sobretudo, à incorporação de novas funcionalidades destinadas ao atendimento de exigências legais e regulamentares ainda não plenamente contempladas.
+
+Os eventos a seguir, ainda em fase de especificação, possuem caráter informativo e prospectivo, e se prestam a delinear, em caráter preliminar, os próximos passos e desdobramentos no contínuo aperfeiçoamento da DeRE.
+
+Nesse escopo, destacam-se:
+
+Tabela de Processos: registro de ações que fundamentam a suspensão da exigibilidade do tributo;
+
+Fatos Extemporâneos: lançamentos de períodos encerrados que ajustam a base de cálculo atual;
+
+Relação de Deduções: lastro analítico de documentos que comprovam reduções no débito mensal;
+
+Reabertura de Eventos Mensais: comando para desbloquear meses encerrados e permitir retificações;
+
+Tabela de Tarifas: tabela de preços e serviços do contribuinte para validação de transações;
+
+Demonstrativo de Aferição Preliminar: funcionalidade para simular resultados antes do fechamento definitivo;
+
+Eventos de Retorno e Totalização: demonstrativos que detalham o processamento e a memória de cálculo.
+
+Esse conjunto de funcionalidades contribui, de forma progressiva, para o reforço da consistência, da rastreabilidade e da auditabilidade das informações, ampliando a capacidade de controle e transparência do modelo declaratório.
+
+Objetivo da publicação
+
+A documentação técnica visa viabilizar o desenvolvimento e a adaptação dos sistemas corporativos pelos contribuintes e desenvolvedores.
+
+A DeRE aplica-se aos regimes específicos previstos na Lei Complementar nº 214/2025, especialmente:
+
+serviços financeiros;
+
+planos de saúde;
+
+concursos de prognósticos.
+
+A iniciativa representa mais um avanço na implementação do IBS e da CBS, reforçando a transparência e a evolução contínua da administração tributária digital.
+
+Acesso à documentação
+
+A documentação técnica da DeRE está disponível nos portais oficiais do Comitê Gestor do IBS e do SPED, da Receita Federal do Brasil.
+
+Acesse aqui os documentos!

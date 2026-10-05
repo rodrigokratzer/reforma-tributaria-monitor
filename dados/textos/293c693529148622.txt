@@ -1,0 +1,17 @@
+A Receita Federal e o Comitê Gestor do IBS (CGIBS) esclarecem que não houve suspensão da obrigatoriedade de destaque e prestação das informações relativas à CBS e ao IBS nos documentos fiscais eletrônicos, conforme previsto no cronograma de implementação da Reforma Tributária do Consumo. O cronograma permanece integralmente válido e sem alterações. 
+
+A medida formalizada pelo Ato Técnico Conjunto nº 01/2026 refere-se exclusivamente ao adiamento do início das validações das regras relacionadas ao IBS e à CBS nos documentos fiscais eletrônicos, inicialmente previstas para 03 de agosto de 2026, de forma que a ausência de determinadas informações relacionadas à CBS e ao IBS não resulte, neste momento, na rejeição automática de documentos como NF-e, NFC-e, CT-e, CT-e OS, GTV-e, BP-e, NF3e e NFCom. 
+
+Em outras palavras, os documentos fiscais terão a emissão autorizada mesmo quando não contiverem todos os campos relativos à CBS e ao IBS. Contudo, isso não afasta a obrigação de adequação ao novo modelo, nem altera as regras já estabelecidas para o preenchimento dessas informações. 
+
+A Receita Federal e o CGIBS recomendam que as empresas que ainda não adaptaram seus sistemas envidem esforços para gerarem as informações constantes nos campos relativos à CBS e ao IBS em seus documentos fiscais, em conformidade com o cronograma vigente. No dia 04/08/2026, 88% de todos os documentos emitidos pelos contribuintes alcançados pela obrigatoriedade já foram transmitidos com essas informações, sinalizando que a grande maioria já está preparada para a mudança.
+
+O adiamento foi adotado para evitar entraves operacionais que possam impactar a emissão de documentos fiscais, o faturamento das empresas e a continuidade das atividades econômicas durante esta fase de transição para o novo sistema tributário. 
+
+O período atual possui caráter de adaptação e orientação. Nesse contexto, a atuação das administrações tributárias tem como objetivo apoiar contribuintes, desenvolvedores de software e profissionais da área fiscal na implementação das mudanças necessárias. Também está em regulamentação um programa de conformidade voltado a estimular a regularização e o acompanhamento da evolução dos contribuintes durante a etapa de implantação. 
+
+As empresas que ainda não concluíram sua preparação devem prosseguir com os ajustes de sistemas, processos internos e capacitação de equipes, observando o cronograma já divulgado. A flexibilização da validação foi concebida para permitir uma transição segura e organizada, mas não substitui a necessidade de preparação para o início da operacionalização plena do novo modelo tributário. 
+
+A Receita Federal e o CGIBS reiteram que a medida afeta exclusivamente as regras de validação e rejeição dos documentos fiscais eletrônicos, não alterando as demais etapas da implementação da Reforma Tributária nem o cronograma oficial de implantação. 
+
+Por fim, a Receita Federal e o CGIBS reforçam seu compromisso com uma transição gradual, segura e transparente, buscando garantir a continuidade das atividades econômicas, a simplificação do cumprimento das obrigações tributárias e a adequada preparação de todos os contribuintes para o novo sistema de tributação do consumo.

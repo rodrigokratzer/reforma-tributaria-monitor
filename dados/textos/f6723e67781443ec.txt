@@ -1,0 +1,49 @@
+O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e a Secretaria Especial da Receita Federal do Brasil (RFB) esclarecem aos contribuintes e desenvolvedores de sistemas as diretrizes de envio e os prazos de cumprimento das obrigações relativas à DeRE, estabelecidos pelo Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026.
+
+1. Marco Inicial de Recepção dos Eventos de Tabela (D-1001 e D-1011)
+
+A data de 1º de outubro de 2026 estabelecida no art. 1º, XVII, "a", do Ato Conjunto nº 4/2026 constitui o termo inicial de recepção e vigência cadastral, e não uma data limite de entrega.
+
+Abertura do Sistema: A partir de 01/10/2026, o Ambiente da DeRE passa a recepcionar os eventos de tabela:
+
+D-1001 – Informações do Contribuinte; e
+
+D-1011 – Plano Geral de Contas Comentado (PGCC).
+
+Prazo-Limite de Envio: A transmissão dos eventos de tabela pode ser realizada a partir de 01/10/2026 e deve estar concluída e processada com sucesso antes da transmissão dos Eventos Periódicos Mensais relativos à competência outubro de 2026, os quais têm data limite em 15/11/2026.
+
+2. Cronograma de Entrega dos Eventos Periódicos Mensais
+
+A primeira escrituração contábil-fiscal mensal (competência outubro de 2026) deverá ser entregue até 15 de novembro de 2026, abrangendo o conjunto de eventos periódicos aplicáveis:
+
+D-1101 – Balancete Mensal;
+
+D-1106 – Identificação de Aplicações Financeiras (quando houver obrigatoriedade);
+
+D-1121 – Relação de Deduções Utilizadas na Apuração;
+
+D-2101 – Débito em Operações com Títulos de Dívida com Oferta Pública (quando aplicável ao setor financeiro); e
+
+D-1199 – Fechamento Mensal (consolidador da escrituração e confissão de dívida).
+
+Nota: Conforme o Manual de Orientação da DeRE (Cap. III, item 2.1.2), a data-limite de entrega dos eventos periódicos mensais é fixada no dia 15 do mês subsequente, não sendo prorrogada caso recaia em sábado, domingo ou feriado.
+
+Orientações para transmissão dos eventos
+
+Em observância às diretrizes estabelecidas na documentação técnica da DeRE, os Eventos de Tabela do Contribuinte devem ser transmitidos previamente à entrega dos Eventos Periódicos Mensais correspondentes, de forma a assegurar que as informações cadastrais e estruturantes estejam devidamente recepcionadas e validadas antes do processamento dos eventos de natureza periódica.
+
+Adicionalmente, recomenda-se que eventos que possuam relação de dependência lógica não sejam transmitidos em um mesmo lote, especialmente quando a validação de um evento dependa de informações produzidas ou alteradas por outro evento ainda não processado com sucesso.
+
+Como exemplo, na hipótese de transmissão simultânea de uma atualização do D-1011 - Plano Geral de Contas Comentado (PGCC) e do D-1101 - Balancete Mensal, eventual rejeição do D-1011 não impedirá, necessariamente, o processamento do D-1101. Nessa situação, as validações do balancete poderão ser realizadas com base na versão do PGCC anteriormente vigente na base da DeRE.
+
+Com vistas a assegurar a consistência das informações prestadas, recomenda-se a observância da seguinte sequência operacional:
+
+Transmitir os Eventos de Tabela do Contribuinte (D-1001 e D-1011);
+
+Aguardar e verificar o respectivo processamento com sucesso;
+
+Corrigir eventuais inconsistências apontadas pelo sistema;
+
+Somente após a confirmação da recepção e validação desses eventos transmitir os Eventos Periódicos Mensais.
+
+A observância dessas orientações contribuirá para a adequada execução das validações da DeRE, reduzindo a ocorrência de rejeições e de processamentos baseados em informações anteriormente vigentes na base de dados.

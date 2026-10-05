@@ -1,0 +1,113 @@
+Home 
+
+Notícias 
+
+Imprimir 
+
+Agora em cada DFe, no menu superior está disponível um link para a página do MOC Online disponibilizado pela SEFAZ-PR.
+Esse portal oferece acesso totalmente digital às especificações técnicas, leiaute, serviços e notas técnicas evolutivas de cada DFe.
+Aproveitem essa facilidade que auxilia muito na busca pela documentação atualizada de cada documento fiscal. 
+
+O conjunto de NTs 2026.002 da Reforma Tributária encontra-se implantado na SVRS para BPe, BPeTM, BPeTA, CTe, CTeOS, NF3e, NFCom, NFAg e NFGas 
+
+Conforme estabelecido nas NTs 2026.002 de CTe, BPe, NF3e e NFCom a regra de validação que exige a informação de IBS e CBS (Rejeição 310) passa a ser aplicada a todas as emissões no ambiente de homologação da SVRS.
+IMPORTANTE: Conforme definido na NT, essa regra será ativada no ambiente de PRODUÇÃO no dia 03/08/2026 
+
+Publicada Nota Técnica 2025.002 v.1.50 - RTC para implementação de adequações trazidas pelos Regulamentos do IBS/CBS em relação ao Regime Específico dos Combustíveis - Monofasia.
+
+Assinado por: Coordenação Técnica do ENCAT 
+
+Texto traz detalhes sobre tributo compartilhado entre estados e municípios
+Acesse a notícia completa no portal do CGIBS: https://cgibs.gov.br/regulamento-do-ibs-e-publicado-na-pagina-do-comite-gestor-do-ibs 
+
+Pacote de integração Versão 1.0.0 inclui o Manual de Orientação do Usuário (MOD), Leiautes, Schemas XSD e Regras de Validação. A obrigação acessória é fundamental para a apuração do IBS e da CBS nos setores de Serviços Financeiros, Planos de Saúde e Concursos de Prognósticos.
+Acesse em: https://www.cgibs.gov.br/cgibs-e-receita-federal-publicam-documentacao-tecnica-oficial-da-declaracao-de-regimes-especificos-dere
+
+O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) informa que foi publicado, em conjunto com a Receita Federal do Brasil (RFB), comunicado com as orientações oficiais relativas ao início da vigência da Contribuição sobre Bens e Serviços (CBS) e do Imposto sobre Bens e Serviços (IBS), conforme previsto na Lei Complementar nº 214/2025, regulamentadora da Emenda Constitucional nº 132/2023.
+O documento esclarece sobre as obrigações principais e acessórias aplicáveis aos fatos geradores ocorridos a partir de 1º de janeiro de 2026, marco inicial do período de testes dos novos tributos da Reforma Tributária.
+Notícia completa no site do CG:
+https://www.cgibs.gov.br/comite-gestor-do-ibs-e-receita-federal-divulgam-orientacoes-sobre-a-entrada-em-vigor-da-cbs-e-do-ibs-em-1-de-janeiro-de-2026 
+
+O Comitê Gestor do Imposto sobre Bens e Serviços (CG-IBS) lança, nesta sexta-feira (14), a Cartilha Orientativa para Emissão da NF-e do IBS – volume 1, documento técnico fundamental para a implantação do novo sistema de tributação sobre o consumo no Brasil.
+A publicação tem por objetivo orientar contribuintes, desenvolvedores de sistemas, profissionais da área contábil e fiscal, além das próprias administrações tributárias estaduais e municipais, explicando as regras iniciais para a emissão da Nota Fiscal Eletrônica (NF-e) de forma a possibilitar o funcionamento do modelo de apuração assistida do IBS, previsto na Lei Complementar nº 214/2025 e na Emenda Constitucional nº 132/2023.
+A Cartilha Orientativa para Emissão da NF-e do IBS – volume 1 inaugura uma série de publicações técnicas que acompanharão a evolução normativa e operacional do IBS, com atualizações progressivas à medida que novas definições forem sendo consolidadas.
+https://www.cgibs.gov.br/cartilha-orientativa-para-emissao-da-nf-e-do-ibs-volume-1 
+
+Foi disponibilizada neste portal a nova interface para geração e validação dos campos da Reforma Tributária com foco específico em NFe e NFCe. A nova abordagem traz um conjunto de ferramentas interativas que orientam e conduzem o usuário a testarem as diversas possibilidades de preenchimento para os campos do IBS e CBS, além disso, auxilia de forma didática a compreensão e preenchimento dos campos alinhado aos conceitos da LC 214, com um link direto com a parte técnica associando a estrutura do XML da NFe/NFCe.
+https://dfe-portal.svrs.rs.gov.br/Cff/ValidadorRtcNfe
+
+A geração e validação dos demais documentos fiscais (CTe, BPe, NF3e, NFCom) podem utilizar a interface exclusiva para estes DFe: 
+https://dfe-portal.svrs.rs.gov.br/CFF/ValidadorRTC
+
+Encontra-se disponível no portal da SVRS a nova funcionalidade do Projeto Conformidade Facil: o validador das notas técnicas da Reforma Tributária do Consumo. Nesta transação, qualquer empresa ou integradora de software poderá informar a parte do XML com os campos da tributação apresentados nas notas técnicas da RTC ou mesmo  colar o XML completo de um documento fiscal eletrônico e validar se a informação está em conformidade com as regras de validação descritas nas notas técnicas.
+
+O componente de validação é o mesmo que é utilizado pelo ambiente de autorização da SEFAZ Virtual, e tem a capacidade de responder se o XML apresentado está correto em relação a qualquer uma das regras previstas nas NTs.
+
+A primeira versão atende aos documentos CTe, BPe, NF3e e NFCom, mas muito em breve estará contemplando NFe e NFCe.
+
+A etapa 3 prevê a criação de um gerador de XML da reforma tributária e deve ser implantada ainda no mês de Julho.
+Acesso a ferramenta: https://dfe-portal.svrs.rs.gov.br/Dfe/ValidadorRTC
+
+Comunicamos aos contribuintes emitentes de CTe, BPe, NF3e e NFCom que as respectivas Notas Técnicas 2025.001, que implementam o leiaute e regras de validação da reforma tributária,  encontram-se IMPLANTADAS no ambiente de homologação da Sefaz virtual RS.
+Desta forma, as empresas ja podem testar seus sistemas de forma antecipada. 
+Importante destacar que as NTs implantam os campos novos da reforma que serão validados APENAS  se forem informados. Caso seja enviado um DFe com o schema anterior, este será validado normalmente. 
+Esta iniciativa visa permitir que possam ser testados os sistemas dos contribuintes e do proprio ambiente de autorização que estará em constante evolução e verificação durante o processo de amadurecimento das publicações das notas técnicas.  
+
+As notas técnicas que preveem a criação da estrutura de dados para alimentar a tributação relativa à Reforma Tributária do Consumo estão publicadas no portal e já existem prazos para a implantação desta versão no ambiente de homologação até do dia 28 de julho de 2025 para NFe, NFCe, BPe, CTe, NF3e e NFCom.
+Todas as Notas Técnicas apresentam regras de validação que fazem referências as tabelas de CST, Classificação Tributária e Crédito Presumido e seus indicadores (flags) que obrigam ou vedam o preenchimento dos diversos grupos de informações no XML do Documento Fiscal.
+Visando faciliar o entendimento da aplicação prática destas regras de validação, e sobretudo, trazer dados mais concretos de que forma os ambientes de autorização dos documentos fiscais trabalharão as validações, estamos publicando na forma de consulta deste portal o acesso visual a estas tabelas.
+
+Tabelas de CST e cClass: https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria
+Tabela de Crédito Presumido: https://dfe-portal.svrs.rs.gov.br/DFE/TabelaCreditoPresumido
+IMPORTANTE: O trabalho de levantamento de situações, aderência à legislação e prospecção de regras de validação, assim como a própria composição destas tabelas é um trabalho em constante revisão e aprimoramento, o que pode resultar em modificações nestas informações. Uma vantagem importante é que a estas tabelas estão acessando o motor de validação em banco de dados, o mesmo que o sistema de autorização da SVRS estará utilizando. Qualquer alteração nas tabelas refletirá imediatamente nas consultas do portal e na validação das regras dos documentos fiscais eletrônicos.
+  
+
+Publicada NT 2023.005 v.1.02, juntamente com seu respectivo Pacote de Liberação, que implementa o Evento de Insucesso na Entrega da NF-e, de forma centralizada no Ambiente de Autorização da Sefaz Virtual do Rio Grande do Sul (SVRS). A implantação desse evento representa a última etapa necessária para inserir no formato digital todos os processos de devolução de mercadorias.
+
+Publicada a NT 2024.001 v.1.00, que traz as alterações necessárias para permitir a emissão de NF-e/NFC-e nas operações por MEI utilizando o código de regime tributário (CRT) “4 - Simples Nacional - Microempreendedor Individual – MEI.
+Assinado por: Coordenação Técnica do ENCAT 
+
+A versão 1.60 da NT 2019.001 atualiza regras de validação relativas ao código de benefício fiscal entre outras alterações.
+
+A NT 2023.004 objetiva prover aos atores envolvidos nos processos da NF-e/NFC-e a possibilidade de anotar no documento fiscal eletrônico as transações financeiras relacionadas, facilitando a vinculação entre documentos fiscais e recursos financeiros recebidos.
+Assinado por: Coordenação Técnica do ENCAT
+
+Esta Orientação descreve, de forma provisória até o término do período de freezing, os procedimentos para emissão de Documentos Fiscais Eletrônicos (DFe) nas remessas interestaduais de bens e mercadorias entre estabelecimentos de mesma titularidade, em decorrência da decisão do STF na ADC 49.  
+
+Os procedimentos propostos visam não impactar as transferências até a adequação das obrigações acessórias para designar, por meio de campos próprios, a não incidência nas remessas de bens e mercadorias entre estabelecimentos de mesma titularidade e a transferência de créditos de ICMS do remetente ao destinatário.  
+
+Dessa forma, a emissão dos DFe de transferências de bens e mercadorias seguirão a legislação vigente até o ano 2023, adotando os campos de ICMS já utilizados, ainda que não reflitam o significado jurídico da não incidência, para documentar o valor do crédito a ser transferido. Os DFe devem ter o campo de informações adicionais do fisco preenchido com o texto “Nota fiscal de transferência de bens e mercadorias não sujeita à incidência de ICMS, de que trata a ADC 49, emitida de forma a operacionalizar a transferência de crédito de ICMS”.  
+
+Ratificamos que esta orientação é provisória e deverá ser observada na emissão de DFe relativos às transferências realizadas até a publicação de ato normativo definindo procedimentos específicos para explicitar a não incidência e a transferência do crédito do imposto.” 
+ 
+Assinado por: Coordenação Técnica do ENCAT  
+
+O CONFAZ disponibilizou uma página com perguntas e respostas sobre o tema da Tributação Monofásica dos Combustíveis.
+Acesse em: https://www.confaz.fazenda.gov.br/tributacao-monofasica
+
+Disponível já para Paraná, Minas Gerais, Rio Grande do Sul, Goiás, Espirito Santo e Distrito Federal.
+Em breve em outros estados!
+
+Informamos que iniciou-se a partir de 05/10/2020 a 
+repercussão, no ambiente de produção, do evento Comprovante de Entrega do CT-e 
+na NF-e, em atendimento ao previsto no Ajuste SINIEF 14/19, que instituiu o 
+evento.
+Este evento de marcação da NF-e 
+é gerado de forma automática sempre que o transportador registrar o evento de 
+Comprovação de Entrega do CT-e e este CT-e relacionar a Chave de Acesso da 
+NF-e.
+
+Publicada a TABELA cBenef_X_CST, atualizada em 31/01/2020, complementar à Nota Técnica 2019.001, na qual consta, para os Estados que já implementaram, a relação dos Códigos dos Benefícios Fiscais (cBenef) e respectivos Códigos de Situação Tributária (CST), contendo alterações com relação aos códigos de benefícios fiscais do Rio Grande do Sul.
+
+Publicada a versão 1.30 da NT 2019.001, que divulga novas regras de validação e atualiza regras existentes da NF-e/NFC-e versão 4.0, com os seguintes objetivos: 
+• Informados os locais de publicação das tabelas de códigos de benefícios fiscais e de regras de validação opcionais por unidade federada
+• Novas datas de vigência para algumas regras de validação
+Publicada a tabela cBenef x CST atualizada até 30/08/2019
+Assinado por: Coordenação Técnica do ENCAT 
+
+Está disponível na consulta completa da NF-e o botão "Download Arquivo da NF-e", essa funcionalidade permite baixar o arquivo XML da nota fiscal eletrônica para o usuário apresentando certificado digital desde que esteja relacionados com a NF-e.
+
+Publicada 
+a versão 1.10 da NT 2018.005, alterando o leiaute da NF-e/NFC-e.
+
+Este portal tem como objetivo a divulgação de informações sobre o projeto NF-e. Coordenado pelo ENCAT e desenvolvido em parceria com a Secretaria da Fazenda do RS e PROCERGS, tem como finalidade facilitar o acesso às informações, documentação técnica, legislação e oferecer alguns serviços relevantes para os usuários destes documentos eletrônicos.

@@ -1,0 +1,2411 @@
+Cartilha do IBS (.pdf 1,32 MBytes)
+
+===== ANEXO: https://www.cgibs.gov.br/upload/arquivos/202511/13142212-item-2-3-cartilha-do-ibs-vol-1-formatada-20251110-1506.pdf =====
+[pagina 1]
+APURAÇÃO DO IBS
+Cartilha Orientativa
+
+VOLUME 1
+
+Orientações sobre os efeitos dos documentos fiscais eletrônicos na apuração
+assistida gerada pelos
+
+Sistemas Operacionais do Comitê Gestor do IBS
+
+COMITÊ GESTOR DO IMPOSTO
+SOBRE BENS E SERVIÇOS
+
+=4 CGIBS
+
+[pagina 2]
+Pré-Comitê Gestor do IBS
+Grupo de Coordenação Estratégica
+Grupo de Coordenação Técnico-Operacional
+
+
+
+
+APURAÇÃO DO IBS
+Cartilha Orientativa
+VOLUME 1
+Orientações sobre os efeitos dos documentos fiscais eletrônicos na apuração
+assistida gerada pelos
+Sistemas Operacionais do Comitê Gestor do IBS
+
+
+
+
+ Versão 1.00
+ Documento elaborado com base na NT 2025.002-RTC, Versão 1.30
+
+
+
+
+ Brasília-DF
+ 2025
+
+
+
+
+ Página 2
+
+[pagina 3]
+2025 Pré-Comitê Gestor do IBS
+É permitida a reprodução parcial ou total desta obra, desde que citada a fonte.
+O documento pode ser acessado, na íntegra, no site institucional do Comitê Gestor do IBS:
+<www.cgibs.gov.br>
+
+1ª edição - 2025 - versão eletrônica
+
+
+
+Elaboração, distribuição e informações:
+PRÉ-COMITÊ GESTOR DO IBS
+Grupo de Coordenação Estratégica
+Grupo de Coordenação Técnico-Operacional
+
+
+
+
+ Página 3
+
+[pagina 4]
+FLÁVIO CÉSAR MENDES DE OLIVEIRA
+Presidente do Comitê Gestor do IBS
+
+
+
+COORDENAÇÃO TÉCNICO-OPERACIONAL
+LUIZ DIAS ALENCAR NETO | Coordenador
+ROBERTO ALBUQUERQUE MELO JÚNIOR | Coordenador Adjunto
+
+
+
+GT02 - OPERACIONALIZAÇÃO
+ÁLVARO ANTÔNIO DA SILVA BAHIA | Coordenador
+FLÁVIO LUIZ ANDRADE | Coordenador Adjunto
+
+
+
+ELABORAÇÃO
+PAULO YAMADA | Coordenador do SubGT 02.7 - Apuração
+ELIANE FIGUEIRA HEIDEMANN | SubGT 02.7 - Apuração
+
+
+
+REVISÃO
+DOUGLAS CARPENEDO | SubGT 02.4 - Documentos Fiscais
+FABIO CAPELLA SCHNEIDER | SubGT 02.4 - Documentos Fiscais
+SURAYA PIRES DALTRO | SubGT 02.4 - Documentos Fiscais
+
+
+
+EQUIPE TÉCNICA
+Grupo de Coordenação Técnico-Operacional - GCTO Eliane Figueira Heidemann - SubGT 02.7/GT02/COMSEFAZ
+Luiz Dias - GCTO/COMSEFAZ Fábio dos S. Silva - SubGT02.7/GT02/FNP
+Osvaldo Lage Scavazza - GCTO/COMSEFAZ Marcos Domingues - SubGT 02.7/GT02/COMSEFAZ
+Rafael Barbosa de Souza - GCTO/FNP Paulo Yamada - SubGT02.7/GT02/COMSEFAZ
+Ricardo Neves - GCTO/COMSEFAZ
+Roberto Gomes de Albuquerque M. Junior - GCTO/FNP SubGT 02.4 - Documentos Fiscais
+Vinicius José Silva - GCTO/COMSEFAZ Antônio Carlos Godói - SubGT02.4/GT02/COMSEFAZ
+ Arlena Borges Machado - SubGT02.4/GT02/COMSEFAZ
+Grupo Técnico Operacionalização - GT02 Denys Miyashiro - SubGT02.4/GT02/FNP
+Adriano Manzeppe - GT02/FNP Hudson da Cunha Dutra - SubGT02.4/GT02/FNP
+Alex Sandro Kuhn - GT02/COMSEFAZ João Carlos do N. Silva - SubGT02.4/GT02/COMSEFAZ
+Álvaro Bahia - GT02/COMSEFAZ Vinicius Pimentel de Freitas - SubGT02.4/GT02/COMSEFAZ
+Cesar Yukio Saito - GT02/FNP
+Dimitri Domingos - GT02/COMSEFAZ SubGT 01.5 - Apuração e pagamento (Normatização)
+Eliane Figueira Heidemann - GT02/COMSEFAZ Augusto Bueno - SubGT01.5/GT01/COMSEFAZ
+ Carlos Mauro Naylor - SubGT01.5/GT01/FNP
+SubGT 02.7 - Apuração do IBS Débora Recife - SubGT01.5/GT01/COMSEFAZ
+Antonio Arantes - SubGT 02.7/GT02/FNP Pedro Henrique Pinheiro - SubGT01.5/GT01/COMSEFAZ
+Edilmar M. A. Carvalho - SubGT 02.7/GT02/COMSEFAZ Rodrigo Coelho Moya Gomes - SubGT01.5/GT01/FNP
+ Rodrigo Paulino - SubGT01.5/GT01/COMSEFAZ
+
+
+
+
+ Página 4
+
+[pagina 5]
+Sumário
+
+
+Apresentação ..................................................................................................................... 7
+Efeitos dos Documentos Fiscais Eletrônicos na apuração do IBS ................................. 8
+ 1 - Novos campos e grupos de campos ................................................................................... 9
+ 1.1 - Data da previsão de entrega ou disponibilização do bem .................................... 9
+ 1.2 - Grupo de Compra Governamental e Grupo de informações da composição
+ do valor do IBS e da CBS em compras governamentais ............................................... 9
+ 1.3 - Grupo de notas de antecipação de pagamento ................................................... 10
+ 1.4 - Indicador de Fornecimento Bem Móvel Usado ..................................................... 11
+ 1.5 - Indicador de Doação................................................................................................... 12
+ 1.6 - Grupo de Informações da Tributação Regular ..................................................... 13
+ 1.7 - Grupo de Informações de Transferências de Crédito ......................................... 13
+ 1.8 - Grupo Ajuste de Competência ................................................................................. 13
+ 1.9 - Grupo Estorno de Crédito.......................................................................................... 14
+ 1.10 - Grupo Crédito Presumido da Operação................................................................ 14
+ 1.11 - Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e .... 14
+ 2 - Notas Fiscais de Débito ...................................................................................................... 15
+ 2.1 - Transferência de créditos para Cooperativas ...................................................... 15
+ 2.2 - Anulação de Crédito por Saídas Imunes/Isentas ................................................ 15
+ 2.3 - Débitos de notas fiscais não processadas da apuração ................................... 16
+ 2.4 - Multa e Juros .............................................................................................................. 17
+ 2.5 - Transferência de crédito na sucessão .................................................................. 18
+ 2.6 - Pagamento antecipado............................................................................................. 18
+ 2.7 - Perda em estoque ...................................................................................................... 19
+ 3 - Notas Fiscais de Crédito ..................................................................................................... 21
+ 3.1 - Multa e juros ................................................................................................................. 21
+ 3.2 - Retorno por recusa da entrega ou por não localização do destinatário na
+ tentativa de entrega ........................................................................................................... 21
+ 3.3 - Redução de valores .................................................................................................. 22
+ 3.4 - Transferência de crédito na sucessão ................................................................. 23
+ 4 - Novos Eventos ..................................................................................................................... 25
+ 4.1 - Evento: Destinação de item para consumo pessoal .......................................... 25
+ 4.2 - Evento: Perecimento, perda, roubo ou furto durante o transporte
+ contratado pelo adquirente .............................................................................................. 25
+ 4.3 - Evento: Perecimento, perda, roubo ou furto durante o transporte
+ contratado pelo fornecedor ............................................................................................. 26
+ 4.4 - Evento: Não ocorrência de fornecimento com pagamento antecipado ....... 26
+ 4.5 - Evento: Aceite de débito na apuração por emissão de nota de crédito ........ 27
+ 4.6 - Evento: Imobilização de Item .................................................................................. 27
+ 4.7 - Evento: Solicitação de Apropriação de Crédito de Combustível...................... 27
+ 4.8 - Evento: Solicitação de Apropriação de Crédito para bens e serviços que
+ dependem de atividade do adquirente .......................................................................... 28
+
+
+
+
+ Página 5
+
+[pagina 6]
+4.9 - Evento: Manifestação sobre Pedido de Transferência de Crédito de IBS em
+ Operações de Sucessão .................................................................................................... 29
+ 4.10 - Evento: Manifestação do Fisco sobre Pedido de Transferência de Crédito
+ de IBS em Operações de Sucessão ................................................................................. 30
+ 4.11 - Evento: Importação em ALC/ZFM não convertida em isenção ...................... 31
+ 4.12 - Evento: Atualização da Data de Previsão de Entrega ..................................... 32
+Exemplos ilustrativos do uso dos novos campos, finalidades e eventos DF-e ........33
+ Cenário 1 – Correção de data de entrega e perda no transporte CIF ............................ 33
+ Cenário 2 – Perda do estoque e doação de itens produzidos........................................ 35
+ Cenário 3 – Fornecimento para empregado abaixo do valor de mercado ..................... 37
+ Cenário 4 - Imobilização de item e apropriação de crédito de bebida alcóolica
+ adquirida para revenda por contribuinte sem registro dessa atividade ....................... 39
+ Cenário 5 – Pagamento antecipado com distrato parcial, correção de destaque a
+ maior e retorno de item recusado ......................................................................................... 43
+ Cenário 6 - Recebimento antecipado sem definição de itens a serem fornecidos .... 50
+
+
+
+
+ Página 6
+
+[pagina 7]
+Apresentação
+
+A instituição do Imposto sobre Bens e Serviços (IBS), nos termos da Emenda
+Constitucional nº 132/2023 e da Lei Complementar nº 214/2025, representa uma das mais
+profundas transformações já realizadas no sistema tributário brasileiro. A reformulação
+do modelo de tributação sobre o consumo introduz novos paradigmas na forma como as
+empresas registram, apuram e recolhem os tributos, exigindo adaptação tecnológica,
+procedimental e operacional de contribuintes e administrações tributárias.
+
+Nesse contexto, o Comitê Gestor do IBS (CG-IBS) tem entre suas atribuições
+fundamentais assegurar a transparência, a padronização e a segurança jurídica e
+tecnológica na aplicação das normas relativas ao imposto de competência compartilhada
+entre Estados e Municípios. Dentre os pilares dessa missão, destaca-se o
+desenvolvimento e a manutenção de um sistema operacional integrado que viabilize a
+apuração assistida do IBS, oferecendo suporte técnico e informacional aos contribuintes
+e às administrações tributárias.
+
+Com o propósito de orientar empresas, profissionais da área fiscal e desenvolvedores de
+sistemas, esta Cartilha Orientativa do IBS — ainda que sem caráter normativo — reúne as
+primeiras diretrizes operacionais e técnicas a serem observadas na interação com os
+sistemas em desenvolvimento pelo CG-IBS. As informações aqui consolidadas são
+essenciais para a correta emissão de documentos fiscais eletrônicos (DF-e), o registro
+adequado das operações no sistema de apuração assistida do IBS e a realização de
+ajustes e retificações nos saldos do imposto, em conformidade com os parâmetros legais
+e operacionais vigentes.
+
+Neste Volume 1, o foco recai sobre as regras aplicáveis à emissão dos documentos fiscais
+eletrônicos, incluindo seus novos campos, finalidades e eventos relacionados ao IBS, bem
+como sobre os efeitos dessas emissões nos sistemas operacionais do Comitê Gestor,
+especialmente o Sistema de Apuração Assistida.
+
+O conteúdo foi elaborado de forma colaborativa pelas áreas técnicas do Pré-Comitê
+Gestor do IBS diretamente envolvidas com o processo de especificação dos sistemas do
+CG-IBS, contando com a contribuição de especialistas das administrações tributárias
+estaduais e municipais, o que confere ao material uma abordagem abrangente, precisa e
+orientada à prática. À medida que o desenvolvimento técnico e normativo avance, novas
+versões desta cartilha poderão ser publicadas, de modo a refletir atualizações e
+aperfeiçoamentos contínuos.
+
+Com esta publicação, Estados e Municípios brasileiros reafirmam seu compromisso com
+a orientação transparente aos contribuintes, a simplificação do sistema tributário e a
+transição segura e eficiente para o novo modelo de tributação sobre o consumo no Brasil.
+
+
+
+ Pré-Comitê Gestor do IBS
+
+
+
+
+ Página 7
+
+[pagina 8]
+Efeitos dos Documentos Fiscais Eletrônicos na apuração do IBS
+
+A Apuração Assistida do IBS é um modelo inovador de apuração de impostos que será
+implementado pelo Comitê Gestor do Imposto sobre Bens e Serviços (CG-IBS) com o
+objetivo de simplificar e tornar mais segura a determinação do valor de IBS devido por
+cada contribuinte.
+
+Diferentemente do modelo atualmente aplicado aos tributos sobre o consumo (ICMS e
+ISS), de competência dos Estados e Municípios, cuja apuração é realizada de forma
+autônoma pelos contribuintes, com base em seus controles internos e escrituração
+própria, o novo sistema adota uma metodologia colaborativa de apuração, em que as
+informações prestadas pelos contribuintes alimentarão, em tempo real, os sistemas
+operacionais do CG-IBS, responsáveis por processar, vincular e consolidar os dados para
+determinação do saldo final de IBS a recolher.
+
+Na prática, o CG-IBS disponibilizará, com base nas informações transmitidas pelas
+empresas — especialmente por meio dos documentos fiscais eletrônicos (DF-e) — e de
+declarações em casos específicos —, um cálculo prévio do saldo de IBS devido ou a
+recuperar, contemplando:
+
+ ● a apuração do saldo devedor de IBS a recolher ao final de cada período de
+ apuração;
+
+ ● o controle dos créditos de IBS apropriáveis pelo adquirente, condicionado à
+ extinção do débito correspondente pelo fornecedor;
+
+ ● a vinculação cronológica entre débitos e créditos, conforme critérios definidos em
+ legislação; e
+
+ ● a geração de relatórios de apoio e ferramentas de conferência, que permitirão aos
+ contribuintes verificar, ajustar e validar as informações da apuração assistida.
+
+A apuração assistida terá como principal insumo os documentos fiscais eletrônicos e seus
+respectivos eventos, que passam a ter efeito direto e automático sobre o saldo de
+apuração. Eventuais ajustes ou correções realizados pelos contribuintes também
+ocorrerão por meio de emissões específicas, tais como notas fiscais de débito ou de
+crédito, ou ainda eventos vinculados ao documento fiscal original.
+
+Nesse contexto, a partir deste ponto, esta cartilha se propõe a orientar o correto
+preenchimento dos documentos fiscais eletrônicos, para a adequada prestação de
+informações úteis ao processo de apuração assistida do IBS.
+
+
+
+
+ Página 8
+
+[pagina 9]
+1 - Novos campos e grupos de campos
+
+Nos itens a seguir, serão elucidadas as regras e hipóteses de uso dos novos campos dos
+documentos fiscais eletrônicos criados para conter informações relacionadas ao IBS.
+
+1.1 - Data da previsão de entrega ou disponibilização do bem
+
+O art. 10 da Lei Complementar nº 214/2025 estabelece que o fato gerador do Imposto
+sobre Bens e Serviços (IBS) e da Contribuição sobre Bens e Serviços (CBS) ocorre no
+momento do fornecimento. Já o art. 3º, inciso II, alínea “a”, da mesma lei, define
+fornecimento como a entrega ou disponibilização de bem material.
+
+Em decorrência desses dispositivos, o débito de IBS destacado nas notas fiscais
+eletrônicas de fornecimento de bens móveis materiais deverá ser considerado no período
+de apuração correspondente ao mês e ano em que se verificar a entrega ou a
+disponibilização do bem ao destinatário.
+
+O sistema de apuração assistida do IBS utilizará, para fins de vinculação do débito ao
+respectivo período de apuração, os seguintes campos da Nota Fiscal Eletrônica (NF-e,
+modelo 55), observada a ordem de prioridade abaixo:
+
+a) o campo dPrevEntrega (Data Prevista de Entrega), quando informado;
+b) o campo dhSaiEnt (Data de Saída), quando o campo dPrevEntrega não estiver
+preenchido;
+c) o campo dhEmi (Data de Emissão), quando não houver preenchimento dos campos
+anteriores.
+
+Caso haja necessidade de correção da data informada, o contribuinte deverá utilizar o
+evento “Atualização da Data de Previsão de Entrega”, conforme descrito no item 4.12
+desta Cartilha.
+
+Na hipótese de a data prevista de entrega coincidir com período sujeito à nova alíquota
+do IBS, o documento fiscal deverá ser emitido com a alíquota vigente na data provável de
+ocorrência do fato gerador.
+
+1.2 - Grupo de Compra Governamental e Grupo de informações da
+composição do valor do IBS e da CBS em compras governamentais
+
+Nos termos do art. 10, § 2º, da Lei Complementar nº 214/2025, o Imposto sobre Bens e
+Serviços (IBS) incidente sobre fornecimentos realizados à administração pública direta,
+autarquias e fundações públicas será devido apenas no momento em que o órgão público
+adquirente efetuar o pagamento correspondente.
+
+Para garantir o tratamento tributário adequado a essas operações, o sistema de apuração
+assistida do IBS identificará tais fornecimentos por meio do grupo gCompraGov, que
+
+
+
+
+ Página 9
+
+[pagina 10]
+deverá ser obrigatoriamente informado nos documentos fiscais eletrônicos (NF-e)
+emitidos em operações com entes públicos de que trata o art. 10, § 2º.
+
+Em conformidade com as especificações constantes em Nota Técnica, deverão ser
+emitidos dois documentos fiscais distintos, conforme o estágio da operação:
+
+a) No momento do fornecimento do bem ou serviço
+
+A Nota Fiscal Eletrônica deverá conter o destaque do IBS com base na alíquota vigente na
+data do fornecimento, devendo ser informado o código “1” no campo tpOperGov,
+indicando tratar-se de fornecimento com pagamento pendente.
+
+O valor de IBS destacado servirá exclusivamente para fins de estimativa e controle do
+valor do tributo devido, não constituindo débito de IBS até que o pagamento seja
+efetivamente realizado pelo órgão público.
+
+b) No momento do pagamento pelo órgão público adquirente
+
+O fornecedor deverá emitir nova Nota Fiscal Eletrônica com destaque do IBS e da CBS
+com base na alíquota vigente na data do pagamento, informando o código “2” no campo
+tpOperGov, o que caracterizará a ocorrência do fato gerador e ensejará o lançamento do
+débito correspondente na apuração assistida do IBS.
+
+Em ambas as notas fiscais — tanto no fornecimento quanto no pagamento — é obrigatório
+o preenchimento do grupo gTribCompraGov, que contém as informações referentes ao
+detalhamento da composição do valor incidente sobre as compras governamentais.
+
+1.3 - Grupo de notas de antecipação de pagamento
+
+O art. 10, § 4º, II, da Lei Complementar nº214/2025, define que, no efetivo fornecimento
+de bens ou serviços em relação ao qual tenha havido anterior emissão de nota fiscal de
+débito do tipo 06 = “Pagamento antecipado”, a nota fiscal de fornecimento deverá ser
+emitida pelo valor total da operação, incluindo as parcelas pagas antecipadamente
+constantes das notas fiscais emitidas anteriormente.
+
+Para que não haja lançamento de débitos em duplicidade (pela nota fiscal de débito do
+tipo 06 = “Pagamento antecipado” e pela nota fiscal de fornecimento emitida com o valor
+total), o contribuinte, ao emitir a nota fiscal de fornecimento, deverá referenciar, no grupo
+<gPagAntecipado>, as notas fiscais de débito de pagamento antecipado emitidas.
+
+Exemplo:
+
+ ● Janeiro/2026: fornecedor recebe 100,00 de antecipação do cliente e emite a nota
+ fiscal de débito do tipo 06 = “Pagamento antecipado”:
+ ○ Chave de acesso: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ ○ Finalidade (finNFe): 6 = Nota de Débito
+
+
+
+ Página 10
+
+[pagina 11]
+○ Tipo de Nota de Débito (tpNFDebito): 06 = Pagamento antecipado
+ ○ Valor do item: 80,00
+ ○ Alíquota: 25%
+ ○ Imposto: 20,00 (débito constará da apuração de 01/2026)
+ ○ Valor total da nota fiscal: 100,00
+
+ ● Fevereiro/2026: fornecedor recebe 150,00 de antecipação do cliente e emite a
+ nota fiscal de débito do tipo 06 = “Pagamento antecipado”:
+ ○ Chave de acesso: yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+ ○ Finalidade (finNFe): 6 = Nota de Débito
+ ○ Tipo de Nota de Débito (tpNFDebito): 06 = Pagamento antecipado
+ ○ Valor do item: 120,00
+ ○ Alíquota: 25%
+ ○ Imposto: 30,00 (débito constará da apuração de 02/2026)
+ ○ Valor total da nota fiscal: 150,00
+
+ ● Março/2026: fornecedor recebe 200,00 restante do cliente e realiza o efetivo
+ fornecimento do bem, emitindo a respectiva nota fiscal:
+ ○ Chave de acesso: zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ ○ Finalidade (finNFe): 1 = NF-e normal
+ ○ Valor do item: 360,00
+ ○ Alíquota: 25%
+ ○ Imposto: 90,00
+ ○ Valor total da nota fiscal: 450,00
+ ○ Grupo de notas de antecipação de pagamento (gPagAntecipado):
+ ■ refNFe: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ ■ refNFe: yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+1.4 - Indicador de Fornecimento Bem Móvel Usado
+
+O indicador indBemMovelUsado deve ser informado pelo emitente da nota fiscal relativa
+ao fornecimento/aquisição de bem móvel usado adquirido de pessoa física ou
+Microempreendedor Individual (MEI), com a finalidade de revenda.
+
+A inclusão dessa informação no documento fiscal permite ao sistema de apuração
+assistida do IBS identificar, de forma automatizada, as operações que podem gerar direito
+à apropriação do crédito presumido previsto no art. 171 da Lei Complementar nº 214/2025,
+quando atendidos os requisitos legais e regulamentares aplicáveis.
+
+O campo não deve ser preenchido em nenhuma outra hipótese, especialmente nos casos
+de fornecimento de bens usados integrantes do ativo imobilizado ou em aquisições que
+não tenham finalidade de revenda, situações em que não há direito ao crédito presumido
+e em que o tratamento tributário deve seguir as regras gerais do fornecimento de bens
+móveis.
+
+
+
+
+ Página 11
+
+[pagina 12]
+1.5 - Indicador de Doação
+
+O campo Indicador de Doação, identificado pela tag <indDoacao>, deve ser
+obrigatoriamente informado sempre que o contribuinte realizar uma operação de doação
+de bem ou serviço, independentemente da opção tributária adotada para o tratamento da
+operação.
+
+Nos termos do art. 6º, inciso VIII, da Lei Complementar nº 214/2025, as doações não se
+sujeitam à incidência do Imposto sobre Bens e Serviços (IBS). O § 2º do mesmo artigo,
+contudo, faculta ao contribuinte optar entre duas modalidades de tratamento tributário:
+
+a) Opção pela tributação da doação a valor de mercado
+
+Nesta hipótese, o contribuinte poderá tributar a operação de doação como se fosse um
+fornecimento a título oneroso, aplicando a alíquota efetiva do IBS sobre o valor de
+mercado do bem ou serviço doado.
+
+ ● Deve ser informado o código de classificação tributária (cClassTrib) aplicável à
+ tributação do item doado;
+
+ ● A base de cálculo será o valor de mercado, conforme critérios definidos na
+ legislação;
+
+ ● Não será exigido o estorno de créditos relativos às aquisições de bens ou insumos
+ vinculados ao item doado.
+
+Essa opção simplifica a escrituração e mantém a integridade dos créditos já apropriados,
+dispensando controles adicionais de estorno.
+
+b) Opção pela não incidência na doação
+
+Quando o contribuinte optar por aplicar a não incidência do IBS, deverá observar as
+seguintes classificações tributárias específicas:
+
+ ● cClassTrib = 410003 – Doações sem contraprestação em benefício do doador:
+ Aplica-se quando o item doado não gerou crédito de IBS em sua aquisição ou na
+ aquisição dos insumos utilizados em sua produção. Nesse caso, não há
+ necessidade de estorno de crédito, pois não existe crédito vinculado à operação.
+
+ ● cClassTrib = 410026 – Doação com anulação de crédito: Aplica-se quando o item
+ doado gerou crédito de IBS em sua aquisição ou na aquisição dos insumos de sua
+ produção. Nessa hipótese, o contribuinte deverá efetuar o estorno proporcional
+ dos créditos vinculados, sendo obrigatório o preenchimento do grupo “Estorno de
+ Crédito”, conforme detalhado no item 1.9 desta Cartilha.
+
+
+
+
+ Página 12
+
+[pagina 13]
+1.6 - Grupo de Informações da Tributação Regular
+
+O Grupo de Informações da Tributação Regular, identificado pela tag <gTribRegular>, deve
+ser preenchido nas hipóteses em que a operação esteja sujeita a tratamento tributário
+que reduza ou suspenda a carga tributária aplicável à tributação regular do IBS, conforme
+previsão legal específica, sob condição que, se descumprida, faz nascer a obrigação de
+recolhimento do tributo suspenso ou reduzido.
+
+Na prática, o campo <gTribRegular> permite que o contribuinte informe o valor integral do
+IBS que seria devido caso o tratamento “especial” não fosse aplicado, de forma a
+possibilitar que o sistema controle e, se necessário, reverta automaticamente a redução
+ou suspensão concedida, quando verificada a perda do direito ao tratamento favorecido.
+
+Exemplo prático:
+
+Um contribuinte realiza o fornecimento de determinado item com redução de 60% na
+alíquota, conforme regra geral. No entanto, ao efetuar o fornecimento desse mesmo item
+a um adquirente localizado em Área de Livre Comércio (ALC), aplica redução de 100% na
+alíquota, conforme disposto no art. 463 da Lei Complementar nº 214/2025.
+
+Nessa situação, o valor do IBS que seria devido na hipótese de tributação regular deve ser
+informado no grupo <gTribRegular>;
+
+1.7 - Grupo de Informações de Transferências de Crédito
+
+O Grupo de Informações de Transferências de Crédito, identificado pela tag
+<gTransfCred>, deve ser obrigatoriamente preenchido nas seguintes hipóteses:
+
+ ● Nota fiscal de débito emitida com o tipo 01 – Transferência de créditos para
+ cooperativas (cClassTrib = 800002), conforme item 2.1 deste documento;
+
+ ● Nota fiscal de transferência de crédito na sucessão (cClassTrib = 800001),
+ conforme itens 2.5 ou 3.5 deste documento.
+
+As transferências serão efetivadas nas hipóteses previstas no art. 272 ou no parágrafo
+único do art. 55, ambos da Lei Complementar nº214/2025.
+
+1.8 - Grupo Ajuste de Competência
+
+O grupo gAjusteCompet será preenchido nas hipóteses de emissão de notas fiscais de
+débito, que tenham por finalidade a realização de ajustes nos saldos de apuração que não
+requeiram a indicação de nenhuma operação específica ocorrida no período. O valor do
+IBS será lançado no período de competência informado no respectivo campo da nota
+fiscal.
+
+
+
+
+ Página 13
+
+[pagina 14]
+Cenários de uso, conforme indicador “Ajuste de Competência” (ind_gAjusteCompet) da
+tabela de CST do IBS e da CBS1:
+
+ ● Nota fiscal de débito do tipo 02=Anulação de Crédito por Saídas Imunes/Isentas
+ (art. 51 da Lei Complementar nº214/2025);
+ ● Nota fiscal de débito do tipo 03=Débitos de notas fiscais não processadas na
+ apuração
+
+1.9 - Grupo Estorno de Crédito
+
+O grupo gEstornoCred deverá ser preenchido para os itens com cClassTrib com indicação
+de obrigatoriedade na tabela cClassTrib do IBS e da CBS2 – “Estorno de Crédito”
+(ind_gEstornoCred).
+
+O valor de IBS informado neste grupo gerará um lançamento a débito na apuração, para
+estorno de créditos apropriados, realizado em decorrência de determinação legal,
+viabilizando uma das hipóteses de ajuste de apuração previstas no art. 45, §2º, da Lei
+Complementar nº214/2025.
+
+1.10 - Grupo Crédito Presumido da Operação
+
+O grupo Crédito Presumido da Operação deve ser preenchido pelo emitente do
+documento fiscal somente nos casos em que pertence a ele o direito de apropriação deste
+crédito e observando as regras de autorização descritas nas respectivas notas técnicas.
+
+O crédito presumido de IBS apropriado a partir do valor informado no campo vCredPres
+de notas fiscais de emissão própria, será utilizado pelo sistema de apuração assistida para
+compensação de débitos, obedecendo à ordem descrita no art. 53 da Lei Complementar
+nº214/2025, exceto nas hipóteses em que o código do respectivo crédito presumido
+indicar na tabela cCredPres3 a dedução na própria nota fiscal.
+
+1.11 - Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e
+
+O referenciamento de item de outro documento fiscal será necessário nas hipóteses em
+que a tributação do item deve ser a mesma do item referenciado, como no caso das notas
+fiscais de devolução, por exemplo.
+
+Na apuração assistida, em relação às operações objeto de devolução em que não tenha
+havido apropriação de crédito pelo adquirente, o valor do crédito a ser apropriado pelo
+fornecedor em decorrência da devolução será limitado ao valor total de IBS destacado na
+nota fiscal referenciada.
+
+
+
+1
+ https://dfe-portal.svrs.rs.gov.br/CFF/ClassificacaoTributaria
+2
+ https://dfe-portal.svrs.rs.gov.br/CFF/ClassificacaoTributaria
+3
+ https://dfe-portal.svrs.rs.gov.br/CFF/TabelaCreditoPresumido
+
+
+
+ Página 14
+
+[pagina 15]
+2 - Notas Fiscais de Débito
+
+As notas fiscais de débito têm por finalidade registrar acréscimos no valor devido de IBS
+na apuração do emitente, em decorrência de ajustes ou eventos que modifiquem o débito
+originalmente apurado.
+
+Quando aplicável, o valor de IBS informado também gera crédito correspondente para o
+contribuinte indicado como destinatário do documento, conforme as regras legais e
+operacionais vigentes.
+
+Nos itens a seguir, são detalhadas as espécies de notas fiscais de débito atualmente
+previstas, com a descrição dos cenários de uso e efeitos na apuração assistida do IBS.
+
+2.1 - Transferência de créditos para Cooperativas
+
+A nota fiscal de débito do tipo “Transferência de Créditos para Cooperativas” deve ser
+emitida pelo associado sujeito ao regime regular de apuração do IBS, com a finalidade de
+transferir à respectiva cooperativa — quando esta for optante pelo regime específico
+previsto no art. 271 da Lei Complementar nº 214/2025 — os créditos decorrentes de
+aquisições de bens e serviços fornecidos com redução de 100% da alíquota, nos termos
+do art. 271, inciso I, da referida lei.
+
+O valor do IBS informado no campo <vIBS> será lançado a débito na apuração do emitente
+e a crédito na apuração da cooperativa destinatária, observadas as condições legais e
+técnicas estabelecidas para a operação.
+
+O valor a ser transferido fica limitado ao montante de créditos efetivamente apropriados
+e não utilizados pelo cooperado no período de apuração. Caso o valor destacado na nota
+fiscal exceda o limite de créditos disponíveis, o valor excedente não produzirá efeitos na
+apuração assistida, sendo desconsiderado pelo sistema do Comitê Gestor do IBS.
+
+
+
+
+2.2 - Anulação de Crédito por Saídas Imunes/Isentas
+
+O art. 51 da Lei Complementar nº 214/2025 estabelece que devem ser anulados,
+proporcionalmente, os créditos vinculados a aquisições utilizadas em operações
+
+
+
+
+ Página 15
+
+[pagina 16]
+subsequentes imunes ou isentas, ressalvadas as hipóteses excepcionadas pelo próprio
+dispositivo legal.
+
+O sistema de apuração assistida do IBS apresentará, ao final de cada período de apuração,
+o valor sugerido de anulação, calculado a partir dos valores e códigos <cClassTrib>
+informados nas notas fiscais de fornecimento emitidas pelo contribuinte.
+
+A anulação efetiva dos créditos deverá ser formalizada mediante a emissão de nota fiscal
+de débito do tipo “02 – Anulação de Crédito por Saídas Imunes/Isentas”, observando-se
+o período de ajustes definido em regulamento e devendo ser informado na nota fiscal o
+grupo “Ajuste de Competência” de que trata o item 1.8 desta Cartilha.
+
+A emissão da referida nota é condição necessária para que o valor seja lançado como
+débito na apuração assistida, promovendo a regularização do saldo de créditos do
+contribuinte conforme previsto na legislação aplicável.
+
+
+
+
+2.3 - Débitos de notas fiscais não processadas da apuração
+
+Ao final de cada período de apuração, e após a disponibilização da prévia da apuração
+assistida pelo sistema do Comitê Gestor do IBS, caberá ao contribuinte verificar a
+integridade das informações processadas, assegurando que todos os documentos fiscais
+de fornecimento tenham sido devidamente reconhecidos pelo sistema.
+
+Caso sejam identificadas notas fiscais de fornecimento não processadas, o contribuinte
+enquadrado no regime regular de apuração deverá, durante o período de ajustes definido
+em regulamento, emitir uma nota fiscal de débito do tipo “03 – Débitos de Notas Fiscais
+Não Processadas na Apuração”, de forma a garantir que o saldo final do período reflita
+corretamente o total de débitos devidos.
+
+A emissão dessa nota fiscal deverá observar as seguintes orientações técnicas:
+
+
+
+ Página 16
+
+[pagina 17]
+● O emitente e o destinatário deverão ser o próprio contribuinte (mesmo CNPJ base);
+
+ ● Cada item da nota fiscal corresponderá a um documento fiscal não processado,
+ informando no campo <vIBS> o valor total do débito do documento faltante;
+
+ ● Em cada item, deverá ser referenciada a chave de acesso do documento fiscal não
+ processado, no grupo VC01 <DFeReferenciado>.
+
+A nota fiscal de débito do tipo 03 produzirá efeitos exclusivamente na apuração do
+fornecedor, não gerando créditos automáticos para os adquirentes, ainda que os valores
+correspondentes sejam extintos na apuração do emitente. Os créditos do adquirente
+somente poderão ser apropriados após o efetivo processamento das notas fiscais
+originais pelo sistema do Comitê Gestor do IBS, momento em que serão identificadas
+todas as informações fiscais e cadastrais necessárias ao correto tratamento das
+operações no sistema de apuração assistida.
+
+O sistema de apuração assistida garantirá o tratamento adequado aos débitos
+destacados, de modo a prevenir a existência de lançamentos em duplicidade e preservar
+a consistência dos saldos apurados.
+
+
+
+
+2.4 - Multa e Juros
+
+Nos termos do art. 12, § 1º, II, da Lei Complementar nº214/2025, a nota fiscal de débito do
+tipo “04 – Multa e Juros” deverá ser emitida pelo fornecedor sempre que houver
+recebimento de acréscimos moratórios relativos a pagamentos efetuados com atraso
+pelo adquirente, correspondentes a fornecimentos realizados, com o objetivo de
+complementar a base de cálculo do IBS. A nota fiscal de débito desse tipo deverá ser
+emitida no momento do recebimento desses valores, e os respectivos débitos de IBS
+serão incluídos no período de apuração do recebimento.
+
+
+
+ Página 17
+
+[pagina 18]
+Cada item da nota fiscal de débito deverá referenciar o item da nota fiscal original a que
+se relaciona o acréscimo moratório, aplicando-se a mesma classificação tributária
+<cClassTrib> e a mesma alíquota efetiva incidente sobre o fornecimento original.
+
+A extinção do débito decorrente da nota fiscal de débito de multa e juros, quando o
+adquirente for contribuinte do regime regular de apuração, gerará o correspondente
+crédito de IBS, observadas as regras aplicáveis.
+
+Na hipótese de inobservância da obrigatoriedade de emissão da nota fiscal de débito pelo
+fornecedor, o adquirente poderá regularizar a operação mediante a emissão de nota fiscal
+de crédito, conforme os procedimentos previstos no item 3.1 desta Cartilha.
+
+2.5 - Transferência de crédito na sucessão
+
+Nos termos do parágrafo único do art. 55 da Lei Complementar nº 214/2025, a empresa
+fundida, cindida ou incorporada que possua créditos de IBS apropriados e não utilizados
+poderá transferi-los à(s) empresa(s) sucessora(s), observadas as condições legais
+aplicáveis.
+
+A efetivação da transferência deverá ocorrer por meio da emissão, pela empresa
+sucedida, de nota fiscal de débito do tipo “05 – Transferência de Crédito de Sucessão”,
+informando no campo destinatário a empresa sucessora que receberá o crédito.
+
+Havendo mais de uma empresa sucessora, deverão ser emitidas notas fiscais distintas,
+uma para cada destinatária dos créditos transferidos.
+
+
+
+
+2.6 - Pagamento antecipado
+
+Quando o contribuinte receber pagamento antecipado relativo a fornecimento futuro,
+deverá emitir nota fiscal de débito do tipo “06 – Pagamento Antecipado”, para o destaque
+dos tributos devidos sobre o valor recebido, nos termos do art. 10, § 4º, inciso I, da Lei
+Complementar nº 214/2025.
+
+
+
+
+ Página 18
+
+[pagina 19]
+Deverá ser emitida uma nota fiscal de débito para cada recebimento antecipado, no
+momento do efetivo recebimento, aplicando-se a mesma classificação tributária e
+alíquota incidente sobre o bem ou serviço a ser fornecido.
+
+Os débitos de IBS correspondentes à antecipação serão registrados no período de
+apuração em que ocorrer o recebimento antecipado. Quando houver direito à apropriação
+de crédito pelo adquirente, este será reconhecido no momento da extinção do débito do
+fornecedor, observadas as mesmas regras aplicáveis às notas fiscais de fornecimento.
+
+
+
+
+Por ocasião do efetivo fornecimento do bem ou serviço, conforme disposto no art. 10, §
+4º, inciso II, da Lei Complementar nº 214/2025, o contribuinte deverá emitir a nota fiscal
+de fornecimento com o valor total da operação, referenciando as notas fiscais de débito
+de antecipação previamente emitidas, no Grupo de Notas Fiscais de Antecipação,
+conforme item 1.3 desta Cartilha.
+
+Ao processar a nota fiscal de fornecimento, o sistema de apuração assistida do IBS
+deduzirá, de forma automática, o valor do IBS já destacado nas notas fiscais de débito de
+antecipação emitidas anteriormente, desde que a nota fiscal de fornecimento contenha
+o referenciamento das chaves de acesso das notas de antecipação, evitando a
+duplicidade de lançamento de débitos na apuração do contribuinte emitente.
+
+2.7 - Perda em estoque
+
+Quando ocorrer perda de bens materiais em estoque, nos termos do art. 47, § 6º da Lei
+Complementar nº214/2025, os créditos de IBS apropriados relativos a esses bens, bem
+como os créditos vinculados a serviços a eles relacionados, deverão ser estornados da
+apuração mediante a emissão de nota fiscal de débito do tipo “07 – Perda em Estoque”,
+observadas as regras operacionais aplicáveis.
+
+
+
+
+ Página 19
+
+[pagina 20]
+Caso o bem perdido tenha sido adquirido de terceiros, deverá ser referenciado na nota
+fiscal de débito:
+
+ ● o documento fiscal referente à aquisição do bem;
+ ● o documento fiscal referente aos serviços vinculados à aquisição do bem.
+
+Observação: Os procedimentos descritos neste item não se aplicam às perdas ocorridas
+durante o transporte de bens, situações em que deverá ser observado o disposto nos
+itens 4.2 ou 4.3 desta Cartilha, conforme o caso.
+
+
+
+
+ Página 20
+
+[pagina 21]
+3 - Notas Fiscais de Crédito
+
+As notas fiscais de crédito têm por finalidade reduzir o débito de IBS na apuração do
+contribuinte emitente e, quando aplicável, gerar o correspondente lançamento a crédito
+na apuração do contribuinte destinatário.
+
+Nos itens a seguir, são apresentados os tipos de notas fiscais de crédito atualmente
+previstas, com a descrição das situações de uso e efeitos sobre a apuração assistida do
+IBS, conforme os dispositivos legais e operacionais aplicáveis.
+
+3.1 - Multa e juros
+
+Nos termos do art. 12, § 1º, II, da Lei Complementar nº214/2025, é obrigatória a emissão
+de nota fiscal de débito do tipo “04 – Multa e Juros” pelo fornecedor, sempre que houver
+o recebimento de acréscimos moratórios decorrentes de pagamentos efetuados com
+atraso pelo adquirente, nos termos descritos no item 2.4 desta Cartilha, com a finalidade
+de complementar a base de cálculo do IBS do respectivo fornecimento.
+
+Caso o fornecedor deixe de emitir a referida nota fiscal, o adquirente poderá suprir a
+omissão mediante a emissão de nota fiscal de crédito do tipo “01 – Multa e Juros”,
+devendo:
+
+ ● referenciar corretamente os itens da nota fiscal de aquisição original; e
+
+ ● aplicar sobre os valores dos acréscimos pagos, proporcionalizados por item objeto
+ de incidência dos acréscimos, a mesma tributação incidente sobre o fornecimento
+ original.
+
+A apropriação do crédito pelo adquirente emitente estará condicionada ao aceite do
+fornecedor, mediante emissão de evento específico, uma vez que gerará em sua apuração
+um débito de igual valor e, cumulativamente, à extinção desse débito pelo fornecedor.
+
+3.2 - Retorno por recusa da entrega ou por não localização do destinatário
+na tentativa de entrega
+
+Nos termos do art. 10 da Lei Complementar nº 214/2025, o fato gerador do IBS e da CBS
+ocorre no momento do fornecimento, caracterizado pelo art. 3º, II, “a”, como a entrega ou
+disponibilização do bem material. Assim, quando a entrega não se concretizar, em razão
+da recusa do destinatário ou de sua não localização, não se configura o fato gerador do
+IBS, e, portanto, o imposto não será devido.
+
+Entretanto, considerando que a legislação do ICMS adota o conceito de circulação da
+mercadoria como fato gerador, a nota fiscal original não poderá ser cancelada, uma vez
+que houve o efetivo transporte do bem.
+
+
+
+
+ Página 21
+
+[pagina 22]
+Para fins de desfazimento do débito de IBS, o contribuinte deverá emitir uma nota fiscal
+de crédito do tipo “03 – Retorno por Recusa na Entrega ou por Não Localização do
+Destinatário na Tentativa de Entrega”, informando a si próprio como emitente e
+destinatário no arquivo XML.
+
+Observação: encontram-se em andamento tratativas com o CONFAZ visando à
+harmonização dos procedimentos com o ICMS, de modo a possibilitar a emissão de uma
+única nota fiscal padronizada para representar o retorno da mercadoria não entregue.
+Enquanto não houver alteração na legislação do ICMS, o tratamento aplicável ao retorno,
+para fins deste imposto, deverá observar as normas específicas de cada unidade
+federada.
+
+3.3 - Redução de valores
+
+A nota fiscal de crédito do tipo “04 – Redução de Valores” deverá ser utilizada quando,
+não sendo mais possível o cancelamento do documento fiscal, for identificada a
+necessidade de redução do valor do IBS destacado, seja em razão de erro de destaque a
+maior, seja pela entrega parcial da quantidade consignada no documento fiscal original.
+
+
+
+
+Observação: estão em curso tratativas com o CONFAZ para a harmonização dos
+procedimentos com o ICMS, de modo a viabilizar a aplicação uniforme dessa solução
+também às correções de destaque do imposto estadual. Enquanto não houver alteração
+na legislação do ICMS, os ajustes dessa natureza deverão observar as regras previstas na
+legislação específica de cada unidade federada.
+
+3.4 - Transferência de crédito na sucessão
+
+
+
+ Página 22
+
+[pagina 23]
+Nos termos do parágrafo único do art. 55 da Lei Complementar nº 214/2025, a empresa
+fundida, cindida ou incorporada que possua créditos de IBS apropriados e não utilizados
+poderá transferi-los à(s) empresa(s) sucessora(s), observadas as condições legais e
+operacionais aplicáveis.
+
+Preferencialmente, a transferência deverá ser formalizada mediante a emissão, pela
+empresa sucedida, de nota fiscal de débito do tipo “05 – Transferência de Crédito de
+Sucessão”, conforme descrito no item 2.5 desta Cartilha.
+
+Entretanto, caso o CNPJ da empresa sucedida se torne inapto para emissão de
+documentos fiscais eletrônicos antes da efetivação da transferência, esta poderá ser
+realizada mediante a emissão, pela(s) empresa(s) sucessora(s), de nota fiscal de crédito
+do tipo “05 – Transferência de Crédito na Sucessão”, nos termos deste item.
+
+Cada empresa sucessora deverá emitir uma nota fiscal de crédito, informando no campo
+destinatário a empresa sucedida e indicando o valor do IBS correspondente ao crédito a
+ser transferido, a ser apropriado como crédito pela emitente (sucessora).
+
+O valor total dos créditos a serem apropriados — somatório de todas as notas fiscais de
+crédito emitidas pelas sucessoras — ficará limitado ao montante de crédito acumulado e
+não utilizado na apuração da empresa sucedida.
+
+A nota fiscal de crédito emitida somente produzirá efeitos na apuração assistida do IBS
+tanto da empresa sucedida quanto da(s) sucessora(s) quando, cumulativamente:
+
+ ● todas as empresas sucessoras envolvidas (se houver mais de uma) tiverem
+ emitido o evento de manifestação favorável, conforme o disposto no item 4.9
+ desta Cartilha; e
+
+ ● tiver sido emitido o evento de manifestação favorável pelo fisco competente,
+ conforme o item 4.10 deste documento.
+
+
+
+
+ Página 23
+
+[pagina 24]
+Nota de Crédito emitida por empresa sucessora A
+
+Evento emitido pela Evento emitido pela Evento emitido
+sucessora B sucessora pelo fisco
+Manifestação sobre Manifestação sobre Manifestação do fisco
+Pedido de Transferência Pedido de Transferência sobre Pedido de
+de Crédito de Crédito Transferência de Crédito
+
+Nota de Crédito emitida por empresa sucessora B
+
+Evento emitido pela Evento emitido pela Evento emitido
+sucessora A sucessora C pelo fisco
+Manifestação sobre Manifestação sobre Manifestação do fisco
+Pedido de Transferência Pedido de Transferência sobre Pedido de
+de Crédito de Crédito Transferência de Crédito
+
+Nota de Crédito emitida por empresa sucessora C
+
+Evento emitido pela Evento emitido pela Evento emitido
+sucessora À sucessora B pelo fisco
+
+Manifestação sobre Manifestação sobre Manifestação do fisco
+Pedido de Transferência Pedido de Transferência sobre Pedido de
+de Crédito de Crédito Transferência de Crédito
+
+Crédito somente é apropriado na apuração das sucessoras, com o respectivo
+débito na apuração da sucedida, quando, cumulativamente, todos os eventos
+necessários estiverem autorizados, e até o limite do saldo credor existente
+
+[o]
+o
+Ke]
+
+E)
+
+(E)
+
+=
+
+a
+
+q
+
+un
+
+VU
+
+pu
+
+=!
+
+[=
+
+7)
+
+[o]
+Ke)
+
+[=]
+«q
+
+o
+
+É)
+
+pa
+
+=
+
+[<H
+
+q
+
+E)
+
+[—
+
+[=]
+no
+
+E-]
+7
+
+Q
+
+CGIBS
+
+Página 24
+
+[pagina 25]
+4 - Novos Eventos
+
+Os eventos relacionados nesta seção têm como finalidade registrar situações específicas
+que produzem efeitos diretos na apuração assistida do IBS, seja por complementar ou
+corrigir informações prestadas nos documentos fiscais eletrônicos.
+
+Nos itens a seguir, são apresentadas as hipóteses de utilização e efeitos na apuração
+assistida de cada um dos novos eventos implementados em razão da reforma tributária.
+
+4.1 - Evento: Destinação de item para consumo pessoal
+
+Este evento deve ser utilizado pelo adquirente enquadrado no regime regular de apuração
+para efetuar o estorno, no sistema de apuração assistida do IBS, de créditos já
+apropriados ou passíveis de apropriação, quando as aquisições forem destinadas ao
+consumo pessoal, nos termos do art. 57, § 5º, da Lei Complementar nº 214/2025.
+
+O evento deve ser gerado para o documento fiscal correspondente à aquisição e conter:
+
+ ● a identificação do item destinado ao consumo pessoal; e
+ ● o valor do IBS a ser estornado, calculado de forma proporcional à parcela
+ efetivamente consumida.
+
+4.2 - Evento: Perecimento, perda, roubo ou furto durante o transporte
+contratado pelo adquirente
+
+Nos termos do art. 12, § 1º, II, da Lei Complementar nº214/2025, este evento deve ser
+utilizado pelo adquirente para estorno do crédito relativo a bens móveis materiais que,
+durante o transporte realizado sob responsabilidade do adquirente ou destinatário
+(cláusula FOB), sejam objeto de perda, perecimento, roubo ou furto, integral ou parcial.
+
+Na modalidade de frete FOB, o bem foi efetivamente entregue pelo fornecedor,
+consolidando a ocorrência do fato gerador do IBS, razão porque a autorização do evento
+pelo adquirente não gera qualquer efeito na apuração assistida do fornecedor.
+
+O valor do IBS a ser informado no campo <vIBS> do evento deve ser proporcional à
+quantidade que tenha sido objeto da perda, perecimento, roubo ou furto.
+
+O evento é exclusivo para bens materiais em trânsito na modalidade FOB e não deve ser
+utilizado para estorno de crédito relativo à perda, perecimento, roubo ou furto de bens
+móveis materiais constantes em estoque, hipótese em que se aplica o disposto no item
+2.7 desta Cartilha.
+
+
+
+
+ Página 25
+
+[pagina 26]
+4.3 - Evento: Perecimento, perda, roubo ou furto durante o transporte
+contratado pelo fornecedor
+
+Nos termos do art. 12, § 1º, II, da Lei Complementar nº214/2025, este evento deve ser
+utilizado pelo fornecedor (emitente da NF-e) para realizar o estorno do débito de IBS
+destacado em documento fiscal de fornecimento relativo a bens móveis materiais que,
+durante o transporte realizado sob responsabilidade do próprio fornecedor (cláusula CIF),
+venham a ser objeto de perda, perecimento, roubo ou furto, total ou parcialmente, antes
+da efetiva entrega ao destinatário.
+
+Na modalidade de frete CIF, o fato gerador do IBS não se consolida até a entrega efetiva
+ao adquirente. Assim, a ocorrência de perda, perecimento, roubo ou furto durante o
+transporte deve ser informada pelo fornecedor por meio deste evento, com a finalidade
+de desfazer o débito anteriormente destacado na nota fiscal de fornecimento.
+
+O valor do IBS a ser creditado deverá ser proporcional à quantidade de bens afetados,
+conforme registrado no grupo “Informações por item da Nota de Fornecimento” do leiaute
+do evento.
+
+No grupo “Informações por item da NF-e da Nota de Aquisição” deve ser informado o IBS
+apropriado como crédito pelo fornecedor, relativo à entrada anterior do bem ou dos
+insumos utilizados na produção do bem que tenha sido objeto de perda, perecimento,
+roubo ou furto durante o transporte. O valor do IBS a ser informado no respectivo campo
+<vIBS> deve ser proporcional à quantidade que tenha sido objeto da perda, perecimento,
+roubo ou furto.
+
+O evento é exclusivo para bens materiais em trânsito na modalidade CIF e não deve ser
+utilizado para estorno de crédito relativo à perda, perecimento, roubo ou furto de bens
+móveis materiais constantes em estoque, hipótese em que se aplica o disposto no item
+2.7 deste documento.
+
+4.4 - Evento: Não ocorrência de fornecimento com pagamento antecipado
+
+Este evento deve ser utilizado pelo fornecedor nas hipóteses de desfazimento total ou
+parcial de negócios em que tenha havido recebimento de pagamento antecipado e a
+consequente emissão da nota fiscal de débito do tipo 06 – “Pagamento Antecipado”,
+conforme previsto no item 2.6 desta Cartilha.
+
+O evento deverá ser emitido em relação à nota de antecipação cujo valor antecipado foi
+objeto de distrato, devendo ser informado no campo vIBS o valor do IBS proporcional ao
+efetivamente devolvido ao cliente.
+
+O evento só deve ser utilizado quando for possível afirmar que não haverá mais nenhum
+fornecimento, em decorrência do pagamento que foi objeto da nota de antecipação.
+
+
+
+
+ Página 26
+
+[pagina 27]
+4.5 - Evento: Aceite de débito na apuração por emissão de nota de crédito
+
+Este evento será exigido como condição para apropriação de crédito pelo fornecedor, nas
+hipóteses em que essa apropriação exigir uma contrapartida de igual valor, como débito,
+na apuração do adquirente (quando este tiver apropriado crédito na operação original).
+
+Exemplo de hipótese de uso do evento: nota fiscal de crédito do tipo 04=Redução de
+valores (item 3.3 deste documento).
+
+Observação: o evento não será exigido quando houver desfazimento de operações antes
+do fornecimento, ou seja, antes do efetivo recebimento, pelo destinatário, do item
+fornecido.
+
+4.6 - Evento: Imobilização de Item
+
+O contribuinte deverá emitir este evento quando o bem adquirido for integrado ao ativo
+imobilizado, permitindo que o sistema do CG-IBS identifique as hipóteses de aplicação ao
+respectivo crédito apropriado nessa aquisição, quando for o caso, do prazo para análise
+de pedidos de ressarcimento definido no art. 40, I, da Lei Complementar nº214/2025.
+
+Na ausência da geração do evento, quando o crédito das aquisições for incluído em pedido
+de ressarcimento, o prazo de análise será determinado somente com base nos demais
+dispositivos dos artigos 39 e 40 da Lei Complementar nº214/2025.
+
+4.7 - Evento: Solicitação de Apropriação de Crédito de Combustível
+
+O art. 180 da Lei Complementar nº214/2025 veda o direito à apropriação de créditos em
+relação às aquisições de combustíveis sujeitos à incidência única do IBS e da CBS, quando
+destinados à distribuição, à comercialização ou à revenda. Por essa razão, o tratamento
+padrão do sistema de apuração assistida na emissão de notas fiscais de fornecimento de
+combustíveis para contribuintes do regime regular pertencentes à cadeia de produção de
+distribuição desse tipo de bem, será não permitir a apropriação de crédito.
+
+No entanto, nos termos do disposto no § 1º do mesmo artigo, a parcela de combustível
+consumida por contribuintes do setor de combustíveis em sua operação poderá ter os
+respectivos créditos apropriados. Essa apropriação será realizada mediante a emissão do
+evento “Solicitação de Apropriação de Crédito de Combustível”, apontando para a
+respectiva nota fiscal de aquisição.
+
+Exemplo: Um posto de combustível, ao adquirir gasolina para revenda, não apropriará
+créditos referentes a essa aquisição. No entanto, em relação à parcela do produto
+consumida por sua frota de veículos utilizada para a operação da empresa, poderá ser
+efetivada a apropriação proporcional, mediante a emissão do evento.
+
+
+
+
+ Página 27
+
+[pagina 28]
+Observação: Para os contribuintes que não sejam do setor de combustíveis, haverá a
+apropriação automática dos créditos de aquisição, não devendo ser emitido o respectivo
+evento.
+
+
+
+
+4.8 - Evento: Solicitação de Apropriação de Crédito para bens e serviços
+que dependem de atividade do adquirente
+
+Nos termos do art. 57, I, da Lei Complementar nº214/2025, haverá uma lista taxativa de
+produtos para os quais o tratamento padrão será a não apropriação de crédito na
+apuração assistida do adquirente, ainda que do regime regular, exceto quando este for
+identificado como passível das exceções de que tratam os incisos I a III do § 3º do mesmo
+artigo.
+
+
+
+
+No entanto, quando, por qualquer razão, houver falha técnica no processo de
+identificação automática do direito ao crédito, o contribuinte poderá efetuar a
+apropriação do crédito relativo aos itens que se enquadrarem nas hipóteses de exceção
+de que tratam os incisos I a III do § 3º do art. 57 da Lei Complementar nº214/2025, através
+da emissão desse evento.
+
+
+
+
+ Página 28
+
+[pagina 29]
+4.9 - Evento: Manifestação sobre Pedido de Transferência de Crédito de IBS
+em Operações de Sucessão
+
+Nos termos do parágrafo único do art. 55, da Lei Complementar nº214/2025, a empresa
+que for fundida, cindida ou incorporada e que possuir créditos apropriados e não
+utilizados, poderá transferir esses créditos para a empresa sucessora.
+
+Quando a efetivação da transferência for realizada nos termos do item 3.4 deste
+documento e houver mais de uma empresa sucessora, será exigido, como condição para
+a apropriação do crédito de IBS na apuração assistida da sucedida, formalização da
+anuência das demais sucessoras quanto ao valor do crédito solicitado na nota fiscal de
+crédito do tipo 05=Transferência de crédito na sucessão. A anuência será formalizada
+através do evento “Manifestação sobre Pedido de Transferência de Crédito de IBS em
+Operações de Sucessão”, apontando para a respectiva nota fiscal de crédito.
+
+
+
+
+ Página 29
+
+[pagina 30]
+4.10 - Evento: Manifestação do Fisco sobre Pedido de Transferência de
+Crédito de IBS em Operações de Sucessão
+
+Nos termos do parágrafo único do art. 55, da Lei Complementar nº214/2025, a empresa
+que for fundida, cindida ou incorporada e que possuir créditos apropriados e não
+utilizados, poderá transferir esses créditos para a empresa sucessora.
+
+Quando a efetivação da transferência for realizada nos termos do item 3.4 deste
+documento, será exigido, como condição para a apropriação do crédito de IBS na
+apuração assistida da sucedida, o deferimento do pedido pela administração tributária. A
+anuência será formalizada através do evento “Manifestação do Fisco sobre Pedido de
+Transferência de Crédito de IBS em Operações de Sucessão”, apontando para a respectiva
+nota fiscal de crédito.
+
+
+
+
+ Página 30
+
+[pagina 31]
+4.11 - Evento: Importação em ALC/ZFM não convertida em isenção
+
+O art. 443 e o art. 461, da Lei Complementar nº214/2025, suspendem a incidência do IBS
+na importação de bem material realizada por indústria incentivada para utilização na Zona
+Franca de Manaus e nas Áreas de Livre Comércio, respectivamente. O § 3º de ambos os
+artigos define que os tributos suspensos deverão ser recolhidos caso os bens importados
+sejam remetidos para fora da ZFM ou da ALC antes da conversão em isenção.
+
+Nessa hipótese, o contribuinte da ZFM ou ALC deverá gerar o evento “Importação em
+ALC/ZFM não convertida em isenção” na respectiva nota fiscal de entrada do bem
+importado, e indicando o valor do IBS suspenso e não convertido em isenção.
+
+Esse valor gerará um débito na apuração assistida do emitente do evento que, quando
+extinto, gerará direito a crédito, quando for o caso.
+
+
+
+
+ Página 31
+
+[pagina 32]
+4.12 - Evento: Atualização da Data de Previsão de Entrega
+
+Na hipótese de não preenchimento do campo dPrevEntrega de que trata o item 1.1 desta
+Cartilha, ou da necessidade de correção da data informada na emissão da nota fiscal,
+deverá ser utilizado o evento “Atualização da Data de Previsão de Entrega”.
+
+O efeito desse evento na apuração assistida do IBS será a alteração da ordem cronológica
+do documento fiscal e, quando a nova data resultar em mudança do mês/ano indicado, o
+registro do débito desse documento fiscal também sofrerá alteração na competência de
+lançamento.
+
+
+
+
+ Página 32
+
+[pagina 33]
+Exemplos ilustrativos do uso dos novos campos, finalidades e
+eventos DF-e
+
+A seguir, são apresentados exemplos práticos e simulações de cenários hipotéticos que
+demonstram a aplicação integrada dos novos campos, finalidades de emissão e eventos
+dos DF-e, conforme as regras descritas nesta Cartilha. Os exemplos têm caráter
+orientativo e utilizam dados e alíquotas fictícias, visando exclusivamente auxiliar o
+contribuinte na compreensão e correta utilização das funcionalidades que impactam a
+apuração assistida do IBS.
+
+
+
+Cenário 1 – Correção de data de entrega e perda no transporte
+CIF
+
+Uma granja (contribuinte do regime regular IBS) vende 300 galinhas para um restaurante
+(contribuinte do regime regular do IBS) por R$ 1.800,00. No contrato de venda, a granja
+se responsabiliza pela entrega no restaurante (cláusula CIF) e cobra R$ 300,00 pelo frete.
+A venda ocorre em 15/03/2026 com entrega prevista para 30/03/2026. O caminhão saiu
+em 29/03/2026 e quebrou no caminho. A entrega atrasou e as galinhas chegaram apenas
+em 01/04/2026. Durante o trajeto, 15 galinhas morreram e não foram entregues ao
+restaurante. O imposto incidente no fornecimento das 300 galinhas corresponde a R$
+117,60. Adotar a alíquota de IBS para UF igual a 10% e de IBS para o município igual a 4%.
+
+Nota fiscal de fornecimento emitida em 29/03/2026
+
+ Data prevista de entrega: 30/03/2026
+ Valor unitário do produto, sem tributos: 6,00
+ Quantidade total: 300
+ Valor total dos produtos, sem tributos: 1.800,00
+ Valor do frete CIF: 300,00 (valor unitário: 1,00)
+ O produto foi classificado no art. 137 da LC 214/25 com redução
+ de alíquota de 60%.
+ Alíquota efetiva IBS UF: 10% x (1 - 60%) = 4%
+ Alíquota efetiva IBS Mun: 4% x (1 - 60%) = 1,6%
+ IBS UF: 2.100,00 x 4% = 84,00
+ IBS Mun: 2.100,00 x 1,6% = 33,60
+ Valor total dos produtos, com IBS: 2.217,60
+
+Preenchimento do XML4:
+<infNfe>
+ <ide>
+ <dhEmi>2026-03-29T08:00:00-03:00</dhEmi>
+ <dhSaiEnt>2026-03-29T08:00:00-03:00</dhSaiEnt>
+ <dPrevEntrega>2026-03-30</dPrevEntrega>
+ <tpNF>1</tpNF>
+ <finNFe>1</finNFe>
+ <emit>...</emit> <!-- granja-->
+
+
+4
+ Algumas tags obrigatórias pelo schema ou por regra de validação foram omitidas para facilitar a
+visualização do exemplo
+
+
+
+ Página 33
+
+[pagina 34]
+<dest>...</dest> <!-- restaurante-->
+ </ide>
+ <det nItem="1">
+ <prod>
+ <cProd>Gal01</cProd>
+ <xProd>galinhas</xProd>
+ <uCom>unidade</UCom>
+ <qCom>300</qCom>
+ <vProd>1800.00</vProd>
+ <vFrete>300.00</vFrete>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>200</CST>
+ <cClassTrib>200036</cClassTrib>
+ <gIBSCBS>
+ <vBC>2100.00</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <gRed>
+ <pRedAliq>60.00</pRedAliq>
+ <pAliqEfet>4.00</pAliqEfet>
+ </gRed>
+ <vIBSUF>84.00</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <gRed>
+ <pRedAliq>60.00</pRedAliq>
+ <pAliqEfet>1.60</pAliqEfet>
+ </gRed>
+ <vIBSMun>33.60</vIBSMun>
+ </gIBSMun>
+ <vIBS>117.60</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+ </det>
+</infNfe>
+
+
+Evento de correção da data de entrega
+
+
+ ● Atraso na entrega pela quebra do caminhão
+ ● Nova data de entrega: 01/04/2026
+ ● Evento alterando a data prevista de entrega a seguir
+ ● Evento emitido pela granja
+
+
+Preenchimento do XML:
+<dPrevEntrega>2026-04-01</dPrevEntrega>
+
+
+
+
+Correção do débito de IBS pelas perdas ocorridas durante o transporte (CIF)
+
+
+
+
+ Página 34
+
+[pagina 35]
+Perda de 15 galinhas no transporte CIF
+ Evento emitido em 01/04/2026. informando a perda no transporte
+ IBS estornado:
+ BC por unidade = ( 1800 (galinhas) + 300 (frete) )/300 = 7,00 por
+ galinha com frete
+ - Valor de IBS por unidade: 7 x (4% + 1,6%) = 0,392
+ - Valor de IBS total: 15 unidades perdidas * 0,392 = 5,88
+ Para emitir o evento, foi consultado o setor de contabilidade para
+ obter o valor do IBS correspondente aos insumos necessários para
+ criar as 15 galinhas. Foi informado o valor de 3,60. (Esperar
+ regulamento para ter a definição do cálculo do valor a ser
+ estornado)
+ Evento emitido pela granja
+
+Preenchimento do XML:
+<gPerecimento nItem="1">
+ <vIBS>5.88</vIBS>
+<!-- Valor do IBS na Nota de Fornecimento correspondente à quantidade que foi
+objeto de roubo, perda, furto ou perecimento.-->
+ <vCBS>...</vCBS>
+ <gControleEstoque>
+ <qPerecimento>15</qPerecimento>
+ <uPerecimento>unidades</uPerecimento>
+ <vIBS>3.60</vIBS>
+<!-- Valor do crédito IBS referente às aquisições a ser estornado correspondente à
+quantidade que foi objeto de roubo, perda, furto ou perecimento-->
+ <vCBS>...</vCBS>
+ </gControleEstoque>
+</gPerecimento>
+
+
+
+
+Cenário 2 – Perda do estoque e doação de itens produzidos
+
+Depois de receber as galinhas, no cenário anterior, o restaurante iniciou o preparo de
+vários potes de canja para congelar e vender pela internet. No processo, um funcionário
+descuidado deixou uma janela aberta e 20 galinhas fugiram. Contabilizaram as perdas no
+dia 03/04/2026. A esposa do dono do restaurante se comoveu com o trabalho voluntário
+da paróquia do bairro, alimentando pessoas em situação de rua, e o convenceu a doar
+para essa paróquia metade dos potes de canja em 15/05/2026. Foram produzidos 220
+potes de sopa com as galinhas.
+
+Perda de 20 unidades do estoque
+
+ Perda de 20 galinhas do estoque no dia 03/04/2026
+ Valor de cada galinha (1800/300 (galinhas) + 300/300 (frete) =
+ 6+1=7.
+ Valor de 20 galinhas = 20 x 7 = 140,00
+ IBS UF a ser estornado pelo restaurante
+ - Valor IBS UF por unidade: (6,00 + 1,00) x 4% (alíq reduzida) = 0,28
+ - Valor de IBS UF total: 20 galinhas * 0,28 = 5,60
+ IBS Mun a ser estornado pelo restaurante
+ - Valor de IBS Mun por unidade: (6,00 + 1,00) * 1,6% = 0,112
+ - Valor de IBS Mun total: 20 galinhas * 0,112 = 2,24
+ IBS total a ser estornado: 5,60 + 2,24 =7,84
+
+
+
+
+ Página 35
+
+[pagina 36]
+Preenchimento do XML:
+<infNfe>
+ <ide>
+ <dhEmi>2026-04-03T10:00:00-03:00</dhEmi>
+ <tpNF>1</tpNF>
+ <finNFe>6</finNFe> <!-- nota de debito-->
+ <tpNFDebito>7</tpNFDebito> <!-- perda em estoque -->
+ <emit>...</emit> <!-- restaurante-->
+ <dest>...</dest> <!-- restaurante-->
+ </ide>
+ <det nItem="1">
+ <prod>
+ <cProd>Gal01</cProd>
+ <xProd>galinhas</xProd>
+ <uCom>unidade</UCom>
+ <qCom>20</qCom>
+ <vProd>140.00</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>...</CST> <!-- em avaliação, vamos publicar na
+ próxima versão -–>
+ <cClassTrib>... será criado um cClassTrib específico para
+essa situação</cClassTrib>
+ <gEstornoCred>
+ <vIBSEstCred>7.84</vIBSEstCred>
+ <vCBSEstCred>...</vCBSEstCred>
+ <gEstornoCred>
+ </IBSCBS>
+ </imposto>
+ <DFeReferenciado>
+ <chaveAcesso>
+ chave da nota de fornecimento do cenário 1
+ </chaveAcesso>
+ <nItem>1</nItem>
+ </DFeReferenciado>
+ </det>
+</infNfe>
+
+
+
+Doação dos itens produzidos
+
+ Doação de metade das canjas em 15/05/2026
+ Opção pela saída sem incidência e estorno do crédito das
+ aquisições5
+ Total do crédito relativo aos itens utilizados na produção:
+ - Valor unitário do crédito: 0,392
+ - Itens do estoque: 265 (300 na nota – 15 não recebidas – 20
+ perdidas)
+ - Total do crédito: 0,392 x 265 = 103,88
+ Crédito estornado: 103,88 x 50% (metade das canjas doadas) =
+ 51,94
+
+5
+ No exemplo, vamos considerar que apenas o crédito das galinhas foi apropriado para a
+produção das canjas e que o estoque de itens foi integralmente utilizado na produção.
+
+
+
+ Página 36
+
+[pagina 37]
+Preenchimento do XML:
+<infNfe>
+ <ide>
+ <dhEmi>2026-05-15T15:00:00-03:00</dhEmi>
+ <tpNF>1</tpNF>
+ <finNFe>1</finNFe>
+ <emit>...</emit> <!-- granja-->
+ <dest>...</dest> <!-- paróquia responsável pela ação social -->
+ </ide>
+ <det nItem="1">
+
+ <prod>
+ <cProd>Sopa001</cProd>
+ <xProd>Sopa</xProd>
+ <uCom>unidade</UCom>
+ <qCom>110</qCom>
+ <vProd>...</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>410</CST>
+ <cClassTrib>410026</cClassTrib>
+ <indDoacao>1</indDoacao>
+ <gEstornoCred>
+ <vIBSEstCred>51.94</vIBSEstCred>
+ <vCBSEstCred>…</vCBSEstCred>
+ </gEstornoCred>
+ </IBSCBS>
+ </imposto>
+ <DFeReferenciado>
+ <chaveAcesso>
+chave da nota de fornecimento (aquisição do ponto de vista da granja) do cenário 1
+ </chaveAcesso>
+ <nItem>1</nItem>
+ </DFeReferenciado>
+ </det>
+</infNfe>
+
+
+
+
+Cenário 3 – Fornecimento para empregado abaixo do valor de
+mercado
+
+Uma loja de móveis compra 100 conjuntos de mesas com cadeiras. Cada conjunto é
+comprado por R$5.000,00 (valor sem os impostos) com alíquota de IBS UF = 10% e IBS
+Mun = 4%. A aquisição ocorreu em 05/09/2026. O gerente propõe aos funcionários uma
+gratificação por desempenho: aquele que vender mais conjuntos no mês, receberá um de
+forma não onerosa como gratificação. No mês de outubro, uma vendedora conseguiu
+atingir a meta e recebeu, sem ônus, um conjunto que lhe foi entregue no último dia do
+mês.
+
+Nota fiscal de aquisições dos conjuntos de mesas pela loja de móveis
+
+
+
+
+ Página 37
+
+[pagina 38]
+Data da extinção do débito pelo fornecedor: 05/09/2026
+ Valor unitário do produto, sem tributos: 5.000,00
+ Quantidade total: 100
+ Valor total dos produtos, sem tributos: 500.000,00
+ IBS UF: 500.000,00 x 10% = 50.000,00
+ IBS Mun: 500.000,00 x 4% = 20.000,00
+ Valor total da aquisição: 570.000,00
+ Valor total do crédito apropriado: 70.000,00
+
+<infNfe>
+ <ide>
+ <dhEmi>2026-09-05T08:00:00-03:00</dhEmi>
+ <tpNF>1</tpNF>
+ <finNFe>1</finNFe>
+ <emit>...</emit> <!-- fabrica de moveis-->
+ <dest>...</dest> <!-- loja de moveis-->
+ </ide>
+ <det nItem="1">
+ <prod>
+ <cProd>ConjSalaDeJantar01258</cProd>
+ <xProd>Conjunto Mesa central em cedro com 6 cadeiras</xProd>
+ <uCom>unidade</UCom>
+ <qCom>100</qCom>
+ <vProd>500000.00</vProd>
+ <indTot>1</indTot>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>500000.00</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>50000.00</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>20000.00</vIBSMun>
+ </gIBSMun>
+ <vIBS>70000.00</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+</det>
+</infNfe>
+
+
+Nota fiscal a empregado por valor abaixo do valor de mercado
+
+
+
+ Nota fiscal de fornecimento não oneroso para empregado (art. 57, II, “c”)
+ Nota emitida com a opção de estorno do crédito da aquisição.
+
+
+
+
+ Página 38
+
+[pagina 39]
+<infNfe>
+ <ide>
+ <dhEmi>2026-10-31T12:00:00-03:00</dhEmi>
+ <tpNF>1</tpNF>
+ <finNFe>1</finNFe>
+ <emit>...</emit> <!-- loja de moveis-->
+ <dest>...</dest> <!-- vendedora premiada-->
+ </ide>
+ <det nItem="1">
+ <prod>
+ <cProd>Mov1234</cProd>
+ <xProd>Conjunto de 6 cadeiras e mesa para sala de
+jantar</xProd>
+ <uCom>unidade</UCom>
+ <qCom>1</qCom>
+ <vProd>0.00</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>410</CST>
+ <cClassTrib>410999</cClassTrib>
+ </IBSCBS>
+ </imposto>
+ </det>
+</infNfe>
+
+
+ Premiação da vendedora
+ - Evento de uso e consumo pessoal para o estorno do crédito apropriado
+ emitido pela loja de móveis
+ - Deve ser emitido um evento na nota de aquisição da loja. Esse evento tem
+ uma tag específica que deve referenciar a nota emitida para a vendedora
+ <DFeReferenciado>
+
+<gConsumo nItem="1">
+ <vIBS>700</vIBS>
+ <vCBS>...</vCBS>
+ <gControleEstoque>
+ <qConsumo>1</qConsumo>
+ <uConsumo>unidade</uConsumo>
+ </gControleEstoque>
+ <DFeReferenciado>
+ <chaveAcesso>
+chave da nota de fornecimento para a vendedora que recebeu a gratificação
+ </chaveAcesso>
+ <nItem>1</nItem>
+ </DFeReferenciado>
+</gConsumo>
+
+
+
+
+Cenário 4 - Imobilização de item e apropriação de crédito de
+bebida alcóolica adquirida para revenda por contribuinte sem
+registro dessa atividade
+
+
+
+
+ Página 39
+
+[pagina 40]
+Um salão de barbearia precisa diversificar suas receitas e o proprietário resolve vender
+bebidas aos seus clientes. Para isso, compra um freezer onde disponibiliza cervejas
+geladas. O dono da empresa vai até um atacadista e compra em 30/09/2026:
+
+ ● 1 freezer pelo valor de 1.000,00 (impostos inclusos)
+ ● 100 latas de cerveja por R$5,00 cada (impostos inclusos)
+ ● 20 potes de xampu por R$ 50,00 cada (impostos inclusos)
+ ● 15 toalhas de rosto por R$ 20,00 cada (impostos inclusos)
+
+As alíquotas hipotéticas para esse exemplo são de 10% para IBS UF e 4% para IBS Mun.
+
+Por se tratar de uma empresa com CNAE não envolvido no comércio de bebidas alcoólicas,
+a empresa não recebe o crédito das latas de cerveja.
+
+Cálculo do IBS total para UF e Mun do freezer:
+
+BC IBS =
+IBS Total = 877,19 x 14% = 122,81
+IBS UF = 877,19 x 10% = 87,72
+IBS Mun = 877,19 * 4% = 35,09
+
+Cálculo do IBS total para UF e Mun das 100 latas de cerveja:
+BC IBS = (5,00 x 100) / (1+14%) = 438,60
+IBS total = 438,60 x 14% = 61,40
+IBS UF = 438,60 x 10% = 43,86
+IBS Mun = 438,60 x 4% = 17,54
+
+Cálculo do IBS total para UF e Mun de 20 potes de xampu:
+
+BC IBS =
+IBS total = 877,19 x 14% = 122,81
+IBS UF = 877,19 x 10% = 87,72
+IBS Mun = 877,19 * 4% = 35,09
+
+Cálculo do IBS total para UF e Mun de 15 tolhas de rosto:
+BC IBS = (20,00 x 15) / (1+14%) = 263,16
+IBS total = 263,16 x 14% = 36,84
+IBS UF = 263,16 x 10% = 26,31
+IBS Mun = 263,16 x 4% = 10,53
+
+Nota fiscal de fornecimento dos itens adquiridos pela barbearia:
+
+Preenchimento do XML:
+<infNfe>
+ <ide>
+ <dhEmi>2026-09-30T18:00:00-03:00</dhEmi>
+ <tpNF>1</tpNF>
+ <finNFe>1</finNFe>
+
+
+
+
+ Página 40
+
+[pagina 41]
+<emit>...</emit> <!-- atacadista→
+ <dest>...</dest> <!-- salão de barbearia→
+</ide>
+<det nItem="1">
+ <prod>
+ <cProd>FreezerXYZ</cProd>
+ <xProd>Freezer Vertical com porta de vidro FilBrazLux</xProd>
+ <uCom>unidade</UCom>
+ <qCom>1</qCom>
+ <vProd>877.19</vProd>
+ <indTot>1</indTot>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>877.19</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>87.72</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>35.09</vIBSMun>
+ </gIBSMun>
+ <vIBS>122.81</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+</det>
+<det nItem="2">
+ <prod>
+ <cProd>cerv1089</cProd>
+ <xProd>Lata de cerveja Gela Guela</xProd>
+ <uCom>lata 300ml</UCom>
+ <qCom>1</qCom>
+ <vProd>438.60</vProd>
+ <indTot>1</indTot>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>438.60</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>43.86</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>17.54</vIBSMun>
+ </gIBSMun>
+ <vIBS>61.40</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+
+
+
+
+ Página 41
+
+[pagina 42]
+</imposto>
+</det>
+<det nItem="3">
+ <prod>
+ <cProd>xamp5467</cProd>
+ <xProd>Shampoo mentolado</xProd>
+ <uCom>Pote1L</UCom>
+ <qCom>1</qCom>
+ <vProd>877.19</vProd>
+ <indTot>1</indTot>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>877.19</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>87.72</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>35.09</vIBSMun>
+ </gIBSMun>
+ <vIBS>122.80</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+</det>
+<det nItem="4">
+ <prod>
+ <cProd>toalha001</cProd>
+ <xProd>Toalha Felpuda de rosto</xProd>
+ <uCom>unid</UCom>
+ <qCom>15</qCom>
+ <vProd>263.16</vProd>
+ <indTot>1</indTot>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>263.16</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>26.31</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>10.53</vIBSMun>
+ </gIBSMun>
+ <vIBS>36.84</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+
+
+
+
+ Página 42
+
+[pagina 43]
+</det>
+</infNfe>
+
+
+Evento de imobilização do freezer:
+
+ ● emitido pelo salão de barbearia
+
+Preenchimento do XML:
+<gImobilizacao nItem="1">
+ <vIBS>122.80</vIBS>
+ <vCBS>...</vCBS>
+ <gControleEstoque>
+ <qImobilizado>1</qImobilizado>
+ <uImobilizado>unidade</uImobilizado>
+ </gControleEstoque>
+</gImobilizacao>
+
+O evento de imobilização do freezer não implica pedido de ressarcimento dos créditos
+associados à aquisição do freezer. A sua emissão marca no sistema que esses créditos,
+em um futuro pedido de ressarcimento, terão seus prazos atendidos de acordo com a LC
+214/25.
+
+Evento para apropriação de crédito da cerveja:
+
+ ● emitido pelo salão de barbearia
+
+Preenchimento do XML:
+
+<gCredito nItem="2">
+ <vCredIBS>61.40</vCredIBS>
+ <vCredCBS>...</vCredCBS>
+</gCredito>
+
+
+
+
+Cenário 5 – Pagamento antecipado com distrato parcial,
+correção de destaque a maior e retorno de item recusado
+
+Uma consumidora faz uma compra em 20/06/2026, através de uma loja na internet, de
+um par de calçados vermelho e uma mochila. O valor da compra foi de:
+
+ ● Sapato: 1.000,00
+ ● Mochila por 1.500,00
+
+Os valores estão com impostos inclusos, com alíquotas de 10% de IBS UF e 4% de IBS Mun.
+A loja exigiu o pagamento antes da emissão da nota. O pagamento foi feito através de
+boleto em 25/06/2026. Em 02/07/2026, um funcionário da loja entra em contato
+avisando que o estoque de mochilas, no modelo escolhido, acabou. O consumidor opta
+pelo estorno do valor pago pela mochila e a nota fiscal foi emitida em 03/07/2026. O
+motoboy entrega dois pacotes em 04/07/2026. O consumidor percebe que enviaram o
+
+
+
+ Página 43
+
+[pagina 44]
+calçado e um cinto que não fazia parte da compra. Ele recusa o recebimento do cinto. Na
+nota fiscal constam o calçado, pelo dobro do valor pago, e o cinto. Ele liga para o
+atendimento ao consumidor da loja e avisa que o valor do calçado aparece 2 vezes maior
+na nota fiscal e fica tranquilo porque o valor cobrado no boleto estava correto. Depois que
+experimenta o par que recebeu em casa, fica em dúvida se a cor do sapato combina com
+sua personalidade e, finalmente, em 05/07/2026, manda mensagem para o vendedor
+dizendo que se arrependeu e que prefere devolver a compra.
+
+Cálculo do IBS total para UF e Mun do calçado:
+
+BC IBS =
+IBS total = 877,19 x 14% = 122,81
+IBS UF = 877,19 x 10% = 87,72
+IBS Mun = 877,19 * 4% = 35,09
+
+Cálculo do IBS total para UF e Mun da mochila:
+
+BC IBS =
+IBS total = 1315,79
+IBS UF = 1315,79
+IBS Mun = 1315,79
+
+Nota fiscal de débito do tipo 06 – Pagamento Antecipado:
+
+
+
+ Nota de antecipação
+ Data do recebimento do pagamento antecipado: 25/06/2026
+
+
+
+Preenchimento do XML:
+<infNfe>
+ <ide>
+ <dhEmi>2026-06-25T12:00:00-03:00</dhEmi>
+ <tpNF>1</tpNF>
+ <finNFe>6</finNFe> <!-- nota de débito-->
+ <tpNFDebito>6</tpNFDebito> <!-- nota de antecipação de pagamento-->
+ <emit>...</emit> <!-- loja que vende pela internet-->
+ <dest>...</dest> <!-- consumidora pela internet-->
+ </ide>
+ <det nItem="1">
+ <prod>
+ <cProd>calcado123</cProd>
+ <xProd>Sapato de salto alto vermelho modelo Madri</xProd>
+ <uCom>cx</UCom>
+ <qCom>1</qCom>
+ <vProd>877.19</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+
+
+
+
+ Página 44
+
+[pagina 45]
+<vBC>877.19</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>87.71</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>35.09</vIBSMun>
+ </gIBSMun>
+ <vIBS>122.80</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+ </det>
+ <det nItem="2">
+ <prod>
+ <cProd>mochila123</cProd>
+ <xProd>Mochila carrega tudo</xProd>
+ <uCom>unid</UCom>
+ <qCom>1</qCom>
+ <vProd>1315.79</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>1315.79</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>131.58</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>52.63</vIBSMun>
+ </gIBSMun>
+ <vIBS>184.21</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+ </det>
+</infNfe>
+
+
+
+Evento de fornecimento não realizado
+
+
+ ● Loja devolve ao cliente o valor pago pela mochila
+ ● Em 02/07/2026, loja emite o evento de Fornecimento não realizado
+ com pagamento antecipado
+
+
+
+Preenchimento do XML:
+<gItemNaoFornecido nItem="2">
+ <vIBS>184.21</vIBS>
+ <vCBS>...</vCBS>
+ <gControleEstoque>
+ <qNaoFornecida>1</qPerecimento>
+ <uNaoFornecida>unid</uNaoFornecida>
+
+
+
+
+ Página 45
+
+[pagina 46]
+</gControleEstoque>
+</gItemNaoFornecido>
+
+
+Nota fiscal de fornecimento do item constante em estoque
+
+ ● Nota fiscal de fornecimento com referência à nota fiscal de
+ antecipação
+ ● Valor do calçado preenchido, por erro, pelo dobro do valor
+ cobrado
+ ● Inclusão indevida de um cinto
+
+Preenchimento do XML:
+<infNfe>
+ <ide>
+ <dhEmi>2026-07-03T12:00:00-03:00</dhEmi>
+ <tpNF>1</tpNF>
+ <finNFe>1</finNFe> <!-- nota normal-->
+ <gPagAntecipado>
+ <refNFe>
+ chave da nota de antecipação emitida em 25/06/26
+ </refNFe>
+ </gPagAntecipado>
+ <emit>...</emit> <!-- loja que vende pela internet-->
+ <dest>...</dest> <!-- consumidora pela internet-->
+ </ide>
+ <det nItem="1"> <!—- item com os valores 2 vezes maior-->
+ <prod>
+ <cProd>sapVerm</cProd>
+ <xProd>Sapato de salto alto vermelho modelo Madri</xProd>
+ <uCom>cx</UCom>
+ <qCom>1</qCom> <!—-quantidade com o valor correto -->
+ <vProd>1754.38</vProd> <!-- 877,19 * 2 vProd com valor dobrado
+ por erro do emitente-->
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>1754.38</vBC> <!-- 877,19 * 2 -->
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>175.42</vIBSUF> <!-- 87,71 * 2 -->
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>70.18</vIBSMun> <!-- 35,09 * 2 -->
+ </gIBSMun>
+ <vIBS>245.60</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+ </det>
+ <det nItem="2">
+ <prod>
+ <cProd>cinto123</cProd>
+ <xProd>cinto marrom café 120cm</xProd>
+ <uCom>unid</UCom>
+ <qCom>1</qCom>
+
+
+
+
+ Página 46
+
+[pagina 47]
+<vProd>438.60</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>438.60</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>43.86</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>17.54</vIBSMun>
+ </gIBSMun>
+ <vIBS>61.40</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+ </det>
+</infNfe>
+
+
+Nota fiscal de retorno do item recusado pelo cliente
+
+Preenchimento do XML:
+<infNfe>
+ <ide>
+ <dhEmi>2026-07-04T12:00:00-03:00</dhEmi>
+ <tpNF>0</tpNF>
+ <finNFe>5</finNFe> <!-- nota de credito -->
+ <tpNFCredito>3</tpNFCredito>
+<!-- Retorno por recusa na entrega ou por não localização do destinatário na
+tentativa de entrega-->
+ <emit>...</emit> <!-- loja que vende pela internet-->
+ <dest>...</dest> <!-- consumidora pela internet-->
+ </ide>
+ <det nItem="1">
+ <prod>
+ <cProd>cinto123</cProd>
+ <xProd>cinto marrom café 120cm</xProd>
+ <uCom>unid</UCom>
+ <qCom>1</qCom>
+ <vProd>438.60</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>438.60</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>43.86</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>17.54</vIBSMun>
+ </gIBSMun>
+ <vIBS>61.40</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+
+
+
+ Página 47
+
+[pagina 48]
+</IBSCBS>
+ </imposto>
+ <DFeReferenciado>
+ <chaveAcesso>
+ chave da nota de fornecimento emitida pela loja com o calçado e
+ o cinto
+ </chaveAcesso>
+ <nItem>2</nItem>
+ </DFeReferenciado>
+ </det>
+</infNfe>
+
+
+Nota fiscal de redução de valores:
+
+Preenchimento do XML:
+
+<infNfe>
+ <ide>
+ <dhEmi>2026-07-04T12:00:00-03:00</dhEmi>
+ <tpNF>0</tpNF>
+ <finNFe>5</finNFe> <!-- nota de crédito -->
+ <tpNFCredito>4</tpNFCredito> <!-- Redução de valores-->
+ <emit>...</emit> <!-- loja que vende pela internet-->
+ <dest>...</dest> <!-- consumidora pela internet-->
+ </ide>
+ <det nItem="1">
+ <prod>
+ <cProd>sapVerm</cProd>
+ <xProd>Sapato de salto alto vermelho modelo Madri</xProd>
+ <uCom>cx</UCom>
+ <qCom>0</qCom> <!-- semelhante à nota complementar, preenche
+ apenas o que será reduzido da nota original-->
+ <vProd>877.19</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>877.19</vBC>
+ <gIBSUF>
+ <pIBSUF>0.00</pIBSUF><!-- será necessário
+criar exceção para tpNFCred = 4. Não aparece na NT ainda -–>
+
+ <vIBSUF>87.71</vIBSUF>
+<!-- apenas os campos que terão o valor reduzido são preenchidos com valores
+maiores que zero. Igual à nota complementar-->
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>0.00</pIBSMun> <!-- será necessário
+criar exceção para tpNFCred = 4. Não aparece na NT ainda -–>
+ <vIBSMun>35.09</vIBSMun>
+ </gIBSMun>
+ <vIBS>122.80</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+ </det>
+</infNfe>
+
+
+
+
+ Página 48
+
+[pagina 49]
+Nota fiscal de devolução:
+
+
+
+ ● Nota fiscal de devolução dos sapatos
+ ● Emitida pela loja que vendeu os sapatos na internet
+
+
+
+
+A nota de redução de valores diminuiu o valor do IBS do par de sapatos que estava dobrado.
+Depois que a consumidora devolveu os sapatos, uma nota de devolução deve ser emitida, tanto com os
+valores de IBS e CBS, como de ICMS.
+
+Preenchimento do XML:
+<infNfe>
+ <ide>
+ <dhEmi>2026-07-05T12:00:00-03:00</dhEmi>
+ <tpNF>0</tpNF>
+ <finNFe>4</finNFe> <!-- devolução -->
+ <emit>...</emit> <!-- loja que vende pela internet-->
+ <dest>...</dest> <!-- consumidora pela internet-->
+ </ide>
+ <det nItem="1">
+ <prod>
+ <cProd>sapVerm</cProd>
+ <xProd>Sapato de salto alto vermelho modelo Madri</xProd>
+ <uCom>cx</UCom>
+ <qCom>1</qCom>
+ <vProd>877.19</vProd>
+ </prod>
+ <imposto>
+ <IBSCBS>
+ <CST>000</CST>
+ <cClassTrib>000001</cClassTrib>
+ <gIBSCBS>
+ <vBC>877.19</vBC>
+ <gIBSUF>
+ <pIBSUF>10.00</pIBSUF>
+ <vIBSUF>87.71</vIBSUF>
+ </gIBSUF>
+ <gIBSMun>
+ <pIBSMun>4.00</pIBSMun>
+ <vIBSMun>35.09</vIBSMun>
+ </gIBSMun>
+ <vIBS>122.80</vIBS>
+ <gCBS>...</gCBS>
+ </gIBSCBS>
+ </IBSCBS>
+ </imposto>
+ <DFeReferenciado>
+ <chaveAcesso>
+ chave da nota de fornecimento
+ </chaveAcesso>
+ <nItem>1</nItem>
+ </DFeReferenciado>
+ </det>
+</infNfe>
+
+
+
+
+ Página 49
+
+[pagina 50]
+Cenário 6 - Recebimento antecipado sem definição de itens a
+serem fornecidos
+
+Uma loja que trabalha no formato de franquia recebe a mensagem de seu franqueador
+que deve antecipar o valor de R$250.000,00 para garantir a remessa de um novo estoque
+com a coleção de verão em outubro de 2026, com data prevista de entrega em novembro
+do mesmo ano. A antecipação é uma cláusula contratual e não define as peças de roupas
+que serão fornecidas.
+
+Se não houver como identificar o produto que será entregue, a nota de antecipação não
+deve ser emitida.
+
+
+
+
+ Página 50
+
+[pagina 51]
+COMITÊ GESTOR DO IMPOSTO
+SOBRE BENS E SERVIÇOS
+
+=ú CGIBS

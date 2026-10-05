@@ -1,0 +1,234 @@
+Info
+
+Finanças, Impostos e Gestão Pública
+
+Outros Serviços
+
+>
+
+Consultas e Sistemas
+
+Consultar Nota Fiscal de Serviço Eletrônica
+ (NFS-e)
+
+Iniciar
+
+Avaliação:
+
+Avaliação não implementada
+
+Avaliação
+O número antes das estrelas é a nota dada pelos usuários que utilizaram o serviço e vai de 1 a 5.
+Depois das estrelas, entre parênteses, é a quantidade de usuários que avaliaram o serviço.
+Os números são atualizados diariamente.
+
+Iniciar
+
+Imprimir
+
+Compartilhe: 
+
+Compartilhe no Whatsapp
+
+Compartilhe no Facebook
+
+Compartilhe no Twitter
+
+Compartilhe no Linkedin
+
+Compartilhar essa página
+
+Última Modificação: 23/07/2026
+
+O que é?
+
+Consulte todas as notas fiscais emitidas e recebidas, recupere e visualize os documentos fiscais.
+
+Cidadãos e empresas podem realizar a "Consulta Pública" para verificar a autenticidade de um documento.
+
+Para Municípios e empresas com alto volume, a consulta também é disponibilizada, permitindo a integração direta com sistemas de gestão e fiscalização.
+
+Quem pode utilizar este serviço?
+
+Cidadãos e Empresas (Tomadores e Prestadores).
+
+Municípios (via Painel Administrativo ou API de Distribuição).
+
+Terceiros interessados (via Consulta Pública com Chave de Acesso).
+
+Requisitos: 
+
+Possuir a Chave de Acesso da NFS-e ou dados da DPS.
+
+Etapas para a realização deste serviço
+
+Consultar Nota Fiscal de Serviço Eletrônica (NFS-e)
+
+1. Acesse o Portal da NFS-e.
+
+2. Para autenticidade: Selecione "Consulta Pública" e digite a Chave de Acesso.
+
+3. O sistema exibirá o Documento Auxiliar (DANFSe) para visualização ou download.
+
+Canais de prestação
+
+ 
+ Web
+ : 
+
+Portal de Serviços do Contribuinte
+
+ 
+ Web
+ : 
+
+Integração via API (API de Distribuição do ADN para softwares contábeis e Prefeituras)
+
+ 
+ Aplicativo móvel
+ : 
+
+App NFS-e (Consulta de notas tomadas por PF)
+
+Tempo de duração da etapa
+
+Atendimento imediato
+
+Outras Informações
+
+Quanto tempo leva?
+
+Atendimento imediato
+
+Informações adicionais ao tempo estimado
+
+Este serviço é gratuito para o cidadão.
+
+Para mais informações ou dúvidas sobre este serviço, entre em contato
+
+Mais informações sobre a NFS-e
+
+Este é um serviço do(a) 
+ Secretaria Especial da Receita Federal do Brasil
+ . Em caso de dúvidas, reclamações ou sugestões favor contactá-lo.
+
+Legislação
+
+Lei Complementar 214/2025
+
+Tratamento a ser dispensado ao usuário no atendimento
+
+O usuário deverá receber, conforme os princípios expressos na Lei nº 13.460/2017, um atendimento pautado nas seguintes diretrizes:
+
+Urbanidade;
+
+Respeito;
+
+Acessibilidade;
+
+Cortesia;
+
+Presunção da boa-fé do usuário;
+
+Igualdade;
+
+Eficiência;
+
+Segurança; e
+
+Ética
+
+Informações sobre as condições de acessibilidade, sinalização, limpeza e conforto dos locais de atendimento
+
+O usuário do serviço público, conforme estabelecido pela Lei nº13.460/2017, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento.
+
+Informação sobre quem tem direito a tratamento prioritário
+
+Têm direito a atendimento prioritário as pessoas com deficiência, pessoas com transtorno do espectro autista, os idosos com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo, os obesos, pessoas com mobilidade reduzida e doadores de sangue, conforme estabelecido pela Lei nº 10.048/2000.
+
+Lei Geral de Proteção de Dados Pessoais - LGPD
+
+Dados pessoais tratados por este Serviço
+
+Nome
+
+CPF
+
+Endereço
+
+E-mail
+
+Telefone
+
+Valores de transação financeira
+
+Dados pessoais sensíveis tratados por este Serviço de acordo com a Lei 13709/2018, art. 5º, II
+
+Não é realizado tratamento de dados pessoais sensíveis.
+
+Este serviço não trata dados pessoais de crianças ou adolescentes.
+
+Prazo de retenção para dados pessoais
+
+Dados pessoais mantidos armazenados durante a existência da política pública.
+
+Hipótese de tratamento de dados pessoais adotada (Lei 13709/2018)
+
+Cumprimento de obrigação legal ou regulatória pelo controlador
+
+Finalidade do tratamento
+
+Cumprir a legislação tributária em vigor.
+
+Previsão legal do tratamento
+
+Lei Complementar nº 123/2006; Resolução CGSN nº 169/2022; Lei Complementar nº 214/2025
+
+Dados pessoais compartilhados com outras instituições
+
+Não é realizado compartilhamento de dados.
+
+País(es) e instituição(ões) que recebem transferência(s) internacional de dados pessoais e/ou dados pessoais sensíveis
+
+Não é realizada transferência internacional de dados pessoais e dados pessoais sensíveis.
+
+Link da política de privacidade/termo de uso do serviço
+
+https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/lgpd/termo-de-uso
+
+Login Integrado
+
+Utilize a sua conta GOV.BR para acessar este serviço.
+
+Ainda não tem uma conta? Saiba mais
+
+Prata
+ Ouro 
+
+Você precisa ter uma conta nível Prata ou Ouro para acessar este serviço. 
+
+Dúvidas sobre o nível da conta? Saiba mais
+
+Ouvidoria
+
+Denúncia
+
+Denúncia
+ Para comunicar a ocorrência de alguma irregularidade relacionada ao serviço
+
+Reclamação
+
+Reclamação
+ Se você foi mal atendido e está insatisfeito com o atendimento e/ou serviço prestado
+
+Elogio
+
+Elogio
+ Se você ficou satisfeito com o serviço prestado
+
+Sugestão
+
+Sugestão
+ Se você tiver uma idéia ou proposta de melhoria para este serviço
+
+Tags: Consulta NFS-eDANFSeAutenticidadeAPI de Distribuição.

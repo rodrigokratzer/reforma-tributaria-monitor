@@ -1,0 +1,11 @@
+Cronograma tem o objetivo de informar contribuintes, profissionais da área fiscal e desenvolvedores de sistemas sobre os prazos de adaptação às novas exigências relacionadas à CBS e ao IBS.
+
+A Receita Federal (RFB) e o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) informam que está sendo deliberado e deverá ser publicado, até o final de julho, ato conjunto estabelecendo as datas de início da obrigatoriedade da emissão dos documentos fiscais eletrônicos (DF-e) com destaque da Contribuição sobre Bens e Serviços (CBS) e do Imposto sobre Bens e Serviços (IBS).
+
+O cronograma, a ser formalizado por meio de ato conjunto, tem o objetivo de informar contribuintes, profissionais da área fiscal e desenvolvedores de sistemas sobre os prazos de adaptação às novas exigências relacionadas à CBS e ao IBS.
+
+O ato fixará as datas de obrigatoriedade para cada documento fiscal eletrônico, e, na data de sua publicação, será divulgada, também, a previsão de disponibilização dos leiautes técnicos dos documentos cujos padrões ainda não tenham sido disponibilizados. Sempre que possível, esses leiautes serão disponibilizados com uma antecedência mínima de 60 dias contada do início da obrigatoriedade de utilização dos respectivos documentos fiscais eletrônicos.
+
+O ato conjunto também disporá que a Receita Federal e o Comitê Gestor do IBS publicarão, no prazo de até 30 dias, programa de estímulo à conformidade para o ano de 2026, voltado ao período de transição para a implementação da CBS e do IBS, garantindo o caráter orientador neste período de implantação.
+
+A previsão é que o programa contemple medidas relacionadas à autorregularização de informações pelos contribuintes durante a fase inicial de implantação dos novos tributos, observados os limites e condições previstos na legislação aplicável. Os detalhes do programa serão divulgados em ato específico.

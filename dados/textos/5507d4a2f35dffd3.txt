@@ -1,0 +1,269 @@
+Você está aqui: 
+
+Página Principal 
+
+> 
+ Downloads 
+ > 
+ Visualizador de DF-e 
+
+Visualizador de DF-e
+O Visualizador é um aplicativo que permite visualizar documentos fiscais eletrônicos tais como Nota Fiscal Eletrônica(NF-e) e Conhecimento de Transporte Eletrônico(CT-e).
+
+Downloads para instalação manualPlataformaTamanhoData
+
+Linux GTK (Ubuntu) x86_64
+28.401 KB 
+
+22/05/2026
+
+Windows 64 bits
+34.356 KB 
+
+22/05/2026
+
+Linux GTK (Ubuntu)
+28.041 KB 
+
+22/05/2026
+
+Windows 32 bits
+28.477 KB 
+
+22/05/2026
+Instalação Automática via Java Web Start
+
+A tecnologia Java Web Start permite o download e a instalação automática do Visualizador eliminando procedimentos complexos de instalação ou atualização. 
+
+Todas as inicializaçãoes seguintes deste aplicativo verificarão a existência de uma nova versão disponível, que poderá ser instalada de acordo com o interesse do usuário.
+Pré-Requisitos de Instalação
+
+Máquina Virtual Java (JVM)
+ É necessário ter a Máquina Virtual Java(JVM) instalada no computador para que o aplicativo funcione.
+Perguntas Frequentes
+
+Perguntas Frequentes (FAQ)
+Este documento apresenta as respostas para as dúvidas mais frequentes sobre instalação e uso do Visualizador de DF-e.
+
+===== ANEXO: https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6RYPzQirB+c= =====
+[pagina 1]
+Visualizador de Documentos Fiscais Eletrônicos
+FAQ (Perguntas frequentes)
+
+
+1. Quais são os requisitos de software para executar o Visualizador em
+meu computador?
+Para executar o Visualizador é necessário ter instalado o Java versão 1.6 ou
+superior.
+Além da Máquia Virtual Java, é também necessário ter instalado um navegador
+(Web Browser) para a plataforma: Internet Explorer no Microsoft Windows e
+Mozilla no Linux.
+No Linux é necessário possuir a biblioteca GTK instalada.
+
+
+2. A versão Java Web Start do Visualizador funciona tanto em Linux
+quanto Windows?
+Sim. Ao instalar o Visualizador via Java Web Start, a versão adequada para seu
+sistema é identificada automaticamente, e é instalada de forma transparente
+para o usuário.
+
+3. É necessário estar sempre conectado à internet para rodar a versão
+Java Web Start do Visualizador?
+Não. Apenas a instalação e atualização da versão do Visualizador necessitam
+de conexão com a internet. Após a instalação, os arquivos do programa são
+gravados em um cache local no computador, em disco.
+A cada execução do Visualizador, o programa Java Web Start tenta verificar
+automaticamente se existe alguma versão mais recente do Visualizador
+disponível no servidor para atualização. Caso não haja conexão com a internet
+disponível, a versão corrente do programa é executada normalmente,
+"pulando" a etapa de atualização.
+
+4. Onde fica instalado o programa na versão Java Web Start?
+Os arquivos do programa são gravados em um cache local no computador, em
+disco. Esse local é gerenciado de forma transparente para o usuário, pelo
+próprio Java Web Start, em um diretório específico.
+
+5. Sou obrigado a atualizar o Visualizador sempre que houver uma
+nova versão disponível?
+Não. A atualização é opcional. Quando houver uma atualização disponível, o
+usuário será questionado se deseja ou não efetuar o download das
+atualizações, logo que iniciar o aplicativo.
+Se o usuário selecionar por Não fazer a atualização, o programa é executado
+normalmente na versão corrente instalada. Caso o usuário opte por Sim, fazer
+a atualização, serão instaladas as atualizações de forma totalmente
+transparente e automática para o usuário, sem nenhuma necessidade de
+interação adicional entre o usuário e o programa de instalação. Além disso, na
+atualização de via Java Web Start , ocorre o download apenas dos pacotes
+necessários e relevantes à atualização, não sendo necessário o download de
+todo o aplicativo novamente como na primeira vez que o programa é instalado.
+
+[pagina 2]
+6. Como faço para desinstalar um programa versão Java Web Start?
+Para desinstalar um programa implantado com Java Web Start basta acessar o
+painel de controle do Java.
+No Windows:
+Acesse o Painel de controle do Windows-> Java
+Será aberto o Painel de Controle do Java. Na guia Geral, sessão "Arquivos
+temporários da Internet", clique no botão "Exibir"
+Será exibido a lista de todos os aplicativos instalados via Java Web Start em
+seu computador. Selecione o Visualizador de Documentos Fiscais Eletrônicos e
+clique em "Remover itens selecionados" (botão X na barra de ferramentas)
+
+No Linux:
+Vá em Sistema -> Preferências -> Painel de Controle de Plugins do Java .
+Será aberto o Painel de Controle do Java. Na guia Geral, sessão "Arquivos
+temporários da Internet", clique no botão "Exibir"
+Será exibido a lista de todos os aplicativos instalados via Java Web Start em
+seu computador. Selecione o Visualizador de Documentos Fiscais Eletrônicos e
+clique em "Remover ítens selecionados" (botão X na barra de ferramentas)
+
+
+7. Apaguei o ícone da área de trabalho. Como faço para restaurá-lo?
+Apagar o ícone da área de trabalho não desinstala o programa do computador.
+Apenas o atalho para o programa é removido.
+Para restaurar os ícones do programa instalado via Java Web Start, siga os
+seguintes passos:
+No Windows:
+Acesse o Painel de controle do Windows-> Java
+Será aberto o Painel de Controle do Java. Na guia Geral, sessão "Arquivos
+temporários da Internet", clique no botão "Exibir"
+Será exibido a lista de todos os aplicativos instalados via Java Web Start em
+seu computador. Selecione o Visualizador de Documentos Fiscais Eletrônicos e
+clique no botão "Instalar atalhos no aplicativo selecionado" da barra de
+ferramentas.
+
+No Linux:
+Vá em Sistema -> Preferências -> Painel de Controle de Plugins do Java.
+Será aberto o Painel de Controle do Java. Na guia Geral, sessão "Arquivos
+temporários da Internet", clique no botão "Exibir"
+Será exibido a lista de todos os aplicativos instalados via Java Web Start em
+seu computador. Selecione o Visualizador de Documentos Fiscais Eletrônicos e
+clique no botão "Instalar atalhos no aplicativo selecionado" da barra de
+ferramentas.
+
+
+8. A versão Java Web Start é instalada de forma transparente e
+praticamente automática. Isso é seguro?
+Sim. A versão Java Web Start é totalmente segura. Todos os arquivos
+
+[pagina 3]
+instalados em seu computador via Java Web Start são assinados digitalmente,
+garantindo a origem e autenticidade dos mesmos.
+É por esse motivo que, durante a instalação do programa, é requisitado uma
+confirmação do usuário de confiança no certificado digital do fornecedor do
+programa.
+
+
+9. Qual a diferença entre o Visualizador na versão Java Web Start e a
+Versão dos instaladores convencionais?
+A principal diferença entra a versão Java Web Start e a versão convencional do
+Visualizador está na facilidade e transparência do processo de instalação e
+atualização do programa. A versão Java Web Start garante que você possuirá
+sempre a versão mais atualizada do programa (opcionalmente), já que você é
+avisado da existência de uma atualização sempre que estiver disponível.
+Em termos de funcionalidades do aplicativo Visualizador, a única diferença
+entre os dois tipos é que a execução por linha de comando com passagem de
+argumentos só é possível com a versão instalada manualmente. Entretanto,
+essa é uma funcionalidade de utilidade restrita, desnecessária para a maioria
+dos usuários do programa. Por isso, salvo alguma exceção de restrição de uso
+do computador do usuário, a instalação recomendada é sempre a via Java Web
+Start.
+*Caso você precise gravar a instalação do Visualizador em CD/DVD, você
+deverá optar pela instalação manual. Detalhes no item correspondente deste
+FAQ.
+
+10. Como executo o Visualizador com parâmetros via linha de comando
+(-a, -i)?
+A execução do Visualizador com parâmetros da linha de comando só é possívell
+com a versão instalada manualmente. A versão Java Web Start NÃO permite
+execução via linha de comando com passagem de parâmetros.
+Para executar via linha de comando, vá até o diretório onde foi instalado o
+Visualizador e, no prompt de comando, digite:
+Visualizador -a Arquivo.xml ou Visualizador -i Arquivo.xml
+O parâmetro -a executa o visualizador e abre o documento especificado por
+Arquivo.xml.
+O parâmetro -i executa o visualizador e importa o documento especificado por
+Arquivo.xml.
+
+11. Não consigo executar o instalador convencional no Linux. O que
+devo fazer?
+Se após fazer o download de um dos instaladores para Linux, o arquivo não for
+reconhecido como executável, será necessário adicionar permissão de
+execução para o arquivo instalador.
+Clique com o botão direito do mouse sobre o arquivo e selecione Propriedades.
+Vá na aba Permissões e marque a opção “Permitir execução do arquivo como
+um programa”. Clique em Fechar e execute o instalador novamente.
+
+
+12. Posso mantar as duas versões, a versão Java Web Start e a versão
+
+[pagina 4]
+instalada manualmente, em meu computador?
+Sim. Os dois tipos de instalação armazenam os arquivos do programa em
+locais distintos em seu disco. Os atalhos de cada instalação também possuem
+nomes diferentes, para que seja possível executar ambos os programas.
+
+
+13. Como faço para atualizar o Visualizador via Java Web Start?
+Para atualizar o Visualizador instalado via Java Web Start basta executar o
+programa. Se houver alguma atualização disponível, será exibida uma
+mensagem de confirmação. Basta confirmar que deseja fazer a atualização
+opcional e aguardar o término do download. Após a atualização, o Visualizador
+executará normalmente na sua nova versão. Obviamente, é necessário possuir
+uma conexão ativa com a internet para que o Java Web Start possa se
+conectar ao servidor, verificar e baixar as atualizações.
+
+
+14. Como faço para atualizar o Visualizador instalado manualmente
+através dos arquivos de instalações disponíveis para download?
+Para instalar uma versão instalada de forma manual, é necessário fazer o
+download da versão referente ao seu sistema no Portal da Nota Fiscal
+Eletrônica, desinstalar a versão que se encontra instalada em seu computador
+e instalar a nova versão. A desinstalação da versão anterior e a instalação da
+versão mais atualizada se dá pelo procedimento comum de instalação de
+softwares, via Wizard passo a passo.
+
+
+15. No Linux, ao iniciar o Visualizador via Java Web Start, é exibida a
+seguinte mensagem de erro: “Failed to read the configuration
+file. Contact your systemadministrator”. Após clicar em Ok, o
+Visualizador é executado normalmente. O que isso quer dizer?
+Essa mensagem ocorre quando você possui uma versão desatualizada da
+biblioteca xulrunner-1.9 em seu Linux. Apesar da mensagem, após clicar em
+Ok, o Visualizador funcionará normalmente. Para que esse erro não ocorra, é
+necessário atualizar os pacotes xulrunner1.9 de seu sistema. O modo como a
+atualização de pacotes é feito varia de acordo com a distribuição de Linux que
+você utiliza. No caso do Ubuntu, ela pode ser feita através do Gerenciador de
+Pacotes Synaptic, no menu Sistema -> Administração.
+
+
+16. Ao instalar o Visualizador via Java Web Start no Windows Seven,
+os textos da tela de instalação do Java Web Start não são exibidos.
+Todos os textos e conteúdo dos botões ficam em “branco”. Por que
+ocorre esse problema?
+Esse problema ocorre devido a problemas de configuração incorreta do vídeo
+para o Aero do Windows Seven. Para corrigir o problema é necessário instalar
+adequadamente o driver de vídeo de seu computador. Para diagnosticar
+problemas em relação ao Aero use a ferramenta de diagnóstico do Aero
+fornecida pelo Windows Seven:
+ • Clique no menu Iniciar.
+ • Digite a palavra aero na caixa de texto para pesquisas.
+
+[pagina 5]
+• Quando vierem os resultados, encontre a seguinte e clique nela: “Find and fix problems
+ with transparency and other visual effects”
+ • Um menu Wizard do Aero aparecerá. Clique no botão “Next”.
+Diversos testes serão efetuados para detectar algum problema em
+componentes instalados, como memória, vídeo, temas, etc. Ao final dos testes,
+automaticamente os problemas deverão ser consertados, se houver
+possibilidade.
+
+
+17. Como gravar e executar o Visualizador a partir de um CD/DVD?
+A cópia da instalação do Visualizador em CD/DVD somente é possível através
+da versão de Instalação Manual.
+Execute o procedimento de instalação manual da versão desejada
+normalmente, guardando o local escolhido para instalação.
+Após terminada a instalação, basta gravar a pasta onde o Visualizador foi
+instalado no CD/DVD. O Visualizador poderá então ser executado diretamente
+do CD ou DVD, clicando-se no executável do programa (visualizador).

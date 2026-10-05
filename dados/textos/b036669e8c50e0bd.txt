@@ -1,0 +1,743 @@
+[pagina 1]
+COMITÊ GESTOR DO IMPOSTO SOBRE BENS E SERVIÇOS – CGIBS
+ CONSELHO SUPERIOR
+
+RESOLUÇÃO CGIBS Nº 8, DE 26 DE MAIO DE 2026
+
+ Institui o Sistema Eletrônico de
+ Informações – SEI como sistema oficial
+ de processo eletrônico interno no âmbito
+ do Comitê Gestor do Imposto sobre
+ Bens e Serviços.
+
+ O CONSELHO SUPERIOR DO COMITÊ GESTOR DO IBS, no uso das
+atribuições que lhe confere a Lei Complementar nº 227, de 13 de janeiro de 2026,
+
+RESOLVE:
+
+ TÍTULO I
+ DAS DISPOSIÇÕES PRELIMINARES
+
+ CAPÍTULO I
+ DO OBJETO E DA FINALIDADE
+
+ Art. 1º Fica instituído o Sistema Eletrônico de Informações – SEI-IBS como o
+sistema oficial de processo eletrônico interno do Comitê Gestor do Imposto sobre Bens e
+Serviços - CGIBS, destinado à produção, tramitação, instrução e arquivamento de
+processos e documentos administrativos no âmbito do Comitê.
+
+ Art. 2º O SEI-IBS será utilizado para a gestão dos processos administrativos
+internos, observando, entre outros, os princípios da legalidade, eficiência, publicidade,
+segurança da informação, autenticidade, integridade, interoperabilidade e transparência.
+
+ CAPÍTULO II
+ DAS DEFINIÇÕES
+
+ Art. 3º Para o disposto nesta Resolução, considera-se:
+
+ I - atos processuais: toda conduta dos sujeitos do processo que tenha por efeito
+a criação, modificação ou extinção de situações processuais;
+
+ II - autenticação: declaração de autenticidade de um documento arquivístico,
+resultante do acréscimo, diretamente no documento, de elemento de verificação ou da
+afirmação por parte de pessoa investida de autoridade para tal;
+
+ III - autenticidade: qualidade de um documento ser exatamente como foi
+produzido, não tendo sofrido alteração, corrompimento ou adulteração;
+
+[pagina 2]
+IV - código CRC (Cyclic Redundancy Check): código que permite a detecção de
+mudanças na cadeia de dados no registro ou envio de mensagens, permitindo a verificação
+da autenticidade de um documento assinado eletronicamente no SEI-IBS;
+
+ V - cópia autenticada administrativamente: aquela cuja conferência foi realizada
+por servidor integrante do CGIBS;
+
+ VI - cópia autenticada em cartório: aquela cuja autenticação deu-se em cartório;
+
+ VII - cópia simples: aquela sem nenhuma autenticação;
+
+ VIII - documento: aquele produzido e recebido pelo CGIBS, em decorrência do
+exercício de funções e atividades, qualquer que seja o suporte da informação;
+
+ IX - documento digital: informação registrada, codificada em dígitos binários,
+acessível e interpretável por meio de sistema computacional, podendo ser:
+
+ a) documento nato-digital: aquele criado originariamente em meio eletrônico; ou
+
+ b) documento digitalizado: aquele obtido a partir da conversão de um documento
+não digital, gerando uma fiel representação em código digital.
+
+ X - documento externo: documento originalmente produzido em papel e
+digitalizado e/ou nato-digital, produzido em outro sistema, e cadastrado no SEI-IBS;
+
+ XI - elementos descritivos: conjunto de informações que compõe o registro de
+um documento e permitem a sua identificação;
+
+ XII - meio eletrônico: qualquer forma de armazenamento ou tráfego de
+documentos e arquivos digitais;
+
+ XIII - metadados: conjunto de elementos descritivos de um dado, arquivo ou
+documento;
+
+ XIV - processo administrativo eletrônico: aquele em que os atos processuais são
+registrados e disponibilizados em meio eletrônico;
+
+ XV - usuário interno: pessoa física que trabalha no CGIBS ou nos entes
+federados autorizada a ter acesso ao SEI-IBS para prática de atos processuais;
+
+ XVI - usuário externo: pessoa física externa ao CGIBS autorizada a ter acesso
+ao SEI-IBS para prática de atos processuais em nome próprio ou como representante legal
+de pessoa jurídica;
+
+ XVII - peticionamento eletrônico: envio de documentos digitais por usuário
+externo, previamente cadastrado, a fim de iniciar processo administrativo eletrônico ou
+compor um já existente.
+
+[pagina 3]
+XVIII - Tramita.GOV.BR: plataforma digital de comunicação entre sistemas de
+processo administrativo eletrônico, integrante do Processo Eletrônico Nacional - PEN, no
+âmbito da administração pública federal direta, autárquica e fundacional.
+
+ CAPÍTULO III
+ DO SISTEMA SEI-IBS
+
+ Art. 4º O Sistema Eletrônico de Informações – SEI-IBS é o sistema oficial para
+produção, tramitação, gestão, assinatura, armazenamento e arquivamento de documentos
+e processos administrativos eletrônicos no âmbito do Comitê Gestor do Imposto sobre
+Bens e Serviços.
+
+ Parágrafo único. Fica vedada a implantação ou utilização de sistema com
+finalidade equivalente ao SEI-IBS, salvo outros sistemas específicos autorizados pelo
+Conselho Superior do CGIBS.
+
+ Art. 5º São objetivos do SEI-IBS:
+
+ I – aumentar a produtividade e a celeridade na tramitação de documentos e
+processos;
+
+ II – aprimorar a segurança e a confiabilidade dos dados e das informações;
+
+ III – criar condições mais adequadas para a produção e utilização de
+informações;
+
+ IV – facilitar o acesso às informações; e
+
+ V - reduzir o uso de papel, os custos operacionais e de armazenamento da
+documentação.
+
+ TÍTULO II
+ DA ESTRUTURA E GOVERNANÇA DO SEI-IBS
+
+ CAPÍTULO I
+ DA ESTRUTURA ORGANIZACIONAL
+
+ Art. 6º Integram a estrutura do SEI-IBS:
+
+ I – Unidade Central de Gestão;
+
+ II – Unidade Técnica de Gestão;
+
+ III – Unidades Administrativas;
+
+ IV – Usuários internos; e
+
+ V – Usuários externos.
+
+[pagina 4]
+CAPÍTULO II
+ Das Competências Institucionais
+
+ Art. 7º Compete à Unidade Central de Gestão do SEI-IBS:
+
+ I - divulgar as políticas, normas e manuais relacionados à gestão e
+operacionalização do SEI-IBS;
+
+ II - promover a gestão do Projeto de Implantação do SEI-IBS nas Unidades
+Administrativas do CGIBS;
+
+ III - promover a gestão do SEI-IBS, com políticas, normas, diretrizes e manuais
+relacionados à gestão e operação do SEI-IBS;
+
+ IV – definir, atribuir, ativar e inativar perfis de acesso aos usuários das Unidades
+Administrativas do SEI-IBS;
+
+ V - gerir e manter atualizadas as tabelas auxiliares de tipos de assuntos,
+processos e tipos de documentos enviadas pelas Unidades Administrativas;
+
+ VI - promover e fomentar a capacitação, realização de eventos e reuniões
+visando à uniformização de procedimentos de operacionalização do SEI-IBS;
+
+ VII - desenvolver o Plano de Comunicação referente à utilização do SEI-IBS;
+
+ VIII - orientar e assistir tecnicamente as Unidades Administrativas e os usuários
+do SEI-IBS;
+
+ IX - realizar auditorias e monitorar acessos e visualizações das Unidades
+Administrativas, para que estejam dentro das normatizações estabelecidas;
+
+ X - avaliar e propor melhorias no SEI-IBS;
+
+ XI - garantir que as melhorias no SEI-IBS estejam aderentes ao Processo
+Eletrônico Nacional - PEN-SEI, do Ministério do Planejamento, Desenvolvimento e
+Gestão;
+
+ XII - manter atualizadas as tabelas de unidades, assinaturas, usuários, assuntos,
+tipo de processos, modelos etc.;
+
+ XIII – proceder ao cadastro de Unidades Administrativas;
+
+ XIV - orientar as unidades administrativas envolvidas nos processos em
+implantação quanto:
+
+ a) à produção e atualização das Bases de Conhecimento do SEI-IBS;
+
+ b) à guarda e ao acondicionamento dos documentos digitalizados e não
+certificados digitalmente que forem inseridos no SEI-IBS;
+
+[pagina 5]
+c) aos procedimentos de digitalização, de acordo com a legislação vigente;
+
+ XV - monitorar e elaborar relatórios sobre a fase de implantação e
+funcionamento do SEI-IBS;
+
+ XVI - monitorar acessos e visualizações dos usuários para que estejam dentro
+das normatizações estabelecidas.
+
+ Art. 8º Compete à Unidade Técnica de Gestão do SEI-IBS:
+
+ I - prover suporte tecnológico e as condições necessárias à implantação,
+utilização, manutenção e sustentação do SEI-IBS;
+
+ II - manter atualizada a lista de usuários que têm permissão de acesso à rede de
+comunicação local;
+
+ III - disponibilizar hardwares, softwares, redes de comunicação e o suporte ao
+usuário.
+
+ IV - implementar as atualizações de versões do SEI-IBS, quando
+disponibilizadas pelo Processo Eletrônico Nacional – (PEN), do Ministério da Gestão e
+da Inovação em Serviços Públicos;
+
+ V - analisar e propor, juntamente com a Unidade Central de Gestão, as melhorias
+ao Processo Eletrônico Nacional– (PEN);
+
+ VI - garantir suporte tecnológico referente à preservação e à segurança das bases
+de dados do SEI-IBS;
+
+ VII - monitorar ocorrências de incidentes e problemas técnicos relativos ao SEI-
+IBS e aplicar soluções;
+
+ VIII - orientar as Unidades Administrativas quanto:
+
+ a) à permissão de acesso à rede de comunicação local;
+
+ b) ao conhecimento do tipo de conexão com a Unidade Técnica de Gestão;
+
+ IX - receber, analisar e encaminhar à Unidade Central de Gestão as ocorrências
+de problemas técnicos não solucionados.
+
+ Art. 9º Compete às Unidades Administrativas:
+
+ I - garantir a utilização do SEI-IBS em todos os seus processos;
+
+ II - garantir a correta utilização do Sistema, em conformidade com as diretrizes
+da Unidade Central de Gestão;
+
+[pagina 6]
+III - orientar os usuários quanto aos procedimentos operacionais de uso do SEI-
+IBS, em relação às especificidades dos processos definidos para a respectiva Unidade
+Administrativa;
+
+ IV - solicitar a capacitação de usuários sempre que necessário;
+
+ V - levantar e validar as informações referentes às estruturas da respectiva
+Unidade Administrativa, seus usuários, e demais tabelas auxiliares do SEI-IBS.
+
+ Art. 10 Compete ao Usuário Interno:
+
+ I – utilizar adequadamente o sistema em sua Unidade Administrativa, abstendo-
+se de utilizá-lo para trocas de mensagens, recados ou assuntos sem relação com as
+atividades institucionais;
+
+ II – guardar sigilo sobre fato ou informação de qualquer natureza de que tenha
+conhecimento por força de suas atribuições, ressalvadas àquelas de acesso público;
+
+ III – participar dos programas de capacitação referentes ao SEI-IBS;
+
+ IV – cumprir os regulamentos e manuais, dentre outros, que tratem de
+procedimentos específicos quanto à utilização do SEI no âmbito do CGIBS.
+
+ Art. 11. Compete ao Usuário Externo:
+
+ I - o sigilo de sua senha de acesso, não podendo alegar o uso indevido;
+
+ II - a conformidade entre os dados informados no formulário eletrônico de
+peticionamento e aqueles contidos no documento enviado;
+
+ III - a elaboração da petição e a inserção de documentos digitais no formato e no
+tamanho dos arquivos, conforme os requisitos estabelecidos pelo SEI-IBS;
+
+ IV - a conservação dos originais, em papel, de documentos digitalizados ou
+enviados por meio do peticionamento eletrônico, até que decaia o direito do CGIBS rever
+os atos praticados no processo;
+
+ V - a garantia do teor e da integridade dos documentos digitalizados
+apresentados no peticionamento eletrônico, que responde nos termos da legislação civil,
+penal e administrativa por eventuais fraudes;
+
+ VI - a verificação, por meio do recibo eletrônico de protocolo, do recebimento
+das petições e dos documentos transmitidos eletronicamente; e
+
+ VII - a verificação das condições de sua rede de comunicação, o acesso a seu
+provedor de internet e a configuração do computador utilizado nas transmissões
+eletrônicas.
+
+[pagina 7]
+Parágrafo único. A não obtenção do cadastro como usuário externo, bem como
+eventual erro de transmissão ou recepção de dados não imputáveis a falhas do SEI-IBS
+ou de sistema integrado, não servem de escusa para o descumprimento de obrigações e
+prazos.
+
+ TÍTULO III
+ DO PROCESSO ELETRÔNICO
+
+ CAPÍTULO I
+ DA FORMAÇÃO E GESTÃO PROCESSUAL
+
+ Seção I
+ Da Formação dos Processos
+
+ Art. 12. Os documentos produzidos no âmbito do SEI-IBS integram processos
+eletrônicos cadastrados com o preenchimento de campos próprios do sistema, de forma a
+permitir sua localização e controle eficiente, observados os seguintes requisitos:
+
+ I - ser formado de maneira cronológica, lógica e contínua;
+
+ II - permitir a vinculação entre processos; e
+
+ III - observar a publicidade das informações como preceito geral e o sigilo como
+exceção.
+
+ Art. 13. Os usuários devem preencher corretamente os dados de cadastro do
+processo e realizar as adequações necessárias a fim de facilitar a busca e a recuperação
+das informações.
+
+ Seção II
+ Das Bases de Conhecimento
+
+ Art. 14. As Unidades Administrativas devem criar e gerir as Bases de
+Conhecimento correspondentes aos tipos de processos afetos a suas atividades para
+padronizar a instrução processual.
+
+ CAPÍTULO II
+ DA ASSINATURA ELETRÔNICA
+
+ Art. 15. Os documentos eletrônicos produzidos e geridos no âmbito do SEI-IBS
+terão garantia de integridade, de autoria e de autenticidade, mediante utilização de
+assinatura eletrônica nas seguintes modalidades:
+
+ I - assinatura digital: baseada em certificado digital emitido por Autoridade
+Certificadora credenciada na Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil);
+
+ II - assinatura cadastrada: realizada mediante prévio credenciamento de acesso
+de usuário, com fornecimento de login e senha de rede; e
+
+[pagina 8]
+III - assinatura gov.br: baseada na integração com o portal gov.br do Governo
+Federal.
+
+ § 1º A assinatura eletrônica é de uso pessoal e intransferível, sendo
+responsabilidade do titular sua guarda e sigilo.
+
+ § 2º A autenticidade de documentos gerados no SEI-IBS pode ser verificada em
+endereço indicado na tarja de assinatura no próprio documento, com uso do Código
+Verificador e CRC (Cyclic Redundancy Check).
+
+ § 3º É permitido ao usuário utilizar certificado digital emitido por Autoridade
+Certificadora credenciada na Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)
+adquirido por meios próprios, não sendo cabível, em qualquer hipótese, o ressarcimento
+pelo CGIBS dos custos havidos.
+
+ Art. 16. A assinatura eletrônica de documentos importa na aceitação das normas
+regulamentares sobre o assunto é da responsabilidade do usuário por sua utilização
+indevida.
+
+ TÍTULO IV
+ DOS DOCUMENTOS E DIGITALIZAÇÃO
+
+ CAPÍTULO I
+ DOS DOCUMENTOS EXTERNOS
+
+ Art. 17. Os documentos nato-digitais assinados eletronicamente possuem valor
+jurídico de originais para todos os efeitos legais.
+
+ Art. 18. Documento externo é o documento arquivístico não produzido no SEI-
+IBS a ser incluído para compor o processo eletrônico.
+
+ Art. 19. Os tipos de conferência do documento externo são:
+
+ I - nato digital: produzido em meio eletrônico;
+
+ II - documento original: digitalizado a partir do documento original;
+
+ III - cópia autenticada em cartório: digitalizado a partir de um documento cópia
+autenticada em cartório;
+
+ IV - cópia autenticada administrativamente: digitalizado a partir de uma cópia
+autenticada por servidor público; e
+
+ V - cópia simples: Documento externo digitalizado a partir de uma cópia
+simples.
+
+ CAPÍTULO II
+ DA DIGITALIZAÇÃO
+
+[pagina 9]
+Art. 20. O documento em papel recebido nas unidades protocolizadoras ou
+unidades de atendimento ao público será digitalizado e incluído no SEI-IBS.
+
+ Parágrafo único. Os procedimentos para digitalização, e inclusão no SEI-IBS
+estão definidos em Procedimento Operacional Padrão.
+
+ Art. 21. A digitalização de documentos em papel será efetivada em formato
+PDF-A, com processamento de Reconhecimento Óptico de Caracteres (OCR).
+
+ Art. 22. A critério de cada Unidade Administrativa, os documentos recebidos
+em papel podem ser devolvidos imediatamente ao interessado, após digitalização e
+autenticação, por meio de certificado digital emitido por Autoridade Certificadora
+credenciada na Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
+
+ Art. 23. Não serão digitalizados nem incluídos no SEI-IBS:
+
+ I - processos legados - processos físicos arquivados, cuja análise e instrução foi
+concluída ou encerrada;
+
+ II - processos em fase final de análise;
+
+ III - processos para mera consulta;
+
+ IV - processos para atendimento a demanda de consulta de informações pelo
+cidadão;
+
+ V - processos e documentos classificado em grau de sigilo;
+
+ VI - documentos que não se caracterizem como arquivísticos; e
+
+ VII - correspondências pessoais.
+
+ Parágrafo único. Os documentos classificados em grau de sigilo devem ser
+entregues diretamente do remetente ao destinatário.
+
+ Art. 24. O SEI-IBS não deve ser utilizado como repositório arquivístico digital
+para documentos e processos que tiveram seu trâmite físico concluído.
+
+ Art. 25. Processos em papel, provenientes de órgãos e entidades não
+pertencentes ao CGIBS, serão digitalizados integralmente e incluídos no SEI-IBS com
+numeração automática e encaminhados à Unidade Administrativa pela matéria, onde
+permanecerão até a devolução ao órgão de origem.
+
+ Parágrafo único. Os documentos produzidos no SEI-IBS deverão ser impressos
+e incluídos no processo papel, pela unidade orgânica responsável pela matéria, em
+continuidade a sua instrução processual antes da devolução ao órgão de origem.
+
+ TÍTULO V
+ DO ACESSO À INFORMAÇÃO
+
+[pagina 10]
+Art. 26. Ao iniciar um processo ou incluir um documento no SEI-IBS, o usuário
+deve selecionar o nível de acesso, que pode ser:
+
+ I - público: quando o acesso ao conteúdo de todos os documentos em um
+determinado processo pode ser amplamente pesquisado e visualizado por qualquer
+usuário cadastrado ou não no SEI-IBS;
+
+ II - restrito: quando o acesso ao conteúdo dos documentos em um processo é
+restrito aos usuários das Unidades Administrativas pelas quais o processo tramitar. É
+possível aos demais usuários pesquisá-lo e visualizar seu andamento, mas não seu
+conteúdo; e
+
+ III - sigiloso: quando o acesso ao processo é exclusivo aos usuários com
+credencial de acesso, não sendo possível pesquisa ou visualização por usuários não
+credenciados.
+
+ Parágrafo único. É obrigatória a indicação de nível de acesso para todo processo
+e para todo documento incluído no SEI-IBS, tendo como base o conteúdo do processo ou
+documento.
+
+ Art. 27. Os documentos e processos devem ter seu nível de acesso, geralmente,
+como público. A indicação de restrito ou sigiloso será exceção e, para tanto, é obrigatório
+indicar a hipótese legal que fundamente a restrição.
+
+ Parágrafo único. O nível de acesso informado deve ser revisado sempre que
+necessário, a fim de garantir a publicidade ou restrição das informações de maneira
+adequada, conforme a legislação aplicável.
+
+ Art. 28. Para a seleção do nível de acesso restrito, o processo deve conter:
+
+ I - documentos preparatórios: que subsidiam decisões de ordem política
+econômica, fiscal, tributária, monetária e regulatória, tais como notas técnicas, pareceres,
+minutas de ato normativo;
+
+ II - documentos que contenham informações pessoais: que trazem informações
+sobre pessoa identificada ou identificável e que são restritas a servidores legalmente
+autorizados e à própria pessoa, exemplificativamente:
+
+ a) dados relativos a documentos de identificação pessoal: RG, CPF, Título de
+Eleitor, Certificado de Reserva, dentre outros;
+
+ b) informações sobre o estado de saúde do servidor ou familiares;
+
+ c) informações financeiras ou patrimoniais de determinada pessoa;
+
+ d) informações sobre alimentandos, dependentes ou pensões;
+
+ e) endereço pessoal ou comercial de determinada pessoa;
+
+[pagina 11]
+f) número de telefone ou endereço eletrônico de determinada pessoa;
+
+ g) origem racial ou étnica, orientação sexual, convicções religiosas, filosóficas
+ou morais; opiniões políticas, filiação sindical, partidária ou a organizações de caráter
+religioso, filosófico ou político; e
+
+ h) demandas judicializadas submetidas a restrição de acesso.
+
+ III - documentos que contenham outras hipóteses para o nível restrito.
+
+ § 1º O nível de acesso restrito para documento preparatório aplica-se até o
+momento em que haja posicionamento final sobre o assunto objeto do documento ou
+processo, ou, até que seja publicado o ato normativo.
+
+ § 2º É obrigatória a alteração do nível de acesso quando a motivação para a
+restrição não mais subsistir.
+
+ § 3º A restrição deve ser aplicada individualmente aos documentos, conforme o
+conteúdo de cada um deles, e ao processo, quando todo o conteúdo exigir.
+
+ § 4º A inclusão de um documento com nível de acesso restrito em um processo
+público torna todo o processo restrito, enquanto mantida a restrição do acesso ao
+documento.
+
+ § 5º A seleção do grau de sigilo restrito deve obedecer às normas do Código
+Tributário Nacional (CTN) e da Lei Geral de Proteção de Dados (LGPD).
+
+ Art. 29. Ao cadastrar processos e documentos com nível de acesso sigiloso ou
+restrito, deverá ser justificado o motivo do nível de acesso por meio da seleção de hipótese
+legal.
+
+ Art. 30. Para a seleção do nível de acesso sigiloso, o processo deve conter:
+
+ I - documentos que devam ser acessados por usuários específicos;
+
+ II - documentos que contenham informações protegidas por outras hipóteses de
+níveis de acesso, tais como sigilo fiscal, bancário, industrial, e cujo acesso deva ser dado
+apenas a usuários específicos.
+
+ § 1º O nível de acesso sigiloso deve ser aplicado individualmente aos
+documentos, conforme o conteúdo de cada um deles, e ao processo, quando todo o
+conteúdo exigir nível de acesso sigiloso.
+
+ § 2º A inclusão de um documento com nível de acesso sigiloso em um processo,
+torna todo o processo sigiloso, independentemente do nível de acesso do processo.
+
+ TÍTULO VI
+ DA COMUNICAÇÃO INTERINSTITUCIONAL
+
+[pagina 12]
+Art. 31. O módulo de integração poderá ser utilizado quando for necessária a
+tramitação de processos a órgãos ou entidades externas ao CGIBS.
+
+ § 1º O trâmite do Processo pelo Barramento de Serviços, Tramita.GOV.BR,
+ocorrerá por meio de solicitação nos autos à Secretaria Geral, que providenciará o envio
+caso o órgão ou entidade destinatária esteja fazendo uso da solução de que trata o caput.
+
+ § 2º Em caso de impossibilidade técnica de uso da funcionalidade indicada no
+caput ou em caso do órgão ou entidade destinatária não esteja fazendo uso da solução,
+pode-se optar por uma das seguintes soluções:
+
+ I - disponibilização de acesso externo: A funcionalidade disponibiliza acesso
+externo de forma parcial ou integral do processo no SEI-IBS;
+
+ II - protocolização eletrônica: protocolar o documento via Peticionamento
+Eletrônico ou outro sistema de protocolização eletrônica do órgão ou entidade
+destinatário, quando este dispuser desse tipo de solução, com a inserção do recibo gerado
+nos andamentos do processo no SEI-IBS; ou
+
+ III - correspondência eletrônica: utilizar a funcionalidade "Enviar
+Correspondência Eletrônica" do SEI, quando o órgão destinatário aceitar essa forma de
+recebimento de documentos, com a inserção da confirmação de recebimento registrada
+nos andamentos do processo no SEI-IBS.
+
+ § 3º A expedição de documentos em suporte físico deverá ser feita em casos
+excepcionais, quando não for possível o envio nas formas estabelecidas no caput e em
+seu § 2º.
+
+ § 4º Compete à unidade remetente entrar em contato com o protocolo do órgão
+ou entidade destinatária para confirmação do meio adequado de protocolização, tendo em
+vista os regramentos próprios de cada instituição.
+
+ TÍTULO VII
+ DA REGULAMENTAÇÃO OPERACIONAL
+
+ CAPÍTULO I
+ DAS UNIDADES ADMINISTRATIVAS
+
+ Seção I
+ Do cadastro
+
+ Art. 32. O cadastro de Unidades Administrativas é realizado pela Unidade
+Central de Gestão, conforme a estrutura formal estabelecida em Regimento Interno,
+espelhando o cadastro do Sistema de Gestão de Pessoas, não cabendo o cadastro de
+Unidades Administrativas informais em nenhuma hipótese.
+
+ Art. 33. Poderão ser criadas unidades decorrentes da instituição de colegiados
+permanentes ou temporários, desde que devidamente publicada pelo CGIBS em ato
+
+[pagina 13]
+normativo, devendo constar o objetivo, os usuários designados e as funções que
+desempenharão no colegiado.
+
+ CAPÍTULO II
+ DOS PERFIS DE ACESSO
+
+ Seção I
+ Da concessão
+
+ Art. 34. A definição, criação, ativação ou inativação de perfis de acesso ao SEI-
+IBS é de responsabilidade da Unidade Central de Gestão, as atribuições e suas
+funcionalidades serão concedidas conforme abaixo:
+
+ I - Acervo de Sigilosos da Unidade: Perfil ou funcionalidade que permite listar
+e gerenciar todos os processos classificados como sigilosos (tarja vermelha) dentro de
+uma unidade. Permite visualizar os processos e, se necessário, ativar credenciais de acesso
+para outros usuários;
+
+ II - Administrador: Perfil com acesso total a todas as funcionalidades do sistema,
+incluindo configuração de itens de negócio, gestão de usuários e parametrização;
+
+ III - Arquivamento: Perfil/funcionalidade voltado para o arquivamento de
+documentos e processos, definindo a destinação final (guarda permanente ou eliminação)
+conforme a Tabela de Temporalidade;
+
+ IV - Avaliação Documental: Processo de análise técnica para determinar o valor
+do documento (administrativo, legal, histórico) e seu tempo de guarda no arquivo corrente
+ou intermediário;
+
+ V - Básico: Perfil de usuário comum, com permissões padrão para tramitação e
+visualização de documentos não sigilosos;
+
+ VI - Colaborador (Básico sem Assinatura): Usuário que pode consultar e tramitar
+processos, mas não possui permissão para assinar documentos digitalmente dentro do
+sistema;
+
+ VII - Informática: Perfil voltado para a administração do sistema,
+parametrização técnica, gestão de tabelas básicas e suporte técnico;.
+
+ VIII - Inspeção e Ouvidoria: Unidades que, no SEI, possuem acesso a processos
+específicos de denúncias, fiscalização e acompanhamento de demandas cidadãs, muitas
+vezes com níveis de restrição ou sigilo.
+
+ Parágrafo único. Termos de Responsabilidade serão assinados a depender do
+perfil a ser concedido.
+
+ Seção II
+ Da suspensão
+
+[pagina 14]
+Art. 35. A retirada ou suspensão das permissões ocorrerá nos seguintes casos:
+
+ I – a pedido de Diretor responsável pela respectiva Unidade Administrativa;
+
+ II - demissão, desligamento ou dispensa: retirada da permissão imediatamente
+após a comunicação da decisão administrativa que culminou na penalidade ou sanção
+disciplinar ou no desligamento do CGIBS;
+
+ III - afastamento por decisão judicial: retirada da permissão até decisão em
+contrário; e
+
+ IV - exoneração de servidor nomeado em livre provimento e sem vínculo com o
+CGIBS: retirada da permissão imediatamente a partir da comunicação pela autoridade
+competente ou publicação da exoneração no DOU.
+
+ § 1º Cabe à Unidade responsável pela Gestão de Pessoas a comunicação dos
+afastamentos previstos nos incisos II, III e IV acima à Unidade Central de Gestão do SEI.
+
+ § 2º Nos casos de afastamentos e licenças previstos em lei, as Unidades
+Administrativas poderão solicitar a suspensão da permissão de acesso de usuários,
+devendo garantir o acesso aos processos pessoais.
+
+ CAPÍTULO III
+ DAS TABELAS AUXILIARES
+
+ Seção I
+ Dos tipos de processo
+
+ Art. 36. O Tipo de Processo corresponde à matéria que será tratada, conforme
+os assuntos e atividades desempenhadas pelos órgãos e entidades, podendo ser comum a
+todos ou específico, de acordo com suas competências.
+
+ Parágrafo único. Cada tipo de processo é vinculado automaticamente à
+classificação arquivística por assuntos, prevista no Plano de Classificação dos
+Documentos da Área Meio ou da Área Fim do CGIBS.
+
+ Seção II
+ Dos tipos de documentos
+
+ Art. 37. O tipo de documento corresponde ao documento que será selecionado
+para o registro da informação por sua característica, natureza de conteúdo ou pela técnica
+do registro da informação.
+
+ Art. 38. Os tipos de documentos cadastrados no sistema são os comuns a todos
+as Unidades Administrativas, como também os específicos, conforme as atividades-fim
+desempenhadas.
+
+[pagina 15]
+Parágrafo único. A criação de novo tipo de documento está condicionada a
+análise dos tipos já existentes, não sendo aceita a criação de vários tipos de documento
+para o mesmo objetivo.
+
+ Art. 39. A criação e a atualização das tabelas auxiliares são é de responsabilidade
+da Unidade Central de Gestão do SEI-IBS.
+
+ CAPÍTULO IV
+ DO USUÁRIO EXTERNO
+
+ Seção I
+ Do cadastro
+
+ Art. 40. O cadastro para usuários externos é destinado a pessoa física natural
+que participe em processos administrativos junto ao SEI-IBS, independente de vinculação
+a determinada pessoa jurídica.
+
+ Seção II
+ Da assinatura
+
+ Art. 41. O cadastro importa na aceitação dos termos e condições que regem o
+processo eletrônico e habilita o usuário externo a assinar contratos, convênios, termos,
+acordos e outros documentos junto ao SEI-IBS.
+
+ TÍTULO VIII
+ DAS DISPOSIÇÕES FINAIS
+
+ Art. 42. Os atos processuais praticados no SEI-IBS serão considerados
+realizados no dia e hora do registro eletrônico, conforme horário oficial de Brasília.
+
+ Art. 43. Os órgãos e entidades são responsáveis por direcionar ou exigir a
+capacitação dos seus servidores, a fim de permitir o uso adequado do sistema e a correta
+instrução processual.
+
+ Art. 44. As unidades devem recusar processos e documentos que estiverem em
+desacordo com esta Resolução, restituindo-os às unidades que os encaminharam,
+especialmente aqueles em papel, quando deveriam ter sido convertidos e enviados pelo
+SEI-IBS.
+
+ Art. 45. O uso inadequado do SEI-IBS fica sujeito à apuração de
+responsabilidade, na forma da legislação vigente.
+
+ Art. 46. Esta resolução entra em vigor na data da sua publicação.
+
+
+ Flávio César Mendes de Oliveira
+
+ Presidente do Comitê Gestor do IBS

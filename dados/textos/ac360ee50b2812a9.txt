@@ -1,0 +1,658 @@
+Home 
+
+Validador da Reforma Tributária do Consumo - NF-e / NFC-e 
+
+Configurações 
+
+Finalidade da NF-e (finNFe) 
+
+Selecione... 
+ 1 – NF-e normal 
+ 2 – NF-e complementar 
+ 3 – NF-e de ajuste 
+ 4 – Devolução de mercadoria 
+ 5 – Nota de crédito 
+ 6 – Nota de débito 
+
+Tipo de Operação (tpNF) 
+
+Selecione... 
+ 0 – Entrada 
+ 1 – Saída 
+
+CRT – Regime do Emitente (crt) 
+
+Selecione... 
+ 1 – Simples Nacional 
+ 2 – Simples Nacional – excesso de sublimite de receita bruta 
+ 3 – Regime Normal 
+ 4 – Simples Nacional – Microempreendedor Individual (MEI) 
+
+Tipo de NF-e – Débito (tpNFDebito) 
+
+Selecione... 
+ 01 – Transferência de créditos para Cooperativas 
+ 02 – Anulação de Crédito por Saídas Imunes/Isentas 
+ 03 – Débitos de notas fiscais não processadas na apuração 
+ 04 – Multa e juros 
+ 05 – Transferência de crédito de sucessão 
+ 06 – Pagamento antecipado 
+ 07 – Perda em estoque 
+
+Tipo de NF-e – Crédito (tpNFCredito) 
+
+Selecione... 
+ 01 – Multa e juros 
+ 02 – Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25) 
+ 03 – Retorno 
+
+Indicador de Bem Móvel Usado (indBemMovelUsado) 
+
+Selecione... 
+ Sim 
+ Não 
+
+NF-e Referenciada (refNFe) 
+
+DF-e Referenciado (DFeReferenciado) 
+
+Chave de Acesso do DFe referenciado (chaveAcesso) 
+
+Número do item do documento referenciado (nItem) 
+
+Compra Governamental (gCompraGov) 
+
+Ente Governamental (tpEnteGov) 
+
+Selecione... 
+ 1 – União 
+ 2 – Estados 
+ 3 – Distrito Federal 
+ 4 – Municípios 
+
+Percentual Redutor (pRedutor) 
+
+Tipo da Operação com Ente Gov. (tpOperGov) 
+
+Selecione... 
+ 1 – Fornecimento 
+ 2 – Recebimento do Pagamento 
+
+Pagamento Antecipado (gPagAntecipado) 
+
+NF-e Referenciada – Pagamento Antecipado (refNFe) 
+ (1..99 chaves de acesso) 
+
+Incluir outra chave de acesso 
+
+Legenda 
+
+(passe o mouse) 
+
+Mostrar (tags) 
+
+Informações Iniciais do Item 
+
+CST (Código de Situação Tributária) 
+
+(CST) 
+
+Selecione um CST... 
+
+cClassTrib (Código de Classificação Tributária) 
+
+(cClassTrib) 
+
+Selecione um cClassTrib... 
+
+Regime de Tributação 
+
+Tributação Padrão(gIBSCBS) 
+
+Tributação Monofásica(CST 620)(gIBSCBSMono) 
+
+Transferência de Crédito(CST 800) 
+
+Ajuste de Competência (CST 811) 
+
+CST 410 - Imunidade e não incidência não permite a informação de tributação 
+
+CST 810 - Este recurso estará disponível em breve. 
+
+CST 830 - Este recurso estará disponível em breve. 
+
+Tributação Padrão (gIBSCBS) 
+
+Valor da Base de Cálculo (vBC) 
+
+IBS Estadual (gIBSUF) 
+
+Alíquota IBS Estadual (%) (pIBSUF) 
+
+Redução de Alíquota (gRed) 
+
+Redução de Alíquota (%) 
+
+(pRedAliq) 
+
+Alíquota Efetiva (%) (pAliqEfet) 
+
+Diferimento (gDif) 
+
+Percentual do Diferimento (pDif) 
+
+Valor do Diferimento (vDif) 
+
+Devolução de Tributo (gDevTrib) 
+
+Valor do Tributo Devolvido (vDevTrib) 
+
+Valor do IBS Estadual (vIBSUF) 
+
+IBS Municipal (gIBSMun) 
+
+Alíquota IBS Municipal (%) (pIBSMun) 
+
+Redução de Alíquota (gRed) 
+
+Redução de Alíquota (%) 
+
+(pRedAliq) 
+
+Alíquota Efetiva (%) (pAliqEfet) 
+
+Diferimento (gDif) 
+
+Percentual do Diferimento (pDif) 
+
+Valor do Diferimento (vDif) 
+
+Devolução de Tributo (gDevTrib) 
+
+Valor do Tributo Devolvido (vDevTrib) 
+
+Valor do IBS Municipal (vIBSMun) 
+
+Valor do IBS (vIBS) 
+
+CBS (gCBS) 
+
+Alíquota da CBS (%) (pCBS) 
+
+Redução de Alíquota (gRed) 
+
+Redução de Alíquota (%) 
+
+(pRedAliq) 
+
+Alíquota Efetiva (%) (pAliqEfet) 
+
+Diferimento (gDif) 
+
+Percentual do Diferimento (pDif) 
+
+Valor do Diferimento (vDif) 
+
+Devolução de Tributo (gDevTrib) 
+
+Valor do Tributo Devolvido (vDevTrib) 
+
+Valor da CBS (vCBS) 
+
+Tributação Regular(gTribRegular) 
+
+CST Regular 
+
+(CSTReg) 
+
+Selecione um CST... 
+
+cClassTrib Regular 
+
+(cClassTribReg) 
+
+Selecione um cClassTrib... 
+
+Alíquota Efetiva IBS UF (%) 
+(pAliqEfetRegIBSUF) 
+
+Valor do IBS UF (R$) 
+(vTribRegIBSUF) 
+
+Alíquota Efetiva IBS Município (%) 
+(pAliqEfetRegIBSMun) 
+
+Valor do IBS Município (R$) 
+(vTribRegIBSMun) 
+
+Alíquota Efetiva CBS (%) 
+(pAliqEfetRegCBS) 
+
+Valor da CBS (R$) 
+(vTribRegCBS) 
+
+Tributação Compra Governamental (gTribCompraGov) 
+
+Alíquota IBS UF (%) 
+(pAliqIBSUF) 
+
+Valor IBS UF (R$) 
+(vTribIBSUF) 
+
+Alíquota IBS Município (%) 
+(pAliqIBSMun) 
+
+Valor IBS Município (R$) 
+(vTribIBSMun) 
+
+Alíquota CBS (%) 
+(pAliqCBS) 
+
+Valor CBS (R$) 
+(vTribCBS) 
+
+Tributação Monofásica (gIBSCBSMono) 
+
+Tributação Padrão(gMonoPadrao) 
+
+Quantidade tributada na monofasia (qBCMono) 
+
+Alíquota ad rem do IBS (adRemIBS) 
+
+Valor do IBS monofásico(vIBSMono) 
+
+Alíquota ad rem da CBS (adRemCBS) 
+
+Valor da CBS monofásica(vCBSMono) 
+
+Tributação Monofásica Sujeita a Retenção (gMonoReten) 
+
+Quantidade tributada sujeita a retenção (qBCMonoReten) 
+
+Alíquota ad rem do IBS sujeito a retenção (adRemIBSReten) 
+
+Valor do IBS monofásico sujeito a retenção(vIBSMonoReten) 
+
+Alíquota ad rem da CBS sujeita a retenção (adRemCBSReten) 
+
+Valor da CBS monofásica sujeita a retenção(vCBSMonoReten) 
+
+Tributação Monofásica Retida Anteriormente (gMonoRet) 
+
+Quantidade tributada retida anteriormente (qBCMonoRet) 
+
+Alíquota ad rem do IBS retido anteriormente (adRemIBSRet) 
+
+Valor do IBS monofásico retido anteriormente(vIBSMonoRet) 
+
+Alíquota ad rem da CBS retida anteriormente (adRemCBSRet) 
+
+Valor da CBS monofásica retida anteriormente(vCBSMonoRet) 
+
+Diferimento da Tributação Monofásica(gMonoDif) 
+
+Percentual do diferimento do imposto monofásico (%) (pDifIBS) 
+
+Valor do IBS monofásico diferido(vIBSMonoDif) 
+
+Percentual do diferimento do imposto monofásico (%) (pDifCBS) 
+
+Valor da CBS monofásica diferida(vCBSMonoDif) 
+
+Total de IBS monofásico do item (vTotIBSMonoItem) 
+
+Total da CBS monofásica do item (vTotCBSMonoItem) 
+
+Transferência de Crédito (gTransfCred) 
+
+Valor do IBS a ser transferido (vIBS) 
+
+Valor da CBS a ser transferida (vCBS) 
+
+Ajuste de Competência (gAjusteCompet) 
+
+Ano e mês referência do período de apuração (AAAA-MM) (competApur) 
+
+Valor do IBS 
+(vIBS) 
+
+Valor da CBS 
+(vCBS) 
+
+Crédito Presumido 
+
+Crédito Presumido da Operação (gCredPresOper) 
+
+Valor da Base de Cálculo do Crédito Presumido da Operação (vBCCredPres) 
+
+Código de Classificação do Crédito Presumido do IBS e da CBS (cCredPres) 
+
+Selecione um cCredPres... 
+
+Crédito Presumido - IBS (gIBSCredPres) 
+
+Percentual do Crédito Presumido (%) (pCredPres) 
+
+Valor do Crédito Presumido (vCredPres) 
+
+Valor do Crédito Presumido Condição Suspensiva 
+
+vCredPresCondSus 
+
+Crédito Presumido - CBS (gCBSCredPres) 
+
+Percentual do Crédito Presumido (%) (pCredPres) 
+
+Valor do Crédito Presumido (vCredPres) 
+
+Valor do Crédito Presumido Condição Suspensiva 
+
+(vCredPresCondSus) 
+
+Ambiente Produção 
+ Ambiente Homologação 
+
+Validar 
+
+Resultado Validação 
+
+Resultado da Validação do Schema e de Regras de Negócio 
+
+Aguarde, processando... 
+
+XML 
+
+Conteúdo da mensagem a ser validada 
+
+Trocar visão 
+ Copiar XML 
+
+× 
+
+CST 
+
+Código de Situação Tributária 
+
+A Tabela de Indicadores de CST, publicada no Informe Técnico 2025.002, possui um conjunto de flags que orientam sobre quais campos devem ser preenchidos obrigatoriamente ou mantidos em branco. 
+
+Indicadores para Opções de Tributação 
+
+No layout da NF-e existem 4 tipos de tributação possíveis, e para cada um deles existe um indicador na tabela de CST. 
+
+Indicador 
+ Grupo(s) XML 
+ Descrição 
+
+ind_gIBSCBS 
+
+gIBSCBS 
+
+0 = Não permite grupo de Tributação Padrão.
+
+1 = Exige o grupo de Tributação Padrão. 
+
+ind_gIBSCBSMono 
+
+gIBSCBSMono 
+
+0 = Não permite grupo de Tributação Monofásica.
+
+1 = Exige o grupo de Tributação Monofásica. 
+
+ind_gTransfCred 
+
+gTransfCred
+
+0 = Não permite o grupo para Transferência de Crédito.
+
+1 = Exige o grupo para Transferência de Crédito.
+
+ind_gAjusteCompet 
+
+gAjusteCompet 
+
+0 = Não permite grupo de Ajuste de Competência.
+
+1 = Exige o grupo de de Ajuste de Competência. 
+
+Importante: Somente uma Opção de Tributação pode ser informada na sua Nota Fiscal. 
+
+Indicadores para Regras de Tributação Específicas 
+
+Indicador 
+ Grupo(s) XML 
+ Descrição 
+
+ind_gRed 
+
+gIBSCBS/gIBSUF/gRed
+
+gIBSCBS/gIBSMun/gRed
+
+gIBSCBS/gCBS/gRed 
+
+0 = Não permite grupo de Redução de Alíquota.
+
+1 = Exige o grupo de Redução de Alíquota. 
+
+ind_gDif 
+
+gIBSCBS/gIBSUF/gDif
+
+gIBSCBS/gIBSMun/gDif
+
+gIBSCBS/gCBS/gDif 
+
+0 = Não permite grupo de Diferimento.
+
+1 = Exige o grupo de Diferimento. 
+
+Importante: os grupos Diferimento(gDif), Redução de Alíquota(gRed) e também o grupo de Devolução de Tributos(gDevTrib) são aplicáveis para o IBS Estadual (gIBSUF), IBS Municipal (gIBSMun) e CBS (gCBS), todos com o mesmo layout. 
+
+× 
+
+cClassTrib 
+
+Código de Classificação Tributária 
+
+O cClassTrib é o código que traduz a legislação para as informações de tributação na sua Nota Fiscal. 
+ Ele especifica o motivo legal e o fundamento jurídico do tratamento tributário de um determinado produto ou serviço. 
+
+Cada cClassTrib está associado a um dispositivo específico da Lei Complementar nº 214/2025 (que regulamenta o IBS e a CBS), oferecendo um código único para cada tratamento fiscal. 
+
+Vínculo do cClassTrib com o CST 
+
+Os três primeiros dígitos do cClassTrib são idênticos ao CST. 
+
+Indicadores do cClassTrib 
+
+A tabela de cClassTrib contém indicadores que relacionam quais informações são exigidas, permitidas ou vedadas nos documentos fiscais eletrônicos. 
+
+Ou seja, cada indicador é um sinalizador que estabelece se determinados grupos devem ser: 
+
+Informados obrigatoriamente; 
+
+Informados opcionalmente, ou 
+
+Não devem ser informados. 
+
+Indicadores e significados 
+
+Indicador 
+ Grupo(s) XML 
+ Descrição 
+
+ind_gTribRegular 
+
+gIBSCBS/gTribRegular 
+
+0 = Não permite grupo de Tributação Regular.
+
+1 = Exige o grupo de Tributação Regular. 
+
+ind_CredPres 
+
+IBSCBS/gCredPresOper 
+
+0 = Não permite os grupos de Crédito Presumido.
+
+1 = Permite (mas não exige) os grupos de Crédito Presumido. 
+
+ind_RedutorBC 
+
+gIBSCBS/vBC
+
+0 = Não permite redução na Base de Cálculo.
+
+1 = Permite (mas não exige) redução na Base de Cálculo.
+
+Nota: somente para Bens Imóveis. 
+
+indMonoPadrao 
+
+gIBSCBSMono/gMonoPadrao
+
+Identifica operação sujeita a regime monofásico simples (sem retenção).
+
+0 = Não permite o grupo de Tributação Monofásica Padrão.
+
+1 = Exige o grupo de Tributação Monofásica Padrão. 
+
+indMonoReten 
+
+gIBSCBSMono/gMonoReten 
+
+Identifica regime monofásico com retenção na fonte por substituição tributária.
+
+0 = Não permite o grupo de Tributação Monofásica Sujeita a Retenção.
+
+1 = Exige o grupo de Tributação Monofásica Sujeita a Retenção. 
+
+indMonoRet 
+
+gIBSCBSMono/gMonoRet 
+
+Identifica retenção monofásica em operação de saída.
+
+0 = Não permite o grupo de Tributação Monofásica Retida Anteriormente.
+
+1 = Exige o grupo de Tributação Monofásica Retida Anteriormente. 
+
+indMonoDif 
+
+gIBSCBSMono/gMonoDif 
+
+Identifica operações em que há diferimento da Tributação Monofásica.
+
+0 = Não permite o grupo de Diferimento da Tributação Monofásica.
+
+1 = Exige o grupo de Diferimento da Tributação Monofásica. 
+
+Atualização Constante 
+
+A tabela cClassTrib é atualizada periodicamente para incorporar melhorias, atender a alterações legais e suprir as necessidades da apuração assistida do IBS e da CBS. 
+
+Clique aqui para baixar a tabela de indicadores atualizada. 
+
+Você também pode consultar a versão online na área Conformidade Fácil: 
+
+https://dfe-portal.svrs.rs.gov.br/CFF/ClassificacaoTributaria 
+
+× 
+
+Tributação Regular 
+
+Para que serve o grupo de Tributação Regular (gTribRegular)? 
+
+Sua função principal é registrar informações sobre a tributação normal (regular) do IBS e da CBS quando existem condições resolutivas ou suspensivas que alterem a tributação final. 
+
+Ou seja, ele permite que a fiscalização e os contribuintes visualizem a tributação "cheia" ou "original" de um item da nota fiscal. Isso é crucial para a apuração assistida do IBS e da CBS, simplificando a verificação de créditos e débitos. 
+
+Quando preencher? 
+
+O preenchimento desses campos é condicionada à classificação tributária do item - cClassTrib. 
+
+Exemplo 
+
+Um exemplo prático é em operações com a Zona Franca de Manaus (ZFM), onde benefícios fiscais podem reduzir ou isentar o IBS/CBS. O gTribRegular informaria qual seria o valor do IBS/CBS se esses benefícios não fossem aplicados, ou seja, a tributação regular. 
+
+Campos do gTribRegular 
+
+Valores do IBS e CBS na Tributação Regular: 
+
+vTribRegIBSUF: IBS de competência da UF. 
+
+vTribRegIBSMun: IBS de competência do Município. 
+
+vTribRegCBS: CBS. 
+
+Alíquotas efetivas regulares: 
+
+pAliqEfetRegIBSUF: Alíquota efetiva do IBS da UF. 
+
+pAliqEfetRegIBSMun: Alíquota efetiva do IBS do Município. 
+
+pAliqEfetRegCBS: Alíquota efetiva da CBS. 
+
+Tabela de cClassTribs aceitos na Tributação Regular 
+
+CST 
+ cClassTrib 
+ Nome cClassTrib 
+ indTribRegular 
+
+× 
+
+Alíquotas IBS e CBS 
+
+Conforme Lei Complementar 214/2025 
+
+Imposto 
+ Tag XML 
+ 2026 
+ 2027-2028 
+
+Alíquota 
+ Dispositivo Legal 
+ Alíquota 
+ Dispositivo Legal 
+
+IBS da UF 
+
+pIBSUF 
+
+0,1% 
+
+Art. 343 da LC 214/25 
+
+0,05% 
+
+Art. 344 da LC 214/25 
+
+IBS do Município 
+
+pIBSMun 
+
+0% 
+
+Art. 344 da LC 214/25 
+
+0,05% 
+
+Art. 344 da LC 214/25 
+
+CBS 
+
+pCBS 
+
+0,9% 
+
+Art. 346 da LC 214/25 
+
+*(1) 
+
+Art. 347 da LC 214/25 
+
+*(1) = Verificar dispositivo legal. 
+
+Sair

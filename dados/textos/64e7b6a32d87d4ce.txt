@@ -1,0 +1,727 @@
+Home 
+
+Tabela de Crédito Presumido 
+
+Código 
+ Descrição 
+ Apropria DFE 
+ Apropria Evento 
+
+Deduz Valor Total 
+ Tributos 
+
+1 
+
+Crédito presumido da aquisição de bens e serviços de produtor rural e produtor rural integrado não contribuinte, observado o art. 168 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+IBS 
+ CBS 
+
+Detalhes do Crédito Presumido 1 
+
+Informações Gerais: 
+
+Código: 1 
+
+Descrição: Crédito presumido da aquisição de bens e serviços de produtor rural e produtor rural integrado não contribuinte, observado o art. 168 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Sim 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+2 
+
+Crédito presumido da aquisição de serviço de transportador autônomo de carga pessoa física não contribuinte, observado o art. 169 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+- 
+
+IBS 
+ CBS 
+
+Detalhes do Crédito Presumido 2 
+
+Informações Gerais: 
+
+Código: 2 
+
+Descrição: Crédito presumido da aquisição de serviço de transportador autônomo de carga pessoa física não contribuinte, observado o art. 169 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Não 
+
+Apropria Evento: 
+ Sim 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+3 
+
+Crédito presumido da aquisição de resíduos e demais materiais destinados à reciclagem, reutilização ou logística reversa adquiridos de pessoa física, cooperativa ou outra forma de organização popular, observado o art. 170 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+IBS 
+ CBS 
+
+Detalhes do Crédito Presumido 3 
+
+Informações Gerais: 
+
+Código: 3 
+
+Descrição: Crédito presumido da aquisição de resíduos e demais materiais destinados à reciclagem, reutilização ou logística reversa adquiridos de pessoa física, cooperativa ou outra forma de organização popular, observado o art. 170 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Sim 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2029 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+4 
+
+Crédito presumido da aquisição de bens móveis usados de pessoa física não contribuinte para revenda, observado o art. 171 da Lei Complementar nº 214, de 2025. 
+
+IBS 
+ CBS 
+
+Detalhes do Crédito Presumido 4 
+
+Informações Gerais: 
+
+Código: 4 
+
+Descrição: Crédito presumido da aquisição de bens móveis usados de pessoa física não contribuinte para revenda, observado o art. 171 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Sim 
+
+Deduz Crédito Presumido: 
+ Sim 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+5 
+
+Crédito presumido no regime automotivo, observado o art. 311 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+- 
+
+CBS 
+
+Detalhes do Crédito Presumido 5 
+
+Informações Gerais: 
+
+Código: 5 
+
+Descrição: Crédito presumido no regime automotivo, observado o art. 311 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Não 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+6 
+
+Crédito presumido no regime automotivo, observado o art. 312 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+- 
+
+CBS 
+
+Detalhes do Crédito Presumido 6 
+
+Informações Gerais: 
+
+Código: 6 
+
+Descrição: Crédito presumido no regime automotivo, observado o art. 312 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Não 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+7 
+
+Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 444 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+IBS 
+
+Detalhes do Crédito Presumido 7 
+
+Informações Gerais: 
+
+Código: 7 
+
+Descrição: Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 444 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Não 
+
+Deduz Crédito Presumido: 
+ Sim 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+8 
+
+Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 447 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+- 
+
+IBS 
+
+Detalhes do Crédito Presumido 8 
+
+Informações Gerais: 
+
+Código: 8 
+
+Descrição: Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 447 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Não 
+
+Apropria Evento: 
+ Sim 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+ Não informado 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+9 
+
+Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 449 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+- 
+
+IBS 
+
+Detalhes do Crédito Presumido 9 
+
+Informações Gerais: 
+
+Código: 9 
+
+Descrição: Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 449 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Não 
+
+Apropria Evento: 
+ Sim 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2029 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+10 
+
+Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 450 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+- 
+
+CBS 
+
+Detalhes do Crédito Presumido 10 
+
+Informações Gerais: 
+
+Código: 10 
+
+Descrição: Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 450 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Não 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+11 
+
+Crédito presumido na aquisição por contribuinte na Área de Livre Comércio, observado o art. 462 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+IBS 
+
+Detalhes do Crédito Presumido 11 
+
+Informações Gerais: 
+
+Código: 11 
+
+Descrição: Crédito presumido na aquisição por contribuinte na Área de Livre Comércio, observado o art. 462 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Não 
+
+Deduz Crédito Presumido: 
+ Sim 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+12 
+
+Crédito presumido na aquisição por contribuinte na Área de Livre Comércio, observado o art. 465 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+- 
+
+IBS 
+
+Detalhes do Crédito Presumido 12 
+
+Informações Gerais: 
+
+Código: 12 
+
+Descrição: Crédito presumido na aquisição por contribuinte na Área de Livre Comércio, observado o art. 465 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Não 
+
+Apropria Evento: 
+ Sim 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2029 
+
+Fim Vigência: 
+ Indeterminado 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+13 
+
+Crédito presumido na aquisição pela indústria na Área de Livre Comércio, observado o art. 467 da Lei Complementar nº 214, de 2025. 
+
+- 
+
+- 
+
+CBS 
+
+Detalhes do Crédito Presumido 13 
+
+Informações Gerais: 
+
+Código: 13 
+
+Descrição: Crédito presumido na aquisição pela indústria na Área de Livre Comércio, observado o art. 467 da Lei Complementar nº 214, de 2025. 
+
+Configurações: 
+
+Apropria DFE: 
+ Sim 
+
+Apropria Evento: 
+ Não 
+
+Deduz Crédito Presumido: 
+ Não 
+
+Vigência dos Tributos: 
+
+IBS (Imposto sobre Bens e Serviços) 
+
+Aplicável: 
+ Não 
+
+CBS (Contribuição sobre Bens e Serviços) 
+
+Aplicável: 
+ Sim 
+
+Início Vigência: 
+01/01/2027 
+
+Fim Vigência: 
+ Indeterminado 
+
+Entrar com 
+
+Janela de Manutenção 
+
+As manutenções programadas do ambiente DFe são sempre efetuadas aos Domingos das 07h00 às 09h00. 
+ Pequenas manutenções sem risco de indisponibilidade (ou de baixo risco) serão programadas 
+ com até 36 horas de antecedência. Demais manutenções, serão comunicadas em tempo hábil. 
+ Ver previsão de manutenção no box abaixo. 
+
+Não há manutenção prevista para o próximo Domingo 
+
+Secretarias de Fazenda 
+
+Acre 
+ Alagoas 
+ Amapá 
+ Amazonas 
+ Bahia 
+ Ceará 
+ Distrito Federal 
+ Espirito Santo 
+ Goiás 
+ Maranhão 
+ Mato Grosso 
+ Mato Grosso do Sul 
+ Minas Gerais 
+ Pará 
+ Paraíba 
+ Paraná 
+ Pernambuco 
+ Piauí 
+ Rio de Janeiro 
+ Rio Grande do Norte 
+ Rio Grande do Sul 
+ Rondônia 
+ Roraima 
+ Santa Catarina 
+ São Paulo 
+ Sergipe 
+ Tocantins 
+
+Navegação 
+
+Portal do BPe 
+
+Portal do CTe 
+
+Portal do MDFe 
+
+Portal da NFCe 
+
+Portal da NF3E 
+
+Portal da NFCom 
+
+Portal da NFe 
+
+Portal da NFF 
+
+Portal do ONE 
+
+Portal da DCe 
+
+Portal da DIFAL 
+
+Portal da PES 
+
+Portal da NFAG 
+
+Portal da NFABI 
+
+Portal da NFGAS 
+
+Links externos 
+
+CTe 
+
+NFe 
+
+NFCe 
+
+CONFAZ 
+
+Dúvidas frequentes 
+
+FAQ 
+
+Sair

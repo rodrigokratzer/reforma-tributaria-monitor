@@ -1,0 +1,141 @@
+O Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) informa que foi publicado, em conjunto com a Receita Federal do Brasil (RFB), comunicado com as orientações oficiais relativas ao início da vigência da Contribuição sobre Bens e Serviços (CBS) e do Imposto sobre Bens e Serviços (IBS), conforme previsto na Lei Complementar nº 214/2025, regulamentadora da Emenda Constitucional nº 132/2023.
+
+O documento esclarece sobre as obrigações principais e acessórias aplicáveis aos fatos geradores ocorridos a partir de 1º de janeiro de 2026, marco inicial do período de testes dos novos tributos da Reforma Tributária.
+
+Principais orientações
+
+Emissão de documentos fiscais eletrônicos: A partir de 2026, os principais documentos fiscais (NF-e, NFC-e, CT-e, NFS-e, NF3e, BP-e, entre outros) deverão ser emitidos com destaque da CBS e do IBS, de acordo com as Notas Técnicas que serão publicadas.
+
+O contribuinte impossibilitado de emitir os documentos fiscais eletrônicos por responsabilidade única e exclusiva do ente federativo não estará descumprindo a obrigação acessória.
+
+Declarações e leiautes: As declarações específicas (como a DeRE) e novos modelos de documentos fiscais terão seus leiautes e datas de vigência divulgados por meio de atos conjuntos RFB–CGIBS.
+
+Plataformas digitais: Um padrão nacional de envio de informações por plataformas digitais será definido em ato próprio.
+
+⁠Pessoas físicas contribuintes: A partir de julho de 2026, pessoas físicas sujeitas à CBS e ao IBS deverão possuir CNPJ, exclusivamente para fins cadastrais.
+
+Dispensa de recolhimento em 2026: No ano de testes, os contribuintes que cumprirem as obrigações acessórias estarão dispensados do recolhimento de CBS e IBS.
+
+⁠Fundos de compensação: A partir de janeiro de 2026, titulares de benefícios onerosos de ICMS poderão solicitar habilitação para futuras compensações via e-CAC, seguindo orientações que serão detalhadas em ato normativo.
+
+Novas orientações serão publicadas à medida que avançarem as etapas da implementação da Reforma Tributária do Consumo.
+
+Acesse o Comunicado Conjunto em: https://cgibs.gov.br/upload/arquivos/202512/02192247-comunicado-conjunto-cgibs-e-rfb.pdf.
+
+===== ANEXO: https://cgibs.gov.br/upload/arquivos/202512/02192247-comunicado-conjunto-cgibs-e-rfb.pdf =====
+[pagina 1]
+Comunicado Conjunto CGIBS/RFB 01/2025
+ Brasília-DF, 02 de dezembro de 2025
+
+
+
+
+ Receita Federal e Comitê Gestor do
+ Imposto sobre Bens e Serviços publicam
+ orientações sobre a entrada em vigor da
+ CBS e do IBS a par=r de 1º de janeiro de
+ 2026
+
+
+ A Receita Federal e Comitê Gestor do Imposto sobre Bens e Serviços
+publicam orientações sobre a entrada em vigor da Contribuição sobre Bens e Serviços
+(CBS) e do Imposto sobre Bens e Serviços (IBS) a parLr de 1º de janeiro de 2026,
+conforme previsto na Lei Complementar nº 214, de 16 de janeiro de 2025, que
+regulamentou a Emenda ConsLtucional nº 132 (Reforma Tributária do Consumo).
+
+
+ Por essa razão as duas insLtuições vêm à público orientar as empresas
+quanto às obrigações principais e acessórias em relação aos fatos geradores do ano-
+calendário de 2026.
+
+
+ 1. Obrigações a par=r de 2026
+ A parLr de 1º de janeiro de 2026, os contribuintes estarão obrigados a:
+
+ • EmiLr documentos ﬁscais eletrônicos com destaque da CBS e do IBS,
+ individualizados por operação, conforme as regras e leiautes deﬁnidos em Notas
+ Técnicas especíﬁcas de cada documento;
+ • Apresentar, quando disponibilizadas, as Declarações dos Regimes Especíﬁcos –
+ DeRE, conforme as regras e leiautes deﬁnidos em Documento Técnico especíﬁco
+ de cada documento;
+ • Apresentar, quando disponibilizadas, as declarações e/ou documentos ﬁscais de
+ plataformas digitais, conforme as regras e leiautes deﬁnidos em Documento
+ Técnico especíﬁco de cada documento.
+
+[pagina 2]
+A parLr de julho de 2026, as pessoas dsicas que sejam contribuintes da
+CBS e do IBS, deverão se inscrever no CNPJ. A inscrição no CNPJ não transforma a pessoa
+dsica em jurídica, servindo apenas para facilitar a apuração do IBS e da CBS.
+ 2. Obrigações Acessórias
+ A parLr de 1º de janeiro de 2026, os seguintes documentos ﬁscais
+eletrônicos deverão ser emiLdos com destaque da CBS e do IBS, e serão autorizados nos
+termos das Notas Técnicas especíﬁcas:
+
+ • Nota Fiscal Eletrônica – NF-e;
+ • Nota Fiscal de Consumidor Eletrônica – NFC-e;
+ • Conhecimento de Transporte Eletrônico – CT-e;
+ • Conhecimento de Transporte Eletrônico - Outros Serviços - CT-e OS;
+ • Nota Fiscal de Serviço Eletrônica – NFS-e;
+ • Nota Fiscal de Serviço Eletrônica de Exploração de Via – NFS-e Via;
+ • Nota Fiscal Fatura de Serviços de Comunicação Eletrônica – NFCom;
+ • Nota Fiscal de Energia Elétrica Eletrônica – NF3e;
+ • Bilhete de Passagem Eletrônico – BP-e; e
+ • Bilhete de Passagem Eletrônico Transporte Metropolitano – BP-e TM.
+ O contribuinte impossibilitado de emiLr os documentos ﬁscais
+eletrônicos por responsabilidade única e exclusiva do ente federaLvo não estará
+descumprindo a obrigação acessória.
+ 3. Leiautes deﬁnidos sem data de vigência determinada
+ A NF-ABI (Nota Fiscal de Alienação de Bens Imóveis), a NFAg (Nota Fiscal
+de Água e Saneamento) e o BP-e Aéreo (Bilhete de Passagem Aéreo) já possuem leiautes
+deﬁnidos e terão suas datas de vigências determinadas em documento técnico ou ato
+conjunto do Comitê Gestor do IBS e da Receita Federal do Brasil.
+ 4. Leiautes em construção
+ A NF-e Gás (Nota Fiscal de Gás), terá seus leiautes e datas de vigências
+deﬁnidas em nota técnica ou ato conjunto do CGIBS e RFB.
+ A Declaração dos Regimes Especíﬁcos – DeRE, em construção para os
+regimes de InsLtuições Financeiras, Planos de Assistência à Saúde, Concurso de
+PrognósLco, Administração de Consórcio, Seguro e Previdência, terá seus leiautes e
+datas de vigências deﬁnidas em nota técnica ou ato conjunto do CGIBS e da RFB.
+ Outros fatos geradores que, atualmente, não exigem a emissão de
+documentos ﬁscais, e deverão ser incluídos em documentos ﬁscais eletrônicos com
+destaque da CBS e do IBS, terão seus leiautes e datas de vigências deﬁnidos em
+documento técnico ou ato conjunto do CGIBS e RFB.
+
+[pagina 3]
+5. Plataformas digitais
+
+ A forma com que as plataformas digitais prestarão informações sobre as
+operações e importações com bens ou com serviços realizadas por seu intermédio, terá
+seus leiautes e datas de vigências deﬁnidas em nota técnica ou ato conjunto do Comitê
+Gestor da IBS e Receita Federal do Brasil.
+ 6. Dispensa do recolhimento em 2026 mediante cumprimento das obrigações
+ acessórias
+ Considerando que o ano de 2026 será o ano de teste da CBS e do IBS, o
+contribuinte que emiLr documentos ﬁscais ou declaração de regimes especíﬁcos
+observando as normas e notas vigentes, conforme item 3, estará dispensado de
+recolhimento do IBS e da CBS.
+ Também estarão dispensados de recolhimento do IBS e da CBS os
+contribuintes para os quais não haja obrigação acessória deﬁnida.
+ 7. Fundos de Compensação de BeneScios Fiscais
+ A parLr de janeiro de 2026, os Ltulares de benedcios onerosos relaLvos
+ao ICMS poderão apresentar requerimentos para os procedimentos de habilitação a
+futuros direitos de compensações de que trata o art. 384 da Lei Complementar nº 214,
+de 2025, por meio do e-CAC, preenchendo formulário eletrônico que estará disponível
+no SISEN, conforme ato normaLvo a ser emiLdo.
+ Deverão ser preenchidos tantos requerimentos quantos forem os
+benedcios passíveis de compensação usufruídos pelo requerente em cada programa de
+concessão de benedcios onerosos.
+ 8. Orientações complementares
+ Comunicados conjuntos do CGIBS e RFB complementares trarão as
+atualizações da implantação da Reforma Tributária do Consumo.
+
+
+
+
+Cordialmente,
+
+
+
+
+ Comitê Gestor do Imposto Sobre Bens e Serviços
+ Receita Federal do Brasil
