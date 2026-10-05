@@ -5,7 +5,6 @@ Alerta do fim do ciclo: push pelo ntfy.sh e e-mail por SMTP.
 Uso:
   python3 scripts/notificar.py                  # alerta da analise do ciclo
   python3 scripts/notificar.py --falha "msg"    # alerta urgente de falha
-  python3 scripts/notificar.py --aviso "msg"    # aviso normal (nao urgente)
 
 Le dados/analise_status.json e analises/<data>-<turno>.md (ou <data>.md no
 formato antigo). Configuracao so por variavel de ambiente (o repositorio e
@@ -35,7 +34,6 @@ LIMITE_CORPO = 3500
 LIMITE_TRECHO = 600
 PRIORIDADES = {"min": 1, "low": 2, "default": 3, "high": 4, "urgent": 5}
 TITULO_FALHA = "Monitor da Reforma: falha no ciclo"
-TITULO_AVISO = "Monitor da Reforma: aviso"
 
 
 def log(texto):
@@ -145,19 +143,6 @@ def monta_falha(mensagem, painel_url):
         "prioridade": "urgent",
         "click": painel_url,
         "tags": ["warning"],
-        "md": None,
-    }
-
-
-def monta_aviso(mensagem, painel_url):
-    corpo = _corta(mensagem or "aviso sem detalhe", LIMITE_CORPO - len(painel_url) - 2)
-    return {
-        "titulo": TITULO_AVISO,
-        "assunto": TITULO_AVISO,
-        "corpo": corpo + "\n\n" + painel_url,
-        "prioridade": "default",
-        "click": painel_url,
-        "tags": ["broom"],
         "md": None,
     }
 
@@ -290,8 +275,6 @@ def main(argv=None, raiz=None, env=None):
         painel = (env.get("PAINEL_URL") or "").strip() or PAINEL_PADRAO
         if argv and argv[0] == "--falha":
             msg = monta_falha(" ".join(argv[1:]), painel)
-        elif argv and argv[0] == "--aviso":
-            msg = monta_aviso(" ".join(argv[1:]), painel)
         else:
             status = _le_status(raiz)
             if status is None:
