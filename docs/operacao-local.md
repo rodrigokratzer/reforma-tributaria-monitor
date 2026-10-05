@@ -189,3 +189,44 @@ dos unit files. **Não** reinicie os timers por reflexo: como eles são
 passou pode dispará-lo na hora — inclusive o da análise, que faz push num
 repositório público. Reinicie só deliberadamente, quando for isso que você
 quer.
+
+## Consulta pelo app do Claude
+
+`reforma-consulta.service` mantém um `claude remote-control` sempre ligado na
+máquina local. Ele registra um ambiente chamado **"Reforma – consulta"** no app
+do Claude, e cada sessão aberta ali roda aqui, com acesso ao acervo (`normas/`,
+`dados/`, `analises/`).
+
+**Abrir uma sessão:** app do Claude → Code → escolha o ambiente **"Reforma –
+consulta"** → nova sessão. Cada sessão é uma worktree em
+`.claude/worktrees/`, criada a partir de `main` (o checkout de produção nunca é
+tocado diretamente).
+
+**Limpeza semanal:** `reforma-limpeza.timer` (domingo 03:00) roda
+`scripts/limpar_worktrees.py --aplicar`. Remove só worktrees de sessão paradas
+há 7+ dias, sem mudança pendente e sem commit fora do `main`; nunca usa
+`--force`. As que têm trabalho pendente ficam e geram um push (aviso). Para ver
+o que seria removido: `python3 scripts/limpar_worktrees.py` (sem `--aplicar`).
+
+**Logs e reinício:**
+
+```bash
+journalctl -u reforma-consulta.service -f
+sudo systemctl restart reforma-consulta.service
+```
+
+Se o serviço não sobe (ex.: login do Claude expirou), `OnFailure` dispara o
+push de falha; refaça o login com `claude` no terminal e reinicie.
+
+**Risco assumido:** o serviço roda com `--permission-mode bypassPermissions`,
+ou seja, as sessões executam comandos e editam arquivos sem pedir permissão.
+É uma decisão explícita (ver `docs/superpowers/specs/2026-10-05-consulta-remota-design.md`,
+"Riscos"); quem tem acesso à sua conta do Claude controla esta máquina.
+
+**Instalar:**
+
+```bash
+sudo cp deploy/systemd/reforma-consulta.service deploy/systemd/reforma-limpeza.service deploy/systemd/reforma-limpeza.timer /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now reforma-consulta.service reforma-limpeza.timer
+```

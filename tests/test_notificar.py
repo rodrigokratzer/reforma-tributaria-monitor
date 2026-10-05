@@ -87,6 +87,12 @@ class TestMontaMensagem(unittest.TestCase):
         self.assertLess(len(msg["corpo"]), 4000)
         self.assertTrue(msg["corpo"].rstrip().endswith(msg["click"]))
 
+    def test_aviso_prioridade_normal(self):
+        msg = nt.monta_aviso("2 worktrees com trabalho pendente", PAINEL)
+        self.assertEqual(msg["prioridade"], "default")
+        self.assertEqual(msg["titulo"], "Monitor da Reforma: aviso")
+        self.assertIn("2 worktrees", msg["corpo"])
+
     def test_falha_monta_prioridade_urgente(self):
         msg = nt.monta_falha("dou falhou", PAINEL)
         self.assertEqual(msg["prioridade"], "urgent")
@@ -217,6 +223,18 @@ class TestMain(unittest.TestCase):
             self.assertEqual(corpo["priority"], 5)
             self.assertEqual(corpo["tags"], ["warning"])
             self.assertIn("unidade x falhou", corpo["message"])
+
+    def test_aviso_cli_nao_urgente(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with mock.patch("urllib.request.urlopen") as urlopen:
+                urlopen.return_value.__enter__.return_value.status = 200
+                rc = nt.main(["--aviso", "texto do aviso"], raiz=Path(tmp), env=ENV_NTFY)
+            self.assertEqual(rc, 0)
+            corpo = json.loads(urlopen.call_args[0][0].data.decode("utf-8"))
+            self.assertNotEqual(corpo["priority"], 5)
+            self.assertEqual(corpo["priority"], 3)
+            self.assertEqual(corpo["tags"], ["broom"])
+            self.assertIn("texto do aviso", corpo["message"])
 
 
 if __name__ == "__main__":
