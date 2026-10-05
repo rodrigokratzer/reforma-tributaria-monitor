@@ -44,14 +44,22 @@ PADRAO_NORMA = {
     "ec132": r"emenda constitucional n[o.]*\s*132\b|\bec\s*(n[o.]*\s*)?132\b",
     "cf-reforma": r"constituicao federal|\bart\.?\s*(156-a|156-b|195)\b",
 }
+# Documento tipo que pode alterar cada norma (hierarquia legal)
+TIPO_QUE_ALTERA = {
+    "lc214": "lei complementar",
+    "lc227": "lei complementar",
+    "ec132": "emenda constitucional",
+    "cf-reforma": "emenda constitucional",
+}
 ATO = re.compile(r"(lei complementar|emenda constitucional|medida provisoria|lei|decreto)"
                  r" n[o.]*\s*([\d.]+)")
 ART = re.compile(r"(?m)^(?:\[NÃO VIGENTE: )?Art\. (\d+(?:-[A-Z])?)")
 VERBO = re.compile(r"\b(altera|alteram|alterando|alterado|alterada|acrescenta|acrescentam|acrescido"
                    r"|acrescida|revoga|revogam|revogado|revogada|revogados|da nova redacao|modifica"
                    r"|modificam)\b")
-ATO_REF = re.compile(r"\b(lei complementar|emenda constitucional|medida provisoria|lei|decreto)"
-                     r"\s+n[o.]*\s*[\d.]+")
+# ANY numbered reference ends the window: "lei no 123", "resolucao no 456", etc.
+# Matches one or more words + "no" + full number (may include dots like 2.345)
+ATO_REF = re.compile(r"\b[a-z][a-z ]{1,40}\s+n[o.]*\s*[\d.]+")
 PASSA_VIGORAR = re.compile(r"\bpassa(?:m)?\s+a\s+vigorar\b")
 
 
@@ -130,6 +138,20 @@ def _sem_citacoes(s):
             resultado += s[i]
             i += 1
     return resultado
+
+
+def _pode_alterar_por_hierarquia(titulo_norm, norma_id):
+    """
+    Check if the document type in titulo_norm can legally amend the target norm.
+    Only Lei Complementar can amend LC 214/227.
+    Only Emenda Constitucional can amend EC 132/CF-reforma.
+    Everything else (Resolução, Portaria, Lei ordinária, etc.) cannot.
+    """
+    tipo_requerido = TIPO_QUE_ALTERA.get(norma_id, "")
+    if not tipo_requerido:
+        return False
+    # Check if titulo starts with or contains the required document type
+    return bool(re.search(r"\b" + tipo_requerido, titulo_norm))
 
 
 def _trecho_alteracao(texto_n, padrao_norma):
@@ -213,6 +235,11 @@ def alteracoes_de(docs, norma_id, artigo=None):
     Return publications that AMEND (not merely mention) the norm within the window.
     Each result includes 'trecho' (the amendment context).
     incorporada=None means no act number was identified in the title.
+
+    Hierarchy check: only documents of the correct legal type can amend each norm.
+    Lei Complementar can only amend LC 214/227.
+    Emenda Constitucional can only amend EC 132/CF-reforma.
+    All other types (Resolução, Portaria, Lei ordinária, etc.) cannot amend any.
     """
     padrao_str = PADRAO_NORMA[norma_id]
     norma = next((d for d in docs if d["tipo"] == "norma" and d["id"] == norma_id), None)
@@ -222,6 +249,9 @@ def alteracoes_de(docs, norma_id, artigo=None):
     out = []
     for d in docs:
         if d["tipo"] != "publicacao" or (d["data"] or "") < base.isoformat():
+            continue
+        # Hierarchy check: can this document type legally amend this norm?
+        if not _pode_alterar_por_hierarquia(d["_nt"], norma_id):
             continue
         # Check if this publication contains an amendment
         trecho = _trecho_alteracao(d["_n"], padrao_str)
@@ -250,6 +280,9 @@ def mencoes_de(docs, norma_id):
     """
     Return publications that MENTION (but do not amend) the norm within the window.
     Same fields as alteracoes_de but without incorporada.
+
+    Includes: (a) documents that don't amend the norm, and
+             (b) documents that WOULD amend it but fail hierarchy check.
     """
     padrao_str = PADRAO_NORMA[norma_id]
     norma = next((d for d in docs if d["tipo"] == "norma" and d["id"] == norma_id), None)
@@ -263,13 +296,18 @@ def mencoes_de(docs, norma_id):
         # Check if mentions the norm
         if not re.search(padrao_str, d["_n"]) and not re.search(padrao_str, d["_nt"]):
             continue
-        # Check if this is an amendment (if so, skip it)
-        trecho = _trecho_alteracao(d["_n"], padrao_str)
-        if trecho:
+        # Check hierarchy: if document type can't amend, it's a mention
+        if not _pode_alterar_por_hierarquia(d["_nt"], norma_id):
+            # Fails hierarchy check -> it's a mention
+            out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
+                        "url": d["url"], "caminho": d["caminho"]})
             continue
-        # This is a mention, not an amendment
-        out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
-                    "url": d["url"], "caminho": d["caminho"]})
+        # Document passes hierarchy, but is it an amendment?
+        trecho = _trecho_alteracao(d["_n"], padrao_str)
+        if not trecho:
+            # Passes hierarchy but no amendment pattern -> it's a mention
+            out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
+                        "url": d["url"], "caminho": d["caminho"]})
     out.sort(key=lambda x: x["data"], reverse=True)
     return out
 
@@ -293,15 +331,15 @@ def main(argv=None):
             print(f"Erro: {e}", file=sys.stderr)
             return 2
         norma = next(d for d in docs if d["tipo"] == "norma" and d["id"] == a.alteracoes_de)
-        if not res:
+        if res:
+            print(f"Compilacao de {norma['rotulo']} baixada em {norma['data']}. "
+                  f"{len(res)} publicacao(oes) que a alteram:")
+            for r in res:
+                inc = {True: "ja' incorporada", False: "NAO INCORPORADA a compilacao", None: "sem ato identificado"}
+                print(f"- {r['data']} [{r['fonte']}] {r['titulo'][:110]}\n  {inc[r['incorporada']]}"
+                      f"{' (' + ', '.join(r['atos']) + ')' if r['atos'] else ''} -> {r['caminho']}")
+        else:
             print(f"Nenhuma alteracao encontrada desde {norma['data']}.")
-            return 0
-        print(f"Compilacao de {norma['rotulo']} baixada em {norma['data']}. "
-              f"{len(res)} publicacao(oes) que a alteram:")
-        for r in res:
-            inc = {True: "ja' incorporada", False: "NAO INCORPORADA a compilacao", None: "sem ato identificado"}
-            print(f"- {r['data']} [{r['fonte']}] {r['titulo'][:110]}\n  {inc[r['incorporada']]}"
-                  f"{' (' + ', '.join(r['atos']) + ')' if r['atos'] else ''} -> {r['caminho']}")
         if a.mencoes:
             mencoes = mencoes_de(docs, a.alteracoes_de)
             if mencoes:

@@ -47,6 +47,10 @@ class Base(unittest.TestCase):
                    "data": "2026-10-09", "url": "u8", "primeira_vez": "2026-10-09"},
             "k9": {"titulo": "LEI COMPLEMENTAR Nº 214, DE 9 DE SETEMBRO DE 2026", "fonte": "DOU DO1",
                    "data": "2026-09-09", "url": "u9", "primeira_vez": "2026-09-09"},
+            "k10": {"titulo": "RESOLUÇÃO CGSN Nº 194, DE 25 DE SETEMBRO DE 2026", "fonte": "DOU DO1E",
+                    "data": "2026-09-28", "url": "u10", "primeira_vez": "2026-09-28"},
+            "k11": {"titulo": "LEI Nº 15.999, DE 15 DE SETEMBRO DE 2026", "fonte": "DOU DO1E",
+                    "data": "2026-09-15", "url": "u11", "primeira_vez": "2026-09-15"},
         }
         (r / "dados" / "historico.json").write_text(json.dumps(hist), "utf-8")
         textos.grava(r / "dados", "k1", "Altera o art. 26 da Lei Complementar nº 214, de 2025, "
@@ -74,6 +78,17 @@ class Base(unittest.TestCase):
         textos.grava(r / "dados", "k9",
                      "Altera o art. 26 da Lei Complementar nº 214, de 2025, que passa a vigorar com "
                      "nova redação.")
+        # k10: Resolução CGSN - references LC 214 but "passa a vigorar" is for Resolução 186, not LC 214
+        # Should NOT be an amendment (Resolução cannot amend Lei Complementar by hierarchy)
+        textos.grava(r / "dados", "k10",
+                     "Altera a Resolução CGSN nº 186, de 9 de abril de 2026. Art. 1º No art. 41, §3o "
+                     "e §4o, da lei complementar no 214, de 16 de janeiro de 2025, resolve: art. 1o a "
+                     "resolucao cgsn no 186, de 9 de abril de 2026, passa a vigorar com as seguintes "
+                     "alteracoes.")
+        # k11: Lei ordinária (Lei nº 15.999) says it alters LC 214 - but hierarchy check should reject it
+        textos.grava(r / "dados", "k11",
+                     "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025. Esta Lei ordinária "
+                     "não pode alterar Lei Complementar por questão de hierarquia normativa.")
         self.docs = buscar.carrega(r)
 
     def tearDown(self):
@@ -180,6 +195,17 @@ class TestAlteracoes(Base):
         self.assertIn("trecho", k1)
         self.assertTrue(k1["trecho"])  # non-empty
 
+    def test_resolucao_nao_altera_lei_complementar(self):
+        # k10: Resolução CGSN nº 194 - "passa a vigorar" is for Resolução 186, not LC 214
+        # Hierarchy: Resolução cannot amend Lei Complementar, even if it mentions LC 214
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        self.assertNotIn("k10", {x["id"] for x in r})
+
+    def test_lei_ordinaria_nao_altera_lei_complementar(self):
+        # k11: Lei ordinária nº 15.999 - hierarchy rule: Lei ordinária cannot amend Lei Complementar
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        self.assertNotIn("k11", {x["id"] for x in r})
+
 
 class TestMencoes(Base):
     def test_mencoes_de_lista_citacoes_nao_alteracoes(self):
@@ -201,6 +227,16 @@ class TestMencoes(Base):
         r = buscar.mencoes_de(self.docs, "lc214")
         for m in r:
             self.assertNotIn("incorporada", m)
+
+    def test_resolucao_aparece_em_mencoes(self):
+        # k10: Resolução CGSN that mentions LC 214 but passes a vigorar for itself
+        r = buscar.mencoes_de(self.docs, "lc214")
+        self.assertIn("k10", {x["id"] for x in r})
+
+    def test_lei_ordinaria_aparece_em_mencoes(self):
+        # k11: Lei ordinária that mentions LC 214 (hierarchy prevents it from being amendment)
+        r = buscar.mencoes_de(self.docs, "lc214")
+        self.assertIn("k11", {x["id"] for x in r})
 
 
 if __name__ == "__main__":
