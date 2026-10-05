@@ -37,6 +37,10 @@ def _worktrees(raiz):
             atual["caminho"] = linha[9:]
         elif linha.startswith("branch "):
             atual["branch"] = linha[7:].removeprefix("refs/heads/")
+        elif linha == "locked" or linha.startswith("locked "):
+            atual["travada"] = True
+        elif linha == "prunable" or linha.startswith("prunable "):
+            atual["prunable"] = True
     return out
 
 
@@ -55,6 +59,21 @@ def _ultima_atividade(caminho):
     return max(ts) if ts else 0
 
 
+def _em_uso(caminho):
+    """True se algum processo vivo tem o cwd dentro da worktree (sessao aberta)."""
+    c = Path(caminho).resolve()
+    for d in Path("/proc").iterdir():
+        if not d.name.isdigit():
+            continue
+        try:
+            link = Path(os.readlink(d / "cwd"))
+        except (PermissionError, FileNotFoundError, ProcessLookupError, OSError):
+            continue
+        if link == c or c in link.parents:
+            return True
+    return False
+
+
 def candidatas(raiz, agora):
     raiz = Path(raiz).resolve()
     base = (raiz / DIR_WORKTREES).resolve()
@@ -63,11 +82,18 @@ def candidatas(raiz, agora):
         c = Path(w["caminho"]).resolve()
         if c == raiz or base not in c.parents or c.name in PROTEGIDAS:
             continue
+        if w.get("prunable") or not c.exists():
+            continue  # sumida: o worktree prune cuida
+        if w.get("travada"):
+            print(f"ignorada: {c} (travada)")
+            continue
+        if _em_uso(c):
+            print(f"ignorada: {c} (em uso)")
+            continue
         if (agora - _ultima_atividade(c)) < DIAS_WORKTREE * 86400:
             continue
         sujo = _git("status", "--porcelain", cwd=c).strip()
-        fora = _git("rev-list", "--count", f"main..{w.get('branch', 'HEAD')}", cwd=raiz).strip() \
-            if w.get("branch") else "0"
+        fora = _git("rev-list", "--count", "main..HEAD", cwd=c).strip()
         item = {"caminho": str(c), "branch": w.get("branch")}
         if sujo or fora != "0":
             item["motivo"] = "mudanca pendente" if sujo else f"{fora} commit(s) fora do main"

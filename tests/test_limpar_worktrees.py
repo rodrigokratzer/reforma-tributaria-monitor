@@ -1,4 +1,5 @@
 import os
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -65,6 +66,7 @@ class TestCandidatas(unittest.TestCase):
         self.wt("sessao-nova")
         rem, pend = lw.candidatas(self.raiz, time.time())
         self.assertEqual(rem, [])
+        self.assertEqual(pend, [])
 
     def test_nunca_remove_protegida_nem_fora_do_diretorio(self):
         self.wt("migracao-notebook-local")
@@ -81,6 +83,64 @@ class TestCandidatas(unittest.TestCase):
             del os.environ["LIMPAR_AGORA"]
         self.assertEqual(rc, 0)
         self.assertFalse(c.exists())
+
+    def test_detached_com_commit_nunca_removivel(self):
+        c = self.raiz / ".claude" / "worktrees" / "solta"
+        c.parent.mkdir(parents=True, exist_ok=True)
+        git("worktree", "add", "-q", "--detach", str(c), cwd=self.raiz)
+        (c / "d.txt").write_text("d")
+        git("add", ".", cwd=c)
+        git("commit", "-qm", "d", cwd=c)
+        rem, pend = lw.candidatas(self.raiz, self.agora)
+        self.assertEqual(rem, [])
+        self.assertEqual(self.nomes(pend), ["solta"])
+
+    def test_diretorio_apagado_nao_quebra_e_prune_limpa(self):
+        c = self.wt("sumida")
+        shutil.rmtree(c)
+        rem, pend = lw.candidatas(self.raiz, self.agora)
+        self.assertEqual(rem, [])
+        os.environ["LIMPAR_AGORA"] = str(self.agora)
+        try:
+            rc = lw.main(["--aplicar"], raiz=self.raiz, notificar=lambda m: None)
+        finally:
+            del os.environ["LIMPAR_AGORA"]
+        self.assertEqual(rc, 0)
+        out = subprocess.run(["git", "worktree", "list"], cwd=self.raiz,
+                             capture_output=True, text=True).stdout
+        self.assertNotIn("sumida", out)
+
+    def test_travada_nunca_removida(self):
+        c = self.wt("travada")
+        git("worktree", "lock", str(c), cwd=self.raiz)
+        rem, pend = lw.candidatas(self.raiz, self.agora)
+        self.assertEqual(rem, [])
+        self.assertEqual(pend, [])
+
+    def test_em_uso_nunca_removida(self):
+        c = self.wt("viva")
+        p = subprocess.Popen(["sleep", "30"], cwd=c)
+        try:
+            rem, pend = lw.candidatas(self.raiz, self.agora)
+            self.assertEqual(rem, [])
+        finally:
+            p.kill()
+            p.wait()
+        rem, pend = lw.candidatas(self.raiz, self.agora)
+        self.assertEqual(self.nomes(rem), ["viva"])
+
+    def test_aplicar_notifica_pendentes(self):
+        c = self.wt("suja")
+        (c / "x.txt").write_text("x")
+        msgs = []
+        os.environ["LIMPAR_AGORA"] = str(self.agora)
+        try:
+            lw.main(["--aplicar"], raiz=self.raiz, notificar=msgs.append)
+        finally:
+            del os.environ["LIMPAR_AGORA"]
+        self.assertEqual(len(msgs), 1)
+        self.assertIn("suja", msgs[0])
+        self.assertTrue(c.exists())
 
 
 if __name__ == "__main__":
