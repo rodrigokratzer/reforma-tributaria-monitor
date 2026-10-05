@@ -24,6 +24,12 @@ venv python for the full suite, since `test_gerar_painel` needs the `markdown` p
 python3 -m unittest discover -s tests -v
 ```
 
+Consulta (leis-base e busca no acervo):
+```bash
+python3 scripts/baixar_normas.py --se-necessario|--forcar
+python3 scripts/buscar.py <termos> | --alteracoes-de lc214 [--artigo N]
+```
+
 Run one file, or a single test:
 ```bash
 python3 -m unittest tests.test_portais_base -v
@@ -127,6 +133,16 @@ leitura. As fontes SVRS e NF-e filtram com o regex específico `REFORMA`
 (`scripts/portais/base.py`), não com o global `RELEVANTE`, que casa toda "nota
 técnica"/"NF-e"/"DF-e". Adicionar um portal sem regra própria é uma linha em
 `registro.py`; com regra própria, uma subclasse pequena + a linha.
+
+### Consulta pelo app (normas/ + buscar.py)
+
+`normas/` holds the base laws compiled from Planalto (`scripts/baixar_normas.py`,
+single writer, weekly or triggered by the cycle; struck-through text becomes
+`[NÃO VIGENTE: …]`). `scripts/buscar.py` searches normas + `dados/textos/`, and
+`--alteracoes-de` flags real amendments not yet compiled (`incorporada False`).
+The project skill `.claude/skills/consulta-reforma/` (versioned via the
+`.gitignore` exception) is used by sessions opened from the Claude app through
+`reforma-consulta.service` (see `docs/operacao-local.md`).
 
 ### Where this actually runs
 

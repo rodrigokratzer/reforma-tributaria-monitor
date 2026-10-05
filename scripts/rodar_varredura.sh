@@ -16,9 +16,14 @@ scripts/publicar.sh "varredura $(date +%Y-%m-%d) ${TURNO:-}" dados docs
 # silenciosa: o status vira o codigo de saida 3 no fim (rodar_ciclo.sh avisa).
 rc_leitura=0
 .venv/bin/python3 scripts/ler_textos.py || rc_leitura=$?
+# Leis-base (normas/): baixa de novo se a compilacao tem >= 7 dias ou se o
+# ciclo coletou lei complementar / emenda / "altera a LC 214". Nao fatal:
+# as normas anteriores ficam e o erro vai para dados/normas_status.json.
+.venv/bin/python3 scripts/baixar_normas.py --se-necessario \
+  || echo "AVISO: baixar_normas.py falhou (normas anteriores mantidas)" >&2
 .venv/bin/python3 scripts/gerar_painel.py
 # publicar.sh ja' trata "nada mudou".
-scripts/publicar.sh "leitura $(date +%Y-%m-%d) ${TURNO:-}" dados docs
+scripts/publicar.sh "leitura $(date +%Y-%m-%d) ${TURNO:-}" dados docs normas
 if [ "$rc_leitura" -ne 0 ]; then
   echo "AVISO: ler_textos.py saiu com $rc_leitura (publicado mesmo assim)" >&2
   exit 3
