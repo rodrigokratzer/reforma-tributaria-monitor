@@ -1231,11 +1231,11 @@
    }
   ],
   "chars": 12436,
-  "lido_em": "2026-10-05T12:34:46Z",
+  "lido_em": "2026-10-05T20:03:39Z",
   "origem": "html",
   "paginas_ocr": 0,
   "status": "parcial",
-  "tentativas": 2
+  "tentativas": 3
  },
  "552797d9ab0167b6": {
   "chars": 1789,
@@ -2140,6 +2140,16 @@
   "anexos_falhos": [],
   "chars": 1483,
   "lido_em": "2026-10-05T12:27:15Z",
+  "origem": "pdf",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
+ },
+ "9694fb3f82139ea4": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 3435,
+  "lido_em": "2026-10-05T20:02:48Z",
   "origem": "pdf",
   "paginas_ocr": 0,
   "status": "lido",
@@ -3456,8 +3466,8 @@
  "f3e81dc710ad3bab": {
   "erro": "ErroLeitura: sem conteudo legivel",
   "status": "falhou",
-  "tentado_em": "2026-10-05T12:36:18Z",
-  "tentativas": 2
+  "tentado_em": "2026-10-05T20:03:40Z",
+  "tentativas": 3
  },
  "f423a3c5e0ecc768": {
   "chars": 851,
