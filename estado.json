@@ -162,6 +162,21 @@
    "detalhe": "Ato Conjunto nº 4/2026. Ambiente de produção da DeRE também abre nesta data."
   },
   {
+   "data": "2026-10-01",
+   "titulo": "Nota Técnica 2025.002-RTC v1.52 — regra de validação de devolução (VC02-14) prorrogada",
+   "detalhe": "Produção da regra que exige referenciar a devolução de mercadoria só pelo grupo DFeReferenciado adiada de 05/10 para 03/11/2026; corrige também a regra VC02-50."
+  },
+  {
+   "data": "2026-10-01",
+   "titulo": "Informe Técnico 2025.002 v1.70 — novos códigos de classificação tributária (cClassTrib)",
+   "detalhe": "Inclui códigos para prestação de serviço por autônomo, bagagens, remessas internacionais e regimes de admissão temporária, drawback e zona de processamento de exportação."
+  },
+  {
+   "data": "2026-10-01",
+   "titulo": "Nota Técnica 2026.010 — novo leiaute do DANFE para IBS/CBS/IS",
+   "detalhe": "Bloco \"Total do IBS/CBS/IS\" e colunas de classificação tributária por item no documento impresso da NF-e; produção a partir de 01/12/2026, junto com a 3ª onda."
+  },
+  {
    "data": "2026-10-02",
    "titulo": "Receita Federal divulga novo balanço de opção pelo Simples/IBS-CBS",
    "detalhe": "441.825 pedidos de opção pelo Simples Nacional 2027 (164.070 deferidos, 277.755 indeferidos); 840.516 solicitações de opção pelo regime regular do IBS/CBS."

@@ -19,6 +19,11 @@
   "motivo": "eleição e posse de vice-presidente do Conselho Superior do CGIBS; governança interna",
   "em": "retroativa-2026-09-30"
  },
+ "01d705acd4d571b6": {
+  "veredito": "relevante",
+  "motivo": "prorroga de 05/10 para 03/11/2026 a regra de validação VC02-14 de devolução da NF-e",
+  "em": "2026-10-05-noturna"
+ },
  "0219e8fc5550038e": {
   "veredito": "ruido",
   "motivo": "extinção de escritório regional da PGFN, ato administrativo interno",
@@ -283,6 +288,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta sobre presunção de IRPJ/CSLL em serviços de saúde",
   "em": "retroativa-2026-09-30"
+ },
+ "24a95f0408031698": {
+  "veredito": "relevante",
+  "motivo": "aprova notas técnicas de DF-e já registradas na linha do tempo do painel (21/08)",
+  "em": "2026-10-05-noturna"
  },
  "24e067f72bf804e0": {
   "veredito": "relevante",
@@ -799,6 +809,11 @@
   "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
   "em": "retroativa-2026-09-30"
  },
+ "5fdb78c8ca37924d": {
+  "veredito": "contexto",
+  "motivo": "nota de imprensa duplicando o Ato Técnico Conjunto nº 8/2026, já coberto",
+  "em": "2026-10-05-noturna"
+ },
  "5ff7a57e5deb6ce2": {
   "veredito": "ruido",
   "motivo": "suspensão de expediente de agência da Receita por festejo municipal",
@@ -1099,6 +1114,11 @@
   "motivo": "regime especial de ICMS para telecomunicações, sem relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
  },
+ "859018dc8058c1a8": {
+  "veredito": "relevante",
+  "motivo": "define novo leiaute do DANFE para exibir IBS/CBS/IS, produção em 01/12/2026",
+  "em": "2026-10-05-noturna"
+ },
  "85d8cb20d3ee01e4": {
   "veredito": "relevante",
   "motivo": "Abre hoje o prazo para escolher o modelo de recolhimento de IBS/CBS de 2027 e opção pelo Simples.",
@@ -1148,6 +1168,11 @@
   "veredito": "relevante",
   "motivo": "Resolução CGIBS nº 6 aprova o Regulamento do IBS",
   "em": "retroativa-2026-09-30"
+ },
+ "8bcc753195fb2d65": {
+  "veredito": "relevante",
+  "motivo": "declara 2026 ano de apuração informativa do IBS/CBS, sem penalidade até o 4º mês após regulamentos",
+  "em": "2026-10-05-noturna"
  },
  "8bcfbb0e40473b04": {
   "veredito": "ruido",
@@ -1219,6 +1244,11 @@
   "motivo": "Portaria conjunta do MGI sem indicação do assunto no título",
   "em": "retroativa-2026-09-30"
  },
+ "9694fb3f82139ea4": {
+  "veredito": "contexto",
+  "motivo": "Portaria CGIBS publica rol de servidores em cooperação mútua; ato interno, sem efeito externo",
+  "em": "2026-10-05-noturna"
+ },
  "987e80506a927dc9": {
   "veredito": "ruido",
   "motivo": "Portaria Susep homologa atualização cadastral de resseguradora, sem relação com a reforma",
@@ -1278,6 +1308,11 @@
   "veredito": "ruido",
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "9e18f9181c74d84f": {
+  "veredito": "relevante",
+  "motivo": "aprova e ratifica notas técnicas de DF-e já registradas na linha do tempo do painel (31/07)",
+  "em": "2026-10-05-noturna"
  },
  "9e9a21311ab02a7e": {
   "veredito": "ruido",
@@ -1484,6 +1519,11 @@
   "motivo": "RFB publica documentacao tecnica das APIs de apuracao da CBS, afeta sistemas de contribuintes",
   "em": "retroativa-2026-09-30"
  },
+ "b8a02d297c3431ee": {
+  "veredito": "relevante",
+  "motivo": "texto integral do cronograma de obrigatoriedade dos DF-e; datas já refletidas no painel, sem mudança",
+  "em": "2026-10-05-noturna"
+ },
  "ba7977d24895415d": {
   "veredito": "ruido",
   "motivo": "Solucao de consulta sobre retencao de contribuicoes previdenciarias, sem relacao com IBS/CBS",
@@ -1513,6 +1553,11 @@
   "veredito": "ruido",
   "motivo": "Altera limites de crédito para setor público; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "bc93f67df15b0335": {
+  "veredito": "relevante",
+  "motivo": "aprova notas técnicas de DF-e já registradas na linha do tempo do painel (29/09)",
+  "em": "2026-10-05-noturna"
  },
  "bcc52705dfabd3c4": {
   "veredito": "ruido",
@@ -1893,6 +1938,11 @@
   "veredito": "contexto",
   "motivo": "Orientação conjunta RFB/CGIBS anunciada, mas sem texto disponível para confirmar efeito",
   "em": "retroativa-2026-09-30"
+ },
+ "e9c7131b5b1fae39": {
+  "veredito": "relevante",
+  "motivo": "cria novos códigos cClassTrib para autônomos, bagagens, remessas internacionais e regimes especiais",
+  "em": "2026-10-05-noturna"
  },
  "ea31411ebb44a948": {
   "veredito": "ruido",

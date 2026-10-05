@@ -1,5 +1,26 @@
 [
  {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Regra de validação VC02-14 da NF-e (referenciamento de devolução) prorrogada de 05/10 para 03/11/2026 (NT 2025.002-RTC v1.52)",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=HXPO8VLbh4o=",
+  "em": "2026-10-05-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Informe Técnico 2025.002 v1.70 cria novos códigos de classificação tributária (autônomos, bagagens, remessas internacionais, regimes especiais)",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=h9o7idH%20OcI=",
+  "em": "2026-10-05-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Nota Técnica 2026.010 define novo leiaute do DANFE para exibir IBS/CBS/IS, com produção em 01/12/2026",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ugn4MYF5PLg=",
+  "em": "2026-10-05-noturna"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "removido",
   "descricao": "Prazo da noventena do Imposto Seletivo (03/10) venceu sem lei; o marco segue registrado na linha do tempo, mas sai dos cards de contagem regressiva",

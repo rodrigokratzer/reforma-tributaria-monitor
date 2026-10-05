@@ -1,13 +1,13 @@
 {
  "data": "2026-10-05",
- "turno": "matinal",
+ "turno": "noturna",
  "situacao": "publicada",
- "acoes": 0,
- "gerado_em": "2026-10-05T08:30:00Z",
- "resumo_curto": "3 itens, 1 relevante (alíquotas de combustíveis), nenhum exige ação",
+ "acoes": 1,
+ "gerado_em": "2026-10-05T20:07:38Z",
+ "resumo_curto": "10 itens, 1 exige ação: prazo de validação de NF-e que venceria hoje foi prorrogado para 03/11",
  "painel_atualizado": [
-  "Prazo da noventena do Imposto Seletivo (03/10) venceu sem lei; o marco segue registrado na linha do tempo, mas sai dos cards de contagem regressiva",
-  "Pendência 'Alíquotas do Imposto Seletivo' atualizada: a noventena venceu em 03/10/2026 sem lei ordinária ou MP publicada, risco real de o IS não entrar em vigor em 01/01/2027 como previsto",
-  "Portaria Conjunta MF/CGIBS nº 14/2026 fixa a metodologia de cálculo das alíquotas de IBS/CBS para combustíveis (CBS a partir de 2027, IBS a partir de 2029)"
+  "Regra de validação VC02-14 da NF-e (referenciamento de devolução) prorrogada de 05/10 para 03/11/2026 (NT 2025.002-RTC v1.52)",
+  "Informe Técnico 2025.002 v1.70 cria novos códigos de classificação tributária (autônomos, bagagens, remessas internacionais, regimes especiais)",
+  "Nota Técnica 2026.010 define novo leiaute do DANFE para exibir IBS/CBS/IS, com produção em 01/12/2026"
  ]
 }
