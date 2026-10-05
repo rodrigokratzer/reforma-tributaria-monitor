@@ -1,0 +1,34 @@
+{
+ "cf-reforma": {
+  "baixado_em": "2026-10-05T14:04:54Z",
+  "chars": 125505,
+  "rotulo": "CF/ADCT",
+  "sha256": "e91b7591cf6ea4a255ba424935c75e7835b168c9bf8703b26815306279e65345",
+  "titulo": "Constituição Federal — arts. 145 a 162 e 195; ADCT arts. 124 a 138 (texto compilado)",
+  "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+ },
+ "ec132": {
+  "baixado_em": "2026-10-05T14:04:53Z",
+  "chars": 103004,
+  "rotulo": "EC 132",
+  "sha256": "fab27788c55d99e60657f8b85211c90aeabb2b7d298b92016509376356006c90",
+  "titulo": "Emenda Constitucional nº 132, de 20 de dezembro de 2023",
+  "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+ },
+ "lc214": {
+  "baixado_em": "2026-10-05T14:04:56Z",
+  "chars": 920807,
+  "rotulo": "LC 214",
+  "sha256": "1367b69fe0c680efc76730681487da420fe4e390bc74cddc3dd6baad5dfb9c7c",
+  "titulo": "Lei Complementar nº 214, de 16 de janeiro de 2025 (texto compilado)",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+ },
+ "lc227": {
+  "baixado_em": "2026-10-05T14:04:57Z",
+  "chars": 417869,
+  "rotulo": "LC 227",
+  "sha256": "e07f2ad7bb0fd43562c6e3fbbf4b7563af2b39c694d18ff4b4cb53415d198d10",
+  "titulo": "Lei Complementar nº 227, de 13 de janeiro de 2026 (texto compilado)",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm"
+ }
+}
