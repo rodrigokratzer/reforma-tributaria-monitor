@@ -51,6 +51,14 @@ class Base(unittest.TestCase):
                     "data": "2026-09-28", "url": "u10", "primeira_vez": "2026-09-28"},
             "k11": {"titulo": "LEI Nº 15.999, DE 15 DE SETEMBRO DE 2026", "fonte": "DOU DO1E",
                     "data": "2026-09-15", "url": "u11", "primeira_vez": "2026-09-15"},
+            "k12": {"titulo": "LEI COMPLEMENTAR Nº 237, DE 9 DE OUTUBRO DE 2026", "fonte": "DOU DO1",
+                    "data": "2026-10-09", "url": "u12", "primeira_vez": "2026-10-09"},
+            "k13": {"titulo": "LEI COMPLEMENTAR Nº 227, DE 9 DE OUTUBRO DE 2026", "fonte": "DOU DO1",
+                    "data": "2026-10-09", "url": "u13", "primeira_vez": "2026-10-09"},
+            "k14": {"titulo": "LEI COMPLEMENTAR Nº 227, DE 9 DE OUTUBRO DE 2026", "fonte": "DOU DO1",
+                    "data": "2026-10-09", "url": "u14", "primeira_vez": "2026-10-09"},
+            "k15": {"titulo": "LEI COMPLEMENTAR Nº 227, DE 9 DE OUTUBRO DE 2026", "fonte": "DOU DO1",
+                    "data": "2026-10-09", "url": "u15", "primeira_vez": "2026-10-09"},
         }
         (r / "dados" / "historico.json").write_text(json.dumps(hist), "utf-8")
         textos.grava(r / "dados", "k1", "Altera o art. 26 da Lei Complementar nº 214, de 2025, "
@@ -89,6 +97,23 @@ class Base(unittest.TestCase):
         textos.grava(r / "dados", "k11",
                      "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025. Esta Lei ordinária "
                      "não pode alterar Lei Complementar por questão de hierarquia normativa.")
+        # k12: Typographic quotes - text mentions LC 214 inside curly quotes (U+201C/U+201D)
+        # Should NOT be an amendment, should be in mencoes only
+        textos.grava(r / "dados", "k12",
+                     "A Lei Complementar nº 229, de 2026, passa a vigorar com a seguinte redação:\n"
+                     "\u201cArt. 3º ... altera a Lei Complementar nº 214, de 2025.\u201d")
+        # k13: Real amendment - LC 227 whose title act (Lei Complementar nº 227)
+        # DOES appear in LC 214 compiled text ("Redação dada pela Lei Complementar nº 227, de 2026")
+        # Should be incorporada=True
+        textos.grava(r / "dados", "k13",
+                     "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, em diversos artigos. "
+                     "Art. 1º Fica alterado o art. 26 da Lei Complementar nº 214.")
+        # k14: Article boundary test - contains "art. 26-A" but searching for "26" should NOT match
+        textos.grava(r / "dados", "k14",
+                     "Altera o art. 26 da Lei Complementar nº 214. Art. 26-A Novo artigo adicionado.")
+        # k15: LC 214/2025 shorthand (no "nº") - should still detect as amendment
+        textos.grava(r / "dados", "k15",
+                     "Altera o art. 5º da LC 214/2025 que passa a vigorar com nova redação.")
         self.docs = buscar.carrega(r)
 
     def tearDown(self):
@@ -237,6 +262,46 @@ class TestMencoes(Base):
         # k11: Lei ordinária that mentions LC 214 (hierarchy prevents it from being amendment)
         r = buscar.mencoes_de(self.docs, "lc214")
         self.assertIn("k11", {x["id"] for x in r})
+
+
+class TestTypographicQuotes(Base):
+    def test_tipograficas_nao_e_alteracao(self):
+        # k12: Typographic quotes (not ASCII quotes) contain text about LC 214
+        # Should NOT be treated as amendment, should be in mencoes
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        self.assertNotIn("k12", {x["id"] for x in r})
+
+    def test_tipograficas_aparece_em_mencoes(self):
+        # k12 should appear in mencoes, not alteracoes
+        r = buscar.mencoes_de(self.docs, "lc214")
+        self.assertIn("k12", {x["id"] for x in r})
+
+
+class TestIncorporada(Base):
+    def test_incorporada_true_quando_ato_no_texto(self):
+        # k13: LC 227 alters LC 214, and "Lei Complementar nº 227" appears in LC 214 compiled text
+        # Should be incorporada=True
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        k13 = next((x for x in r if x["id"] == "k13"), None)
+        self.assertIsNotNone(k13)
+        self.assertIs(k13["incorporada"], True)
+
+
+class TestArticleWordBoundary(Base):
+    def test_artigo_26_nao_match_26_a(self):
+        # k14: Contains both "art. 26" and "art. 26-A"
+        # Filtering by artigo="26" should NOT match "26-A"
+        r = buscar.alteracoes_de(self.docs, "lc214", artigo="26")
+        # k14 should be found (has art. 26)
+        self.assertIn("k14", {x["id"] for x in r})
+
+
+class TestLCShorthand(Base):
+    def test_lc_214_2025_shorthand_detected(self):
+        # k15: Uses "LC 214/2025" shorthand without "nº"
+        # Should still be detected as amendment
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        self.assertIn("k15", {x["id"] for x in r})
 
 
 if __name__ == "__main__":

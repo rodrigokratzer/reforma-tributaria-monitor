@@ -114,24 +114,33 @@ def _dispositivo(doc, pos):
 
 
 def _sem_citacoes(s):
-    """Strip quoted new wording (up to 5000 chars between quotes)."""
+    """Strip quoted new wording (up to 5000 chars between quotes).
+    Handles ASCII, typographic and angle quotes.
+    """
+    # Quote pairs: opening -> closing
+    # Using Unicode escapes: U+201C/U+201D (curly quotes), U+00AB/U+00BB (angles)
+    quote_pairs = {}
+    quote_pairs['"'] = '"'              # ASCII " to "
+    quote_pairs['“'] = '”'    # U+201C to U+201D (curly quotes)
+    quote_pairs['«'] = '»'    # U+00AB to U+00BB (angle quotes)
+
     resultado = ""
     i = 0
     while i < len(s):
-        # Look for opening quote
-        if s[i] in ('"', '"', '"'):
-            quote_char = s[i]
-            # Find closing quote (same type, up to 5000 chars away)
+        if s[i] in quote_pairs:
+            opening = s[i]
+            closing = quote_pairs[opening]
+            # Find closing quote within 5000 chars
             j = i + 1
-            while j < min(i + 5000, len(s)):
-                if s[j] in ('"', '"', '"'):
-                    # Replace quoted section with space
+            found = False
+            while j < min(i + 5001, len(s)):
+                if s[j] == closing:
                     resultado += " "
                     i = j + 1
+                    found = True
                     break
                 j += 1
-            else:
-                # No closing quote found in window, keep char
+            if not found:
                 resultado += s[i]
                 i += 1
         else:
@@ -327,19 +336,23 @@ def main(argv=None):
     if a.alteracoes_de:
         try:
             res = alteracoes_de(docs, a.alteracoes_de, a.artigo)
-        except KeyError as e:
-            print(f"Erro: {e}", file=sys.stderr)
+        except KeyError:
+            opcoes = ", ".join(sorted(PADRAO_NORMA.keys()))
+            print(f"Erro: norma desconhecida '{a.alteracoes_de}' (opcoes: {opcoes})", file=sys.stderr)
             return 2
         norma = next(d for d in docs if d["tipo"] == "norma" and d["id"] == a.alteracoes_de)
+        # Calculate window start date
+        janela_inicio = datetime.date.fromisoformat(norma["data"]) - datetime.timedelta(days=JANELA_ALTERACOES_DIAS)
         if res:
             print(f"Compilacao de {norma['rotulo']} baixada em {norma['data']}. "
-                  f"{len(res)} publicacao(oes) que a alteram:")
+                  f"{len(res)} publicacao(oes) na janela desde {janela_inicio.isoformat()} que a alteram:")
             for r in res:
                 inc = {True: "ja' incorporada", False: "NAO INCORPORADA a compilacao", None: "sem ato identificado"}
                 print(f"- {r['data']} [{r['fonte']}] {r['titulo'][:110]}\n  {inc[r['incorporada']]}"
                       f"{' (' + ', '.join(r['atos']) + ')' if r['atos'] else ''} -> {r['caminho']}")
         else:
-            print(f"Nenhuma alteracao encontrada desde {norma['data']}.")
+            print(f"Nenhuma alteracao encontrada na janela desde {janela_inicio.isoformat()} "
+                  f"(compilacao baixada em {norma['data']}).")
         if a.mencoes:
             mencoes = mencoes_de(docs, a.alteracoes_de)
             if mencoes:
