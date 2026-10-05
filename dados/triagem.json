@@ -529,6 +529,11 @@
   "motivo": "Portaria Susep homologa eleição de administrador de seguradora, sem relação com a reforma",
   "em": "2026-10-02-matinal"
  },
+ "4029a04db564e819": {
+  "veredito": "ruido",
+  "motivo": "anula certidão de regularidade fiscal de empresa específica, sem relação com a reforma do consumo",
+  "em": "2026-10-05-matinal"
+ },
  "4056d504a4b21715": {
   "veredito": "relevante",
   "motivo": "Ato Técnico Conjunto CGIBS nº 2 assinado; provável norma operacional da reforma, sem texto disponível.",
@@ -1073,6 +1078,11 @@
   "veredito": "contexto",
   "motivo": "RFB, CGIBS e CFC alinham diretrizes de conformidade tributária; anúncio de alinhamento, sem obrigação concreta",
   "em": "retroativa-2026-09-30"
+ },
+ "83183ff35d7d0af7": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta sobre II, IRPJ/CSLL (lucro presumido) e IRRF; tributos não afetados pela reforma do consumo",
+  "em": "2026-10-05-matinal"
  },
  "83e9e219f2d20c74": {
   "veredito": "ruido",
@@ -1738,6 +1748,11 @@
   "veredito": "ruido",
   "motivo": "Suspende atividades de agência da RFB em Lagoa Vermelha-RS, ato interno",
   "em": "retroativa-2026-09-30"
+ },
+ "d753d1e4e2e24cd9": {
+  "veredito": "relevante",
+  "motivo": "fixa a metodologia de cálculo da carga tributária de referência para as alíquotas de IBS/CBS sobre combustíveis",
+  "em": "2026-10-05-matinal"
  },
  "d9100b7bc7f86e11": {
   "veredito": "ruido",

@@ -1,6 +1,27 @@
 [
  {
   "secao": "prazos_destaque",
+  "tipo": "removido",
+  "descricao": "Prazo da noventena do Imposto Seletivo (03/10) venceu sem lei; o marco segue registrado na linha do tempo, mas sai dos cards de contagem regressiva",
+  "fonte": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=05/10/2026&jornal=515&pagina=50",
+  "em": "2026-10-05-matinal"
+ },
+ {
+  "secao": "pendencias",
+  "tipo": "alterado",
+  "descricao": "Pendência 'Alíquotas do Imposto Seletivo' atualizada: a noventena venceu em 03/10/2026 sem lei ordinária ou MP publicada, risco real de o IS não entrar em vigor em 01/01/2027 como previsto",
+  "fonte": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=05/10/2026&jornal=515&pagina=50",
+  "em": "2026-10-05-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Portaria Conjunta MF/CGIBS nº 14/2026 fixa a metodologia de cálculo das alíquotas de IBS/CBS para combustíveis (CBS a partir de 2027, IBS a partir de 2029)",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=05/10/2026&jornal=515&pagina=50",
+  "em": "2026-10-05-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
   "tipo": "alterado",
   "descricao": "Nota do prazo da opção pelo Simples Nacional 2027 (15/10) atualizada com o balanço de 02/10: 441.825 pedidos, 277.755 indeferidos (~63%)",
   "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
