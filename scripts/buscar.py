@@ -8,13 +8,17 @@ Uso:
   python3 scripts/buscar.py split payment [--fonte CGIBS] [--desde 2026-09-01]
                             [--tipo norma|publicacao] [--limite 20]
   python3 scripts/buscar.py '"lei complementar nº 214"' art. 26     # aspas = frase
-  python3 scripts/buscar.py --alteracoes-de lc214 [--artigo 26]
+  python3 scripts/buscar.py --alteracoes-de lc214 [--artigo 26] [--mencoes]
 
---alteracoes-de lista as publicacoes dos ultimos JANELA_ALTERACOES_DIAS dias
-antes do download da compilacao (e qualquer uma depois) que mencionam a
-norma; para cada uma diz se o ato que ela traz (ex.: "Lei Complementar nº
-230") ja' aparece no texto compilado -- incorporada False = o Planalto
-ainda nao atualizou a compilacao, leia a redacao nova na publicacao.
+--alteracoes-de lista as ALTERACOES (nao meras mencoes) nos ultimos
+JANELA_ALTERACOES_DIAS dias antes do download da compilacao (e qualquer uma
+depois) que modificam de fato a norma. Para cada alteracao, diz se o ato que
+ela traz (ex.: "Lei Complementar nº 230") ja' aparece no texto compilado --
+incorporada False = o Planalto ainda nao atualizou a compilacao, leia a redacao
+nova na publicacao. incorporada None = nenhum ato identificado no titulo.
+
+--mencoes adiciona um bloco separado com publicacoes que MENCIONAM a norma mas
+nao a alteram (apenas citam, citam entre aspas, ou o contexto e' secundario).
 """
 import argparse
 import datetime
@@ -43,6 +47,12 @@ PADRAO_NORMA = {
 ATO = re.compile(r"(lei complementar|emenda constitucional|medida provisoria|lei|decreto)"
                  r" n[o.]*\s*([\d.]+)")
 ART = re.compile(r"(?m)^(?:\[NÃO VIGENTE: )?Art\. (\d+(?:-[A-Z])?)")
+VERBO = re.compile(r"\b(altera|alteram|alterando|alterado|alterada|acrescenta|acrescentam|acrescido"
+                   r"|acrescida|revoga|revogam|revogado|revogada|revogados|da nova redacao|modifica"
+                   r"|modificam)\b")
+ATO_REF = re.compile(r"\b(lei complementar|emenda constitucional|medida provisoria|lei|decreto)"
+                     r"\s+n[o.]*\s*[\d.]+")
+PASSA_VIGORAR = re.compile(r"\bpassa(?:m)?\s+a\s+vigorar\b")
 
 
 def normaliza(s):
@@ -95,6 +105,80 @@ def _dispositivo(doc, pos):
     return f"{doc['rotulo']}, art. {ultimo}" if ultimo else doc["rotulo"]
 
 
+def _sem_citacoes(s):
+    """Strip quoted new wording (up to 5000 chars between quotes)."""
+    resultado = ""
+    i = 0
+    while i < len(s):
+        # Look for opening quote
+        if s[i] in ('"', '"', '"'):
+            quote_char = s[i]
+            # Find closing quote (same type, up to 5000 chars away)
+            j = i + 1
+            while j < min(i + 5000, len(s)):
+                if s[j] in ('"', '"', '"'):
+                    # Replace quoted section with space
+                    resultado += " "
+                    i = j + 1
+                    break
+                j += 1
+            else:
+                # No closing quote found in window, keep char
+                resultado += s[i]
+                i += 1
+        else:
+            resultado += s[i]
+            i += 1
+    return resultado
+
+
+def _trecho_alteracao(texto_n, padrao_norma):
+    """
+    Find if texto_n contains an amendment to the norm matching padrao_norma.
+    Returns the amendment window (~300 chars) or None.
+
+    Amendment exists if EITHER:
+    (A) verb + ato_ref matching the norm within 200 chars after verb, OR
+    (B) norm pattern match + "passa a vigorar" before next ato_ref within 150 chars
+    """
+    # Remove quoted sections
+    texto = _sem_citacoes(texto_n)
+
+    # Try Form A: verb pattern
+    for m_verb in VERBO.finditer(texto):
+        verb_end = m_verb.end()
+        window = texto[verb_end:verb_end + 200]
+
+        # Find first ato reference in this window
+        m_ato = ATO_REF.search(window)
+        if m_ato:
+            ato_text = m_ato.group(0)
+            ato_n = normaliza(ato_text)
+            # Check if this ato matches the norm
+            if re.search(padrao_norma, ato_n):
+                # Found amendment: extract trecho centered on the match
+                trecho_start = max(0, m_verb.start() - 50)
+                trecho_end = min(len(texto), m_ato.end() + 250)
+                return " ".join(texto[trecho_start:trecho_end].split())
+
+    # Try Form B: norm pattern + passa a vigorar
+    for m_norm in re.finditer(padrao_norma, texto):
+        norm_end = m_norm.end()
+        window = texto[norm_end:norm_end + 150]
+
+        # Check if "passa a vigorar" appears before next ato_ref
+        m_passa = PASSA_VIGORAR.search(window)
+        m_ato_ref = ATO_REF.search(window)
+
+        if m_passa and (not m_ato_ref or m_passa.start() < m_ato_ref.start()):
+            # Found amendment: extract trecho
+            trecho_start = max(0, m_norm.start() - 50)
+            trecho_end = min(len(texto), norm_end + 300)
+            return " ".join(texto[trecho_start:trecho_end].split())
+
+    return None
+
+
 def busca(docs, consulta, fonte=None, desde=None, tipo=None, limite=20):
     termos = _termos(consulta)
     if not termos:
@@ -125,29 +209,67 @@ def busca(docs, consulta, fonte=None, desde=None, tipo=None, limite=20):
 
 
 def alteracoes_de(docs, norma_id, artigo=None):
-    padrao = re.compile(PADRAO_NORMA[norma_id])
+    """
+    Return publications that AMEND (not merely mention) the norm within the window.
+    Each result includes 'trecho' (the amendment context).
+    incorporada=None means no act number was identified in the title.
+    """
+    padrao_str = PADRAO_NORMA[norma_id]
     norma = next((d for d in docs if d["tipo"] == "norma" and d["id"] == norma_id), None)
     if norma is None:
         raise KeyError(f"norma {norma_id} nao carregada (rode baixar_normas.py)")
     base = datetime.date.fromisoformat(norma["data"]) - datetime.timedelta(days=JANELA_ALTERACOES_DIAS)
-    art = re.compile(rf"\bart(igo)?s?\.?\s*{re.escape(artigo)}\b") if artigo else None
     out = []
     for d in docs:
         if d["tipo"] != "publicacao" or (d["data"] or "") < base.isoformat():
             continue
-        if not padrao.search(d["_n"]) and not padrao.search(d["_nt"]):
+        # Check if this publication contains an amendment
+        trecho = _trecho_alteracao(d["_n"], padrao_str)
+        if not trecho:
             continue
-        if art and not art.search(d["_n"]):
-            continue
+        # Check if artigo appears in the amendment window
+        if artigo:
+            artigo_pattern = (r"\bart(igo)?s?\.?[^.;]{0,80}?\b" + re.escape(artigo) + r"\b")
+            if not re.search(artigo_pattern, trecho):
+                continue
+        # Extract atos from title
         atos = sorted({f"{m.group(1)} no {m.group(2).rstrip('.')}" for m in ATO.finditer(d["_nt"])})
-        atos = [a for a in atos if not padrao.search(a)]      # a propria norma nao conta
+        atos = [a for a in atos if not re.search(padrao_str, normaliza(a))]
         incorporada = None
         if atos:
             incorporada = all(re.search(re.escape(a).replace("no\\ ", r"n[o.]*\s*"), norma["_n"])
                               for a in atos)
         out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
                     "url": d["url"], "caminho": d["caminho"], "atos": atos,
-                    "incorporada": incorporada})
+                    "incorporada": incorporada, "trecho": trecho})
+    out.sort(key=lambda x: x["data"], reverse=True)
+    return out
+
+
+def mencoes_de(docs, norma_id):
+    """
+    Return publications that MENTION (but do not amend) the norm within the window.
+    Same fields as alteracoes_de but without incorporada.
+    """
+    padrao_str = PADRAO_NORMA[norma_id]
+    norma = next((d for d in docs if d["tipo"] == "norma" and d["id"] == norma_id), None)
+    if norma is None:
+        raise KeyError(f"norma {norma_id} nao carregada (rode baixar_normas.py)")
+    base = datetime.date.fromisoformat(norma["data"]) - datetime.timedelta(days=JANELA_ALTERACOES_DIAS)
+    out = []
+    for d in docs:
+        if d["tipo"] != "publicacao" or (d["data"] or "") < base.isoformat():
+            continue
+        # Check if mentions the norm
+        if not re.search(padrao_str, d["_n"]) and not re.search(padrao_str, d["_nt"]):
+            continue
+        # Check if this is an amendment (if so, skip it)
+        trecho = _trecho_alteracao(d["_n"], padrao_str)
+        if trecho:
+            continue
+        # This is a mention, not an amendment
+        out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
+                    "url": d["url"], "caminho": d["caminho"]})
     out.sort(key=lambda x: x["data"], reverse=True)
     return out
 
@@ -161,17 +283,31 @@ def main(argv=None):
     ap.add_argument("--limite", type=int, default=20)
     ap.add_argument("--alteracoes-de")
     ap.add_argument("--artigo")
+    ap.add_argument("--mencoes", action="store_true", help="Tambem listar mencoes (nao alteracoes)")
     a = ap.parse_args(argv)
     docs = carrega(RAIZ)
     if a.alteracoes_de:
-        res = alteracoes_de(docs, a.alteracoes_de, a.artigo)
+        try:
+            res = alteracoes_de(docs, a.alteracoes_de, a.artigo)
+        except KeyError as e:
+            print(f"Erro: {e}", file=sys.stderr)
+            return 2
         norma = next(d for d in docs if d["tipo"] == "norma" and d["id"] == a.alteracoes_de)
+        if not res:
+            print(f"Nenhuma alteracao encontrada desde {norma['data']}.")
+            return 0
         print(f"Compilacao de {norma['rotulo']} baixada em {norma['data']}. "
-              f"{len(res)} publicacao(oes) que a mencionam:")
+              f"{len(res)} publicacao(oes) que a alteram:")
         for r in res:
             inc = {True: "ja' incorporada", False: "NAO INCORPORADA a compilacao", None: "sem ato identificado"}
             print(f"- {r['data']} [{r['fonte']}] {r['titulo'][:110]}\n  {inc[r['incorporada']]}"
                   f"{' (' + ', '.join(r['atos']) + ')' if r['atos'] else ''} -> {r['caminho']}")
+        if a.mencoes:
+            mencoes = mencoes_de(docs, a.alteracoes_de)
+            if mencoes:
+                print(f"\nMencoes (citam, nao alteram): {len(mencoes)} publicacao(oes)")
+                for m in mencoes:
+                    print(f"- {m['data']} [{m['fonte']}] {m['titulo'][:110]} -> {m['caminho']}")
         return 0
     res = busca(docs, " ".join(a.termos), a.fonte, a.desde, a.tipo, a.limite)
     if not res:

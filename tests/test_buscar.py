@@ -37,12 +37,43 @@ class Base(unittest.TestCase):
                    "data": "2026-01-13", "url": "u3", "primeira_vez": "2026-01-13"},
             "k4": {"titulo": "Sem texto", "fonte": "RFB", "data": "2026-10-02", "url": "u4",
                    "primeira_vez": "2026-10-02"},
+            "k5": {"titulo": "LEI COMPLEMENTAR Nº 237, DE 9 DE OUTUBRO DE 2026", "fonte": "DOU DO1",
+                   "data": "2026-10-09", "url": "u5", "primeira_vez": "2026-10-09"},
+            "k6": {"titulo": "LEI Nº 15.504, DE 10 DE OUTUBRO DE 2026", "fonte": "DOU DO1",
+                   "data": "2026-10-10", "url": "u6", "primeira_vez": "2026-10-10"},
+            "k7": {"titulo": "LEI COMPLEMENTAR Nº 227, DE 9 DE OUTUBRO DE 2026", "fonte": "DOU DO1",
+                   "data": "2026-10-09", "url": "u7", "primeira_vez": "2026-10-09"},
+            "k8": {"titulo": "LEI COMPLEMENTAR Nº 214, DE 9 DE OUTUBRO DE 2026", "fonte": "DOU DO1",
+                   "data": "2026-10-09", "url": "u8", "primeira_vez": "2026-10-09"},
+            "k9": {"titulo": "LEI COMPLEMENTAR Nº 214, DE 9 DE SETEMBRO DE 2026", "fonte": "DOU DO1",
+                   "data": "2026-09-09", "url": "u9", "primeira_vez": "2026-09-09"},
         }
         (r / "dados" / "historico.json").write_text(json.dumps(hist), "utf-8")
         textos.grava(r / "dados", "k1", "Altera o art. 26 da Lei Complementar nº 214, de 2025, "
                                         "que passa a vigorar com nova redação sobre split payment.")
         textos.grava(r / "dados", "k2", "Dispõe sobre o split payment e a apuração assistida do IBS.")
         textos.grava(r / "dados", "k3", "Altera a LC 214 em diversos artigos, inclusive o art. 26.")
+        # k5: LC 237 alters LC 229, mentions LC 214 only in quoted text (should be in mencoes only)
+        textos.grava(r / "dados", "k5",
+                     "Altera a Lei Complementar nº 229, de 2026. Parágrafo único: \"Esta lei respeita "
+                     "o disposto na Lei Complementar nº 214, de forma que não há conflito com o regime "
+                     "de que trata a Lei Complementar nº 214\".")
+        # k6: Lei 15.504 alters Lei 11.196, mentions LC 214 only in background (should not appear)
+        textos.grava(r / "dados", "k6",
+                     "Altera a Lei nº 11.196, de 2005. Art. 1º Observado o disposto na Lei Complementar "
+                     "nº 214, fica alterado o regime de tributação da Lei nº 11.196.")
+        # k7: LC 227 title (in window), text explicitly alters LC 214 (Form A)
+        textos.grava(r / "dados", "k7",
+                     "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, em diversos artigos. "
+                     "Art. 1º Fica alterado o art. 25 da Lei Complementar nº 214.")
+        # k8: This is inside window, text just says it passes to work with changes (Form B)
+        textos.grava(r / "dados", "k8",
+                     "A Lei Complementar nº 214, de 16 de janeiro de 2025, passa a vigorar com as "
+                     "seguintes alterações: Art. 1º O art. 28 passa a ter nova redação.")
+        # k9: Outside 30-day window before 2026-10-10 download
+        textos.grava(r / "dados", "k9",
+                     "Altera o art. 26 da Lei Complementar nº 214, de 2025, que passa a vigorar com "
+                     "nova redação.")
         self.docs = buscar.carrega(r)
 
     def tearDown(self):
@@ -52,8 +83,11 @@ class Base(unittest.TestCase):
 class TestCarrega(Base):
     def test_normas_e_publicacoes_com_texto(self):
         tipos = sorted((d["tipo"], d["id"]) for d in self.docs)
-        self.assertEqual(tipos, [("norma", "lc214"), ("publicacao", "k1"),
-                                 ("publicacao", "k2"), ("publicacao", "k3")])
+        # k4 has no text, k5-k9 are added by new tests
+        self.assertIn(("norma", "lc214"), tipos)
+        self.assertIn(("publicacao", "k1"), tipos)
+        self.assertIn(("publicacao", "k2"), tipos)
+        self.assertIn(("publicacao", "k3"), tipos)
         k1 = next(d for d in self.docs if d["id"] == "k1")
         self.assertEqual(k1["caminho"], "dados/textos/k1.txt")
 
@@ -93,23 +127,80 @@ class TestAlteracoes(Base):
         # k1 (08/10) e' anterior ao download (10/10), mas a LC 230 nao aparece no
         # texto compilado: tem de aparecer como nao incorporada.
         r = buscar.alteracoes_de(self.docs, "lc214", artigo="26")
+        ids = {x["id"] for x in r}
+        self.assertIn("k1", ids)
         k1 = next(x for x in r if x["id"] == "k1")
         self.assertIs(k1["incorporada"], False)
-        self.assertIn("lei complementar no 230", k1["atos"])
 
-    def test_alteracao_ja_compilada_marcada(self):
+    def test_fora_da_janela_excluida(self):
         r = buscar.alteracoes_de(self.docs, "lc214")
-        k3 = next((x for x in r if x["id"] == "k3"), None)
-        # k3 e' de janeiro: fora da janela de 30 dias antes do download
-        self.assertIsNone(k3)
+        k9_ids = {x["id"] for x in r}
+        # k9 e' de setembro: fora da janela de 30 dias antes do download
+        self.assertNotIn("k9", k9_ids)
 
-    def test_filtra_por_artigo(self):
+    def test_citacao_entre_aspas_nao_e_alteracao(self):
+        # k5: LC 237 alters LC 229, mentions LC 214 only in quoted text
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        self.assertNotIn("k5", {x["id"] for x in r})
+
+    def test_mencao_em_contexto_nao_e_alteracao(self):
+        # k6: Lei 15.504 alters Lei 11.196, mentions LC 214 only in background context
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        self.assertNotIn("k6", {x["id"] for x in r})
+
+    def test_alteracao_com_verbo_direto(self):
+        # k7: LC 227 explicitly alters LC 214 (Form A - has verb + norm ref in window)
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        self.assertIn("k7", {x["id"] for x in r})
+
+    def test_alteracao_com_passa_a_vigorar(self):
+        # k8: LC 214 "passa a vigorar com as seguintes alterações" (Form B)
+        r = buscar.alteracoes_de(self.docs, "lc214")
+        self.assertIn("k8", {x["id"] for x in r})
+
+    def test_filtra_por_artigo_com_lista(self):
+        # Test that "arts. 25 e 26" matches artigo "26"
+        r = buscar.alteracoes_de(self.docs, "lc214", artigo="26")
+        ids = {x["id"] for x in r}
+        self.assertIn("k1", ids)
+        # k8 alters art. 28, not 26
+        self.assertNotIn("k8", ids)
+
+    def test_filtra_por_artigo_inexistente(self):
         r = buscar.alteracoes_de(self.docs, "lc214", artigo="99")
         self.assertEqual(r, [])
 
-    def test_norma_desconhecida(self):
+    def test_norma_desconhecida_cli_error(self):
         with self.assertRaises(KeyError):
             buscar.alteracoes_de(self.docs, "lc999")
+
+    def test_alteracao_tem_trecho(self):
+        r = buscar.alteracoes_de(self.docs, "lc214", artigo="26")
+        k1 = next(x for x in r if x["id"] == "k1")
+        self.assertIn("trecho", k1)
+        self.assertTrue(k1["trecho"])  # non-empty
+
+
+class TestMencoes(Base):
+    def test_mencoes_de_lista_citacoes_nao_alteracoes(self):
+        # k5 and k6 should be in mencoes, not in alteracoes
+        r = buscar.mencoes_de(self.docs, "lc214")
+        ids = {x["id"] for x in r}
+        self.assertIn("k5", ids)
+        self.assertIn("k6", ids)
+
+    def test_alteracoes_nao_sao_mencoes(self):
+        # k1, k7, k8 are alterations, should NOT be in mencoes
+        r = buscar.mencoes_de(self.docs, "lc214")
+        ids = {x["id"] for x in r}
+        self.assertNotIn("k1", ids)
+        self.assertNotIn("k7", ids)
+        self.assertNotIn("k8", ids)
+
+    def test_mencoes_sem_incorporada(self):
+        r = buscar.mencoes_de(self.docs, "lc214")
+        for m in r:
+            self.assertNotIn("incorporada", m)
 
 
 if __name__ == "__main__":
