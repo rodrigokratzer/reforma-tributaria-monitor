@@ -1,0 +1,7 @@
+Novidade: Disponibilizada a nova interface da Conformidade Fácil para NFe e NFCe
+
+Foi disponibilizada neste portal a nova interface para geração e validação dos campos da Reforma Tributária com foco específico em NFe e NFCe. A nova abordagem traz um conjunto de ferramentas interativas que orientam e conduzem o usuário a testarem as diversas possibilidades de preenchimento para os campos do IBS e CBS, além disso, auxilia de forma didática a compreensão e preenchimento dos campos alinhado aos conceitos da LC 214, com um link direto com a parte técnica associando a estrutura do XML da NFe/NFCe.
+https://dfe-portal.svrs.rs.gov.br/Cff/ValidadorRtcNfe
+
+A geração e validação dos demais documentos fiscais (CTe, BPe, NF3e, NFCom) podem utilizar a interface exclusiva para estes DFe: 
+https://dfe-portal.svrs.rs.gov.br/CFF/ValidadorRTC

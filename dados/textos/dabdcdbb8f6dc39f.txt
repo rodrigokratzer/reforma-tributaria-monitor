@@ -1,0 +1,6 @@
+Comitê Gestor lança cartilha para orientar a emissão da Nota Fiscal Eletrônica do IBS
+
+O Comitê Gestor do Imposto sobre Bens e Serviços (CG-IBS) lança, nesta sexta-feira (14), a Cartilha Orientativa para Emissão da NF-e do IBS – volume 1, documento técnico fundamental para a implantação do novo sistema de tributação sobre o consumo no Brasil.
+A publicação tem por objetivo orientar contribuintes, desenvolvedores de sistemas, profissionais da área contábil e fiscal, além das próprias administrações tributárias estaduais e municipais, explicando as regras iniciais para a emissão da Nota Fiscal Eletrônica (NF-e) de forma a possibilitar o funcionamento do modelo de apuração assistida do IBS, previsto na Lei Complementar nº 214/2025 e na Emenda Constitucional nº 132/2023.
+A Cartilha Orientativa para Emissão da NF-e do IBS – volume 1 inaugura uma série de publicações técnicas que acompanharão a evolução normativa e operacional do IBS, com atualizações progressivas à medida que novas definições forem sendo consolidadas.
+https://www.cgibs.gov.br/cartilha-orientativa-para-emissao-da-nf-e-do-ibs-volume-1

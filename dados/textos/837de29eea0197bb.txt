@@ -1,0 +1,4 @@
+CGIBS e Receita Federal publicam documentação técnica oficial da Declaração de Regimes Específicos (DeRE)
+
+Pacote de integração Versão 1.0.0 inclui o Manual de Orientação do Usuário (MOD), Leiautes, Schemas XSD e Regras de Validação. A obrigação acessória é fundamental para a apuração do IBS e da CBS nos setores de Serviços Financeiros, Planos de Saúde e Concursos de Prognósticos.
+Acesse em: https://www.cgibs.gov.br/cgibs-e-receita-federal-publicam-documentacao-tecnica-oficial-da-declaracao-de-regimes-especificos-dere

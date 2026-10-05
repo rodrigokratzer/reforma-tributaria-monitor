@@ -1,0 +1,10 @@
+Conformidade Fácil - Validador RTC
+
+Encontra-se disponível no portal da SVRS a nova funcionalidade do Projeto Conformidade Facil: o validador das notas técnicas da Reforma Tributária do Consumo. Nesta transação, qualquer empresa ou integradora de software poderá informar a parte do XML com os campos da tributação apresentados nas notas técnicas da RTC ou mesmo  colar o XML completo de um documento fiscal eletrônico e validar se a informação está em conformidade com as regras de validação descritas nas notas técnicas.
+
+O componente de validação é o mesmo que é utilizado pelo ambiente de autorização da SEFAZ Virtual, e tem a capacidade de responder se o XML apresentado está correto em relação a qualquer uma das regras previstas nas NTs.
+
+A primeira versão atende aos documentos CTe, BPe, NF3e e NFCom, mas muito em breve estará contemplando NFe e NFCe.
+
+A etapa 3 prevê a criação de um gerador de XML da reforma tributária e deve ser implantada ainda no mês de Julho.
+Acesso a ferramenta: https://dfe-portal.svrs.rs.gov.br/Dfe/ValidadorRTC

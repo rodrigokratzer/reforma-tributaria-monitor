@@ -1,0 +1,6 @@
+Implantação das Notas Técnicas Reforma Tributária
+
+Comunicamos aos contribuintes emitentes de CTe, BPe, NF3e e NFCom que as respectivas Notas Técnicas 2025.001, que implementam o leiaute e regras de validação da reforma tributária,  encontram-se IMPLANTADAS no ambiente de homologação da Sefaz virtual RS.
+Desta forma, as empresas ja podem testar seus sistemas de forma antecipada. 
+Importante destacar que as NTs implantam os campos novos da reforma que serão validados APENAS  se forem informados. Caso seja enviado um DFe com o schema anterior, este será validado normalmente. 
+Esta iniciativa visa permitir que possam ser testados os sistemas dos contribuintes e do proprio ambiente de autorização que estará em constante evolução e verificação durante o processo de amadurecimento das publicações das notas técnicas.

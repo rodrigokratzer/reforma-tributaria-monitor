@@ -1,0 +1,3 @@
+Implantadas NTs 2026.002 em PRODUÇÃO na SVRS
+
+O conjunto de NTs 2026.002 da Reforma Tributária encontra-se implantado na SVRS para BPe, BPeTM, BPeTA, CTe, CTeOS, NF3e, NFCom, NFAg e NFGas

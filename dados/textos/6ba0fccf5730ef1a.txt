@@ -1,0 +1,9 @@
+Consulta Tabelas CST, cClass e Credito Presumido para Reforma Tributária
+
+As notas técnicas que preveem a criação da estrutura de dados para alimentar a tributação relativa à Reforma Tributária do Consumo estão publicadas no portal e já existem prazos para a implantação desta versão no ambiente de homologação até do dia 28 de julho de 2025 para NFe, NFCe, BPe, CTe, NF3e e NFCom.
+Todas as Notas Técnicas apresentam regras de validação que fazem referências as tabelas de CST, Classificação Tributária e Crédito Presumido e seus indicadores (flags) que obrigam ou vedam o preenchimento dos diversos grupos de informações no XML do Documento Fiscal.
+Visando faciliar o entendimento da aplicação prática destas regras de validação, e sobretudo, trazer dados mais concretos de que forma os ambientes de autorização dos documentos fiscais trabalharão as validações, estamos publicando na forma de consulta deste portal o acesso visual a estas tabelas.
+
+Tabelas de CST e cClass: https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria
+Tabela de Crédito Presumido: https://dfe-portal.svrs.rs.gov.br/DFE/TabelaCreditoPresumido
+IMPORTANTE: O trabalho de levantamento de situações, aderência à legislação e prospecção de regras de validação, assim como a própria composição destas tabelas é um trabalho em constante revisão e aprimoramento, o que pode resultar em modificações nestas informações. Uma vantagem importante é que a estas tabelas estão acessando o motor de validação em banco de dados, o mesmo que o sistema de autorização da SVRS estará utilizando. Qualquer alteração nas tabelas refletirá imediatamente nas consultas do portal e na validação das regras dos documentos fiscais eletrônicos.

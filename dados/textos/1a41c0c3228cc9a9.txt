@@ -1,0 +1,4 @@
+Implantada a regra de validação de exigencia de IBS e CBS no ambiente de homologação
+
+Conforme estabelecido nas NTs 2026.002 de CTe, BPe, NF3e e NFCom a regra de validação que exige a informação de IBS e CBS (Rejeição 310) passa a ser aplicada a todas as emissões no ambiente de homologação da SVRS.
+IMPORTANTE: Conforme definido na NT, essa regra será ativada no ambiente de PRODUÇÃO no dia 03/08/2026
