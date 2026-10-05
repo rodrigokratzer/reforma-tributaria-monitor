@@ -10,18 +10,19 @@ Uso:
   python3 scripts/buscar.py '"lei complementar nº 214"' art. 26     # aspas = frase
   python3 scripts/buscar.py --alteracoes-de lc214 [--artigo 26] [--mencoes]
 
---alteracoes-de lista as ALTERACOES (nao meras mencoes) nos ultimos
-JANELA_ALTERACOES_DIAS dias antes do download da compilacao (e qualquer uma
-depois) que modificam de fato a norma. Para cada alteracao, diz se o ato que
-ela traz (ex.: "Lei Complementar nº 230") ja' aparece no texto compilado --
-incorporada False = o Planalto ainda nao atualizou a compilacao, leia a redacao
-nova na publicacao. incorporada None = nenhum ato identificado no titulo.
+--alteracoes-de lista as ALTERACOES (nao meras mencoes) que modificam de fato a
+norma, em TODAS as publicacoes do acervo (sem limite de data). Para cada
+alteracao, diz se o ato que ela traz (ex.: "Lei Complementar nº 230") ja'
+aparece no texto compilado -- incorporada False = o Planalto ainda nao
+atualizou a compilacao, leia a redacao nova na publicacao. incorporada None =
+nenhum ato identificado no titulo. --artigo apenas ESTREITA a lista (procura o
+artigo no texto inteiro da publicacao, inclusive na redacao entre aspas); rode
+primeiro sem ele.
 
 --mencoes adiciona um bloco separado com publicacoes que MENCIONAM a norma mas
 nao a alteram (apenas citam, citam entre aspas, ou o contexto e' secundario).
 """
 import argparse
-import datetime
 import json
 import re
 import shlex
@@ -33,7 +34,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import textos
 
 RAIZ = Path(__file__).resolve().parent.parent
-JANELA_ALTERACOES_DIAS = 30
 PESO_TITULO = 5
 CONTEXTO = 180
 
@@ -44,6 +44,13 @@ PADRAO_NORMA = {
     "ec132": r"emenda constitucional n[o.]*\s*132\b|\bec\s*(n[o.]*\s*)?132\b",
     "cf-reforma": r"constituicao federal|\bart\.?\s*(156-a|156-b|195)\b",
 }
+# cf-reforma: so' conta como alteracao uma EC que cite dispositivo do escopo
+# (arts. 145-162, 156-A, 156-B, 195; ADCT arts. 124-138). Ja' normalizado.
+_NUM_CF = r"(?<![\w-])(?:156-a|156-b|14[5-9]|15[0-9]|16[0-2]|195)(?![\w-])"
+_NUM_ADCT = r"(?<![\w-])(?:12[4-9]|13[0-8])(?![\w-])"
+ESCOPO_CF = re.compile(
+    r"\barts?\.?[^.;]{0,80}?" + _NUM_CF + r"|\barts?\.?[^.;]{0,80}?" + _NUM_ADCT
+    + r"[^.;]{0,60}?(?:ato das disposicoes constitucionais transitorias|adct)")
 # Documento tipo que pode alterar cada norma (hierarquia legal)
 TIPO_QUE_ALTERA = {
     "lc214": "lei complementar",
@@ -210,6 +217,28 @@ def _trecho_alteracao(texto_n, padrao_norma):
     return None
 
 
+def _regex_artigo(artigo):
+    """Regex (sobre texto normalizado) do artigo: linha de artigo ou citacao em lista.
+    Fronteira ciente de lista e de hifen: "26" nao casa "26-A".
+    """
+    n = re.escape(normaliza(artigo).strip())
+    return re.compile(r"(?m)^\W*art\.?\s*" + n + r"(?![\w-])"
+                      r"|\barts?\.?[^.;]{0,80}?(?<![\w-])" + n + r"(?![\w-])")
+
+
+def _trecho_se_alteracao(d, norma_id, padrao_str):
+    """Trecho da alteracao, ou None se a publicacao nao altera a norma
+    (hierarquia, regras A/B e, para cf-reforma, dispositivo no escopo)."""
+    if not _pode_alterar_por_hierarquia(d["_nt"], norma_id):
+        return None
+    trecho = _trecho_alteracao(d["_n"], padrao_str)
+    if not trecho:
+        return None
+    if norma_id == "cf-reforma" and not ESCOPO_CF.search(d["_n"]):
+        return None
+    return trecho
+
+
 def busca(docs, consulta, fonte=None, desde=None, tipo=None, limite=20):
     termos = _termos(consulta)
     if not termos:
@@ -241,43 +270,35 @@ def busca(docs, consulta, fonte=None, desde=None, tipo=None, limite=20):
 
 def alteracoes_de(docs, norma_id, artigo=None):
     """
-    Return publications that AMEND (not merely mention) the norm within the window.
-    Each result includes 'trecho' (the amendment context).
-    incorporada=None means no act number was identified in the title.
+    Publicacoes (de todo o acervo) que ALTERAM -- nao apenas mencionam -- a norma.
+    Cada resultado traz 'trecho' (contexto da alteracao).
+    incorporada=None: nenhum ato identificado no titulo.
 
-    Hierarchy check: only documents of the correct legal type can amend each norm.
-    Lei Complementar can only amend LC 214/227.
-    Emenda Constitucional can only amend EC 132/CF-reforma.
-    All other types (Resolução, Portaria, Lei ordinária, etc.) cannot amend any.
+    Hierarquia: so' Lei Complementar altera LC 214/227; so' Emenda Constitucional
+    altera EC 132/cf-reforma (e, para cf-reforma, citando dispositivo do escopo).
+    Com `artigo`, filtra pelo texto inteiro da publicacao (inclusive redacao
+    entre aspas), com fronteira de lista e de hifen.
     """
     padrao_str = PADRAO_NORMA[norma_id]
     norma = next((d for d in docs if d["tipo"] == "norma" and d["id"] == norma_id), None)
     if norma is None:
         raise KeyError(f"norma {norma_id} nao carregada (rode baixar_normas.py)")
-    base = datetime.date.fromisoformat(norma["data"]) - datetime.timedelta(days=JANELA_ALTERACOES_DIAS)
+    re_art = _regex_artigo(artigo) if artigo else None
     out = []
     for d in docs:
-        if d["tipo"] != "publicacao" or (d["data"] or "") < base.isoformat():
+        if d["tipo"] != "publicacao":
             continue
-        # Hierarchy check: can this document type legally amend this norm?
-        if not _pode_alterar_por_hierarquia(d["_nt"], norma_id):
-            continue
-        # Check if this publication contains an amendment
-        trecho = _trecho_alteracao(d["_n"], padrao_str)
+        trecho = _trecho_se_alteracao(d, norma_id, padrao_str)
         if not trecho:
             continue
-        # Check if artigo appears in the amendment window
-        if artigo:
-            artigo_pattern = (r"\bart(igo)?s?\.?[^.;]{0,80}?\b" + re.escape(artigo) + r"\b")
-            if not re.search(artigo_pattern, trecho):
-                continue
-        # Extract atos from title
+        if re_art and not re_art.search(d["_n"]):
+            continue
         atos = sorted({f"{m.group(1)} no {m.group(2).rstrip('.')}" for m in ATO.finditer(d["_nt"])})
         atos = [a for a in atos if not re.search(padrao_str, normaliza(a))]
         incorporada = None
         if atos:
-            incorporada = all(re.search(re.escape(a).replace("no\\ ", r"n[o.]*\s*"), norma["_n"])
-                              for a in atos)
+            incorporada = all(re.search(re.escape(a).replace("no\\ ", r"n[o.]*\s*") + r"(?!\d)",
+                                        norma["_n"]) for a in atos)
         out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
                     "url": d["url"], "caminho": d["caminho"], "atos": atos,
                     "incorporada": incorporada, "trecho": trecho})
@@ -287,36 +308,24 @@ def alteracoes_de(docs, norma_id, artigo=None):
 
 def mencoes_de(docs, norma_id):
     """
-    Return publications that MENTION (but do not amend) the norm within the window.
-    Same fields as alteracoes_de but without incorporada.
-
-    Includes: (a) documents that don't amend the norm, and
-             (b) documents that WOULD amend it but fail hierarchy check.
+    Publicacoes (de todo o acervo) que MENCIONAM a norma sem altera-la: citam,
+    citam entre aspas, nao passam na hierarquia ou (cf-reforma) nao citam
+    dispositivo do escopo. Mesmos campos de alteracoes_de, sem incorporada.
     """
     padrao_str = PADRAO_NORMA[norma_id]
     norma = next((d for d in docs if d["tipo"] == "norma" and d["id"] == norma_id), None)
     if norma is None:
         raise KeyError(f"norma {norma_id} nao carregada (rode baixar_normas.py)")
-    base = datetime.date.fromisoformat(norma["data"]) - datetime.timedelta(days=JANELA_ALTERACOES_DIAS)
     out = []
     for d in docs:
-        if d["tipo"] != "publicacao" or (d["data"] or "") < base.isoformat():
+        if d["tipo"] != "publicacao":
             continue
-        # Check if mentions the norm
         if not re.search(padrao_str, d["_n"]) and not re.search(padrao_str, d["_nt"]):
             continue
-        # Check hierarchy: if document type can't amend, it's a mention
-        if not _pode_alterar_por_hierarquia(d["_nt"], norma_id):
-            # Fails hierarchy check -> it's a mention
-            out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
-                        "url": d["url"], "caminho": d["caminho"]})
+        if _trecho_se_alteracao(d, norma_id, padrao_str):
             continue
-        # Document passes hierarchy, but is it an amendment?
-        trecho = _trecho_alteracao(d["_n"], padrao_str)
-        if not trecho:
-            # Passes hierarchy but no amendment pattern -> it's a mention
-            out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
-                        "url": d["url"], "caminho": d["caminho"]})
+        out.append({"id": d["id"], "titulo": d["titulo"], "data": d["data"], "fonte": d["fonte"],
+                    "url": d["url"], "caminho": d["caminho"]})
     out.sort(key=lambda x: x["data"], reverse=True)
     return out
 
@@ -341,18 +350,27 @@ def main(argv=None):
             print(f"Erro: norma desconhecida '{a.alteracoes_de}' (opcoes: {opcoes})", file=sys.stderr)
             return 2
         norma = next(d for d in docs if d["tipo"] == "norma" and d["id"] == a.alteracoes_de)
-        # Calculate window start date
-        janela_inicio = datetime.date.fromisoformat(norma["data"]) - datetime.timedelta(days=JANELA_ALTERACOES_DIAS)
-        if res:
-            print(f"Compilacao de {norma['rotulo']} baixada em {norma['data']}. "
-                  f"{len(res)} publicacao(oes) na janela desde {janela_inicio.isoformat()} que a alteram:")
-            for r in res:
-                inc = {True: "ja' incorporada", False: "NAO INCORPORADA a compilacao", None: "sem ato identificado"}
+        compil = f"compilacao de {norma['data']}"
+        inc = {True: "ja' incorporada", False: "NAO INCORPORADA a compilacao", None: "sem ato identificado"}
+
+        def lista(itens):
+            for r in itens:
                 print(f"- {r['data']} [{r['fonte']}] {r['titulo'][:110]}\n  {inc[r['incorporada']]}"
                       f"{' (' + ', '.join(r['atos']) + ')' if r['atos'] else ''} -> {r['caminho']}")
+
+        if res:
+            print(f"{len(res)} publicacao(oes) que alteram {norma['rotulo']} ({compil}):")
+            lista(res)
+        elif a.artigo:
+            todas = alteracoes_de(docs, a.alteracoes_de)
+            if todas:
+                print(f"{len(todas)} alteracao(oes) da norma; nenhuma cita o art. {a.artigo} "
+                      f"({compil}) -- leia-as:")
+                lista(todas)
+            else:
+                print(f"Nenhuma alteracao encontrada ({compil}).")
         else:
-            print(f"Nenhuma alteracao encontrada na janela desde {janela_inicio.isoformat()} "
-                  f"(compilacao baixada em {norma['data']}).")
+            print(f"Nenhuma alteracao encontrada ({compil}).")
         if a.mencoes:
             mencoes = mencoes_de(docs, a.alteracoes_de)
             if mencoes:

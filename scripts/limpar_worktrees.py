@@ -118,9 +118,13 @@ def main(argv=None, raiz=RAIZ, notificar=_notifica):
     for w in remover:
         print(f"{'removendo' if a.aplicar else 'removeria'}: {w['caminho']} ({w['motivo']})")
         if a.aplicar:
-            _git("worktree", "remove", w["caminho"], cwd=raiz)
-            if w.get("branch"):
-                _git("branch", "-d", w["branch"], cwd=raiz)
+            try:
+                _git("worktree", "remove", w["caminho"], cwd=raiz)
+                if w.get("branch"):
+                    _git("branch", "-d", w["branch"], cwd=raiz)
+            except subprocess.CalledProcessError as e:
+                # um item recusado pelo git nao pode impedir os demais, o prune e o aviso
+                print(f"falhou ao remover {w['caminho']}: {(e.stderr or e).__str__().strip()}")
     for w in pendentes:
         print(f"mantida: {w['caminho']} ({w['motivo']})")
     if a.aplicar:

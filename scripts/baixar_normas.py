@@ -9,7 +9,9 @@ Planalto mostra riscado (revogado ou redacao anterior) sai como
 Grava (unico escritor):
   normas/<id>.txt          texto, com cabecalho de fonte e data
   normas/indice.json       {id: {titulo, rotulo, url, baixado_em, sha256, chars}}
-  dados/normas_status.json resultado da ultima execucao
+                           baixado_em = quando o CONTEUDO mudou pela ultima vez
+  dados/normas_status.json resultado da ultima execucao; "normas": {id: {verificado_em}}
+                           = ultima vez que o Planalto foi consultado com sucesso
 
 Uso:
   python3 scripts/baixar_normas.py --se-necessario   # ciclo: >= 7 dias ou gatilho
@@ -21,6 +23,7 @@ import hashlib
 import json
 import re
 import sys
+import unicodedata
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -56,10 +59,15 @@ NORMAS = [
      "url": BASE + "leis/lcp/lcp227.htm", "minimo_artigos": 50, "recortes": None},
 ]
 
-# Novidade que provavelmente altera uma norma-base: antecipa o download.
-GATILHO = re.compile(
-    r"lei complementar n[º°o.]*\s*\d|emenda constitucional n[º°o.]*\s*\d"
-    r"|altera a lei complementar n[º°o.]*\s*(214|227)", re.I)
+# Novidade que provavelmente altera uma norma-base: antecipa o download. So' o
+# TITULO conta (normalizado): comeca com "lei complementar n.." ou "emenda
+# constitucional n..". Corpo de noticia que cita a LC 214 nao dispara.
+GATILHO = re.compile(r"^\s*(?:lei complementar|emenda constitucional) n[o.]*\s*\d")
+
+
+def _norm_titulo(t):
+    t = unicodedata.normalize("NFKD", t or "")
+    return "".join(c for c in t if not unicodedata.combining(c)).lower().replace("\u00b0", "o")
 
 
 LINE_THROUGH = re.compile(r"line-through", re.I)
@@ -203,22 +211,25 @@ def _grava_atomico(p, conteudo):
     tmp.replace(p)
 
 
-def precisa_atualizar(indice, novidades, hoje):
+def precisa_atualizar(indice, novidades, hoje, verificado=None):
+    """verificado: {id: {"verificado_em": ...}} (dados/normas_status.json); a idade
+    usa verificado_em e cai no baixado_em do indice."""
+    verificado = verificado or {}
     datas = []
     for n in NORMAS:
         meta = indice.get(n["id"])
         if not meta:
             return True, f"{n['id']} ainda nao baixada"
-        datas.append(datetime.date.fromisoformat(meta["baixado_em"][:10]))
+        quando = (verificado.get(n["id"]) or {}).get("verificado_em") or meta["baixado_em"]
+        datas.append(datetime.date.fromisoformat(quando[:10]))
     idade = (hoje - min(datas)).days
     if idade >= DIAS_ATUALIZACAO:
-        return True, f"compilacao com {idade} dia(s)"
+        return True, f"compilacao verificada ha {idade} dia(s)"
     for it in novidades:
-        alvo = f"{it.get('titulo', '')}\n{(it.get('texto') or '')[:3000]}"
-        m = GATILHO.search(alvo)
+        m = GATILHO.search(_norm_titulo(it.get("titulo", "")))
         if m:
-            return True, f"gatilho '{m.group(0)}' em: {it.get('titulo', '')[:120]}"
-    return False, f"compilacao com {idade} dia(s), sem gatilho"
+            return True, f"gatilho '{m.group(0).strip()}' em: {it.get('titulo', '')[:120]}"
+    return False, f"compilacao verificada ha {idade} dia(s), sem gatilho"
 
 
 def _novidades(raiz):
@@ -252,11 +263,12 @@ def executa(raiz, forcar=False, sessao=None, hoje=None):
     hoje = hoje or datetime.date.today()
     arq_idx = raiz / "normas" / "indice.json"
     indice = _le_json(arq_idx, {})
-    status = {"executado_em": _agora(), "erros": []}
+    anterior = _le_json(raiz / "dados" / "normas_status.json", {}).get("normas", {})
+    status = {"executado_em": _agora(), "erros": [], "normas": dict(anterior)}
     if forcar:
         motivo = "forcado"
     else:
-        precisa, motivo = precisa_atualizar(indice, _novidades(raiz), hoje)
+        precisa, motivo = precisa_atualizar(indice, _novidades(raiz), hoje, anterior)
         if not precisa:
             status.update(resultado="sem_necessidade", motivo=motivo)
             _grava_atomico(raiz / "dados" / "normas_status.json",
@@ -264,6 +276,7 @@ def executa(raiz, forcar=False, sessao=None, hoje=None):
             print(f"normas: {motivo}", file=sys.stderr)
             return 0
     sessao = sessao or Sessao()
+    mudou = False
     for n in NORMAS:
         try:
             texto, raw, marcas = baixa_norma(sessao, n)
@@ -272,17 +285,22 @@ def executa(raiz, forcar=False, sessao=None, hoje=None):
             print(f"normas: {n['id']} FALHOU ({e}); arquivo anterior mantido", file=sys.stderr)
             continue
         quando = _agora()
+        sha = hashlib.sha256(texto.encode("utf-8")).hexdigest()
+        status["normas"][n["id"]] = {"verificado_em": quando}
+        if (indice.get(n["id"]) or {}).get("sha256") == sha and (raiz / "normas" / f"{n['id']}.txt").exists():
+            print(f"normas: {n['id']} sem mudanca ({len(texto)} chars)", file=sys.stderr)
+            continue
         cab = (f"# {n['titulo']}\n# Fonte: {n['url']}\n# Texto compilado baixado em: {quando}\n"
                "# Trechos riscados no Planalto (revogados ou com redação anterior) aparecem "
                "como [NÃO VIGENTE: ...] e não estão em vigor.\n\n")
         _grava_atomico(raiz / "normas" / f"{n['id']}.txt", cab + texto)
         indice[n["id"]] = {"titulo": n["titulo"], "rotulo": n["rotulo"], "url": n["url"],
-                           "baixado_em": quando,
-                           "sha256": hashlib.sha256(texto.encode("utf-8")).hexdigest(),
-                           "chars": len(texto),
+                           "baixado_em": quando, "sha256": sha, "chars": len(texto),
                            "riscados_html": raw, "marcas_nao_vigente": marcas}
+        mudou = True
         print(f"normas: {n['id']} ok ({len(texto)} chars)", file=sys.stderr)
-    _grava_atomico(arq_idx, json.dumps(indice, ensure_ascii=False, indent=1, sort_keys=True))
+    if mudou:
+        _grava_atomico(arq_idx, json.dumps(indice, ensure_ascii=False, indent=1, sort_keys=True))
     status.update(resultado="falha_parcial" if status["erros"] else "atualizado", motivo=motivo)
     _grava_atomico(raiz / "dados" / "normas_status.json",
                    json.dumps(status, ensure_ascii=False, indent=1))

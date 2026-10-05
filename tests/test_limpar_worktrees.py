@@ -5,6 +5,7 @@ import sys
 import tempfile
 import time
 import unittest
+from unittest import mock
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
@@ -141,6 +142,31 @@ class TestCandidatas(unittest.TestCase):
         self.assertEqual(len(msgs), 1)
         self.assertIn("suja", msgs[0])
         self.assertTrue(c.exists())
+
+    def test_falha_em_branch_d_nao_aborta_os_demais(self):
+        # Simula o git recusando `branch -d` (o que o git real faria p.ex. para um
+        # branch nao integrado): _git real para tudo, CalledProcessError so' em `branch`.
+        a, b, suja = self.wt("sessao-a"), self.wt("sessao-b"), self.wt("suja")
+        (suja / "x.txt").write_text("x")
+        real = lw._git
+
+        def git_falho(*args, cwd):
+            if args[0] == "branch":
+                raise subprocess.CalledProcessError(1, ["git", *args], stderr="recusado")
+            return real(*args, cwd=cwd)
+
+        msgs = []
+        os.environ["LIMPAR_AGORA"] = str(self.agora)
+        try:
+            with mock.patch.object(lw, "_git", git_falho):
+                rc = lw.main(["--aplicar"], raiz=self.raiz, notificar=msgs.append)
+        finally:
+            del os.environ["LIMPAR_AGORA"]
+        self.assertEqual(rc, 0)
+        self.assertFalse(a.exists())
+        self.assertFalse(b.exists())      # a segunda tambem foi processada
+        self.assertTrue(suja.exists())
+        self.assertEqual(len(msgs), 1)    # notificacao dos pendentes mantida
 
 
 if __name__ == "__main__":

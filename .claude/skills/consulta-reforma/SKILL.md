@@ -30,13 +30,17 @@ offset/limit para os grandes — a LC 214 tem centenas de milhares de caracteres
 
 ## 2. Atualidade — obrigatório ao citar normas/
 
-Antes de afirmar a redação de um dispositivo de `normas/`, rode
-`python3 scripts/buscar.py --alteracoes-de <ec132|lc214|lc227|cf-reforma> [--artigo <N>]`.
+Antes de afirmar a redação de um dispositivo de `normas/`, rode **sempre primeiro, sem
+`--artigo`**: `python3 scripts/buscar.py --alteracoes-de <ec132|lc214|lc227|cf-reforma>`.
+`--artigo <N>` só **estreita** a lista (procura o artigo no texto inteiro da publicação,
+inclusive na redação entre aspas); nunca o use como única checagem — se ele não achar
+nada, o comando imprime a lista completa para você ler.
 
 - **Só o que esse comando lista conta como alteração.** Ele traz apenas Lei
   Complementar (para lc214/lc227) ou Emenda Constitucional (para ec132/cf-reforma)
   cujo texto liga um verbo de alteração ou "passa a vigorar" à norma, fora de
-  redação nova entre aspas. Janela: 30 dias antes do download da compilação em diante.
+  redação nova entre aspas (para cf-reforma, a EC precisa citar dispositivo do escopo:
+  arts. 145–162, 156-A/B, 195 ou ADCT 124–138). Considera todo o acervo, sem janela de datas.
 - Cada resultado traz `incorporada`:
   - `True` — o ato já aparece no texto compilado; a compilação vale.
   - `False` — **não compilado ainda**: leia a publicação em `dados/textos/` e responda
@@ -46,8 +50,12 @@ Antes de afirmar a redação de um dispositivo de `normas/`, rode
     qualquer coisa.
 - `--mencoes` acrescenta um bloco separado de publicações que apenas citam a norma.
   Serve de contexto, mas **nunca** apresente menção como alteração ("a lei mudou").
-- Se precisar do mais recente que o último ciclo, você pode atualizar na hora:
-  `python3 scripts/baixar_normas.py --forcar` (ou rodar a coleta).
+- Linhas de artigo dentro de alteração entre aspas em `lc227.txt` (ex.: "Art. 471-E")
+  são artigos da **LC 214 inseridos pela LC 227**, mesmo que o `buscar.py` os rotule
+  "LC 227, art. …".
+- Se precisar do mais recente que o último ciclo, peça ao ciclo:
+  `sudo systemctl start --no-block reforma-ciclo.service` e aguarde. `baixar_normas.py
+  --forcar` na worktree serve só para LER localmente; nunca comite o que ele gerar.
 
 ## 3. Marcas de confiança
 
@@ -74,6 +82,15 @@ diga. Se a lei é lacunosa, contraditória ou mal escrita, diga sem rodeio. Sepa
 ## 6. Você está numa worktree
 
 Esta sessão roda numa worktree isolada criada a partir do `main`. Pode ler, rodar
-scripts e alterar o projeto à vontade; para publicar uma mudança, faça commit e
-integre ao `main` do checkout de produção com `scripts/publicar.sh` (ver CLAUDE.md).
-O ciclo automático (05h/17h) é dono do checkout de produção — não edite arquivos lá.
+scripts e alterar o projeto à vontade. O ciclo automático (05h/17h) é dono do checkout
+de produção — não edite arquivos lá.
+
+Para publicar uma mudança (código, skill, docs), a partir da worktree:
+
+```bash
+git fetch origin && git rebase origin/main && git push origin HEAD:main
+```
+
+O sync do próximo ciclo absorve o push. **Nunca comite `normas/`, `dados/` nem `docs/`**:
+os únicos escritores são os scripts do ciclo. Para dados mais novos, peça ao ciclo
+(`sudo systemctl start --no-block reforma-ciclo.service`) e aguarde.

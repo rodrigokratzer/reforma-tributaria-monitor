@@ -2,6 +2,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
@@ -172,11 +173,12 @@ class TestAlteracoes(Base):
         k1 = next(x for x in r if x["id"] == "k1")
         self.assertIs(k1["incorporada"], False)
 
-    def test_fora_da_janela_excluida(self):
-        r = buscar.alteracoes_de(self.docs, "lc214")
-        k9_ids = {x["id"] for x in r}
-        # k9 e' de setembro: fora da janela de 30 dias antes do download
-        self.assertNotIn("k9", k9_ids)
+    def test_sem_limite_de_data(self):
+        # k9 e' de setembro (mais de 30 dias antes do download): nao ha' mais janela,
+        # entao o que for alteracao aparece, e o que nao for continua fora.
+        import inspect
+        self.assertFalse(hasattr(buscar, "JANELA_ALTERACOES_DIAS"))
+        self.assertNotIn("janela", inspect.getsource(buscar.alteracoes_de).lower().replace("alteracao", ""))
 
     def test_citacao_entre_aspas_nao_e_alteracao(self):
         # k5: LC 237 alters LC 229, mentions LC 214 only in quoted text
@@ -302,6 +304,97 @@ class TestLCShorthand(Base):
         # Should still be detected as amendment
         r = buscar.alteracoes_de(self.docs, "lc214")
         self.assertIn("k15", {x["id"] for x in r})
+
+
+def _doc(tipo, id_, titulo, texto, data="2026-10-04", rotulo=None):
+    d = {"tipo": tipo, "id": id_, "rotulo": rotulo or titulo, "titulo": titulo, "data": data,
+         "fonte": "DOU", "url": "", "caminho": "", "texto": texto}
+    d["_n"], d["_nt"] = buscar.normaliza(texto), buscar.normaliza(titulo)
+    return d
+
+
+def _norma(nid, texto="Art. 1. x"):
+    return _doc("norma", nid, nid, texto, data="2026-10-05", rotulo=nid)
+
+
+class TestArtigoNoTextoInteiro(unittest.TestCase):
+    def lc(self, texto, titulo="LEI COMPLEMENTAR Nº 230, DE 1º DE OUTUBRO DE 2026"):
+        return [_norma("lc214"), _doc("publicacao", "p", titulo, texto)]
+
+    def test_forma_padrao_com_redacao_entre_aspas(self):
+        docs = self.lc("Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para dispor "
+                       "sobre X. Art. 1º A Lei Complementar nº 214, de 16 de janeiro de 2025, passa "
+                       "a vigorar com as seguintes alterações: \u201cArt. 26. Texto novo.\u201d")
+        self.assertEqual(len(buscar.alteracoes_de(docs, "lc214")), 1)
+        self.assertEqual(len(buscar.alteracoes_de(docs, "lc214", "26")), 1)
+        self.assertEqual(buscar.alteracoes_de(docs, "lc214", "99"), [])
+
+    def test_artigo_em_lista(self):
+        docs = self.lc("Altera a Lei Complementar nº 214. Os arts. 25 e 26 da Lei Complementar "
+                       "nº 214, de 16 de janeiro de 2025, passam a vigorar com as seguintes alterações:")
+        self.assertEqual(len(buscar.alteracoes_de(docs, "lc214", "26")), 1)
+        self.assertEqual(len(buscar.alteracoes_de(docs, "lc214", "25")), 1)
+
+    def test_26_nao_casa_26_a_mas_26_a_casa(self):
+        docs = self.lc("Art. 5º A Lei Complementar nº 214, de 16 de janeiro de 2025, passa a vigorar "
+                       "acrescida do seguinte art. 26-A:")
+        self.assertEqual(buscar.alteracoes_de(docs, "lc214", "26"), [])
+        self.assertEqual(len(buscar.alteracoes_de(docs, "lc214", "26-A")), 1)
+
+    def test_nao_alteracao_continua_fora_com_artigo(self):
+        docs = self.lc("Dispõe sobre X. Art. 26. Algo. Menciona a Lei Complementar nº 214.")
+        self.assertEqual(buscar.alteracoes_de(docs, "lc214", "26"), [])
+
+    def test_cli_avisa_quando_filtro_remove_tudo(self):
+        import contextlib, io
+        docs = self.lc("Altera a Lei Complementar nº 214, de 16 de janeiro de 2025. Art. 1º A Lei "
+                       "Complementar nº 214 passa a vigorar com as seguintes alterações: \u201cArt. 30.\u201d")
+        out = io.StringIO()
+        with mock.patch.object(buscar, "carrega", return_value=docs), contextlib.redirect_stdout(out):
+            buscar.main(["--alteracoes-de", "lc214", "--artigo", "26"])
+        self.assertIn("1 alteracao(oes) da norma; nenhuma cita o art. 26", out.getvalue())
+        self.assertIn("LEI COMPLEMENTAR Nº 230", out.getvalue())
+        self.assertNotIn("janela", out.getvalue())
+
+
+class TestEscopoCfReforma(unittest.TestCase):
+    TIT = "EMENDA CONSTITUCIONAL Nº 140, DE 1º DE OUTUBRO DE 2026"
+
+    def docs(self, texto):
+        return [_norma("cf-reforma"), _doc("publicacao", "p", self.TIT, texto)]
+
+    def test_ec_so_do_art_100_nao_altera_cf_reforma(self):
+        d = self.docs("Altera o art. 100 da Constituição Federal. Art. 1º O art. 100 da "
+                      "Constituição Federal passa a vigorar com as seguintes alterações:")
+        self.assertEqual(buscar.alteracoes_de(d, "cf-reforma"), [])
+        self.assertEqual(len(buscar.mencoes_de(d, "cf-reforma")), 1)
+
+    def test_ec_do_art_156_a_altera(self):
+        d = self.docs("Art. 1º O art. 156-A da Constituição Federal passa a vigorar com as "
+                      "seguintes alterações:")
+        self.assertEqual(len(buscar.alteracoes_de(d, "cf-reforma")), 1)
+        self.assertEqual(buscar.mencoes_de(d, "cf-reforma"), [])
+
+    def test_ec_do_adct_altera(self):
+        d = self.docs("Altera a Constituição Federal. Art. 1º O art. 130 do Ato das Disposições "
+                      "Constitucionais Transitórias passa a vigorar com as seguintes alterações:")
+        self.assertEqual(len(buscar.alteracoes_de(d, "cf-reforma")), 1)
+
+    def test_art_130_sem_adct_nao_conta(self):
+        d = self.docs("Altera a Constituição Federal. Art. 1º O art. 130 da Constituição Federal "
+                      "passa a vigorar com as seguintes alterações:")
+        self.assertEqual(buscar.alteracoes_de(d, "cf-reforma"), [])
+
+
+class TestIncorporadaFronteira(unittest.TestCase):
+    def test_lc_23_nao_casa_230(self):
+        norma = _norma("lc214", "Texto. Lei Complementar nº 230, de 2026, alterou isto.")
+        pub = _doc("publicacao", "p", "LEI COMPLEMENTAR Nº 23, DE 1º DE OUTUBRO DE 2026",
+                   "Altera a Lei Complementar nº 214, de 2025. Art. 1º A Lei Complementar nº 214 "
+                   "passa a vigorar com as seguintes alterações:")
+        pub["_nt"] = buscar.normaliza("LEI COMPLEMENTAR Nº 23 e Lei Complementar nº 23")
+        r = buscar.alteracoes_de([norma, pub], "lc214")
+        self.assertIs(r[0]["incorporada"], False)
 
 
 if __name__ == "__main__":

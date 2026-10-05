@@ -180,9 +180,26 @@ class TestPrecisaAtualizar(unittest.TestCase):
         self.assertTrue(ok)
         self.assertIn("230", motivo)
 
-    def test_gatilho_altera_lc214_no_texto(self):
-        nov = [{"titulo": "Portaria qualquer", "texto": "Altera a Lei Complementar nº 214, de 2025"}]
+    def test_corpo_citando_lc214_nao_dispara(self):
+        nov = [{"titulo": "Portaria qualquer",
+                "texto": "Altera a Lei Complementar nº 214, de 2025; Lei Complementar nº 227"}]
+        self.assertFalse(bn.precisa_atualizar(self.indice(1), nov, self.HOJE)[0])
+
+    def test_gatilho_so_pelo_inicio_do_titulo(self):
+        nov = [{"titulo": "Regulamenta a Lei Complementar nº 214", "texto": ""}]
+        self.assertFalse(bn.precisa_atualizar(self.indice(1), nov, self.HOJE)[0])
+        nov = [{"titulo": "LEI COMPLEMENTAR Nº 240, DE 1º DE OUTUBRO DE 2026", "texto": ""}]
         self.assertTrue(bn.precisa_atualizar(self.indice(1), nov, self.HOJE)[0])
+        nov = [{"titulo": "Emenda Constitucional nº 140, de 2026", "texto": ""}]
+        self.assertTrue(bn.precisa_atualizar(self.indice(1), nov, self.HOJE)[0])
+
+    def test_idade_usa_verificado_em(self):
+        ver = {n["id"]: {"verificado_em": "2026-10-19T08:00:00Z"} for n in bn.NORMAS}
+        self.assertFalse(bn.precisa_atualizar(self.indice(30), [], self.HOJE, ver)[0])
+        ver["lc214"] = {"verificado_em": "2026-10-10T08:00:00Z"}
+        self.assertTrue(bn.precisa_atualizar(self.indice(30), [], self.HOJE, ver)[0])
+        # sem verificado_em cai no baixado_em
+        self.assertTrue(bn.precisa_atualizar(self.indice(30), [], self.HOJE, {})[0])
 
     def test_publicacao_comum_nao_dispara(self):
         nov = [{"titulo": "Portaria RFB nº 600 sobre IBS", "texto": "dispõe sobre obrigações"}]
@@ -241,6 +258,48 @@ class TestExecuta(unittest.TestCase):
         self.assertEqual(rc, 0)
         st = json.loads((self.raiz / "dados" / "normas_status.json").read_text("utf-8"))
         self.assertEqual(st["resultado"], "sem_necessidade")
+
+    def _le(self, rel):
+        return (self.raiz / rel).read_bytes()
+
+    def test_conteudo_igual_nao_reescreve_arquivo_nem_indice(self):
+        bn.executa(self.raiz, forcar=True, sessao=FakeSessao(self.paginas))
+        txt, idx = self._le("normas/lc214.txt"), self._le("normas/indice.json")
+        st1 = json.loads(self._le("dados/normas_status.json"))
+        with mock.patch.object(bn, "_agora", return_value="2030-01-01T00:00:00Z"):
+            bn.executa(self.raiz, forcar=True, sessao=FakeSessao(self.paginas))
+        self.assertEqual(self._le("normas/lc214.txt"), txt)
+        self.assertEqual(self._le("normas/indice.json"), idx)
+        st = json.loads(self._le("dados/normas_status.json"))
+        self.assertEqual(st["normas"]["lc214"]["verificado_em"], "2030-01-01T00:00:00Z")
+        self.assertNotEqual(st["normas"]["lc214"]["verificado_em"],
+                            st1["normas"]["lc214"]["verificado_em"])
+
+    def test_conteudo_diferente_reescreve_e_atualiza_baixado_em(self):
+        bn.executa(self.raiz, forcar=True, sessao=FakeSessao(self.paginas))
+        lc = next(n for n in bn.NORMAS if n["id"] == "lc214")
+        novo = dict(self.paginas, **{lc["url"]: HTML_LC.replace("Redação nova", "Redação novíssima")})
+        with mock.patch.object(bn, "_agora", return_value="2030-01-01T00:00:00Z"):
+            bn.executa(self.raiz, forcar=True, sessao=FakeSessao(novo))
+        idx = json.loads(self._le("normas/indice.json"))
+        self.assertEqual(idx["lc214"]["baixado_em"], "2030-01-01T00:00:00Z")
+        self.assertIn("novíssima", self._le("normas/lc214.txt").decode("utf-8"))
+
+    def test_sem_necessidade_preserva_verificado_em(self):
+        with mock.patch.object(bn, "_agora", return_value="2026-10-20T00:00:00Z"):
+            bn.executa(self.raiz, forcar=True, sessao=FakeSessao(self.paginas))
+        bn.executa(self.raiz, forcar=False, sessao=FakeSessao({}), hoje=datetime.date(2026, 10, 21))
+        st = json.loads(self._le("dados/normas_status.json"))
+        self.assertEqual(st["resultado"], "sem_necessidade")
+        self.assertEqual(st["normas"]["lc214"]["verificado_em"], "2026-10-20T00:00:00Z")
+
+    def test_falha_nao_marca_verificado(self):
+        lc = next(n for n in bn.NORMAS if n["id"] == "lc214")
+        quebrado = dict(self.paginas, **{lc["url"]: "<html><body>manutenção</body></html>"})
+        bn.executa(self.raiz, forcar=True, sessao=FakeSessao(quebrado))
+        st = json.loads(self._le("dados/normas_status.json"))
+        self.assertNotIn("lc214", st["normas"])
+        self.assertIn("lc227", st["normas"])
 
 
 if __name__ == "__main__":

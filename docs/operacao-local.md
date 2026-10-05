@@ -215,8 +215,12 @@ journalctl -u reforma-consulta.service -f
 sudo systemctl restart reforma-consulta.service
 ```
 
-Se o serviço não sobe (ex.: login do Claude expirou), `OnFailure` dispara o
-push de falha; refaça o login com `claude` no terminal e reinicie.
+Se o serviço não sobe (ex.: login do Claude expirou), o `StartLimit` o marca
+como falho e `OnFailure` dispara o push de falha. Depois disso,
+`reforma-consulta-reinicio.timer` tenta religá-lo a cada 15 minutos (iniciar
+uma unidade que já está ativa é um no-op, então o timer só age quando o
+serviço caiu): quando o problema for resolvido, ele volta sozinho. Refaça o
+login com `claude` no terminal se for o caso; reiniciar na mão também funciona.
 
 **Risco assumido:** o serviço roda com `--permission-mode bypassPermissions`,
 ou seja, as sessões executam comandos e editam arquivos sem pedir permissão.
@@ -226,7 +230,7 @@ ou seja, as sessões executam comandos e editam arquivos sem pedir permissão.
 **Instalar:**
 
 ```bash
-sudo cp deploy/systemd/reforma-consulta.service deploy/systemd/reforma-limpeza.service deploy/systemd/reforma-limpeza.timer /etc/systemd/system/
+sudo cp deploy/systemd/reforma-consulta.service deploy/systemd/reforma-consulta-reinicio.timer deploy/systemd/reforma-limpeza.service deploy/systemd/reforma-limpeza.timer /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable --now reforma-consulta.service reforma-limpeza.timer
+sudo systemctl enable --now reforma-consulta.service reforma-consulta-reinicio.timer reforma-limpeza.timer
 ```
