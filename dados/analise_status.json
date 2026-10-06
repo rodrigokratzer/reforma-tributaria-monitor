@@ -1,13 +1,1 @@
-{
- "data": "2026-10-06",
- "turno": "matinal",
- "situacao": "publicada",
- "acoes": 0,
- "gerado_em": "2026-10-06T08:30:00Z",
- "resumo_curto": "13 itens, nenhum exige ação: só o novo balanço de opção pelo Simples/IBS-CBS importa",
- "painel_atualizado": [
-  "Balanço da opção pelo Simples Nacional 2027 atualizado: 452.598 solicitações (182.065 deferidas, 270.533 indeferidas)",
-  "Balanço da opção pelo regime regular do IBS/CBS atualizado: 846.339 solicitações",
-  "Receita Federal divulga novo balanço de opção pelo Simples/IBS-CBS em 06/10"
- ]
-}
+{"data": "2026-10-06", "turno": "noturna", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-10-06T20:03:09Z", "resumo_curto": "nenhuma publicação nova"}
