@@ -1,5 +1,26 @@
 [
  {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "Balanço da opção pelo Simples Nacional 2027 atualizado: 452.598 solicitações (182.065 deferidas, 270.533 indeferidas)",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
+  "em": "2026-10-06-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "Balanço da opção pelo regime regular do IBS/CBS atualizado: 846.339 solicitações",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
+  "em": "2026-10-06-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Receita Federal divulga novo balanço de opção pelo Simples/IBS-CBS em 06/10",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
+  "em": "2026-10-06-matinal"
+ },
+ {
   "secao": "linha_do_tempo",
   "tipo": "incluido",
   "descricao": "Regra de validação VC02-14 da NF-e (referenciamento de devolução) prorrogada de 05/10 para 03/11/2026 (NT 2025.002-RTC v1.52)",

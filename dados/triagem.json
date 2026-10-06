@@ -184,6 +184,11 @@
   "motivo": "página de serviço para adesão ao piloto da CBS, sem prazo ou mudança nova indicada",
   "em": "retroativa-2026-09-30"
  },
+ "196edd57d8574a84": {
+  "veredito": "ruido",
+  "motivo": "homologação de aumento de capital de seguradora, ato interno sem relação com a reforma",
+  "em": "2026-10-06-matinal"
+ },
  "19f8a9c39c5ce3b8": {
   "veredito": "relevante",
   "motivo": "atualiza balanço de adesão ao Simples 2027 e ao regime regular do IBS/CBS, prazos em 15/10 e 30/10",
@@ -339,6 +344,11 @@
   "motivo": "solução de consulta sobre retenção de IRRF/CSLL em serviços de manutenção, sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "289404b17049d08c": {
+  "veredito": "ruido",
+  "motivo": "homologação de aumento de capital de seguradora, ato interno sem relação com a reforma",
+  "em": "2026-10-06-matinal"
+ },
  "2902191e06708a5d": {
   "veredito": "ruido",
   "motivo": "Homologação de eleição de administrador de seguradora, ato interno",
@@ -378,6 +388,11 @@
   "veredito": "contexto",
   "motivo": "Minuta de Portaria CGIBS sobre acordos de adesão; ainda é proposta, não norma vigente.",
   "em": "retroativa-2026-09-30"
+ },
+ "2ec91f54becfe8b7": {
+  "veredito": "ruido",
+  "motivo": "delegação de competência para liberar mercadorias apreendidas, sem relação com a reforma",
+  "em": "2026-10-06-matinal"
  },
  "2f9149d6bf032f3a": {
   "veredito": "ruido",
@@ -523,6 +538,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta sobre isenção de IRPF em venda de imóvel residencial",
   "em": "retroativa-2026-09-30"
+ },
+ "3df18523f798182b": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administrador de seguradora, ato interno sem relação com a reforma",
+  "em": "2026-10-06-matinal"
  },
  "3e048baf3b86bc6e": {
   "veredito": "ruido",
@@ -683,6 +703,11 @@
   "veredito": "ruido",
   "motivo": "portaria SUSEP de coordenação, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "527e4940e311e59a": {
+  "veredito": "ruido",
+  "motivo": "regras de reporte ao SCR por securitizadoras, sem relação com a reforma",
+  "em": "2026-10-06-matinal"
  },
  "528869138e7a78ca": {
   "veredito": "ruido",
@@ -939,6 +964,11 @@
   "motivo": "tabela do RREO (educação básica), sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "6acf96875e04292d": {
+  "veredito": "ruido",
+  "motivo": "regra de trânsito aduaneiro de contêineres no Porto do Rio Grande, sem relação com a reforma",
+  "em": "2026-10-06-matinal"
+ },
  "6b891da4884da836": {
   "veredito": "contexto",
   "motivo": "Resolução CGIBS nº 12 fixa diretrizes de orçamento interno para 2027",
@@ -1099,6 +1129,11 @@
   "motivo": "soluções de consulta sobre II, IRPJ/CSLL (lucro presumido) e IRRF; tributos não afetados pela reforma do consumo",
   "em": "2026-10-05-matinal"
  },
+ "836d4c4e5f7d55ed": {
+  "veredito": "ruido",
+  "motivo": "realocação de cargos comissionados internos da CVM, sem relação com a reforma",
+  "em": "2026-10-06-matinal"
+ },
  "83e9e219f2d20c74": {
   "veredito": "ruido",
   "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
@@ -1133,6 +1168,11 @@
   "veredito": "ruido",
   "motivo": "Retificacao de erro de digitacao em convenio de ICMS, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "869a562955f0375f": {
+  "veredito": "ruido",
+  "motivo": "benefício de ICMS para empresa do setor aeronáutico, regime antigo, sem relação com a reforma",
+  "em": "2026-10-06-matinal"
  },
  "885b1a55042ac0ac": {
   "veredito": "ruido",
@@ -1354,6 +1394,11 @@
   "motivo": "homologação de destituição de administrador de seguradora, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "a486ed91d94873c0": {
+  "veredito": "ruido",
+  "motivo": "retificação de CNO em ato declaratório da RFB, sem relação com a reforma",
+  "em": "2026-10-06-matinal"
+ },
  "a4f0cb8d4b8f8065": {
   "veredito": "ruido",
   "motivo": "Ato Cotepe atualiza cadastro de contribuintes de beneficio de ICMS, tributo atual sem ligacao com a reforma",
@@ -1398,6 +1443,11 @@
   "veredito": "ruido",
   "motivo": "Anula certidão de regularidade fiscal individual; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "a9a3e73068309cad": {
+  "veredito": "relevante",
+  "motivo": "balanço atualizado de opção pelo Simples Nacional 2027 e pelo regime regular do IBS/CBS",
+  "em": "2026-10-06-matinal"
  },
  "ac360ee50b2812a9": {
   "veredito": "contexto",
@@ -1619,6 +1669,11 @@
   "motivo": "soluções de consulta sobre bônus capacitação e intervalo intrajornada, CPRB/IRPF",
   "em": "retroativa-2026-09-30"
  },
+ "c589c53768ada9b2": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores de seguradora, ato interno sem relação com a reforma",
+  "em": "2026-10-06-matinal"
+ },
  "c59e5c05f83258e8": {
   "veredito": "relevante",
   "motivo": "RFB e CGIBS regulamentam programa de conformidade para adaptação à reforma em 2026",
@@ -1783,6 +1838,11 @@
   "veredito": "ruido",
   "motivo": "Institui núcleo de acolhimento contra assédio no Tesouro; ato interno sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "d59d5cf44a11f493": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administradores de seguradora, ato interno sem relação com a reforma",
+  "em": "2026-10-06-matinal"
  },
  "d6affd71c8f31be7": {
   "veredito": "ruido",
@@ -2123,6 +2183,11 @@
   "veredito": "ruido",
   "motivo": "portal institucional genérico de NFS-e, sem conteúdo normativo da reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "fc70d835761cd80f": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre IRPJ/CSLL e subvenção de ICMS (Lei 14.789/2023), não trata de IBS/CBS/IS",
+  "em": "2026-10-06-matinal"
  },
  "fced101ba08e39f4": {
   "veredito": "ruido",

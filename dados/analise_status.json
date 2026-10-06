@@ -1,13 +1,13 @@
 {
- "data": "2026-10-05",
- "turno": "noturna",
+ "data": "2026-10-06",
+ "turno": "matinal",
  "situacao": "publicada",
- "acoes": 1,
- "gerado_em": "2026-10-05T20:07:38Z",
- "resumo_curto": "10 itens, 1 exige ação: prazo de validação de NF-e que venceria hoje foi prorrogado para 03/11",
+ "acoes": 0,
+ "gerado_em": "2026-10-06T08:30:00Z",
+ "resumo_curto": "13 itens, nenhum exige ação: só o novo balanço de opção pelo Simples/IBS-CBS importa",
  "painel_atualizado": [
-  "Regra de validação VC02-14 da NF-e (referenciamento de devolução) prorrogada de 05/10 para 03/11/2026 (NT 2025.002-RTC v1.52)",
-  "Informe Técnico 2025.002 v1.70 cria novos códigos de classificação tributária (autônomos, bagagens, remessas internacionais, regimes especiais)",
-  "Nota Técnica 2026.010 define novo leiaute do DANFE para exibir IBS/CBS/IS, com produção em 01/12/2026"
+  "Balanço da opção pelo Simples Nacional 2027 atualizado: 452.598 solicitações (182.065 deferidas, 270.533 indeferidas)",
+  "Balanço da opção pelo regime regular do IBS/CBS atualizado: 846.339 solicitações",
+  "Receita Federal divulga novo balanço de opção pelo Simples/IBS-CBS em 06/10"
  ]
 }

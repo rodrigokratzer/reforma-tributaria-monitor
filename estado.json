@@ -1,18 +1,18 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-10-05",
+ "atualizado_em": "2026-10-06",
  "prazos_destaque": [
   {
    "rotulo": "Opção pelo Simples Nacional para 2027 — prazo prorrogado",
    "data": "2026-10-15",
    "status": "critical",
-   "nota": "Res. CGSN 194/2026 prorrogou de 30/09; balanço de 02/10 mostra 441.825 pedidos (164.070 deferidos, 277.755 indeferidos, ~63%, ainda em prazo até 30/10 para regularizar)"
+   "nota": "Res. CGSN 194/2026 prorrogou de 30/09; balanço de 06/10 mostra 452.598 pedidos (182.065 deferidos, 270.533 indeferidos, ainda em prazo até 30/10 para regularizar)"
   },
   {
    "rotulo": "Opção pelo regime regular do IBS/CBS para quem sai do Simples — prazo prorrogado",
    "data": "2026-10-30",
    "status": "serious",
-   "nota": "Res. CGSN 194/2026; mesma data vale para regularizar indeferimento no Simples; balanço de 02/10 registra 840.516 solicitações de opção pelo regime regular"
+   "nota": "Res. CGSN 194/2026; mesma data vale para regularizar indeferimento no Simples; balanço de 06/10 registra 846.339 solicitações de opção pelo regime regular"
   },
   {
    "rotulo": "Opção pelo regime específico do IBS/CBS para cooperativas",
@@ -190,6 +190,11 @@
    "data": "2026-10-03",
    "titulo": "Limite para as alíquotas do Imposto Seletivo",
    "detalhe": "Noventena para incidência em 01/01/2027. Venceu sem lei nem MP publicada."
+  },
+  {
+   "data": "2026-10-06",
+   "titulo": "Receita Federal atualiza balanço de opção pelo Simples/IBS-CBS",
+   "detalhe": "452.598 solicitações de opção pelo Simples Nacional 2027 (182.065 deferidas, 270.533 indeferidas); 846.339 solicitações de opção pelo regime regular do IBS/CBS."
   },
   {
    "data": "2026-10-15",
