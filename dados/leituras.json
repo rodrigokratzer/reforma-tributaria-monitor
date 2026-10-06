@@ -336,6 +336,13 @@
   "status": "lido",
   "tentativas": 1
  },
+ "196edd57d8574a84": {
+  "chars": 1283,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "19f8a9c39c5ce3b8": {
   "anexos": [],
   "anexos_falhos": [],
@@ -599,6 +606,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "289404b17049d08c": {
+  "chars": 852,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "2902191e06708a5d": {
   "chars": 952,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -666,6 +680,13 @@
   "paginas_ocr": 0,
   "status": "lido",
   "tentativas": 1
+ },
+ "2ec91f54becfe8b7": {
+  "chars": 2199,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
  },
  "2f9149d6bf032f3a": {
   "chars": 9033,
@@ -905,6 +926,13 @@
   "chars": 2287,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "3df18523f798182b": {
+  "chars": 876,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
@@ -1160,6 +1188,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "527e4940e311e59a": {
+  "chars": 6244,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "528869138e7a78ca": {
   "chars": 10898,
   "lido_em": "2026-10-05T12:33:59Z",
@@ -1231,11 +1266,11 @@
    }
   ],
   "chars": 12436,
-  "lido_em": "2026-10-05T20:03:39Z",
+  "lido_em": "2026-10-06T08:04:15Z",
   "origem": "html",
   "paginas_ocr": 0,
   "status": "parcial",
-  "tentativas": 3
+  "tentativas": 4
  },
  "552797d9ab0167b6": {
   "chars": 1789,
@@ -1619,6 +1654,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "6acf96875e04292d": {
+  "chars": 2301,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "6b891da4884da836": {
   "anexos": [],
   "anexos_falhos": [],
@@ -1870,6 +1912,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "836d4c4e5f7d55ed": {
+  "chars": 926,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "837de29eea0197bb": {
   "chars": 523,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -1942,6 +1991,13 @@
   "chars": 306,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "869a562955f0375f": {
+  "chars": 1428,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
@@ -2344,6 +2400,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "a486ed91d94873c0": {
+  "chars": 356,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "a4f0cb8d4b8f8065": {
   "chars": 2029,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -2406,6 +2469,16 @@
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
+ },
+ "a9a3e73068309cad": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 931,
+  "lido_em": "2026-10-06T08:03:08Z",
+  "origem": "html",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
  },
  "ac360ee50b2812a9": {
   "anexos": [],
@@ -2781,6 +2854,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "c589c53768ada9b2": {
+  "chars": 1150,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "c59e5c05f83258e8": {
   "anexos": [
    "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-e-cgibs-regulamentam-programa-nacional-de-conformidade-tributaria-para-apoiar-adaptacao-a-reforma-tributaria-no-ano-de-2026/ato-conjunto-conformidade-publicado-2026-08-12_9708.pdf"
@@ -3059,6 +3139,13 @@
   "chars": 4789,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "d59d5cf44a11f493": {
+  "chars": 873,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
@@ -3465,9 +3552,9 @@
  },
  "f3e81dc710ad3bab": {
   "erro": "ErroLeitura: sem conteudo legivel",
-  "status": "falhou",
-  "tentado_em": "2026-10-05T20:03:40Z",
-  "tentativas": 3
+  "status": "desistiu",
+  "tentado_em": "2026-10-06T08:04:16Z",
+  "tentativas": 4
  },
  "f423a3c5e0ecc768": {
   "chars": 851,
@@ -3629,6 +3716,13 @@
   "paginas_ocr": 0,
   "status": "lido",
   "tentativas": 1
+ },
+ "fc70d835761cd80f": {
+  "chars": 2814,
+  "lido_em": "2026-10-06T08:03:07Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
  },
  "fced101ba08e39f4": {
   "chars": 357,
