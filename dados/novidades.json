@@ -1,16 +1,16 @@
 {
- "data": "2026-10-05",
+ "data": "2026-10-06",
  "quantidade": 1,
  "itens": [
   {
-   "primeira_vez": "2026-10-05",
-   "fonte": "CGIBS - Portarias",
-   "titulo": "Portaria CGIBS nº 11 2026 (.pdf 602,40 KBytes)",
-   "url": "https://www.cgibs.gov.br/upload/arquivos/202610/05150102-portaria-cgibs-n-11-2026.pdf",
+   "primeira_vez": "2026-10-06",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
    "data": null,
-   "pasta_arquivo": "2026-10",
+   "pasta_arquivo": null,
    "alerta": null,
-   "visto_em": "2026-10-05T20:02:44Z"
+   "visto_em": "2026-10-06T08:03:02Z"
   }
  ],
  "fontes_com_erro": [],
