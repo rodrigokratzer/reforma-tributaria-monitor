@@ -809,6 +809,11 @@
   "motivo": "cadastro de transportadores de gás natural para ICMS atual, não é reforma do consumo",
   "em": "retroativa-2026-09-30"
  },
+ "5c40107a27866fd1": {
+  "veredito": "contexto",
+  "motivo": "PDF oficial da Portaria Conjunta MF/CGIBS nº 14 (combustíveis); mesmo ato já analisado na edição desta manhã, sem fato novo",
+  "em": "2026-10-07-noturna"
+ },
  "5c488512d8d4a393": {
   "veredito": "contexto",
   "motivo": "RFB, CGIBS e CFC alinham diretrizes de conformidade tributária; anúncio de alinhamento, sem obrigação concreta",
@@ -1599,6 +1604,11 @@
   "motivo": "ATC nº 8 aprova notas técnicas de NF-e/NFC-e/CT-e e outros DF-e para IBS/CBS",
   "em": "2026-10-01-noturna"
  },
+ "b602287576a3f26a": {
+  "veredito": "ruido",
+  "motivo": "Portaria interna da RFB-3ªRF sobre doação de mercadorias apreendidas (Programa Receita Cidadã); sem relação com a reforma do consumo",
+  "em": "2026-10-07-noturna"
+ },
  "b6a00e6806567138": {
   "veredito": "ruido",
   "motivo": "página de serviço genérica de consulta de NFS-e, sem relação específica com a reforma",
@@ -1678,6 +1688,11 @@
   "veredito": "ruido",
   "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "c1693731d3ca992d": {
+  "veredito": "relevante",
+  "motivo": "Divulga pacote técnico v1.3.0 da DeRE em produção beta (tabelas D-1001/D-1011, eventos D-2252/D-1121); confirma obrigatoriedade desde 01/10/2026",
+  "em": "2026-10-07-noturna"
  },
  "c271fa02ae579bd1": {
   "veredito": "ruido",
