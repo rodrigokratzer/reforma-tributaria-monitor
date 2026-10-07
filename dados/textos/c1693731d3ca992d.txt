@@ -1,0 +1,37 @@
+A nova versão 1.3.0 da documentação técnica da DeRE traz atualizações no Manual de Orientação, novos eventos transacionais, regras de validação aprimoradas e ajustes nos leiautes, reforçando a adaptação dos contribuintes aos regimes específicos da CBS e do IBS.
+
+A Secretaria Especial da Receita Federal do Brasil - RFB e o Comitê Gestor do Imposto sobre Bens e Serviços - CGIBS comunicam a publicação da versão 1.3.0 do pacote de documentação técnica.
+
+A medida foi formalizada pelo Ato Técnico Conjunto RFB/SUFIS/CGIBS/DIRETORIA-EXECUTIVA nº 6, de 28 de setembro de 2026, com fundamento nos arts. 112 e 116 do Decreto nº 12.955/2026 (Regulamento da CBS) e da Resolução CGIBS nº 6/2026 (Regulamento do IBS).
+
+A publicação da versão 1.3.0 do MOD e a atualização dos leiautes consolidam as diretrizes conceituais, os ritos de escrituração contábil-fiscal e os protocolos operacionais necessários à adaptação dos sistemas corporativos dos contribuintes enquadrados nos regimes específicos de Serviços Financeiros, Planos de Assistência à Saúde e Concursos de Prognósticos.
+
+Composição do Pacote Técnico (Versão 1.3.0)
+
+A documentação técnica aprovada e disponibilizada para download é composta pelos seguintes instrumentos:
+
+· 01 - Manual de Orientação do Usuário da DeRE (MOD v.1.3.0): Guia com orientações conceituais, diretrizes de preenchimento de eventos de tabela, mensais e transacionais, além da mecânica de apuração por margem e regras de gross-down;
+
+· 02 - Leiautes da DeRE – Eventos (v.1.3.0): Especificação técnica da estrutura hierárquica e dos campos XML de todos os eventos de entrada e retorno;
+
+· 03 - Leiautes da DeRE – Anexo I – Tabelas (v.1.3.0): Tabelas de domínio do sistema, contendo a atualização dos Códigos de Tributação (Tabela 11 - `codTrib`), dos Códigos de Base de Cálculo (Tabela 12 - `codBC`), das variáveis auxiliares e de coeficientes de rateio e reversão;
+
+· 04 - Leiautes da DeRE – Anexo II – Regras de Validação (v.1.3.0): Catálogo unificado com critérios de crítica de negócio, regras de consistência contábil e mensagens de erro do sistema;
+
+· 05 - Arquivos XSD (XML Schema Definition - v.1.3.0): Esquemas formais para validação estrutural e sintática dos arquivos XML.
+
+Principais Destaques e Inovações Técnicas
+
+1. Atualização do Manual do Usuário (MOD): O documento consolida a arquitetura da declaração, orienta sobre o fluxo assíncrono via Web Service/APIs, esclarece as fórmulas de exclusão de tributos embutidos para apuração de bases de cálculo líquidas e detalha a articulação contábil-fiscal da escrituração com a plataforma da Apuração Assistida do IBS e da CBS, bem como detalha todos os eventos transacionais publicados em versões anteriores.
+
+2. Instituição do Evento D-2252: Criação do leiaute do evento transacional D-2252 (Seguros de Ramos Elementares e de Pessoas sem Cobertura por Sobrevivência - Identificação de Adquirentes Contribuintes);
+
+3. Relações de deduções utilizadas na Apuração (Evento D-1121): A finalidade primária do evento é instituir o controle em conta-corrente de deduções por documento fiscal, assegurando a aplicação do princípio da não cumulatividade e a vedação ao duplo benefício fiscal;
+
+4. Fechamento (D-1199), Reabertura (D-1198) e Bases de Cálculo Negativas (BCN): Regulamentação do travamento das competências no ambiente autorizador, das travas de consistência entre eventos auxiliares e o balancete, do rito de reabertura para retificações e da parametrização para compensação de bases de cálculo negativas acumuladas (método automático PEPS ou manual);
+
+5. Ajustes Estruturais em Eventos Transacionais: Adequação de campos nos eventos D-2241 (Arranjos de Pagamento - Credenciados) para discriminação de deduções legais de tributos e aperfeiçoamento da estrutura do evento de retorno D-9209 (Retorno - Eventos Transacionais), em consonância com a dinâmica de totalização interna da DeRE.
+
+Informamos, ainda, que conforme aprovado pelo Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026, foram disponibilizadas no ambiente de produção beta as tabelas D-1001 – Informações do Contribuinte e D-1011 – Plano Geral de Contas Comentado. A medida atende ao ato que estabeleceu a obrigatoriedade do envio dos eventos da DeRE a partir de 1º de outubro de 2026.
+
+Acesse aqui a documentação.
