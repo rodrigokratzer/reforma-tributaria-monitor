@@ -1,0 +1,260 @@
+{
+ "data": "2026-10-07",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "inlabs",
+   "http_status": null,
+   "erro": null,
+   "total": 20,
+   "itens": [
+    {
+     "titulo": "PORTARIA CVM/PTE/Nº 232, DE 2 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=195",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Gabinete/Secretaria-Executiva",
+     "ementa": "Realoca cargos e funções comissionados executivos na estrutura da Comissão de Valores Mobiliários.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA ALF/RGE Nº 55, DE 2 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=194",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "Altera a Portaria ALF/RGE nº 114, de 23 de outubro de 2020.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 3.052, DE 5 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=193",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CVM Nº 247, DE 2 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=195",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Gabinete/Gerência Executiva",
+     "ementa": "Altera a Resolução CVM nº 60, de 23 de dezembro de 2021 e a Resolução 175, de 23 de dezembro de 2023.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 206, de 5 De OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=195",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 207, de 5 De OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=195",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Retificação",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=194",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 106, DE 5 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=19",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "Altera o Ato COTEPE/ICMS nº 67, de 3 de dezembro de 2019, que divulga relação das empresas nacionais que produzem, comercializam e importam materiais aeronáuticos, beneficiárias de redução de base de cálculo do ICMS.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA SRRF01 Nº 1.057, DE 5 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=192",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "Delega competência aos Superintendentes-Adjuntos da 1ª Região Fiscal e aos dirigentes das unidades jurisdicionadas para apreciação e autorização de solicitações de mercadorias apreendidas.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 208, de 5 De OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=195",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 209, de 5 De OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=195",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 210, de 5 De OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=06/10/2026&jornal=515&pagina=195",
+     "data": "2026-10-06",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 45, de 5 de OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/10/2026&jornal=515&pagina=73",
+     "data": "2026-10-07",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 46, de 5 de OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/10/2026&jornal=515&pagina=73",
+     "data": "2026-10-07",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 211, de 6 De OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/10/2026&jornal=515&pagina=72",
+     "data": "2026-10-07",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 212, de 6 De OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/10/2026&jornal=515&pagina=72",
+     "data": "2026-10-07",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA COGEA Nº 370, DE 5 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/10/2026&jornal=515&pagina=68",
+     "data": "2026-10-07",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Arrecadação, Cadastros e Atendime",
+     "ementa": "Altera o Anexo Único da Portaria RFB nº 328, de 16 de junho de 2023, que regulamenta o canal de atendimento Fale Conosco da Secretaria Especial da Receita Federal do Brasil.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Retificação",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/10/2026&jornal=515&pagina=72",
+     "data": "2026-10-07",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 47, de 6 de OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/10/2026&jornal=515&pagina=73",
+     "data": "2026-10-07",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 48, de 6 de OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/10/2026&jornal=515&pagina=73",
+     "data": "2026-10-07",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 5018,
+    "forte": 0,
+    "revisar": 20
+   }
+  }
+ ]
+}
