@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
+   "erro_browser": null,
    "total": 10,
    "itens": [
     {
@@ -88,7 +88,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": null,
+   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/resolucoes\", waiting until \"domcontentloaded\"\n",
    "total": 19,
    "itens": [
     {
@@ -367,7 +367,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 12,
+   "total": 13,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -452,6 +452,13 @@
      "data": null,
      "pasta_arquivo": "2026-10",
      "alerta": null
+    },
+    {
+     "titulo": "SEI MGI 64901753 Portaria Conjunta (.pdf 455,57 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/07163240-sei-mgi-64901753-portaria-conjunta.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-10",
+     "alerta": null
     }
    ]
   },
@@ -462,8 +469,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 6,
+   "total": 7,
    "itens": [
+    {
+     "titulo": "Receita Federal publica versão.1.3.0 da documentação técnica da DeRE",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-publica-versao-1-3-0-da-documentacao-tecnica-da-dere",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
@@ -515,8 +529,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 17,
+   "total": 18,
    "itens": [
+    {
+     "titulo": "Receita Federal publica versão.1.3.0 da documentação técnica da DeRE",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-publica-versao-1-3-0-da-documentacao-tecnica-da-dere",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",

@@ -1,16 +1,26 @@
 {
  "data": "2026-10-07",
- "quantidade": 1,
+ "quantidade": 2,
  "itens": [
   {
    "primeira_vez": "2026-10-07",
-   "fonte": "CGIBS - Noticias",
-   "titulo": "Portaria Conjunta define como serão calculadas as alíquotas do IBS e da CBS incidentes sobre os combustíveis",
-   "url": "https://www.cgibs.gov.br/combustiveis-portaria-conjunta-define-como-serao-calculadas-as-aliquotas-do-ibs-e-da-cbs",
+   "fonte": "CGIBS - Portarias",
+   "titulo": "SEI MGI 64901753 Portaria Conjunta (.pdf 455,57 KBytes)",
+   "url": "https://www.cgibs.gov.br/upload/arquivos/202610/07163240-sei-mgi-64901753-portaria-conjunta.pdf",
+   "data": null,
+   "pasta_arquivo": "2026-10",
+   "alerta": null,
+   "visto_em": "2026-10-07T20:02:51Z"
+  },
+  {
+   "primeira_vez": "2026-10-07",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "Receita Federal publica versão.1.3.0 da documentação técnica da DeRE",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-publica-versao-1-3-0-da-documentacao-tecnica-da-dere",
    "data": null,
    "pasta_arquivo": null,
    "alerta": null,
-   "visto_em": "2026-10-07T08:03:12Z"
+   "visto_em": "2026-10-07T20:02:51Z"
   }
  ],
  "fontes_com_erro": [],

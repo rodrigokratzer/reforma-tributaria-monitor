@@ -6095,5 +6095,25 @@
   "alerta": null,
   "pasta_arquivo": null,
   "visto_em": "2026-10-07T20:01:30Z"
+ },
+ "5c40107a27866fd1": {
+  "primeira_vez": "2026-10-07",
+  "fonte": "CGIBS - Portarias",
+  "titulo": "SEI MGI 64901753 Portaria Conjunta (.pdf 455,57 KBytes)",
+  "url": "https://www.cgibs.gov.br/upload/arquivos/202610/07163240-sei-mgi-64901753-portaria-conjunta.pdf",
+  "data": null,
+  "pasta_arquivo": "2026-10",
+  "alerta": null,
+  "visto_em": "2026-10-07T20:02:51Z"
+ },
+ "c1693731d3ca992d": {
+  "primeira_vez": "2026-10-07",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Receita Federal publica versão.1.3.0 da documentação técnica da DeRE",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-publica-versao-1-3-0-da-documentacao-tecnica-da-dere",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null,
+  "visto_em": "2026-10-07T20:02:51Z"
  }
 }
