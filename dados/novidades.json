@@ -1,7 +1,18 @@
 {
- "data": "2026-10-06",
- "quantidade": 0,
- "itens": [],
+ "data": "2026-10-07",
+ "quantidade": 1,
+ "itens": [
+  {
+   "primeira_vez": "2026-10-07",
+   "fonte": "CGIBS - Noticias",
+   "titulo": "Portaria Conjunta define como serão calculadas as alíquotas do IBS e da CBS incidentes sobre os combustíveis",
+   "url": "https://www.cgibs.gov.br/combustiveis-portaria-conjunta-define-como-serao-calculadas-as-aliquotas-do-ibs-e-da-cbs",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "visto_em": "2026-10-07T08:03:12Z"
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
