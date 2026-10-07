@@ -89,6 +89,11 @@
   "motivo": "institui plataforma e-Editais para publicações da RFB; procedimento administrativo interno, não reforma",
   "em": "retroativa-2026-09-30"
  },
+ "0c2e1678f69e2451": {
+  "veredito": "ruido",
+  "motivo": "homologação de reeleição de diretoria da Mapfre Previdência, sem relação com a reforma",
+  "em": "2026-10-07-matinal"
+ },
  "0c7c72042641329d": {
   "veredito": "ruido",
   "motivo": "homologação de eleição de administradores da Mapfre Vida, sem relação com a reforma",
@@ -379,6 +384,11 @@
   "motivo": "portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "2de79b9d15ea1105": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de conselho fiscal da Brasilprev, sem relação com a reforma",
+  "em": "2026-10-07-matinal"
+ },
  "2dec76c0e697f13a": {
   "veredito": "relevante",
   "motivo": "CGIBS/RFB divulgam endpoints de produção e requisitos técnicos da DeRE",
@@ -463,6 +473,11 @@
   "veredito": "ruido",
   "motivo": "procedimentos sobre apostas de quota fixa irregulares, sem relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
+ },
+ "36e8377fe8acf75a": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral anual de resseguradora (Berkshire Hathaway), sem relação com a reforma",
+  "em": "2026-10-07-matinal"
  },
  "379143105850937a": {
   "veredito": "ruido",
@@ -844,6 +859,11 @@
   "motivo": "suspensão de expediente de agência da Receita por festejo municipal",
   "em": "retroativa-2026-09-30"
  },
+ "6019aa0f2cd11273": {
+  "veredito": "relevante",
+  "motivo": "detalha a metodologia de cálculo das alíquotas de IBS/CBS para combustíveis (Portaria Conjunta MF/CGIBS nº 14)",
+  "em": "2026-10-07-matinal"
+ },
  "605e3ccc6cf41f24": {
   "veredito": "ruido",
   "motivo": "prorroga equipe de auditoria de créditos de PIS/Cofins, sem relação com a reforma",
@@ -898,6 +918,11 @@
   "veredito": "ruido",
   "motivo": "página de suporte técnico do Serpro, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "64167bdc45d49ab5": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral anual de resseguradora (Partner Reinsurance Europe), sem relação com a reforma",
+  "em": "2026-10-07-matinal"
  },
  "6438a55af547ea6f": {
   "veredito": "ruido",
@@ -958,6 +983,11 @@
   "veredito": "ruido",
   "motivo": "Disciplina atendimento em Libras na Receita Federal; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "69a7e76c9f464530": {
+  "veredito": "ruido",
+  "motivo": "retificação de habilitação ao REIDI (geração de energia elétrica), sem relação com a reforma",
+  "em": "2026-10-07-matinal"
  },
  "69f722b96ad7c133": {
   "veredito": "ruido",
@@ -1079,6 +1109,11 @@
   "motivo": "CGIBS/RFB ajustam leiautes e XSD de eventos da DeRE; exige ajuste de sistemas de quem já opera a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "7942ee3a97c9798a": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral anual de resseguradora (Intact Insurance UK), sem relação com a reforma",
+  "em": "2026-10-07-matinal"
+ },
  "7a2d767008db3e77": {
   "veredito": "ruido",
   "motivo": "PMPF de combustíveis para ICMS, sem relação com IBS/CBS",
@@ -1168,6 +1203,11 @@
   "veredito": "ruido",
   "motivo": "Retificacao de erro de digitacao em convenio de ICMS, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "867acd546e92efb0": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral anual de resseguradora (Federal Insurance Company), sem relação com a reforma",
+  "em": "2026-10-07-matinal"
  },
  "869a562955f0375f": {
   "veredito": "ruido",
@@ -1473,6 +1513,11 @@
   "veredito": "contexto",
   "motivo": "tabela de referência técnica da reforma, sem novidade específica",
   "em": "retroativa-2026-09-30"
+ },
+ "adf0cbddfb4ab8bc": {
+  "veredito": "ruido",
+  "motivo": "altera o canal Fale Conosco da Receita Federal, sem relação com a reforma",
+  "em": "2026-10-07-matinal"
  },
  "aecb33683b352872": {
   "veredito": "ruido",
