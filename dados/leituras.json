@@ -169,6 +169,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "0c2e1678f69e2451": {
+  "chars": 853,
+  "lido_em": "2026-10-07T08:03:15Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "0c7c72042641329d": {
   "chars": 843,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -664,6 +671,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "2de79b9d15ea1105": {
+  "chars": 870,
+  "lido_em": "2026-10-07T08:03:15Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "2dec76c0e697f13a": {
   "chars": 3005,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -782,6 +796,13 @@
  "36e5b1223a174fa6": {
   "chars": 39318,
   "lido_em": "2026-10-05T12:33:59Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "36e8377fe8acf75a": {
+  "chars": 1166,
+  "lido_em": "2026-10-07T08:03:15Z",
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
@@ -1458,6 +1479,16 @@
   "status": "lido",
   "tentativas": 1
  },
+ "6019aa0f2cd11273": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 3058,
+  "lido_em": "2026-10-07T08:03:17Z",
+  "origem": "html",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
+ },
  "605e3ccc6cf41f24": {
   "chars": 1208,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -1543,6 +1574,13 @@
   "paginas_ocr": 0,
   "status": "lido",
   "tentativas": 1
+ },
+ "64167bdc45d49ab5": {
+  "chars": 1290,
+  "lido_em": "2026-10-07T08:03:15Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
  },
  "6438a55af547ea6f": {
   "anexos": [],
@@ -1644,6 +1682,13 @@
   "chars": 3098,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "69a7e76c9f464530": {
+  "chars": 1303,
+  "lido_em": "2026-10-07T08:03:15Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
@@ -1839,6 +1884,13 @@
   "status": "lido",
   "tentativas": 1
  },
+ "7942ee3a97c9798a": {
+  "chars": 1313,
+  "lido_em": "2026-10-07T08:03:15Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "7a2d767008db3e77": {
   "chars": 1828,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -1991,6 +2043,13 @@
   "chars": 306,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "867acd546e92efb0": {
+  "chars": 1255,
+  "lido_em": "2026-10-07T08:03:15Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
@@ -2520,6 +2579,13 @@
   "paginas_ocr": 0,
   "status": "lido",
   "tentativas": 1
+ },
+ "adf0cbddfb4ab8bc": {
+  "chars": 928,
+  "lido_em": "2026-10-07T08:03:15Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
  },
  "aecb33683b352872": {
   "chars": 1139,
