@@ -1,1 +1,13 @@
-{"data": "2026-10-07", "turno": "noturna", "situacao": "publicada", "acoes": 0, "gerado_em": "2026-10-07T20:04:25Z", "resumo_curto": "3 itens; nenhum novo além do que a análise da manhã já cobriu"}
+{
+ "data": "2026-10-08",
+ "turno": "matinal",
+ "situacao": "publicada",
+ "acoes": 0,
+ "gerado_em": "2026-10-08T08:30:00Z",
+ "resumo_curto": "8 itens; 1 acompanhar (balanço Simples/IBS-CBS), nenhum exige ação",
+ "painel_atualizado": [
+  "Nota do prazo \"Opção pelo Simples Nacional 2027\" atualizada com o balanço de 08/10: 469.498 pedidos (199.161 deferidos, 270.337 indeferidos).",
+  "Nota do prazo \"Opção pelo regime regular do IBS/CBS\" atualizada com o balanço de 08/10: 854.670 solicitações.",
+  "Receita Federal atualiza, em 08/10, o balanço de opções pelo Simples Nacional 2027 e pelo regime regular do IBS/CBS (469.498 e 854.670 solicitações, respectivamente)."
+ ]
+}

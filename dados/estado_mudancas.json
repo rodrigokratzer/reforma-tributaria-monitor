@@ -2,6 +2,27 @@
  {
   "secao": "prazos_destaque",
   "tipo": "alterado",
+  "descricao": "Nota do prazo \"Opção pelo Simples Nacional 2027\" atualizada com o balanço de 08/10: 469.498 pedidos (199.161 deferidos, 270.337 indeferidos).",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-2",
+  "em": "2026-10-08-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "Nota do prazo \"Opção pelo regime regular do IBS/CBS\" atualizada com o balanço de 08/10: 854.670 solicitações.",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-2",
+  "em": "2026-10-08-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Receita Federal atualiza, em 08/10, o balanço de opções pelo Simples Nacional 2027 e pelo regime regular do IBS/CBS (469.498 e 854.670 solicitações, respectivamente).",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-2",
+  "em": "2026-10-08-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
   "descricao": "Balanço da opção pelo Simples Nacional 2027 atualizado: 452.598 solicitações (182.065 deferidas, 270.533 indeferidas)",
   "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
   "em": "2026-10-06-matinal"

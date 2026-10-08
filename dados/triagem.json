@@ -4,6 +4,11 @@
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "007eb8a160a2552d": {
+  "veredito": "ruido",
+  "motivo": "Designa gestores de acordo de cooperação técnica entre União e Banco do Brasil; sem relação com a reforma",
+  "em": "2026-10-08-matinal"
+ },
  "01110ce2da0e4f90": {
   "veredito": "ruido",
   "motivo": "Exige curso aduaneiro para credenciamento no Porto do Rio; sem relação com a reforma.",
@@ -179,6 +184,11 @@
   "motivo": "solução de consulta sobre incidência de IRPJ/CSLL em subvenções a empresas públicas, sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "16b12ed0716361ae": {
+  "veredito": "ruido",
+  "motivo": "Solução de consulta sobre presunção de IRPJ/CSLL em serviços de saúde; imposto de renda, não a reforma do consumo",
+  "em": "2026-10-08-matinal"
+ },
  "1732b464f9c47791": {
   "veredito": "contexto",
   "motivo": "balanço financeiro interno do CGIBS, ato de governança",
@@ -223,6 +233,11 @@
   "veredito": "relevante",
   "motivo": "regime de caixa deixa de ser usado na apuração do Simples Nacional",
   "em": "retroativa-2026-09-30"
+ },
+ "1cbd2e2b3251ae89": {
+  "veredito": "ruido",
+  "motivo": "Homologa eleição de administradores de seguradora (MAPFRE Seguros Gerais); sem relação com a reforma do consumo",
+  "em": "2026-10-08-matinal"
  },
  "1d591a5dc4c1972a": {
   "veredito": "ruido",
@@ -599,6 +614,11 @@
   "motivo": "Consultas sobre isenção de PIS/Cofins na exportação de serviços e sobre IRPF; sem relação com IBS/CBS.",
   "em": "retroativa-2026-09-30"
  },
+ "422d4ec31ba3ffb8": {
+  "veredito": "ruido",
+  "motivo": "Homologa eleição de diretora de corretora de resseguros (Acrisure Brasil); sem relação com a reforma",
+  "em": "2026-10-08-matinal"
+ },
  "42ac751815c1a522": {
   "veredito": "contexto",
   "motivo": "Decreto estadual indica representantes de RR no Conselho Superior do CGIBS; ato de governança.",
@@ -799,6 +819,16 @@
   "motivo": "Eleição e posse do DIREX; ato interno de governança do CGIBS",
   "em": "retroativa-2026-09-30"
  },
+ "589885691800e5f8": {
+  "veredito": "relevante",
+  "motivo": "RFB atualiza balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS/CBS",
+  "em": "2026-10-08-matinal"
+ },
+ "592feac3440fbf8e": {
+  "veredito": "ruido",
+  "motivo": "Cria equipe regional de fiscalização para perdimento por contrabando/descaminho; sem relação com a reforma",
+  "em": "2026-10-08-matinal"
+ },
  "5af5fcfe04a5fc29": {
   "veredito": "contexto",
   "motivo": "Recebimento de sugestões ao texto-base do Regulamento do IBS; proposta, não norma",
@@ -914,6 +944,11 @@
   "motivo": "DOU publica Ato Técnico Conjunto nº 7 (leiautes NFS-e/NFS-e Via), já no painel desde 28/09",
   "em": "2026-10-02-matinal"
  },
+ "62a6134c16120423": {
+  "veredito": "ruido",
+  "motivo": "Delega competência administrativa interna do MF para recebimento/devolução de bens móveis cedidos; sem relação com a reforma",
+  "em": "2026-10-08-matinal"
+ },
  "62cc5b85ee529189": {
   "veredito": "ruido",
   "motivo": "Exige curso aduaneiro para credenciamento portuário; sem relação com a reforma.",
@@ -943,6 +978,11 @@
   "veredito": "ruido",
   "motivo": "Homologa eleição de administradores da Brasilseg; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "6659732428046137": {
+  "veredito": "ruido",
+  "motivo": "Declara inidoneidade de empresa para licitar com a Administração Pública; sem relação com a reforma",
+  "em": "2026-10-08-matinal"
  },
  "66a14bd27153c84e": {
   "veredito": "relevante",
