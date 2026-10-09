@@ -1209,6 +1209,11 @@
   "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
   "em": "retroativa-2026-09-30"
  },
+ "811f3f13d050dcf1": {
+  "veredito": "contexto",
+  "motivo": "balanço de adesão ao destaque da CBS nas notas fiscais, sem prazo ou obrigação nova",
+  "em": "2026-10-09-noturna"
+ },
  "8129198469d2c7df": {
   "veredito": "ruido",
   "motivo": "Portaria Susep homologa atualização cadastral de resseguradora, sem relação com a reforma",
