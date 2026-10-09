@@ -4,6 +4,11 @@
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "00581d959bf78b73": {
+  "veredito": "ruido",
+  "motivo": "realocação de cargo comissionado interno na CVM, sem relação com a reforma",
+  "em": "2026-10-09-matinal"
+ },
  "007eb8a160a2552d": {
   "veredito": "ruido",
   "motivo": "Designa gestores de acordo de cooperação técnica entre União e Banco do Brasil; sem relação com a reforma",
@@ -88,6 +93,11 @@
   "veredito": "ruido",
   "motivo": "homologação de aumento de capital e estatuto de seguradora, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "0b4b7b6d13cd8af6": {
+  "veredito": "ruido",
+  "motivo": "delegação de competências administrativas internas da DRF/Campinas",
+  "em": "2026-10-09-matinal"
  },
  "0bf7b772105ab2a8": {
   "veredito": "ruido",
@@ -314,10 +324,20 @@
   "motivo": "solução de consulta sobre presunção de IRPJ/CSLL em serviços de saúde",
   "em": "retroativa-2026-09-30"
  },
+ "2457fe9031a55c92": {
+  "veredito": "ruido",
+  "motivo": "percentual de presunção de IRPJ/CSLL para serviços de saúde, não é tributo da reforma do consumo",
+  "em": "2026-10-09-matinal"
+ },
  "24a95f0408031698": {
   "veredito": "relevante",
   "motivo": "aprova notas técnicas de DF-e já registradas na linha do tempo do painel (21/08)",
   "em": "2026-10-05-noturna"
+ },
+ "24bd414ff79745c1": {
+  "veredito": "ruido",
+  "motivo": "PMPF de combustíveis para o ICMS vigente, não é alíquota do IBS/CBS",
+  "em": "2026-10-09-matinal"
  },
  "24e067f72bf804e0": {
   "veredito": "relevante",
@@ -523,6 +543,11 @@
   "veredito": "contexto",
   "motivo": "Reunião institucional apresentando avanços da implementação do IBS, sem norma",
   "em": "retroativa-2026-09-30"
+ },
+ "3a1e6aaef6e564d7": {
+  "veredito": "ruido",
+  "motivo": "grupo de trabalho para auditar PER/DCOMP de PIS/Cofins, sem relação com IBS/CBS/IS",
+  "em": "2026-10-09-matinal"
  },
  "3a3ad8043f9035d8": {
   "veredito": "relevante",
@@ -1279,6 +1304,11 @@
   "motivo": "altera estrutura de comitês internos da CVM; governança interna de autarquia, não reforma",
   "em": "retroativa-2026-09-30"
  },
+ "8ab38f4f2d3d9638": {
+  "veredito": "ruido",
+  "motivo": "homologação cadastral de resseguradora eventual na Susep, sem relação com a reforma",
+  "em": "2026-10-09-matinal"
+ },
  "8ac839206d6765c6": {
   "veredito": "contexto",
   "motivo": "Ato conjunto RFB-CGIBS de dez/2025, sem texto disponível para saber o conteúdo específico.",
@@ -2028,6 +2058,11 @@
   "veredito": "relevante",
   "motivo": "Ato Declaratório Executivo conjunto RFB/CGIBS nº 6; provável norma operacional da reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "e0f608ec2fab63f6": {
+  "veredito": "ruido",
+  "motivo": "ajuste do cronograma orçamentário do Tesouro, sem relação com a reforma",
+  "em": "2026-10-09-matinal"
  },
  "e123aa6c9974be7a": {
   "veredito": "relevante",
