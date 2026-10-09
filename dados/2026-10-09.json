@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
+   "erro_browser": null,
    "total": 10,
    "itens": [
     {
@@ -469,7 +469,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 8,
+   "total": 7,
    "itens": [
     {
      "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
@@ -519,13 +519,6 @@
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
-    },
-    {
-     "titulo": "Receita Federal divulga novo balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-divulga-novo-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
     }
    ]
   },
@@ -536,8 +529,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 19,
+   "total": 20,
    "itens": [
+    {
+     "titulo": "Reforma tributária: 86% dos documentos fiscais de empresas obrigadas já trazem destaque da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/reforma-tributaria-86-dos-documentos-fiscais-de-empresas-obrigadas-ja-trazem-destaque-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-2",
