@@ -1,0 +1,188 @@
+{
+ "data": "2026-10-09",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "inlabs",
+   "http_status": null,
+   "erro": null,
+   "total": 14,
+   "itens": [
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 213, de 6 De OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/10/2026&jornal=515&pagina=35",
+     "data": "2026-10-08",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 3.053, DE 7 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/10/2026&jornal=515&pagina=32",
+     "data": "2026-10-08",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.022, DE 7 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/10/2026&jornal=515&pagina=30",
+     "data": "2026-10-08",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "Altera a Portaria MF nº 2.992, de 9 de dezembro de 2025, para delegar competência à Subsecretaria de Gestão, Tecnologia da Informação e Orçamento da Secretaria-Executiva para formalizar o recebimento ou a devolução de bens móveis decorrentes de cessão e instrumentos congêneres.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 50, de 7 de OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/10/2026&jornal=515&pagina=35",
+     "data": "2026-10-08",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.029, DE 7 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/10/2026&jornal=515&pagina=30",
+     "data": "2026-10-08",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "Declara a inidoneidade de empresa para licitar e contratar com a Administração Pública, pelo prazo de 3 (três) anos.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA STN/MF Nº 3.039, DE 7 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/10/2026&jornal=515&pagina=34",
+     "data": "2026-10-08",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria do Tesouro Nacional",
+     "ementa": "Designa, no âmbito da Secretaria do Tesouro Nacional, gestores do Acordo de Cooperação Técnica celebrado entre a União e o Banco do Brasil S.A.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "portaria SRRF06 Nº 393, DE 7 DE OUTUbro DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/10/2026&jornal=515&pagina=32",
+     "data": "2026-10-08",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "Cria a Equipe Regional para lavratura de auto de infração referente à aplicação de pena de perdimento de mercadoria, de veículo e de moeda - Eqlap06, no âmbito da 6ª Região Fiscal.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CODAR Nº 372, DE 6 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/10/2026&jornal=601&pagina=2",
+     "data": "2026-10-08",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Arrecadação, Cadastros e Atendime",
+     "ementa": "Institui Grupo de Trabalho para atuar na análise de Pedidos de Restituição, Ressarcimento ou Reembolso e Declarações de Compensação - PER/DCOMP relativos a créditos de Contribuição para o Programa de Integração Social e para o Programa de Formação do Patrimônio do Servidor Público - Contribuição par",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 49, de 7 de OUTUBRO de 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=09/10/2026&jornal=515&pagina=90",
+     "data": "2026-10-09",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CVM/PTE/Nº 233, DE 7 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=09/10/2026&jornal=515&pagina=90",
+     "data": "2026-10-09",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Gabinete/Secretaria-Executiva",
+     "ementa": "Realoca cargo comissionado executivo na estrutura da Comissão de Valores Mobiliários.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 3.054, DE 8 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=09/10/2026&jornal=515&pagina=85",
+     "data": "2026-10-09",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/PMPF Nº 28, DE 8 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=09/10/2026&jornal=515&pagina=35",
+     "data": "2026-10-09",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "Preço médio ponderado ao consumidor final (PMPF) de combustíveis.",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "portaria drf/cps Nº 59, DE 8 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=09/10/2026&jornal=515&pagina=87",
+     "data": "2026-10-09",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.058, DE 8 DE OUTUBRO DE 2026",
+     "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=09/10/2026&jornal=515&pagina=34",
+     "data": "2026-10-09",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "Altera, mediante ampliação e redução os valores autorizados para pagamento de que trata o Anexo II do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, e estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 5283,
+    "forte": 0,
+    "revisar": 14
+   }
+  }
+ ]
+}
