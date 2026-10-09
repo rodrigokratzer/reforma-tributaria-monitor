@@ -1,0 +1,1154 @@
+{
+ "data": "2026-10-09",
+ "fontes": [
+  {
+   "fonte": "CGIBS - Noticias",
+   "url": "https://www.cgibs.gov.br/noticias",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
+   "total": 10,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria Conjunta define como serão calculadas as alíquotas do IBS e da CBS incidentes sobre os combustíveis",
+     "url": "https://www.cgibs.gov.br/combustiveis-portaria-conjunta-define-como-serao-calculadas-as-aliquotas-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "DeRE: CGIBS e Receita Federal publicam versão 1.3.0 da documentação técnica e disponibilizam Manual do Usuário",
+     "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-publicam-versao-1-3-0-da-documentacao-tecnica-e-disponibilizam-manual-do-usuario",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Opção do contribuinte por Simples Nacional ou pelo regime regular de CBS e IBS para 2027 tem novos prazos",
+     "url": "https://www.cgibs.gov.br/embora-os-periodos-sejam-parecidos-tratam-de-escolhas-diferentes-por-isso-e-importante-entender-cada-situacao",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Declaração de Regimes Específicos: CGIBS e Receita Federal divulgam endpoints do ambiente de produção",
+     "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-divulgam-endpoints-do-ambiente-de-producao",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Informe: conta do Comitê Gestor do IBS no Instagram (cgibs.oficial) passa por instabilidade temporária",
+     "url": "https://www.cgibs.gov.br/informe-instabilidade-da-conta-do-cgibs-no-instagram",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS divulgam Orientação Conjunta destinada às sociedades cooperativas",
+     "url": "https://www.cgibs.gov.br/receita-federal-e-comite-gestor-do-imposto-sobre-bens-e-servicos-divulgam-orientacao-conjunta",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Regimes Específicos: veja atualização dos esquemas XSD dos eventos D-1011 e D-1101 na Produção Restrita",
+     "url": "https://www.cgibs.gov.br/dere-atualizacao-dos-esquemas-xsd-dos-eventos-d-1011-e-d-1101-na-producao-restrita",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Presidente e segunda vice do CGIBS participam de missão à OCDE em Paris sobre IVA e modernização tributária",
+     "url": "https://www.cgibs.gov.br/presidente-e-segunda-vice-do-cgibs-participam-de-missao-a-ocde-sobre-iva-e-modernizacao-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "CGIBS debate Reforma Tributária e administração pública em evento do Tribunal de Justiça de São Paulo",
+     "url": "https://www.cgibs.gov.br/cgibs-debate-reforma-tributaria-em-evento-do-tribunal-de-justica-de-sao-paulo",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Resolucoes",
+   "url": "https://www.cgibs.gov.br/resolucoes",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 19,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 1, DE 23 DE FEVEREIRO de 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202602/27102250-resoluc-a-o-csibs-n-1-de-23-de-fevereiro-de-2026-assinatura.pdf",
+     "data": "2026-02-23",
+     "pasta_arquivo": "2026-02",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 2, DE 10 DE MARÇO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202603/11173106-resolucao-cgibs-n-2-de-10-de-marco-de-2026-regimento-eleitoral.pdf",
+     "data": "2026-03-10",
+     "pasta_arquivo": "2026-03",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 3, DE 10 DE MARÇO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202603/11173011-resolucao-cgibs-n-3-de-10-de-marco-de-2026-altera-resolucao-n-1.pdf",
+     "data": "2026-03-10",
+     "pasta_arquivo": "2026-03",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 4, DE 8 DE ABRIL DE 2026 - Regimento Interno Procedimental",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/13174441-resolucao-cgibs-n-4-de-8-de-abril-de-2026-regimento-interno-procedimental.pdf",
+     "data": "2026-04-08",
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 5, DE 30 DE ABRIL DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30221158-resolucao-cgibs-n-5-de-30-de-abril-de-2026.pdf",
+     "data": "2026-04-30",
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 6, DE 30 DE ABRIL DE 2026 - Regulamento do IBS",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+     "data": "2026-04-30",
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 7, DE 18 DE MAIO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/15121804-19123917-2026-05-18-min-resoluc-ao-diretrizes-orc-amento-cg-ct-tes-alterada-versa-o3-2-l.pdf",
+     "data": "2026-05-18",
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 8, DE 26 DE MAIO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202605/26184150-resolucao-cgibs-n-8-de-2026-3.pdf",
+     "data": "2026-05-26",
+     "pasta_arquivo": "2026-05",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 9, DE 10 DE JUNHO DE 2026 - Altera o Regimento Procedimental",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/17170454-resolucao-cgibs-n-9-de-10-de-junho-de-2026-altera-o-regimento-procedimental-1.pdf",
+     "data": "2026-06-10",
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 10, DE 29 DE JUNHO DE 2026 - Proposta Orçamentária 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/01163740-resolucao-cgibs-n-10-de-29-de-junho-de-2026-proposta-orcamentaria-2026.pdf",
+     "data": "2026-06-29",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 11, DE 30 DE JUNHO DE 2026 - Adoção do Marco Regulatório de Licitações",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/01163901-resolucao-cgibs-n-11-de-30-de-junho-de-2026-adocao-do-marco-regulatorio-de-licitacoes.pdf",
+     "data": "2026-06-30",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS N 12, DE 17 DE JULHO DE 2026 - Diretrizes para Elaboração do Orçamento do CGIBS 2027",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/20110450-resolucao-cgibs-n-12-de-17-de-julho-de-2026-diretrizes-para-elaboracao-do-orcamento-do-cgibs-2027.pdf",
+     "data": "2026-07-17",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 13, DE 22 DE JULHO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/22121010-resolucao-cgibs-n-13-de-22-de-julho-de-2026.pdf",
+     "data": "2026-07-22",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 14, DE 29 DE JULHO DE 2026 - Proposta Percentual IBS CGIBS 2027",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31144942-resoluc-ao-cgibs-n-14-de-29-de-julho-de-2026-proposta-percentual-ibs-cgibs-2027.pdf",
+     "data": "2026-07-29",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 15, DE 29 DE JULHO DE 2026 - Proposta Orçamentária CGIBS 2027",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31145053-resoluc-ao-cgibs-n-15-de-29-de-julho-de-2026-proposta-orc-amenta-ria-cgibs-2027.pdf",
+     "data": "2026-07-29",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 16, DE 29 DE JULHO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/29175824-doc-20260729-wa0035-260729-175811.pdf",
+     "data": "2026-07-29",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 17, DE 30 DE JULHO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/30184100-doc-20260730-wa0034-260730-183903.pdf",
+     "data": "2026-07-30",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS No 18, DE 15 DE SETEMBRO DE 2026",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202609/15150334-resolucao-cgibs-ampliacao-da-forca-de-trabalho.pdf",
+     "data": "2026-09-15",
+     "pasta_arquivo": "2026-09",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Atos Conjuntos",
+   "url": "https://www.cgibs.gov.br/atos-conjuntos",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 8,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "SEI MGI 60959979 Portaria Conjunta (.pdf 100,91 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30094136-sei-mgi-60959979-portaria-conjunta.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "ATO CONJUNTO RFB CGIBS Nº 1, DE 22 DE DEZEMBRO DE 2025 (.pdf 160,22 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202609/09104120-ato-conjunto-rfb-cgibs-n-1-de-22-de-dezembro-de-2025.pdf",
+     "data": "2025-12-22",
+     "pasta_arquivo": "2026-09",
+     "alerta": "data declarada (2025-12-22) esta 9 meses antes da publicacao do arquivo (2026-09); provavel erro de cadastro na fonte — conferir o texto oficial antes de reportar"
+    },
+    {
+     "titulo": "Ato Conjunto RFB e CIBS %2827 05%29 assinado (.pdf 715,87 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/03111600-ato-conjunto-rfb-e-cibs-2827-05-29-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Conjunto nro 3 DeRE (.pdf 887,74 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/22083423-ato-conjunto-nro-3-dere.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "20260730 16h30 ATO CONJUNTO RFB CGIBS NA%C2%BA 4 260731 090909 (.pdf 846,91 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/31091735-20260730-16h30-ato-conjunto-rfb-cgibs-na-c2-ba-4-260731-090909.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Conjunto RFB CGIBS n%C2%BA 5 2026 Regulamenta o Programa Nacional de Conformidade Tributaria docx assinado (.pdf 369,59 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/13065932-ato-conjunto-rfb-cgibs-n-c2-ba-5-2026-regulamenta-o-programa-nacional-de-conformidade-tributaria-docx-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "ADE RFB CGIBS N 6 (.pdf 854,51 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/28193542-ade-rfb-cgibs-n-6-28-8-2026-com-paragrafo-unico-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Atos Tecnicos Conj.",
+   "url": "https://www.cgibs.gov.br/atos-tecnicos-conjuntos",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 8,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "AM Ato Tecnico Conjunto RFB e CGIBS Ratificacao NTs DFEs Revisao assinado (.pdf 505,12 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/01153321-am-ato-tecnico-conjunto-rfb-e-cgibs-ratificacao-nts-dfes-revisao-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "20260821 Ato Tecnico Conjunto n 2 assinado CGIBS (.pdf 1,83 MBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/24185346-20260821-ato-tecnico-conjunto-n-2-assinado-cgibs.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Tecnico Conjunto n 3 DeRE (.pdf 877,73 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202609/04223716-ato-tecnico-conjunto-n-3-dere.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-09",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Tecnico Conjunto 5 RFB CGIBS assinado assinado (.pdf 462,39 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202609/24094106-ato-tecnico-conjunto-5-rfb-cgibs-assinado-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-09",
+     "alerta": null
+    },
+    {
+     "titulo": "DERE ATC RFB SUFIS CGIBS DIRETORIA EXECUTIVA Nº 6, DE 28 DE SETEMBRO DE 2026 (.pdf 874,12 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/01120219-dere-atc-rfb-sufis-cgibs-diretoria-executiva-n-6-de-28-de-setembro-de-2026.pdf",
+     "data": "2026-09-28",
+     "pasta_arquivo": "2026-10",
+     "alerta": null
+    },
+    {
+     "titulo": "NFSe e NFSeVia ATC RFB SUFIS CGIBS DIRETORIA EXECUTIVA Nº 7, DE 28 DE SETEMBRO DE 2026 (.pdf 878,25 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/01120218-nfse-e-nfsevia-atc-rfb-sufis-cgibs-diretoria-executiva-n-7-de-28-de-setembro-de-2026.pdf",
+     "data": "2026-09-28",
+     "pasta_arquivo": "2026-10",
+     "alerta": null
+    },
+    {
+     "titulo": "NFe NFC CTe notas faturas e demais ATC RFB SUFIS CGIBS DIRETORIA EXECUTIVA Nº 8, DE 29 DE SETEMBRO DE 2026 (.pdf 881,30 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/01120217-nfe-nfc-cte-notas-faturas-e-demais-atc-rfb-sufis-cgibs-diretoria-executiva-n-8-de-29-de-setembro-de-2026.pdf",
+     "data": "2026-09-29",
+     "pasta_arquivo": "2026-10",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Portarias",
+   "url": "https://www.cgibs.gov.br/portarias",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 13,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 1 2026 (.pdf 587,21 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202605/18155850-portaria-cgibs-n-1-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-05",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 2 2026 (.pdf 550,86 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/08135751-portaria-cgibs-n-2-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 3 2026 (.pdf 640,56 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/09172813-portaria-cgibs-n-3-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 4 2026 (.pdf 549,92 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/29131357-portaria-cgibs-n-4-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS n 5 de 2026 Eleição e Posse do DIREX (.pdf 829,23 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/07125402-portaria-cgibs-n-5-de-2026-eleicao-e-posse-do-direx.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "2026 07 10 PORTARIA Equipe e Informações Orçamento CGIBS 2027 L v2 (.pdf 401,53 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/13154419-2026-07-10-portaria-equipe-e-informacoes-orcamento-cgibs-2027-l-v2.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 7 2026 (.pdf 610,68 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/14171015-portaria-cgibs-n-7-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 8 2026 Eleição e a posse dos diretores da Diretoria Executiva, do Corregedor Geral e do Auditor Inter (.pdf 575,67 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/17191458-portaria-cgibs-n-8-2026-eleicao-e-a-posse-dos-diretores-da-diretoria-executiva-do-corregedor-geral-e-do-auditor-interno-geral.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 9 2026 Eleição e a posse da Segunda Vice Presidente do Conselho Superior CGIBS (.pdf 329,50 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/17191457-portaria-cgibs-n-9-2026-eleicao-e-a-posse-da-segunda-vice-presidente-do-conselho-superior-cgibs.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 10 2026 (.pdf 502,00 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202608/28152155-minuta-portaria-cgibs-n-10-2026-acordos-de-adesao-28-08.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 11 2026 (.pdf 602,40 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/05150102-portaria-cgibs-n-11-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-10",
+     "alerta": null
+    },
+    {
+     "titulo": "SEI MGI 64901753 Portaria Conjunta (.pdf 455,57 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/07163240-sei-mgi-64901753-portaria-conjunta.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-10",
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "RFB - Noticias 2026",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 8,
+   "itens": [
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-2",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal publica versão.1.3.0 da documentação técnica da DeRE",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-publica-versao-1-3-0-da-documentacao-tecnica-da-dere",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional 2027: Entenda os novos prazos e faça sua escolha com consciência e tranquilidade",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-entenda-os-novos-prazos-e-faca-sua-escolha-com-consciencia-e-tranquilidade",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal divulga novo balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-divulga-novo-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "RFB - Reforma do Consumo",
+   "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/noticias",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 19,
+   "itens": [
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-2",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal publica versão.1.3.0 da documentação técnica da DeRE",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-publica-versao-1-3-0-da-documentacao-tecnica-da-dere",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-1",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional 2027: Entenda os novos prazos e faça sua escolha com consciência e tranquilidade",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-entenda-os-novos-prazos-e-faca-sua-escolha-com-consciencia-e-tranquilidade",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal divulga novo balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-divulga-novo-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal divulga balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-divulga-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Orientação Conjunta Receita Federal/CGIBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/orientacao-conjunta-rfb-cgibs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal publica nova documentação técnica das APIs de apuração da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-publica-nova-documentacao-tecnica-das-apis-de-apuracao-de-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal alerta: começa hoje o prazo para opção pelo Simples Nacional e para a escolha do modelo de recolhimento do IBS e da CBS em 2027",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-alerta-comeca-hoje-o-prazo-para-opcao-pelo-simples-nacional-e-para-a-escolha-do-modelo-de-recolhimento-do-ibs-e-da-cbs-em-2027",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal, Comitê Gestor do IBS e CFC alinham diretrizes do Plano Nacional de Conformidade Tributária",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/receita-federal-comite-gestor-do-ibs-e-cfc-alinham-diretrizes-do-plano-nacional-de-conformidade-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Simples Nacional: NFS-e Nacional será obrigatória para ME e EPP a partir de 1º de novembro de 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/simples-nacional-nfs-e-nacional-sera-obrigatoria-para-me-e-epp-a-partir-de-1o-de-novembro-de-2026",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Regime de caixa deixa de ser utilizado na apuração do Simples Nacional",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/regime-de-caixa-deixa-de-ser-utilizado-na-apuracao-do-simples-nacional",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e CGIBS regulamentam Programa Nacional de Conformidade Tributária para apoiar adaptação à Reforma Tributária no ano de 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-e-cgibs-regulamentam-programa-nacional-de-conformidade-tributaria-para-apoiar-adaptacao-a-reforma-tributaria-no-ano-de-2026",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "CGSN atualiza regras do Simples Nacional para adequação à Reforma Tributária do Consumo",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/cgsn-atualiza-regras-do-simples-nacional-para-adequacao-a-reforma-tributaria-do-consumo",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e CGIBS flexibilizarão obrigatoriedade de informações em documentos fiscais",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-cgibs-flexibilizarao-obrigatoriedade-de-informacoes-em-documentos-fiscais",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS publicam o Cronograma de Implementação dos Documentos Fiscais Eletrônicos da Reforma Tributária do Consumo",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-publicam-o-cronograma-de-implementacao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria-do-consumo",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS divulgarão cronograma para emissão dos documentos fiscais eletrônicos da Reforma Tributária",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-divulgarao-cronograma-para-emissao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "Portal DF-e SVRS - Noticias",
+   "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias",
+   "metodo": "http",
+   "http_status": 200,
+   "erro": null,
+   "erro_browser": null,
+   "total": 11,
+   "itens": [
+    {
+     "titulo": "Implantadas NTs 2026.002 em PRODUÇÃO na SVRS",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#3005",
+     "data": "2026-08-31",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Implantada a regra de validação de exigencia de IBS e CBS no ambiente de homologação",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2981",
+     "data": "2026-07-06",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Publicação da versão 1.50 da NT 2025.001 da NFe/NFCe",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2979",
+     "data": "2026-06-02",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "CGIBS Publica Regulamento do Imposto sobre Bens e Serviços",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2976",
+     "data": "2026-04-30",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "CGIBS e Receita Federal publicam documentação técnica oficial da Declaração de Regimes Específicos (DeRE)",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2967",
+     "data": "2025-12-12",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Comitê Gestor do IBS e Receita Federal divulgam orientações sobre a entrada em vigor da CBS e do IBS em 1º de janeiro de 2026",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2966",
+     "data": "2025-12-02",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Comitê Gestor lança cartilha para orientar a emissão da Nota Fiscal Eletrônica do IBS",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2965",
+     "data": "2025-11-14",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Novidade: Disponibilizada a nova interface da Conformidade Fácil para NFe e NFCe",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2961",
+     "data": "2025-11-05",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Conformidade Fácil - Validador RTC",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2948",
+     "data": "2025-07-04",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Implantação das Notas Técnicas Reforma Tributária",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2947",
+     "data": "2025-07-01",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Consulta Tabelas CST, cClass e Credito Presumido para Reforma Tributária",
+     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2946",
+     "data": "2025-06-16",
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "Portal NF-e - Informes/NTs",
+   "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false",
+   "metodo": "http",
+   "http_status": 200,
+   "erro": null,
+   "erro_browser": null,
+   "total": 2,
+   "itens": [
+    {
+     "titulo": "Publicado no dia 01/10/26 o Ato Conjunto RFB/CGIBS nº 8, de 2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1491",
+     "data": "2026-10-02",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Publicado Ato Conjunto RFB/CGIBS nº 2, de 2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1488",
+     "data": "2026-08-25",
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "Portal NF-e - Atos RFB/CGIBS",
+   "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=ECxaPvwFHQE=",
+   "metodo": "http",
+   "http_status": 200,
+   "erro": null,
+   "erro_browser": null,
+   "total": 2,
+   "itens": [
+    {
+     "titulo": "Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=esD6zF5PwcE=",
+     "data": "2026-07-30",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Estabelece as datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos de que trata o art. 112 dos regulamentos do Imposto sobre Bens e Serviços - IBS e da Contribuição sobre Bens e Serviços - CBS e dá outras providências"
+    },
+    {
+     "titulo": "Ato Conjunto RFB/CGIBS nº 1, de 22 de dezembro de 2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=5FAxxHGS5Ic=",
+     "data": "2025-12-22",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Dispõe sobre as obrigações acessórias exigíveis para o fornecimento de informações para apuração do Imposto sobre Bens e Serviços - IBS e da Contribuição sobre Bens e Serviços - CBS no ano de 2026"
+    }
+   ]
+  },
+  {
+   "fonte": "Portal NF-e - Atos Tecnicos RFB/CGIBS",
+   "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=hXHrw4cadF8=",
+   "metodo": "http",
+   "http_status": 200,
+   "erro": null,
+   "erro_browser": null,
+   "total": 3,
+   "itens": [
+    {
+     "titulo": "Ato Técnico Conjunto nº 08/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=BxFbAhMHvAo=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Dispõe sobre a aprovação conjunta da Secretaria Especial da Receita Federal do Brasil (RFB) e do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) da documentação técnica dos documentos fiscais que especifica."
+    },
+    {
+     "titulo": "Ato Técnico Conjunto nº 2/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=VNjdHjP3sDs=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Dispõe sobre a aprovação conjunta da Secretaria Especial da Receita Federal do Brasil (RFB) e do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) da documentação técnica dos documentos fiscais que especifica."
+    },
+    {
+     "titulo": "Ato Técnico Conjunto nº 1/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=J6f5HbhitlI=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Dispõe sobre a aprovação conjunta do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) e da Secretaria Especial da Receita Federal do Brasil (RFB) da documentação técnica dos documentos fiscais que especifica e ratifica a documentação técnica anteriormente disponibilizada, conforme especifica."
+    }
+   ]
+  },
+  {
+   "fonte": "Portal NF-e - Notas Tecnicas",
+   "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=04BIflQt1aY=",
+   "metodo": "http",
+   "http_status": 200,
+   "erro": null,
+   "erro_browser": null,
+   "total": 19,
+   "itens": [
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.52 - Publicada em 01/10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=HXPO8VLbh4o=",
+     "data": "2026-10-01",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC"
+    },
+    {
+     "titulo": "Nota Técnica 2026.010 v.1.00 - Publicada em 01/10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ugn4MYF5PLg=",
+     "data": "2026-10-01",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Divulga modelo do Danfe pra RTC"
+    },
+    {
+     "titulo": "Nota Técnica 2026.006 v.1.00 - Publicada em 25/08/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=k7zG06n5M6I=",
+     "data": "2026-08-25",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Divulga especificação técnica para vinculação entre NF-e e transação financeira sujeita ao split payment"
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.51 - Publicada em 04/08/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AKD/muSmiIY=",
+     "data": "2026-08-04",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC"
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.50 - Publicada em 03/06/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=pD4YrecPV6s=",
+     "data": "2026-06-03",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC"
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.40 - Publicada em 20/05/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=lWEyoabukyw=",
+     "data": "2026-05-20",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.36 - Publicada em 30/04/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=bBbBVKSai3U=",
+     "data": "2026-04-30",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.35 - Publicada em 31/03/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=SA3Qh5Htywo=",
+     "data": "2026-03-31",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.34 - Publicada em 04/12/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=IwLPdZ67F5M=",
+     "data": "2025-12-04",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.33 - Publicada em 02/12/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AklZnck3o6I=",
+     "data": "2025-12-02",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.32 - Publicada em 25/11/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=8H1QDj2ADhQ=",
+     "data": "2025-11-25",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.31 - Publicada em 11/11/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=xxtjiU7xjnk=",
+     "data": "2025-11-11",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.30 - Publicada em 03/10/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6vT0rTNhFLY=",
+     "data": "2025-10-03",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002.v.1.20 - Publicada em 30/07/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=YFz9is%20R6tw=",
+     "data": "2025-07-30",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002.v.1.10 - Publicada em 09/06/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=B7DBKw%20UPbs=",
+     "data": "2025-06-09",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002.v.1.01 - Publicada em 15/04/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=wuVuolIzJLs=",
+     "data": "2025-04-15",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC."
+    },
+    {
+     "titulo": "Nota Técnica 2025.002.v.1.00 - Publicada em 28/03/2025",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=YmYqYBW8gGQ=",
+     "data": "2025-03-28",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC. Substitui a RT - Nota Técnica 2024.002 v.1.10 - IBS/CBS - Publicada em 06/12/2024."
+    },
+    {
+     "titulo": "RT - Nota Técnica 2024.002 v.1.10 - IBS/CBS - Publicada em 06/12/2024",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=DaB0yzqdbRU=",
+     "data": "2024-12-06",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Projeto Reforma Tributária do Consumo – Adequações NF-e / NFC-e"
+    },
+    {
+     "titulo": "RT Nota Técnica 2024.002 - IBS/CBS - Publicada em 01/08/2024",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=OJQR7LXdlWA=",
+     "data": "2024-08-01",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica conjunta para NF-e e NFC-e que trata da adequação do leiaute dos DFe para inclusão dos campos referentes a Reforma Tributária do Consumo."
+    }
+   ]
+  },
+  {
+   "fonte": "Portal NF-e - Informes Tecnicos",
+   "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=hXzemuyNHW4=",
+   "metodo": "http",
+   "http_status": 200,
+   "erro": null,
+   "erro_browser": null,
+   "total": 4,
+   "itens": [
+    {
+     "titulo": "Informe Técnico 2025.002 - v.1.70 - Publicado em 01/10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=h9o7idH%20OcI=",
+     "data": "2026-10-01",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Divulga tabela classificação tributária, indicadores de CST e crédito presumido do IBS e da CBS."
+    },
+    {
+     "titulo": "Informe Técnico 2026.002 v.1.00 - Publicado em 12/05/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=p3diw3stE7w=",
+     "data": "2026-05-12",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Divulga alíquotas de CBS"
+    },
+    {
+     "titulo": "Informe Técnico 2025.002 v.1.60 - Publicado em 23/06/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=jxTMMQeEVM8=",
+     "data": "2026-06-23",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Divulga tabela classificação tributária, indicadores de CST e crédito presumido do IBS e da CBS."
+    },
+    {
+     "titulo": "Informe Técnico 2024.001 - v. 1.00 - CORRIGIDO em 09/12/24 - Publicado em 07/12/2024",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=XBgqrMtxPVY=",
+     "data": "2024-12-07",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Divulga inclusão da tabela de Código de Classificação Tributária do IBS e da CBS"
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Regulamentos",
+   "url": "https://www.cgibs.gov.br/regulamentos",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 5,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Res CGIBS N 6, 30 abr 2026 Regulamenta o IBS (.pdf 2,76 MBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "SEI MGI 60959979 Portaria Conjunta (.pdf 100,91 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30094136-sei-mgi-60959979-portaria-conjunta.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-04",
+     "alerta": null
+    },
+    {
+     "titulo": "Resolução CGIBS Nº 13, de 22 de julho de 2026 (.pdf 469,88 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202607/22121010-resolucao-cgibs-n-13-de-22-de-julho-de-2026.pdf",
+     "data": "2026-07-22",
+     "pasta_arquivo": "2026-07",
+     "alerta": null
+    },
+    {
+     "titulo": "Em construção",
+     "url": "https://www.cgibs.gov.br/regulamento-aaaaaaaa",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Leis",
+   "url": "https://www.cgibs.gov.br/leis",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 1,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    }
+   ]
+  },
+  {
+   "fonte": "CGIBS - Relatorios",
+   "url": "https://www.cgibs.gov.br/relatorios",
+   "metodo": "browser",
+   "http_status": null,
+   "erro": null,
+   "erro_browser": null,
+   "total": 3,
+   "itens": [
+    {
+     "titulo": "CGIBS - Comitê Gestor do IBS",
+     "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Relatorios Fiscais CG IBS atualizado assinado (.pdf 2,95 MBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/15185302-relatorios-fiscais-cg-ibs-atualizado-assinado.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    },
+    {
+     "titulo": "balanço geral CGIBS 2025 assinado (1) (.pdf 563,60 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202606/16130427-balanco-geral-cgibs-2025-assinado-1.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-06",
+     "alerta": null
+    }
+   ]
+  }
+ ]
+}
