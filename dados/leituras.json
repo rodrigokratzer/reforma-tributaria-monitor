@@ -1102,6 +1102,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "434a5fb2bcc8d393": {
+  "chars": 2503,
+  "lido_em": "2026-10-10T08:03:00Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "448ea1017099bf5a": {
   "chars": 1827,
   "lido_em": "2026-10-05T12:33:59Z",
@@ -1972,6 +1979,13 @@
  "771e7c7628ce456b": {
   "chars": 535,
   "lido_em": "2026-10-05T12:33:59Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "78d9651b3ddb7164": {
+  "chars": 2823,
+  "lido_em": "2026-10-10T08:03:00Z",
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
