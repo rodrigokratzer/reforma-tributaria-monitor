@@ -1,1 +1,11 @@
-{"data": "2026-10-09", "turno": "noturna", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-10-09T20:03:51Z", "resumo_curto": "1 item, balanço de adesão à CBS, nenhum muda prazo"}
+{
+ "data": "2026-10-10",
+ "turno": "matinal",
+ "situacao": "publicada",
+ "acoes": 1,
+ "gerado_em": "2026-10-10T08:05:23Z",
+ "resumo_curto": "2 novidades, 1 exige ação: alíquota específica da CBS sobre combustíveis, efeito a partir de 08/01/2027",
+ "painel_atualizado": [
+  "Decreto 13.133 e Portaria MF 3.074 divulgam as primeiras alíquotas específicas (R$/litro ou kg) da CBS sobre combustíveis, com efeito a partir de 08/01/2027"
+ ]
+}

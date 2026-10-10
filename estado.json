@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-10-08",
+ "atualizado_em": "2026-10-10",
  "prazos_destaque": [
   {
    "rotulo": "Opção pelo Simples Nacional para 2027 — prazo prorrogado",
@@ -200,6 +200,11 @@
    "data": "2026-10-08",
    "titulo": "Receita Federal atualiza balanço de opção pelo Simples/IBS-CBS",
    "detalhe": "469.498 solicitações de opção pelo Simples Nacional 2027 (199.161 deferidas, 270.337 indeferidas); 854.670 solicitações de opção pelo regime regular do IBS/CBS."
+  },
+  {
+   "data": "2026-10-09",
+   "titulo": "Decreto nº 13.133 e Portaria MF nº 3.074 — primeiras alíquotas específicas da CBS sobre combustíveis",
+   "detalhe": "O decreto delega ao Ministro da Fazenda a competência para divulgar as alíquotas (válida desde 2027 e nos reajustes anuais) e grava no Decreto 12.955/2026 o teto de 40%-90% da alíquota do fóssil equivalente para biocombustíveis (art. 476), revogando o art. 477. A Portaria MF 3.074 divulga os valores: gasolina R$ 0,7925/litro, diesel R$ 0,3515/litro, etanol R$ 0,1922/litro, biodiesel R$ 0,1480/litro, GLP R$ 0,1677/kg, QAV R$ 0,0712/litro, óleo combustível R$ 0,3403/kg — efeito a partir do 91º dia da publicação (08/01/2027)."
   },
   {
    "data": "2026-10-15",

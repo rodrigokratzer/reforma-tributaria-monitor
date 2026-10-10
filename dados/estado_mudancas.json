@@ -1,5 +1,12 @@
 [
  {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Decreto 13.133 e Portaria MF 3.074 divulgam as primeiras alíquotas específicas (R$/litro ou kg) da CBS sobre combustíveis, com efeito a partir de 08/01/2027",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=09/10/2026&jornal=601&pagina=2",
+  "em": "2026-10-10-matinal"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "alterado",
   "descricao": "Nota do prazo \"Opção pelo Simples Nacional 2027\" atualizada com o balanço de 08/10: 469.498 pedidos (199.161 deferidos, 270.337 indeferidos).",
