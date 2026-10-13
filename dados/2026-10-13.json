@@ -469,8 +469,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 8,
+   "total": 9,
    "itens": [
+    {
+     "titulo": "Contagem Regressiva: Prazo final para opção pelo Simples Nacional termina em 15/10!",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/d83ddea8-atencao-prazo-final-para-opcao-pelo-simples-nacional-termina-em-15-10",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Reforma tributária: 86% dos documentos fiscais de empresas obrigadas já trazem destaque da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/reforma-tributaria-86-dos-documentos-fiscais-de-empresas-obrigadas-ja-trazem-destaque-da-cbs",
