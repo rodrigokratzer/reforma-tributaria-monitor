@@ -164,6 +164,11 @@
   "motivo": "DOU publica Ato Técnico Conjunto nº 8 (notas técnicas NF-e/CT-e/NFCom etc.), já no painel desde 29/09",
   "em": "2026-10-02-matinal"
  },
+ "14ceb9822888b858": {
+  "veredito": "ruido",
+  "motivo": "Solução de consulta sobre IRPJ/CSLL de serviços de saúde, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
+ },
  "1520f605af5bfba7": {
   "veredito": "ruido",
   "motivo": "Legenda de tabela anexa à portaria de equalização de juros, sem relação com a reforma",
@@ -318,6 +323,11 @@
   "veredito": "ruido",
   "motivo": "altera cronograma de desembolso orçamentário do Executivo; execução financeira geral, não reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "23e66124806c525e": {
+  "veredito": "ruido",
+  "motivo": "Portaria interna da Receita sobre equipes regionais de fiscalização, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
  },
  "23fba35b569e319f": {
   "veredito": "ruido",
@@ -538,6 +548,11 @@
   "veredito": "relevante",
   "motivo": "publicação do cronograma oficial de implementação dos DF-e da reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "397201dd14dbc745": {
+  "veredito": "ruido",
+  "motivo": "Ato COTEPE/ICMS inclui transportador de gás natural no cadastro do ICMS, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
  },
  "3a1cfb023350f6d2": {
   "veredito": "contexto",
@@ -809,6 +824,11 @@
   "motivo": "preço médio de combustíveis (PMPF) para ICMS monofásico, não trata de IBS/CBS/IS",
   "em": "retroativa-2026-09-30"
  },
+ "553513c81f69ee01": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
+ },
  "55afcc71c8c70bfa": {
   "veredito": "ruido",
   "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
@@ -858,6 +878,11 @@
   "veredito": "ruido",
   "motivo": "Cria equipe regional de fiscalização para perdimento por contrabando/descaminho; sem relação com a reforma",
   "em": "2026-10-08-matinal"
+ },
+ "5a2163e8d1cc9bd5": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
  },
  "5af5fcfe04a5fc29": {
   "veredito": "contexto",
@@ -1419,6 +1444,16 @@
   "motivo": "Portaria CGIBS publica rol de servidores em cooperação mútua; ato interno, sem efeito externo",
   "em": "2026-10-05-noturna"
  },
+ "982727754a75c902": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa reeleição de diretoria e aumento de capital, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
+ },
+ "983ea3f47a1a9550": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
+ },
  "987e80506a927dc9": {
   "veredito": "ruido",
   "motivo": "Portaria Susep homologa atualização cadastral de resseguradora, sem relação com a reforma",
@@ -1739,6 +1774,11 @@
   "motivo": "horário de atendimento de unidades da Receita na 8ª Região Fiscal, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "bc2516475cf0ff3f": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
+ },
  "bc4803865a3d71ed": {
   "veredito": "ruido",
   "motivo": "Altera limites de crédito para setor público; sem relação com a reforma.",
@@ -1753,6 +1793,11 @@
   "veredito": "ruido",
   "motivo": "PIS/Cofins regime cumulativo de vigilância eletrônica, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "bd3840cf95cba8bd": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa eleição de membro de comitê de auditoria, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
  },
  "bd8a486a114433c8": {
   "veredito": "ruido",
@@ -1939,6 +1984,11 @@
   "motivo": "altera cronograma de desembolso orçamentário do Executivo; execução financeira geral, não reforma",
   "em": "retroativa-2026-09-30"
  },
+ "cf46adb7d12dbbe2": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa aumento de capital social de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
+ },
  "cf852a3130736f15": {
   "veredito": "ruido",
   "motivo": "Consulta sobre lucro presumido em serviços de saúde (mesmo tema); sem relação com a reforma.",
@@ -2004,6 +2054,11 @@
   "motivo": "fixa a metodologia de cálculo da carga tributária de referência para as alíquotas de IBS/CBS sobre combustíveis",
   "em": "2026-10-05-matinal"
  },
+ "d85bcf1635da127d": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa aumento de capital social de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
+ },
  "d9100b7bc7f86e11": {
   "veredito": "ruido",
   "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
@@ -2048,6 +2103,11 @@
   "veredito": "ruido",
   "motivo": "homologação de eleição de comitê de auditoria de resseguradora, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "de1bd565ac0b040d": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
  },
  "df07bf363decaecb": {
   "veredito": "relevante",
@@ -2139,6 +2199,11 @@
   "motivo": "Homologa eleição de administradores da Aliança do Brasil Seguros; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "e7cfcd74f35193e1": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
+ },
  "e8f1ae4c93004be4": {
   "veredito": "ruido",
   "motivo": "retificação de data em ato declaratório de saída de aeronave, sem relação com a reforma",
@@ -2203,6 +2268,11 @@
   "veredito": "ruido",
   "motivo": "torna sem efeito ato sobre regime de ICMS de petroquímicas, tributo atual",
   "em": "retroativa-2026-09-30"
+ },
+ "f0f15c2dd56175d2": {
+  "veredito": "ruido",
+  "motivo": "Soluções de consulta sobre classificação fiscal de mercadorias (NCM), sem relação com a reforma",
+  "em": "2026-10-13-matinal"
  },
  "f167ebc9aca80f8d": {
   "veredito": "ruido",
@@ -2288,6 +2358,11 @@
   "veredito": "relevante",
   "motivo": "CGIBS/RFB esclarecem prazos de obrigações da DeRE previstos no Ato Conjunto nº 4.",
   "em": "retroativa-2026-09-30"
+ },
+ "f68408cc060b6a65": {
+  "veredito": "ruido",
+  "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-10-13-matinal"
  },
  "f729376eb9be0870": {
   "veredito": "ruido",
