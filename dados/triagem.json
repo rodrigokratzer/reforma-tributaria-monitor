@@ -39,6 +39,11 @@
   "motivo": "extinção de escritório regional da PGFN, ato administrativo interno",
   "em": "retroativa-2026-09-30"
  },
+ "024df67b5b5c40ac": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administrador de seguradora, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
+ },
  "036649dd229c570a": {
   "veredito": "contexto",
   "motivo": "Resolução CGIBS nº 11 adota marco regulatório de licitações do órgão",
@@ -48,6 +53,11 @@
   "veredito": "contexto",
   "motivo": "Resolução CGIBS nº 10 aprova proposta orçamentária interna 2026",
   "em": "retroativa-2026-09-30"
+ },
+ "03ecafb3fb693331": {
+  "veredito": "ruido",
+  "motivo": "edital de concurso público do Ministério de Minas e Energia, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
  },
  "049c828556ad3e85": {
   "veredito": "ruido",
@@ -163,6 +173,11 @@
   "veredito": "relevante",
   "motivo": "DOU publica Ato Técnico Conjunto nº 8 (notas técnicas NF-e/CT-e/NFCom etc.), já no painel desde 29/09",
   "em": "2026-10-02-matinal"
+ },
+ "1345bfdf8a4b3154": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de administrador de seguradora, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
  },
  "14ceb9822888b858": {
   "veredito": "ruido",
@@ -323,6 +338,11 @@
   "veredito": "ruido",
   "motivo": "Solução de consulta sobre contribuição previdenciária de notários; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "23b32f2478096f55": {
+  "veredito": "contexto",
+  "motivo": "estado indica representantes no Conselho Superior do CGIBS; governança interna, sem efeito para contribuinte",
+  "em": "2026-10-14-matinal"
  },
  "23d24a294b612a42": {
   "veredito": "ruido",
@@ -704,6 +724,11 @@
   "motivo": "homologação de aumento de capital social de seguradora, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "47328f1edc4e229b": {
+  "veredito": "ruido",
+  "motivo": "mudança de denominação social e reforma de estatuto de seguradora (KOVR→KEV), sem relação com a reforma",
+  "em": "2026-10-14-matinal"
+ },
  "47fcaf589b96f86b": {
   "veredito": "ruido",
   "motivo": "Suspende atendimento presencial do CAC em São José dos Campos, ato interno",
@@ -733,6 +758,11 @@
   "veredito": "ruido",
   "motivo": "Solucao de consulta sobre CIDE em licenca de software, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "48fd3eb7d1a9ec5d": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral anual de resseguradora eventual, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
  },
  "495a3a6f66d14665": {
   "veredito": "ruido",
@@ -964,6 +994,11 @@
   "motivo": "prorroga equipe de auditoria de créditos de PIS/Cofins, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "60c4bc24516145df": {
+  "veredito": "ruido",
+  "motivo": "homologação de destituição de administrador de resseguradora, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
+ },
  "61099f988dffa03d": {
   "veredito": "relevante",
   "motivo": "Ato Conjunto nº 3 sobre a documentação técnica da DeRE",
@@ -1099,6 +1134,11 @@
   "motivo": "tabela do RREO (educação básica), sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "6a2d9a3a6baf2db4": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta sobre IRPJ/CSLL/PIS/Cofins (subvenções) e IRPF (Fundeb), sem relação com a reforma do consumo",
+  "em": "2026-10-14-matinal"
+ },
  "6acf96875e04292d": {
   "veredito": "ruido",
   "motivo": "regra de trânsito aduaneiro de contêineres no Porto do Rio Grande, sem relação com a reforma",
@@ -1188,6 +1228,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta sem ementa disponível, sem sinal de relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "747835ff2d644339": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de comitê de auditoria de seguradora, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
  },
  "74b1d8e9aa2c9ddf": {
   "veredito": "relevante",
@@ -1649,6 +1694,11 @@
   "motivo": "altera o canal Fale Conosco da Receita Federal, sem relação com a reforma",
   "em": "2026-10-07-matinal"
  },
+ "ae3b2db931dab566": {
+  "veredito": "ruido",
+  "motivo": "homologação de aumento de capital social de seguradora, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
+ },
  "aecb33683b352872": {
   "veredito": "ruido",
   "motivo": "Atualização cadastral anual de ressegurador eventual, ato interno",
@@ -1829,6 +1879,11 @@
   "motivo": "Divulga pacote técnico v1.3.0 da DeRE em produção beta (tabelas D-1001/D-1011, eventos D-2252/D-1121); confirma obrigatoriedade desde 01/10/2026",
   "em": "2026-10-07-noturna"
  },
+ "c21da983e8752310": {
+  "veredito": "ruido",
+  "motivo": "organização interna das equipes de fiscalização da RFB na 8ª Região Fiscal, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
+ },
  "c271fa02ae579bd1": {
   "veredito": "ruido",
   "motivo": "Gestão técnica de mandado de segurança na 8ª Região Fiscal, ato interno",
@@ -1878,6 +1933,11 @@
   "veredito": "ruido",
   "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "c6265dd4ead55b4b": {
+  "veredito": "ruido",
+  "motivo": "anula certidões de regularidade fiscal de uma entidade específica, sem relação com a reforma",
+  "em": "2026-10-14-matinal"
  },
  "c6a8f17d86f4d8ad": {
   "veredito": "ruido",
@@ -2024,6 +2084,11 @@
   "motivo": "Missão institucional do CGIBS à OCDE sobre IVA, sem efeito prático imediato",
   "em": "retroativa-2026-09-30"
  },
+ "d41a728bdfd46f21": {
+  "veredito": "ruido",
+  "motivo": "mudança de denominação social de previdência privada (KOVR→KEV), sem relação com a reforma",
+  "em": "2026-10-14-matinal"
+ },
  "d43fbb797f5fc94f": {
   "veredito": "ruido",
   "motivo": "homologação de aumento de capital e reforma de estatuto da Avla Seguros, sem relação com a reforma",
@@ -2049,6 +2114,11 @@
   "motivo": "altera cronograma de desembolso orçamentário do Executivo; execução financeira geral, não reforma",
   "em": "retroativa-2026-09-30"
  },
+ "d6c9f76e1dac2bb5": {
+  "veredito": "ruido",
+  "motivo": "subvenção econômica a importadores de óleo diesel (MP 1.391/2026), sem relação com IBS/CBS/IS",
+  "em": "2026-10-14-matinal"
+ },
  "d6edf796e3127b8e": {
   "veredito": "ruido",
   "motivo": "Suspende atividades de agência da RFB em Lagoa Vermelha-RS, ato interno",
@@ -2068,6 +2138,11 @@
   "veredito": "ruido",
   "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "d92901e9e5a7dc28": {
+  "veredito": "ruido",
+  "motivo": "mudança de denominação social de capitalização (KOVR→KEV), sem relação com a reforma",
+  "em": "2026-10-14-matinal"
  },
  "d97b2dbb8fa96c90": {
   "veredito": "ruido",
