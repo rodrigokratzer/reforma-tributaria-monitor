@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": null,
+   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
    "total": 10,
    "itens": [
     {
@@ -472,6 +472,13 @@
    "total": 9,
    "itens": [
     {
+     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs-3",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
      "titulo": "Contagem Regressiva: Prazo final para opção pelo Simples Nacional termina em 15/10!",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/d83ddea8-atencao-prazo-final-para-opcao-pelo-simples-nacional-termina-em-15-10",
      "data": null,
@@ -523,13 +530,6 @@
     {
      "titulo": "Simples Nacional 2027: Entenda os novos prazos e faça sua escolha com consciência e tranquilidade",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/simples-nacional-2027-entenda-os-novos-prazos-e-faca-sua-escolha-com-consciencia-e-tranquilidade",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Receita Federal atualiza o balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-atualiza-o-balanco-de-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
