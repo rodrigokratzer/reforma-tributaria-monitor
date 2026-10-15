@@ -2214,6 +2214,11 @@
   "motivo": "Tabela anexa à portaria de equalização de juros, sem relação com a reforma",
   "em": "2026-10-02-matinal"
  },
+ "dfd93a8938dd9004": {
+  "veredito": "relevante",
+  "motivo": "balanço do prazo de opção Simples/IBS-CBS, que fecha hoje (Simples) e em 30/10 (regime regular)",
+  "em": "2026-10-15-noturna"
+ },
  "e022e30ccaf5c277": {
   "veredito": "ruido",
   "motivo": "PIS/Cofins regime cumulativo de vigilância eletrônica, sem relação com a reforma",
