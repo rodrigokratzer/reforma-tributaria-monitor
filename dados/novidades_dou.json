@@ -1,51 +1,10 @@
 {
  "data": "2026-10-15",
- "quantidade": 3,
- "itens": [
-  {
-   "primeira_vez": "2026-10-15",
-   "fonte": "DOU DO1E",
-   "titulo": "RESOLUÇÃO CVM Nº 248, DE 13 DE OUTUBRO DE 2026",
-   "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=14/10/2026&jornal=602&pagina=5",
-   "data": "2026-10-14",
-   "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Gabinete/Gerência Executiva",
-   "ementa": "Altera a Resolução CVM nº 67, de 10 de março de 2022.",
-   "balde": "revisar",
-   "continuacao": false,
-   "alerta": null,
-   "pasta_arquivo": null,
-   "visto_em": "2026-10-15T08:01:49Z"
-  },
-  {
-   "primeira_vez": "2026-10-15",
-   "fonte": "DOU DO1E",
-   "titulo": "RESOLUÇÃO CVM Nº 249, DE 13 DE OUTUBRO DE 2026",
-   "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=14/10/2026&jornal=602&pagina=5",
-   "data": "2026-10-14",
-   "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Gabinete/Gerência Executiva",
-   "ementa": "Institui, em caráter experimental, o Programa Piloto DLT CVM destinado à realização de testes no mercado de valores mobiliários por meio de redes de tecnologia de registro distribuído, compreendendo operações experimentais de emissão, oferta, negociação, liquidação e pós-negociação de valores mobili",
-   "balde": "revisar",
-   "continuacao": false,
-   "alerta": null,
-   "pasta_arquivo": null,
-   "visto_em": "2026-10-15T08:01:49Z"
-  },
-  {
-   "primeira_vez": "2026-10-15",
-   "fonte": "DOU DO1E",
-   "titulo": "PORTARIA COANA Nº 212, DE 5 DE OUTUBRO DE 2026",
-   "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=14/10/2026&jornal=602&pagina=4",
-   "data": "2026-10-14",
-   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Administração Aduaneira/Coordenaç",
-   "ementa": "Altera a Portaria COANA nº 76, de 13 de maio de 2022, que disciplina dispositivos estabelecidos na Portaria RFB nº 143, de 11 de fevereiro de 2022, relativamente às normas gerais e procedimentos para o alfandegamento de local ou recinto.",
-   "balde": "revisar",
-   "continuacao": false,
-   "alerta": null,
-   "pasta_arquivo": null,
-   "visto_em": "2026-10-15T08:01:49Z"
-  }
+ "quantidade": 0,
+ "itens": [],
+ "fontes_com_erro": [
+  "DOU (INLABS)"
  ],
- "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
  "fontes_puladas": []
