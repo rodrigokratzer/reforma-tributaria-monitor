@@ -299,6 +299,11 @@
   "motivo": "Ato Conjunto nº 5 regulamenta o Programa Nacional de Conformidade Tributária",
   "em": "retroativa-2026-09-30"
  },
+ "1ffc94a9097f8636": {
+  "veredito": "ruido",
+  "motivo": "altera regra interna da CVM sobre área responsável por processos de normatização, sem relação com a reforma",
+  "em": "2026-10-15-matinal"
+ },
  "20fb02ef46f6f127": {
   "veredito": "relevante",
   "motivo": "Interpreta arts. 537/540 da LC214 sobre concentracao de PIS/Cofins do etanol em produtor/importador",
@@ -323,6 +328,11 @@
   "veredito": "ruido",
   "motivo": "comitê interno da CVM para acompanhar ADI sobre fiscalização, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "224e6215de392356": {
+  "veredito": "ruido",
+  "motivo": "programa piloto de testes com DLT/tokenização no mercado de valores mobiliários, sem relação com a reforma",
+  "em": "2026-10-15-matinal"
  },
  "22a0398cd624a9d5": {
   "veredito": "relevante",
@@ -1463,6 +1473,11 @@
   "veredito": "ruido",
   "motivo": "continuação de tabela de equalização de juros do Plano Safra",
   "em": "retroativa-2026-09-30"
+ },
+ "9072739bc46e7851": {
+  "veredito": "ruido",
+  "motivo": "requisitos técnicos de equipamento de raios X para inspeção aduaneira, sem relação com a reforma",
+  "em": "2026-10-15-matinal"
  },
  "917f534983ffcac4": {
   "veredito": "ruido",
