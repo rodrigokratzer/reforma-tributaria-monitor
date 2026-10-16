@@ -1,13 +1,12 @@
 {
- "data": "2026-10-15",
- "turno": "noturna",
+ "data": "2026-10-16",
+ "turno": "matinal",
  "situacao": "publicada",
  "acoes": 0,
- "gerado_em": "2026-10-15T20:50:30Z",
- "resumo_curto": "1 item: balanço do prazo que fecha hoje (Simples) e em 30/10 (regime regular)",
+ "gerado_em": "2026-10-16T08:05:06Z",
+ "resumo_curto": "11 itens; 1 para acompanhar (Dnit vai ajustar custo de obra ao crédito de IBS/CBS), nenhum exige ação",
  "painel_atualizado": [
-  "Prazo de opção pelo Simples Nacional 2027 (15/10) venceu hoje; sai dos cards de destaque, mas o marco continua na linha do tempo",
-  "Nota do prazo de opção pelo regime regular do IBS/CBS (30/10) atualizada com o balanço de 15/10: 891.294 solicitações pelo regime regular, 549.144 pelo Simples Nacional (234.454 deferidas)",
-  "Novo balanço da Receita Federal (15/10) sobre opção pelo Simples/IBS-CBS adicionado à linha do tempo, na mesma série dos balanços anteriores (02/10, 06/10, 08/10)"
+  "Nova pendência: TCU manda o Dnit ajustar o Sicro (custos referenciais de obras públicas) para excluir o IBS/CBS recuperável como crédito, com plano de ação em 30 dias (Acórdão 2770/2026)",
+  "TCU determina ao Dnit que adeque o Sicro ao não cumulativo do IBS/CBS (Acórdão 2770/2026-TCU-Plenário)"
  ]
 }

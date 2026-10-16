@@ -329,6 +329,11 @@
   "motivo": "comitê interno da CVM para acompanhar ADI sobre fiscalização, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "22487d81005d416c": {
+  "veredito": "ruido",
+  "motivo": "Inclui empresas na lista de redução de base do ICMS para veículos militares (Convênio 95/12); benefício do ICMS vigente, não da reforma do consumo.",
+  "em": "2026-10-16-matinal"
+ },
  "224e6215de392356": {
   "veredito": "ruido",
   "motivo": "programa piloto de testes com DLT/tokenização no mercado de valores mobiliários, sem relação com a reforma",
@@ -1039,6 +1044,11 @@
   "motivo": "solução de consulta sem ementa disponível; nada indica relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
  },
+ "621f52f888edcc4c": {
+  "veredito": "ruido",
+  "motivo": "Altera procedimento de trânsito aduaneiro (DTA) em Guarulhos, sem relação com IBS/CBS.",
+  "em": "2026-10-16-matinal"
+ },
  "624891cb7a3e7943": {
   "veredito": "ruido",
   "motivo": "horário de atendimento de unidades da RFB na 8ª Região Fiscal, sem relação com a reforma",
@@ -1288,6 +1298,16 @@
   "veredito": "ruido",
   "motivo": "Suspensão temporária do Chat RFB na 4ª Região Fiscal para treinamento, ato interno",
   "em": "retroativa-2026-09-30"
+ },
+ "7cc92f7938630154": {
+  "veredito": "ruido",
+  "motivo": "Cria grupo de trabalho sobre competitividade do mercado de carbono (SBCE), tema distinto da reforma do consumo.",
+  "em": "2026-10-16-matinal"
+ },
+ "7ccbd6edabc2f1e2": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administrador da Itaú Vida e Previdência, sem relação com a reforma.",
+  "em": "2026-10-16-matinal"
  },
  "7f4975dd2ac6ab24": {
   "veredito": "ruido",
@@ -1579,6 +1599,11 @@
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "9de0e74708a9a177": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administrador da Cia. Itaú de Capitalização, sem relação com a reforma.",
+  "em": "2026-10-16-matinal"
+ },
  "9e18f9181c74d84f": {
   "veredito": "relevante",
   "motivo": "aprova e ratifica notas técnicas de DF-e já registradas na linha do tempo do painel (31/07)",
@@ -1608,6 +1633,11 @@
   "veredito": "contexto",
   "motivo": "Portaria CGIBS sem indicação do assunto no título",
   "em": "retroativa-2026-09-30"
+ },
+ "a23ee6a1d2b11f25": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administradores da Generali Brasil Seguros, sem relação com a reforma.",
+  "em": "2026-10-16-matinal"
  },
  "a2580ac11ddf68d4": {
   "veredito": "ruido",
@@ -1879,6 +1909,11 @@
   "motivo": "Altera designacao de membros de grupo tecnico de taxonomia sustentavel, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "bde778e4a6f7c552": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de membro de diretoria da HDI Seguros, sem relação com a reforma.",
+  "em": "2026-10-16-matinal"
+ },
  "bf2c5ce11186b3bd": {
   "veredito": "relevante",
   "motivo": "anúncio de cronograma para emissão dos documentos fiscais eletrônicos da reforma",
@@ -2099,6 +2134,11 @@
   "motivo": "Missão institucional do CGIBS à OCDE sobre IVA, sem efeito prático imediato",
   "em": "retroativa-2026-09-30"
  },
+ "d2cf6ec66db66550": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administradores da Banestes Seguros, sem relação com a reforma.",
+  "em": "2026-10-16-matinal"
+ },
  "d41a728bdfd46f21": {
   "veredito": "ruido",
   "motivo": "mudança de denominação social de previdência privada (KOVR→KEV), sem relação com a reforma",
@@ -2123,6 +2163,11 @@
   "veredito": "ruido",
   "motivo": "homologação de eleição de administradores de seguradora, ato interno sem relação com a reforma",
   "em": "2026-10-06-matinal"
+ },
+ "d64fd12b4099a1f5": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administradores da Generali Brasil Seguros, sem relação com a reforma.",
+  "em": "2026-10-16-matinal"
  },
  "d6affd71c8f31be7": {
   "veredito": "ruido",
@@ -2163,6 +2208,11 @@
   "veredito": "ruido",
   "motivo": "Altera Manual de Demonstrativos Fiscais do Tesouro, sem relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
+ },
+ "dabfb7e05885805a": {
+  "veredito": "relevante",
+  "motivo": "Acórdão 2770/2026-TCU manda o Dnit ajustar o Sicro ao não cumulativo do IBS/CBS; os demais acórdãos do item não têm relação com a reforma.",
+  "em": "2026-10-16-matinal"
  },
  "daec374892715d73": {
   "veredito": "ruido",
@@ -2228,6 +2278,11 @@
   "veredito": "relevante",
   "motivo": "Ato Conjunto nº 3/2026 traz nova etapa da documentação técnica da DeRE",
   "em": "retroativa-2026-09-30"
+ },
+ "e056efe1e88dcd87": {
+  "veredito": "ruido",
+  "motivo": "Homologação de eleição de administrador da Itaú Seguros, sem relação com a reforma.",
+  "em": "2026-10-16-matinal"
  },
  "e098cf8b05ef00e9": {
   "veredito": "relevante",

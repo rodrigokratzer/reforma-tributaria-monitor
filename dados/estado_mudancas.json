@@ -1,5 +1,19 @@
 [
  {
+  "secao": "pendencias",
+  "tipo": "incluido",
+  "descricao": "Nova pendência: TCU manda o Dnit ajustar o Sicro (custos referenciais de obras públicas) para excluir o IBS/CBS recuperável como crédito, com plano de ação em 30 dias (Acórdão 2770/2026)",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/10/2026&jornal=515&pagina=165",
+  "em": "2026-10-16-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "TCU determina ao Dnit que adeque o Sicro ao não cumulativo do IBS/CBS (Acórdão 2770/2026-TCU-Plenário)",
+  "fonte": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/10/2026&jornal=515&pagina=165",
+  "em": "2026-10-16-matinal"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "removido",
   "descricao": "Prazo de opção pelo Simples Nacional 2027 (15/10) venceu hoje; sai dos cards de destaque, mas o marco continua na linha do tempo",
