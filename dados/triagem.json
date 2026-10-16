@@ -1759,6 +1759,11 @@
   "motivo": "ato COTEPE/ICMS de credenciamento de empresas a benefício de ICMS, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "af701e3d8bad9929": {
+  "veredito": "relevante",
+  "motivo": "balanço de opção pelo Simples Nacional 2027 e pelo regime regular do IBS/CBS, prazos de 15/10 e 30/10",
+  "em": "2026-10-16-noturna"
+ },
  "afb7e44358ac8089": {
   "veredito": "ruido",
   "motivo": "Fragmento do modelo de comprovante cadastral do CNPJ, sem conteúdo próprio",
