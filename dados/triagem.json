@@ -209,6 +209,11 @@
   "motivo": "ferramenta técnica de validação de NF-e, sem novidade normativa",
   "em": "retroativa-2026-09-30"
  },
+ "164b511024f92577": {
+  "veredito": "ruido",
+  "motivo": "altera monitoramento eletrônico de cargas em trânsito aduaneiro, procedimento de fiscalização sem relação com a reforma",
+  "em": "2026-10-17-matinal"
+ },
  "16a461b3f1d932bc": {
   "veredito": "ruido",
   "motivo": "solução de consulta sobre incidência de IRPJ/CSLL em subvenções a empresas públicas, sem relação com a reforma",
@@ -433,6 +438,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta sobre retenção de IRRF/CSLL em serviços de manutenção, sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "2858babef99a8ce1": {
+  "veredito": "ruido",
+  "motivo": "disciplina processo eletrônico SEI e acesso externo a processos na Susep, sem relação com a reforma",
+  "em": "2026-10-17-matinal"
  },
  "289404b17049d08c": {
   "veredito": "ruido",
@@ -1923,6 +1933,11 @@
   "veredito": "relevante",
   "motivo": "anúncio de cronograma para emissão dos documentos fiscais eletrônicos da reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "bfce8a1804cfdb73": {
+  "veredito": "ruido",
+  "motivo": "remaneja valores do cronograma orçamentário de 2026 entre órgãos, sem relação com a reforma",
+  "em": "2026-10-17-matinal"
  },
  "c112262751a97f2f": {
   "veredito": "ruido",

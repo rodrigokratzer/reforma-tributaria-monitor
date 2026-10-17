@@ -1,12 +1,3 @@
-{
- "data": "2026-10-16",
- "turno": "noturna",
- "situacao": "publicada",
- "acoes": 0,
- "gerado_em": "2026-10-16T20:03:43Z",
- "resumo_curto": "1 novidade, balanço de opção Simples/IBS-CBS, nenhuma exige ação",
- "painel_atualizado": [
-  "Nota do prazo de opção pelo regime regular do IBS/CBS (30/10) atualizada com o balanço de 16/10: 917.331 pedidos de regime regular, 657.753 pelo Simples Nacional (401.146 indeferidos)",
-  "Receita Federal atualiza balanço de opção pelo Simples/IBS-CBS em 16/10 (917.331 regime regular; 657.753 Simples Nacional, 401.146 indeferidos, prazo já encerrado)"
- ]
-}
+{"data": "2026-10-17", "turno": "matinal",
+ "situacao": "sem_novidade", "acoes": 0,
+ "gerado_em": "2026-10-17T08:05:16Z", "resumo_curto": "3 itens, nenhum relevante"}
