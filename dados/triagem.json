@@ -124,6 +124,11 @@
   "motivo": "homologação de eleição de administradores da Mapfre Vida, sem relação com a reforma",
   "em": "2026-10-01-matinal"
  },
+ "0f735c90ef1d87ab": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre IRPJ/CSLL, lucro presumido na construção civil, sem relação com a reforma",
+  "em": "2026-10-19-matinal"
+ },
  "0fc27f3d8e53b20d": {
   "veredito": "ruido",
   "motivo": "Portaria Susep homologa eleição de administrador de seguradora, sem relação com a reforma",
@@ -168,6 +173,11 @@
   "veredito": "ruido",
   "motivo": "eleição de administradores de seguradora (Mapfre Capitalização), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "130cc9f441f1e923": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre IRPJ e incentivo fiscal SUDAM/SUDENE, sem relação com a reforma do consumo",
+  "em": "2026-10-19-matinal"
  },
  "133f22d2130ca1e8": {
   "veredito": "relevante",
@@ -253,6 +263,11 @@
   "veredito": "ruido",
   "motivo": "Altera regras do Programa Sintonia de conformidade tributária; sem relação com a reforma do consumo.",
   "em": "retroativa-2026-09-30"
+ },
+ "1b2d7f7a5cfdf9bf": {
+  "veredito": "ruido",
+  "motivo": "convalidação de atos do Tesouro Nacional por vício de competência, sem relação com a reforma",
+  "em": "2026-10-19-matinal"
  },
  "1b903d0c0a4f95d3": {
   "veredito": "ruido",
@@ -399,6 +414,11 @@
   "motivo": "RFB e CGIBS lançam programa de conformidade tributária para adaptação à reforma",
   "em": "retroativa-2026-09-30"
  },
+ "2526c8facae64ace": {
+  "veredito": "ruido",
+  "motivo": "homologação cadastral anual de resseguradora (AXA), sem relação com a reforma",
+  "em": "2026-10-19-matinal"
+ },
  "255f407d992d7bc7": {
   "veredito": "ruido",
   "motivo": "Lista contratos de transportadoras de e-commerce (Amazon) no Remessa Conforme; sem relação com IBS/CBS.",
@@ -413,6 +433,11 @@
   "veredito": "ruido",
   "motivo": "Institui politica interna de auditoria de TI da Susep, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "26b5f4c2510bb2a2": {
+  "veredito": "ruido",
+  "motivo": "homologação cadastral anual de resseguradora (Euler Hermes), sem relação com a reforma",
+  "em": "2026-10-19-matinal"
  },
  "27553d6df862c1e7": {
   "veredito": "contexto",
@@ -604,6 +629,11 @@
   "motivo": "Ato COTEPE/ICMS inclui transportador de gás natural no cadastro do ICMS, sem relação com a reforma",
   "em": "2026-10-13-matinal"
  },
+ "3972ce0ffc8a0b68": {
+  "veredito": "ruido",
+  "motivo": "nomeação de procuradora de resseguradora (Liberty Mutual), sem relação com a reforma",
+  "em": "2026-10-19-matinal"
+ },
  "3a1cfb023350f6d2": {
   "veredito": "contexto",
   "motivo": "Reunião institucional apresentando avanços da implementação do IBS, sem norma",
@@ -678,6 +708,11 @@
   "veredito": "ruido",
   "motivo": "Portaria Susep homologa eleição de administrador de seguradora, sem relação com a reforma",
   "em": "2026-10-02-matinal"
+ },
+ "400fbeb53e93da31": {
+  "veredito": "ruido",
+  "motivo": "regime de apuração de PIS/Cofins para vigilância privada, tributo federal fora do escopo da reforma",
+  "em": "2026-10-19-matinal"
  },
  "4029a04db564e819": {
   "veredito": "ruido",
@@ -818,6 +853,11 @@
   "veredito": "ruido",
   "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "4df1533a3bfdb7f6": {
+  "veredito": "ruido",
+  "motivo": "realocação de cargo comissionado na CVM, ato interno sem relação com a reforma",
+  "em": "2026-10-19-matinal"
  },
  "4eddb92c3fb4b3ab": {
   "veredito": "ruido",
@@ -1019,6 +1059,11 @@
   "motivo": "prorroga equipe de auditoria de créditos de PIS/Cofins, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "60b10ff1ad586483": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre PIS/Cofins-Importação de simulador de voo, sem relação com a reforma",
+  "em": "2026-10-19-matinal"
+ },
  "60c4bc24516145df": {
   "veredito": "ruido",
   "motivo": "homologação de destituição de administrador de resseguradora, sem relação com a reforma",
@@ -1143,6 +1188,11 @@
   "veredito": "ruido",
   "motivo": "eleição de administradores de seguradora (Banestes), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "680fb13e7cf4ecf4": {
+  "veredito": "ruido",
+  "motivo": "designação de representantes em comitê de harmonização tributária; texto não cita IBS/CBS/reforma",
+  "em": "2026-10-19-matinal"
  },
  "68c77cfa9bf4a5bc": {
   "veredito": "ruido",
@@ -1414,6 +1464,11 @@
   "motivo": "benefício de ICMS para empresa do setor aeronáutico, regime antigo, sem relação com a reforma",
   "em": "2026-10-06-matinal"
  },
+ "86a597f1d9ecb15d": {
+  "veredito": "ruido",
+  "motivo": "homologação de assembleia de entidade de previdência privada; 'reforma' é do estatuto social, não tributária",
+  "em": "2026-10-19-matinal"
+ },
  "885b1a55042ac0ac": {
   "veredito": "ruido",
   "motivo": "IRPJ/CSLL/PIS/Cofins sobre subvenção de programas estaduais (Prodepe/PEAP), sem relação com a reforma",
@@ -1538,6 +1593,11 @@
   "veredito": "contexto",
   "motivo": "Portaria CGIBS publica rol de servidores em cooperação mútua; ato interno, sem efeito externo",
   "em": "2026-10-05-noturna"
+ },
+ "976ae74d5fe31fa3": {
+  "veredito": "ruido",
+  "motivo": "homologação cadastral anual de resseguradora (Chubb Tempest), sem relação com a reforma",
+  "em": "2026-10-19-matinal"
  },
  "982727754a75c902": {
   "veredito": "ruido",
