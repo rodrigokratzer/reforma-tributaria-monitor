@@ -59,6 +59,11 @@
   "motivo": "edital de concurso público do Ministério de Minas e Energia, sem relação com a reforma",
   "em": "2026-10-14-matinal"
  },
+ "049132242cf3a279": {
+  "veredito": "ruido",
+  "motivo": "altera equalização de juros de crédito rural, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
+ },
  "049c828556ad3e85": {
   "veredito": "ruido",
   "motivo": "Consulta sobre lucro presumido em serviços de saúde; sem relação com a reforma.",
@@ -93,6 +98,11 @@
   "veredito": "ruido",
   "motivo": "Portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "0890d871bed774d4": {
+  "veredito": "ruido",
+  "motivo": "homologação de deliberações societárias da XS4 Capitalização, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
  },
  "08aaea2ea6356247": {
   "veredito": "ruido",
@@ -604,6 +614,11 @@
   "motivo": "Autoriza linha de crédito rural para composição de dívidas; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "37e93bb4d1079d46": {
+  "veredito": "ruido",
+  "motivo": "indicação de membros do CONFAZ a comitê de repressão a furto/roubo de veículos, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
+ },
  "381f87a1f425172c": {
   "veredito": "relevante",
   "motivo": "CGIBS e Receita publicam v1.2.0 dos leiautes da DeRE, com regras de dedução e cashback.",
@@ -859,10 +874,20 @@
   "motivo": "realocação de cargo comissionado na CVM, ato interno sem relação com a reforma",
   "em": "2026-10-19-matinal"
  },
+ "4e3fad96ca944793": {
+  "veredito": "ruido",
+  "motivo": "atualiza cadastro COTEPE de credenciados de gás natural no ICMS atual, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
+ },
  "4eddb92c3fb4b3ab": {
   "veredito": "ruido",
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "5080bfee4a60a6d2": {
+  "veredito": "ruido",
+  "motivo": "homologação de destituição/eleição na Zurich Santander Seguros e Previdência, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
  },
  "5099dc786e6b4fad": {
   "veredito": "ruido",
@@ -1018,6 +1043,11 @@
   "veredito": "ruido",
   "motivo": "altera plano de regulação da SUSEP para 2026; agenda regulatória de seguros, não reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "5e15c8770a49541f": {
+  "veredito": "contexto",
+  "motivo": "confirma imunidade na importação por universidades via fundação de apoio; LC 227/2026 citada só entre os dispositivos legais",
+  "em": "2026-10-20-matinal"
  },
  "5e4cb61d929533ee": {
   "veredito": "ruido",
@@ -1219,6 +1249,11 @@
   "motivo": "soluções de consulta sobre IRPJ/CSLL/PIS/Cofins (subvenções) e IRPF (Fundeb), sem relação com a reforma do consumo",
   "em": "2026-10-14-matinal"
  },
+ "6a97b28f13948a7a": {
+  "veredito": "ruido",
+  "motivo": "atualiza cadastro COTEPE de industrialização por encomenda no ICMS atual, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
+ },
  "6acf96875e04292d": {
   "veredito": "ruido",
   "motivo": "regra de trânsito aduaneiro de contêineres no Porto do Rio Grande, sem relação com a reforma",
@@ -1329,6 +1364,11 @@
   "motivo": "Retificação de vigência de ato declaratório de habilitação; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "768e2142ee932607": {
+  "veredito": "ruido",
+  "motivo": "homologação de comitê de auditoria da Allianz Seguros, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
+ },
  "771e7c7628ce456b": {
   "veredito": "ruido",
   "motivo": "Retificação sem ementa/texto disponível; sem relação com a reforma.",
@@ -1353,6 +1393,11 @@
   "veredito": "ruido",
   "motivo": "PMPF de combustíveis para ICMS, sem relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
+ },
+ "7af81e36e66b0f6f": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta sobre AFRMM e dedução de pensão alimentícia no IRPF, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
  },
  "7b5962a512544c25": {
   "veredito": "ruido",
@@ -1694,6 +1739,11 @@
   "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
   "em": "retroativa-2026-09-30"
  },
+ "9f975eefa0d65e6d": {
+  "veredito": "ruido",
+  "motivo": "homologação de destituição/eleição na Zurich Santander Seguros, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
+ },
  "9fa24bb03a1cc812": {
   "veredito": "ruido",
   "motivo": "Disciplina representação extrajudicial da União pela PGFN, ato interno",
@@ -1819,6 +1869,11 @@
   "motivo": "Atualização cadastral anual de ressegurador eventual, ato interno",
   "em": "retroativa-2026-09-30"
  },
+ "aed271e511bbdb4f": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição na BANESTES Seguros, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
+ },
  "af21d41b02a593ed": {
   "veredito": "ruido",
   "motivo": "Tabela anexa à portaria de equalização de juros, sem relação com a reforma",
@@ -1909,6 +1964,11 @@
   "motivo": "página de serviço genérica de consulta de NFS-e, sem relação específica com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "b6c482f5d92e7661": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta de IRPJ, CSLL, PIS/Cofins e regime aduaneiro, sem relação com IBS/CBS/IS",
+  "em": "2026-10-20-matinal"
+ },
  "b6d90fc3fe96e81c": {
   "veredito": "ruido",
   "motivo": "Exclui empresa do Refis a pedido; sem relação com a reforma.",
@@ -1968,6 +2028,11 @@
   "veredito": "ruido",
   "motivo": "PIS/Cofins regime cumulativo de vigilância eletrônica, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "bd19e937ab8978d2": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de diretoria da BRASILCAP Capitalização, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
  },
  "bd3840cf95cba8bd": {
   "veredito": "ruido",
@@ -2598,6 +2663,11 @@
   "veredito": "ruido",
   "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
   "em": "2026-10-13-matinal"
+ },
+ "f704d905c2649263": {
+  "veredito": "ruido",
+  "motivo": "homologação de comitê de auditoria da Allianz Global Corporate, sem relação com a reforma",
+  "em": "2026-10-20-matinal"
  },
  "f729376eb9be0870": {
   "veredito": "ruido",
