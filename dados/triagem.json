@@ -144,6 +144,11 @@
   "motivo": "Portaria Susep homologa eleição de administrador de seguradora, sem relação com a reforma",
   "em": "2026-10-02-matinal"
  },
+ "0ff6983caaab6ca1": {
+  "veredito": "ruido",
+  "motivo": "credencia uma empresa a benefício fiscal de ICMS tradicional, sem relação com a reforma",
+  "em": "2026-10-21-matinal"
+ },
  "10027fef6f47399d": {
   "veredito": "ruido",
   "motivo": "Resolução Susep sobre prevenção à lavagem de dinheiro, sem relação com a reforma",
@@ -173,6 +178,11 @@
   "veredito": "relevante",
   "motivo": "CGSN altera prazos de opção pelo Simples e pelo regime regular do IBS/CBS em 2027",
   "em": "retroativa-2026-09-30"
+ },
+ "11d7d069283fc1d4": {
+  "veredito": "ruido",
+  "motivo": "reorganização interna das equipes de crédito tributário da RFB no Rio, sem relação com a reforma",
+  "em": "2026-10-21-matinal"
  },
  "128cba459bebb200": {
   "veredito": "ruido",
@@ -969,6 +979,11 @@
   "motivo": "Regras Susep sobre reversao de provisao de previdencia por vesting, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "56527e64ca5b30be": {
+  "veredito": "ruido",
+  "motivo": "amplia competência de turmas do CARF para julgar recursos de IRRF, sem relação com IBS/CBS/IS",
+  "em": "2026-10-21-matinal"
+ },
  "5708b895fdfe02d3": {
   "veredito": "ruido",
   "motivo": "Resolução CNSP altera norma de seguros, sem relação com a reforma",
@@ -1464,6 +1479,11 @@
   "motivo": "realocação de cargos comissionados internos da CVM, sem relação com a reforma",
   "em": "2026-10-06-matinal"
  },
+ "8374097c172c8cf4": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre RETID (indústria de defesa) e suspensão de IPI, sem relação com IBS/CBS",
+  "em": "2026-10-21-matinal"
+ },
  "83e9e219f2d20c74": {
   "veredito": "ruido",
   "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
@@ -1583,6 +1603,11 @@
   "veredito": "contexto",
   "motivo": "Resolução CGIBS sobre diretrizes orçamentárias internas do comitê",
   "em": "retroativa-2026-09-30"
+ },
+ "8d82de4cdbf98c30": {
+  "veredito": "ruido",
+  "motivo": "inclui empresa em diferimento de ICMS monofásico de combustíveis, regime anterior à reforma",
+  "em": "2026-10-21-matinal"
  },
  "8d8e07373f538a15": {
   "veredito": "contexto",
