@@ -54,8 +54,16 @@ EOF
 else
   PROMPT="Leia scripts/analise_brief.md e siga as instrucoes dele por completo. Data de hoje: $HOJE. Turno: $TURNO. A lacuna de cobertura (os $n itens que voce deve analisar, com o texto integral quando disponivel) ja foi calculada e esta em $LACUNA - leia esse arquivo, nao rode lacuna_analise.py de novo. Produza os tres arquivos obrigatorios que o brief especifica: $ARQ, dados/analise_status.json (com data=$HOJE e turno=$TURNO) e dados/triagem_pendente.json (um veredito para cada um dos $n itens). Siga tambem a secao 'Manter o painel em dia': se algum item mudar prazo, pendencia ou marco (ou houver prazo em destaque vencido), grave dados/estado_proposta.json - nunca edite estado.json direto. NAO rode nenhum comando git - o commit e feito depois por outro script. Nao pergunte nada - decida e execute sozinho."
 
+  # O instalador novo do Claude Code (23/10/2026) deixa o claude so' em
+  # ~/.local/bin, que nao esta no PATH do systemd.
+  CLAUDE=$(command -v claude) || CLAUDE="$HOME/.local/bin/claude"
+  if [ ! -x "$CLAUDE" ]; then
+    echo "claude nao encontrado (nem no PATH nem em $HOME/.local/bin) - analise $TURNO NAO concluida" >&2
+    exit 127
+  fi
+
   # tee: a saida crua vai para o journal (systemd) e para $SAIDA.
-  claude -p "$PROMPT" --permission-mode bypassPermissions --output-format json | tee "$SAIDA"
+  "$CLAUDE" -p "$PROMPT" --permission-mode bypassPermissions --output-format json | tee "$SAIDA"
   codigo=$?
   if [ $codigo -ne 0 ]; then
     echo "claude -p saiu com codigo $codigo - analise $TURNO NAO concluida. Ver $SAIDA" >&2
