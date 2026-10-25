@@ -7,7 +7,7 @@
    "metodo": null,
    "total": 0,
    "itens": [],
-   "erro": "RuntimeError: login do INLABS falhou apos 30 tentativas: HTTP 404 vindo do proprio INLABS — nao e credencial, o servidor caiu antes de olhar o que foi enviado"
+   "erro": "RuntimeError: login do INLABS falhou apos 30 tentativas: URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>"
   }
  ]
 }
