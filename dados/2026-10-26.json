@@ -300,7 +300,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 8,
+   "total": 9,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -355,6 +355,13 @@
      "titulo": "NFe NFC CTe notas faturas e demais ATC RFB SUFIS CGIBS DIRETORIA EXECUTIVA Nº 8, DE 29 DE SETEMBRO DE 2026 (.pdf 881,30 KBytes)",
      "url": "https://www.cgibs.gov.br/upload/arquivos/202610/01120217-nfe-nfc-cte-notas-faturas-e-demais-atc-rfb-sufis-cgibs-diretoria-executiva-n-8-de-29-de-setembro-de-2026.pdf",
      "data": "2026-09-29",
+     "pasta_arquivo": "2026-10",
+     "alerta": null
+    },
+    {
+     "titulo": "20261019 ATC RFB CGIBS NBA 9 2026 assinado 29 as 261026 090221 (.pdf 516,89 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202610/26090508-20261019-atc-rfb-cgibs-nba-9-2026-assinado-29-as-261026-090221.pdf",
+     "data": null,
      "pasta_arquivo": "2026-10",
      "alerta": null
     }
