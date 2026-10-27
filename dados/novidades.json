@@ -1,7 +1,18 @@
 {
  "data": "2026-10-27",
- "quantidade": 0,
- "itens": [],
+ "quantidade": 1,
+ "itens": [
+  {
+   "primeira_vez": "2026-10-27",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "Receita Federal destaca Programa Confia em seminário regional sobre conformidade cooperativa na Guatemala",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-destaca-programa-confia-em-seminario-regional-sobre-conformidade-cooperativa-na-guatemala",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "visto_em": "2026-10-27T20:01:00Z"
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
