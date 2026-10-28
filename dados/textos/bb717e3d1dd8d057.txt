@@ -1,0 +1,41 @@
+Ambiente de testes e normas consolidadas orientam contribuintes e desenvolvedores na segunda fase da DeRE.
+
+A Receita Federal do Brasil (RFB) comunica a disponibilização da versão 1.1.0 da documentação técnica da segunda fase da Declaração de Regimes Específicos (DeRE), relativa aos eventos de balancete e cálculo dos débitos.
+
+O ato correspondente também ratifica as versões preliminares anteriormente divulgadas (1.0.0 e 1.0.1), que haviam sido disponibilizadas para conhecimento da sociedade, consolidando, nesta versão, as regras de negócio, os leiautes e as especificações técnicas já estabilizadas.
+
+O ambiente de produção restrita, já operacional para a primeira fase (Informações do Contribuinte e Plano Geral de Contas Comentado – PGCC), constitui o ambiente de testes, no qual são processadas operações simuladas da DeRE, destinadas à validação de sistemas, testes de consistência e ajustes operacionais.
+
+Esse ambiente permite que contribuintes e desenvolvedores verifiquem a aderência de suas soluções antes da entrada em produção do novo modelo de apuração da Contribuição sobre Bens e Serviços (CBS) e do Imposto sobre Bens e Serviços (IBS). Ressalte-se que os débitos eventualmente apurados nesse contexto possuem caráter experimental, não gerando efeitos fiscais ou jurídicos.
+
+Atualmente, o ambiente de produção restrita encontra-se disponível para as empresas piloto cadastradas e autorizadas. A disponibilização do ambiente correspondente ao Balancete ocorrerá oportunamente.
+
+A formalização da documentação técnica foi realizada por meio do Ato Conjunto RFB/CGIBS nº 3, de 19 de junho de 2026.
+
+Como medida de apoio à implementação, foi disponibilizado canal específico para atendimento às empresas piloto no ambiente de produção restrita, destinado ao esclarecimento de dúvidas e ao recebimento de sugestões.
+
+Os documentos técnicos atualizados encontram-se disponíveis para consulta e download no novo portal do SPED, no ambiente Gov.br. A iniciativa constitui etapa relevante no processo de implementação da Reforma Tributária do Consumo, introduzida pela Emenda Constitucional nº 132/2023.
+
+A DeRE configura-se como obrigação acessória de natureza estruturante, destinada a consolidar e formalizar as informações fiscais e contábeis necessárias à apuração da CBS e do IBS relativa aos seguintes regimes específicos:
+
+serviços financeiros;
+
+planos de assistência à saúde;
+
+concursos de prognósticos.
+
+A disponibilização antecipada da documentação técnica reafirma o compromisso institucional da Receita Federal com uma transição gradual, transparente e juridicamente segura para o novo modelo tributário, permitindo que contribuintes, profissionais especializados e equipes de tecnologia realizem, de forma tempestiva, as adaptações necessárias.
+
+Documentação e suporte
+
+Os seguintes arquivos e recursos já podem ser acessados:
+
+Manual do Usuário da DeRE (versão 1.1.0)
+
+Manual do Desenvolvedor (versão 1.0.0)
+
+Leiautes da DeRE (versão 1.1.0)
+
+Arquivos XSD (versão 1.1.0)
+
+Tabelas de validação e regras
