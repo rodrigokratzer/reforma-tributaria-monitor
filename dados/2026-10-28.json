@@ -7,12 +7,19 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": null,
+   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
    "total": 10,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
      "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Comitê Gestor do IBS e União assinam contrato de operação de crédito para financiar a implantação do órgão",
+     "url": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-uniao-assinam-contrato-de-operacao-de-credito-para-financiar-a-implantacao-do-orgao",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
@@ -69,13 +76,6 @@
     {
      "titulo": "Presidente e segunda vice do CGIBS participam de missão à OCDE em Paris sobre IVA e modernização tributária",
      "url": "https://www.cgibs.gov.br/presidente-e-segunda-vice-do-cgibs-participam-de-missao-a-ocde-sobre-iva-e-modernizacao-tributaria",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "CGIBS debate Reforma Tributária e administração pública em evento do Tribunal de Justiça de São Paulo",
-     "url": "https://www.cgibs.gov.br/cgibs-debate-reforma-tributaria-em-evento-do-tribunal-de-justica-de-sao-paulo",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
@@ -543,7 +543,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 21,
+   "total": 22,
    "itens": [
     {
      "titulo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
@@ -688,6 +688,13 @@
     {
      "titulo": "Receita Federal e Comitê Gestor do IBS divulgarão cronograma para emissão dos documentos fiscais eletrônicos da Reforma Tributária",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-divulgarao-cronograma-para-emissao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Reforma Tributária: Receita Federal e CGIBS aprovam a documentação técnica da segunda fase da DeRE – Balancete Mensal",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/junho/reforma-tributaria-receita-federal-e-cgibs-aprovam-a-documentacao-tecnica-da-segunda-fase-da-dere-2013-balancete-mensal",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null

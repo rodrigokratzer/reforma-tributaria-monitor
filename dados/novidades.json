@@ -1,7 +1,28 @@
 {
  "data": "2026-10-28",
- "quantidade": 0,
- "itens": [],
+ "quantidade": 2,
+ "itens": [
+  {
+   "primeira_vez": "2026-10-28",
+   "fonte": "CGIBS - Noticias",
+   "titulo": "Comitê Gestor do IBS e União assinam contrato de operação de crédito para financiar a implantação do órgão",
+   "url": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-uniao-assinam-contrato-de-operacao-de-credito-para-financiar-a-implantacao-do-orgao",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "visto_em": "2026-10-28T20:01:35Z"
+  },
+  {
+   "primeira_vez": "2026-10-28",
+   "fonte": "RFB - Reforma do Consumo",
+   "titulo": "Reforma Tributária: Receita Federal e CGIBS aprovam a documentação técnica da segunda fase da DeRE – Balancete Mensal",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/junho/reforma-tributaria-receita-federal-e-cgibs-aprovam-a-documentacao-tecnica-da-segunda-fase-da-dere-2013-balancete-mensal",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "visto_em": "2026-10-28T20:01:35Z"
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
