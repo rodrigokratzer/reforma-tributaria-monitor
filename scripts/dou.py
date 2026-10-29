@@ -9,7 +9,7 @@ diferente do que roda em producao, e o "APROVADO" perderia sentido.
 
 Credenciais vem do ambiente: INLABS_EMAIL, INLABS_SENHA.
 """
-import io, re, sys, time, zipfile, urllib.parse, urllib.request, http.cookiejar
+import io, re, sys, time, unicodedata, zipfile, urllib.parse, urllib.request, http.cookiejar
 import xml.etree.ElementTree as ET
 
 LOGIN = "https://inlabs.in.gov.br/logar.php"
@@ -56,6 +56,20 @@ def limpa(s):
 
 
 # -------------------------------------------------------------- login/download
+class InlabsIndisponivel(RuntimeError):
+    """INLABS fora do ar por manutencao: insistir no login nao adianta."""
+
+
+def _sem_acento(s):
+    return "".join(c for c in unicodedata.normalize("NFD", s or "")
+                   if unicodedata.category(c) != "Mn").lower()
+
+
+def em_manutencao(html):
+    t = _sem_acento(html)
+    return "manutencao programada" in t or "estamos em manutencao" in t
+
+
 def abre_sessao(email, senha, tentativas=30, log=sys.stderr):
     """Devolve (opener, cookie). Encerra o processo se nao conseguir.
 
@@ -72,10 +86,17 @@ def abre_sessao(email, senha, tentativas=30, log=sys.stderr):
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8"}
     ultimo = ""
+    feitas = 0
     for n in range(1, tentativas + 1):
+        feitas = n
         try:
-            op.open(urllib.request.Request("https://inlabs.in.gov.br/",
-                                           headers=base), timeout=60).read()
+            home = op.open(urllib.request.Request("https://inlabs.in.gov.br/",
+                                                  headers=base), timeout=60).read()
+            # Manutencao anunciada na pagina inicial (visto desde 21/10/2026, com
+            # logar.php em 404): nao ha o que repetir, e' falha imediata para o
+            # chamador cair no plano B em vez de esperar 30 tentativas.
+            if em_manutencao(home.decode("utf-8", "ignore")):
+                raise InlabsIndisponivel("INLABS em manutencao programada")
             dados = urllib.parse.urlencode({"email": email, "password": senha}).encode()
             cab = dict(base)
             cab.update({"Content-Type": "application/x-www-form-urlencoded",
@@ -93,11 +114,13 @@ def abre_sessao(email, senha, tentativas=30, log=sys.stderr):
                 ultimo = ("200 sem cookie de sessao, sem mencao a manutencao no corpo — "
                           "pode ser credencial invalida, mas ja vimos isso ser manutencao "
                           "sem aviso explicito. Repete mesmo assim.")
+        except InlabsIndisponivel:
+            raise
         except urllib.error.HTTPError as e:
-            ultimo = (f"HTTP {e.code} vindo do proprio INLABS — nao e credencial, "
-                      "o servidor caiu antes de olhar o que foi enviado")
             if e.code < 500:
+                ultimo = f"HTTP {e.code} no login do INLABS (endereco de login indisponivel)"
                 break
+            ultimo = f"HTTP {e.code} vindo do INLABS (servidor com falha)"
         except Exception as e:
             ultimo = f"{type(e).__name__}: {str(e)[:110]}"
         if n < tentativas:
@@ -105,7 +128,8 @@ def abre_sessao(email, senha, tentativas=30, log=sys.stderr):
             print(f"  login falhou ({ultimo}); nova tentativa em {espera}s "
                   f"[{n}/{tentativas}]", file=log)
             time.sleep(espera)
-    raise RuntimeError(f"login do INLABS falhou apos {tentativas} tentativas: {ultimo}")
+    raise RuntimeError(f"login do INLABS falhou apos {feitas} "
+                       f"tentativa{'s' if feitas != 1 else ''}: {ultimo}")
 
 
 def baixa(op, cookie, dia, secao):

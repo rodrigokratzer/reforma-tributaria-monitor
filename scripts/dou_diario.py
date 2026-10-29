@@ -14,7 +14,7 @@ principal grava — so' dados/historico.json e' compartilhado entre as duas,
 e e' seguro (chave() e' um hash do conteudo do item, nao depende de quem
 encontrou primeiro).
 """
-import datetime, os, sys
+import argparse, datetime, os, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -22,10 +22,18 @@ from varredura import coleta_dou, grava_resultado
 
 
 def main():
+    ap = argparse.ArgumentParser(description="Coleta o DOU (INLABS, ou Leitura do Jornal).")
+    ap.add_argument("--dias", nargs="+", metavar="AAAA-MM-DD",
+                    help="backfill: coleta so' estes dias (padrao: D-1 e D)")
+    args = ap.parse_args()
+    for d in args.dias or []:
+        datetime.date.fromisoformat(d)       # valida o formato
     hoje = os.environ.get("DATA_REF") or datetime.date.today().isoformat()
-    r_dou = coleta_dou(hoje)
+    r_dou = coleta_dou(hoje, dias=args.dias)
     print(f"  {'DOU (INLABS)':32} metodo={r_dou['metodo'] or 'PULADO':7} "
           f"itens={r_dou['total']:3}", file=sys.stderr)
+    if r_dou.get("aviso"):
+        print(f"      {r_dou['aviso'][:200]}", file=sys.stderr)
     if r_dou.get("erro"):
         print(f"      {r_dou['erro'][:200]}", file=sys.stderr)
     grava_resultado(hoje, [r_dou], f"{hoje}-dou.json", "novidades_dou.json")

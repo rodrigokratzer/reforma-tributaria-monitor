@@ -42,38 +42,66 @@ DADOS.mkdir(exist_ok=True)
 ORCAMENTO_S = 600
 
 
-def coleta_dou(hoje):
-    """DOU via INLABS, como fonte adicional.
+def _carrega_historico():
+    """historico.json somente leitura (dedup do plano B); nunca grava aqui."""
+    try:
+        return json.loads((DADOS / "historico.json").read_text("utf-8"))
+    except Exception:
+        return {}
 
-    Roda D-1 e D: a varredura sai as 06:40 e a edicao do dia as vezes ainda
-    nao subiu; alem disso as edicoes extras da vespera costumam aparecer
-    depois. Reprocessar a vespera e' barato porque o historico deduplica.
 
-    Sem credencial, a fonte e' simplesmente pulada — o DOU nao pode derrubar
-    a varredura das 12 fontes que ja' funciona.
+def _erro_curto(e):
+    return f"{type(e).__name__}: {str(e)[:150]}"
+
+
+def coleta_dou(hoje, dias=None):
+    """DOU: INLABS primeiro; se falhar (manutencao, login, rede, sem
+    credencial), Leitura do Jornal do in.gov.br (scripts/dou_site.py).
+
+    Roda D-1 e D por padrao: a varredura sai cedo e a edicao do dia as vezes
+    ainda nao subiu; as edicoes extras da vespera costumam aparecer depois.
+    Reprocessar a vespera e' barato porque o historico deduplica. `dias`
+    (lista ISO) serve ao backfill.
+
+    O plano B grava metodo="leiturajornal" e o campo `aviso`, para o painel e
+    o push dizerem que o INLABS esta fora. Se os dois falham, metodo=None e
+    erro traz os dois motivos. Nada aqui derruba a varredura.
     """
+    if not dias:
+        d = datetime.date.fromisoformat(hoje)
+        dias = [(d - datetime.timedelta(days=1)).isoformat(), hoje]
+    base = {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/"}
+
+    motivo = None
     email, senha = os.environ.get("INLABS_EMAIL"), os.environ.get("INLABS_SENHA")
     if not email or not senha:
-        return {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/",
-                "metodo": None, "total": 0, "itens": [],
-                "erro": "sem credencial: INLABS_EMAIL/INLABS_SENHA nao definidos"}
+        motivo = "sem credencial: INLABS_EMAIL/INLABS_SENHA nao definidos"
+    else:
+        try:
+            import dou
+            itens, diag = dou.coleta(dias, email, senha)
+            return {**base, "metodo": "inlabs", "http_status": None, "erro": None,
+                    "total": len(itens), "itens": itens,
+                    "diagnostico": {k: v for k, v in diag.items()
+                                    if k in ("lidas", "forte", "revisar")}}
+        except Exception as e:
+            motivo = _erro_curto(e) if not isinstance(e, RuntimeError) else str(e)[:200]
+
+    print(f"  DOU: INLABS indisponivel ({motivo}); tentando a Leitura do Jornal",
+          file=sys.stderr)
     try:
-        import dou
-    except ImportError as e:
-        return {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/",
-                "metodo": None, "total": 0, "itens": [], "erro": f"import: {e}"}
-    d = datetime.date.fromisoformat(hoje)
-    dias = [(d - datetime.timedelta(days=1)).isoformat(), hoje]
-    try:
-        itens, diag = dou.coleta(dias, email, senha)
+        import dou_site
+        itens, diag = dou_site.coleta(dias, _carrega_historico())
     except Exception as e:
-        return {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/",
-                "metodo": None, "total": 0, "itens": [],
-                "erro": f"{type(e).__name__}: {str(e)[:150]}"}
-    return {"fonte": "DOU (INLABS)", "url": "https://inlabs.in.gov.br/",
-            "metodo": "inlabs", "http_status": None, "erro": None,
+        return {**base, "metodo": None, "total": 0, "itens": [],
+                "erro": (f"INLABS: {motivo} | Leitura do Jornal: {_erro_curto(e)}")[:400]}
+    return {**base, "metodo": "leiturajornal", "http_status": None, "erro": None,
+            "aviso": (f"INLABS indisponivel ({motivo}); "
+                      "coletado pela Leitura do Jornal (in.gov.br)"),
             "total": len(itens), "itens": itens,
-            "diagnostico": {k: v for k, v in diag.items() if k in ("lidas", "forte", "revisar")}}
+            "diagnostico": {k: v for k, v in diag.items()
+                            if k in ("lidas", "forte", "revisar", "baixados",
+                                     "falhas_download", "duplicados")}}
 
 
 def grava_resultado(hoje, resultado, arquivo_dados, arquivo_novidades):
