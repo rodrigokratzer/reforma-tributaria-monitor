@@ -90,7 +90,57 @@ def _id_analise(status):
     return f"{data}-{turno}" if turno else data
 
 
-def monta_mensagem(status, md_texto, painel_url):
+LIMITE_ERRO = 120
+MAX_LINHAS_FALHA = 8
+CABECALHO_FALHAS = "⚠ Consultas com falha:"
+
+
+def _le_json(caminho):
+    try:
+        dados = json.loads(caminho.read_text("utf-8"))
+    except (OSError, ValueError):
+        return None
+    return dados if isinstance(dados, dict) else None
+
+
+def falhas_do_ciclo(raiz, data):
+    """Fontes que nao foram consultadas direito em `data`, uma linha por item.
+
+    Le dados/<data>.json (portais) e dados/<data>-dou.json (DOU). Fonte sem
+    `metodo` falhou; fonte com `aviso` funcionou pelo plano B mas precisa ser
+    vista; arquivo ausente/ilegivel e' tratado como coleta nao registrada.
+    """
+    falhas = []
+    grupos = (("Portais web", f"{data}.json"), ("DOU", f"{data}-dou.json"))
+    for grupo, nome in grupos:
+        dados = _le_json(raiz / "dados" / nome)
+        if dados is None or not isinstance(dados.get("fontes"), list):
+            falhas.append(f"{grupo}: sem registro da coleta de {data}")
+            continue
+        for reg in dados["fontes"]:
+            if not isinstance(reg, dict):
+                continue
+            fonte = str(reg.get("fonte") or grupo)
+            erro = str(reg.get("erro") or "").strip()
+            aviso = str(reg.get("aviso") or "").strip()
+            if not reg.get("metodo"):
+                if erro.startswith("nao tentada"):
+                    falhas.append(f"{fonte}: nao consultada (tempo esgotado)")
+                else:
+                    falhas.append(f"{fonte}: {_corta(erro or 'falhou sem detalhe', LIMITE_ERRO)}")
+            elif aviso:
+                falhas.append(f"{fonte}: {aviso}")
+    return falhas
+
+
+def _secao_falhas(falhas):
+    linhas = ["- " + _corta(f, 200) for f in falhas[:MAX_LINHAS_FALHA]]
+    if len(falhas) > MAX_LINHAS_FALHA:
+        linhas.append(f"- ... e mais {len(falhas) - MAX_LINHAS_FALHA}")
+    return CABECALHO_FALHAS + "\n" + "\n".join(linhas)
+
+
+def monta_mensagem(status, md_texto, painel_url, falhas=None):
     acoes = _acoes(status)
     situacao = status.get("situacao") or ""
     if acoes > 0:
@@ -119,7 +169,19 @@ def monta_mensagem(status, md_texto, painel_url):
         if prioridade in ("low", "default"):
             prioridade = "default"
     corpo = "\n\n".join(partes)
+    secao = _secao_falhas(falhas) if falhas else ""
+    if secao:
+        # consulta que falhou e' ponto cego: nunca fica abaixo de "high"
+        prioridade = "high"
+        # a secao tem lugar garantido; o resto do corpo e' que e' cortado
+        corpo = (_corta(corpo, max(LIMITE_CORPO - len(click) - len(secao) - 4, 0))
+                 + "\n\n" + secao)
     corpo = _corta(corpo, LIMITE_CORPO - len(click) - 2) + "\n\n" + click
+    md_final = (md_texto + "\n\n### Painel atualizado\n\n" + "\n".join("- " + x for x in painel)
+                ) if (md_texto and painel) else md_texto
+    if secao and md_final:
+        # e-mail usa md (ou o corpo, que ja tem a secao): mesma informacao nos dois canais
+        md_final += "\n\n### " + secao.replace(CABECALHO_FALHAS + "\n", CABECALHO_FALHAS + "\n\n")
 
     return {
         "titulo": f"Reforma Tributária · {quando} — {descricao}",
@@ -127,10 +189,9 @@ def monta_mensagem(status, md_texto, painel_url):
         "corpo": corpo,
         "prioridade": prioridade,
         "click": click,
-        "tags": ["warning"] if acoes > 0 else [],
+        "tags": ["warning"] if (acoes > 0 or secao) else [],
         # sem o .md (arquivo nao existe), o e-mail usa o proprio corpo
-        "md": (md_texto + "\n\n### Painel atualizado\n\n" + "\n".join("- " + x for x in painel))
-              if (md_texto and painel) else md_texto,
+        "md": md_final,
     }
 
 
@@ -279,7 +340,8 @@ def main(argv=None, raiz=None, env=None):
             status = _le_status(raiz)
             if status is None:
                 return 0
-            msg = monta_mensagem(status, _le_md(raiz, status), painel)
+            msg = monta_mensagem(status, _le_md(raiz, status), painel,
+                                 falhas=falhas_do_ciclo(raiz, status["data"]))
         _envia(msg, env)
     except Exception as e:  # rede de seguranca final: nunca derrubar o ciclo
         log(f"erro inesperado: {e!r}")

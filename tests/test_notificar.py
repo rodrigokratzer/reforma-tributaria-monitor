@@ -240,3 +240,116 @@ class TestPainelAtualizadoNoAlerta(unittest.TestCase):
         self.assertNotIn("Painel atualizado", msg["corpo"])
         self.assertEqual(msg["prioridade"], "low")
 
+
+
+DOU_FALHOU = {"data": "2026-09-30", "fontes": [{
+    "fonte": "DOU (INLABS)", "metodo": None, "total": 0,
+    "erro": "RuntimeError: login do INLABS falhou apos 30 tentativas: HTTP 404 vindo do "
+            "proprio INLABS — nao e credencial, o servidor caiu antes de olhar o que foi enviado"}]}
+DOU_OK = {"data": "2026-09-30", "fontes": [{"fonte": "DOU (INLABS)", "metodo": "inlabs",
+                                            "erro": None, "total": 3}]}
+WEB_OK = {"data": "2026-09-30", "fontes": [{"fonte": "Receita", "metodo": "browser",
+                                            "erro": None, "total": 5}]}
+
+
+def raiz_com(tmp, web=WEB_OK, dou=DOU_OK):
+    raiz = Path(tmp)
+    if web is not None:
+        escreve(raiz, "dados/2026-09-30.json", web)
+    if dou is not None:
+        escreve(raiz, "dados/2026-09-30-dou.json", dou)
+    return raiz
+
+
+class TestFalhasDoCiclo(unittest.TestCase):
+    def test_sem_falhas_lista_vazia(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(nt.falhas_do_ciclo(raiz_com(tmp), "2026-09-30"), [])
+
+    def test_dou_sem_metodo_resume_erro(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            falhas = nt.falhas_do_ciclo(raiz_com(tmp, dou=DOU_FALHOU), "2026-09-30")
+        self.assertEqual(len(falhas), 1)
+        self.assertTrue(falhas[0].startswith("DOU (INLABS): "))
+        self.assertIn("HTTP 404", falhas[0])
+        self.assertLessEqual(len(falhas[0]) - len("DOU (INLABS): "), 120)
+
+    def test_aviso_do_plano_b(self):
+        dou = {"data": "2026-09-30", "fontes": [{
+            "fonte": "DOU (INLABS)", "metodo": "leiturajornal", "erro": None,
+            "aviso": "INLABS fora; usado Leitura do Jornal — 2 consulta(s) falharam: x, y"}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            falhas = nt.falhas_do_ciclo(raiz_com(tmp, dou=dou), "2026-09-30")
+        self.assertEqual(falhas, ["DOU (INLABS): INLABS fora; usado Leitura do Jornal — "
+                                  "2 consulta(s) falharam: x, y"])
+
+    def test_portal_nao_tentada(self):
+        web = {"data": "2026-09-30", "fontes": [{
+            "fonte": "CGIBS", "metodo": None,
+            "erro": "nao tentada: orcamento de tempo esgotado"}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            falhas = nt.falhas_do_ciclo(raiz_com(tmp, web=web), "2026-09-30")
+        self.assertEqual(falhas, ["CGIBS: nao consultada (tempo esgotado)"])
+
+    def test_arquivo_ausente(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            falhas = nt.falhas_do_ciclo(raiz_com(tmp, dou=None), "2026-09-30")
+            self.assertEqual(falhas, ["DOU: sem registro da coleta de 2026-09-30"])
+        with tempfile.TemporaryDirectory() as tmp:
+            falhas = nt.falhas_do_ciclo(raiz_com(tmp, web=None, dou=None), "2026-09-30")
+            self.assertEqual(len(falhas), 2)
+            self.assertIn("Portais web: sem registro da coleta de 2026-09-30", falhas)
+
+    def test_arquivo_ilegivel_conta_como_sem_registro(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = raiz_com(tmp)
+            escreve(raiz, "dados/2026-09-30-dou.json", "{torto")
+            self.assertEqual(nt.falhas_do_ciclo(raiz, "2026-09-30"),
+                             ["DOU: sem registro da coleta de 2026-09-30"])
+
+
+class TestAlertaComFalhas(unittest.TestCase):
+    FALHAS = ["DOU (INLABS): login falhou", "CGIBS: nao consultada (tempo esgotado)"]
+
+    def test_sem_falhas_mensagem_identica(self):
+        base = nt.monta_mensagem(STATUS_ACAO, MD, PAINEL)
+        self.assertEqual(nt.monta_mensagem(STATUS_ACAO, MD, PAINEL, falhas=[]), base)
+        self.assertEqual(nt.monta_mensagem(STATUS_ACAO, MD, PAINEL, falhas=None), base)
+
+    def test_falhas_sobem_prioridade_e_entram_no_corpo(self):
+        st = dict(STATUS_ACAO, acoes=0, situacao="sem_novidade")
+        msg = nt.monta_mensagem(st, MD, PAINEL, falhas=self.FALHAS)
+        self.assertEqual(msg["prioridade"], "high")
+        self.assertIn("warning", msg["tags"])
+        self.assertIn("⚠ Consultas com falha:", msg["corpo"])
+        self.assertIn("- DOU (INLABS): login falhou", msg["corpo"])
+        self.assertTrue(msg["corpo"].rstrip().endswith(msg["click"]))
+
+    def test_email_recebe_a_mesma_secao(self):
+        msg = nt.monta_mensagem(STATUS_ACAO, MD, PAINEL, falhas=self.FALHAS)
+        self.assertIn("Consultas com falha", msg["md"])
+        self.assertIn("CGIBS", msg["md"])
+        # sem .md da analise, o e-mail usa o corpo, que ja tem a secao
+        sem_md = nt.monta_mensagem(STATUS_ACAO, None, PAINEL, falhas=self.FALHAS)
+        self.assertIn("Consultas com falha", sem_md["md"] or sem_md["corpo"])
+
+    def test_corpo_longo_continua_no_limite(self):
+        md = "### Ação requerida\n\n" + ("palavra " * 2000)
+        st = dict(STATUS_ACAO, resumo_curto="r" * 5000)
+        falhas = ["F%d: %s" % (i, "e" * 150) for i in range(30)]
+        msg = nt.monta_mensagem(st, md, PAINEL, falhas=falhas)
+        self.assertLessEqual(len(msg["corpo"]), nt.LIMITE_CORPO)
+        self.assertIn("Consultas com falha", msg["corpo"])
+        self.assertTrue(msg["corpo"].rstrip().endswith(msg["click"]))
+
+    def test_main_ciclo_inclui_falha_do_dou(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = raiz_com(tmp, dou=DOU_FALHOU)
+            escreve(raiz, "dados/analise_status.json", dict(STATUS_ACAO, acoes=0))
+            with mock.patch("urllib.request.urlopen") as urlopen:
+                urlopen.return_value.__enter__.return_value.status = 200
+                nt.main([], raiz=raiz, env=ENV_NTFY)
+            corpo = json.loads(urlopen.call_args[0][0].data.decode("utf-8"))
+            self.assertEqual(corpo["priority"], 4)
+            self.assertIn("warning", corpo["tags"])
+            self.assertIn("DOU (INLABS)", corpo["message"])
