@@ -307,4 +307,8 @@ def coleta(dias, email, senha, log=sys.stderr):
                 })
             print(f"  DOU {dia} {secao:5} materias={len(arts):5} "
                   f"relevantes={diag['forte'] + diag['revisar']}", file=log)
+    if diag["lidas"] == 0 and diag["erros"]:
+        # nenhuma materia lida e houve erro real (fim de semana so' tem
+        # "sem edicao"): nao e' dia vazio, e' coleta quebrada -> plano B
+        raise RuntimeError("INLABS sem materias: " + "; ".join(diag["erros"][:3]))
     return itens, diag

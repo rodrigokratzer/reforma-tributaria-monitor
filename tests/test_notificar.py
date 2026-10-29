@@ -308,6 +308,35 @@ class TestFalhasDoCiclo(unittest.TestCase):
                              ["DOU: sem registro da coleta de 2026-09-30"])
 
 
+class TestGravidadeFalhas(unittest.TestCase):
+    def grav(self, web=WEB_OK, dou=DOU_OK):
+        with tempfile.TemporaryDirectory() as tmp:
+            return nt.gravidade_falhas(raiz_com(tmp, web=web, dou=dou), "2026-09-30")
+
+    def test_sem_falhas(self):
+        self.assertIsNone(self.grav())
+
+    def test_erro_e_alta(self):
+        self.assertEqual(self.grav(dou=DOU_FALHOU), "alta")
+
+    def test_sem_registro_e_alta(self):
+        self.assertEqual(self.grav(dou=None), "alta")
+
+    def test_so_aviso_e_aviso(self):
+        dou = {"fontes": [{"fonte": "DOU (INLABS)", "metodo": "leiturajornal",
+                           "erro": None, "aviso": "INLABS fora"}]}
+        self.assertEqual(self.grav(dou=dou), "aviso")
+
+    def test_nao_consultada_e_aviso(self):
+        web = {"fontes": [{"fonte": "CGIBS", "metodo": None,
+                           "erro": "nao tentada: orcamento"}]}
+        self.assertEqual(self.grav(web=web), "aviso")
+
+    def test_erro_e_aviso_juntos_e_alta(self):
+        web = {"fontes": [{"fonte": "CGIBS", "metodo": None, "erro": "nao tentada: x"}]}
+        self.assertEqual(self.grav(web=web, dou=DOU_FALHOU), "alta")
+
+
 class TestAlertaComFalhas(unittest.TestCase):
     FALHAS = ["DOU (INLABS): login falhou", "CGIBS: nao consultada (tempo esgotado)"]
 
@@ -318,19 +347,30 @@ class TestAlertaComFalhas(unittest.TestCase):
 
     def test_falhas_sobem_prioridade_e_entram_no_corpo(self):
         st = dict(STATUS_ACAO, acoes=0, situacao="sem_novidade")
-        msg = nt.monta_mensagem(st, MD, PAINEL, falhas=self.FALHAS)
+        msg = nt.monta_mensagem(st, MD, PAINEL, falhas=self.FALHAS, gravidade="alta")
         self.assertEqual(msg["prioridade"], "high")
         self.assertIn("warning", msg["tags"])
         self.assertIn("⚠ Consultas com falha:", msg["corpo"])
         self.assertIn("- DOU (INLABS): login falhou", msg["corpo"])
         self.assertTrue(msg["corpo"].rstrip().endswith(msg["click"]))
 
+    def test_so_aviso_nao_sobe_prioridade_mas_marca(self):
+        st = dict(STATUS_ACAO, acoes=0, situacao="sem_novidade")
+        msg = nt.monta_mensagem(st, MD, PAINEL, falhas=self.FALHAS, gravidade="aviso")
+        self.assertEqual(msg["prioridade"], "low")
+        self.assertIn("warning", msg["tags"])
+        self.assertIn("Consultas com falha", msg["corpo"])
+
+    def test_aviso_nao_rebaixa_analise_urgente(self):
+        msg = nt.monta_mensagem(STATUS_ACAO, MD, PAINEL, falhas=self.FALHAS, gravidade="aviso")
+        self.assertEqual(msg["prioridade"], nt.monta_mensagem(STATUS_ACAO, MD, PAINEL)["prioridade"])
+
     def test_email_recebe_a_mesma_secao(self):
-        msg = nt.monta_mensagem(STATUS_ACAO, MD, PAINEL, falhas=self.FALHAS)
+        msg = nt.monta_mensagem(STATUS_ACAO, MD, PAINEL, falhas=self.FALHAS, gravidade="alta")
         self.assertIn("Consultas com falha", msg["md"])
         self.assertIn("CGIBS", msg["md"])
         # sem .md da analise, o e-mail usa o corpo, que ja tem a secao
-        sem_md = nt.monta_mensagem(STATUS_ACAO, None, PAINEL, falhas=self.FALHAS)
+        sem_md = nt.monta_mensagem(STATUS_ACAO, None, PAINEL, falhas=self.FALHAS, gravidade="alta")
         self.assertIn("Consultas com falha", sem_md["md"] or sem_md["corpo"])
 
     def test_corpo_longo_continua_no_limite(self):

@@ -102,6 +102,26 @@ class TestAbreSessao(unittest.TestCase):
         self.sleep.assert_not_called()
 
 
+class TestColetaInlabsSemMaterias(unittest.TestCase):
+    def roda(self, respostas):
+        def baixa(op, cookie, dia, secao):
+            return respostas(secao)
+        with patch.object(dou, "abre_sessao", lambda *a, **k: (None, "c")), \
+             patch.object(dou, "baixa", baixa):
+            return dou.coleta(["2026-10-24"], "a", "b", log=open("/dev/null", "w"))
+
+    def test_so_erros_e_nenhuma_materia_levanta(self):
+        with self.assertRaises(RuntimeError) as cm:
+            self.roda(lambda s: (None, "http 500"))
+        self.assertIn("INLABS sem materias", str(cm.exception))
+        self.assertIn("http 500", str(cm.exception))
+
+    def test_so_sem_edicao_nao_levanta(self):
+        itens, diag = self.roda(lambda s: (None, "sem edicao"))
+        self.assertEqual(itens, [])
+        self.assertEqual(diag["erros"], [])
+
+
 class TestColetaDouPlanoB(unittest.TestCase):
     def setUp(self):
         self.env = patch.dict(__import__("os").environ,
@@ -164,6 +184,23 @@ class TestColetaDouPlanoB(unittest.TestCase):
         self.assertEqual(vistos[0], ["2026-10-28", "2026-10-29"])
         self.assertEqual(r["metodo"], "inlabs")
         self.assertNotIn("aviso", r)
+
+    def test_inlabs_remove_duplicados_do_plano_b(self):
+        mk = lambda t, o: {"titulo": t, "orgao": o, "data": "2026-10-22", "url": "https://i/" + t}
+        itens = [mk("Portaria 1", "Org A"), mk("Portaria 2", "Org A")]
+        hist = {"x": {"data": "2026-10-22", "titulo": "PORTARIA 1", "orgao": "org a",
+                      "fonte": "DOU DO1",
+                      "url": "https://www.in.gov.br/web/dou/-/portaria-1"},
+                "y": {"data": "2026-10-22", "titulo": "Portaria 2", "orgao": "Org A",
+                      "fonte": "DOU DO1", "url": "https://inlabs.in.gov.br/y"}}
+        diag = {"lidas": 3, "forte": 2, "revisar": 0}
+        with patch.object(dou, "coleta", lambda *a, **k: (itens, diag)), \
+             patch.object(varredura, "_carrega_historico", lambda: hist):
+            r = varredura.coleta_dou("2026-10-29", dias=["2026-10-22"])
+        self.assertEqual(r["metodo"], "inlabs")
+        self.assertEqual([i["titulo"] for i in r["itens"]], ["Portaria 2"])
+        self.assertEqual(r["total"], 1)
+        self.assertEqual(r["diagnostico"]["duplicados_plano_b"], 1)
 
     def test_inlabs_ok_nao_chama_plano_b(self):
         def boom(*a, **k):

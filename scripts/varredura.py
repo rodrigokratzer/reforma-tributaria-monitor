@@ -66,8 +66,8 @@ def coleta_dou(hoje, dias=None):
     Reprocessar a vespera e' barato porque o historico deduplica. `dias`
     (lista ISO) serve ao backfill.
 
-    O plano B grava metodo="leiturajornal" e o campo `aviso`, para o painel e
-    o push dizerem que o INLABS esta fora. Se os dois falham, metodo=None e
+    O plano B grava metodo="leiturajornal" e o campo `aviso`, que aparece no
+    push (notificar.py), nao no painel. Se os dois falham, metodo=None e
     erro traz os dois motivos. Nada aqui derruba a varredura.
     """
     if not dias:
@@ -83,10 +83,21 @@ def coleta_dou(hoje, dias=None):
         try:
             import dou
             itens, diag = dou.coleta(dias, email, senha)
+            # edicao extra que o plano B ja' gravou em dias de INLABS fora:
+            # o INLABS volta e traz o mesmo ato com outra url -> nao duplica
+            import dou_site
+            ja_plano_b = {dou_site.chave_dedup(h.get("data"), h.get("titulo", ""), h.get("orgao", ""))
+                          for h in _carrega_historico().values()
+                          if str(h.get("fonte", "")).startswith("DOU")
+                          and str(h.get("url", "")).startswith(dou_site.PREFIXO_PLANO_B)}
+            novos = [i for i in itens if dou_site.chave_dedup(
+                i["data"], i["titulo"], i["orgao"]) not in ja_plano_b]
+            dup = len(itens) - len(novos)
+            diagnostico = {k: v for k, v in diag.items() if k in ("lidas", "forte", "revisar")}
+            if dup:
+                diagnostico["duplicados_plano_b"] = dup
             return {**base, "metodo": "inlabs", "http_status": None, "erro": None,
-                    "total": len(itens), "itens": itens,
-                    "diagnostico": {k: v for k, v in diag.items()
-                                    if k in ("lidas", "forte", "revisar")}}
+                    "total": len(novos), "itens": novos, "diagnostico": diagnostico}
         except Exception as e:
             motivo = _erro_curto(e) if not isinstance(e, RuntimeError) else str(e)[:200]
 

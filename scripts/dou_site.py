@@ -23,6 +23,7 @@ import dou
 
 BASE = "https://www.in.gov.br"
 SECAO_URL = {"DO1": "do1", "DO3": "do3", "DO1E": "do1e", "DO3E": "do3e"}
+PREFIXO_PLANO_B = BASE + "/web/dou/-/"
 PARALELO = 4
 TIMEOUT = 30
 TENTATIVAS = 2
@@ -116,11 +117,23 @@ def texto(url_title):
 
 
 # ------------------------------------------------------------------- coleta
+def chave_dedup(data, titulo, orgao):
+    """Chave de sobreposicao com o INLABS. Titulo sozinho colide ("PORTARIA N 5"
+    de orgaos diferentes); o orgao (cortado em 140 como no historico) separa."""
+    return (data, norm_titulo(titulo), norm_titulo(str(orgao)[:140]))
+
+
 def _monta(it):
-    """Dict `a` no formato que dou.classifica espera."""
+    """Dict `a` no formato que dou.classifica espera.
+
+    _ementa fica vazia como nos extratos do INLABS (assim SEM_NORMA no titulo
+    vence igual nas duas fontes); a previa vai em _previa e so' vira
+    _texto_integral quando a pagina nao foi baixada.
+    """
     titulo = dou.limpa(unescape(it.get("title") or it.get("titulo") or ""))
     return {"_titulo": titulo,
-            "_ementa": dou.limpa(unescape(it.get("content") or "")),
+            "_ementa": "",
+            "_previa": dou.limpa(unescape(it.get("content") or "")),
             "artType": it.get("artType") or "",
             "artCategory": it.get("hierarchyStr") or "",
             "_texto_integral": "",
@@ -131,7 +144,7 @@ def _monta(it):
 def _descarte_barato(a):
     """Descarte do estagio 1 (sem baixar): extrato/aviso/ROTINA no titulo ou
     cabeca, e sem REFS/TERMOS na cabeca (essas ganham sempre, como em classifica)."""
-    cabeca = " ".join([a["_titulo"], a["_ementa"], a["artType"]])
+    cabeca = " ".join([a["_titulo"], a["_previa"], a["artType"]])
     if dou.REFS.search(cabeca) or dou.TERMOS.search(cabeca):
         return False
     return bool(dou.SEM_NORMA.search(a["_titulo"]) or dou.ROTINA.search(cabeca))
@@ -140,7 +153,7 @@ def _descarte_barato(a):
 def _precisa_baixar(secao, a):
     if secao in ("DO1", "DO1E"):
         return True
-    cabeca = a["_titulo"] + " " + a["_ementa"]
+    cabeca = a["_titulo"] + " " + a["_previa"]
     return bool(dou.ORGAOS.search(a["artCategory"]) or dou.TERMOS.search(cabeca)
                 or dou.REFS.search(cabeca))
 
@@ -151,11 +164,14 @@ def coleta(dias, historico=None, log=sys.stderr):
     Levanta RuntimeError se NENHUMA consulta de lista funcionou (site fora do
     ar ou formato mudou) — o chamador registra como falha, nao como "dia vazio".
     """
+    # so' o que o INLABS coletou: reexecucao de itens do plano B ja' e' barrada
+    # por chave() (url+titulo) em grava_resultado, e dois atos distintos com
+    # mesmo titulo+orgao nunca podem ser descartados aqui
     conhecidos = set()
     for h in (historico or {}).values():
-        if str(h.get("fonte", "")).startswith("DOU"):
-            conhecidos.add((h.get("data"), norm_titulo(h.get("titulo", "")),
-                            norm_titulo(str(h.get("orgao", ""))[:140])))
+        if (str(h.get("fonte", "")).startswith("DOU")
+                and not str(h.get("url", "")).startswith(PREFIXO_PLANO_B)):
+            conhecidos.add(chave_dedup(h.get("data"), h.get("titulo", ""), h.get("orgao", "")))
 
     itens = []
     diag = {"lidas": 0, "forte": 0, "revisar": 0, "baixados": 0,
@@ -187,13 +203,9 @@ def coleta(dias, historico=None, log=sys.stderr):
                 a = _monta(it)
                 if _descarte_barato(a):
                     continue
-                # titulo sozinho colide ("PORTARIA N 5", "DESPACHO" de orgaos
-                # diferentes); o orgao (cortado em 140 como no historico) separa
-                k = (dia, norm_titulo(a["_titulo"]), norm_titulo(a["artCategory"][:140]))
-                if k in conhecidos:
+                if chave_dedup(dia, a["_titulo"], a["artCategory"]) in conhecidos:
                     diag["duplicados"] += 1
                     continue
-                conhecidos.add(k)
                 candidatos.append((a, it, _precisa_baixar(secao, a)))
 
             alvo = [a for a, _, baixar in candidatos if baixar]
@@ -213,7 +225,7 @@ def coleta(dias, historico=None, log=sys.stderr):
                     else:
                         diag["falhas_download"] += 1
                         erro(f"{dia} {secao}: sem texto de {a['urlTitle'][:80]}")
-                a["_texto_integral"] = t or a["_ementa"]
+                a["_texto_integral"] = t or a["_previa"]
                 b = dou.classifica(a)
                 if b == "descartado":
                     continue
@@ -224,7 +236,7 @@ def coleta(dias, historico=None, log=sys.stderr):
                     "data": dia,
                     "fonte": f"DOU {secao}",
                     "orgao": a["artCategory"][:140],
-                    "ementa": a["_ementa"][:300],
+                    "ementa": a["_previa"][:300],
                     "texto_integral": a["_texto_integral"],
                     "balde": b,
                     "continuacao": False,

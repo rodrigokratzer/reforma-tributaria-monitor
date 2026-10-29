@@ -133,6 +133,28 @@ def falhas_do_ciclo(raiz, data):
     return falhas
 
 
+def gravidade_falhas(raiz, data):
+    """"alta" se alguma fonte falhou sem plano B (metodo None com erro) ou nao
+    tem registro; "aviso" se so' houve plano B funcionando ou fonte nao
+    consultada por tempo; None se esta tudo certo."""
+    nivel = None
+    for grupo, nome in (("Portais web", f"{data}.json"), ("DOU", f"{data}-dou.json")):
+        dados = _le_json(raiz / "dados" / nome)
+        if dados is None or not isinstance(dados.get("fontes"), list):
+            return "alta"
+        for reg in dados["fontes"]:
+            if not isinstance(reg, dict):
+                continue
+            if not reg.get("metodo"):
+                if str(reg.get("erro") or "").strip().startswith("nao tentada"):
+                    nivel = nivel or "aviso"
+                else:
+                    return "alta"
+            elif str(reg.get("aviso") or "").strip():
+                nivel = nivel or "aviso"
+    return nivel
+
+
 def _secao_falhas(falhas):
     linhas = ["- " + _corta(f, 200) for f in falhas[:MAX_LINHAS_FALHA]]
     if len(falhas) > MAX_LINHAS_FALHA:
@@ -140,7 +162,7 @@ def _secao_falhas(falhas):
     return CABECALHO_FALHAS + "\n" + "\n".join(linhas)
 
 
-def monta_mensagem(status, md_texto, painel_url, falhas=None):
+def monta_mensagem(status, md_texto, painel_url, falhas=None, gravidade="alta"):
     acoes = _acoes(status)
     situacao = status.get("situacao") or ""
     if acoes > 0:
@@ -171,8 +193,10 @@ def monta_mensagem(status, md_texto, painel_url, falhas=None):
     corpo = "\n\n".join(partes)
     secao = _secao_falhas(falhas) if falhas else ""
     if secao:
-        # consulta que falhou e' ponto cego: nunca fica abaixo de "high"
-        prioridade = "high"
+        # consulta que falhou sem plano B e' ponto cego: nunca abaixo de "high";
+        # plano B funcionando so' avisa (tag + secao), sem mexer na prioridade
+        if gravidade == "alta":
+            prioridade = "high"
         # a secao tem lugar garantido; o resto do corpo e' que e' cortado
         corpo = (_corta(corpo, max(LIMITE_CORPO - len(click) - len(secao) - 4, 0))
                  + "\n\n" + secao)
@@ -341,7 +365,8 @@ def main(argv=None, raiz=None, env=None):
             if status is None:
                 return 0
             msg = monta_mensagem(status, _le_md(raiz, status), painel,
-                                 falhas=falhas_do_ciclo(raiz, status["data"]))
+                                 falhas=falhas_do_ciclo(raiz, status["data"]),
+                                 gravidade=gravidade_falhas(raiz, status["data"]))
         _envia(msg, env)
     except Exception as e:  # rede de seguranca final: nunca derrubar o ciclo
         log(f"erro inesperado: {e!r}")

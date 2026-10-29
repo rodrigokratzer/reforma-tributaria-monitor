@@ -30,7 +30,7 @@ EXTRATO = item("Extrato de Contrato nº 5", "extrato-5", content="contrato qualq
 GENERICO = item("Portaria nº 9", "port-9", content="trata de outro assunto")
 DO3_IRREL = item("Aviso de Pregão", "do3-irrel", hier="Prefeitura X", pub="DO3",
                  content="compra de material")
-DO3_RF = item("Edital qualquer da receita", "do3-rf", hier="Ministério da Fazenda/Receita Federal",
+DO3_RF = item("Ato qualquer da receita", "do3-rf", hier="Ministério da Fazenda/Receita Federal",
               pub="DO3", content="regras do ibs")
 
 
@@ -161,13 +161,38 @@ class TestColeta(unittest.TestCase):
         self.assertEqual(len(itens), 1)
         self.assertEqual(diag["duplicados"], 0)
 
-    def test_dedup_dentro_da_propria_execucao(self):
+    def test_itens_iguais_na_mesma_execucao_sobrevivem_os_dois(self):
         a = item("PORTARIA Nº 5", "p5a", hier="Org A", content="ibs")
         b = item("Portaria nº 5", "p5b", hier="ORG A", content="ibs")
-        c = item("Portaria nº 5", "p5c", hier="Org B", content="ibs")
-        itens, diag, _ = self.roda({"do1": [a, b, c]}, {})
-        self.assertEqual(sorted(i["url"][-3:] for i in itens), ["p5a", "p5c"])
+        itens, diag, _ = self.roda({"do1": [a, b]}, {})
+        self.assertEqual(sorted(i["url"][-3:] for i in itens), ["p5a", "p5b"])
+        self.assertEqual(diag["duplicados"], 0)
+
+    def test_historico_do_proprio_plano_b_nao_causa_skip(self):
+        hist = {"k": {"data": "2026-10-22", "fonte": "DOU DO1", "titulo": LC["title"],
+                      "orgao": LC["hierarchyStr"],
+                      "url": "https://www.in.gov.br/web/dou/-/lc-214"}}
+        itens, diag, _ = self.roda({"do1": [LC]}, {"lc-214": pagina_materia("x")}, hist)
+        self.assertEqual(len(itens), 1)
+        self.assertEqual(diag["duplicados"], 0)
+
+    def test_sobreposicao_com_inlabs_com_url_de_inlabs(self):
+        hist = {"k": {"data": "2026-10-22", "fonte": "DOU DO1", "titulo": LC["title"],
+                      "orgao": LC["hierarchyStr"],
+                      "url": "https://inlabs.in.gov.br/x/1"}}
+        itens, diag, _ = self.roda({"do1": [LC]}, {}, hist)
+        self.assertEqual(itens, [])
         self.assertEqual(diag["duplicados"], 1)
+
+    def test_chave_dedup(self):
+        self.assertEqual(dou_site.chave_dedup("2026-10-22", "PORTARIA  N 5", "Org  A/Sec"),
+                         ("2026-10-22", "portaria n 5", "org a/sec"))
+
+    def test_extrato_com_previa_de_nfs_e_continua_descartado(self):
+        ex = item("EXTRATO DE ORDEM DE COMPRA", "oc-1", hier="Prefeitura X", pub="DO3",
+                  content="aquisicao de software de nfs-e")
+        itens, diag, _ = self.roda({"do1": [ex]}, {})
+        self.assertEqual(itens, [])
 
     def test_todas_as_consultas_falham_levanta(self):
         def erro(url, timeout=30):
