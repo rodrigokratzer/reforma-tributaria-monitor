@@ -136,20 +136,37 @@ class TestColeta(unittest.TestCase):
 
     def test_dedup_contra_historico(self):
         hist = {"k": {"data": "2026-10-22", "fonte": "DOU DO1",
-                      "titulo": "LEI COMPLEMENTAR Nº  214,  DE 2025"}}
+                      "titulo": "LEI COMPLEMENTAR Nº  214,  DE 2025",
+                      "orgao": "MINISTERIO DA SAUDE/Secretaria  X"}}
         itens, diag, site = self.roda({"do1": [LC]}, {"lc-214": pagina_materia("x")}, hist)
         self.assertEqual(itens, [])
         self.assertEqual(diag["duplicados"], 1)
         self.assertEqual(site.baixados, [])
 
     def test_dedup_acentos_e_outra_fonte_nao_dou(self):
-        hist = {"k": {"data": "2026-10-22", "fonte": "Receita", "titulo": LC["title"]}}
+        hist = {"k": {"data": "2026-10-22", "fonte": "Receita", "titulo": LC["title"],
+                      "orgao": LC["hierarchyStr"]}}
         itens, diag, _ = self.roda({"do1": [LC]}, {"lc-214": pagina_materia("x")}, hist)
         self.assertEqual(len(itens), 1)
         self.assertEqual(diag["duplicados"], 0)
         hist2 = {"k": {"data": "2026-10-22", "fonte": "DOU DO1E",
-                       "titulo": "lei complementar n 214, de 2025".replace("n ", "nº ")}}
+                       "titulo": LC["title"], "orgao": LC["hierarchyStr"]}}
         itens, diag, _ = self.roda({"do1": [LC]}, {}, hist2)
+        self.assertEqual(diag["duplicados"], 1)
+
+    def test_mesmo_titulo_orgao_diferente_nao_e_duplicata(self):
+        hist = {"k": {"data": "2026-10-22", "fonte": "DOU DO1", "titulo": LC["title"],
+                      "orgao": "Outro Ministerio/Outra Secretaria"}}
+        itens, diag, _ = self.roda({"do1": [LC]}, {"lc-214": pagina_materia("x")}, hist)
+        self.assertEqual(len(itens), 1)
+        self.assertEqual(diag["duplicados"], 0)
+
+    def test_dedup_dentro_da_propria_execucao(self):
+        a = item("PORTARIA Nº 5", "p5a", hier="Org A", content="ibs")
+        b = item("Portaria nº 5", "p5b", hier="ORG A", content="ibs")
+        c = item("Portaria nº 5", "p5c", hier="Org B", content="ibs")
+        itens, diag, _ = self.roda({"do1": [a, b, c]}, {})
+        self.assertEqual(sorted(i["url"][-3:] for i in itens), ["p5a", "p5c"])
         self.assertEqual(diag["duplicados"], 1)
 
     def test_todas_as_consultas_falham_levanta(self):

@@ -154,7 +154,8 @@ def coleta(dias, historico=None, log=sys.stderr):
     conhecidos = set()
     for h in (historico or {}).values():
         if str(h.get("fonte", "")).startswith("DOU"):
-            conhecidos.add((h.get("data"), norm_titulo(h.get("titulo", ""))))
+            conhecidos.add((h.get("data"), norm_titulo(h.get("titulo", "")),
+                            norm_titulo(str(h.get("orgao", ""))[:140])))
 
     itens = []
     diag = {"lidas": 0, "forte": 0, "revisar": 0, "baixados": 0,
@@ -186,9 +187,13 @@ def coleta(dias, historico=None, log=sys.stderr):
                 a = _monta(it)
                 if _descarte_barato(a):
                     continue
-                if (dia, norm_titulo(a["_titulo"])) in conhecidos:
+                # titulo sozinho colide ("PORTARIA N 5", "DESPACHO" de orgaos
+                # diferentes); o orgao (cortado em 140 como no historico) separa
+                k = (dia, norm_titulo(a["_titulo"]), norm_titulo(a["artCategory"][:140]))
+                if k in conhecidos:
                     diag["duplicados"] += 1
                     continue
+                conhecidos.add(k)
                 candidatos.append((a, it, _precisa_baixar(secao, a)))
 
             alvo = [a for a, _, baixar in candidatos if baixar]

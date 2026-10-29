@@ -129,6 +129,31 @@ class TestColetaDouPlanoB(unittest.TestCase):
         self.assertIn("manutencao programada", r["aviso"])
         self.assertIn("coletado pela Leitura do Jornal (in.gov.br)", r["aviso"])
 
+    def test_diagnostico_inclui_erros_e_sem_edicao_e_aviso_parcial(self):
+        diag = dict(self.diag, erros=["2026-10-22 DO3: OSError: x", "2026-10-22 DO1E: OSError: y",
+                                      "terceiro"], sem_edicao=["2026-10-22 DO3E: sem materias"])
+        def falha(*a, **k):
+            raise dou.InlabsIndisponivel("INLABS em manutencao programada")
+        with patch.object(dou, "coleta", falha), \
+             patch.object(dou_site, "coleta", lambda dias, hist=None, **k: (self.itens_site, diag)), \
+             patch.object(varredura, "_carrega_historico", lambda: {}):
+            r = varredura.coleta_dou("2026-10-29", dias=["2026-10-22"])
+        self.assertEqual(r["diagnostico"]["erros"], diag["erros"])
+        self.assertEqual(r["diagnostico"]["sem_edicao"], diag["sem_edicao"])
+        self.assertIsNone(r["erro"])
+        self.assertIn("3 consulta(s) da Leitura do Jornal falharam", r["aviso"])
+        self.assertIn("DO3: OSError: x", r["aviso"])
+        self.assertNotIn("terceiro", r["aviso"])
+
+    def test_aviso_sem_erros_nao_ganha_sufixo(self):
+        def falha(*a, **k):
+            raise RuntimeError("x")
+        with patch.object(dou, "coleta", falha), \
+             patch.object(dou_site, "coleta", lambda dias, hist=None, **k: (self.itens_site, self.diag)), \
+             patch.object(varredura, "_carrega_historico", lambda: {}):
+            r = varredura.coleta_dou("2026-10-29")
+        self.assertNotIn("falharam", r["aviso"])
+
     def test_dias_padrao_sao_d_menos_1_e_d(self):
         vistos = []
         def inlabs(dias, *a, **k):

@@ -33,7 +33,7 @@ python3 -m unittest tests.test_lacuna_analise.TestLacuna.test_lacuna_de_varios_d
 Run the pieces manually (each is a standalone script, no CLI framework):
 ```bash
 python3 scripts/varredura.py       # scrapes the 16 web sources; needs playwright
-python3 scripts/dou_diario.py      # scrapes the DOU; needs INLABS_EMAIL/INLABS_SENHA env vars, stdlib only
+python3 scripts/dou_diario.py [--dias AAAA-MM-DD ...]   # scrapes the DOU (INLABS, falling back to in.gov.br Leitura do Jornal); INLABS_EMAIL/INLABS_SENHA optional; --dias = backfill; stdlib only
 python3 scripts/gerar_painel.py    # rebuilds docs/index.html from dados/ + analises/ + estado.json
 python3 scripts/ler_textos.py [--sem-limite] [--chave K]   # reading lane: full text into dados/textos/; needs pdftotext + tesseract (por)
 python3 scripts/cobertura_textos.py   # reports how many history items have full text, per source
@@ -50,7 +50,7 @@ No linter or formatter is configured.
 **Three deliberately separate layers**, connected only through git:
 
 - **Fatos** (facts) — `scripts/varredura.py` (16 web sources, via the
-  `scripts/portais/` package) and `scripts/dou_diario.py` (DOU/INLABS) run on
+  `scripts/portais/` package) and `scripts/dou_diario.py` (DOU: INLABS, with the in.gov.br Leitura do Jornal in `scripts/dou_site.py` as fallback) run on
   their own GitHub Actions schedules, write JSON, and never interpret anything.
   No AI, no judgment calls.
 - **Leitura** (reading) — `scripts/ler_textos.py` runs right after the web scrape,
@@ -60,7 +60,7 @@ No linter or formatter is configured.
   `dados/textos/<chave>.txt` + `dados/leituras.json` (status `lido`, `parcial`,
   `falhou`, `desistiu`; `origem` `coleta`, `coleta_cortada`, `inlabs`, `html`, `pdf`,
   `pdf+ocr`, `html+ocr`). Code lives in `scripts/leitura/` (`paginas`, `pdf`, `baixar`).
-  DOU items are not downloaded here: their text comes from INLABS at collection time.
+  DOU items are not downloaded here: their text comes from INLABS (or, in fallback, the Leitura do Jornal) at collection time.
 - **Análise** (analysis) — `claude -p` run by `scripts/rodar_analise.sh` on the
   local machine (subscription, no per-token API cost), twice a day: turno `matinal`
   (05:00) and `noturna` (17:00). It reads `scripts/analise_brief.md` and writes only
@@ -160,6 +160,13 @@ credentials). Summary:
 - **Fonte cuja publicação não é link** (SVRS, informes do NF-e): o coletor genérico de
   links pega o menu e ninguém percebe, porque a fonte "tem itens". Confira se os itens
   são publicações, não só se a contagem é maior que zero.
+- **INLABS em manutenção programada pode durar dias (21/10/2026 em diante): a home
+  mostra "Estamos em manutenção" e logar.php dá 404 — o coletor detecta
+  (`dou.InlabsIndisponivel`) e usa a Leitura do Jornal do in.gov.br.** Quando o INLABS
+  falha por qualquer motivo (ou não há credencial), `varredura.coleta_dou` cai em
+  `dou_site.coleta`: registro com `metodo="leiturajornal"` e campo `aviso`; se os dois
+  falham, `metodo=None`. A dedup do plano B contra o histórico é por (data, título,
+  órgão) normalizados.
 - **INLABS login can respond "200 with no session cookie" as often as it responds
   5xx**, and that's usually scheduled maintenance, not a bad credential — `dou.py`'s
   `abre_sessao()` retries both cases (30 attempts, backoff capped at 120s); only a

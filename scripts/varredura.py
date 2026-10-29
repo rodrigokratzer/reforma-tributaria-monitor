@@ -58,6 +58,9 @@ def coleta_dou(hoje, dias=None):
     """DOU: INLABS primeiro; se falhar (manutencao, login, rede, sem
     credencial), Leitura do Jornal do in.gov.br (scripts/dou_site.py).
 
+    Sem credencial tambem cai no plano B. O INLABS fica em manutencao por
+    dias (21/10/2026 em diante); abre_sessao detecta e levanta na hora.
+
     Roda D-1 e D por padrao: a varredura sai cedo e a edicao do dia as vezes
     ainda nao subiu; as edicoes extras da vespera costumam aparecer depois.
     Reprocessar a vespera e' barato porque o historico deduplica. `dias`
@@ -95,13 +98,19 @@ def coleta_dou(hoje, dias=None):
     except Exception as e:
         return {**base, "metodo": None, "total": 0, "itens": [],
                 "erro": (f"INLABS: {motivo} | Leitura do Jornal: {_erro_curto(e)}")[:400]}
+    aviso = (f"INLABS indisponivel ({motivo}); "
+             "coletado pela Leitura do Jornal (in.gov.br)")
+    erros = diag.get("erros") or []
+    if erros:
+        # falha parcial (uma secao/dia fora) nao pode passar por coleta normal
+        aviso += (f" — {len(erros)} consulta(s) da Leitura do Jornal falharam: "
+                  + "; ".join(erros[:2])[:160])
     return {**base, "metodo": "leiturajornal", "http_status": None, "erro": None,
-            "aviso": (f"INLABS indisponivel ({motivo}); "
-                      "coletado pela Leitura do Jornal (in.gov.br)"),
-            "total": len(itens), "itens": itens,
+            "aviso": aviso, "total": len(itens), "itens": itens,
             "diagnostico": {k: v for k, v in diag.items()
                             if k in ("lidas", "forte", "revisar", "baixados",
-                                     "falhas_download", "duplicados")}}
+                                     "falhas_download", "duplicados",
+                                     "erros", "sem_edicao")}}
 
 
 def grava_resultado(hoje, resultado, arquivo_dados, arquivo_novidades):
