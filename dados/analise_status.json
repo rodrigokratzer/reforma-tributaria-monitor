@@ -1,1 +1,17 @@
-{"data": "2026-10-29", "turno": "matinal", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-10-29T08:01:27Z", "resumo_curto": "nenhuma publicação nova"}
+{
+ "data": "2026-10-29",
+ "turno": "noturna",
+ "situacao": "publicada",
+ "acoes": 2,
+ "gerado_em": "2026-10-29T20:30:00Z",
+ "resumo_curto": "2 novidades, 2 exigem ação: prazo do regime regular vence amanhã (30/10) sem prorrogação",
+ "painel_atualizado": [
+  "Opção pelo regime regular do IBS/CBS (30/10): Receita confirma que não haverá prorrogação; 1.000.142 opções até 29/10",
+  "Novo prazo: cancelamento da opção pelo regime regular do IBS/CBS até 20/12/2026 (Receita Federal)",
+  "Cooperativas: ampliação do prazo de 31/10 para 30/11 em discussão (RFB/CGIBS), ainda sem ato — vale 31/10",
+  "Pendência: formalização da prorrogação do prazo das cooperativas para 30/11",
+  "Balanço de 29/10: 1 milhão de opções pelo regime regular do IBS/CBS; prazo de 30/10 mantido",
+  "Prazo de cancelamento da opção pelo regime regular (20/12) incluído na linha do tempo",
+  "Marcos de 30/10 e 31/10 atualizados com a confirmação sem prorrogação e a discussão das cooperativas"
+ ]
+}

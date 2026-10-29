@@ -2,6 +2,55 @@
  {
   "secao": "prazos_destaque",
   "tipo": "alterado",
+  "descricao": "Opção pelo regime regular do IBS/CBS (30/10): Receita confirma que não haverá prorrogação; 1.000.142 opções até 29/10",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/mais-de-1-milhao-de-contribuintes-ja-optaram-pelo-regime-regular-do-ibs-e-da-cbs",
+  "em": "2026-10-29-noturna"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "Novo prazo: cancelamento da opção pelo regime regular do IBS/CBS até 20/12/2026 (Receita Federal)",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/mais-de-1-milhao-de-contribuintes-ja-optaram-pelo-regime-regular-do-ibs-e-da-cbs",
+  "em": "2026-10-29-noturna"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "Cooperativas: ampliação do prazo de 31/10 para 30/11 em discussão (RFB/CGIBS), ainda sem ato — vale 31/10",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-cgibs-discutem-ampliacao-do-prazo-de-opcao-pelo-regime-especifico-da-cbs-e-do-ibs-para-as-cooperativas-ate-30-de-novembro",
+  "em": "2026-10-29-noturna"
+ },
+ {
+  "secao": "pendencias",
+  "tipo": "incluido",
+  "descricao": "Pendência: formalização da prorrogação do prazo das cooperativas para 30/11",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-cgibs-discutem-ampliacao-do-prazo-de-opcao-pelo-regime-especifico-da-cbs-e-do-ibs-para-as-cooperativas-ate-30-de-novembro",
+  "em": "2026-10-29-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Balanço de 29/10: 1 milhão de opções pelo regime regular do IBS/CBS; prazo de 30/10 mantido",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/mais-de-1-milhao-de-contribuintes-ja-optaram-pelo-regime-regular-do-ibs-e-da-cbs",
+  "em": "2026-10-29-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Prazo de cancelamento da opção pelo regime regular (20/12) incluído na linha do tempo",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/mais-de-1-milhao-de-contribuintes-ja-optaram-pelo-regime-regular-do-ibs-e-da-cbs",
+  "em": "2026-10-29-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "alterado",
+  "descricao": "Marcos de 30/10 e 31/10 atualizados com a confirmação sem prorrogação e a discussão das cooperativas",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-cgibs-discutem-ampliacao-do-prazo-de-opcao-pelo-regime-especifico-da-cbs-e-do-ibs-para-as-cooperativas-ate-30-de-novembro",
+  "em": "2026-10-29-noturna"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
   "descricao": "Nota do prazo de opção pelo regime regular do IBS/CBS (30/10) atualizada com o balanço de 16/10: 917.331 pedidos de regime regular, 657.753 pelo Simples Nacional (401.146 indeferidos)",
   "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
   "em": "2026-10-16-noturna"
