@@ -1,28 +1,7 @@
 {
- "data": "2026-10-29",
- "quantidade": 2,
- "itens": [
-  {
-   "primeira_vez": "2026-10-29",
-   "fonte": "RFB - Noticias 2026",
-   "titulo": "Mais de 1 milhão de contribuintes já optaram pelo regime regular do IBS e da CBS",
-   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/mais-de-1-milhao-de-contribuintes-ja-optaram-pelo-regime-regular-do-ibs-e-da-cbs",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null,
-   "visto_em": "2026-10-29T20:01:22Z"
-  },
-  {
-   "primeira_vez": "2026-10-29",
-   "fonte": "RFB - Noticias 2026",
-   "titulo": "Receita Federal e CGIBS discutem ampliação do prazo de opção pelo regime específico da CBS e do IBS para as cooperativas até 30 de novembro",
-   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-cgibs-discutem-ampliacao-do-prazo-de-opcao-pelo-regime-especifico-da-cbs-e-do-ibs-para-as-cooperativas-ate-30-de-novembro",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null,
-   "visto_em": "2026-10-29T20:01:22Z"
-  }
- ],
+ "data": "2026-10-30",
+ "quantidade": 0,
+ "itens": [],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
