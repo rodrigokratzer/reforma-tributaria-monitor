@@ -283,6 +283,15 @@ class TestFalhasDoCiclo(unittest.TestCase):
         self.assertEqual(falhas, ["DOU (INLABS): INLABS fora; usado Leitura do Jornal — "
                                   "2 consulta(s) falharam: x, y"])
 
+    def test_plano_b_completo_nao_entra_no_push(self):
+        dou = {"data": "2026-09-30", "fontes": [{
+            "fonte": "DOU (INLABS)", "metodo": "leiturajornal", "erro": None,
+            "aviso": "INLABS indisponivel (INLABS em manutencao programada); "
+                     "coletado pela Leitura do Jornal (in.gov.br)"}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            falhas = nt.falhas_do_ciclo(raiz_com(tmp, dou=dou), "2026-09-30")
+        self.assertEqual(falhas, [])
+
     def test_portal_nao_tentada(self):
         web = {"data": "2026-09-30", "fontes": [{
             "fonte": "CGIBS", "metodo": None,
@@ -322,9 +331,16 @@ class TestGravidadeFalhas(unittest.TestCase):
     def test_sem_registro_e_alta(self):
         self.assertEqual(self.grav(dou=None), "alta")
 
-    def test_so_aviso_e_aviso(self):
+    def test_plano_b_completo_nao_e_falha(self):
+        # Rodou no plano B e coletou tudo: para o Rodrigo, esta' ok.
         dou = {"fontes": [{"fonte": "DOU (INLABS)", "metodo": "leiturajornal",
                            "erro": None, "aviso": "INLABS fora"}]}
+        self.assertIsNone(self.grav(dou=dou))
+
+    def test_plano_b_parcial_e_aviso(self):
+        dou = {"fontes": [{"fonte": "DOU (INLABS)", "metodo": "leiturajornal", "erro": None,
+                           "aviso": "INLABS fora — 1 consulta(s) da Leitura do Jornal "
+                                    "falharam: 2026-10-22 DO3E: timeout"}]}
         self.assertEqual(self.grav(dou=dou), "aviso")
 
     def test_nao_consultada_e_aviso(self):

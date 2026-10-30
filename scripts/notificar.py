@@ -103,12 +103,23 @@ def _le_json(caminho):
     return dados if isinstance(dados, dict) else None
 
 
+# Plano B que funcionou por inteiro nao e' falha (pedido do Rodrigo em
+# 30/10/2026: "se rodou no plano B, esta' ok"). So' entra no push o plano B
+# que falhou em parte: o aviso da coleta traz "N consulta(s) ... falharam".
+PLANO_B_PARCIAL = re.compile(r"\bconsulta\(s\)[^:]*\bfalharam\b")
+
+
+def _plano_b_parcial(aviso):
+    return bool(PLANO_B_PARCIAL.search(aviso or ""))
+
+
 def falhas_do_ciclo(raiz, data):
     """Fontes que nao foram consultadas direito em `data`, uma linha por item.
 
     Le dados/<data>.json (portais) e dados/<data>-dou.json (DOU). Fonte sem
-    `metodo` falhou; fonte com `aviso` funcionou pelo plano B mas precisa ser
-    vista; arquivo ausente/ilegivel e' tratado como coleta nao registrada.
+    `metodo` falhou; fonte que rodou no plano B so' entra se o plano B falhou
+    em parte (ver PLANO_B_PARCIAL); arquivo ausente/ilegivel e' tratado como
+    coleta nao registrada.
     """
     falhas = []
     grupos = (("Portais web", f"{data}.json"), ("DOU", f"{data}-dou.json"))
@@ -128,15 +139,16 @@ def falhas_do_ciclo(raiz, data):
                     falhas.append(f"{fonte}: nao consultada (tempo esgotado)")
                 else:
                     falhas.append(f"{fonte}: {_corta(erro or 'falhou sem detalhe', LIMITE_ERRO)}")
-            elif aviso:
+            elif _plano_b_parcial(aviso):
                 falhas.append(f"{fonte}: {aviso}")
     return falhas
 
 
 def gravidade_falhas(raiz, data):
     """"alta" se alguma fonte falhou sem plano B (metodo None com erro) ou nao
-    tem registro; "aviso" se so' houve plano B funcionando ou fonte nao
-    consultada por tempo; None se esta tudo certo."""
+    tem registro; "aviso" se o plano B falhou em parte ou uma fonte nao foi
+    consultada por tempo; None se esta tudo certo (plano B completo conta como
+    certo)."""
     nivel = None
     for grupo, nome in (("Portais web", f"{data}.json"), ("DOU", f"{data}-dou.json")):
         dados = _le_json(raiz / "dados" / nome)
@@ -150,7 +162,7 @@ def gravidade_falhas(raiz, data):
                     nivel = nivel or "aviso"
                 else:
                     return "alta"
-            elif str(reg.get("aviso") or "").strip():
+            elif _plano_b_parcial(str(reg.get("aviso") or "")):
                 nivel = nivel or "aviso"
     return nivel
 
