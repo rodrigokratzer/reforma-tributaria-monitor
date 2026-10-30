@@ -7,75 +7,12 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
-   "total": 10,
+   "erro_browser": null,
+   "total": 1,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
      "url": "https://www.cgibs.gov.br/",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Comitê Gestor do IBS e União assinam contrato de operação de crédito para financiar a implantação do órgão",
-     "url": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-uniao-assinam-contrato-de-operacao-de-credito-para-financiar-a-implantacao-do-orgao",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Portaria Conjunta define como serão calculadas as alíquotas do IBS e da CBS incidentes sobre os combustíveis",
-     "url": "https://www.cgibs.gov.br/combustiveis-portaria-conjunta-define-como-serao-calculadas-as-aliquotas-do-ibs-e-da-cbs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "DeRE: CGIBS e Receita Federal publicam versão 1.3.0 da documentação técnica e disponibilizam Manual do Usuário",
-     "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-publicam-versao-1-3-0-da-documentacao-tecnica-e-disponibilizam-manual-do-usuario",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Opção do contribuinte por Simples Nacional ou pelo regime regular de CBS e IBS para 2027 tem novos prazos",
-     "url": "https://www.cgibs.gov.br/embora-os-periodos-sejam-parecidos-tratam-de-escolhas-diferentes-por-isso-e-importante-entender-cada-situacao",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Declaração de Regimes Específicos: CGIBS e Receita Federal divulgam endpoints do ambiente de produção",
-     "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-divulgam-endpoints-do-ambiente-de-producao",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Informe: conta do Comitê Gestor do IBS no Instagram (cgibs.oficial) passa por instabilidade temporária",
-     "url": "https://www.cgibs.gov.br/informe-instabilidade-da-conta-do-cgibs-no-instagram",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Receita Federal e Comitê Gestor do IBS divulgam Orientação Conjunta destinada às sociedades cooperativas",
-     "url": "https://www.cgibs.gov.br/receita-federal-e-comite-gestor-do-imposto-sobre-bens-e-servicos-divulgam-orientacao-conjunta",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Regimes Específicos: veja atualização dos esquemas XSD dos eventos D-1011 e D-1101 na Produção Restrita",
-     "url": "https://www.cgibs.gov.br/dere-atualizacao-dos-esquemas-xsd-dos-eventos-d-1011-e-d-1101-na-producao-restrita",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Presidente e segunda vice do CGIBS participam de missão à OCDE em Paris sobre IVA e modernização tributária",
-     "url": "https://www.cgibs.gov.br/presidente-e-segunda-vice-do-cgibs-participam-de-missao-a-ocde-sobre-iva-e-modernizacao-tributaria",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
@@ -813,9 +750,9 @@
    "total": 1,
    "itens": [
     {
-     "titulo": "Publicado no dia 01/10/26 o Ato Conjunto RFB/CGIBS nº 8, de 2026",
-     "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1491",
-     "data": "2026-10-02",
+     "titulo": "Publicado Ato Técnico Conjunto RFB/CGIBS nº 10, de 2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1496",
+     "data": "2026-10-30",
      "pasta_arquivo": null,
      "alerta": null
     }
@@ -855,8 +792,16 @@
    "http_status": 200,
    "erro": null,
    "erro_browser": null,
-   "total": 3,
+   "total": 4,
    "itens": [
+    {
+     "titulo": "Ato Técnico Conjunto nº 10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=smW4wB7T1Cs=",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Dispõe sobre a aprovação conjunta da Secretaria Especial da Receita Federal do Brasil (RFB) e do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) da documentação técnica dos documentos fiscais que especifica."
+    },
     {
      "titulo": "Ato Técnico Conjunto nº 08/2026",
      "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=BxFbAhMHvAo=",
@@ -890,12 +835,20 @@
    "http_status": 200,
    "erro": null,
    "erro_browser": null,
-   "total": 19,
+   "total": 21,
    "itens": [
     {
-     "titulo": "Nota Técnica 2025.002 v.1.52 - Publicada em 01/10/2026",
-     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=HXPO8VLbh4o=",
-     "data": "2026-10-01",
+     "titulo": "Nota Técnica 2026.006 v1.01 - Publicada em 30/10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=7xf05PpO4Z0=",
+     "data": "2026-10-30",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Divulga especificação técnica para vinculação entre NF-e e transação financeira sujeita ao split payment"
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v1.53 - Publicada em 30/10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=BMcHSMEoepU=",
+     "data": "2026-10-30",
      "pasta_arquivo": null,
      "alerta": null,
      "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC"
@@ -907,6 +860,14 @@
      "pasta_arquivo": null,
      "alerta": null,
      "ementa": "Divulga modelo do Danfe pra RTC"
+    },
+    {
+     "titulo": "Nota Técnica 2025.002 v.1.52 - Publicada em 01/10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=HXPO8VLbh4o=",
+     "data": "2026-10-01",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC"
     },
     {
      "titulo": "Nota Técnica 2026.006 v.1.00 - Publicada em 25/08/2026",
@@ -1053,12 +1014,12 @@
    "http_status": 200,
    "erro": null,
    "erro_browser": null,
-   "total": 4,
+   "total": 5,
    "itens": [
     {
-     "titulo": "Informe Técnico 2025.002 - v.1.70 - Publicado em 01/10/2026",
-     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=h9o7idH%20OcI=",
-     "data": "2026-10-01",
+     "titulo": "Informe Técnico 2025.002 v1.71 - Publicado em 30/10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=WYEtloOC2CQ=",
+     "data": "2026-10-30",
      "pasta_arquivo": null,
      "alerta": null,
      "ementa": "Divulga tabela classificação tributária, indicadores de CST e crédito presumido do IBS e da CBS."
@@ -1070,6 +1031,14 @@
      "pasta_arquivo": null,
      "alerta": null,
      "ementa": "Divulga alíquotas de CBS"
+    },
+    {
+     "titulo": "Informe Técnico 2025.002 - v.1.70 - Publicado em 01/10/2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=h9o7idH%20OcI=",
+     "data": "2026-10-01",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Divulga tabela classificação tributária, indicadores de CST e crédito presumido do IBS e da CBS."
     },
     {
      "titulo": "Informe Técnico 2025.002 v.1.60 - Publicado em 23/06/2026",

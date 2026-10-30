@@ -1,7 +1,62 @@
 {
  "data": "2026-10-30",
- "quantidade": 0,
- "itens": [],
+ "quantidade": 5,
+ "itens": [
+  {
+   "primeira_vez": "2026-10-30",
+   "fonte": "Portal NF-e - Informes/NTs",
+   "titulo": "Publicado Ato Técnico Conjunto RFB/CGIBS nº 10, de 2026",
+   "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1496",
+   "data": "2026-10-30",
+   "pasta_arquivo": null,
+   "alerta": null,
+   "visto_em": "2026-10-30T20:01:38Z"
+  },
+  {
+   "primeira_vez": "2026-10-30",
+   "fonte": "Portal NF-e - Atos Tecnicos RFB/CGIBS",
+   "titulo": "Ato Técnico Conjunto nº 10/2026",
+   "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=smW4wB7T1Cs=",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "ementa": "Dispõe sobre a aprovação conjunta da Secretaria Especial da Receita Federal do Brasil (RFB) e do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) da documentação técnica dos documentos fiscais que especifica.",
+   "visto_em": "2026-10-30T20:01:38Z"
+  },
+  {
+   "primeira_vez": "2026-10-30",
+   "fonte": "Portal NF-e - Notas Tecnicas",
+   "titulo": "Nota Técnica 2026.006 v1.01 - Publicada em 30/10/2026",
+   "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=7xf05PpO4Z0=",
+   "data": "2026-10-30",
+   "pasta_arquivo": null,
+   "alerta": null,
+   "ementa": "Divulga especificação técnica para vinculação entre NF-e e transação financeira sujeita ao split payment",
+   "visto_em": "2026-10-30T20:01:38Z"
+  },
+  {
+   "primeira_vez": "2026-10-30",
+   "fonte": "Portal NF-e - Notas Tecnicas",
+   "titulo": "Nota Técnica 2025.002 v1.53 - Publicada em 30/10/2026",
+   "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=BMcHSMEoepU=",
+   "data": "2026-10-30",
+   "pasta_arquivo": null,
+   "alerta": null,
+   "ementa": "Nota técnica de adequação dos leiautes da NF-e e da NFC-e para inclusão dos campos e das regras de validação referentes à Reforma Tributária do Consumo - RTC",
+   "visto_em": "2026-10-30T20:01:38Z"
+  },
+  {
+   "primeira_vez": "2026-10-30",
+   "fonte": "Portal NF-e - Informes Tecnicos",
+   "titulo": "Informe Técnico 2025.002 v1.71 - Publicado em 30/10/2026",
+   "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=WYEtloOC2CQ=",
+   "data": "2026-10-30",
+   "pasta_arquivo": null,
+   "alerta": null,
+   "ementa": "Divulga tabela classificação tributária, indicadores de CST e crédito presumido do IBS e da CBS.",
+   "visto_em": "2026-10-30T20:01:38Z"
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
