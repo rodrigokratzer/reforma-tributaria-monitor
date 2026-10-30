@@ -1,5 +1,26 @@
 [
  {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "NF-e: novas regras de devolução e leiaute monofásico de combustíveis entram em produção em 16/11/2026 (NT 2025.002 v1.53)",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=BMcHSMEoepU=",
+  "em": "2026-10-30-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "16/11/2026: produção das regras da NT 2025.002 v1.53 (devolução, monofásico) e da NT 2026.006 (vínculo NF-e x split payment)",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=7xf05PpO4Z0=",
+  "em": "2026-10-30-noturna"
+ },
+ {
+  "secao": "pendencias",
+  "tipo": "alterado",
+  "descricao": "Split payment avançou: NT 2026.006 define como vincular a NF-e à transação de pagamento; liquidação segue sem regra",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=7xf05PpO4Z0=",
+  "em": "2026-10-30-noturna"
+ },
+ {
   "secao": "linha_do_tempo",
   "tipo": "incluido",
   "descricao": "MEI poderá usar a DASN-Simei como nota fiscal nas vendas a consumidor pessoa física a partir de 01/01/2027 (Decreto 13.140 e Res. CGSN 195)",

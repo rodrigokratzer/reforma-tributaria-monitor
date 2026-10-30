@@ -21,6 +21,12 @@
    "nota": "Ato Conjunto nº 4/2026"
   },
   {
+   "rotulo": "NF-e: novas regras de devolução e leiaute monofásico de combustíveis em produção",
+   "data": "2026-11-16",
+   "status": "warning",
+   "nota": "NT 2025.002 v1.53 (Ato Técnico Conjunto nº 10). A VC02-14 (devolução referenciada) segue marcada para 03/11; vínculo com split payment (NT 2026.006, opcional) entra na mesma data"
+  },
+  {
    "rotulo": "Cancelamento da opção pelo regime regular do IBS/CBS (quem saiu do Simples)",
    "data": "2026-12-20",
    "status": "warning",
@@ -60,7 +66,7 @@
   },
   {
    "item": "Regulamentação operacional do split payment",
-   "situacao": "Os Atos Técnicos Conjuntos RFB/CGIBS nº 4/2026 (habilitação de participantes e redes) e nº 5/2026 (operação, integração, tempos e segurança) já detalham como bancos, adquirentes e processadoras se habilitam a operar a Plataforma Pública do Split Payment. Falta regulamentar a liquidação em si — como e quando o valor do imposto é retido e repassado.",
+   "situacao": "Os Atos Técnicos Conjuntos RFB/CGIBS nº 4/2026 (habilitação de participantes e redes) e nº 5/2026 (operação, integração, tempos e segurança) detalham como bancos e processadoras se habilitam. A NT 2026.006 v1.01 (30/10) define como o emissor vincula a NF-e à transação de pagamento (grupo YC e evento 110300), com campos opcionais em 2026 e produção em 16/11. Falta regulamentar a liquidação em si e o cronograma de ativação em 2027.",
    "prazo": null,
    "status": "warning"
   },
@@ -277,6 +283,11 @@
    "data": "2026-11-15",
    "titulo": "DeRE — eventos periódicos mensais",
    "detalhe": "Primeira entrega cobrindo os dados de outubro/2026."
+  },
+  {
+   "data": "2026-11-16",
+   "titulo": "NF-e: produção das regras da NT 2025.002 v1.53 e da NT 2026.006",
+   "detalhe": "Devolução pode referenciar a nota original no cabeçalho (uma só) ou no item; novo leiaute monofásico de combustíveis; campos e evento de vínculo da NF-e com a transação do split payment, opcionais até a ativação em 2027."
   },
   {
    "data": "2026-12-01",

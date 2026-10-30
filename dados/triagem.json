@@ -44,6 +44,11 @@
   "motivo": "homologação de eleição de administrador de seguradora, sem relação com a reforma",
   "em": "2026-10-14-matinal"
  },
+ "02d75ebcfe6a4d4c": {
+  "veredito": "relevante",
+  "motivo": "cClassTrib 1.71: ajustes de texto e indicador DIR para 410003 e 410999",
+  "em": "2026-10-30-noturna"
+ },
  "036649dd229c570a": {
   "veredito": "contexto",
   "motivo": "Resolução CGIBS nº 11 adota marco regulatório de licitações do órgão",
@@ -98,6 +103,11 @@
   "veredito": "ruido",
   "motivo": "Fragmento do modelo de comprovante cadastral do CNPJ, sem conteúdo próprio",
   "em": "retroativa-2026-09-30"
+ },
+ "073ccb514bc84791": {
+  "veredito": "ruido",
+  "motivo": "Prorroga a exploração da Lotex pela Caixa; sem relação com a reforma do consumo",
+  "em": "2026-10-30-noturna"
  },
  "07c1cc817e9663b8": {
   "veredito": "ruido",
@@ -793,6 +803,11 @@
   "veredito": "ruido",
   "motivo": "Regras de loteria (Dia de Sorte), sem relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
+ },
+ "3b0b3ceada3a9dc2": {
+  "veredito": "relevante",
+  "motivo": "NT 2025.002 v1.53: nova regra de referência na NF-e de devolução e leiaute monofásico, produção em 16/11",
+  "em": "2026-10-30-noturna"
  },
  "3b5eef4bfe1d0305": {
   "veredito": "contexto",
@@ -1514,6 +1529,11 @@
   "motivo": "retificação de data em ato declaratório executivo da RFB, sem relação com a reforma",
   "em": "2026-09-30-matinal"
  },
+ "705e52a5edd7658d": {
+  "veredito": "contexto",
+  "motivo": "Aviso do Portal NF-e sobre a publicação do Ato Técnico Conjunto nº 10",
+  "em": "2026-10-30-noturna"
+ },
  "7086b7bc2c6a7b83": {
   "veredito": "ruido",
   "motivo": "Não incidência de PIS/Cofins sobre crédito presumido de ICMS no regime cumulativo",
@@ -2024,6 +2044,11 @@
   "motivo": "contrato de crédito de R$ 950 mi da União para instalar o CGIBS; financiamento interno do órgão, sem efeito para o contribuinte",
   "em": "2026-10-28-noturna"
  },
+ "a0a808adc0692dcd": {
+  "veredito": "contexto",
+  "motivo": "PDF do Ato Técnico Conjunto nº 10, já analisado no turno matinal a partir do DOU",
+  "em": "2026-10-30-noturna"
+ },
  "a1de5acf2bf8891e": {
   "veredito": "contexto",
   "motivo": "Portaria CGIBS sem indicação do assunto no título",
@@ -2373,6 +2398,11 @@
   "veredito": "ruido",
   "motivo": "limite de certificados de ressarcimento ao SUS",
   "em": "2026-10-30-matinal"
+ },
+ "be3f7ce88160b403": {
+  "veredito": "relevante",
+  "motivo": "NT 2026.006: vínculo NF-e x transação do split payment (grupo YC, evento 110300), opcional em 2026",
+  "em": "2026-10-30-noturna"
  },
  "bf2c5ce11186b3bd": {
   "veredito": "relevante",

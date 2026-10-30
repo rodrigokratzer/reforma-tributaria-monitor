@@ -1,13 +1,13 @@
 {
  "data": "2026-10-30",
- "turno": "matinal",
+ "turno": "noturna",
  "situacao": "publicada",
  "acoes": 1,
- "gerado_em": "2026-10-30T08:05:09Z",
- "resumo_curto": "60 atos do DOU (21 a 29/10), 4 relevantes; 1 exige ação: MEI dispensado de nota na venda a PF em 2027",
+ "gerado_em": "2026-10-30T20:04:13Z",
+ "resumo_curto": "6 itens, 3 relevantes; 1 exige ação: NF-e de devolução muda regra de referência, rejeição a partir de 03/11 e 16/11",
  "painel_atualizado": [
-  "MEI poderá usar a DASN-Simei como nota fiscal nas vendas a consumidor pessoa física a partir de 01/01/2027 (Decreto 13.140 e Res. CGSN 195)",
-  "ANA orienta agências de saneamento a homologar até 15/11 tabelas de água e esgoto sem PIS/Cofins (Res. ANA 307)",
-  "Ato Técnico Conjunto nº 10 aprova a NT 2026.005 (DF-e do Simples Nacional) e a tabela cClassTrib 1.71"
+  "NF-e: novas regras de devolução e leiaute monofásico de combustíveis entram em produção em 16/11/2026 (NT 2025.002 v1.53)",
+  "16/11/2026: produção das regras da NT 2025.002 v1.53 (devolução, monofásico) e da NT 2026.006 (vínculo NF-e x split payment)",
+  "Split payment avançou: NT 2026.006 define como vincular a NF-e à transação de pagamento; liquidação segue sem regra"
  ]
 }
