@@ -1,0 +1,118 @@
+PORTARIA SEMC/MF Nº 3.199, DE 28 DE OUTUBRO DE 2026
+Dispõe sobre as etapas de implementação das obrigações de submissão do plano de monitoramento e do efetivo processo de mensuração, relato e verificação - MRV de emissões de gases de efeito estufa - GEE do Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa - SBCE.
+A SECRETÁRIA EXTRAORDINÁRIA DO MERCADO DE CARBONO, no uso das atribuições que lhe confere o art. 8º, caput, inciso II, da Lei nº 15.042, de 11 de dezembro de 2024, combinado com o art. 60-A do Anexo I ao Decreto nº 11.907, de 30 de janeiro de 2024, e tendo em vista o disposto no art. 2º, caput, incisos XVIII e XXIII, no art. 29, incisos I e II, e nos arts. 30, 31 e 32 da Lei nº 15.042, de 11 de dezembro de 2024, resolve:
+Art. 1º Esta Portaria dispõe sobre as etapas de implementação das obrigações de submissão do plano de monitoramento e de efetivo processo de mensuração, relato e verificação - MRV de emissões de gases de efeito estufa - GEE, doravante denominadas obrigações de MRV do Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa - SBCE, de que trata a Lei nº 15.042, de 11 de dezembro de 2024.
+Art. 2º Cada etapa de implementação das obrigações de MRV conterá a seguinte sequência de ações:
+I - primeiro ano (A1): submissão do plano de monitoramento ao órgão gestor do SBCE para análise e aprovação;
+II - segundo ano (A2): mensuração das emissões e remoções de GEE ao longo do ano-calendário corrente, nos termos do plano de monitoramento aprovado; e
+III - terceiro ano (A3) e anos subsequentes: mensuração das emissões e remoções de GEE ao longo do ano-calendário corrente, nos termos do plano de monitoramento aprovado, e submissão ao órgão gestor do SBCE do relatório de emissões e remoções de GEE verificado, referente às emissões e remoções do ano-calendário anterior.
+Parágrafo único. Ato específico do órgão gestor disciplinará o conteúdo mínimo, o formato de apresentação de informações, bem como os prazos e procedimentos para a submissão do Plano de Monitoramento e do Relatório de Emissões e Remoções verificado, com antecedência mínima de cento e cinquenta dias da data do início das respectivas obrigações.
+Art. 3º A implementação das obrigações de MRV será dividida em três etapas para escalonamento gradual da cobertura dos setores econômicos, observada a seguinte estrutura:
+I - Etapa 1 (A1 em 2027): alumínio, ferro e aço (usinas integradas), cimento, exploração e produção de petróleo e gás natural, indústria química (fabricação de ácido adípico, ácido fosfórico, ácido nítrico, amônia, eteno, dicloroetano, cloreto de vinila, negro de carbono/negro de fumo), mineração (minério de ferro e bauxita), papel e celulose e vidro;
+II - Etapa 2 (A1 até 2029): cerâmica, ferro e aço (usinas semi-integradas), indústria química (demais produtos), indústria de alimentos e bebidas, mineração (demais substâncias minerais), refino de petróleo e setor elétrico; e
+III - Etapa 3 (A1 até 2031): transporte aquaviário, transporte ferroviário e transporte rodoviário.
+§ 1º Os setores econômicos referidos nos incisos I a III do caput são identificados de acordo com os códigos da Classificação Nacional de Atividades Econômicas - CNAE previstos nos Anexos I, II e III a esta Portaria.
+§ 2º A referência aos códigos CNAE para identificar os setores econômicos nas etapas previstas nos incisos I a III do caput não acarreta, por si só, a sujeição de todas as atividades econômicas neles compreendidas às obrigações de MRV.
+§ 3º Compete ao órgão gestor definir, em regulamentação específica, as fontes, instalações e atividades reguladas, observadas as especificidades dos procedimentos de MRV aplicáveis a cada setor.
+Art. 4º As obrigações de MRV do setor de transporte aéreo no âmbito do SBCE serão cumpridas nos termos da regulamentação da Agência Nacional de Aviação Civil - ANAC sobre mensuração, relato e verificação de emissões do Programa Nacional de Combustível Sustentável de Aviação - ProBioQAV, de que trata o Capítulo III da Lei nº 14.993, de 8 de outubro de 2024.
+Parágrafo único. O alinhamento de que trata o caput deverá incorporar mecanismos de interoperabilidade de informações entre a ANAC e o órgão gestor do SBCE e não dispensa o atendimento aos requisitos previstos na Lei nº 15.042, de 2024, e na regulamentação do SBCE.
+Art. 5º Esta Portaria entra em vigor na data de sua publicação.
+CRISTINA FRÓES DE BORJA REIS
+ANEXO IRelação de CNAEs para os setores econômicos cobertos pelo SBCE na Etapa 1 (CNAE 2.3) a
+Setor
+Código CNAE
+B - Indústrias extrativas
+Exploração e produção de petróleo e gás Natural
+06.00-0/01 Extração de petróleo e gás natural
+Mineração
+(ferro)
+07.10-3/01 Extração de minério de ferro
+07.10-3/02 Pelotização, sinterização e outros beneficiamentos de minério de ferro
+Mineração
+(bauxita)
+07.21-9/01 Extração de minério de alumínio
+07.21-9/02 Beneficiamento de minério de alumínio
+C - Indústrias de transformação
+Papel e celulose
+17.10-9/00 Fabricação de celulose e outras pastas para a fabricação de papel
+17.21-4/00 Fabricação de papel
+17.22-2/00 Fabricação de cartolina e papel-cartão
+Indústria química
+20.12-6/00 Fabricação de intermediários para fertilizantes
+20.21-5/00 Fabricação de produtos petroquímicos básicos
+20.22-3/00 Fabricação de intermediários para plastificantes, resinas e fibras
+20.29-1/00 Fabricação de produtos químicos orgânicos não especificados anteriormente
+20.31-2/00 Fabricação de resinas termoplásticas
+Vidro
+23.11-7/00 Fabricação de vidro plano e de segurança
+23.12-5/00 Fabricação de embalagens de vidro
+23.19-2/00 Fabricação de artigos de vidro
+Cimento
+23.20-6/00 Fabricação de cimento
+Ferro e aço
+19.10-1/00 Coquerias b
+24.1 Produção de ferro-gusa e de ferroligas c
+24.2 Siderurgia c
+Alumínio
+24.41-5/01 Produção de alumínio e suas ligas em formas primárias
+24.41-5/02 Produção de laminados de alumínio
+a - Será considerada a atividade regulada exercida na instalação ou pelo conjunto de fontes móveis, ainda que essa atividade corresponda a código CNAE secundário do estabelecimento.
+b - Inclui somente as coquerias integradas ao processo de produção da siderurgia.
+c - Inclui apenas instalações siderúrgicas integradas que realizem, no mesmo estabelecimento ou complexo industrial a redução do minério de ferro para produção de ferro-gusa e a produção de aço líquido.
+ANEXO IIRelação de CNAEs para os setores econômicos cobertos pelo SBCE na Etapa 2 (CNAE 2.3) a
+Setor
+Código CNAE
+Mineração
+05.00-3/01 Extração de carvão mineral
+05.00-3/02 Beneficiamento de carvão mineral
+B - Indústrias extrativas
+Minerais não ferrosos
+07.22-7 Extração de minério de estanho
+07.23-5 Extração de minério de manganês
+07.24-3 Extração de minério de metais preciosos
+07.25-1 Extração de minerais radioativos
+07.29-4 Extração de minerais metálicos não ferrosos não especificados anteriormente
+Mineração não metálicos
+08.10-0 Extração de pedra, areia e argila
+08.91-6 Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos
+08.92-4 Extração e refino de sal marinho e sal-gema
+08.93-2 Extração de gemas (pedras preciosas e semipreciosas)
+08.99-1 Extração de minerais não metálicos não especificados anteriormente
+C - Indústrias de transformação
+Indústria de alimentos e bebidas
+10 Fabricação de produtos alimentícios
+11 Fabricação de bebidas
+Refino de petróleo
+19.21-7/00 Fabricação de produtos do refino de petróleo
+Cerâmica
+23.41-9 Fabricação de produtos cerâmicos refratários
+23.42-7 Fabricação de produtos cerâmicos não refratários para uso estrutural na construção
+23.49-4 Fabricação de produtos cerâmicos não refratários não especificados anteriormente
+Indústria química
+20.11-8 Fabricação de cloro e álcalis
+20.13-4 Fabricação de adubos e fertilizantes
+20.14-2 Fabricação de gases industriais
+20.19-3 Fabricação de produtos químicos inorgânicos não especificados anteriormente
+Ferro e aço
+24.1 Produção de ferro-gusa e de ferroligas b
+24.2 Siderurgia b
+D - Eletricidade e gás
+Setor elétrico
+35.11-5 Geração de energia elétrica
+35.12-3 Transmissão de energia elétrica
+35.14-0 Distribuição de energia elétrica
+a - Será considerada a atividade regulada exercida na instalação ou pelo conjunto de fontes móveis, ainda que essa atividade corresponda a código CNAE secundário do estabelecimento.
+b - Inclui apenas instalações siderúrgicas semi-integradas que que produzam aço a partir de sucata metálica e ferro-gusa adquirido de terceiros.
+ANEXO III Relação de CNAEs para os setores econômicos cobertos pelo SBCE na Etapa 3 (CNAE 2.3) a
+Setor
+Código CNAE
+H - Transporte, armazenagem e correio
+Transporte ferroviário
+49.1 Transporte ferroviário e metroferroviário
+Transporte rodoviário
+49.2 Transporte rodoviário de passageiros
+Transporte rodoviário
+49.3 Transporte rodoviário de carga
+Transporte aquaviário
+50 Transporte aquaviário
+a - Será considerada a atividade regulada exercida na instalação ou pelo conjunto de fontes móveis, ainda que essa atividade corresponda a código CNAE secundário do estabelecimento.

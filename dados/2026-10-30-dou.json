@@ -1,0 +1,283 @@
+{
+ "data": "2026-10-30",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "leiturajornal",
+   "http_status": null,
+   "erro": null,
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
+   "total": 21,
+   "itens": [
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 208, DE 22 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-208-de-22-de-outubro-de-2026-741103961",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
+     "ementa": "SOLUÇÃO DE CONSULTA Nº 208, DE 22 DE OUTUBRO DE 2026 Assunto: Imposto sobre a Renda de Pessoa Jurídica - IRPJ DESPESAS COM ROYALTIES PELO USO DE MARCA. LUCRO REAL. DEDUTIBILIDADE. PAGAMENTO A PESSOA JURÍDICA NÃO INTEGRANTE DO QUADRO SOCIETÁRIO, COM SÓCIOS PESSOAS FÍSICAS EM COMUM. ALCANCE DO ART. 36",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 742, DE 27 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-742-de-27-de-outubro-de-2026-741172556",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 742, DE 27 DE OUTUBRO DE 2026 Prorroga o prazo para adesão às transações de créditos tributários em contencioso administrativo fiscal de que tratam o Edital de Transação nº 9, de 13 de julho de 2026, e o Edital de Transação nº 10, de 13 de julho de 2026. O SECRETÁRIO ESPECIAL DA RECE",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.187, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.187-de-28-de-outubro-de-2026-741161032",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.187, DE 28 DE OUTUBRO DE 2026 Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos II e II.B do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execuç",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.186, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.186-de-28-de-outubro-de-2026-741161864",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.186, DE 28 DE OUTUBRO DE 2026 Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos II e II.B do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execuç",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO HOMOLOGATÓRIA Nº 3.616, DE 27 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-homologatoria-n-3.616-de-27-de-outubro-de-2026-741103804",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério de Minas e Energia/Agência Nacional de Energia Elétrica/Diretoria Colegiada",
+     "ementa": "RESOLUÇÃO HOMOLOGATÓRIA Nº 3.616, DE 27 DE OUTUBRO DE 2026 Aprova o Edital do Leilão nº 5/2026-ANEEL (Leilão de Reserva de Capacidade na forma de Potência de 2026 - Armazenamento Nacional), destinado à contratação de Potência Elétrica proveniente de novo SAE, e estabelece as TUSDg de referência para",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 114, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-114-de-28-de-outubro-de-2026-741099565",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE/ICMS Nº 114, DE 28 DE OUTUBRO DE 2026 Altera os Anexos II e IV do Ato COTEPE/ICMS nº 43, de 27 de abril de 2023, que estabelece os requisitos e relaciona os contribuintes beneficiados pelo diferimento previsto no Convênio ICMS nº 199/22 e no Convênio ICMS nº 15/23, e a suspensão para arma",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.162, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.162-de-28-de-outubro-de-2026-741171398",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.162, DE 28 DE OUTUBRO DE 2026 Altera a Portaria MF nº 1.184, de 3 de outubro de 2023, que institui o Programa de Integridade do Ministério da Fazenda - FAZ INTEGRIDADE e cria o Comitê Gestor da Integridade - CGI. O MINISTRO DE ESTADO DA FAZENDA, no uso das atribuições que lhe confer",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.188, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.188-de-28-de-outubro-de-2026-741113940",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.188, DE 28 DE OUTUBRO DE 2026 Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos II e II.B do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execuç",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.191, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.191-de-28-de-outubro-de-2026-741099162",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.191, DE 28 DE OUTUBRO DE 2026 Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos II, II.A, II.B, II.C, III e III.A do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelec",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CVM/PTE/Nº 246, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cvm/pte/n-246-de-28-de-outubro-de-2026-741175347",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Secretaria-Executiva",
+     "ementa": "PORTARIA CVM/PTE/Nº 246, DE 28 DE OUTUBRO DE 2026 O PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS, sando das atribuições que lhe são conferidas pelo art. 7º do Regimento Interno aprovado pela Resolução CVM nº 24, de 5 de março de 2021, resolve: Art. 1º Prorrogar por 45 (quarenta e cinco) dias o praz",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO HOMOLOGATÓRIA Nº 3.617, DE 27 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-homologatoria-n-3.617-de-27-de-outubro-de-2026-741164754",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério de Minas e Energia/Agência Nacional de Energia Elétrica/Diretoria Colegiada",
+     "ementa": "RESOLUÇÃO HOMOLOGATÓRIA Nº 3.617, DE 27 DE OUTUBRO DE 2026 Aprova o Edital do Leilão nº 6/2026-ANEEL (Leilão de Reserva de Capacidade na forma de Potência de 2026 - Armazenamento), destinado à contratação de Potência Elétrica proveniente de novo SAE, e estabelece as TUSDg de referência para os SAEs ",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA PRFN2/MF Nº 3.172, de 27 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-prfn2/mf-n-3.172-de-27-de-outubro-de-2026-741163059",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Procuradoria-Geral da Fazenda Nacional/Procuradoria Regional da Fazenda Nacional na 2ª Região",
+     "ementa": "PORTARIA PRFN2/MF Nº 3.172, de 27 DE OUTUBRO DE 2026 Anula certidão de regularidade fiscal. A PROCURADORA REGIONAL DA FAZENDA NACIONAL NA 2ª REGIÃO, no uso das atribuições que lhe foram conferidas pelo art. 86 do Regimento Interno da Procuradoria-Geral da Fazenda Nacional, aprovado pela Portaria MF ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.192, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.192-de-28-de-outubro-de-2026-741176058",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.192, DE 28 DE OUTUBRO DE 2026 Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos II, II.B, III, VI e VII do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronog",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.193, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.193-de-28-de-outubro-de-2026-741175426",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.193, DE 28 DE OUTUBRO DE 2026 Divulga o resultado das Metas Globais da Avaliação de Desempenho Institucional do Ministério da Fazenda relativo ao ciclo de 1º de outubro de 2025 a 30 de setembro 2026. O MINISTRO DE ESTADO DA FAZENDA, no uso das atribuições que lhe foram conferidas pe",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.190, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.190-de-28-de-outubro-de-2026-741168028",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.190, DE 28 DE OUTUBRO DE 2026 Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos IV e V do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execução ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.189, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.189-de-28-de-outubro-de-2026-741112710",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.189, DE 28 DE OUTUBRO DE 2026 Altera, mediante antecipação e remanejamento, os valores autorizados para pagamento de que tratam os Anexos II, II.B, III, III.A, III.B e VI do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, esta",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 115, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-115-de-28-de-outubro-de-2026-741175979",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE/ICMS Nº 115, DE 28 DE OUTUBRO DE 2026 Altera o Ato COTEPE/ICMS nº 25, de 7 de junho de 2021, que divulga relação de contribuintes do ICMS, autores da encomenda e industrializadores, credenciados pelas unidades federadas para usufruírem do tratamento diferenciado previsto no Ajuste SINIEF ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO TÉCNICO CONJUNTO RFB/SUFIS/CGIBS/DIRETORIA-EXECUTIVA Nº 10, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-tecnico-conjunto-rfb/sufis/cgibs/diretoria-executiva-n-10-de-28-de-outubro-de-2026-741177669",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Subsecretaria de Fiscalização",
+     "ementa": "ATO TÉCNICO CONJUNTO RFB/SUFIS/CGIBS/DIRETORIA-EXECUTIVA Nº 10, DE 28 DE OUTUBRO DE 2026 Dispõe sobre a aprovação conjunta da Secretaria Especial da Receita Federal do Brasil (RFB) e do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) da documentação técnica dos documentos fiscais que especifi",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "INSTRUÇÃO NORMATIVA RFB Nº 2.346, DE 13 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/instrucao-normativa-rfb-n-2.346-de-13-de-outubro-de-2026-741177416",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "INSTRUÇÃO NORMATIVA RFB Nº 2.346, DE 13 DE OUTUBRO DE 2026 Dispõe sobre programa de autorregularização de débito tributário administrado pela Secretaria Especial da Receita Federal do Brasil, disponibilizado aos contribuintes detentores do Selo Confia e do Selo Sintonia. O SECRETÁRIO ESPECIAL DA REC",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 743, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-743-de-28-de-outubro-de-2026-741177179",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 743, DE 28 DE OUTUBRO DE 2026 Altera a Portaria RFB nº 200, de 18 de julho de 2022, que dispõe sobre a administração e a destinação de mercadorias apreendidas no âmbito da Secretaria Especial da Receita Federal do Brasil. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA SEMC/MF Nº 3.199, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-semc/mf-n-3.199-de-28-de-outubro-de-2026-741116457",
+     "data": "2026-10-29",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Extraordinária do Mercado de Carbono",
+     "ementa": "PORTARIA SEMC/MF Nº 3.199, DE 28 DE OUTUBRO DE 2026 Dispõe sobre as etapas de implementação das obrigações de submissão do plano de monitoramento e do efetivo processo de mensuração, relato e verificação - MRV de emissões de gases de efeito estufa - GEE do Sistema Brasileiro de Comércio de Emissões ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 2867,
+    "forte": 3,
+    "revisar": 18,
+    "baixados": 274,
+    "falhas_download": 0,
+    "duplicados": 0,
+    "sem_edicao": [
+     "2026-10-30 DO1: sem materias",
+     "2026-10-30 DO3: sem materias",
+     "2026-10-30 DO1E: sem materias",
+     "2026-10-30 DO3E: sem materias"
+    ],
+    "erros": []
+   }
+  }
+ ]
+}
