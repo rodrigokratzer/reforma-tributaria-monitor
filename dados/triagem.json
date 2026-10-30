@@ -89,6 +89,11 @@
   "motivo": "Aprova manuais técnicos de habilitação e de redes da Plataforma Pública do Split Payment.",
   "em": "retroativa-2026-09-30"
  },
+ "07076a1c2557d46c": {
+  "veredito": "ruido",
+  "motivo": "remissão da contribuição previdenciária do MEI (LC 238); fora da reforma do consumo",
+  "em": "2026-10-30-matinal"
+ },
  "0711ec70c43972f5": {
   "veredito": "ruido",
   "motivo": "Fragmento do modelo de comprovante cadastral do CNPJ, sem conteúdo próprio",
@@ -108,6 +113,11 @@
   "veredito": "ruido",
   "motivo": "Altera regras dos fundos Eco Invest; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "08f66b93d2511e9b": {
+  "veredito": "ruido",
+  "motivo": "PGFN anula certidão de regularidade fiscal",
+  "em": "2026-10-30-matinal"
  },
  "09e53b49df5e3416": {
   "veredito": "ruido",
@@ -133,6 +143,16 @@
   "veredito": "ruido",
   "motivo": "homologação de eleição de administradores da Mapfre Vida, sem relação com a reforma",
   "em": "2026-10-01-matinal"
+ },
+ "0dac41c9645bdbcf": {
+  "veredito": "ruido",
+  "motivo": "RFB disponibiliza cópia do LCDPR",
+  "em": "2026-10-30-matinal"
+ },
+ "0ebcdda028c1166d": {
+  "veredito": "ruido",
+  "motivo": "programação orçamentária e financeira do Executivo",
+  "em": "2026-10-30-matinal"
  },
  "0f735c90ef1d87ab": {
   "veredito": "ruido",
@@ -269,10 +289,20 @@
   "motivo": "balanço financeiro interno do CGIBS, ato de governança",
   "em": "retroativa-2026-09-30"
  },
+ "17c0a58084b6ddf6": {
+  "veredito": "ruido",
+  "motivo": "MinC homologa captação de projetos culturais; \"IBS\" é nome de instituto",
+  "em": "2026-10-30-matinal"
+ },
  "189ddf2cfc32ed1b": {
   "veredito": "contexto",
   "motivo": "página de serviço para adesão ao piloto da CBS, sem prazo ou mudança nova indicada",
   "em": "retroativa-2026-09-30"
+ },
+ "18d40cafee1e7592": {
+  "veredito": "ruido",
+  "motivo": "Aneel aprova edital de leilão de armazenamento de energia",
+  "em": "2026-10-30-matinal"
  },
  "196edd57d8574a84": {
   "veredito": "ruido",
@@ -314,6 +344,11 @@
   "motivo": "regime de caixa deixa de ser usado na apuração do Simples Nacional",
   "em": "retroativa-2026-09-30"
  },
+ "1c639d2028b7c93e": {
+  "veredito": "ruido",
+  "motivo": "etapas de MRV do mercado de carbono (SBCE)",
+  "em": "2026-10-30-matinal"
+ },
  "1cbd2e2b3251ae89": {
   "veredito": "ruido",
   "motivo": "Homologa eleição de administradores de seguradora (MAPFRE Seguros Gerais); sem relação com a reforma do consumo",
@@ -328,6 +363,11 @@
   "veredito": "ruido",
   "motivo": "Solucao de consulta sobre tratado Brasil-Franca e premios de resseguro, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "1dd44f61f7a32643": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa cadastro de resseguradora eventual",
+  "em": "2026-10-30-matinal"
  },
  "1e1899d5aab9385e": {
   "veredito": "ruido",
@@ -354,6 +394,11 @@
   "motivo": "altera regra interna da CVM sobre área responsável por processos de normatização, sem relação com a reforma",
   "em": "2026-10-15-matinal"
  },
+ "20e2a3114dc744c7": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta de classificação NCM de mercadorias",
+  "em": "2026-10-30-matinal"
+ },
  "20fb02ef46f6f127": {
   "veredito": "relevante",
   "motivo": "Interpreta arts. 537/540 da LC214 sobre concentracao de PIS/Cofins do etanol em produtor/importador",
@@ -363,6 +408,11 @@
   "veredito": "relevante",
   "motivo": "reforça o prazo de 15/10 para opção pelo Simples 2027, já no painel, com alerta de baixa adesão entre elegíveis",
   "em": "2026-10-13-noturna"
+ },
+ "2120f99de525b700": {
+  "veredito": "ruido",
+  "motivo": "orçamento 2027 do FCVS",
+  "em": "2026-10-30-matinal"
  },
  "212b550eb9ca49df": {
   "veredito": "ruido",
@@ -388,6 +438,11 @@
   "veredito": "ruido",
   "motivo": "programa piloto de testes com DLT/tokenização no mercado de valores mobiliários, sem relação com a reforma",
   "em": "2026-10-15-matinal"
+ },
+ "2275a16dfc199ca7": {
+  "veredito": "ruido",
+  "motivo": "Res. Conjunta BCB/CMN sobre Open Finance",
+  "em": "2026-10-30-matinal"
  },
  "22a0398cd624a9d5": {
   "veredito": "relevante",
@@ -494,6 +549,16 @@
   "motivo": "subvenção econômica ao diesel via MP, sem relação com a reforma do consumo",
   "em": "retroativa-2026-09-30"
  },
+ "27d88d77abb5fced": {
+  "veredito": "ruido",
+  "motivo": "PGFN altera programa Comprei de bens penhorados",
+  "em": "2026-10-30-matinal"
+ },
+ "27fc760c8122a683": {
+  "veredito": "relevante",
+  "motivo": "Res. CGSN 195: DASN-Simei como documento fiscal do MEI na venda a PF a partir de 2027",
+  "em": "2026-10-30-matinal"
+ },
  "2835b5e111aa61dd": {
   "veredito": "ruido",
   "motivo": "solução de consulta sobre retenção de IRRF/CSLL em serviços de manutenção, sem relação com a reforma",
@@ -518,6 +583,11 @@
   "veredito": "relevante",
   "motivo": "Adia regras de validação dos documentos fiscais eletrônicos da reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "29e0a7f4102a5592": {
+  "veredito": "ruido",
+  "motivo": "delegação de competência para credenciar peritos na 7ª RF",
+  "em": "2026-10-30-matinal"
  },
  "2b25652a1dc8aed9": {
   "veredito": "contexto",
@@ -548,6 +618,11 @@
   "veredito": "relevante",
   "motivo": "CGIBS/RFB divulgam endpoints de produção e requisitos técnicos da DeRE",
   "em": "retroativa-2026-09-30"
+ },
+ "2e10ad869ccfa60c": {
+  "veredito": "ruido",
+  "motivo": "destinação de mercadorias apreendidas pela RFB",
+  "em": "2026-10-30-matinal"
  },
  "2e5c646ed7bdca84": {
   "veredito": "contexto",
@@ -613,6 +688,11 @@
   "veredito": "ruido",
   "motivo": "Portaria da Receita sobre trânsito aduaneiro entre aeroportos, sem relação com a reforma",
   "em": "2026-10-02-matinal"
+ },
+ "35df7f90596c6ab7": {
+  "veredito": "ruido",
+  "motivo": "CVM prorroga prazo de grupo de trabalho",
+  "em": "2026-10-30-matinal"
  },
  "36098cf2f4cad454": {
   "veredito": "ruido",
@@ -784,6 +864,16 @@
   "motivo": "Homologa eleição de diretora de corretora de resseguros (Acrisure Brasil); sem relação com a reforma",
   "em": "2026-10-08-matinal"
  },
+ "4246d5f98894ff31": {
+  "veredito": "relevante",
+  "motivo": "Decreto 13.140: dispensa CNPJ e DF-e do nanoempreendedor; DASN-Simei como documento fiscal do MEI",
+  "em": "2026-10-30-matinal"
+ },
+ "426d724f1d1acdbe": {
+  "veredito": "relevante",
+  "motivo": "ANA orienta tabelas de água/esgoto sem PIS/Cofins até 15/11 para entrada da CBS em 2027",
+  "em": "2026-10-30-matinal"
+ },
  "42ac751815c1a522": {
   "veredito": "contexto",
   "motivo": "Decreto estadual indica representantes de RR no Conselho Superior do CGIBS; ato de governança.",
@@ -804,6 +894,11 @@
   "motivo": "Resolução CGIBS sem indicação de conteúdo no título nem ementa",
   "em": "retroativa-2026-09-30"
  },
+ "459368b32eb48112": {
+  "veredito": "ruido",
+  "motivo": "delegação de competência na DRF Santos",
+  "em": "2026-10-30-matinal"
+ },
  "45b3dbc1c2550ae8": {
   "veredito": "ruido",
   "motivo": "página de painel de conformidade da RFB, sem texto ou indício de relação com a reforma",
@@ -813,6 +908,16 @@
   "veredito": "ruido",
   "motivo": "Solucao de consulta sobre presuncao de IRPJ/CSLL em servicos de saude, imposto sobre a renda",
   "em": "retroativa-2026-09-30"
+ },
+ "4663cc3dbc1e48ad": {
+  "veredito": "ruido",
+  "motivo": "Cotepe: credenciamento de contribuintes de gás natural (ICMS)",
+  "em": "2026-10-30-matinal"
+ },
+ "46e6c9b3e8e92806": {
+  "veredito": "ruido",
+  "motivo": "suspensão temporária do Chat RFB na 9ª RF",
+  "em": "2026-10-30-matinal"
  },
  "46fcdd90e8105a88": {
   "veredito": "ruido",
@@ -864,6 +969,11 @@
   "motivo": "atualização cadastral anual de resseguradora eventual, sem relação com a reforma",
   "em": "2026-10-14-matinal"
  },
+ "49452aebda035259": {
+  "veredito": "contexto",
+  "motivo": "ATC RFB/CGIBS 9: organiza 25 GTs paritários; ato interno, já tratado em 26/10",
+  "em": "2026-10-30-matinal"
+ },
  "495a3a6f66d14665": {
   "veredito": "ruido",
   "motivo": "Realocação de cargo comissionado na CVM; ato interno sem relação com a reforma.",
@@ -883,6 +993,11 @@
   "veredito": "ruido",
   "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "4b8a8222d3bc3f83": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta de classificação NCM de alimentos",
+  "em": "2026-10-30-matinal"
  },
  "4c441cc9f992e685": {
   "veredito": "ruido",
@@ -908,6 +1023,11 @@
   "veredito": "ruido",
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "4fed2c45307b76f7": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta de IRPJ sobre royalties",
+  "em": "2026-10-30-matinal"
  },
  "5080bfee4a60a6d2": {
   "veredito": "ruido",
@@ -999,6 +1119,11 @@
   "motivo": "amplia competência de turmas do CARF para julgar recursos de IRRF, sem relação com IBS/CBS/IS",
   "em": "2026-10-21-matinal"
  },
+ "56ea72eb760d1b27": {
+  "veredito": "ruido",
+  "motivo": "programação orçamentária (emendas parlamentares)",
+  "em": "2026-10-30-matinal"
+ },
  "5708b895fdfe02d3": {
   "veredito": "ruido",
   "motivo": "Resolução CNSP altera norma de seguros, sem relação com a reforma",
@@ -1018,6 +1143,11 @@
   "veredito": "ruido",
   "motivo": "Homologa cisao societaria de seguradora, sem relacao com a reforma do consumo",
   "em": "retroativa-2026-09-30"
+ },
+ "57e5f5b49234e3bd": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta de IRRF sobre transporte de gás via gasoduto",
+  "em": "2026-10-30-matinal"
  },
  "585257dce30ab27c": {
   "veredito": "contexto",
@@ -1039,6 +1169,11 @@
   "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
   "em": "2026-10-13-matinal"
  },
+ "5aa5445316ef6f10": {
+  "veredito": "ruido",
+  "motivo": "prorroga adesão a transação no contencioso para 30/12; fora da reforma do consumo",
+  "em": "2026-10-30-matinal"
+ },
  "5af5fcfe04a5fc29": {
   "veredito": "contexto",
   "motivo": "Recebimento de sugestões ao texto-base do Regulamento do IBS; proposta, não norma",
@@ -1048,6 +1183,16 @@
   "veredito": "ruido",
   "motivo": "cadastro de transportadores de gás natural para ICMS atual, não é reforma do consumo",
   "em": "retroativa-2026-09-30"
+ },
+ "5b47f942195e1e90": {
+  "veredito": "relevante",
+  "motivo": "ATC 10 aprova NT 2026.005 (Simples) e novas versões das NTs de DF-e e cClassTrib 1.71",
+  "em": "2026-10-30-matinal"
+ },
+ "5c0aa30619368e72": {
+  "veredito": "ruido",
+  "motivo": "programação orçamentária e financeira do Executivo",
+  "em": "2026-10-30-matinal"
  },
  "5c40107a27866fd1": {
   "veredito": "contexto",
@@ -1063,6 +1208,11 @@
   "veredito": "ruido",
   "motivo": "tabela do RREO (despesas por função/subfunção), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "5d6521a8f254dbb2": {
+  "veredito": "ruido",
+  "motivo": "altera programa de integridade do MF",
+  "em": "2026-10-30-matinal"
  },
  "5df8e5e94768fe9a": {
   "veredito": "ruido",
@@ -1189,6 +1339,11 @@
   "motivo": "página de suporte técnico do Serpro, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "63b189fdd15bd52f": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa destituição de administrador",
+  "em": "2026-10-30-matinal"
+ },
  "64167bdc45d49ab5": {
   "veredito": "ruido",
   "motivo": "atualização cadastral anual de resseguradora (Partner Reinsurance Europe), sem relação com a reforma",
@@ -1219,6 +1374,11 @@
   "motivo": "NFS-e Nacional passa a ser obrigatória para ME/EPP a partir de 01/11/2026",
   "em": "retroativa-2026-09-30"
  },
+ "66f21f2e00aa4280": {
+  "veredito": "ruido",
+  "motivo": "resultado de metas de desempenho institucional do MF",
+  "em": "2026-10-30-matinal"
+ },
  "6737def4c2355a50": {
   "veredito": "ruido",
   "motivo": "Concede gratificação (GTATA) a servidores do Tesouro; sem relação com a reforma.",
@@ -1228,6 +1388,11 @@
   "veredito": "ruido",
   "motivo": "Homologação de eleição de administrador de resseguradora, ato interno",
   "em": "retroativa-2026-09-30"
+ },
+ "674943917f53af97": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre Perse (alíquota zero), sem relação com IBS/CBS",
+  "em": "2026-10-30-matinal"
  },
  "67682560342d76d9": {
   "veredito": "ruido",
@@ -1248,6 +1413,11 @@
   "veredito": "ruido",
   "motivo": "eleição de administradores de seguradora (Banestes), sem relação com a reforma",
   "em": "2026-09-30-matinal"
+ },
+ "67eb07be0c1bc0a4": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta de IRPF sobre pensão alimentícia",
+  "em": "2026-10-30-matinal"
  },
  "680fb13e7cf4ecf4": {
   "veredito": "ruido",
@@ -1354,6 +1524,11 @@
   "motivo": "Convoca CSRF para votar súmulas sobre indébito, IRRF e ITR; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "71c0f15c99620788": {
+  "veredito": "ruido",
+  "motivo": "programação orçamentária e financeira do Executivo",
+  "em": "2026-10-30-matinal"
+ },
  "71d66329b8bacb04": {
   "veredito": "ruido",
   "motivo": "convocação de turma do CARF para votar súmula de IRRF, sem relação com a reforma",
@@ -1363,6 +1538,11 @@
   "veredito": "ruido",
   "motivo": "Designa membros de grupo tecnico de taxonomia sustentavel, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "72e161162cee3dd3": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa eleição de administradores",
+  "em": "2026-10-30-matinal"
  },
  "73d09ad281e3d675": {
   "veredito": "ruido",
@@ -1449,6 +1629,11 @@
   "motivo": "Homologação de eleição de administrador da Itaú Vida e Previdência, sem relação com a reforma.",
   "em": "2026-10-16-matinal"
  },
+ "7f13b340380211a1": {
+  "veredito": "ruido",
+  "motivo": "Susep institui comissão de avaliação de documentos",
+  "em": "2026-10-30-matinal"
+ },
  "7f4975dd2ac6ab24": {
   "veredito": "ruido",
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
@@ -1503,6 +1688,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta sobre RETID (indústria de defesa) e suspensão de IPI, sem relação com IBS/CBS",
   "em": "2026-10-21-matinal"
+ },
+ "83b1c0ffe15022ff": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre imunidade de instituição de educação (IRPJ/previdência)",
+  "em": "2026-10-30-matinal"
  },
  "83e9e219f2d20c74": {
   "veredito": "ruido",
@@ -1639,10 +1829,20 @@
   "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
   "em": "retroativa-2026-09-30"
  },
+ "8f2ce50ef1ad4d68": {
+  "veredito": "ruido",
+  "motivo": "programação orçamentária e financeira do Executivo",
+  "em": "2026-10-30-matinal"
+ },
  "8f30dc79e6f19ffe": {
   "veredito": "contexto",
   "motivo": "Balanço estatístico da RFB sobre opções pelo Simples/IBS/CBS, sem novo prazo ou obrigação",
   "em": "retroativa-2026-09-30"
+ },
+ "8fb7d8a3af43f2d9": {
+  "veredito": "ruido",
+  "motivo": "programação orçamentária e financeira do Executivo",
+  "em": "2026-10-30-matinal"
  },
  "8fd84c50bc7948cc": {
   "veredito": "ruido",
@@ -1669,6 +1869,11 @@
   "motivo": "Tabela de limites equalizáveis anexa à portaria de equalização de juros, sem relação com a reforma",
   "em": "2026-10-02-matinal"
  },
+ "922713fb757d2a57": {
+  "veredito": "ruido",
+  "motivo": "Cotepe: credenciamento Ajuste Sinief 01/21 (ICMS)",
+  "em": "2026-10-30-matinal"
+ },
  "94ff278c2db8ac3b": {
   "veredito": "ruido",
   "motivo": "credenciamento de contribuintes de ICMS (Petrobras) em regime especial atual",
@@ -1683,6 +1888,11 @@
   "veredito": "contexto",
   "motivo": "Portaria CGIBS publica rol de servidores em cooperação mútua; ato interno, sem efeito externo",
   "em": "2026-10-05-noturna"
+ },
+ "970924ab247b6000": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa cadastro de resseguradora eventual",
+  "em": "2026-10-30-matinal"
  },
  "976ae74d5fe31fa3": {
   "veredito": "ruido",
@@ -1714,6 +1924,11 @@
   "motivo": "ajuste de zona primária alfandegária do porto de São Sebastião",
   "em": "retroativa-2026-09-30"
  },
+ "9961d31236492cc8": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta de crédito de PIS/Cofins não cumulativo (ICMS na base)",
+  "em": "2026-10-30-matinal"
+ },
  "997763267d8dd0a8": {
   "veredito": "ruido",
   "motivo": "Homologação cadastral de resseguradora estrangeira (Allianz); sem relação com a reforma.",
@@ -1734,6 +1949,11 @@
   "motivo": "tabela de equalização de juros do Plano Safra, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "9b1f7d3246a788bb": {
+  "veredito": "ruido",
+  "motivo": "programação orçamentária e financeira do Executivo",
+  "em": "2026-10-30-matinal"
+ },
  "9b3a95e4e4daac2c": {
   "veredito": "relevante",
   "motivo": "Ratifica notas técnicas de revisão dos documentos fiscais eletrônicos (DF-e)",
@@ -1743,6 +1963,11 @@
   "veredito": "ruido",
   "motivo": "procedimentos operacionais do porto de São Luís, sem relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
+ },
+ "9b7a99a49946baf7": {
+  "veredito": "ruido",
+  "motivo": "prorroga valor de subvenção econômica (MP 1.391)",
+  "em": "2026-10-30-matinal"
  },
  "9bc3680a941b4138": {
   "veredito": "contexto",
@@ -1814,6 +2039,11 @@
   "motivo": "homologação de reforma de estatuto de resseguradora, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "a2b9d4578d5aacfc": {
+  "veredito": "ruido",
+  "motivo": "PMPF de combustíveis para ICMS",
+  "em": "2026-10-30-matinal"
+ },
  "a342b891a49128b8": {
   "veredito": "ruido",
   "motivo": "credenciamento de contribuintes no Convênio ICMS 49/24, sem relação com a reforma",
@@ -1828,6 +2058,11 @@
   "veredito": "ruido",
   "motivo": "retificação de CNO em ato declaratório da RFB, sem relação com a reforma",
   "em": "2026-10-06-matinal"
+ },
+ "a48b7b480dec5f62": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa eleição de administradores",
+  "em": "2026-10-30-matinal"
  },
  "a4f0cb8d4b8f8065": {
   "veredito": "ruido",
@@ -1879,6 +2114,11 @@
   "motivo": "balanço atualizado de opção pelo Simples Nacional 2027 e pelo regime regular do IBS/CBS",
   "em": "2026-10-06-matinal"
  },
+ "aa82bd6f063c421a": {
+  "veredito": "ruido",
+  "motivo": "Aneel aprova edital de leilão de armazenamento de energia",
+  "em": "2026-10-30-matinal"
+ },
  "ac360ee50b2812a9": {
   "veredito": "contexto",
   "motivo": "ferramenta técnica de validação de NF-e, sem novidade normativa",
@@ -1908,6 +2148,11 @@
   "veredito": "ruido",
   "motivo": "altera o canal Fale Conosco da Receita Federal, sem relação com a reforma",
   "em": "2026-10-07-matinal"
+ },
+ "ae1b672b1a7c7cee": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa eleição de administrador",
+  "em": "2026-10-30-matinal"
  },
  "ae3b2db931dab566": {
   "veredito": "ruido",
@@ -1974,6 +2219,11 @@
   "motivo": "Resolucao CGIBS sobre ampliacao da forca de trabalho, governanca interna do orgao sem efeito externo",
   "em": "retroativa-2026-09-30"
  },
+ "b2dfe3e673a89ccd": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa reforma de estatuto social",
+  "em": "2026-10-30-matinal"
+ },
  "b310b33c1de57d34": {
   "veredito": "ruido",
   "motivo": "Segmentação de fundos de pensão para supervisão; 'CBS' no texto é sigla de entidade, não da reforma.",
@@ -2008,6 +2258,11 @@
   "veredito": "ruido",
   "motivo": "Portaria interna da RFB-3ªRF sobre doação de mercadorias apreendidas (Programa Receita Cidadã); sem relação com a reforma do consumo",
   "em": "2026-10-07-noturna"
+ },
+ "b6786aba4f6700fa": {
+  "veredito": "ruido",
+  "motivo": "habilitação ao Programa Mais Leite Saudável (PIS/Cofins)",
+  "em": "2026-10-30-matinal"
  },
  "b6a00e6806567138": {
   "veredito": "ruido",
@@ -2109,6 +2364,16 @@
   "motivo": "Homologação de eleição de membro de diretoria da HDI Seguros, sem relação com a reforma.",
   "em": "2026-10-16-matinal"
  },
+ "be15d8aa2d9ed0b4": {
+  "veredito": "ruido",
+  "motivo": "Susep regula multa cominatória",
+  "em": "2026-10-30-matinal"
+ },
+ "be2c8fec2b69fa84": {
+  "veredito": "ruido",
+  "motivo": "limite de certificados de ressarcimento ao SUS",
+  "em": "2026-10-30-matinal"
+ },
  "bf2c5ce11186b3bd": {
   "veredito": "relevante",
   "motivo": "anúncio de cronograma para emissão dos documentos fiscais eletrônicos da reforma",
@@ -2163,6 +2428,11 @@
   "veredito": "ruido",
   "motivo": "Homologa eleição de administradores de resseguradora; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "c42c7c0f6af4f8e9": {
+  "veredito": "ruido",
+  "motivo": "Desenrola 3.0: edital de manifestação de interesse",
+  "em": "2026-10-30-matinal"
  },
  "c54f82850b281ffc": {
   "veredito": "ruido",
@@ -2289,6 +2559,11 @@
   "motivo": "Detalha as duas opções (Simples e regime regular do IBS/CBS) já prorrogadas pela Res. CGSN 194",
   "em": "2026-09-30-noturna"
  },
+ "ce94a51a67e68d35": {
+  "veredito": "ruido",
+  "motivo": "IN de autorregularização para selos Confia/Sintonia; tributos federais atuais",
+  "em": "2026-10-30-matinal"
+ },
  "cef7928316316bfe": {
   "veredito": "ruido",
   "motivo": "continuação de tabela de equalização de juros do Plano Safra",
@@ -2363,6 +2638,11 @@
   "veredito": "ruido",
   "motivo": "homologação de eleição de administradores de seguradora, ato interno sem relação com a reforma",
   "em": "2026-10-06-matinal"
+ },
+ "d6169bdabfa79b28": {
+  "veredito": "contexto",
+  "motivo": "ANTT cria GT para avaliar impacto da reforma no equilíbrio de concessões; sem regra ainda",
+  "em": "2026-10-30-matinal"
  },
  "d64fd12b4099a1f5": {
   "veredito": "ruido",
@@ -2453,6 +2733,11 @@
   "veredito": "ruido",
   "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
   "em": "2026-10-13-matinal"
+ },
+ "de67ccd1497cbeae": {
+  "veredito": "ruido",
+  "motivo": "retificação de CNPJ em ADE de benefício fiscal",
+  "em": "2026-10-30-matinal"
  },
  "df07bf363decaecb": {
   "veredito": "relevante",
@@ -2599,10 +2884,20 @@
   "motivo": "Retificação de data de vigência de ato declaratório de habilitação; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "ec86bc5e55502407": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa destituição de administrador",
+  "em": "2026-10-30-matinal"
+ },
  "ecc22551944b3755": {
   "veredito": "ruido",
   "motivo": "Solucao de consulta sobre exclusao do ICMS da base de PIS/Cofins (Tema 69 STF), regra ja consolidada",
   "em": "retroativa-2026-09-30"
+ },
+ "ed511e50ee17dc87": {
+  "veredito": "ruido",
+  "motivo": "Cotepe: diferimento do ICMS monofásico de combustíveis",
+  "em": "2026-10-30-matinal"
  },
  "edfdca59dab1c650": {
   "veredito": "ruido",
@@ -2738,6 +3033,11 @@
   "veredito": "ruido",
   "motivo": "Organiza auditoria interna de PER/DCOMP previdenciário; sem relação com IBS/CBS.",
   "em": "retroativa-2026-09-30"
+ },
+ "f94490624ffecaf6": {
+  "veredito": "ruido",
+  "motivo": "delegação de competência na DRF Santos",
+  "em": "2026-10-30-matinal"
  },
  "f97ad746e5556879": {
   "veredito": "ruido",

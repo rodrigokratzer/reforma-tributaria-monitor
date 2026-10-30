@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-10-29",
+ "atualizado_em": "2026-10-30",
  "prazos_destaque": [
   {
    "rotulo": "Opção pelo regime regular do IBS/CBS para quem sai do Simples — prazo prorrogado",
@@ -239,9 +239,24 @@
    "detalhe": "657.753 solicitações de opção pelo Simples Nacional 2027 (256.607 deferidas, 401.146 indeferidas), prazo já encerrado; 917.331 solicitações de opção pelo regime regular do IBS/CBS."
   },
   {
+   "data": "2026-10-21",
+   "titulo": "Decreto nº 13.140 e Res. CGSN nº 195 — DASN-Simei como documento fiscal do MEI",
+   "detalhe": "MEI pode usar a DASN-Simei como documento fiscal nas vendas a consumidor PF a partir de 01/01/2027. Nanoempreendedor dispensado pela União de CNPJ e DF-e; no IBS, só a partir de 2029 e com aval do CGIBS."
+  },
+  {
+   "data": "2026-10-28",
+   "titulo": "ANA orienta tabelas de água e esgoto sem PIS/Cofins para a entrada da CBS",
+   "detalhe": "Res. ANA nº 307 / NT 40/2026, orientativa: agências devem homologar a tabela desonerada até 15/11/2026; sem isso, tarifa vigente vale como total já com CBS/IBS a partir de 2027."
+  },
+  {
    "data": "2026-10-29",
    "titulo": "Receita Federal: 1 milhão de opções pelo regime regular do IBS/CBS; prazo de 30/10 não será prorrogado",
    "detalhe": "1.000.142 opções pelo regime regular; Simples Nacional 2027 com 299.921 solicitações deferidas e 357.828 indeferidas. Opção pode ser cancelada até 20/12/2026."
+  },
+  {
+   "data": "2026-10-29",
+   "titulo": "Ato Técnico Conjunto nº 10 — NT 2026.005 (Simples Nacional) e cClassTrib 1.71",
+   "detalhe": "Novas versões das notas técnicas de NF-e/NFC-e, CT-e, NFCom, BP-e, NF3e, NFAg, NFGas e NF-e ABI; primeira especificação dos DF-e para optantes do Simples."
   },
   {
    "data": "2026-10-30",
