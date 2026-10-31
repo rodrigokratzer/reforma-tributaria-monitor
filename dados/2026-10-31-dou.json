@@ -1,0 +1,46 @@
+{
+ "data": "2026-10-31",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "leiturajornal",
+   "http_status": null,
+   "erro": null,
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
+   "total": 1,
+   "itens": [
+    {
+     "titulo": "PORTARIA MF Nº 3.213, DE 29 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.213-de-29-de-outubro-de-2026-741178484",
+     "data": "2026-10-30",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.213, DE 29 DE OUTUBRO DE 2026 Prorroga o prazo de exploração da Loteria Instantânea Exclusiva (Lotex) pela Caixa Econômica Federal. O MINISTRO DE ESTADO DA FAZENDA, no uso das atribuições que lhe conferem o art. 87, parágrafo único, incisos I e II, da Constituição Federal, e da comp",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 2,
+    "forte": 0,
+    "revisar": 1,
+    "baixados": 2,
+    "falhas_download": 0,
+    "duplicados": 0,
+    "sem_edicao": [
+     "2026-10-30 DO1: sem materias",
+     "2026-10-30 DO3: sem materias",
+     "2026-10-30 DO3E: sem materias",
+     "2026-10-31 DO1: sem materias",
+     "2026-10-31 DO3: sem materias",
+     "2026-10-31 DO1E: sem materias",
+     "2026-10-31 DO3E: sem materias"
+    ],
+    "erros": []
+   }
+  }
+ ]
+}
