@@ -1,13 +1,1 @@
-{
- "data": "2026-10-30",
- "turno": "noturna",
- "situacao": "publicada",
- "acoes": 1,
- "gerado_em": "2026-10-30T20:04:13Z",
- "resumo_curto": "6 itens, 3 relevantes; 1 exige ação: NF-e de devolução muda regra de referência, rejeição a partir de 03/11 e 16/11",
- "painel_atualizado": [
-  "NF-e: novas regras de devolução e leiaute monofásico de combustíveis entram em produção em 16/11/2026 (NT 2025.002 v1.53)",
-  "16/11/2026: produção das regras da NT 2025.002 v1.53 (devolução, monofásico) e da NT 2026.006 (vínculo NF-e x split payment)",
-  "Split payment avançou: NT 2026.006 define como vincular a NF-e à transação de pagamento; liquidação segue sem regra"
- ]
-}
+{"data": "2026-10-31", "turno": "matinal", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-10-31T08:01:21Z", "resumo_curto": "nenhuma publicação nova"}
