@@ -1,0 +1,34 @@
+{
+ "data": "2026-11-02",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "leiturajornal",
+   "http_status": null,
+   "erro": null,
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
+   "total": 0,
+   "itens": [],
+   "diagnostico": {
+    "lidas": 0,
+    "forte": 0,
+    "revisar": 0,
+    "baixados": 0,
+    "falhas_download": 0,
+    "duplicados": 0,
+    "sem_edicao": [
+     "2026-11-01 DO1: sem materias",
+     "2026-11-01 DO3: sem materias",
+     "2026-11-01 DO1E: sem materias",
+     "2026-11-01 DO3E: sem materias",
+     "2026-11-02 DO1: sem materias",
+     "2026-11-02 DO3: sem materias",
+     "2026-11-02 DO1E: sem materias",
+     "2026-11-02 DO3E: sem materias"
+    ],
+    "erros": []
+   }
+  }
+ ]
+}
