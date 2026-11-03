@@ -1,14 +1,1 @@
-{
- "data": "2026-11-03",
- "turno": "matinal",
- "situacao": "sem_novidade",
- "acoes": 0,
- "gerado_em": "2026-11-03T08:03:22Z",
- "resumo_curto": "9 itens do DOU, nenhum muda prazo ou obrigação da reforma",
- "painel_atualizado": [
-  "Prazo de 30/10 para optar pelo regime regular do IBS/CBS (quem sai do Simples) encerrado; o marco segue na linha do tempo",
-  "Prazo de 31/10 para cooperativas optarem pelo regime específico do IBS/CBS encerrado, sem prorrogação publicada; o marco segue na linha do tempo",
-  "DeRE: primeira entrega dos eventos periódicos mensais (dados de outubro) em 15/11/2026",
-  "Cooperativas: prazo de 31/10 venceu sem ato formal de prorrogação para 30/11 localizado até 03/11"
- ]
-}
+{"data": "2026-11-03", "turno": "noturna", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-11-03T20:02:33Z", "resumo_curto": "nenhuma publicação nova"}
