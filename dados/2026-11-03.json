@@ -476,7 +476,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 9,
+   "total": 8,
    "itens": [
     {
      "titulo": "Mais de 1 milhão de contribuintes já optaram pelo regime regular do IBS e da CBS",
@@ -533,13 +533,6 @@
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
-    },
-    {
-     "titulo": "Receita Federal publica versão.1.3.0 da documentação técnica da DeRE",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-publica-versao-1-3-0-da-documentacao-tecnica-da-dere",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
     }
    ]
   },
@@ -552,6 +545,13 @@
    "erro_browser": null,
    "total": 23,
    "itens": [
+    {
+     "titulo": "Mais de 1 milhão de contribuintes já optaram pelo regime regular do IBS e da CBS",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/mais-de-1-milhao-de-contribuintes-ja-optaram-pelo-regime-regular-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Receita Federal e CGIBS discutem ampliação do prazo de opção pelo regime específico da CBS e do IBS para as cooperativas até 30 de novembro",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-cgibs-discutem-ampliacao-do-prazo-de-opcao-pelo-regime-especifico-da-cbs-e-do-ibs-para-as-cooperativas-ate-30-de-novembro",
@@ -702,13 +702,6 @@
     {
      "titulo": "Receita Federal e Comitê Gestor do IBS divulgarão cronograma para emissão dos documentos fiscais eletrônicos da Reforma Tributária",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-divulgarao-cronograma-para-emissao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Reforma Tributária: Receita Federal e CGIBS aprovam a documentação técnica da segunda fase da DeRE – Balancete Mensal",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/junho/reforma-tributaria-receita-federal-e-cgibs-aprovam-a-documentacao-tecnica-da-segunda-fase-da-dere-2013-balancete-mensal",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
