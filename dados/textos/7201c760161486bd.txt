@@ -1,0 +1,127 @@
+SOLUÇÃO DE CONSULTA Nº 98.347, DE 29 DE SETEMBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM 4016.99.90
+Ex Tipi: sem enquadramento
+Mercadoria: Selo de vedação para rolamentos concebido para impedir a entrada de contaminantes externos, tais como poeira, umidade e partículas sólidas, bem como assegurar a retenção do lubrificante, apresentado na forma de um par de anéis (um para cada lado do rolamento), fabricado predominantemente em borracha sintética vulcanizada, utilizando elastômeros NBR ou EPDM, a depender da aplicação, moldado sobre um reforço metálico para conferir rigidez estrutural, manter a geometria adequada da peça e possibilitar sua correta fixação no canal de assentamento do rolamento.
+Código NCM 8482.99.10
+Mercadoria: Selo de vedação para rolamentos concebido para impedir a entrada de contaminantes externos, tais como poeira, umidade e partículas sólidas, bem como assegurar a retenção do lubrificante, apresentado na forma de um par de anéis (um para cada lado do rolamento), fabricado predominantemente em fluoroelastômero (FKM), moldado sobre um reforço metálico para conferir rigidez estrutural, manter a geometria adequada da peça e possibilitar sua correta fixação no canal de assentamento do rolamento.
+Dispositivos Legais: RGI 1 (Notas 1 a) e 2 b) da Seção XVI), RGI 2 b), RGI 3 b), RGI 6 e RGC 1 da Nomenclatura Comum do Mercosul constante da Tarifa Externa Comum, aprovada pela Resolução Gecex nº 272, de 19 de novembro de 2021, e da Tabela de Incidência do Imposto sobre Produtos Industrializados, aprovada pelo Decreto nº 11.158, de 29 de julho de 2022, e alterações posteriores.
+DANIELLE CARVALHO DE LACERDA
+Presidente da 3ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.348, DE 9 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM 2105.00.10
+Mercadoria: Preparação alimentícia congelada pronta para consumo humano, composta por polpa de açaí, água, xarope de glicose, estabilizante, emulsificante, aromatizante, acidulante e corante, apresentada em pote plástico com volume de 2 L e peso de 1,6 kg.
+Dispositivos Legais: RGI 1 e RGC 1 da NCM constante da TEC, aprovada pela Resolução Gecex nº 272, de 2021, e da Tipi, aprovada pelo Decreto. nº 11.158, de 2022, e alterações posteriores.
+LUIZ HENRIQUE DOMINGUES
+Presidente da 4ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.352, DE 9 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 9402.90.90
+Mercadoria: Maca retrátil para resgate, com rodas, desenhada sob medida para o veículo ao qual se pretende instalá-la, contendo trava de segurança, cintos de segurança com sistema 4 pontas e engates automotivos resistentes, sistema de ancoragem (fixação) completo, com trava traseira passível de regulagem, para instalação em ambulâncias.
+Dispositivos Legais: RGI 1, RGI 6 e RGC 1 da NCM constante na TEC, aprovada pela Resolução Gecex nº 272, de 2021, e na Tipi aprovada pelo Decreto nº 11.158, de 2022; e subsídios extraídos das Nesh, aprovadas pelo Decreto nº 435, de 27 de janeiro de 1992, e atualizadas pela IN RFB nº 2.169, de 2023, e alterações posteriores, e alterações posteriores.
+LUIZ HENRIQUE DOMINGUES
+Presidente da 4ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.361, DE 22 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 8531.80.00
+Mercadoria: Sensor eletrônico inteligente para monitoramento de chaves fusíveis de média tensão em redes aéreas de distribuição de energia elétrica, próprio para detectar a movimentação do cartucho (provocada pelo rompimento do elo fusível) e sinalizar tal evento por meio de LED piscante, além de reportá-lo remotamente à concessionária via radiofrequência.
+É constituído por: placa eletrônica com microcontrolador, acelerômetro, antena, LED e módulos de comunicação sem fio (protocolos LoRaWAN, LTE-M, NB-IoT e BLE); supercapacitor; minipainel solar; e invólucro em material polimérico.
+Dispositivos Legais: RGI 1 (Nota 3 da Seção XVI) e RGI 6 da TEC, aprovada pela Res. Gecex nº 272, de 2021, e da Tipi, aprovada pelo Dec. nº 11.158, de 2022; e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela IN RFB nº 2.169, de 2023, e alterações posteriores.
+MARCO ANTÔNIO RODRIGUES CASADO
+Presidente da 5ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.362, DE 22 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 8517.62.41
+Mercadoria: Roteador digital para rede sem fio (Wi-Fi), com modem de tecnologia celular integrado (LTE), próprio para ser instalado numa máquina agrícola, permitindo a comunicação bidirecional de dados entre um sistema central de gestão e os dispositivos embarcados na máquina.
+Dispositivos Legais: RGI 1, RGI 6 e RGC 1 (Nota 3 da Seção XVI) da TEC, aprovada pela Res. Gecex nº 272, de 2021, e da Tipi, aprovada pelo Dec. nº 11.158, de 2022; e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela IN RFB nº 2.169, de 2023, e alterações posteriores.
+MARCO ANTÔNIO RODRIGUES CASADO
+Presidente da 5ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.363, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 8526.91.00
+Mercadoria: Aparelho destinado a coletar parâmetros operacionais de veículo automóvel, de três maneiras: obtenção do posicionamento do veículo mediante receptor de GPS incorporado, leitura de dados da ECU do veículo (velocidade, RPM, temperatura, tensão da bateria, entre outros) via interface OBD-II, além da obtenção de dados de eventos tais como colisões mediante acelerômetro incorporado, e transmitir todos esses parâmetros a um servidor remoto por meio de comunicação móvel (GSM/GPRS/2G/4G).
+Dispositivos Legais: RGI 1, RGI 3 c) e RGI 6 da NCM, constantes da Tarifa Externa Comum - TEC, aprovada pela Resolução Gecex nº 272, de 19 de novembro de 2021, e da Tabela de Incidência do Imposto sobre Produtos Industrializados - Tipi, aprovada pelo Decreto nº 11.158, de 29 de julho de 2022, e ainda em subsídios extraídos das Notas Explicativas do Sistema Harmonizado, aprovadas pelo Decreto nº 435, de 1992, e atualizadas pela Instrução Normativa RFB nº 2.169, de 2023.
+CARLOS HUMBERTO STECKEL
+Presidente da 2ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.364, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 8528.59.00
+Mercadoria: Painel de exibição de vídeo que não incorpora aparelho receptor de televisão nem é concebido para ser utilizado com uma máquina automática para processamento de dados, do tipo utilizado para exibição de vídeos com fins comerciais, publicitários ou informativos, próprio para ser instalado em ambientes externos, como fachadas de prédios, pórticos e postes, medindo 500 x 500 mm (resolução de 336 x 336 pixels) ou 500 x 1000 mm (resolução de 336 x 672 pixels), montado em um gabinete que contém 4 ou 8 módulos de LED (250 x 250 mm cada), uma placa controladora/receptora, fonte de alimentação e dispositivos de refrigeração, projetados para uso em conjunto de vários painéis ligados entre si para a montagem de telas de grande formato.
+Dispositivos Legais: RGI 1 e RGI 6 da NCM constante da Tarifa Externa Comum - TEC, aprovada pela Resolução Gecex nº 272, de 19 de novembro de 2021, e da Tabela de Incidência do Imposto sobre Produtos Industrializados - Tipi, aprovada pelo Decreto nº 11.158, de 29 de julho de 2022, e subsídios extraídos das Nesh, aprovadas pelo Decreto nº 435, de 27 de janeiro de 1992 e atualizadas pela Instrução Normativa RFB nº 2.169, de 29 de dezembro de 2023.
+CARLOS HUMBERTO STECKEL
+Presidente da 2ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.365, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 4009.22.90
+Mercadoria: Mangueira industrial de borracha vulcanizada não endurecida, flexível, constituída por um tubo interno de borracha de acrilonitrila-butadieno (NBR, uma borracha sintética), uma camada de reforço contendo arame helicoidal de metal (cobre) e camada externa de borracha NBR, contendo ainda aditivos (como negro de fumo, plastificantes, agentes de vulcanização, aceleradores e antioxidantes), múltiplos trançados têxteis e terminais one-piece tipo NPT compatíveis de aço inoxidável; com pressão de ruptura de 3 MPa; utilizada para transportar fluidos sob pressão menos elevada, como a descarga de produtos de petróleo com conteúdo aromático de até 30%; fornecida a granel com conteúdo de aproximadamente 386.100 kg por lote, apropriada para bitolas traço 6.
+Dispositivos Legais: RGI 1 (Notas 1 e 4 do Cap. 40), RGI 3 b), RGI 6 e RGC 1 da TEC, aprovada pela Res. Gecex nº 272, de 2021, e da Tipi, aprovada pelo Dec. nº 11.158, de 2022; e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela IN RFB nº 2.169, de 2023, e alterações posteriores.
+MARCO ANTÔNIO RODRIGUES CASADO
+Presidente da 5ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.366, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 8516.60.00
+Ex Tipi: Sem enquadramento
+Mercadoria: Forno elétrico de uso doméstico, de embutir, próprio para assar, gratinar e dourar alimentos, dotado de resistências elétricas e sistema de circulação de ar quente, com capacidade de 76 litros e peso líquido de 33 kg.
+Dispositivos Legais: RGI 1 e RGI 6 da NCM, constante da TEC, aprovada pela Resolução Gecex nº 272, de 2021, e da Tipi, aprovada pelo Decreto nº 11.158, de 2022.
+CARLOS HUMBERTO STECKEL
+Presidente da 2ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.367, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 8415.10.11
+Ex Tipi: 01
+Mercadoria: Aparelho de ar-condicionado do tipo split-system, para climatização de ambientes, composto de uma unidade condensadora a ser instalada fora do ambiente e uma unidade evaporadora a ser instalada no interior do ambiente, além de controle remoto, com modelos de capacidade igual a 2.268 frigorias/hora (9.000 BTU) e 3.024 frigorias/hora (12.000 BTU).
+Dispositivos Legais: RGI 1, RGI 6 e RGC 1 da Nomenclatura Comum do Mercosul - NCM, constante da Tarifa Externa Comum - TEC, aprovada pela Resolução Gecex nº 272, de 19 de novembro de 2021, e da e RGC/Tipi 1 da Tabela de Incidência do Imposto sobre Produtos Industrializados - Tipi, aprovada pelo Decreto nº 11.158, de 29 de julho de 2022.
+CARLOS HUMBERTO STECKEL
+Presidente da 2ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.368, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 8536.49.00
+Mercadoria: Relé de nível microcontrolado, para uma tensão superior a 60V, que, operando em conjunto com eletrodos sensores colocados, por exemplo, em um reservatório, em níveis diferentes (inferior e superior), liga e desliga aparelho (por exemplo, uma bomba) responsável por colocar água ou outro líquido nesse reservatório e a manter entre esses dois níveis. Os sensores e cabos de ligação entre eles e o relé não fazem parte do produto.
+Dispositivos Legais: RGI 1 e RGI 6 da Nomenclatura Comum do Mercosul - NCM, constante da Tarifa Externa Comum - TEC, aprovada pela Resolução Gecex nº 272, de 19 de novembro de 2021, e da Tabela de Incidência do Imposto sobre Produtos Industrializados - Tipi, aprovada pelo Decreto nº 11.158, de 29 de julho de 2022, com subsídios extraídos das Notas Explicativas do Sistema Harmonizado - Nesh, aprovadas pelo Decreto nº 435, de 27 de janeiro de 1992 e atualizadas pela Instrução Normativa RFB nº 2.169, de 29 de dezembro de 2023.
+CARLOS HUMBERTO STECKEL
+Presidente da 2ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.369, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 8471.41.00
+Mercadoria: Totem de autoatendimento, constituído de tela sensível ao toque de 32 polegadas, placa-mãe, memória, unidade de armazenamento SSD, impressora térmica, câmera, leitor de cartões do tipo NFC, módulo leitor de QR code e alto-falantes, com sistema operacional instalado, formando corpo único, medindo 1.822 mm (altura) x 520 mm (largura) x 130 mm (profundidade).
+Dispositivos Legais: RGI 1 (texto da Nota 6 A) da Seção XVI) e RGI 6 da Nomenclatura Comum do Mercosul - NCM, constante da Tarifa Externa Comum - TEC, aprovada pela Resolução Gecex nº 272, de 19 de novembro de 2021, e da Tabela de Incidência do Imposto sobre Produtos Industrializados - Tipi, aprovada pelo Decreto nº 11.158, de 29 de julho de 2022.
+CARLOS HUMBERTO STECKEL
+Presidente da 2ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.370, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 7609.00.00
+Mercadoria: Artefato em alumínio, com formato em T, para conexão à extremidade externa do duto de exaustão de aquecedores a gás, que permite que os gases de combustão sejam expelidos de forma segura, evitando a entrada de água da chuva e corpos estranhos no duto, apresentado no comprimento total de 204 ou 395 mm, e diâmetro externo entre 70 e 160 mm; denominado comercialmente chapéu T; comercializado como item avulso.
+Dispositivos Legais: RGI 1 (Nota 3 da Seção XV) da NCM constante da TEC, aprovada pela Res. Gecex nº 272, de 2021, e da Tipi, aprovada pelo Dec. nº 11.158, de 2022; e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela IN RFB nº 2.169, de 2023, e alterações posteriores.
+MARCO ANTÔNIO RODRIGUES CASADO
+Presidente da 5ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.371, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 1901.20.10
+Ex Tipi: sem enquadramento.
+Mercadoria: Massa de pão francês crua, congelada, modelada no formato final, própria para o consumo humano após cocção, composta de farinha de trigo fortificada com ferro e ácido fólico, sal, fermento biológico, açúcar, amido de milho e aditivos (estabilizantes, emulsificantes e melhorador de farinha), com peso unitário de 65 g, embalada em saco plástico contendo 6 kg.
+Dispositivos Legais: RGI 1, RGI 6 e RGC 1, da NCM/SH constante da TEC, aprovada pela Resolução Gecex nº 272/2021, e da Tipi, aprovada pelo Decreto nº 11.158/2022; e subsídios extraídos das Nesh, aprovadas pelo Decreto nº 435, de 1992, e atualizadas pela IN RFB nº 2.169, de 2023, e alterações posteriores.
+MARCO ANTÔNIO RODRIGUES CASADO
+Presidente da 5ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.372, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 3105.10.00
+Ex Tipi: sem enquadramento.
+Mercadoria: Adubo (fertilizante) mineral misto, constituído por hidróxido de potássio, quelato de manganês, sulfato de magnésio, quelato de ferro, quelato de zinco, octaborato de sódio, quelato de cobre e molibdato de sódio, com garantia de fornecimento de 4% de potássio, 3% de manganês, 2,5% de magnésio, 2,5% de ferro, 1,4% de zinco, 1% de boro, 0,8% de cobre e 0,17% de molibdênio; solúvel em água; apresentado na forma de microgrânulos de cor marrom-avermelhada; aplicado na cultura agrícola através de pulverização foliar, fertirrigação ou hidroponia; acondicionado em saco plástico com 1 kg, 3 kg ou 5 kg.
+Dispositivos Legais: RGI 1 (Nota 6 do Cap. 31) e RGI 6 da NCM constante da TEC, aprovada pela Res. Gecex nº 272, de 2021, e da Tipi, aprovada pelo Dec. nº 11.158, de 2022; e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela IN RFB nº 2.169, de 2023, e alterações posteriores.
+MARCO ANTÔNIO RODRIGUES CASADO
+Presidente da 5ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.373, DE 23 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 3824.99.39
+Mercadoria: Preparação constituída por enxofre polimérico insolúvel - CAS nº 9035-99-8 (igual ou superior a 78%), óleo mineral naftênico e alfa-metilestireno - CAS nº 98-83-9, utilizado como agente de vulcanização para borracha (reticulador), apresentada na forma de pó amarelado, embalada em saco de papel com 25 kg ou em big bag com 500 kg.
+Dispositivos Legais: RGI 1, RGI 6 e RGC 1 da NCM constante da TEC, aprovada pela Res. Gecex nº 272, de 2021, e da Tipi, aprovada pelo Dec. nº 11.158, de 2022; e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela IN RFB nº 2.169, de 2023, e alterações posteriores.
+MARCO ANTÔNIO RODRIGUES CASADO
+Presidente da 5ª Turma
+SOLUÇÃO DE CONSULTA Nº 98.374, DE 27 DE OUTUBRO DE 2026
+Assunto: Classificação de Mercadorias
+Código NCM: 2103.90.99
+Mercadoria: Preparação alimentícia de consistência líquida viscosa constituída por água, leite desnatado reconstituído, manteiga, queijo tipo cheddar, amido modificado, aroma natural de cheddar, polifosfato de sódio, pirofosfato tetrassódico, sal, ácido cítrico, goma xantana, corante páprica e outros aditivos, apresentada em embalagem plástica tipo bisnaga, com 1,5 kg, comercialmente denominada molho lácteo com queijo tipo cheddar.
+Dispositivos Legais: RGI 1, RGI 6 e RGC 1 da NCM constante da TEC, aprovada pela Res. Gecex nº 272, de 2021, e da Tipi, aprovada pelo Dec. nº 11.158, de 2022, e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela Instrução Normativa RFB nº 2.169, de 2023, e alterações posteriores.
+CLAUDIA ELENA FIGUEIRA CARDOSO NAVARRO
+Presidente do Comitê
