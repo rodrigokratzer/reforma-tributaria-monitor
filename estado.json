@@ -1,30 +1,24 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-10-30",
+ "atualizado_em": "2026-11-03",
  "prazos_destaque": [
   {
-   "rotulo": "Opção pelo regime regular do IBS/CBS para quem sai do Simples — prazo prorrogado",
-   "data": "2026-10-30",
-   "status": "critical",
-   "nota": "Res. CGSN 194/2026; RFB confirmou em 29/10 que não haverá nova prorrogação. Balanço de 29/10: 1.000.142 opções pelo regime regular; Simples Nacional com 299.921 deferidas e 357.828 indeferidas. Cancelamento da opção possível até 20/12/2026"
-  },
-  {
-   "rotulo": "Opção pelo regime específico do IBS/CBS para cooperativas",
-   "data": "2026-10-31",
+   "rotulo": "DeRE: primeira entrega dos eventos periódicos mensais (dados de outubro/2026)",
+   "data": "2026-11-15",
    "status": "warning",
-   "nota": "Orientação conjunta RFB/CGIBS; inclui envio da listagem de associados. RFB e CGIBS discutem (29/10) ampliar para 30/11, ainda sem ato formal — o prazo vigente segue 31/10"
-  },
-  {
-   "rotulo": "3ª onda: NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg, NF-e ABI",
-   "data": "2026-12-01",
-   "status": "warning",
-   "nota": "Ato Conjunto nº 4/2026"
+   "nota": "Declaração de Regimes Específicos; produção aberta em 01/10/2026"
   },
   {
    "rotulo": "NF-e: novas regras de devolução e leiaute monofásico de combustíveis em produção",
    "data": "2026-11-16",
    "status": "warning",
    "nota": "NT 2025.002 v1.53 (Ato Técnico Conjunto nº 10). A VC02-14 (devolução referenciada) segue marcada para 03/11; vínculo com split payment (NT 2026.006, opcional) entra na mesma data"
+  },
+  {
+   "rotulo": "3ª onda: NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg, NF-e ABI",
+   "data": "2026-12-01",
+   "status": "warning",
+   "nota": "Ato Conjunto nº 4/2026"
   },
   {
    "rotulo": "Cancelamento da opção pelo regime regular do IBS/CBS (quem saiu do Simples)",
@@ -36,7 +30,7 @@
  "pendencias": [
   {
    "item": "Prorrogação do prazo de opção das cooperativas pelo regime específico do IBS/CBS",
-   "situacao": "RFB e CGIBS anunciaram em 29/10 que discutem ampliar o prazo de 31/10 para 30/11/2026; a medida ainda depende das instâncias de governança do CGIBS e de alteração normativa. Até ser publicada, vale 31/10.",
+   "situacao": "O prazo de 31/10/2026 venceu. Em 29/10 RFB e CGIBS anunciaram que discutiam ampliar para 30/11, mas nenhum ato formal de prorrogação apareceu nas fontes monitoradas até 03/11. Cooperativa que não optou até 31/10 deve confirmar com a RFB/CGIBS se ainda pode fazê-lo.",
    "prazo": "2026-10-31",
    "status": "serious"
   },

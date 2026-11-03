@@ -1,6 +1,34 @@
 [
  {
   "secao": "prazos_destaque",
+  "tipo": "removido",
+  "descricao": "Prazo de 30/10 para optar pelo regime regular do IBS/CBS (quem sai do Simples) encerrado; o marco segue na linha do tempo",
+  "fonte": "estado.json",
+  "em": "2026-11-03-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "removido",
+  "descricao": "Prazo de 31/10 para cooperativas optarem pelo regime específico do IBS/CBS encerrado, sem prorrogação publicada; o marco segue na linha do tempo",
+  "fonte": "estado.json",
+  "em": "2026-11-03-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "DeRE: primeira entrega dos eventos periódicos mensais (dados de outubro) em 15/11/2026",
+  "fonte": "estado.json",
+  "em": "2026-11-03-matinal"
+ },
+ {
+  "secao": "pendencias",
+  "tipo": "alterado",
+  "descricao": "Cooperativas: prazo de 31/10 venceu sem ato formal de prorrogação para 30/11 localizado até 03/11",
+  "fonte": "estado.json",
+  "em": "2026-11-03-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
   "tipo": "incluido",
   "descricao": "NF-e: novas regras de devolução e leiaute monofásico de combustíveis entram em produção em 16/11/2026 (NT 2025.002 v1.53)",
   "fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=BMcHSMEoepU=",

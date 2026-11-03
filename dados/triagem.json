@@ -684,6 +684,11 @@
   "motivo": "RFB/CGIBS aprovam manuais técnicos (operação, integração, segurança) da Plataforma do Split Payment",
   "em": "retroativa-2026-09-30"
  },
+ "33d81b8fbd59861d": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa eleição de administrador de seguradora",
+  "em": "2026-11-03-matinal"
+ },
  "33db0586170f5c86": {
   "veredito": "contexto",
   "motivo": "CGIBS abre chamamento público para entes desenvolverem sistemas do IBS, sem efeito imediato ao contribuinte",
@@ -708,6 +713,11 @@
   "veredito": "ruido",
   "motivo": "Solução de consulta sem ementa/texto; sem indício de relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "360b8ea8aa30aef9": {
+  "veredito": "ruido",
+  "motivo": "aprova a 16ª edição do Manual de Demonstrativos Fiscais (LRF) para 2027",
+  "em": "2026-11-03-matinal"
  },
  "36b24426b87829ad": {
   "veredito": "ruido",
@@ -738,6 +748,11 @@
   "veredito": "relevante",
   "motivo": "CGIBS e Receita publicam v1.2.0 dos leiautes da DeRE, com regras de dedução e cashback.",
   "em": "retroativa-2026-09-30"
+ },
+ "383c5162230c5a14": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa atualização cadastral de resseguradora estrangeira",
+  "em": "2026-11-03-matinal"
  },
  "388f142b9a19f708": {
   "veredito": "ruido",
@@ -873,6 +888,11 @@
   "veredito": "ruido",
   "motivo": "Consultas sobre isenção de PIS/Cofins na exportação de serviços e sobre IRPF; sem relação com IBS/CBS.",
   "em": "retroativa-2026-09-30"
+ },
+ "419ca1acc257955b": {
+  "veredito": "ruido",
+  "motivo": "resultado de metas fiscais 2025 de estados no PAF/PAFT/PEF",
+  "em": "2026-11-03-matinal"
  },
  "422d4ec31ba3ffb8": {
   "veredito": "ruido",
@@ -1234,6 +1254,11 @@
   "motivo": "Soluções de consulta sobre contribuições previdenciárias e IRPJ no regime atual, sem relação com a reforma",
   "em": "2026-10-02-matinal"
  },
+ "5df98b455b77eff6": {
+  "veredito": "ruido",
+  "motivo": "curso aduaneiro para credenciamento de acesso a recintos alfandegados em Sergipe",
+  "em": "2026-11-03-matinal"
+ },
  "5e0cce846bd5edc8": {
   "veredito": "ruido",
   "motivo": "altera plano de regulação da SUSEP para 2026; agenda regulatória de seguros, não reforma",
@@ -1464,6 +1489,11 @@
   "motivo": "soluções de consulta sobre IRPJ/CSLL/PIS/Cofins (subvenções) e IRPF (Fundeb), sem relação com a reforma do consumo",
   "em": "2026-10-14-matinal"
  },
+ "6a3702801ca8bf1a": {
+  "veredito": "ruido",
+  "motivo": "CMN altera limites anuais de crédito ao setor público",
+  "em": "2026-11-03-matinal"
+ },
  "6a97b28f13948a7a": {
   "veredito": "ruido",
   "motivo": "atualiza cadastro COTEPE de industrialização por encomenda no ICMS atual, sem relação com a reforma",
@@ -1553,6 +1583,11 @@
   "veredito": "ruido",
   "motivo": "convocação de turma do CARF para votar súmula de IRRF, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "7201c760161486bd": {
+  "veredito": "contexto",
+  "motivo": "17 soluções de consulta de classificação NCM/TIPI; sem menção a IBS/CBS, mas a NCM orienta o enquadramento no IBS/CBS",
+  "em": "2026-11-03-matinal"
  },
  "7265c8095010b6f2": {
   "veredito": "ruido",
@@ -1918,6 +1953,11 @@
   "veredito": "ruido",
   "motivo": "homologação cadastral anual de resseguradora (Chubb Tempest), sem relação com a reforma",
   "em": "2026-10-19-matinal"
+ },
+ "97b1fa734e185951": {
+  "veredito": "ruido",
+  "motivo": "lista de centrais petroquímicas no regime plurifásico do ICMS (Conv. ICMS 15/23); sem relação com IBS/CBS",
+  "em": "2026-11-03-matinal"
  },
  "982727754a75c902": {
   "veredito": "ruido",
@@ -2948,6 +2988,11 @@
   "veredito": "ruido",
   "motivo": "torna sem efeito ato sobre regime de ICMS de petroquímicas, tributo atual",
   "em": "retroativa-2026-09-30"
+ },
+ "f01d534b1d0048a5": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa reeleição de administrador de seguradora",
+  "em": "2026-11-03-matinal"
  },
  "f0f15c2dd56175d2": {
   "veredito": "ruido",
