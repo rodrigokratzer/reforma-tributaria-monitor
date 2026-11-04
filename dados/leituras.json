@@ -501,6 +501,13 @@
   "status": "lido",
   "tentativas": 1
  },
+ "17814fc28a1bfa5d": {
+  "chars": 5009,
+  "lido_em": "2026-11-04T08:03:19Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "17c0a58084b6ddf6": {
   "chars": 2000,
   "lido_em": "2026-10-30T08:02:04Z",
@@ -1179,6 +1186,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "3778c7f67fcf10a1": {
+  "chars": 1104,
+  "lido_em": "2026-11-04T08:03:19Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "379143105850937a": {
   "chars": 8848,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -1682,6 +1696,13 @@
  "4df1533a3bfdb7f6": {
   "chars": 659,
   "lido_em": "2026-10-19T08:02:55Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "4e38e786b0b07c15": {
+  "chars": 33021,
+  "lido_em": "2026-11-04T08:03:19Z",
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
@@ -2716,6 +2737,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "7e368bdd446940ed": {
+  "chars": 847,
+  "lido_em": "2026-11-04T08:03:19Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "7f13b340380211a1": {
   "chars": 3131,
   "lido_em": "2026-10-30T08:02:04Z",
@@ -2878,6 +2906,13 @@
   "chars": 2860,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "8604575a7040e2c7": {
+  "chars": 965,
+  "lido_em": "2026-11-04T08:03:19Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
@@ -3168,6 +3203,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "9723d47337bcee69": {
+  "chars": 1232,
+  "lido_em": "2026-11-04T08:03:19Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "976ae74d5fe31fa3": {
   "chars": 1304,
   "lido_em": "2026-10-19T08:02:55Z",
@@ -3317,6 +3359,13 @@
   "status": "lido",
   "tentativas": 1
  },
+ "9da047c1d15c0332": {
+  "chars": 1090,
+  "lido_em": "2026-11-04T08:03:19Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "9daa980eec834620": {
   "anexos": [],
   "anexos_falhos": [],
@@ -3443,6 +3492,13 @@
  "a342b891a49128b8": {
   "chars": 2420,
   "lido_em": "2026-10-05T12:33:59Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "a417ccb51b41282d": {
+  "chars": 1719,
+  "lido_em": "2026-11-04T08:03:19Z",
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
@@ -4917,6 +4973,13 @@
   "chars": 3554,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "f350f8d6635625e1": {
+  "chars": 862,
+  "lido_em": "2026-11-04T08:03:19Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
