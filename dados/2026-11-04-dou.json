@@ -228,15 +228,14 @@
     }
    ],
    "diagnostico": {
-    "lidas": 5673,
+    "lidas": 6340,
     "forte": 0,
     "revisar": 18,
-    "baixados": 779,
+    "baixados": 781,
     "falhas_download": 0,
     "duplicados": 0,
     "sem_edicao": [
      "2026-11-03 DO3E: sem materias",
-     "2026-11-04 DO1E: sem materias",
      "2026-11-04 DO3E: sem materias"
     ],
     "erros": []
