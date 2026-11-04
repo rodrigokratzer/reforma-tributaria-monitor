@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
+   "erro_browser": null,
    "total": 10,
    "itens": [
     {
@@ -476,7 +476,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 7,
+   "total": 6,
    "itens": [
     {
      "titulo": "Mais de 1 milhão de contribuintes já optaram pelo regime regular do IBS e da CBS",
@@ -516,13 +516,6 @@
     {
      "titulo": "Contagem Regressiva: Prazo final para opção pelo Simples Nacional termina em 15/10!",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/d83ddea8-atencao-prazo-final-para-opcao-pelo-simples-nacional-termina-em-15-10",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Reforma tributária: 86% dos documentos fiscais de empresas obrigadas já trazem destaque da CBS",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/reforma-tributaria-86-dos-documentos-fiscais-de-empresas-obrigadas-ja-trazem-destaque-da-cbs",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
