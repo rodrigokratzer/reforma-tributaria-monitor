@@ -299,6 +299,11 @@
   "motivo": "balanço financeiro interno do CGIBS, ato de governança",
   "em": "retroativa-2026-09-30"
  },
+ "17814fc28a1bfa5d": {
+  "veredito": "ruido",
+  "motivo": "prova de conceito de biometria no controle aduaneiro em Foz do Iguaçu; sem relação com IBS/CBS",
+  "em": "2026-11-04-matinal"
+ },
  "17c0a58084b6ddf6": {
   "veredito": "ruido",
   "motivo": "MinC homologa captação de projetos culturais; \"IBS\" é nome de instituto",
@@ -734,6 +739,11 @@
   "motivo": "atualização cadastral anual de resseguradora (Berkshire Hathaway), sem relação com a reforma",
   "em": "2026-10-07-matinal"
  },
+ "3778c7f67fcf10a1": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa reforma de estatuto de seguradora; sem relação com a reforma",
+  "em": "2026-11-04-matinal"
+ },
  "379143105850937a": {
   "veredito": "ruido",
   "motivo": "Autoriza linha de crédito rural para composição de dívidas; sem relação com a reforma.",
@@ -1048,6 +1058,11 @@
   "veredito": "ruido",
   "motivo": "realocação de cargo comissionado na CVM, ato interno sem relação com a reforma",
   "em": "2026-10-19-matinal"
+ },
+ "4e38e786b0b07c15": {
+  "veredito": "ruido",
+  "motivo": "homologação de projetos culturais da Lei Rouanet para captação; sem relação com a reforma",
+  "em": "2026-11-04-matinal"
  },
  "4e3fad96ca944793": {
   "veredito": "ruido",
@@ -1684,6 +1699,11 @@
   "motivo": "Homologação de eleição de administrador da Itaú Vida e Previdência, sem relação com a reforma.",
   "em": "2026-10-16-matinal"
  },
+ "7e368bdd446940ed": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa eleição de administrador de seguradora; sem relação com a reforma",
+  "em": "2026-11-04-matinal"
+ },
  "7f13b340380211a1": {
   "veredito": "ruido",
   "motivo": "Susep institui comissão de avaliação de documentos",
@@ -1778,6 +1798,11 @@
   "veredito": "ruido",
   "motivo": "cadastro de contribuintes de ICMS com benefício fiscal no RJ",
   "em": "retroativa-2026-09-30"
+ },
+ "8604575a7040e2c7": {
+  "veredito": "ruido",
+  "motivo": "prorroga por 30 dias GT MF/MPO da Portaria 72/2026; texto não cita IBS, CBS ou IS",
+  "em": "2026-11-04-matinal"
  },
  "86528ea50ec06bf4": {
   "veredito": "ruido",
@@ -1949,6 +1974,11 @@
   "motivo": "Susep homologa cadastro de resseguradora eventual",
   "em": "2026-10-30-matinal"
  },
+ "9723d47337bcee69": {
+  "veredito": "ruido",
+  "motivo": "define momento da arrecadação da Lotex (loteria instantânea); sem relação com a reforma do consumo",
+  "em": "2026-11-04-matinal"
+ },
  "976ae74d5fe31fa3": {
   "veredito": "ruido",
   "motivo": "homologação cadastral anual de resseguradora (Chubb Tempest), sem relação com a reforma",
@@ -2044,6 +2074,11 @@
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "9da047c1d15c0332": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa aumento de capital e estatuto de seguradora; sem relação com a reforma",
+  "em": "2026-11-04-matinal"
+ },
  "9de0e74708a9a177": {
   "veredito": "ruido",
   "motivo": "Homologação de eleição de administrador da Cia. Itaú de Capitalização, sem relação com a reforma.",
@@ -2113,6 +2148,11 @@
   "veredito": "ruido",
   "motivo": "credenciamento de contribuintes no Convênio ICMS 49/24, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "a417ccb51b41282d": {
+  "veredito": "ruido",
+  "motivo": "suspensão do atendimento do CAC de Maringá/PR até 05/11 por temporal; sem relação com a reforma",
+  "em": "2026-11-04-matinal"
  },
  "a47677741c8d72ba": {
   "veredito": "ruido",
@@ -3023,6 +3063,11 @@
   "veredito": "relevante",
   "motivo": "prazo 30/09 para optar pelo Simples e escolher recolhimento puro ou híbrido de IBS/CBS em 2027",
   "em": "retroativa-2026-09-30"
+ },
+ "f350f8d6635625e1": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa reeleição de administradores de seguradora; sem relação com a reforma",
+  "em": "2026-11-04-matinal"
  },
  "f399e43c7e9a7700": {
   "veredito": "ruido",
