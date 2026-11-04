@@ -1,0 +1,246 @@
+{
+ "data": "2026-11-04",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "leiturajornal",
+   "http_status": null,
+   "erro": null,
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
+   "total": 18,
+   "itens": [
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 98.347, DE 29 DE SETEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-98.347-de-29-de-setembro-de-2026-741227568",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
+     "ementa": "SOLUÇÃO DE CONSULTA Nº 98.347, DE 29 DE SETEMBRO DE 2026 Assunto: Classificação de Mercadorias Código NCM 4016.99.90 Ex Tipi: sem enquadramento Mercadoria: Selo de vedação para rolamentos concebido para impedir a entrada de contaminantes externos, tais como poeira, umidade e partículas sólidas, bem ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA DRF/ARACAJU-SE Nº 66, DE 29 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-drf/aracaju-se-n-66-de-29-de-outubro-de-2026-741215503",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "PORTARIA DRF/ARACAJU-SE Nº 66, DE 29 DE OUTUBRO DE 2026 Dispõe sobre a exigência de curso básico de conhecimentos aduaneiros como requisito para o credenciamento de pessoas para ingresso em recintos alfandegados sob jurisdição da Delegacia da Receita Federal do Brasil em Aracaju (SE). O DELEGADO DA ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 256, de 29 De OUTUBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-256-de-29-de-outubro-de-2026-741215666",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 256, de 29 De OUTUBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o disposto no ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA STN/MF Nº 3.209, DE 29 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-stn/mf-n-3.209-de-29-de-outubro-de-2026-741200136",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria do Tesouro Nacional",
+     "ementa": "PORTARIA STN/MF Nº 3.209, DE 29 DE OUTUBRO DE 2026 O SECRETÁRIO DO TESOURO NACIONAL, no uso das atribuições que lhe confere no uso da atribuição que lhe confere o inciso XXI do art. 35 do Anexo I do Decreto nº 11.907, de 30 de janeiro de 2024, e o § 2º art. 50 da Lei Complementar nº 101, de 4 de mai",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 255, de 29 De OUTUBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-255-de-29-de-outubro-de-2026-741204125",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 255, de 29 De OUTUBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispos",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CMN Nº 5.344, DE 29 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cmn-n-5.344-de-29-de-outubro-de-2026-741197764",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Monetário Nacional",
+     "ementa": "RESOLUÇÃO CMN Nº 5.344, DE 29 DE OUTUBRO DE 2026 Altera o anexo à Resolução CMN nº 4.995, de 24 de março de 2022. O Banco Central do Brasil, na forma do art. 9º da Lei nº 4.595, de 31 de dezembro de 1964, torna público que o Conselho Monetário Nacional, em sessão extraordinária realizada em 29 de ou",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 60, de 29 de OUTUBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgccr/susep-n-60-de-29-de-outubro-de-2026-741197741",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "PORTARIA CGCCR/SUSEP nº 60, de 29 de OUTUBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE CREDENCIAMENTOS, CADASTROS E REGIMES ESPECIAIS DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria Susep nº 8.186, de 21 de",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA STN/MF Nº 3.198, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-stn/mf-n-3.198-de-28-de-outubro-de-2026-741229002",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria do Tesouro Nacional",
+     "ementa": "PORTARIA STN/MF Nº 3.198, DE 28 DE OUTUBRO DE 2026 O SECRETÁRIO DO TESOURO NACIONAL, no uso das atribuições que lhe confere o art. 35 do ANEXO I, do Decreto nº 11.907, de 30 de janeiro de 2024, e tendo em vista o disposto no § 1º do art. 26 do Decreto nº 10.819, de 27 de setembro de 2021, resolve: A",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE ICMS Nº 116, DE 29 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe-icms-n-116-de-29-de-outubro-de-2026-741227647",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE ICMS Nº 116, DE 29 DE OUTUBRO DE 2026 Dispõe sobre os requisitos e divulga a relação de estabelecimentos de centrais petroquímicas aprovada pela COTEPE/ICMS para fins de aplicação do regime plurifásico de tributação às operações com hidrocarbonetos líquidos derivados de petróleo ou de gás",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA INTERMINISTERIAL MF/MPO Nº 81, DE 3 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-interministerial-mf/mpo-n-81-de-3-de-novembro-de-2026-741444987",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA INTERMINISTERIAL MF/MPO Nº 81, DE 3 DE NOVEMBRO DE 2026 Prorroga o prazo de duração do Grupo de Trabalho Interministerial instituído pela Portaria Interministerial MF/MPO nº 72, de 6 de julho de 2026. O MINISTRO DE ESTADO DA FAZENDA e o MINISTRO DE ESTADO DO PLANEJAMENTO E ORÇAMENTO, no uso",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Portaria SPA/MF Nº 3.208, DE 29 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-spa/mf-n-3.208-de-29-de-outubro-de-2026-741445066",
+     "data": "2026-11-03",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria de Prêmios e Apostas",
+     "ementa": "Portaria SPA/MF Nº 3.208, DE 29 DE OUTUBRO DE 2026 Altera a Portaria SEAE/MF nº 8427, de 18 de outubro de 2022, que disciplina a operação de modalidades lotéricas. A SECRETÁRIA DE PRÊMIOS E APOSTAS DO MINISTÉRIO DA FAZENDA, no uso das atribuições que lhe confere o art. 55, inciso I, alínea \"f\", do A",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 261, de 3 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-261-de-3-de-novembro-de-2026-741540075",
+     "data": "2026-11-04",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 261, de 3 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispos",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA SRRF09 Nº 1.208, DE 3 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-srrf09-n-1.208-de-3-de-novembro-de-2026-741520957",
+     "data": "2026-11-04",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "PORTARIA SRRF09 Nº 1.208, DE 3 DE NOVEMBRO DE 2026 Dispõe sobre a suspensão temporária das atividades de atendimento ao contribuinte no Centro de Atendimento ao Contribuinte (CAC) da Delegacia da Receita Federal do Brasil em Maringá/PR. O SUPERINTENDENTE SUBSTITUTO DA RECEITA FEDERAL DO BRASIL DA 9ª",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CONJUNTA COANA/COCAD Nº 215, DE 29 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-conjunta-coana/cocad-n-215-de-29-de-outubro-de-2026-741554380",
+     "data": "2026-11-04",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Administração Aduaneira/Coordenaç",
+     "ementa": "PORTARIA CONJUNTA COANA/COCAD Nº 215, DE 29 DE OUTUBRO DE 2026 Dispõe sobre a continuidade de prova de conceito para o aperfeiçoamento da segurança aduaneira e dos serviços prestados pela Receita Federal do Brasil em Foz do Iguaçu, com identificação biométrica e avaliação de níveis de serviço. O COO",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 257, de 3 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-257-de-3-de-novembro-de-2026-741529458",
+     "data": "2026-11-04",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 257, de 3 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispos",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA SEFIC/MINC Nº 748, DE 3 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-sefic/minc-n-748-de-3-de-novembro-de-2026-741524476",
+     "data": "2026-11-04",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Cultura/Secretaria de Fomento e Incentivo à Cultura",
+     "ementa": "PORTARIA SEFIC/MINC Nº 748, DE 3 DE NOVEMBRO DE 2026 O SECRETÁRIO DE FOMENTO E INCENTIVO À CULTURA, no uso de suas atribuições legais, que lhe confere a Portaria nº 171, de 27 de fevereiro de 2026 e a Portaria MinC nº 225, de 23 de julho de 2025, resolve: Art. 1.º - Homologar os projetos culturais r",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 259, de 3 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-259-de-3-de-novembro-de-2026-741531194",
+     "data": "2026-11-04",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 259, de 3 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência subdelegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dis",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 258, de 3 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-258-de-3-de-novembro-de-2026-741527409",
+     "data": "2026-11-04",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 258, de 3 De NOVEMBRO de 2026 O COORDENADOR-GERAL da COORDENAÇÃO-GERAL DE AUTORIZAÇÕES da SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência subdelegada pelo Superintendente da Susep, por meio do artigo 4º , II da Portaria nº 8.186, de 21 de julho de 2023, te",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 5673,
+    "forte": 0,
+    "revisar": 18,
+    "baixados": 779,
+    "falhas_download": 0,
+    "duplicados": 0,
+    "sem_edicao": [
+     "2026-11-03 DO3E: sem materias",
+     "2026-11-04 DO1E: sem materias",
+     "2026-11-04 DO3E: sem materias"
+    ],
+    "erros": []
+   }
+  }
+ ]
+}
