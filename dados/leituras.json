@@ -1968,6 +1968,16 @@
   "status": "lido",
   "tentativas": 0
  },
+ "5a1222c744bf51d7": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 3756,
+  "lido_em": "2026-11-05T20:02:25Z",
+  "origem": "pdf",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
+ },
  "5a2163e8d1cc9bd5": {
   "chars": 853,
   "lido_em": "2026-10-13T08:03:53Z",
