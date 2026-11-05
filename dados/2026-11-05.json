@@ -374,7 +374,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 13,
+   "total": 14,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -465,6 +465,13 @@
      "url": "https://www.cgibs.gov.br/upload/arquivos/202610/07163240-sei-mgi-64901753-portaria-conjunta.pdf",
      "data": null,
      "pasta_arquivo": "2026-10",
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 12 2026 (.pdf 338,44 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202611/05150204-portaria-cgibs-n-12-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-11",
      "alerta": null
     }
    ]

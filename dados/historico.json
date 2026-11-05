@@ -8827,5 +8827,15 @@
   "alerta": null,
   "pasta_arquivo": null,
   "visto_em": "2026-11-05T08:00:58Z"
+ },
+ "5a1222c744bf51d7": {
+  "primeira_vez": "2026-11-05",
+  "fonte": "CGIBS - Portarias",
+  "titulo": "Portaria CGIBS nº 12 2026 (.pdf 338,44 KBytes)",
+  "url": "https://www.cgibs.gov.br/upload/arquivos/202611/05150204-portaria-cgibs-n-12-2026.pdf",
+  "data": null,
+  "pasta_arquivo": "2026-11",
+  "alerta": null,
+  "visto_em": "2026-11-05T20:02:21Z"
  }
 }
