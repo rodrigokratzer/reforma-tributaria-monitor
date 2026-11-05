@@ -1,5 +1,40 @@
 [
  {
+  "secao": "pendencias",
+  "tipo": "alterado",
+  "descricao": "Alíquotas do Imposto Seletivo: MP 1.399 fixou as de 2027 (efeito em 02/02/2027); faltam conversão em lei, regulamento e alíquotas de 2028",
+  "fonte": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.399-de-4-de-novembro-de-2026-741754451",
+  "em": "2026-11-05-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "Novo prazo: alíquotas do Imposto Seletivo passam a valer em 02/02/2027 (MP 1.399)",
+  "fonte": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.399-de-4-de-novembro-de-2026-741754451",
+  "em": "2026-11-05-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "MP 1.399 (04/11/2026) fixa as alíquotas do Imposto Seletivo para 2027",
+  "fonte": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.399-de-4-de-novembro-de-2026-741754451",
+  "em": "2026-11-05-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "02/02/2027: início dos efeitos das alíquotas do IS; 31/05/2027: prazo do projeto de lei das alíquotas de 2028 (MP 1.399)",
+  "fonte": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.399-de-4-de-novembro-de-2026-741754451",
+  "em": "2026-11-05-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "alterado",
+  "descricao": "Marco de 01/01/2027 corrigido: alíquotas do IS só produzem efeitos a partir de 02/02/2027 (MP 1.399)",
+  "fonte": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.399-de-4-de-novembro-de-2026-741754451",
+  "em": "2026-11-05-matinal"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "removido",
   "descricao": "Prazo de 30/10 para optar pelo regime regular do IBS/CBS (quem sai do Simples) encerrado; o marco segue na linha do tempo",

@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-11-03",
+ "atualizado_em": "2026-11-05",
  "prazos_destaque": [
   {
    "rotulo": "DeRE: primeira entrega dos eventos periódicos mensais (dados de outubro/2026)",
@@ -25,6 +25,12 @@
    "data": "2026-12-20",
    "status": "warning",
    "nota": "Prazo informado pela Receita Federal em 29/10/2026 para quem optou e quer reconsiderar"
+  },
+  {
+   "rotulo": "Imposto Seletivo: alíquotas da MP 1.399 começam a produzir efeitos",
+   "data": "2027-02-02",
+   "status": "serious",
+   "nota": "MP 1.399/2026 (DOU 04/11). Bebidas, fumo, veículos, barcos, aeronaves e apostas; minerais com alíquota zero até 31/12/2027"
   }
  ],
  "pendencias": [
@@ -42,9 +48,9 @@
   },
   {
    "item": "Alíquotas do Imposto Seletivo",
-   "situacao": "A noventena constitucional venceu em 03/10/2026 sem lei ordinária nem MP publicada fixando os percentuais. A LC 214/2025 definiu incidência, base de cálculo e critérios de graduação, mas deixou o percentual para lei ordinária. Sem essa lei publicada até 03/10, o Imposto Seletivo corre risco real de não entrar em vigor em 01/01/2027 como previsto.",
-   "prazo": null,
-   "status": "critical"
+   "situacao": "A MP nº 1.399, de 04/11/2026, fixou as alíquotas do IS para 2027, com efeitos a partir de 02/02/2027. Seguem em aberto: o que vale entre 01/01 e 01/02/2027, a conversão da MP em lei pelo Congresso, o regulamento (apuração assistida, abatimento, arredondamento), as estimativas da RFB que podem reduzir os fatores de conversão e as alíquotas de 2028, que dependem de projeto de lei a ser enviado até 31/05/2027.",
+   "prazo": "2027-05-31",
+   "status": "serious"
   },
   {
    "item": "Mecânica de adesão ao Programa de Conformidade",
@@ -274,6 +280,11 @@
    "detalhe": "Anunciado pela Receita Federal em 14/08/2026. Não confundir com o cronograma de campos de IBS/CBS."
   },
   {
+   "data": "2026-11-04",
+   "titulo": "MP nº 1.399 — alíquotas do Imposto Seletivo para 2027",
+   "detalhe": "Cerveja 4,2%, vinhos 8%, destilados até 24%, refrigerantes 2,6%, cigarros 66,7% + R$ 3,50, automóveis 6,3% ± ajustes × 1,21, apostas 0,5%; caminhões fora; minerais com alíquota zero até 31/12/2027. Efeitos a partir de 02/02/2027."
+  },
+  {
    "data": "2026-11-15",
    "titulo": "DeRE — eventos periódicos mensais",
    "detalhe": "Primeira entrega cobrindo os dados de outubro/2026."
@@ -301,7 +312,17 @@
   {
    "data": "2027-01-01",
    "titulo": "Simples Nacional entra; CBS substitui PIS/Cofins; IS em vigor",
-   "detalhe": "Também Duimp, NF-e monofásica e demais eventos da DeRE. IBS segue em alíquota de teste."
+   "detalhe": "Também Duimp, NF-e monofásica e demais eventos da DeRE. IBS segue em alíquota de teste. As alíquotas do IS fixadas pela MP 1.399 só produzem efeitos a partir de 02/02/2027."
+  },
+  {
+   "data": "2027-02-02",
+   "titulo": "Imposto Seletivo: alíquotas da MP 1.399 começam a produzir efeitos",
+   "detalhe": "Art. 19 da MP 1.399/2026."
+  },
+  {
+   "data": "2027-05-31",
+   "titulo": "Prazo para o governo enviar o projeto de lei das alíquotas do IS a partir de 2028",
+   "detalhe": "Art. 15 da MP 1.399/2026."
   },
   {
    "data": "2029-01-01",

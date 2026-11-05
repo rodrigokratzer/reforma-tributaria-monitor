@@ -124,6 +124,11 @@
   "motivo": "Altera regras dos fundos Eco Invest; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "08d77d89336e92d5": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa troca de controle e nome de seguradora",
+  "em": "2026-11-05-matinal"
+ },
  "08f66b93d2511e9b": {
   "veredito": "ruido",
   "motivo": "PGFN anula certidão de regularidade fiscal",
@@ -1479,6 +1484,11 @@
   "motivo": "designação de representantes em comitê de harmonização tributária; texto não cita IBS/CBS/reforma",
   "em": "2026-10-19-matinal"
  },
+ "681bd4275a38973e": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa cadastro anual de resseguradora eventual",
+  "em": "2026-11-05-matinal"
+ },
  "68c77cfa9bf4a5bc": {
   "veredito": "ruido",
   "motivo": "Homologação de eleição de administradores de seguradora, ato interno",
@@ -1568,6 +1578,11 @@
   "veredito": "ruido",
   "motivo": "Altera circulares Susep sobre registro de operacoes de seguros, sem relacao com a reforma do consumo",
   "em": "retroativa-2026-09-30"
+ },
+ "6f0c1aadef2eb490": {
+  "veredito": "ruido",
+  "motivo": "remoção extraordinária de procuradores da PGFN",
+  "em": "2026-11-05-matinal"
  },
  "6f99b63f762da48b": {
   "veredito": "ruido",
@@ -1759,6 +1774,11 @@
   "motivo": "realocação de cargos comissionados internos da CVM, sem relação com a reforma",
   "em": "2026-10-06-matinal"
  },
+ "8371ac50312e35b0": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta Cosit 210-216 sobre IR, CSLL, Dimob, CPRB e RET; nada de IBS/CBS/IS",
+  "em": "2026-11-05-matinal"
+ },
  "8374097c172c8cf4": {
   "veredito": "ruido",
   "motivo": "solução de consulta sobre RETID (indústria de defesa) e suspensão de IPI, sem relação com IBS/CBS",
@@ -1823,6 +1843,11 @@
   "veredito": "ruido",
   "motivo": "homologação de assembleia de entidade de previdência privada; 'reforma' é do estatuto social, não tributária",
   "em": "2026-10-19-matinal"
+ },
+ "873f603e4fb9157a": {
+  "veredito": "ruido",
+  "motivo": "exclusão de empresa do Refis por falta de informação de receita",
+  "em": "2026-11-05-matinal"
  },
  "885b1a55042ac0ac": {
   "veredito": "ruido",
@@ -1954,6 +1979,11 @@
   "motivo": "Cotepe: credenciamento Ajuste Sinief 01/21 (ICMS)",
   "em": "2026-10-30-matinal"
  },
+ "93885460858a0ee1": {
+  "veredito": "ruido",
+  "motivo": "altera composição de comitê consultivo da CVM",
+  "em": "2026-11-05-matinal"
+ },
  "94ff278c2db8ac3b": {
   "veredito": "ruido",
   "motivo": "credenciamento de contribuintes de ICMS (Petrobras) em regime especial atual",
@@ -2008,6 +2038,11 @@
   "veredito": "ruido",
   "motivo": "Reestrutura comite interno de governanca de dados da STN, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "98b4df762909abcb": {
+  "veredito": "relevante",
+  "motivo": "MP fixa alíquotas do Imposto Seletivo para 2027, com efeitos a partir de 02/02/2027",
+  "em": "2026-11-05-matinal"
  },
  "98f02c459708f0dd": {
   "veredito": "ruido",
@@ -2118,6 +2153,11 @@
   "veredito": "contexto",
   "motivo": "contrato de crédito de R$ 950 mi da União para instalar o CGIBS; financiamento interno do órgão, sem efeito para o contribuinte",
   "em": "2026-10-28-noturna"
+ },
+ "a0a0140850f240fc": {
+  "veredito": "ruido",
+  "motivo": "Susep homologa cadastro anual de resseguradora eventual",
+  "em": "2026-11-05-matinal"
  },
  "a0a808adc0692dcd": {
   "veredito": "contexto",
@@ -2498,6 +2538,11 @@
   "veredito": "ruido",
   "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "c117c5110e5dd693": {
+  "veredito": "ruido",
+  "motivo": "regras da sala de amamentação do Ministério da Fazenda",
+  "em": "2026-11-05-matinal"
  },
  "c1693731d3ca992d": {
   "veredito": "relevante",
