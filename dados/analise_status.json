@@ -1,15 +1,2 @@
-{
- "data": "2026-11-05",
- "turno": "matinal",
- "situacao": "publicada",
- "acoes": 1,
- "gerado_em": "2026-11-05T08:02:28Z",
- "resumo_curto": "9 itens; MP 1.399 fixa alíquotas do Imposto Seletivo para 2027 (efeito em 02/02/2027) — exige ação",
- "painel_atualizado": [
-  "Alíquotas do Imposto Seletivo: MP 1.399 fixou as de 2027 (efeito em 02/02/2027); faltam conversão em lei, regulamento e alíquotas de 2028",
-  "Novo prazo: alíquotas do Imposto Seletivo passam a valer em 02/02/2027 (MP 1.399)",
-  "MP 1.399 (04/11/2026) fixa as alíquotas do Imposto Seletivo para 2027",
-  "02/02/2027: início dos efeitos das alíquotas do IS; 31/05/2027: prazo do projeto de lei das alíquotas de 2028 (MP 1.399)",
-  "Marco de 01/01/2027 corrigido: alíquotas do IS só produzem efeitos a partir de 02/02/2027 (MP 1.399)"
- ]
-}
+{"data": "2026-11-05", "turno": "noturna", "situacao": "sem_novidade", "acoes": 0,
+ "gerado_em": "2026-11-05T20:15:00Z", "resumo_curto": "1 item (portaria interna do CGIBS), nenhum relevante"}
