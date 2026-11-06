@@ -1249,6 +1249,11 @@
   "motivo": "ATC 10 aprova NT 2026.005 (Simples) e novas versões das NTs de DF-e e cClassTrib 1.71",
   "em": "2026-10-30-matinal"
  },
+ "5b756dfeea4e7bd1": {
+  "veredito": "ruido",
+  "motivo": "homologa atualização cadastral de resseguradora eventual (SUSEP)",
+  "em": "2026-11-06-matinal"
+ },
  "5c0aa30619368e72": {
   "veredito": "ruido",
   "motivo": "programação orçamentária e financeira do Executivo",
@@ -1298,6 +1303,11 @@
   "veredito": "ruido",
   "motivo": "homologação de eleição de comitê de auditoria de seguradora, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "5e690a9575ea0c9b": {
+  "veredito": "ruido",
+  "motivo": "Soluções de Consulta 217/218: IRRF sobre abono anual e IOF/câmbio, fora do consumo",
+  "em": "2026-11-06-matinal"
  },
  "5f26a3013d21078f": {
   "veredito": "ruido",
@@ -1933,6 +1943,11 @@
   "veredito": "contexto",
   "motivo": "Resolução CGIBS sem indicação de conteúdo no título; aparenta normativa interna",
   "em": "retroativa-2026-09-30"
+ },
+ "8e1f5d2bcde1e40e": {
+  "veredito": "ruido",
+  "motivo": "retificação do órgão na Deliberação CVM nº 908, sem relação com a reforma",
+  "em": "2026-11-06-matinal"
  },
  "8e9c8e4d8d681148": {
   "veredito": "ruido",
