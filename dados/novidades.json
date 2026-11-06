@@ -1,18 +1,7 @@
 {
- "data": "2026-11-05",
- "quantidade": 1,
- "itens": [
-  {
-   "primeira_vez": "2026-11-05",
-   "fonte": "CGIBS - Portarias",
-   "titulo": "Portaria CGIBS nº 12 2026 (.pdf 338,44 KBytes)",
-   "url": "https://www.cgibs.gov.br/upload/arquivos/202611/05150204-portaria-cgibs-n-12-2026.pdf",
-   "data": null,
-   "pasta_arquivo": "2026-11",
-   "alerta": null,
-   "visto_em": "2026-11-05T20:02:21Z"
-  }
- ],
+ "data": "2026-11-06",
+ "quantidade": 0,
+ "itens": [],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
