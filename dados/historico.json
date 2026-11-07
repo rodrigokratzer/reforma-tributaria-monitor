@@ -8879,5 +8879,33 @@
   "alerta": null,
   "pasta_arquivo": null,
   "visto_em": "2026-11-06T08:01:09Z"
+ },
+ "933e55026decfcbf": {
+  "primeira_vez": "2026-11-07",
+  "fonte": "DOU DO1E",
+  "titulo": "PORTARIA COGEA Nº 388, DE 4 DE NOVEMBRO DE 2026",
+  "url": "https://www.in.gov.br/web/dou/-/portaria-cogea-n-388-de-4-de-novembro-de-2026-742340985",
+  "data": "2026-11-06",
+  "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Arrecadação, Cadastros e Atendime",
+  "ementa": "PORTARIA COGEA Nº 388, DE 4 DE NOVEMBRO DE 2026 Aprova a primeira edição do Referencial do Programa Eu Sou Cidadão Solidário no âmbito da Cidadania Fiscal da Secretaria Especial da Receita Federal do Brasil. O COORDENADOR-GERAL DE ATENDIMENTO, no uso das atribuições que lhe conferem os arts. 80 e 35",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null,
+  "visto_em": "2026-11-07T08:01:21Z"
+ },
+ "125fcd53d737d3c5": {
+  "primeira_vez": "2026-11-07",
+  "fonte": "DOU DO1E",
+  "titulo": "PORTARIA STN/MF Nº 3.234, DE 5 DE NOVEMBRO DE 2026",
+  "url": "https://www.in.gov.br/web/dou/-/portaria-stn/mf-n-3.234-de-5-de-novembro-de-2026-742340850",
+  "data": "2026-11-06",
+  "orgao": "Ministério da Fazenda/Secretaria do Tesouro Nacional",
+  "ementa": "PORTARIA STN/MF Nº 3.234, DE 5 DE NOVEMBRO DE 2026 Prorroga, exclusivamente para o exercício de 2026, o prazo para apresentação das versões definitivas do Programa de Reestruturação e de Ajuste Fiscal e do Programa de Acompanhamento e Transparência Fiscal, e o prazo para conversão dos programas, bem",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null,
+  "visto_em": "2026-11-07T08:01:21Z"
  }
 }
