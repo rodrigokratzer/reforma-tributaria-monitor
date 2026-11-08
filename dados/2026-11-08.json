@@ -483,7 +483,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 4,
+   "total": 3,
    "itens": [
     {
      "titulo": "Mais de 1 milhão de contribuintes já optaram pelo regime regular do IBS e da CBS",
@@ -502,13 +502,6 @@
     {
      "titulo": "Receita Federal destaca Programa Confia em seminário regional sobre conformidade cooperativa na Guatemala",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-destaca-programa-confia-em-seminario-regional-sobre-conformidade-cooperativa-na-guatemala",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
