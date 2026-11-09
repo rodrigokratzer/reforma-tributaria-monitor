@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-11-05",
+ "atualizado_em": "2026-11-09",
  "prazos_destaque": [
   {
    "rotulo": "DeRE: primeira entrega dos eventos periódicos mensais (dados de outubro/2026)",
@@ -253,6 +253,11 @@
    "data": "2026-10-28",
    "titulo": "ANA orienta tabelas de água e esgoto sem PIS/Cofins para a entrada da CBS",
    "detalhe": "Res. ANA nº 307 / NT 40/2026, orientativa: agências devem homologar a tabela desonerada até 15/11/2026; sem isso, tarifa vigente vale como total já com CBS/IBS a partir de 2027."
+  },
+  {
+   "data": "2026-10-28",
+   "titulo": "Receita Federal libera as APIs v2.0 de apuração da CBS",
+   "detalhe": "Consulta incremental de débitos e créditos de CBS, em produção restrita (testes) e produção (beta). Quem já tinha chave de acesso precisa cancelar e gerar nova. Divulgado em 09/11; novos serviços via API previstos para novembro."
   },
   {
    "data": "2026-10-29",

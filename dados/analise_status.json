@@ -1,1 +1,11 @@
-{"data": "2026-11-09", "turno": "matinal", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-11-09T08:30:00Z", "resumo_curto": "4 itens, nenhum exige ação; só troca de representante de PE no CGIBS"}
+{
+ "data": "2026-11-09",
+ "turno": "noturna",
+ "situacao": "publicada",
+ "acoes": 0,
+ "gerado_em": "2026-11-09T20:10:00Z",
+ "resumo_curto": "1 novidade: APIs v2.0 da apuração de CBS; nenhuma exige ação imediata",
+ "painel_atualizado": [
+  "APIs v2.0 de apuração da CBS liberadas pela Receita em 28/10 (produção restrita e beta); chaves antigas precisam ser refeitas"
+ ]
+}

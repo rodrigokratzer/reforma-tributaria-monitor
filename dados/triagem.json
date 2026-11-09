@@ -619,6 +619,11 @@
   "motivo": "resolução do CGIBS sem ementa disponível para confirmar o teor exato",
   "em": "retroativa-2026-09-30"
  },
+ "2b6c69c5d71aab34": {
+  "veredito": "relevante",
+  "motivo": "APIs v2.0 de apuração de débitos e créditos de CBS liberadas; chaves antigas precisam ser refeitas",
+  "em": "2026-11-09-noturna"
+ },
  "2bb433940b0ea32a": {
   "veredito": "ruido",
   "motivo": "Portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma.",

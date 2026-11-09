@@ -1,5 +1,12 @@
 [
  {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "APIs v2.0 de apuração da CBS liberadas pela Receita em 28/10 (produção restrita e beta); chaves antigas precisam ser refeitas",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-libera-acesso-as-novas-apis-de-apuracao-da-cbs",
+  "em": "2026-11-09-noturna"
+ },
+ {
   "secao": "pendencias",
   "tipo": "alterado",
   "descricao": "Alíquotas do Imposto Seletivo: MP 1.399 fixou as de 2027 (efeito em 02/02/2027); faltam conversão em lei, regulamento e alíquotas de 2028",
