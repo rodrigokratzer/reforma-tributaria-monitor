@@ -649,6 +649,11 @@
   "motivo": "destinação de mercadorias apreendidas pela RFB",
   "em": "2026-10-30-matinal"
  },
+ "2e5a369bfc9c4778": {
+  "veredito": "ruido",
+  "motivo": "programa de atendimento Aproxime da 10ª RF, não trata de IBS/CBS/IS",
+  "em": "2026-11-09-matinal"
+ },
  "2e5c646ed7bdca84": {
   "veredito": "contexto",
   "motivo": "Minuta de Portaria CGIBS sobre acordos de adesão; ainda é proposta, não norma vigente.",
@@ -994,6 +999,11 @@
   "motivo": "Suspende atendimento presencial do CAC em São José dos Campos, ato interno",
   "em": "retroativa-2026-09-30"
  },
+ "4808a276518db395": {
+  "veredito": "ruido",
+  "motivo": "homologa eleição de conselheiro fiscal de seguradora, sem relação com a reforma",
+  "em": "2026-11-09-matinal"
+ },
  "482fcf7e19b21351": {
   "veredito": "ruido",
   "motivo": "Soluções de consulta de classificação fiscal (NCM) de mercadorias diversas",
@@ -1083,6 +1093,11 @@
   "veredito": "ruido",
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "4f81e3945673f96e": {
+  "veredito": "contexto",
+  "motivo": "Pernambuco designa novos representantes no Conselho Superior do CGIBS; ato de governança",
+  "em": "2026-11-09-matinal"
  },
  "4fed2c45307b76f7": {
   "veredito": "ruido",
@@ -1758,6 +1773,11 @@
   "veredito": "ruido",
   "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
   "em": "retroativa-2026-09-30"
+ },
+ "7fee6601bcca9860": {
+  "veredito": "ruido",
+  "motivo": "homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-11-09-matinal"
  },
  "811f3f13d050dcf1": {
   "veredito": "contexto",
