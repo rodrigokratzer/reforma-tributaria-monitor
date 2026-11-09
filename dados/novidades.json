@@ -1,7 +1,18 @@
 {
  "data": "2026-11-09",
- "quantidade": 0,
- "itens": [],
+ "quantidade": 1,
+ "itens": [
+  {
+   "primeira_vez": "2026-11-09",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "Receita Federal libera acesso às novas APIs de apuração da CBS",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-libera-acesso-as-novas-apis-de-apuracao-da-cbs",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "visto_em": "2026-11-09T20:02:26Z"
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
