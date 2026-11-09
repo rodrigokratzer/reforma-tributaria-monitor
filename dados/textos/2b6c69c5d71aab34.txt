@@ -1,0 +1,15 @@
+Nova versão permite consultas incrementais de débitos e créditos apurados.
+
+Foram liberadas na quarta-feira de 28 de outubro, as versões 2.0 das APIs para consulta à apuração de débitos e créditos de CBS. As APIs estão disponíveis para consulta de dados de produção restrita (testes) e produção (beta).
+
+Para utilizar as API, contribuintes ou seus procuradores digitais deverão obter uma chave de acesso por meio do serviço digital "Gerar Credencial de Acesso", disponível nos portais Serviços da Receita Federal (https://servicos.receitafederal.gov.br) ou Tributação sobre Consumo (Beta) (https://consumo.tributos.gov.br). Contribuintes que já tenham chaves geradas precisarão cancelá-las e gerar novas chaves para ter o acesso.
+
+A consulta de débitos de CBS retorna ao sistema do contribuinte informações relativas à origem do débito e documento fiscal de referência, das datas de emissão, registro e atualização, além dos valores do tributo, conforme o estado (suspenso, extinto, devedor etc.). De forma similar, a consulta de créditos de CBS oferece informações sobre os valores apurados, incluindo a parcela apropriada (liberada para utilização) e parcela a apropriar, utilizada e não utilizada.
+
+Os dados são obtidos da mesma base que fornece informações ao serviço Minha Apuração Assistida de CBS do portal, estando, portanto, sincronizado em relação ao processamento dos documentos fiscais e eventos.
+
+A documentação técnica para integração de sistemas está disponível no endereço: https://docs.receitafederal.gov.br/apuracao-cbs/
+
+Novos serviços via API vinculados à apuração de CBS serão disponibilizados em novembro deste ano.
+
+Matéria vinculada: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-publica-nova-documentacao-tecnica-das-apis-de-apuracao-de-cbs
