@@ -1,0 +1,15 @@
+A atualização será realizada sem interrupção dos serviços.
+
+A Receita Federal do Brasil (RFB) e o Comitê Gestor do IBS (CGIBS) informam que o ambiente de Produção Beta da Declaração de Regimes Específicos (DeRE) será atualizado em 11 de novembro de 2026, às 7h.
+
+Informações importantes
+
+Disponibilidade do ambiente
+
+A atualização será realizada sem interrupção dos serviços. O ambiente permanecerá disponível durante todo o procedimento.
+
+Adequação técnica necessária
+
+Os contribuintes e desenvolvedores que realizam integração com a DeRE deverão atualizar o arquivo XSD do evento PGCC, a fim de adequar seus sistemas às alterações implementadas.
+
+Recomenda-se a atualização prévia dos artefatos de integração para garantir o correto envio e processamento dos eventos após a implantação da nova versão.
