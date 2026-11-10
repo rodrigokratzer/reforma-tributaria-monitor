@@ -1,0 +1,108 @@
+Resolução CVM nº 251, DE 5 DE NOVEMBRO DE 2026
+Altera a Resolução CVM nº 9, de 27 de outubro de 2020.
+O PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS - CVM torna público que o Colegiado, em reunião realizada em 4 de novembro de 2026, tendo em vista o disposto nos arts. 8º, 9º e 13 do Decreto nº 12.002, de 22 de abril de 2024, com fundamento no disposto nos arts. 8º, caput, inciso I, e 27 da Lei nº 6.385, de 7 de dezembro de 1976, APROVOU a seguinte Resolução:
+Art. 1º A Resolução CVM nº 9, de 27 de outubro de 2020, publicada no Diário Oficial da União de 28 de outubro de 2020, passa a vigorar com as seguintes alterações:
+"CAPÍTULO I - ÂMBITO, FINALIDADE E DEFINIÇÕES
+Art. 1º Esta Resolução dispõe sobre a atividade de classificação de risco de crédito no âmbito do mercado de valores mobiliários brasileiro.
+§ 1º Esta Resolução somente se aplica às classificações de risco de crédito destinadas à publicação, divulgação ou distribuição a terceiros, ainda que restrita a clientes.
+§ 2º Todas as referências feitas ao longo desta Resolução à atividade de classificação de risco de crédito também são aplicáveis à análise e manifestação a respeito da perspectiva de classificação de risco de crédito, no que couber.
+Art. 1º-A Para os efeitos desta Resolução, entende-se por:
+I - agência de classificação de risco de crédito: pessoa jurídica registrada ou reconhecida pela CVM que exerce profissionalmente a atividade de classificação de risco de crédito no âmbito do mercado de valores mobiliários;
+II - classificação de risco de crédito: atividade de opinar sobre a qualidade de crédito de um emissor de títulos de participação ou de dívida, de uma operação estruturada, ou qualquer ativo financeiro emitido no mercado de valores mobiliários; e
+III - perspectiva de classificação de risco de crédito: opinião prospectiva sobre a provável direção de uma classificação de risco de crédito em um prazo predeterminado." (NR)
+"Art. 10. .............................................
+............................................................
+§ 1º As informações divulgadas pela agência de classificação de risco de crédito no exercício de suas atividades devem:
+I - ser escritas em linguagem simples, clara, objetiva e concisa; e
+II - restringir-se a conteúdos relacionados à classificação de risco de crédito, evitando a inclusão de informações alheias a esse fim.
+............................................................" (NR)
+"Art. 13. A agência de classificação de risco de crédito deve enviar à CVM, até 31 de março de cada ano, por meio de sistema eletrônico disponível na página da CVM na rede mundial de computadores:
+I - formulário de referência, cujo conteúdo deve refletir o Anexo B;
+II - sua política de preços, incluindo os critérios de fixação dos preços das classificações de risco das diferentes classes de ativos; e
+III - relação contendo os valores recebidos por cada classificação de risco de crédito emitida no ano anterior, com a discriminação dos respectivos emissores.
+§ 1º A agência de classificação de risco de crédito deve atualizar os campos correspondentes do formulário de referência em até sete dias úteis contados da substituição do administrador responsável pela agência junto à CVM ou do administrador responsável pela supervisão do cumprimento de regras, procedimentos e controles internos e desta Resolução.
+§ 2º As informações previstas nos incisos II e III do caput, quando encaminhadas à CVM, destinam-se exclusivamente ao exercício de suas atividades de supervisão e fiscalização, não se sujeitando à divulgação pública." (NR)
+"Art. 14. .............................................
+I - mudanças relevantes nas metodologias, assim como as razões pelas quais elas foram efetuadas, procedimentos e critérios utilizados para a elaboração da classificação de risco, bem como novas metodologias, incluindo a respectiva data de início da vigência, em até sete dias úteis contados de sua publicação;
+II - decisão de descontinuidade no acompanhamento da classificação de risco, na data da decisão, informando as razões da decisão; e
+............................................................" (NR)
+"Art. 15. O relatório de classificação de risco de crédito deve ser elaborado em estrita observância aos procedimentos e metodologias adotados pela agência." (NR)
+"Art. 15-A. O relatório de classificação de risco de crédito deve ser enviado à entidade avaliada com no mínimo um dia útil de antecedência da divulgação da classificação de risco ao público, para fins de permitir a realização de uma checagem factual pela entidade avaliada.
+§ 1º Excepcionalmente, a divulgação da classificação de risco poderá ocorrer sem a observância do procedimento previsto no caput, desde que a agência de classificação de risco de crédito apresente justificativa fundamentada e mantenha documentação comprobatória das razões que impossibilitaram a realização da consulta prévia à entidade avaliada.
+§ 2º Caso a entidade avaliada tenha se manifestado acerca da checagem factual ou confirmado a inexistência de erros factuais no relatório encaminhado, a divulgação da classificação de risco poderá ocorrer imediatamente após tal manifestação." (NR)
+"Art. 16. ............................................
+............................................................
+II - as fontes de informação relevantes utilizadas na elaboração da classificação de risco, incluindo a entidade avaliada ou parte a ela relacionada, se houver;
+............................................................
+IX - se a nota atribuída foi alterada após o envio do relatório à entidade avaliada, nos termos do art. 15-A;
+............................................................
+XI - serviços prestados à entidade avaliada por partes relacionadas à agência de classificação de risco de crédito, nos últimos doze meses;
+XII - as situações que evidenciam potenciais conflitos de interesses; e
+XIII - a identificação da natureza da classificação de risco, devendo informar se a classificação foi:
+a) solicitada pela entidade avaliada ou por parte a ela relacionada;
+b) solicitada por terceiros; ou
+c) mantida por iniciativa da própria agência de classificação de risco de crédito.
+§ 1º Quando a classificação de risco de crédito não for solicitada pela entidade avaliada ou por parte a ela relacionada, o relatório deverá informar:
+I - se a entidade avaliada ou parte relacionada participou do processo de avaliação; e
+II - se foram obtidas informações diretamente com a administração da entidade e consultados documentos internos relevantes para a análise do risco de crédito.
+§ 2º ....................................................
+............................................................
+II - caso a agência, seus sócios, os analistas de classificação de risco de crédito e demais pessoas envolvidas no processo de emissão de uma determinada classificação de risco, seus cônjuges, dependentes ou companheiros, tenham, direta ou indiretamente, interesses financeiros e comerciais relevantes em relação à entidade avaliada;
+III - caso os analistas de classificação de risco de crédito ou demais pessoas envolvidas no processo de emissão de uma determinada classificação de risco tenham vínculo com pessoa natural que trabalhe para a entidade avaliada ou parte a ela relacionada; e
+IV - caso um mesmo acionista ou sócio detenha, direta ou indiretamente, participação igual ou superior a 5% (cinco por cento) do capital social ou dos direitos de voto tanto da agência de classificação de risco quanto da entidade avaliada ou de parte a ela relacionada, ressalvadas as participações detidas por fundos de investimento diversificados, sem influência significativa sobre a gestão.
+............................................................
+§ 4º Quando houver atribuição de perspectiva de classificação de risco de crédito, o relatório deverá informar o horizonte temporal durante o qual se espera eventual alteração da classificação de risco.
+§ 5º Caracteriza-se a existência de vínculo, para os fins do disposto no inciso III do § 2º, quando o analista de classificação de risco de crédito ou qualquer pessoa envolvida no processo de emissão da classificação for cônjuge, companheiro ou parente, consanguíneo ou por afinidade, até o segundo grau, de pessoa natural que trabalhe para a entidade avaliada ou parte a ela relacionada." (NR)
+"Art. 17. ............................................
+............................................................
+§ 1º Para os fins desta Resolução, são exemplos de produtos financeiros estruturados:
+I - cotas de fundos de investimento em direitos creditórios - FIDC;
+............................................................
+V - os certificados de recebíveis do agronegócio - CRA;
+VI - debêntures cujo pagamento de principal e juros advém do fluxo financeiro resultante da cessão de direitos creditórios; e
+VII - os títulos de securitização, conforme definidos na regulamentação que dispõe sobre as companhias securitizadoras de direitos creditórios registradas na CVM.
+............................................................" (NR)
+"Art. 19. ............................................
+............................................................
+IV - rever todo o trabalho relevante do analista de classificação de risco de crédito nos dois anos anteriores à sua saída dos quadros de empregados da agência de classificação de risco de crédito, caso tenha ido trabalhar para entidades avaliadas ou partes a elas relacionadas;
+V - elaborar código de conduta; e
+VI - assegurar que o preço cobrado pelo serviço de classificação de risco e serviços complementares não seja discriminatório e não dependa da classificação emitida pela agência ou de qualquer outro resultado do serviço prestado." (NR)
+"Art. 19-A. Caso seja identificado erro em metodologia de classificação de risco ou na execução de procedimentos relacionados à classificação de risco, que enseje a necessidade de revisão de classificação de risco já emitida, independentemente de tal revisão resultar, ou não, em alteração da nota atribuída, a agência de classificação de risco deve, sem demora injustificada e tão logo seja possível explicar os impactos do referido erro sobre as classificações de risco emitidas:
+I - notificar o erro à CVM e a todas as entidades avaliadas afetadas, informando o impacto nas classificações, inclusive no que se refere à necessidade de revisão;
+II - divulgar em sua página na rede mundial de computadores os erros que ensejem revisão em classificações de risco emitidas;
+III - iniciar a correção dos erros nas suas metodologias e procedimentos de classificação de risco; e
+IV - aplicar as medidas referidas no art. 30 desta Resolução." (NR)
+"Art. 20-A. A agência de classificação de risco deve estabelecer um mecanismo de rotatividade gradual para os analistas de classificação de risco e para as pessoas que aprovam as classificações de risco, em função das entidades avaliadas.
+§ 1º O mecanismo de rotatividade deve promover a rotação de pessoas, não de equipes de trabalho.
+§ 2º Excepcionalmente, a CVM pode, mediante pedido fundamentado, dispensar o cumprimento, no todo ou em parte, dos requisitos previstos neste artigo, quando sua aplicação se mostrar inadequada ou excessivamente onerosa às atividades da agência ou às características das classificações de risco emitidas.
+§ 3º A concessão da dispensa de que trata o § 2º fica condicionada à demonstração da impossibilidade de atendimento ao disposto no caput e de que a agência adota medidas aptas a mitigar os riscos decorrentes da flexibilização, inclusive mecanismos de controle interno, disposições de comunicação de informações e medidas destinadas a assegurar a independência dos analistas de classificação de risco e das pessoas responsáveis pela aprovação das classificações de risco." (NR)
+"Art. 22. ............................................
+............................................................
+VII - ....................................................
+............................................................
+b) a entidade avaliada ou parte a ela relacionada faça parte do bloco de controle, direta ou indiretamente, da agência de classificação de risco de crédito ou vice-versa;
+c) os analistas, os sócios da agência de classificação de risco, ou as demais pessoas envolvidas no processo de emissão da classificação de risco detenham, direta ou indiretamente, ativos financeiros de entidade por eles avaliada ou de parte a ela relacionada;
+d) os analistas, os sócios da agência de classificação de risco, ou as demais pessoas envolvidas no processo de emissão da classificação de risco sejam membros do conselho de administração ou tenham algum poder de ingerência sobre a entidade avaliada;
+e) os analistas, os sócios da agência de classificação de risco, ou as demais pessoas envolvidas no processo de emissão da classificação de risco tenham mantido qualquer relação com a entidade avaliada ou com parte a ela relacionada que possa causar conflito de interesses;
+f) não existam dados confiáveis ou a complexidade da estrutura do novo tipo de ativo financeiro possa resultar em risco para a qualidade da classificação de risco a ser emitida; ou
+g) um mesmo acionista ou sócio detenha, direta ou indiretamente, participação igual ou superior a 10% (dez por cento) do capital social ou dos direitos de voto tanto da agência de classificação de risco quanto da entidade avaliada ou de parte a ela relacionada, ressalvadas as participações detidas por fundos de investimento diversificados, sem influência significativa sobre a gestão.
+............................................................
+§ 3º O disposto na alínea 'g' do inciso VII do caput aplica-se, ainda, quando a participação cruzada igual ou superior a 10% (dez por cento) for identificada após a emissão da classificação de risco, hipótese em que a agência deverá promover a imediata suspensão ou retirada da classificação, a fim de preservar a credibilidade do processo de classificação e a integridade do mercado de capitais." (NR)
+"Seção III - Uso de Informação Relevante da Entidade Avaliada
+Art. 23-A. A classificação de risco de crédito, a perspectiva de classificação e informações relacionadas à classificação de risco de crédito são informações presumidamente relevantes da entidade avaliada para fins de negociação de ativos no mercado de valores mobiliários, nos termos da regulamentação que dispõe sobre a divulgação de informações sobre ato ou fato relevante, a negociação de valores mobiliários na pendência de ato ou fato relevante não divulgado e a divulgação de informações sobre a negociação de valores mobiliários." (NR)
+"Art. 23-B. A agência deve adotar procedimentos para assegurar que a divulgação pública das informações de que trata o art. 23-A seja feita de forma tempestiva e não enseje assimetria indevida de informação nem possibilite seu uso seletivo antes da comunicação ao mercado." (NR)
+"Art. 25-A. A agência de classificação de risco de crédito deve manter atualizada uma listagem das pessoas ligadas à agência que possuem acesso às informações relacionadas às suas classificações de risco de crédito, perspectivas de classificação ou informações relacionadas, antes da divulgação." (NR)
+"Art. 29-A. A agência de classificação de risco de crédito que pretenda introduzir novas metodologias ou procedimentos, ou promover alterações significativas em metodologias ou procedimentos existentes utilizados na elaboração das classificações de risco, suscetíveis de impactar determinadas classificações de risco, ainda que tais impactos não resultem em alteração da nota atribuída, deve promover consulta pública, por prazo não inferior a um mês, por meio de publicação em sua página na rede mundial de computadores.
+§ 1º A publicação referida no caput deve ser acompanhada de explicação pormenorizada quanto aos fundamentos e às implicações das alterações ou das novas metodologias ou procedimentos propostos.
+§ 2º A agência de classificação de risco deve informar imediatamente à CVM quando do início e do término da consulta pública, assim como publicar as novas metodologias de classificação de risco em sua página na rede mundial de computadores.
+§ 3º A agência de classificação de risco deve publicar as respostas da consulta pública em sua página na rede mundial de computadores, facultada sua apresentação de forma agregada, resguardadas as hipóteses de solicitação de confidencialidade pelo respondente." (NR)
+Art. 2º O Anexo B da Resolução CVM nº 9, de 27 de outubro de 2020, publicada no Diário Oficial da União de 28 de outubro de 2020, passa a vigorar com as seguintes alterações:
+"4.3 Identificar as entidades avaliadas ou partes a elas relacionadas que:
+a. sejam responsáveis por mais de 5% (cinco por cento) da receita líquida anual da agência, informando o montante total de receitas geradas para a agência;
+b. possuam acionista ou sócio que detenha, direta ou indiretamente, participação igual ou superior a 5% (cinco por cento) do capital social ou dos direitos de voto tanto da agência de classificação de risco quanto da entidade avaliada ou de parte a ela relacionada, ressalvadas as participações detidas por fundos de investimento diversificados, sem influência significativa sobre a gestão; e
+c. possuam acionista ou sócio que detenha, direta ou indiretamente, participação igual ou superior a 10% (dez por cento) do capital social ou dos direitos de voto tanto da agência quanto da entidade avaliada ou de parte a ela relacionada, ressalvadas as participações detidas por fundos de investimento diversificados, sem influência significativa sobre a gestão." (NR)
+Art. 3º Ficam revogados os seguintes dispositivos da Resolução CVM nº 9, de 27 de outubro de 2020, publicada no Diário Oficial da União de 28 de outubro de 2020:
+I - art. 1º, caput, incisos I e II; e
+II - art. 17, § 1º, inciso III.
+Art. 4º Esta Resolução entra em vigor em 1º de dezembro de 2026.
+OTTO EDUARDO FONSECA DE ALBUQUERQUE LOBO

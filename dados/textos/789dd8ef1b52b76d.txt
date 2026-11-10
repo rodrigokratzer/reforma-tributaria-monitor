@@ -1,0 +1,13 @@
+PORTARIA RFB Nº 754, DE 6 DE NOVEMBRO DE 2026
+Dispõe sobre o acesso às soluções de interoperabilidade de dados da Secretaria Especial da Receita Federal do Brasil disponibilizadas no ambiente nacional de compartilhamento de dados previsto na Lei Complementar nº 214, de 16 de janeiro de 2025, e no Decreto nº 12.955, de 29 de abril de 2026.
+O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o art. 350, caput, inciso III, do Regimento Interno da Secretaria Especial da Receita Federal do Brasil, aprovado pela Portaria ME nº 284, de 27 de julho de 2020, e tendo em vista o disposto na Lei Complementar nº 214, de 16 de janeiro de 2025, e no Decreto nº 12.955, de 29 de abril de 2026,resolve:
+Art. 1º Esta Portaria dispõe sobre o acesso às soluções de interoperabilidade de dados da Secretaria Especial da Receita Federal do Brasil disponibilizadas no ambiente nacional de compartilhamento de dados previsto na Lei Complementar nº 214, de 16 de janeiro de 2025, e no Decreto nº 12.955, de 29 de abril de 2026.
+Parágrafo único. Poderão ter acesso às soluções de que trata o caput as administrações tributárias estaduais, distrital e municipais e o Comitê Gestor do Imposto sobre Bens e Serviços - CGIBS.
+Art. 2º O requerimento de acesso deverá ser protocolado exclusivamente por meio de serviço digital disponível no portal Serviços da Receita Federal (https://servicos.receitafederal.gov.br).
+§ 1º Devem ser anexados ao requerimento o(s) termo(s) de responsabilidade assinado(s) digitalmente pelo(s) gestor(es) de acesso indicado(s) pelo órgão para administrar o acesso de usuários aos dados compartilhados por meio do ambiente de interoperabilidade.
+§ 2º O gestor de acesso indicado pelo órgão deverá ser servidor público, com vínculo ativo junto ao correspondente Ente Federado.
+§ 3º A assinatura de que trata o parágrafo primeiro poderá ser realizada por meio da identidade digital prata ou ouro da plataforma gov.br, prevista Portaria SEDGGME nº 2.154, de 23 de fevereiro de 2021, ou certificado digital válido de pessoa física (e-CPF).
+§ 4º O requerimento deve ser assinado digitalmente pela entidade requerente, pelo representante perante o CNPJ, ou representante digital autorizado na forma da Instrução Normativa RFB nº 2.320, de 6 de abril de 2026.
+Art. 3º O não cumprimento dos requisitos estabelecidos pelo art. 2º implicará no indeferimento automático do pedido, sem prejuízo novo requerimento, observado o disposto nesta Portaria.
+Art. 4º Esta Portaria entra em vigor na data de sua publicação no Diário Oficial da União.
+ROBINSON SAKIYAMA BARREIRINHAS
