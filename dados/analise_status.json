@@ -1,8 +1,2 @@
-{
- "data": "2026-11-10",
- "turno": "matinal",
- "situacao": "sem_novidade",
- "acoes": 0,
- "gerado_em": "2026-11-10T08:02:59Z",
- "resumo_curto": "11 itens, nenhum muda prazo ou obrigação; Portaria RFB 754 regula acesso dos fiscos a dados"
-}
+{"data": "2026-11-10", "turno": "noturna", "situacao": "publicada", "acoes": 0,
+ "gerado_em": "2026-11-10T20:02:46Z", "resumo_curto": "1 novidade: DeRE beta exige novo XSD do evento PGCC a partir de 11/11"}
