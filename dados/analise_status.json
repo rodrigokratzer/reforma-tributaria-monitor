@@ -1,11 +1,8 @@
 {
- "data": "2026-11-09",
- "turno": "noturna",
- "situacao": "publicada",
+ "data": "2026-11-10",
+ "turno": "matinal",
+ "situacao": "sem_novidade",
  "acoes": 0,
- "gerado_em": "2026-11-09T20:10:00Z",
- "resumo_curto": "1 novidade: APIs v2.0 da apuração de CBS; nenhuma exige ação imediata",
- "painel_atualizado": [
-  "APIs v2.0 de apuração da CBS liberadas pela Receita em 28/10 (produção restrita e beta); chaves antigas precisam ser refeitas"
- ]
+ "gerado_em": "2026-11-10T08:02:59Z",
+ "resumo_curto": "11 itens, nenhum muda prazo ou obrigação; Portaria RFB 754 regula acesso dos fiscos a dados"
 }

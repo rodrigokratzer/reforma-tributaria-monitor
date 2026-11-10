@@ -14,6 +14,11 @@
   "motivo": "Designa gestores de acordo de cooperação técnica entre União e Banco do Brasil; sem relação com a reforma",
   "em": "2026-10-08-matinal"
  },
+ "00ce0805700652a8": {
+  "veredito": "ruido",
+  "motivo": "homologação de mudança de participação acionária em seguradora (SUSEP)",
+  "em": "2026-11-10-matinal"
+ },
  "01110ce2da0e4f90": {
   "veredito": "ruido",
   "motivo": "Exige curso aduaneiro para credenciamento no Porto do Rio; sem relação com a reforma.",
@@ -188,6 +193,11 @@
   "veredito": "ruido",
   "motivo": "Resolução Susep sobre prevenção à lavagem de dinheiro, sem relação com a reforma",
   "em": "2026-10-02-matinal"
+ },
+ "10139747330bf389": {
+  "veredito": "ruido",
+  "motivo": "retenção previdenciária na cessão de mão de obra (CPRB), fora da reforma do consumo",
+  "em": "2026-11-10-matinal"
  },
  "1099e8623c68f067": {
   "veredito": "ruido",
@@ -584,6 +594,11 @@
   "motivo": "Res. CGSN 195: DASN-Simei como documento fiscal do MEI na venda a PF a partir de 2027",
   "em": "2026-10-30-matinal"
  },
+ "27fef009c7cf9645": {
+  "veredito": "ruido",
+  "motivo": "PMPF de combustíveis para o ICMS a partir de 16/11, rotina do Convênio 110/07",
+  "em": "2026-11-10-matinal"
+ },
  "2835b5e111aa61dd": {
   "veredito": "ruido",
   "motivo": "solução de consulta sobre retenção de IRRF/CSLL em serviços de manutenção, sem relação com a reforma",
@@ -678,6 +693,11 @@
   "veredito": "ruido",
   "motivo": "homologação de eleição de administrador de seguradora, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "30ba8e372ce05bd5": {
+  "veredito": "ruido",
+  "motivo": "regras das agências de classificação de risco de crédito (CVM)",
+  "em": "2026-11-10-matinal"
  },
  "3113aca84b9506b2": {
   "veredito": "ruido",
@@ -884,6 +904,11 @@
   "motivo": "Debate institucional sobre transição da reforma, sem efeito normativo",
   "em": "retroativa-2026-09-30"
  },
+ "3e37f65785978b8c": {
+  "veredito": "ruido",
+  "motivo": "cancelamento de autorização de corretora de resseguros (SUSEP)",
+  "em": "2026-11-10-matinal"
+ },
  "3fad552566a4914a": {
   "veredito": "ruido",
   "motivo": "Portaria Susep homologa eleição de administrador de seguradora, sem relação com a reforma",
@@ -959,10 +984,20 @@
   "motivo": "Resolução CGIBS sem indicação de conteúdo no título nem ementa",
   "em": "retroativa-2026-09-30"
  },
+ "456063363499d730": {
+  "veredito": "ruido",
+  "motivo": "homologação de reeleição de diretoria de resseguradora (SUSEP)",
+  "em": "2026-11-10-matinal"
+ },
  "459368b32eb48112": {
   "veredito": "ruido",
   "motivo": "delegação de competência na DRF Santos",
   "em": "2026-10-30-matinal"
+ },
+ "4595626729934c5b": {
+  "veredito": "ruido",
+  "motivo": "homologação de eleição de diretoria de resseguradora (SUSEP)",
+  "em": "2026-11-10-matinal"
  },
  "45b3dbc1c2550ae8": {
   "veredito": "ruido",
@@ -1053,6 +1088,11 @@
   "veredito": "relevante",
   "motivo": "CGIBS/RFB ampliam limite de contas dos eventos XSD da DeRE, empresas piloto devem ajustar sistemas",
   "em": "retroativa-2026-09-30"
+ },
+ "4a21853922e9a2e7": {
+  "veredito": "ruido",
+  "motivo": "certificações aceitas para consultor de valores mobiliários (CVM)",
+  "em": "2026-11-10-matinal"
  },
  "4a5410f3084732bc": {
   "veredito": "ruido",
@@ -1713,6 +1753,16 @@
   "veredito": "ruido",
   "motivo": "Retificação sem ementa/texto disponível; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "772e1dcf047cba73": {
+  "veredito": "ruido",
+  "motivo": "expediente reduzido da DRF Feira de Santana na Micareta, sem relação com a reforma",
+  "em": "2026-11-10-matinal"
+ },
+ "789dd8ef1b52b76d": {
+  "veredito": "contexto",
+  "motivo": "regula o acesso de fiscos estaduais, municipais e do CGIBS aos dados da RFB (LC 214); nada muda para o contribuinte",
+  "em": "2026-11-10-matinal"
  },
  "78d9651b3ddb7164": {
   "veredito": "relevante",
@@ -2618,6 +2668,11 @@
   "veredito": "ruido",
   "motivo": "Republicação da segmentação de fundos de pensão; 'CBS' no texto é sigla de entidade, não da reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "c2d926b78cc4e3d4": {
+  "veredito": "ruido",
+  "motivo": "homologação de atos societários de empresa de capitalização (SUSEP)",
+  "em": "2026-11-10-matinal"
  },
  "c31776d8c2e02c25": {
   "veredito": "ruido",
