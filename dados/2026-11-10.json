@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
+   "erro_browser": null,
    "total": 10,
    "itens": [
     {
@@ -486,6 +486,13 @@
    "total": 4,
    "itens": [
     {
+     "titulo": "Reforma Tributária: Atualização do Ambiente Beta da DeRE",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/reforma-tributaria-atualizacao-do-ambiente-beta-da-dere",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
      "titulo": "Receita Federal libera acesso às novas APIs de apuração da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-libera-acesso-as-novas-apis-de-apuracao-da-cbs",
      "data": null,
@@ -505,13 +512,6 @@
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
-    },
-    {
-     "titulo": "Receita Federal destaca Programa Confia em seminário regional sobre conformidade cooperativa na Guatemala",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-destaca-programa-confia-em-seminario-regional-sobre-conformidade-cooperativa-na-guatemala",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
     }
    ]
   },
@@ -522,8 +522,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 23,
+   "total": 24,
    "itens": [
+    {
+     "titulo": "Reforma Tributária: Atualização do Ambiente Beta da DeRE",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/reforma-tributaria-atualizacao-do-ambiente-beta-da-dere",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Receita Federal libera acesso às novas APIs de apuração da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-libera-acesso-as-novas-apis-de-apuracao-da-cbs",
