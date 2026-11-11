@@ -483,7 +483,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 4,
+   "total": 2,
    "itens": [
     {
      "titulo": "Reforma Tributária: Atualização do Ambiente Beta da DeRE",
@@ -498,20 +498,6 @@
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
-    },
-    {
-     "titulo": "Mais de 1 milhão de contribuintes já optaram pelo regime regular do IBS e da CBS",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/mais-de-1-milhao-de-contribuintes-ja-optaram-pelo-regime-regular-do-ibs-e-da-cbs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Receita Federal e CGIBS discutem ampliação do prazo de opção pelo regime específico da CBS e do IBS para as cooperativas até 30 de novembro",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-cgibs-discutem-ampliacao-do-prazo-de-opcao-pelo-regime-especifico-da-cbs-e-do-ibs-para-as-cooperativas-ate-30-de-novembro",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
     }
    ]
   },
@@ -522,7 +508,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 24,
+   "total": 23,
    "itens": [
     {
      "titulo": "Reforma Tributária: Atualização do Ambiente Beta da DeRE",
@@ -684,103 +670,18 @@
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
-    },
-    {
-     "titulo": "Receita Federal e Comitê Gestor do IBS publicam o Cronograma de Implementação dos Documentos Fiscais Eletrônicos da Reforma Tributária do Consumo",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-comite-gestor-do-ibs-publicam-o-cronograma-de-implementacao-dos-documentos-fiscais-eletronicos-da-reforma-tributaria-do-consumo",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
     }
    ]
   },
   {
    "fonte": "Portal DF-e SVRS - Noticias",
    "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias",
-   "metodo": "http",
-   "http_status": 200,
-   "erro": null,
+   "metodo": null,
+   "http_status": null,
+   "erro": "http: TimeoutError: The read operation timed out",
    "erro_browser": null,
-   "total": 11,
-   "itens": [
-    {
-     "titulo": "Implantadas NTs 2026.002 em PRODUÇÃO na SVRS",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#3005",
-     "data": "2026-08-31",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Implantada a regra de validação de exigencia de IBS e CBS no ambiente de homologação",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2981",
-     "data": "2026-07-06",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Publicação da versão 1.50 da NT 2025.001 da NFe/NFCe",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2979",
-     "data": "2026-06-02",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "CGIBS Publica Regulamento do Imposto sobre Bens e Serviços",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2976",
-     "data": "2026-04-30",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "CGIBS e Receita Federal publicam documentação técnica oficial da Declaração de Regimes Específicos (DeRE)",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2967",
-     "data": "2025-12-12",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Comitê Gestor do IBS e Receita Federal divulgam orientações sobre a entrada em vigor da CBS e do IBS em 1º de janeiro de 2026",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2966",
-     "data": "2025-12-02",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Comitê Gestor lança cartilha para orientar a emissão da Nota Fiscal Eletrônica do IBS",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2965",
-     "data": "2025-11-14",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Novidade: Disponibilizada a nova interface da Conformidade Fácil para NFe e NFCe",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2961",
-     "data": "2025-11-05",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Conformidade Fácil - Validador RTC",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2948",
-     "data": "2025-07-04",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Implantação das Notas Técnicas Reforma Tributária",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2947",
-     "data": "2025-07-01",
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Consulta Tabelas CST, cClass e Credito Presumido para Reforma Tributária",
-     "url": "https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias#2946",
-     "data": "2025-06-16",
-     "pasta_arquivo": null,
-     "alerta": null
-    }
-   ]
+   "total": 0,
+   "itens": []
   },
   {
    "fonte": "Portal NF-e - Informes/NTs",
