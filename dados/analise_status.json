@@ -1,14 +1,1 @@
-{
- "data": "2026-11-11",
- "turno": "matinal",
- "situacao": "publicada",
- "acoes": 1,
- "gerado_em": "2026-11-11T08:03:12Z",
- "resumo_curto": "12 itens, 1 exige ação: ANA muda a regra provisória da tarifa de água e esgoto (prazo 15/11)",
- "painel_atualizado": [
-  "Água e esgoto: 15/11 é o prazo recomendado pela ANA para as agências homologarem a tabela sem PIS/Cofins; depois disso vale a regra provisória revista (Res. ANA 312)",
-  "Alíquota de referência: TCU aprovou em 28/10 o cálculo da CBS de 2027 em 11,3%, segundo a NT ANA 54/2026; falta a fixação pelo Senado",
-  "Res. ANA 307 (28/10) marcada como revogada pela Res. ANA 312",
-  "Res. ANA 312 (11/11): com CBS de 11,3%, regra provisória de água e esgoto passa a tirar 9,25% da tarifa e somar CBS/IBS por fora"
- ]
-}
+{"data": "2026-11-11", "turno": "noturna", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-11-11T20:03:01Z", "resumo_curto": "nenhuma publicação nova"}
