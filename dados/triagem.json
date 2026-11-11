@@ -639,10 +639,20 @@
   "motivo": "APIs v2.0 de apuração de débitos e créditos de CBS liberadas; chaves antigas precisam ser refeitas",
   "em": "2026-11-09-noturna"
  },
+ "2bb0cd4fda850553": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral de resseguradora eventual na SUSEP",
+  "em": "2026-11-11-matinal"
+ },
  "2bb433940b0ea32a": {
   "veredito": "ruido",
   "motivo": "Portaria SUSEP sem ementa; regulação de seguros, sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "2c82a22b7ff0bb5e": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral de resseguradora eventual na SUSEP",
+  "em": "2026-11-11-matinal"
  },
  "2d8e2fdd4add5a49": {
   "veredito": "contexto",
@@ -679,6 +689,11 @@
   "motivo": "Minuta de Portaria CGIBS sobre acordos de adesão; ainda é proposta, não norma vigente.",
   "em": "retroativa-2026-09-30"
  },
+ "2e7a946dc57413de": {
+  "veredito": "ruido",
+  "motivo": "manual interno do CARF para exame de agravo",
+  "em": "2026-11-11-matinal"
+ },
  "2ec91f54becfe8b7": {
   "veredito": "ruido",
   "motivo": "delegação de competência para liberar mercadorias apreendidas, sem relação com a reforma",
@@ -688,6 +703,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta sem ementa disponível; nada indica relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
+ },
+ "2f98ef302ce359a5": {
+  "veredito": "ruido",
+  "motivo": "remanejamento de limites de pagamento do orçamento federal de 2026",
+  "em": "2026-11-11-matinal"
  },
  "30b6d19cb1c62217": {
   "veredito": "ruido",
@@ -1104,6 +1124,11 @@
   "motivo": "portaria de regulação de seguradoras da SUSEP, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "4ac12f96fe045c9c": {
+  "veredito": "ruido",
+  "motivo": "delegação para autorizar destinação de mercadorias apreendidas na 6ª RF, sem relação com a reforma",
+  "em": "2026-11-11-matinal"
+ },
  "4b8a8222d3bc3f83": {
   "veredito": "ruido",
   "motivo": "soluções de consulta de classificação NCM de alimentos",
@@ -1284,6 +1309,11 @@
   "motivo": "Cria equipe regional de fiscalização para perdimento por contrabando/descaminho; sem relação com a reforma",
   "em": "2026-10-08-matinal"
  },
+ "5935bf9aca077025": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre retenção de INSS e IRPJ em serviço de copeiragem, sem relação com IBS/CBS",
+  "em": "2026-11-11-matinal"
+ },
  "5a1222c744bf51d7": {
   "veredito": "contexto",
   "motivo": "designa equipe de assessoramento da Tesouraria do CGIBS na aplicação financeira; governança interna, sem efeito externo",
@@ -1293,6 +1323,11 @@
   "veredito": "ruido",
   "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
   "em": "2026-10-13-matinal"
+ },
+ "5a5b6d9c759577be": {
+  "veredito": "ruido",
+  "motivo": "homologação de aquisição de participação em seguradora pela SUSEP",
+  "em": "2026-11-11-matinal"
  },
  "5aa5445316ef6f10": {
   "veredito": "ruido",
@@ -2059,6 +2094,11 @@
   "motivo": "requisitos técnicos de equipamento de raios X para inspeção aduaneira, sem relação com a reforma",
   "em": "2026-10-15-matinal"
  },
+ "915436445bb5a7f9": {
+  "veredito": "ruido",
+  "motivo": "manual interno do CARF para admissibilidade de embargos",
+  "em": "2026-11-11-matinal"
+ },
  "917f534983ffcac4": {
   "veredito": "ruido",
   "motivo": "suspensão temporária de agência da RFB em Lagoa Vermelha (RS), sem relação com a reforma",
@@ -2474,6 +2514,11 @@
   "motivo": "Susep homologa reforma de estatuto social",
   "em": "2026-10-30-matinal"
  },
+ "b3106352ce3fe803": {
+  "veredito": "ruido",
+  "motivo": "manual interno do CARF para admissibilidade de recurso especial",
+  "em": "2026-11-11-matinal"
+ },
  "b310b33c1de57d34": {
   "veredito": "ruido",
   "motivo": "Segmentação de fundos de pensão para supervisão; 'CBS' no texto é sigla de entidade, não da reforma.",
@@ -2824,6 +2869,11 @@
   "motivo": "Detalha as duas opções (Simples e regime regular do IBS/CBS) já prorrogadas pela Res. CGSN 194",
   "em": "2026-09-30-noturna"
  },
+ "ce8687c8ba89517d": {
+  "veredito": "ruido",
+  "motivo": "uso da reserva financeira de casas de apostas para restituir apostadores (MP 1.394), sem relação com a reforma",
+  "em": "2026-11-11-matinal"
+ },
  "ce94a51a67e68d35": {
   "veredito": "ruido",
   "motivo": "IN de autorregularização para selos Confia/Sintonia; tributos federais atuais",
@@ -2903,6 +2953,11 @@
   "veredito": "ruido",
   "motivo": "homologação de eleição de administradores de seguradora, ato interno sem relação com a reforma",
   "em": "2026-10-06-matinal"
+ },
+ "d5b09ac84e52a47b": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre retenção de IRPJ/CSLL em serviços médicos de home care",
+  "em": "2026-11-11-matinal"
  },
  "d5bffaa13ed78932": {
   "veredito": "relevante",
@@ -3143,6 +3198,11 @@
   "veredito": "relevante",
   "motivo": "Balanço atualizado: 63% dos pedidos do Simples 2027 ainda indeferidos, às vésperas do prazo",
   "em": "2026-09-30-noturna"
+ },
+ "ebaac520c8d3af61": {
+  "veredito": "relevante",
+  "motivo": "ANA revê regra provisória das tarifas de água/esgoto sem tabela desonerada em 15/11; CBS de 11,3% muda o cenário",
+  "em": "2026-11-11-matinal"
  },
  "ec04cc066893e30b": {
   "veredito": "ruido",

@@ -1,5 +1,33 @@
 [
  {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "Água e esgoto: 15/11 é o prazo recomendado pela ANA para as agências homologarem a tabela sem PIS/Cofins; depois disso vale a regra provisória revista (Res. ANA 312)",
+  "fonte": "https://www.in.gov.br/web/dou/-/resolucao-ana-n-312-de-10-de-novembro-de-2026-743592817",
+  "em": "2026-11-11-matinal"
+ },
+ {
+  "secao": "pendencias",
+  "tipo": "alterado",
+  "descricao": "Alíquota de referência: TCU aprovou em 28/10 o cálculo da CBS de 2027 em 11,3%, segundo a NT ANA 54/2026; falta a fixação pelo Senado",
+  "fonte": "https://www.in.gov.br/web/dou/-/resolucao-ana-n-312-de-10-de-novembro-de-2026-743592817",
+  "em": "2026-11-11-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "alterado",
+  "descricao": "Res. ANA 307 (28/10) marcada como revogada pela Res. ANA 312",
+  "fonte": "https://www.in.gov.br/web/dou/-/resolucao-ana-n-312-de-10-de-novembro-de-2026-743592817",
+  "em": "2026-11-11-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Res. ANA 312 (11/11): com CBS de 11,3%, regra provisória de água e esgoto passa a tirar 9,25% da tarifa e somar CBS/IBS por fora",
+  "fonte": "https://www.in.gov.br/web/dou/-/resolucao-ana-n-312-de-10-de-novembro-de-2026-743592817",
+  "em": "2026-11-11-matinal"
+ },
+ {
   "secao": "linha_do_tempo",
   "tipo": "incluido",
   "descricao": "APIs v2.0 de apuração da CBS liberadas pela Receita em 28/10 (produção restrita e beta); chaves antigas precisam ser refeitas",
