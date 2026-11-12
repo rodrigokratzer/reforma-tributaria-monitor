@@ -2459,6 +2459,16 @@
   "status": "lido",
   "tentativas": 1
  },
+ "631db0111412cabf": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 37431,
+  "lido_em": "2026-11-12T20:02:32Z",
+  "origem": "pdf",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
+ },
  "63b189fdd15bd52f": {
   "chars": 956,
   "lido_em": "2026-10-30T08:02:04Z",
@@ -3254,6 +3264,13 @@
   "chars": 1411,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "8ba73a795c51af54": {
+  "chars": 6036,
+  "lido_em": "2026-11-12T20:02:31Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
