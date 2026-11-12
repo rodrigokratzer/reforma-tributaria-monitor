@@ -8,7 +8,7 @@
    "http_status": null,
    "erro": null,
    "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
-   "total": 18,
+   "total": 19,
    "itens": [
     {
      "titulo": "PORTARIA SRRF06 Nº 395, DE 9 DE NOVEMBRO DE 2026",
@@ -225,18 +225,29 @@
      "continuacao": false,
      "alerta": null,
      "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO TÉCNICO CONJUNTO RFB/SUANA/CGIBS/DE Nº 11, DE 10 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-tecnico-conjunto-rfb/suana/cgibs/de-n-11-de-10-de-novembro-de-2026-744121817",
+     "data": "2026-11-12",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Administração Aduaneira",
+     "ementa": "ATO TÉCNICO CONJUNTO RFB/SUANA/CGIBS/DE Nº 11, DE 10 DE NOVEMBRO DE 2026 Dispõe sobre a aprovação conjunta da Secretaria Especial da Receita Federal do Brasil e do Comitê Gestor do Imposto sobre Bens e Serviços da documentação técnica da Declaração Única de Importação. O SUBSECRETÁRIO DE ADMINISTRAÇ",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
     }
    ],
    "diagnostico": {
-    "lidas": 5692,
-    "forte": 1,
+    "lidas": 5693,
+    "forte": 2,
     "revisar": 17,
-    "baixados": 518,
+    "baixados": 519,
     "falhas_download": 0,
     "duplicados": 0,
     "sem_edicao": [
      "2026-11-11 DO3E: sem materias",
-     "2026-11-12 DO1E: sem materias",
      "2026-11-12 DO3E: sem materias"
     ],
     "erros": []
