@@ -1529,6 +1529,11 @@
   "motivo": "página de suporte técnico do Serpro, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "631db0111412cabf": {
+  "veredito": "contexto",
+  "motivo": "regras internas de ordenação de despesas e licitações do CGIBS; sem efeito para o contribuinte",
+  "em": "2026-11-12-noturna"
+ },
  "63b189fdd15bd52f": {
   "veredito": "ruido",
   "motivo": "Susep homologa destituição de administrador",
@@ -2033,6 +2038,11 @@
   "veredito": "ruido",
   "motivo": "Concede gratificação (GTATA) a servidores da RFB; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "8ba73a795c51af54": {
+  "veredito": "relevante",
+  "motivo": "aprova leiautes da Duimp (v77.0.0) e da DIR (v1.0) para IBS/CBS; afeta sistemas de importação",
+  "em": "2026-11-12-noturna"
  },
  "8baeeef633cc3ce9": {
   "veredito": "relevante",

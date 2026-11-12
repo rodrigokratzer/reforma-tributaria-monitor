@@ -1,5 +1,12 @@
 [
  {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Leiautes da Duimp (v77.0.0) e da Declaração de Importação de Remessa (v1.0) aprovados para IBS/CBS (Atos Técnicos Conjuntos nº 11 e 12, DOU 12/11)",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-tecnico-conjunto-rfb/suana/cgibs/de-n-11-de-10-de-novembro-de-2026-744121817",
+  "em": "2026-11-12-noturna"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "incluido",
   "descricao": "Água e esgoto: 15/11 é o prazo recomendado pela ANA para as agências homologarem a tabela sem PIS/Cofins; depois disso vale a regra provisória revista (Res. ANA 312)",

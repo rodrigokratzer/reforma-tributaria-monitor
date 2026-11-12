@@ -1,1 +1,11 @@
-{"data": "2026-11-12", "turno": "matinal", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-11-12T08:30:00Z", "resumo_curto": "10 itens do DOU, nenhum muda prazo ou obrigação da reforma"}
+{
+ "data": "2026-11-12",
+ "turno": "noturna",
+ "situacao": "publicada",
+ "acoes": 0,
+ "gerado_em": "2026-11-12T20:05:00Z",
+ "resumo_curto": "2 novidades, nenhuma exige ação: leiautes da Duimp e da DIR aprovados para IBS/CBS",
+ "painel_atualizado": [
+  "Leiautes da Duimp (v77.0.0) e da Declaração de Importação de Remessa (v1.0) aprovados para IBS/CBS (Atos Técnicos Conjuntos nº 11 e 12, DOU 12/11)"
+ ]
+}
