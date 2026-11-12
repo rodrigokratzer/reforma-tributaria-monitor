@@ -1,12 +1,11 @@
 {
- "data": "2026-11-11",
+ "data": "2026-11-12",
  "quantidade": 0,
  "itens": [],
- "fontes_com_erro": [
-  "Portal DF-e SVRS - Noticias"
- ],
+ "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
+  "Portal DF-e SVRS - Noticias",
   "Portal NF-e - Informes/NTs",
   "Portal NF-e - Atos RFB/CGIBS",
   "Portal NF-e - Atos Tecnicos RFB/CGIBS",
