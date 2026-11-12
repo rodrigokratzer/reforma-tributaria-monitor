@@ -159,6 +159,11 @@
   "motivo": "homologação de reeleição de diretoria da Mapfre Previdência, sem relação com a reforma",
   "em": "2026-10-07-matinal"
  },
+ "0c643ae2af9945c0": {
+  "veredito": "ruido",
+  "motivo": "soluções de consulta de IRPF, CPRB e IRRF, sem tema da reforma do consumo",
+  "em": "2026-11-12-matinal"
+ },
  "0c7c72042641329d": {
   "veredito": "ruido",
   "motivo": "homologação de eleição de administradores da Mapfre Vida, sem relação com a reforma",
@@ -849,6 +854,11 @@
   "motivo": "nomeação de procuradora de resseguradora (Liberty Mutual), sem relação com a reforma",
   "em": "2026-10-19-matinal"
  },
+ "39b399086ab4498b": {
+  "veredito": "ruido",
+  "motivo": "curso aduaneiro exigido para credenciamento em recintos alfandegados na Bahia",
+  "em": "2026-11-12-matinal"
+ },
  "3a1cfb023350f6d2": {
   "veredito": "contexto",
   "motivo": "Reunião institucional apresentando avanços da implementação do IBS, sem norma",
@@ -1148,6 +1158,11 @@
   "veredito": "ruido",
   "motivo": "realocação de cargo comissionado na CVM, ato interno sem relação com a reforma",
   "em": "2026-10-19-matinal"
+ },
+ "4e0f379f6cc7bae6": {
+  "veredito": "ruido",
+  "motivo": "procedimento de fornecimento de bordo no Porto de Imbituba, sem relação com IBS/CBS",
+  "em": "2026-11-12-matinal"
  },
  "4e38e786b0b07c15": {
   "veredito": "ruido",
@@ -1824,6 +1839,11 @@
   "motivo": "soluções de consulta sobre AFRMM e dedução de pensão alimentícia no IRPF, sem relação com a reforma",
   "em": "2026-10-20-matinal"
  },
+ "7b06768d2b08676c": {
+  "veredito": "contexto",
+  "motivo": "classificação NCM (bebida 2202.99.00, medidores de pressão 9018.19.80); afeta enquadramento, não muda regra",
+  "em": "2026-11-12-matinal"
+ },
  "7b5962a512544c25": {
   "veredito": "ruido",
   "motivo": "Suspensão temporária do Chat RFB na 4ª Região Fiscal para treinamento, ato interno",
@@ -2079,6 +2099,11 @@
   "motivo": "Balanço estatístico da RFB sobre opções pelo Simples/IBS/CBS, sem novo prazo ou obrigação",
   "em": "retroativa-2026-09-30"
  },
+ "8f715dd74a899f41": {
+  "veredito": "ruido",
+  "motivo": "Câmara de Assuntos Regulatórios do mercado de carbono (SBCE)",
+  "em": "2026-11-12-matinal"
+ },
  "8fb7d8a3af43f2d9": {
   "veredito": "ruido",
   "motivo": "programação orçamentária e financeira do Executivo",
@@ -2203,6 +2228,11 @@
   "veredito": "ruido",
   "motivo": "Homologação cadastral de resseguradora estrangeira (Allianz); sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "99b9b337325f26d5": {
+  "veredito": "ruido",
+  "motivo": "suspensão do Chat RFB na 5ª Região Fiscal em 17 e 18/11 para treinamento",
+  "em": "2026-11-12-matinal"
  },
  "9a29a80899f9f4b5": {
   "veredito": "ruido",
@@ -2373,6 +2403,11 @@
   "veredito": "ruido",
   "motivo": "Homologação de valores de projetos culturais (Lei Rouanet), sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "a787939e0ce18c64": {
+  "veredito": "ruido",
+  "motivo": "institui comitê de seleção e avaliação de conselheiros do CARF",
+  "em": "2026-11-12-matinal"
  },
  "a7f8fbbeee67455c": {
   "veredito": "ruido",
@@ -2844,6 +2879,11 @@
   "motivo": "Solução de consulta sobre regime de apuração de PIS/Cofins de empresa de monitoramento de segurança, sem relação com a reforma",
   "em": "2026-10-02-matinal"
  },
+ "cc01de260760fb74": {
+  "veredito": "ruido",
+  "motivo": "vistoria remota para registros especiais (papel imune, bebidas, biodiesel) na DRF João Pessoa",
+  "em": "2026-11-12-matinal"
+ },
  "ccb5bb2b7a7d8d97": {
   "veredito": "ruido",
   "motivo": "Prorroga portaria administrativa da RFB na 8ª região fiscal; sem relação com a reforma.",
@@ -2923,6 +2963,11 @@
   "veredito": "contexto",
   "motivo": "Missão institucional do CGIBS à OCDE sobre IVA, sem efeito prático imediato",
   "em": "retroativa-2026-09-30"
+ },
+ "d23a73f5ad47f448": {
+  "veredito": "ruido",
+  "motivo": "distribuição de vagas de conselheiros dos contribuintes no CARF",
+  "em": "2026-11-12-matinal"
  },
  "d2cf6ec66db66550": {
   "veredito": "ruido",
@@ -3163,6 +3208,11 @@
   "veredito": "ruido",
   "motivo": "Homologa eleição de administradores da Aliança do Brasil Seguros; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "e77c1abbd0a0de4a": {
+  "veredito": "ruido",
+  "motivo": "SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
+  "em": "2026-11-12-matinal"
  },
  "e7cfcd74f35193e1": {
   "veredito": "ruido",
