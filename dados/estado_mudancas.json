@@ -1,5 +1,68 @@
 [
  {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "3ª onda dos documentos fiscais adiada de 01/12/2026 para 01/01/2027 (NFS-e de locações, condomínios, bens imateriais e demais serviços, NFGas, NFAg) e 01/03/2027 (plataformas digitais, BP-e aéreo/semiurbano, NF-e ABI) — Ato Conjunto RFB/CGIBS nº 7",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934",
+  "em": "2026-11-13-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "alterado",
+  "descricao": "DeRE: primeira entrega dos eventos mensais adiada de 15/11 para 15/12/2026, com dados de novembro (Ato Conjunto RFB/CGIBS nº 7)",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934",
+  "em": "2026-11-13-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "NF-e de quem não é contribuinte do ICMS continua obrigatória a partir de 01/12/2026: o Ato Conjunto nº 7 não adiou essa parte da 3ª onda",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934",
+  "em": "2026-11-13-matinal"
+ },
+ {
+  "secao": "prazos_destaque",
+  "tipo": "removido",
+  "descricao": "Produção das regras da NF-e em 16/11 (NT 2025.002 v1.53) saiu dos destaques para abrir espaço aos novos prazos; o marco continua na linha do tempo",
+  "fonte": "",
+  "em": "2026-11-13-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Ato Conjunto RFB/CGIBS nº 7 (DOU 13/11) adia a 3ª onda dos documentos fiscais para 2027",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934",
+  "em": "2026-11-13-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "alterado",
+  "descricao": "Marco de 01/12/2026 agora cobre só a NF-e de quem não é contribuinte do ICMS; o restante da 3ª onda foi para 01/01 e 01/03/2027 (Ato Conjunto nº 7)",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934",
+  "em": "2026-11-13-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "alterado",
+  "descricao": "DeRE mensal: primeira entrega movida de 15/11 para 15/12/2026 (Ato Conjunto nº 7)",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934",
+  "em": "2026-11-13-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Novos marcos de 2027: 01/01 (1ª parte da 3ª onda), 15/02 (DeRE: deduções e cotistas de fundos) e 01/03 (2ª parte da 3ª onda e demais documentos do Simples Nacional)",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934",
+  "em": "2026-11-13-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "alterado",
+  "descricao": "Simples Nacional: em 01/01/2027 só a NFS-e de serviços passa a exigir IBS/CBS; os demais documentos ficaram para 01/03/2027 (Ato Conjunto nº 7)",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-7-de-11-de-novembro-de-2026-744148934",
+  "em": "2026-11-13-matinal"
+ },
+ {
   "secao": "linha_do_tempo",
   "tipo": "incluido",
   "descricao": "Leiautes da Duimp (v77.0.0) e da Declaração de Importação de Remessa (v1.0) aprovados para IBS/CBS (Atos Técnicos Conjuntos nº 11 e 12, DOU 12/11)",

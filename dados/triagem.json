@@ -84,6 +84,11 @@
   "motivo": "grupo de trabalho interno da CVM sobre emissores não registrados",
   "em": "retroativa-2026-09-30"
  },
+ "04ee658102fd98b6": {
+  "veredito": "ruido",
+  "motivo": "homologação de reforma de estatuto de seguradora, sem relação com a reforma",
+  "em": "2026-11-13-matinal"
+ },
  "05c3911e8dabdfa3": {
   "veredito": "ruido",
   "motivo": "Reabre unidade física da RFB em Ilhéus/BA; sem relação com a reforma.",
@@ -589,6 +594,11 @@
   "motivo": "subvenção econômica ao diesel via MP, sem relação com a reforma do consumo",
   "em": "retroativa-2026-09-30"
  },
+ "27a6aa01ebf43b58": {
+  "veredito": "relevante",
+  "motivo": "adia a 3ª onda dos DF-e de 01/12/2026 para 01/01 e 01/03/2027 e a primeira DeRE mensal de 15/11 para 15/12",
+  "em": "2026-11-13-matinal"
+ },
  "27d88d77abb5fced": {
   "veredito": "ruido",
   "motivo": "PGFN altera programa Comprei de bens penhorados",
@@ -638,6 +648,11 @@
   "veredito": "contexto",
   "motivo": "resolução do CGIBS sem ementa disponível para confirmar o teor exato",
   "em": "retroativa-2026-09-30"
+ },
+ "2b28ea474c70f05d": {
+  "veredito": "ruido",
+  "motivo": "prorroga a vigência de portaria regional da RFB (8ª Região Fiscal); texto não trata de IBS/CBS",
+  "em": "2026-11-13-matinal"
  },
  "2b6c69c5d71aab34": {
   "veredito": "relevante",
@@ -2358,6 +2373,11 @@
   "veredito": "ruido",
   "motivo": "Homologação de eleição de administradores da Generali Brasil Seguros, sem relação com a reforma.",
   "em": "2026-10-16-matinal"
+ },
+ "a24c7c52266c9a69": {
+  "veredito": "ruido",
+  "motivo": "homologação de reeleição de diretoria e conselho fiscal de seguradora, sem relação com a reforma",
+  "em": "2026-11-13-matinal"
  },
  "a2580ac11ddf68d4": {
   "veredito": "ruido",

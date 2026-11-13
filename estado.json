@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-11-12",
+ "atualizado_em": "2026-11-13",
  "prazos_destaque": [
   {
    "rotulo": "Água e esgoto: agências homologarem a tabela tarifária sem PIS/Cofins",
@@ -9,28 +9,28 @@
    "nota": "Orientação ANA (Res. 312/NT 54). Sem homologação, regra provisória: com CBS/IBS acima de 9,25% por dentro, tira-se 9,25% da tarifa e soma-se CBS/IBS por fora"
   },
   {
-   "rotulo": "DeRE: primeira entrega dos eventos periódicos mensais (dados de outubro/2026)",
-   "data": "2026-11-15",
-   "status": "warning",
-   "nota": "Declaração de Regimes Específicos; produção aberta em 01/10/2026"
-  },
-  {
-   "rotulo": "NF-e: novas regras de devolução e leiaute monofásico de combustíveis em produção",
-   "data": "2026-11-16",
-   "status": "warning",
-   "nota": "NT 2025.002 v1.53 (Ato Técnico Conjunto nº 10). A VC02-14 (devolução referenciada) segue marcada para 03/11; vínculo com split payment (NT 2026.006, opcional) entra na mesma data"
-  },
-  {
-   "rotulo": "3ª onda: NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg, NF-e ABI",
+   "rotulo": "NF-e obrigatória para quem não é contribuinte do ICMS (parte da 3ª onda que não foi adiada)",
    "data": "2026-12-01",
    "status": "warning",
-   "nota": "Ato Conjunto nº 4/2026"
+   "nota": "Art. 1º, § 4º do Ato Conjunto nº 4/2026, não alterado pelo Ato Conjunto nº 7. O restante da 3ª onda foi para 01/01 e 01/03/2027"
+  },
+  {
+   "rotulo": "DeRE: primeira entrega dos eventos periódicos mensais (dados de novembro/2026)",
+   "data": "2026-12-15",
+   "status": "warning",
+   "nota": "Adiada de 15/11 pelo Ato Conjunto RFB/CGIBS nº 7 (DOU 13/11). A relação de deduções (D-1121) só entra em 15/02/2027"
   },
   {
    "rotulo": "Cancelamento da opção pelo regime regular do IBS/CBS (quem saiu do Simples)",
    "data": "2026-12-20",
    "status": "warning",
    "nota": "Prazo informado pela Receita Federal em 29/10/2026 para quem optou e quer reconsiderar"
+  },
+  {
+   "rotulo": "3ª onda adiada: NFS-e de locações, condomínios, bens imateriais e demais serviços, NFGas e NFAg",
+   "data": "2027-01-01",
+   "status": "warning",
+   "nota": "Adiada de 01/12/2026 pelo Ato Conjunto nº 7. Plataformas digitais, BP-e aéreo/semiurbano, NF-e ABI e a maior parte dos documentos do Simples ficam para 01/03/2027"
   },
   {
    "rotulo": "Imposto Seletivo: alíquotas da MP 1.399 começam a produzir efeitos",
@@ -118,7 +118,7 @@
   {
    "data": "2026-08-21",
    "titulo": "Ato Técnico Conjunto CGIBS nº 2 — documentação técnica de NFAg, NFGas e NF-e ABI",
-   "detalhe": "Primeira especificação completa (manual, leiaute, validação) para os três documentos que entram na 3ª onda (01/12)."
+   "detalhe": "Primeira especificação completa (manual, leiaute, validação) para os três documentos da 3ª onda (então marcada para 01/12; adiada para 2027 pelo Ato Conjunto nº 7)."
   },
   {
    "data": "2026-08-28",
@@ -306,9 +306,14 @@
    "detalhe": "NT 54/2026 substitui a NT 40 após o TCU calcular CBS de 11,3% para 2027: sem tabela homologada até 15/11, se CBS+IBS por dentro passar de 9,25%, tira-se 9,25% da tarifa e soma-se CBS/IBS por fora (conta do usuário sobe); senão, tarifa vigente vale como total."
   },
   {
+   "data": "2026-11-11",
+   "titulo": "Ato Conjunto RFB/CGIBS nº 7 — 3ª onda de DF-e adiada para 2027",
+   "detalhe": "Altera o Ato Conjunto nº 4: o que entraria em 01/12/2026 passa para 01/01/2027 ou 01/03/2027; a primeira DeRE mensal vai de 15/11 para 15/12; no Simples, a maior parte dos documentos fica para 01/03/2027. Publicado no DOU em 13/11."
+  },
+  {
    "data": "2026-11-15",
-   "titulo": "DeRE — eventos periódicos mensais",
-   "detalhe": "Primeira entrega cobrindo os dados de outubro/2026."
+   "titulo": "Água e esgoto: prazo para as agências homologarem a tabela tarifária sem PIS/Cofins",
+   "detalhe": "Orientação da ANA (Res. 312/NT 54). Sem homologação, vale a regra provisória."
   },
   {
    "data": "2026-11-16",
@@ -317,8 +322,13 @@
   },
   {
    "data": "2026-12-01",
-   "titulo": "3ª onda de DF-e",
-   "detalhe": "NFS-e restantes (plataformas digitais, locações, bens imateriais), BP-e aéreo e semiurbano, NFGas, NFAg, NF-e ABI, não-contribuintes de ICMS."
+   "titulo": "NF-e obrigatória para quem não é contribuinte do ICMS",
+   "detalhe": "Única parte da 3ª onda mantida em 01/12 (art. 1º, § 4º do Ato Conjunto nº 4/2026). NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg e NF-e ABI foram adiados para 01/01 e 01/03/2027 pelo Ato Conjunto nº 7."
+  },
+  {
+   "data": "2026-12-15",
+   "titulo": "DeRE — eventos periódicos mensais",
+   "detalhe": "Primeira entrega, com os dados de novembro/2026 (balancete, aplicações financeiras, títulos de dívida, reabertura e fechamento). Adiada de 15/11 pelo Ato Conjunto RFB/CGIBS nº 7."
   },
   {
    "data": "2026-12-20",
@@ -333,12 +343,27 @@
   {
    "data": "2027-01-01",
    "titulo": "Simples Nacional entra; CBS substitui PIS/Cofins; IS em vigor",
-   "detalhe": "Também Duimp, NF-e monofásica e demais eventos da DeRE. IBS segue em alíquota de teste. As alíquotas do IS fixadas pela MP 1.399 só produzem efeitos a partir de 02/02/2027."
+   "detalhe": "Também Duimp, NF-e monofásica e eventos transacionais da DeRE. No Simples, só a NFS-e (ISS geral, locações, condomínios, bens imateriais e demais serviços) passa a exigir IBS/CBS nesta data; os demais documentos ficaram para 01/03/2027 (Ato Conjunto nº 7). IBS segue em alíquota de teste. As alíquotas do IS fixadas pela MP 1.399 só produzem efeitos a partir de 02/02/2027."
+  },
+  {
+   "data": "2027-01-01",
+   "titulo": "3ª onda de DF-e, 1ª parte (adiada de 01/12/2026)",
+   "detalhe": "NFS-e de bens imateriais, condomínios, locações e demais serviços fora da lista do ISS; NFGas; NFAg. Ato Conjunto RFB/CGIBS nº 7."
   },
   {
    "data": "2027-02-02",
    "titulo": "Imposto Seletivo: alíquotas da MP 1.399 começam a produzir efeitos",
    "detalhe": "Art. 19 da MP 1.399/2026."
+  },
+  {
+   "data": "2027-02-15",
+   "titulo": "DeRE — primeira entrega da relação de deduções (D-1121) e dos cotistas de fundos (D-2102)",
+   "detalhe": "Com os dados de janeiro/2027. Ato Conjunto RFB/CGIBS nº 7."
+  },
+  {
+   "data": "2027-03-01",
+   "titulo": "3ª onda de DF-e, 2ª parte, e demais documentos do Simples Nacional",
+   "detalhe": "NFS-e de plataformas digitais, dos subitens 1.03, 1.05, 1.09 e 16.01 da lista do ISS, BP-e aéreo e semiurbano/metropolitano e NF-e ABI (adiados de 01/12/2026). Para optantes do Simples, início dos campos de IBS/CBS nos documentos que não são NFS-e de serviços em geral (adiado de 01/01/2027). Ato Conjunto RFB/CGIBS nº 7."
   },
   {
    "data": "2027-05-31",
