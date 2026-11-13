@@ -1,19 +1,16 @@
 {
  "data": "2026-11-13",
- "turno": "matinal",
+ "turno": "noturna",
  "situacao": "publicada",
  "acoes": 1,
- "gerado_em": "2026-11-13T08:05:17Z",
- "resumo_curto": "1 novidade, 1 exige ação: 3ª onda dos DF-e adiada de 01/12 para 2027 e DeRE mensal de 15/11 para 15/12",
+ "gerado_em": "2026-11-13T20:05:23Z",
+ "resumo_curto": "5 itens, 1 exige ação: NTs da reforma nos DF-e adiadas de 16/11 para 14/12; CGIBS aprova dispensa de CNPJ para produtor rural e TAC",
  "painel_atualizado": [
-  "3ª onda dos documentos fiscais adiada de 01/12/2026 para 01/01/2027 (NFS-e de locações, condomínios, bens imateriais e demais serviços, NFGas, NFAg) e 01/03/2027 (plataformas digitais, BP-e aéreo/semiurbano, NF-e ABI) — Ato Conjunto RFB/CGIBS nº 7",
-  "DeRE: primeira entrega dos eventos mensais adiada de 15/11 para 15/12/2026, com dados de novembro (Ato Conjunto RFB/CGIBS nº 7)",
-  "NF-e de quem não é contribuinte do ICMS continua obrigatória a partir de 01/12/2026: o Ato Conjunto nº 7 não adiou essa parte da 3ª onda",
-  "Produção das regras da NF-e em 16/11 (NT 2025.002 v1.53) saiu dos destaques para abrir espaço aos novos prazos; o marco continua na linha do tempo",
-  "Ato Conjunto RFB/CGIBS nº 7 (DOU 13/11) adia a 3ª onda dos documentos fiscais para 2027",
-  "Marco de 01/12/2026 agora cobre só a NF-e de quem não é contribuinte do ICMS; o restante da 3ª onda foi para 01/01 e 01/03/2027 (Ato Conjunto nº 7)",
-  "DeRE mensal: primeira entrega movida de 15/11 para 15/12/2026 (Ato Conjunto nº 7)",
-  "Novos marcos de 2027: 01/01 (1ª parte da 3ª onda), 15/02 (DeRE: deduções e cotistas de fundos) e 01/03 (2ª parte da 3ª onda e demais documentos do Simples Nacional)",
-  "Simples Nacional: em 01/01/2027 só a NFS-e de serviços passa a exigir IBS/CBS; os demais documentos ficaram para 01/03/2027 (Ato Conjunto nº 7)"
+  "Split payment: produção da NT 2026.006 (vínculo da NF-e com o pagamento) adiada de 16/11 para 14/12/2026 (aviso do Portal NF-e)",
+  "16/11 passa a valer só para a NT 2025.002 v1.53 da NF-e; as NTs da reforma previstas para essa data foram para 14/12",
+  "CGIBS aprova (10/11) dispensa de CNPJ para produtor rural PF e transportador autônomo de 2027 a 2028 e ajustes no Regulamento do IBS para o setor financeiro",
+  "Notas técnicas da reforma (Simples, split payment, valor líquido) adiadas de 16/11 para 14/12 (aviso do Portal NF-e de 13/11)",
+  "Simples Nacional 2027: resultado definitivo da opção disponível a partir de 20/11 (Receita Federal)",
+  "Novo marco 14/12: produção das notas técnicas da reforma nos DF-e"
  ]
 }

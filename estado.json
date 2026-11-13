@@ -72,7 +72,7 @@
   },
   {
    "item": "Regulamentação operacional do split payment",
-   "situacao": "Os Atos Técnicos Conjuntos RFB/CGIBS nº 4/2026 (habilitação de participantes e redes) e nº 5/2026 (operação, integração, tempos e segurança) detalham como bancos e processadoras se habilitam. A NT 2026.006 v1.01 (30/10) define como o emissor vincula a NF-e à transação de pagamento (grupo YC e evento 110300), com campos opcionais em 2026 e produção em 16/11. Falta regulamentar a liquidação em si e o cronograma de ativação em 2027.",
+   "situacao": "Os Atos Técnicos Conjuntos RFB/CGIBS nº 4/2026 (habilitação de participantes e redes) e nº 5/2026 (operação, integração, tempos e segurança) detalham como bancos e processadoras se habilitam. A NT 2026.006 v1.01 (30/10) define como o emissor vincula a NF-e à transação de pagamento (grupo YC e evento 110300), com campos opcionais em 2026; a entrada em produção foi adiada de 16/11 para 14/12/2026 (aviso do Portal NF-e de 13/11). Falta regulamentar a liquidação em si e o cronograma de ativação em 2027.",
    "prazo": null,
    "status": "warning"
   },
@@ -301,6 +301,11 @@
    "detalhe": "Aprovam a documentação técnica da Declaração Única de Importação (Atributos Duimp v77.0.0, ratificando as v75.0.0 e v75.1.0) e da Declaração de Importação de Remessa (v1.0), aplicáveis a IBS e CBS. Publicados no DOU em 12/11."
   },
   {
+   "data": "2026-11-10",
+   "titulo": "CGIBS aprova ajustes ao Regulamento do IBS e dispensa de CNPJ para produtor rural PF e transportador autônomo",
+   "detalhe": "4ª Reunião Ordinária (Joinville): ajuste de três artigos do Regulamento sobre o setor financeiro; ato conjunto com a RFB dispensa de CNPJ, de 01/01/2027 a 31/12/2028, o produtor rural PF (receita abaixo de R$ 3,6 milhões) e o transportador autônomo de cargas que não optarem pelo regime regular, identificados pelo CPF. Aprovação divulgada pelo CGIBS; o texto do ato ainda não apareceu nas fontes monitoradas."
+  },
+  {
    "data": "2026-11-11",
    "titulo": "Res. ANA nº 312 — nova regra provisória para tarifas de água e esgoto",
    "detalhe": "NT 54/2026 substitui a NT 40 após o TCU calcular CBS de 11,3% para 2027: sem tabela homologada até 15/11, se CBS+IBS por dentro passar de 9,25%, tira-se 9,25% da tarifa e soma-se CBS/IBS por fora (conta do usuário sobe); senão, tarifa vigente vale como total."
@@ -311,19 +316,34 @@
    "detalhe": "Altera o Ato Conjunto nº 4: o que entraria em 01/12/2026 passa para 01/01/2027 ou 01/03/2027; a primeira DeRE mensal vai de 15/11 para 15/12; no Simples, a maior parte dos documentos fica para 01/03/2027. Publicado no DOU em 13/11."
   },
   {
+   "data": "2026-11-13",
+   "titulo": "Portal NF-e adia de 16/11 para 14/12 as notas técnicas da reforma",
+   "detalhe": "NT 2026.005 (Simples Nacional), NT 2026.006 (vínculo com o pagamento) e NT 2026.008 / NT 2026.004 (valor líquido do produto) de NF-e, CT-e, BP-e, NF3e, NFAg, NFCom e NFGas. As versões da NT 2025.002 e da NT 2026.007 não foram adiadas."
+  },
+  {
    "data": "2026-11-15",
    "titulo": "Água e esgoto: prazo para as agências homologarem a tabela tarifária sem PIS/Cofins",
    "detalhe": "Orientação da ANA (Res. 312/NT 54). Sem homologação, vale a regra provisória."
   },
   {
    "data": "2026-11-16",
-   "titulo": "NF-e: produção das regras da NT 2025.002 v1.53 e da NT 2026.006",
-   "detalhe": "Devolução pode referenciar a nota original no cabeçalho (uma só) ou no item; novo leiaute monofásico de combustíveis; campos e evento de vínculo da NF-e com a transação do split payment, opcionais até a ativação em 2027."
+   "titulo": "NF-e: produção das regras da NT 2025.002 v1.53",
+   "detalhe": "Devolução pode referenciar a nota original no cabeçalho (uma só) ou no item; novo leiaute monofásico de combustíveis. Mantida em 16/11 por trazer só correções. A NT 2026.006 (vínculo com o split payment), antes prevista para esta data, foi adiada para 14/12."
+  },
+  {
+   "data": "2026-11-20",
+   "titulo": "Simples Nacional 2027: resultado definitivo das opções",
+   "detalhe": "Receita Federal: a partir de 20/11 o serviço \"Acompanhamento da Solicitação da Opção pelo Simples Nacional\" mostra o resultado final, inclusive de quem regularizou pendências no fim do prazo (30/10) e ainda aparece como indeferido."
   },
   {
    "data": "2026-12-01",
    "titulo": "NF-e obrigatória para quem não é contribuinte do ICMS",
    "detalhe": "Única parte da 3ª onda mantida em 01/12 (art. 1º, § 4º do Ato Conjunto nº 4/2026). NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg e NF-e ABI foram adiados para 01/01 e 01/03/2027 pelo Ato Conjunto nº 7."
+  },
+  {
+   "data": "2026-12-14",
+   "titulo": "NF-e e demais DF-e: produção das notas técnicas da reforma adiadas",
+   "detalhe": "Entram em produção a NT 2026.005 (Simples Nacional, schema e regras de validação), a NT 2026.006 (vínculo da NF-e com a transação do split payment), a NT 2026.008 e a NT 2026.004 (valor líquido do produto) de NF-e, CT-e, BP-e, NF3e, NFAg, NFCom e NFGas, e a NT 2026.001 da NF-e ABI. Adiadas de 16/11 (aviso do Portal NF-e de 13/11)."
   },
   {
    "data": "2026-12-15",

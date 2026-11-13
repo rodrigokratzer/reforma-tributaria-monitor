@@ -419,6 +419,11 @@
   "motivo": "Homologacao cadastral anual de ressegurador na Susep, ato interno de registro",
   "em": "retroativa-2026-09-30"
  },
+ "1e1c0eb93ddcb214": {
+  "veredito": "relevante",
+  "motivo": "adia de 16/11 para 14/12 a produção das NTs da reforma (Simples, vínculo com pagamento, valor líquido) nos DF-e",
+  "em": "2026-11-13-noturna"
+ },
  "1f5581c8ce3d25bb": {
   "veredito": "contexto",
   "motivo": "Noticia sobre palestra de dirigente do CGIBS em evento do TJSP, carater informativo, sem norma",
@@ -1533,6 +1538,11 @@
   "veredito": "ruido",
   "motivo": "Delega competência administrativa interna do MF para recebimento/devolução de bens móveis cedidos; sem relação com a reforma",
   "em": "2026-10-08-matinal"
+ },
+ "62b3418243cce571": {
+  "veredito": "relevante",
+  "motivo": "CGIBS aprova dispensa de CNPJ a produtor rural PF e TAC até 2028 e ajustes do Regulamento do IBS no setor financeiro",
+  "em": "2026-11-13-noturna"
  },
  "62cc5b85ee529189": {
   "veredito": "ruido",
@@ -3089,6 +3099,11 @@
   "motivo": "Altera Manual de Demonstrativos Fiscais do Tesouro, sem relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
  },
+ "d9c9b60e9f2b47b3": {
+  "veredito": "relevante",
+  "motivo": "informe de publicação do Ato Conjunto RFB/CGIBS nº 7 (cronograma dos DF-e)",
+  "em": "2026-11-13-noturna"
+ },
  "dabfb7e05885805a": {
   "veredito": "relevante",
   "motivo": "Acórdão 2770/2026-TCU manda o Dnit ajustar o Sicro ao não cumulativo do IBS/CBS; os demais acórdãos do item não têm relação com a reforma.",
@@ -3404,6 +3419,11 @@
   "motivo": "homologação de eleição de comitê de auditoria de seguradora, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "f5132ae19b4aefe7": {
+  "veredito": "relevante",
+  "motivo": "resultado definitivo da opção pelo Simples Nacional 2027 disponível a partir de 20/11",
+  "em": "2026-11-13-noturna"
+ },
  "f5343b3ec7da7a9a": {
   "veredito": "contexto",
   "motivo": "Posse de diretores e escolha de vice do CGIBS; ato interno de governança",
@@ -3513,6 +3533,11 @@
   "veredito": "ruido",
   "motivo": "Resolução Susep sobre acesso à informação, sem relação com a reforma",
   "em": "2026-10-02-matinal"
+ },
+ "fef7ac15ef248f5a": {
+  "veredito": "relevante",
+  "motivo": "Ato Conjunto RFB/CGIBS nº 7: adia 3ª onda dos DF-e e DeRE mensal (mesmo ato do DOU, já analisado)",
+  "em": "2026-11-13-noturna"
  },
  "ff48b2835f863cb2": {
   "veredito": "ruido",

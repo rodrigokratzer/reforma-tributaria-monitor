@@ -1,5 +1,47 @@
 [
  {
+  "secao": "pendencias",
+  "tipo": "alterado",
+  "descricao": "Split payment: produção da NT 2026.006 (vínculo da NF-e com o pagamento) adiada de 16/11 para 14/12/2026 (aviso do Portal NF-e)",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1499",
+  "em": "2026-11-13-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "alterado",
+  "descricao": "16/11 passa a valer só para a NT 2025.002 v1.53 da NF-e; as NTs da reforma previstas para essa data foram para 14/12",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1499",
+  "em": "2026-11-13-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "CGIBS aprova (10/11) dispensa de CNPJ para produtor rural PF e transportador autônomo de 2027 a 2028 e ajustes no Regulamento do IBS para o setor financeiro",
+  "fonte": "https://www.cgibs.gov.br/cgibs-aprova-ajustes-ao-regulamento-do-ibs-e-prorroga-a-dere-em-reuniao-em-joinville",
+  "em": "2026-11-13-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Notas técnicas da reforma (Simples, split payment, valor líquido) adiadas de 16/11 para 14/12 (aviso do Portal NF-e de 13/11)",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1499",
+  "em": "2026-11-13-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Simples Nacional 2027: resultado definitivo da opção disponível a partir de 20/11 (Receita Federal)",
+  "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/processamento-final-das-solicitacoes-de-opcao-pelo-simples-nacional-para-2027",
+  "em": "2026-11-13-noturna"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Novo marco 14/12: produção das notas técnicas da reforma nos DF-e",
+  "fonte": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1499",
+  "em": "2026-11-13-noturna"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "alterado",
   "descricao": "3ª onda dos documentos fiscais adiada de 01/12/2026 para 01/01/2027 (NFS-e de locações, condomínios, bens imateriais e demais serviços, NFGas, NFAg) e 01/03/2027 (plataformas digitais, BP-e aéreo/semiurbano, NF-e ABI) — Ato Conjunto RFB/CGIBS nº 7",
