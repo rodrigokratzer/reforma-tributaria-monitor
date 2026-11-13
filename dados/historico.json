@@ -9525,5 +9525,66 @@
   "alerta": null,
   "pasta_arquivo": null,
   "visto_em": "2026-11-13T08:01:04Z"
+ },
+ "62b3418243cce571": {
+  "primeira_vez": "2026-11-13",
+  "fonte": "CGIBS - Noticias",
+  "titulo": "CGIBS aprova ajustes ao Regulamento do Imposto Sobre Bens e Serviços e prorroga a DeRE em Reunião Ordinária",
+  "url": "https://www.cgibs.gov.br/cgibs-aprova-ajustes-ao-regulamento-do-ibs-e-prorroga-a-dere-em-reuniao-em-joinville",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null,
+  "visto_em": "2026-11-13T20:02:15Z"
+ },
+ "78fd2a9ad9c3c4fd": {
+  "primeira_vez": "2026-11-13",
+  "fonte": "CGIBS - Atos Conjuntos",
+  "titulo": "Ato Conjunto 7 RFB CGIBS Alteração Ato 4 (.pdf 352,12 KBytes)",
+  "url": "https://www.cgibs.gov.br/upload/arquivos/202611/13061456-ato-conjunto-7-rfb-cgibs-alteracao-ato-4.pdf",
+  "data": null,
+  "pasta_arquivo": "2026-11",
+  "alerta": null,
+  "visto_em": "2026-11-13T20:02:15Z"
+ },
+ "f5132ae19b4aefe7": {
+  "primeira_vez": "2026-11-13",
+  "fonte": "RFB - Noticias 2026",
+  "titulo": "Processamento final das solicitações de Opção pelo Simples Nacional para 2027",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/processamento-final-das-solicitacoes-de-opcao-pelo-simples-nacional-para-2027",
+  "data": null,
+  "pasta_arquivo": null,
+  "alerta": null,
+  "visto_em": "2026-11-13T20:02:15Z"
+ },
+ "1e1c0eb93ddcb214": {
+  "primeira_vez": "2026-11-13",
+  "fonte": "Portal NF-e - Informes/NTs",
+  "titulo": "AVISO: Alteração em datas de implantação de Notas Técnicas:",
+  "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1499",
+  "data": "2026-11-13",
+  "pasta_arquivo": null,
+  "alerta": null,
+  "visto_em": "2026-11-13T20:02:15Z"
+ },
+ "d9c9b60e9f2b47b3": {
+  "primeira_vez": "2026-11-13",
+  "fonte": "Portal NF-e - Informes/NTs",
+  "titulo": "Publicado Ato Conjunto RFB/CGIBS nº 7, de 11 de novembro de 2026",
+  "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1498",
+  "data": "2026-11-13",
+  "pasta_arquivo": null,
+  "alerta": null,
+  "visto_em": "2026-11-13T20:02:15Z"
+ },
+ "fef7ac15ef248f5a": {
+  "primeira_vez": "2026-11-13",
+  "fonte": "Portal NF-e - Atos RFB/CGIBS",
+  "titulo": "Ato conjunto RFB/CGIBS Nº 7, de 11 de novembro DE 2026",
+  "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=fbGtSAqS8Qo=",
+  "data": "2026-11-11",
+  "pasta_arquivo": null,
+  "alerta": null,
+  "ementa": "Altera o Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026,que estabelece as datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos de que trata o art.112 dos regulamentos do Imposto sobre Bens e Serviços - IBS e da Contribuição Social sobre Bens e Serviços - CBS.",
+  "visto_em": "2026-11-13T20:02:15Z"
  }
 }

@@ -1,0 +1,23 @@
+AVISO: Alteração em datas de implantação de Notas Técnicas:
+
+Informamos que as seguintes Notas Técnicas terão suas datas de implantação em produção postergadas de 16-nov PARA 14-DEZ:
+- NF-e NT 2026.005 v1.00 (Simples Nacional)
+- NFe NT_2026.006_v1.01_RTC_VinculacaoPagamento
+- NFe NT_2026.008_v1.00_RTC_ValorLiquidoProduto
+- NFe NT_2026.008_v1.01_RTC_ValorLiquidoProduto
+- CTe_Nota_Tecnica_2026_004_v1.01 (ValorLiquidoProduto)
+- BPe_Nota_Tecnica_2026_004_v1.01 (ValorLiquidoProduto)
+- NF3e_Nota_Tecnica_2026_004_v1.01 (ValorLiquidoProduto)
+- NFAg_Nota_Tecnica_2026_004_v1.01 (ValorLiquidoProduto)
+- NFCom_Nota_Tecnica_2026_004_v1.01 (ValorLiquidoProduto)
+- NFGas_Nota_Tecnica_2026_004_v1.01 (ValorLiquidoProduto)
+
+Obs.1: O adiamento das NTs visa conceder maior prazo de testes e identificação de problemas para empresas e administrações tributárias, além de facilitar as implantações pela unificação de datas com outras NTs.
+
+Obs.2: A NT 2026.005 v1.00 (Simples Nacional) de BP-e, de CT-e e de NFCom que previam schemas para 16-nov e Regras de validação para 14-dez, passam a ter schema e regras de validação em 14-dez
+
+Obs.3: A NT 2026.001 v1.00 de NFe ABI já previa data de implantação em produção em 14-dez em sua publicação original (mantida a data de 14-dez).
+
+Obs.4: As NTs 2025.002 v1.50, 2025.002 v1.52, 2025.002 v1.53, 2026.007 v1.00, e 2026.007 v1.10, todas de NF-e, NÃO serão adiadas por não trazerem novidades mas apenas correções de erros, viabilizando a emissão por contribuintes que não conseguiriam emitir sem esses ajustes, como por exemplo os contribuintes exclusivos de IBS/CBS/IS.
+
+Assinado por: Secretaria Especial da Receita Federal do Brasil

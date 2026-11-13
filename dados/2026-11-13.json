@@ -4,15 +4,78 @@
   {
    "fonte": "CGIBS - Noticias",
    "url": "https://www.cgibs.gov.br/noticias",
-   "metodo": "http",
-   "http_status": 200,
+   "metodo": "browser",
+   "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
-   "total": 1,
+   "erro_browser": null,
+   "total": 10,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
      "url": "https://www.cgibs.gov.br/",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "CGIBS aprova ajustes ao Regulamento do Imposto Sobre Bens e Serviços e prorroga a DeRE em Reunião Ordinária",
+     "url": "https://www.cgibs.gov.br/cgibs-aprova-ajustes-ao-regulamento-do-ibs-e-prorroga-a-dere-em-reuniao-em-joinville",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Comitê Gestor do IBS e União assinam contrato de operação de crédito para financiar a implantação do órgão",
+     "url": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-uniao-assinam-contrato-de-operacao-de-credito-para-financiar-a-implantacao-do-orgao",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Portaria Conjunta define como serão calculadas as alíquotas do IBS e da CBS incidentes sobre os combustíveis",
+     "url": "https://www.cgibs.gov.br/combustiveis-portaria-conjunta-define-como-serao-calculadas-as-aliquotas-do-ibs-e-da-cbs",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "DeRE: CGIBS e Receita Federal publicam versão 1.3.0 da documentação técnica e disponibilizam Manual do Usuário",
+     "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-publicam-versao-1-3-0-da-documentacao-tecnica-e-disponibilizam-manual-do-usuario",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Opção do contribuinte por Simples Nacional ou pelo regime regular de CBS e IBS para 2027 tem novos prazos",
+     "url": "https://www.cgibs.gov.br/embora-os-periodos-sejam-parecidos-tratam-de-escolhas-diferentes-por-isso-e-importante-entender-cada-situacao",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Declaração de Regimes Específicos: CGIBS e Receita Federal divulgam endpoints do ambiente de produção",
+     "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-divulgam-endpoints-do-ambiente-de-producao",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Informe: conta do Comitê Gestor do IBS no Instagram (cgibs.oficial) passa por instabilidade temporária",
+     "url": "https://www.cgibs.gov.br/informe-instabilidade-da-conta-do-cgibs-no-instagram",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Receita Federal e Comitê Gestor do IBS divulgam Orientação Conjunta destinada às sociedades cooperativas",
+     "url": "https://www.cgibs.gov.br/receita-federal-e-comite-gestor-do-imposto-sobre-bens-e-servicos-divulgam-orientacao-conjunta",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Regimes Específicos: veja atualização dos esquemas XSD dos eventos D-1011 e D-1101 na Produção Restrita",
+     "url": "https://www.cgibs.gov.br/dere-atualizacao-dos-esquemas-xsd-dos-eventos-d-1011-e-d-1101-na-producao-restrita",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
@@ -177,7 +240,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 8,
+   "total": 9,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -233,6 +296,13 @@
      "url": "https://www.cgibs.gov.br/upload/arquivos/202608/28193542-ade-rfb-cgibs-n-6-28-8-2026-com-paragrafo-unico-assinado.pdf",
      "data": null,
      "pasta_arquivo": "2026-08",
+     "alerta": null
+    },
+    {
+     "titulo": "Ato Conjunto 7 RFB CGIBS Alteração Ato 4 (.pdf 352,12 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202611/13061456-ato-conjunto-7-rfb-cgibs-alteracao-ato-4.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-11",
      "alerta": null
     }
    ]
@@ -427,8 +497,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 2,
+   "total": 3,
    "itens": [
+    {
+     "titulo": "Processamento final das solicitações de Opção pelo Simples Nacional para 2027",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/processamento-final-das-solicitacoes-de-opcao-pelo-simples-nacional-para-2027",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Reforma Tributária: Atualização do Ambiente Beta da DeRE",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/reforma-tributaria-atualizacao-do-ambiente-beta-da-dere",
@@ -712,8 +789,22 @@
    "http_status": 200,
    "erro": null,
    "erro_browser": null,
-   "total": 1,
+   "total": 3,
    "itens": [
+    {
+     "titulo": "AVISO: Alteração em datas de implantação de Notas Técnicas:",
+     "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1499",
+     "data": "2026-11-13",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
+    {
+     "titulo": "Publicado Ato Conjunto RFB/CGIBS nº 7, de 11 de novembro de 2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1498",
+     "data": "2026-11-13",
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Publicado Ato Técnico Conjunto RFB/CGIBS nº 10, de 2026",
      "url": "https://www.nfe.fazenda.gov.br/portal/informe.aspx?ehCTG=false#1496",
@@ -730,8 +821,16 @@
    "http_status": 200,
    "erro": null,
    "erro_browser": null,
-   "total": 2,
+   "total": 3,
    "itens": [
+    {
+     "titulo": "Ato conjunto RFB/CGIBS Nº 7, de 11 de novembro DE 2026",
+     "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=fbGtSAqS8Qo=",
+     "data": "2026-11-11",
+     "pasta_arquivo": null,
+     "alerta": null,
+     "ementa": "Altera o Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026,que estabelece as datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos de que trata o art.112 dos regulamentos do Imposto sobre Bens e Serviços - IBS e da Contribuição Social sobre Bens e Serviços - CBS."
+    },
     {
      "titulo": "Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026",
      "url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=esD6zF5PwcE=",
