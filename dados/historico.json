@@ -9586,5 +9586,33 @@
   "alerta": null,
   "ementa": "Altera o Ato Conjunto RFB/CGIBS nº 4, de 30 de julho de 2026,que estabelece as datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos de que trata o art.112 dos regulamentos do Imposto sobre Bens e Serviços - IBS e da Contribuição Social sobre Bens e Serviços - CBS.",
   "visto_em": "2026-11-13T20:02:15Z"
+ },
+ "004eb8a2ad56df13": {
+  "primeira_vez": "2026-11-14",
+  "fonte": "DOU DO1E",
+  "titulo": "PORTARIA RFB Nº 744, DE 28 DE OUTUBRO DE 2026",
+  "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-744-de-28-de-outubro-de-2026-744398729",
+  "data": "2026-11-13",
+  "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+  "ementa": "PORTARIA RFB Nº 744, DE 28 DE OUTUBRO DE 2026 Dispõe sobre a Política de Transparência Ativa da Secretaria Especial da Receita Federal do Brasil. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o art. 350, caput, inciso III, do Regimento Interno da Secretaria",
+  "balde": "revisar",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null,
+  "visto_em": "2026-11-14T08:00:34Z"
+ },
+ "47a21e07ed4c53f9": {
+  "primeira_vez": "2026-11-14",
+  "fonte": "DOU DO1E",
+  "titulo": "PORTARIA COTEC Nº 342, DE 12 DE NOVEMBRO DE 2026",
+  "url": "https://www.in.gov.br/web/dou/-/portaria-cotec-n-342-de-12-de-novembro-de-2026-744398356",
+  "data": "2026-11-13",
+  "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Gestão Corporativa/Coordenação-Ge",
+  "ementa": "PORTARIA COTEC Nº 342, DE 12 DE NOVEMBRO DE 2026 Dispõe sobre a publicação, em repositórios públicos do github.com, dos projetos de código-fonte \"Calculadora de Tributos - Regime Regular\", \"Calculadora de Tributos - Simples Nacional\" e \"DANFSe Service\", de titularidade da Secretaria Especial da Rece",
+  "balde": "forte",
+  "continuacao": false,
+  "alerta": null,
+  "pasta_arquivo": null,
+  "visto_em": "2026-11-14T08:00:34Z"
  }
 }

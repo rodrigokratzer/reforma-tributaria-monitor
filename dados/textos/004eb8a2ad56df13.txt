@@ -1,0 +1,101 @@
+PORTARIA RFB Nº 744, DE 28 DE OUTUBRO DE 2026
+Dispõe sobre a Política de Transparência Ativa da Secretaria Especial da Receita Federal do Brasil.
+O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o art. 350, caput, inciso III, do Regimento Interno da Secretaria Especial da Receita Federal do Brasil, aprovado pela Portaria ME nº 284, de 27 de julho de 2020, e tendo em vista o disposto no art. 198 da Lei nº 5.172, de 25 de outubro de 1966, na Lei nº 12.527, de 18 de novembro de 2011, na Lei nº 13.709, de 14 de agosto de 2018, no Decreto nº 7.724, de 16 de maio de 2012, no Decreto nº 8.777, de 11 de maio de 2016, e no Decreto nº 11.529, de 16 de maio de 2023, resolve:
+CAPÍTULO I
+DISPOSIÇÕES PRELIMINARES
+Art. 1º Esta Portaria dispõe sobre a Política de Transparência Ativa no âmbito da Secretaria Especial da Receita Federal do Brasil.
+Parágrafo único. A Política de Transparência Ativa a que se refere o caput consiste na divulgação de informações e dados produzidos, custodiados ou acumulados pela Secretaria Especial da Receita Federal do Brasil.
+CAPÍTULO II
+DOS PRINCÍPIOS
+Art. 2º A Política de Transparência Ativa será regida pelos seguintes princípios:
+I - publicidade como regra e o sigilo como exceção;
+II - direito de acesso à informação pública;
+III - governança, gestão e qualidade das informações e dos dados;
+IV - autenticidade, integridade, confiabilidade, primariedade e tempestividade das informações divulgadas;
+V - priorização das informações a serem divulgadas, com foco no cidadão e no interesse público;
+VI - divulgação proativa de informações e de dados públicos de interesse coletivo ou geral;
+VII - fomento ao uso e ao reuso, pela sociedade, de informações e de dados públicos com permissão irrestrita;
+VIII - utilização de linguagem simples, em formato adequado e de fácil utilização, nos termos da Lei nº 15.263, de 14 de novembro de 2025; e
+IX - observância da legislação de proteção de dados pessoais, do sigilo fiscal e das demais hipóteses legais de restrição de acesso à informação.
+CAPÍTULO III
+DOS OBJETIVOS
+Art. 3º São objetivos da Política de Transparência Ativa:
+I - ampliar o acesso da sociedade às informações sob gestão da Secretaria Especial da Receita Federal do Brasil, respeitados o sigilo fiscal e as demais hipóteses legais de restrição de acesso à informação;
+II - conferir transparência às ações, aos processos e aos resultados da Secretaria Especial da Receita Federal do Brasil;
+III - fortalecer a confiança da sociedade na Secretaria Especial da Receita Federal do Brasil;
+IV - incentivar o uso de informações e de dados públicos para geração de conhecimento, inovação e valor social e econômico;
+V - assegurar a padronização, a qualidade e a atualidade das informações divulgadas;
+VI - integrar a transparência ativa às práticas de governança, integridade e gestão de riscos da Secretaria Especial da Receita Federal do Brasil; e
+VII - promover a eficiência da Secretaria Especial da Receita Federal do Brasil mediante a racionalização de processos e a redução de demandas recorrentes relativas à solicitação de informação.
+CAPÍTULO IV
+DAS REGRAS PARA A DIVULGAÇÃO
+Art. 4º Na divulgação de informações e de dados no âmbito da Política de Transparência Ativa, deverão ser observados os padrões, os requisitos e as orientações estabelecidos pela Controladoria-Geral da União, bem como a legislação aplicável à matéria, especialmente o sigilo fiscal e as demais hipóteses legais de sigilo e de restrição de acesso.
+§ 1º Deverão ser observados também, no que couber:
+I - as normas sobre governança e gestão de informações e de dados;
+II - os padrões corporativos de modelagem de informações e de dados, com vistas a assegurar a consistência, a interoperabilidade, a reutilização e a compreensão uniforme das informações divulgadas;
+III - a adoção preferencial de bases tratadas do ambiente analítico da Secretaria Especial da Receita Federal do Brasil como fonte de informações e de dados;
+IV - a abrangência, sempre que possível, da série histórica disponível, observadas a integridade, a consistência e a relevância das informações e dos dados divulgados;
+V - a utilização de técnicas de agregação ou anonimização e de outras medidas de proteção de informações e de dados, de forma a reduzir os riscos de identificação de pessoas naturais ou jurídicas, observadas as normas da Secretaria Especial da Receita Federal do Brasil;
+VI - a disponibilização de glossário de dados elaborado em conformidade com o glossário de dados interno da Secretaria Especial da Receita Federal do Brasil; e
+VII - a utilização preferencial de processos automatizados para a disponibilização das informações e dos dados, mantidas as responsabilidades das unidades gestoras quanto à supervisão, à validação e à conformidade das informações divulgadas, com vistas à promoção da rastreabilidade, da qualidade, da consistência e da confiabilidade das informações e dos dados divulgados.
+§ 2º Sempre que houver indícios de reidentificação de informações e de dados não passíveis de publicação, isoladamente ou mediante combinação com outras bases de dados, sua divulgação deverá ser suspensa temporariamente até a conclusão da avaliação técnica e, quando cabível, da adoção das medidas necessárias.
+Art. 5º Não serão objeto de divulgação no âmbito da Política de Transparência Ativa:
+I - as informações e os dados classificados em grau de sigilo ou submetidos à restrição de acesso, nos termos da Lei nº 12.527, de 18 de novembro de 2011, e demais normas aplicáveis;
+II - as informações e os dados protegidos pelo segredo de justiça e pelas hipóteses de sigilo previstas em lei, inclusive os sigilos fiscal, bancário, comercial, profissional, industrial e das operações e dos serviços relacionados ao mercado de capitais; e
+III - os dados pessoais cuja divulgação não esteja autorizada pela legislação aplicável, em especial pela Lei nº 13.709, de 14 de agosto de 2018.
+Art. 6º As informações e os dados de que trata esta Portaria serão:
+I - atualizados tempestivamente pelas unidades responsáveis e divulgados em conformidade com as orientações de padronização de que trata o art. 9º, caput, inciso I; e
+II - acessados por meio do site da Secretaria Especial da Receita Federal do Brasil na internet.
+CAPÍTULO V
+DA GOVERNANÇA
+Seção I
+Da Comissão Executiva de Transparência Ativa
+Art. 7º Fica instituída a Comissão Executiva de Transparência Ativa, da Secretaria Especial da Receita Federal do Brasil, com a finalidade de coordenar, acompanhar e promover as ações relacionadas à transparência ativa.
+Art. 8º A Comissão Executiva de Transparência Ativa será composta por dois representantes, um titular e um suplente, das seguintes unidades da Secretaria Especial da Receita Federal do Brasil:
+I - Gabinete - Gabin;
+II - Assessoria de Comunicação Institucional - Ascom;
+III - Assessoria Legislativa - Asleg;
+IV - Centro de Estudos Tributários e Aduaneiros - Cetad;
+V - Coordenação-Geral de Auditoria Interna e Gestão de Riscos - Audit;
+VI - Coordenação-Geral de Planejamento, Organização e Avaliação Institucional - Copav;
+VII - Ouvidoria - Ouvid;
+VIII - Subsecretaria de Administração Aduaneira - Suana;
+IX - Subsecretaria de Arrecadação, Cadastros e Atendimento - Suara;
+X - Subsecretaria de Fiscalização - Sufis;
+XI - Subsecretaria de Gestão Corporativa - Sucor; e
+XII - Subsecretaria de Tributação e Contencioso - Sutri.
+§ 1º A coordenação da Comissão será exercida pelo representante titular do Gabin e, em seus impedimentos e afastamentos legais, pelo representante titular da Ouvid ou por seu respectivo suplente.
+§ 2º O Secretário Especial Adjunto da Receita Federal do Brasil designará os membros titulares e respectivos suplentes da Comissão.
+Art. 9º Observadas as competências regimentais da Secretaria Especial da Receita Federal do Brasil, compete à Comissão Executiva de Transparência Ativa:
+I - orientar a padronização das informações e dos dados e de sua forma de divulgação, respeitadas as competências e atribuições das áreas gestoras dos processos de trabalho;
+II - coordenar as ações necessárias à divulgação e à atualização das informações e dos dados;
+III - propor a constituição de subcomissões específicas, com a colaboração das subsecretarias, das unidades de assessoramento do Gabin e das unidades descentralizadas, para apoio à execução de suas atribuições;
+IV - solicitar às unidades da Secretaria Especial da Receita Federal do Brasil documentos, informações e apoio técnico necessários ao exercício de suas atribuições;
+V - uniformizar e consolidar subsídios técnicos relacionados à transparência ativa, caso necessário; e
+VI - propor a publicação de informações e de dados, sem prejuízo da indicação realizada pelas áreas gestoras dos processos de trabalho.
+§ 1º Os representantes das áreas responsáveis pela gestão de dados e pela segurança da informação participarão dos trabalhos da Comissão em caráter consultivo.
+§ 2º A Comissão poderá convidar representantes das unidades da Secretaria Especial da Receita Federal do Brasil para integrar seus trabalhos, reuniões e subcomissões, com vistas a contribuir para a implementação, o acompanhamento e o aperfeiçoamento das ações de transparência ativa.
+Art. 10. A Comissão Executiva de Transparência Ativa reunir-se-á:
+I - de forma ordinária, com periodicidade mensal; e
+II - de forma extraordinária, sempre que convocada por seu coordenador.
+Seção II
+Das responsabilidades
+Art. 11. Compete ao Secretário Especial Adjunto, aos Subsecretários e aos Superintendentes da Receita Federal do Brasil, bem como aos gestores dos processos de trabalho:
+I - garantir a execução da Política de Transparência Ativa no âmbito de suas competências;
+II - promover a disseminação de boas práticas para tratamento de dados e da cultura de transparência;
+III - avaliar, no âmbito de seus processos de trabalho, a divulgação de informações e dados em transparência ativa, com observância do sigilo fiscal e das demais hipóteses legais de restrição de acesso à informação; e
+IV - assegurar a qualidade, a atualização e a conformidade das informações e dos dados relativos a seus processos de trabalho divulgados ao público.
+Seção III
+Do monitoramento
+Art. 12. A transparência ativa será objeto de monitoramento e avaliação contínuos, com vistas a verificar o cumprimento do disposto nesta Portaria e promover seu aprimoramento.
+Parágrafo único. O monitoramento poderá ser realizado por meio de indicadores, metas, planos de ação ou outros instrumentos propostos pela Comissão Executiva de Transparência Ativa.
+CAPÍTULO VI
+DISPOSIÇÕES FINAIS
+Art. 13. Ficam revogadas as seguintes Portarias:
+I - Portaria RFB nº 319, de 11 de maio de 2023;
+II - Portaria RFB nº 398, de 29 de fevereiro de 2024;
+III - Portaria RFB nº 477, de 25 de outubro de 2024;
+IV - Portaria RFB nº 539, de 9 de maio de 2025; e
+V - Portaria RFB nº 688, de 28 de maio de 2026.
+Art. 14. Esta Portaria entra em vigor na data de sua publicação no Diário Oficial da União.
+ROBINSON SAKIYAMA BARREIRINHAS

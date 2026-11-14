@@ -1,0 +1,31 @@
+PORTARIA COTEC Nº 342, DE 12 DE NOVEMBRO DE 2026
+Dispõe sobre a publicação, em repositórios públicos do github.com, dos projetos de código-fonte "Calculadora de Tributos - Regime Regular", "Calculadora de Tributos - Simples Nacional" e "DANFSe Service", de titularidade da Secretaria Especial da Receita Federal do Brasil.
+A COORDENADORA-GERAL DE TECNOLOGIA E SEGURANÇA DA INFORMAÇÃO, no uso da atribuição que lhe confere o inciso III do art. 358 do Regimento Interno da Secretaria Especial da Receita Federal do Brasil, aprovado pela Portaria ME nº 284, de 27 de julho de 2020, com fundamento na Portaria Cotec nº 301, de 3 de junho de 2026, especialmente em seus arts. 2º, inciso VIII, 7º e 23, e tendo em vista os princípios da transparência, da publicidade administrativa, da interoperabilidade e da segurança da informação, resolve:
+Art. 1º Fica autorizada a conversão de privados para públicos e a consequente publicação, na organização "ReceitaFederal" da plataforma github.com (https://github.com/ReceitaFederal), dos seguintes repositórios institucionais de código-fonte, desenvolvidos no âmbito da Secretaria Especial da Receita Federal do Brasil:
+I - "Calculadora de Tributos - Regime Regular", API REST que realiza o cálculo da Contribuição sobre Bens e Serviços (CBS), do Imposto sobre Bens e Serviços (IBS) e do Imposto Seletivo, no contexto da Reforma Tributária do Consumo e da Lei Complementar nº 214, de 16 de janeiro de 2025, consulta as tabelas oficiais utilizadas no cálculo e gera e valida os grupos de tributação dos documentos fiscais eletrônicos, disponível em https://github.com/ReceitaFederal/calculadora-rtc-regime-regular;
+II - "Calculadora de Tributos - Simples Nacional", API REST que realiza o cálculo da CBS e do IBS, no contexto da Reforma Tributária do Consumo e da Lei Complementar nº 214, de 16 de janeiro de 2025, nas operações submetidas ao regime do Simples Nacional, disponível em https://github.com/ReceitaFederal/calculadora-rtc-simples-nacional; e
+III - "DANFSe Service", serviço HTTP desenvolvido na linguagem Go para gerar o Documento Auxiliar da Nota Fiscal de Serviço eletrônica (DANFSe), em formato PDF, a partir do arquivo XML de uma Nota Fiscal de Serviço eletrônica (NFS-e), disponível em https://github.com/ReceitaFederal/calculadora-rtc-gerador-danfse.
+§ 1º Os projetos de que tratam os incisos I e II destinam-se a empresas de tecnologia, desenvolvedores e contribuintes em geral.
+§ 2º O projeto de que trata o inciso III destina-se aos usuários e integradores de soluções relacionadas à NFS-e.
+Art. 2º Os projetos referidos no art. 1º serão disponibilizados exclusivamente na forma de repositórios eletrônicos, não sendo reproduzidos os respectivos códigos-fonte nesta Portaria.
+§ 1º Para fins de verificação de autenticidade, integridade e rastreabilidade, ficam registrados os seguintes valores de hash criptográfico correspondentes às versões iniciais tornadas públicas:
+I - Calculadora de Tributos - Regime Regular:
+a) Hash calculado pelo algoritmo SHA-512: bdd0c8501b59718cca5c52778fc7607aa262b746dff6815eef9b4d2271b86d9e45feb04e8add 7efcda1fd3f3d3dbf4201023f67fce73c470c29e757be4f32143 de calculadora-rtc-regime-regular-1.6.1.zip; e
+b) Hash calculado pelo algoritmo SHA-1 do commit Git: 150cccbe414d4a5edea703e4f7a424af5aa222c7;
+II - Calculadora de Tributos - Simples Nacional:
+a) Hash calculado pelo algoritmo SHA-512: 6fba4ee5419482e20015e6051d47a3df2b1e28de2a09cb5ced700e640534a687084d991245a 1b3c0a9b892cded0b6cdfc984b006654015f6068b324d8cc10489 de calculadora-rtc-simples-nacional-0.0.6.zip; e
+b) Hash calculado pelo algoritmo SHA-1 do commit Git: c5b0f01c8351c3f0d0795cc617b29d233e9f98df; e
+III - DANFSe Service:
+a) Hash calculado pelo algoritmo SHA-512: 2f0874d9b057b347d0196c97f18f0ee0251dc44630ba7aaa71578430be60ceec08fa476d11ed 1ad8911a17857c1d3537e78dc5166507bdc1d87be6c8aa9abdfb de calculadora-rtc-gerador-danfse-1.0.0.zip; e
+b) Hash calculado pelo algoritmo SHA-1 do commit Git: 8d79e6b2f7fad6375340afcb51c85ed370c64a14.
+§ 2º O hash SHA-1 referido no § 1º observará as regras e convenções padrão do sistema de controle de versão Git, incluindo a estrutura de diretórios, o conteúdo dos arquivos e as mensagens de commit.
+Art. 3º Os códigos-fonte dos projetos referidos no art. 1º são de propriedade intelectual da Secretaria Especial da Receita Federal do Brasil, sendo vedada qualquer interpretação que implique renúncia à titularidade dos direitos autorais pelo órgão.
+Art. 4º Os projetos serão distribuídos nos termos da licença de software livre MIT, conforme art. 7º da Portaria Cotec nº 301, de 3 de junho de 2026.
+Art. 5º As bibliotecas e os componentes de software de terceiros utilizados pelos projetos permanecem sujeitos às respectivas licenças, conforme indicado nos repositórios e na documentação técnica associada.
+Art. 6º A publicação dos projetos em repositórios públicos não implica:
+I - garantia de suporte técnico ao público externo;
+II - compromisso de manutenção evolutiva ou corretiva;
+III - validação automática de usos externos não previstos pela Administração; ou
+IV - reconhecimento de efeito vinculante ou normativo dos códigos-fonte disponibilizados.
+Art. 7º Esta Portaria entra em vigor na data de sua publicação no Diário Oficial da União.
+MARCELA DE ANDRADE FONSECA
