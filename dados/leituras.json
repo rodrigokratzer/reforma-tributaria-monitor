@@ -1,4 +1,11 @@
 {
+ "004eb8a2ad56df13": {
+  "chars": 10991,
+  "lido_em": "2026-11-14T08:01:58Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "0056347203df2e3c": {
   "chars": 891,
   "lido_em": "2026-10-05T12:33:59Z",
@@ -1738,6 +1745,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "47a21e07ed4c53f9": {
+  "chars": 5271,
+  "lido_em": "2026-11-14T08:01:58Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "47fcaf589b96f86b": {
   "chars": 678,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -2955,10 +2969,14 @@
   "tentativas": 0
  },
  "78fd2a9ad9c3c4fd": {
-  "erro": "ErroDownload: TimeoutError: The read operation timed out",
-  "status": "falhou",
-  "tentado_em": "2026-11-13T20:03:49Z",
-  "tentativas": 1
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 7829,
+  "lido_em": "2026-11-14T08:01:59Z",
+  "origem": "pdf",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 2
  },
  "7911ba734f93cb94": {
   "anexos": [
