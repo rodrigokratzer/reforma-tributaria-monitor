@@ -1,16 +1,2 @@
-{
- "data": "2026-11-13",
- "turno": "noturna",
- "situacao": "publicada",
- "acoes": 1,
- "gerado_em": "2026-11-13T20:05:23Z",
- "resumo_curto": "5 itens, 1 exige ação: NTs da reforma nos DF-e adiadas de 16/11 para 14/12; CGIBS aprova dispensa de CNPJ para produtor rural e TAC",
- "painel_atualizado": [
-  "Split payment: produção da NT 2026.006 (vínculo da NF-e com o pagamento) adiada de 16/11 para 14/12/2026 (aviso do Portal NF-e)",
-  "16/11 passa a valer só para a NT 2025.002 v1.53 da NF-e; as NTs da reforma previstas para essa data foram para 14/12",
-  "CGIBS aprova (10/11) dispensa de CNPJ para produtor rural PF e transportador autônomo de 2027 a 2028 e ajustes no Regulamento do IBS para o setor financeiro",
-  "Notas técnicas da reforma (Simples, split payment, valor líquido) adiadas de 16/11 para 14/12 (aviso do Portal NF-e de 13/11)",
-  "Simples Nacional 2027: resultado definitivo da opção disponível a partir de 20/11 (Receita Federal)",
-  "Novo marco 14/12: produção das notas técnicas da reforma nos DF-e"
- ]
-}
+{"data": "2026-11-14", "turno": "matinal", "situacao": "publicada", "acoes": 0,
+ "gerado_em": "2026-11-14T08:03:04Z", "resumo_curto": "3 itens, nenhum exige ação: Receita abre no GitHub o código das calculadoras oficiais de IBS/CBS"}

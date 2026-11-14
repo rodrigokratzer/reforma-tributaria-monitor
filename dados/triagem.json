@@ -1,4 +1,9 @@
 {
+ "004eb8a2ad56df13": {
+  "veredito": "ruido",
+  "motivo": "Política de Transparência Ativa da RFB; sem relação com IBS/CBS ou obrigação do contribuinte",
+  "em": "2026-11-14-matinal"
+ },
  "0056347203df2e3c": {
   "veredito": "ruido",
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
@@ -1084,6 +1089,11 @@
   "motivo": "mudança de denominação social e reforma de estatuto de seguradora (KOVR→KEV), sem relação com a reforma",
   "em": "2026-10-14-matinal"
  },
+ "47a21e07ed4c53f9": {
+  "veredito": "relevante",
+  "motivo": "RFB publica no GitHub, sob licença MIT, o código das calculadoras oficiais de CBS/IBS/IS (regular e Simples) e do DANFSe",
+  "em": "2026-11-14-matinal"
+ },
  "47fcaf589b96f86b": {
   "veredito": "ruido",
   "motivo": "Suspende atendimento presencial do CAC em São José dos Campos, ato interno",
@@ -1848,6 +1858,11 @@
   "veredito": "relevante",
   "motivo": "delega ao Ministro da Fazenda a competência para divulgar essas alíquotas e grava no decreto o teto de 40%-90% para biocombustíveis",
   "em": "2026-10-10-matinal"
+ },
+ "78fd2a9ad9c3c4fd": {
+  "veredito": "relevante",
+  "motivo": "PDF do CGIBS do Ato Conjunto nº 7, que adia a 3ª onda de DF-e e a 1ª DeRE mensal; mesmo texto já analisado via DOU",
+  "em": "2026-11-14-matinal"
  },
  "7911ba734f93cb94": {
   "veredito": "relevante",
