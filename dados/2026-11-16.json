@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
+   "erro_browser": null,
    "total": 10,
    "itens": [
     {
@@ -529,7 +529,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 23,
+   "total": 22,
    "itens": [
     {
      "titulo": "Reforma Tributária: Atualização do Ambiente Beta da DeRE",
@@ -681,13 +681,6 @@
     {
      "titulo": "CGSN atualiza regras do Simples Nacional para adequação à Reforma Tributária do Consumo",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/cgsn-atualiza-regras-do-simples-nacional-para-adequacao-a-reforma-tributaria-do-consumo",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Receita Federal e CGIBS flexibilizarão obrigatoriedade de informações em documentos fiscais",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/receita-federal-e-cgibs-flexibilizarao-obrigatoriedade-de-informacoes-em-documentos-fiscais",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
