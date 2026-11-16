@@ -1869,6 +1869,11 @@
   "motivo": "CGIBS/RFB ajustam leiautes e XSD de eventos da DeRE; exige ajuste de sistemas de quem já opera a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "791da3af6453d0fd": {
+  "veredito": "ruido",
+  "motivo": "solução de consulta sobre bônus de adimplência fiscal da CSLL, sem relação com a reforma do consumo",
+  "em": "2026-11-16-matinal"
+ },
  "7942ee3a97c9798a": {
   "veredito": "ruido",
   "motivo": "atualização cadastral anual de resseguradora (Intact Insurance UK), sem relação com a reforma",
@@ -3283,6 +3288,11 @@
   "veredito": "ruido",
   "motivo": "retificação de data em ato declaratório de saída de aeronave, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "e96166a4172cc1a6": {
+  "veredito": "ruido",
+  "motivo": "revoga qualificação de devedor contumaz de uma empresa (LC 225/2026), sem relação com IBS/CBS",
+  "em": "2026-11-16-matinal"
  },
  "e9a2f86e5811c89f": {
   "veredito": "contexto",

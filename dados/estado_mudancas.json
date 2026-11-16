@@ -1,5 +1,12 @@
 [
  {
+  "secao": "prazos_destaque",
+  "tipo": "removido",
+  "descricao": "Prazo de 15/11 para as agências homologarem a tabela de água e esgoto sem PIS/Cofins (Res. ANA 312) venceu e saiu dos destaques; o marco segue na linha do tempo",
+  "fonte": "estado.json (faxina de prazo vencido)",
+  "em": "2026-11-16-matinal"
+ },
+ {
   "secao": "pendencias",
   "tipo": "alterado",
   "descricao": "Split payment: produção da NT 2026.006 (vínculo da NF-e com o pagamento) adiada de 16/11 para 14/12/2026 (aviso do Portal NF-e)",
