@@ -2990,6 +2990,13 @@
   "status": "lido",
   "tentativas": 1
  },
+ "791da3af6453d0fd": {
+  "chars": 1654,
+  "lido_em": "2026-11-16T08:02:31Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "7942ee3a97c9798a": {
   "chars": 1313,
   "lido_em": "2026-10-07T08:03:15Z",
@@ -5272,6 +5279,13 @@
   "chars": 1592,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "e96166a4172cc1a6": {
+  "chars": 1129,
+  "lido_em": "2026-11-16T08:02:31Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
