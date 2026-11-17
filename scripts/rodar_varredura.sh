@@ -4,6 +4,10 @@ cd "$(dirname "$0")/.."
 # publicar.sh resolve sozinho conflito em docs/ (gerado); qualquer outro
 # conflito aborta o rebase, deixando o checkout limpo e a falha no journal.
 scripts/publicar.sh --sincronizar || exit 1
+# Noticias (feeds RSS de economia): rapido, so' stdlib, publica junto com a
+# varredura. Falha aqui nao derruba a varredura das fontes oficiais.
+.venv/bin/python3 scripts/noticias.py \
+  || echo "AVISO: noticias.py falhou (nenhum feed respondeu ou erro); seguindo com a varredura" >&2
 .venv/bin/python3 scripts/varredura.py
 .venv/bin/python3 scripts/gerar_painel.py
 # Publica a coleta ANTES de ler: a raia de leitura leva ate' 45 min (OCR) e,

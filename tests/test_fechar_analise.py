@@ -217,3 +217,154 @@ class TestFecharAtualizaPainel(unittest.TestCase):
             self.assertFalse(r["painel"]["aplicado"])
             self.assertIn("a", le(raiz, "dados/analisados.json")["chaves"])
             self.assertNotIn("painel_atualizado", le(raiz, "dados/analise_status.json"))
+
+
+def resumo_valido(**extra):
+    r = {"data": "2026-09-30", "turno": "noturna", "manchete": "M",
+         "em_30_segundos": ["um", "dois", "tres"],
+         "noticias": [{"chave": None, "tema": "pessoas", "titulo": "T",
+                       "url": "https://x", "linha": "L", "origem": "busca"}],
+         "lidas": 5}
+    r.update(extra)
+    return r
+
+
+class TestNoticiasSemVeredito(unittest.TestCase):
+    def _prepara(self, raiz):
+        prepara(raiz)
+        hist = le(raiz, "dados/historico.json")
+        hist["n1"] = {"primeira_vez": "2026-09-30", "tipo": "noticia", "titulo": "n1"}
+        hist["n2"] = {"primeira_vez": "2026-09-30", "tipo": "noticia", "titulo": "n2"}
+        hist["n3"] = {"primeira_vez": "2026-09-30", "tipo": "noticia", "titulo": "n3"}
+        escreve(raiz, "dados/historico.json", hist)
+
+    def test_noticia_sem_veredito_vira_ruido(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            self._prepara(raiz)
+            escreve(raiz, "dados/triagem_pendente.json", [
+                {"chave": "n1", "veredito": "relevante", "motivo": "entrou no resumo"},
+                {"chave": "a", "veredito": "ruido", "motivo": "x"}])
+            r = fa.fechar(raiz, "2026-09-30", "noturna", ["a", "b", "n1", "n2"])
+            self.assertTrue(r["ok"])
+            self.assertEqual(r["noticias_ruido"], 1)
+            t = le(raiz, "dados/triagem.json")
+            self.assertEqual(t["n1"]["veredito"], "relevante")
+            self.assertEqual(t["n2"], {"veredito": "ruido", "em": "2026-09-30-noturna",
+                                       "motivo": "não selecionada para o resumo"})
+            # publicacao oficial sem veredito continua sem (exige leitura)
+            self.assertNotIn("b", t)
+            # noticia fora da lacuna nao e' tocada
+            self.assertNotIn("n3", t)
+
+    def test_tipo_vindo_da_lacuna_tambem_conta(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz)
+            r = fa.fechar(raiz, "2026-09-30", "noturna", ["a", "c"], noticias=["c"])
+            self.assertEqual(r["noticias_ruido"], 1)
+            self.assertEqual(sorted(le(raiz, "dados/triagem.json")), ["c"])
+
+    def test_cli_passa_noticias_da_lacuna(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz)
+            lac = raiz / "lacuna.json"
+            lac.write_text(json.dumps({"itens": [{"chave": "a"},
+                                                 {"chave": "b", "tipo": "noticia"}]}), "utf-8")
+            with patch.object(fa, "RAIZ", raiz), \
+                    contextlib.redirect_stdout(io.StringIO()), \
+                    contextlib.redirect_stderr(io.StringIO()):
+                self.assertEqual(fa.main(["2026-09-30", "noturna", str(lac)]), 0)
+            self.assertEqual(le(raiz, "dados/triagem.json")["b"]["veredito"], "ruido")
+
+    def test_analise_recusada_nao_fecha_noticia(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            self._prepara(raiz)
+            (raiz / "analises/2026-09-30-noturna.md").unlink()
+            fa.fechar(raiz, "2026-09-30", "noturna", ["n1"])
+            self.assertFalse((raiz / "dados/triagem.json").exists())
+
+
+class TestValidaResumo(unittest.TestCase):
+    def test_resumo_valido(self):
+        self.assertEqual(fa.valida_resumo(resumo_valido(), "2026-09-30", "noturna"), [])
+
+    def test_sem_data_turno_nao_confere(self):
+        self.assertEqual(fa.valida_resumo(resumo_valido(data="x", turno="y")), [])
+
+    def test_erros(self):
+        casos = [
+            ("nao e' objeto", []),
+            ("data", resumo_valido(data="2026-09-29")),
+            ("turno", resumo_valido(turno="matinal")),
+            ("manchete", resumo_valido(manchete=" ")),
+            ("em_30_segundos", resumo_valido(em_30_segundos="texto")),
+            ("em_30_segundos", resumo_valido(em_30_segundos=[])),
+            ("em_30_segundos", resumo_valido(em_30_segundos=["ok", 3])),
+            ("noticias precisa", resumo_valido(noticias={})),
+            ("noticias[0] nao", resumo_valido(noticias=["x"])),
+            ("tema", resumo_valido(noticias=[dict(resumo_valido()["noticias"][0], tema="esporte")])),
+            ("url", resumo_valido(noticias=[dict(resumo_valido()["noticias"][0], url="")])),
+            ("linha", resumo_valido(noticias=[{"tema": "reforma", "titulo": "t", "url": "u"}])),
+            ("origem", resumo_valido(noticias=[dict(resumo_valido()["noticias"][0], origem="twitter")])),
+            ("lidas", resumo_valido(lidas="5")),
+        ]
+        for esperado, resumo in casos:
+            with self.subTest(esperado):
+                erros = fa.valida_resumo(resumo, "2026-09-30", "noturna")
+                self.assertTrue(any(esperado in e for e in erros), erros)
+
+    def test_noticias_vazia_e_valida(self):
+        self.assertEqual(fa.valida_resumo(resumo_valido(noticias=[])), [])
+
+
+class TestFecharComResumo(unittest.TestCase):
+    def _fecha(self, raiz):
+        err = io.StringIO()
+        with contextlib.redirect_stderr(err):
+            r = fa.fechar(raiz, "2026-09-30", "noturna", ["a"])
+        return r, err.getvalue()
+
+    def test_resumo_valido(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz)
+            escreve(raiz, "analises/resumos/2026-09-30-noturna.json", resumo_valido())
+            r, err = self._fecha(raiz)
+            self.assertTrue(r["ok"])
+            self.assertEqual(r["resumo"], "ok")
+            self.assertNotIn("resumo", err)
+
+    def test_resumo_invalido_avisa_e_nao_derruba(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz)
+            escreve(raiz, "analises/resumos/2026-09-30-noturna.json", resumo_valido(turno="matinal"))
+            r, err = self._fecha(raiz)
+            self.assertTrue(r["ok"])
+            self.assertEqual(r["resumo"], "invalido")
+            self.assertIn("turno", err)
+            self.assertIn("a", le(raiz, "dados/analisados.json")["chaves"])
+            # o arquivo fica: o painel e' que pula o resumo invalido
+            self.assertTrue((raiz / "analises/resumos/2026-09-30-noturna.json").exists())
+
+    def test_resumo_quebrado_avisa(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz)
+            escreve(raiz, "analises/resumos/2026-09-30-noturna.json", "{quebrado")
+            r, err = self._fecha(raiz)
+            self.assertTrue(r["ok"])
+            self.assertEqual(r["resumo"], "invalido")
+            self.assertIn("ilegivel", err)
+
+    def test_resumo_ausente_avisa(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            prepara(raiz)
+            r, err = self._fecha(raiz)
+            self.assertTrue(r["ok"])
+            self.assertEqual(r["resumo"], "ausente")
+            self.assertIn("ausente", err)

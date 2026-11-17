@@ -2,23 +2,33 @@
 
 ## Objetivo do projeto — leia isto antes de tudo
 
-Ser a fonte de dados confiável e completa, que analisa todas as informações
-completas das fontes de publicações, gera relatórios diários do que é
-importante e facilita a vida dos consultores e dos clientes. O objetivo é
-automatizar o acompanhamento das novas publicações e trazer o que realmente
-importa para quem lê o painel. Seja a real inteligência sobre as novas
-publicações da reforma tributária.
+O painel é o **resumo diário** (matinal e noturno) que o Rodrigo e a Carolina
+Loth leem para se atualizar e tirar pauta para as redes da Carolina — um perfil
+sobre **o bolso das pessoas e das empresas**, para o MEI, o dono de pequeno
+negócio e o consumidor comum. Em vez de abrir portais de notícia, eles abrem o
+painel e leem, no topo, poucas linhas com o que importa; se algo interessa,
+abrem o detalhe logo abaixo.
+
+Três temas: **bolso do empreendedor** (imposto, crédito, juros, caixa, regras e
+prazos do pequeno negócio), **bolso das pessoas** (preços, conta de luz, juros,
+Selic, salário mínimo, INSS, IR, Pix, golpes, benefícios) e **reforma
+tributária**. A reforma continua com a mesma exigência de sempre: ser a fonte
+confiável que lê o texto completo das publicações oficiais e separa o que exige
+ação do que é só contexto.
 
 Isso tem uma consequência direta em como você escreve: **o painel é sobre as
-publicações, não sobre esta rotina.** Detalhe técnico de coleta (rede
-bloqueada, ementa vazia, fonte fora do ar) é rodapé, não manchete — nunca a
-primeira coisa que quem lê encontra, e nunca mais espaço do que o próprio
+publicações e as notícias, não sobre esta rotina.** Detalhe técnico de coleta
+(rede bloqueada, ementa vazia, fonte fora do ar) é rodapé, não manchete — nunca
+a primeira coisa que quem lê encontra, e nunca mais espaço do que o próprio
 conteúdo relevante do dia.
 
 Instruções para quem (ou o que) escreve `analises/AAAA-MM-DD-<turno>.md`. O objetivo é
 o mesmo de toda análise manual já publicada no projeto: separar o que exige
 ação do que é só contexto, e explicar o impacto em termos que um contador ou
-um cliente entenda — não apenas descrever o que foi publicado.
+um cliente entenda — não apenas descrever o que foi publicado. A análise
+`.md` trata só das **publicações oficiais**; as notícias (`tipo: "noticia"`)
+vão para o resumo do dia, não para o `.md`. Título do `.md`, `situacao` e
+`acoes` do status contam só publicações.
 
 ## Ciclos, entradas e saídas
 
@@ -26,23 +36,26 @@ A rotina roda duas vezes por dia: turno **matinal** (05h) e turno **noturna**
 (17h). Cada execução analisa só o que ainda não foi analisado por nenhuma
 execução anterior — a lista já vem pronta no arquivo de lacuna indicado no
 prompt (mesmo formato da saída de `scripts/lacuna_analise.py`; cada item traz
-o campo `chave`). Não recalcule a lacuna e não analise itens fora dela.
+o campo `chave`). Não recalcule a lacuna e não analise itens fora dela (a
+única exceção é a busca extra de notícias, ver "Notícias do bolso").
 
-Toda execução grava **três arquivos obrigatórios** e, quando for o caso, um
-quarto:
+Toda execução grava **três arquivos obrigatórios**, o **resumo do dia** e,
+quando for o caso, a proposta do painel:
 
-1. `analises/AAAA-MM-DD-<turno>.md` — a análise (formato abaixo). **Sempre**,
-   mesmo sem novidade relevante: o painel guarda o histórico de todas as
-   execuções, e quem abre um dia precisa ler o que chegou e por que não
-   importa.
+1. `analises/AAAA-MM-DD-<turno>.md` — a análise da reforma (formato abaixo).
+   **Sempre**, mesmo sem novidade relevante: o painel guarda o histórico de
+   todas as execuções, e quem abre um dia precisa ler o que chegou e por que
+   não importa.
 2. `dados/analise_status.json` — status da execução (formato abaixo).
-3. `dados/triagem_pendente.json` — um veredito por item da lacuna (formato
+3. `dados/triagem_pendente.json` — vereditos dos itens da lacuna (formato
    abaixo).
-4. `dados/estado_proposta.json` — **só quando o painel precisa mudar**: a
-   proposta de atualização de prazos, pendências e linha do tempo (ver
+4. `analises/resumos/AAAA-MM-DD-<turno>.json` — o resumo do dia que o painel
+   mostra no topo (ver "Resumo do dia"). Grave em toda execução. Se faltar ou
+   vier inválido, a execução ainda vale, mas o painel perde o topo.
+5. `dados/estado_proposta.json` — **só quando os prazos precisam mudar** (ver
    "Manter o painel em dia" abaixo). Nunca edite `estado.json` direto.
 
-**Não rode nenhum comando git.** Um script valida os três arquivos, marca os
+**Não rode nenhum comando git.** Um script valida os arquivos, marca os
 itens como analisados e faz o commit. Se faltar algum arquivo, ou se o status
 vier com data/turno diferentes dos do prompt, a execução inteira é descartada
 e os itens voltam para a próxima.
@@ -81,8 +94,8 @@ uma ementa/texto que você realmente leu — nunca do órgão ou da fonte sozinh
 
 ## Leia o texto completo antes de classificar — ele já está no repositório
 
-Cada item de `itens` (no arquivo de lacuna) traz o texto integral da
-publicação, já extraído pela coleta ou pela raia de leitura (HTML, PDF, PDF
+Cada publicação oficial de `itens` (no arquivo de lacuna) traz o texto
+integral, já extraído pela coleta ou pela raia de leitura (HTML, PDF, PDF
 escaneado via OCR e anexos linkados na página). Você não precisa (e não deve)
 sair buscando na web o que já está ali. Campos:
 
@@ -167,7 +180,10 @@ ainda não disponíveis — grave (sobrescrevendo) `dados/analise_status.json`:
 
 O filtro do DOU marca muitos itens como `revisar` — é um filtro largo de
 propósito (ver armadilhas abaixo). Quem fecha a questão é você: para **cada**
-item da lacuna, de qualquer fonte, grave um veredito. O painel mostra esse
+publicação oficial da lacuna, de qualquer fonte, grave um veredito. Notícias
+(`tipo: "noticia"`) só precisam de veredito quando entram no resumo
+(`relevante`); a que você não escolheu pode ficar sem — o fechamento a marca
+como `ruido` ("não selecionada para o resumo"). O painel mostra esse
 veredito no lugar de "revisar" e deixa o leitor esconder o ruído.
 
 ```json
@@ -176,17 +192,20 @@ veredito no lugar de "revisar" e deixa o leitor esconder o ruído.
  {"chave": "...", "veredito": "ruido", "motivo": "autorização de seguradora, sem relação com a reforma"}]
 ```
 
-- `relevante` — entrou em Ação requerida ou Acompanhar.
+- `relevante` — entrou em Ação requerida ou Acompanhar (publicação) ou no
+  resumo (notícia).
 - `contexto` — entrou em Contexto, ou é da reforma mas sem efeito prático.
-- `ruido` — sem relação com a reforma do consumo.
+- `ruido` — sem relação com a reforma do consumo (publicação) ou fora do
+  critério de "Notícias do bolso" (notícia).
 - `motivo` — uma frase curta (até ~120 caracteres), baseada no texto lido.
 - Use a `chave` exatamente como veio; chave inventada é descartada.
 
 ## Manter o painel em dia (`dados/estado_proposta.json`)
 
-O painel não é só a análise: os cards "Prazos em contagem regressiva", o
-"Placar de pendências" e a "Linha do tempo da transição" vêm de `estado.json`
-— e é isso que o contador olha primeiro. Se uma publicação mudou um prazo e o
+Os "Prazos da reforma" do painel vêm de `estado.json` (`prazos_destaque`).
+O painel não mostra mais a linha do tempo nem o placar de pendências, mas
+continue mantendo `pendencias` e `linha_do_tempo` como abaixo: custa pouco, o
+script valida e a seção "No radar" usa as pendências. Se uma publicação mudou um prazo e o
 card continua com a data velha, o painel está **errado**, por melhor que seja
 a análise. Exemplo real: a Resolução CGSN nº 194 prorrogou a opção pelo
 Simples/regime regular do IBS-CBS de 30/09 para 15/10 e 30/10, e o painel
@@ -241,7 +260,81 @@ descartada inteira e o painel fica como estava):
 - Só com base no que você leu (texto do item, `[VERIFICADO LITERAL]`).
   Proposta não é norma: resolução que *propõe* percentual não vira prazo.
 
-## Critério de relevância
+## Notícias do bolso
+
+Itens com `tipo: "noticia"` na lacuna vêm dos feeds RSS dos portais de
+economia: só `titulo`, `fonte`, `url`, `publicado_em` e `ementa` (a linha fina
+da matéria). Não têm `texto` nem passam pela leitura. Elas não entram na
+análise `.md` da reforma — vão para o resumo do dia.
+
+**O que importa é impacto real no bolso:** quanto, quem, a partir de quando.
+Prefira efeito concreto em dinheiro para o MEI e o pequeno negócio (imposto,
+DAS, crédito, juros, prazo, multa, regra nova) e para a pessoa comum (preço,
+conta de luz, combustível, Selic e juros do cartão, salário mínimo, INSS, IR,
+Pix, golpe financeiro, benefício). Deixe de fora: sobe e desce da bolsa e do
+dólar sem efeito no dia a dia, política de outro país sem efeito em dinheiro
+no Brasil, fofoca corporativa (troca de CEO, briga de sócios, resultado
+trimestral de empresa), colunas de opinião. Várias matérias sobre o mesmo
+fato viram **um** item (fique com a mais completa).
+
+- **Abra a matéria** (WebFetch na `url`) quando a linha fina não basta para
+  preencher `trecho` e `por_que_importa`. Matéria com paywall ou que não abre:
+  use outra fonte do mesmo fato ou deixe o item de fora.
+- **`trecho` é citação literal**, copiada da matéria ou do ato, sem
+  reescrever, cortar no meio da frase ou juntar pedaços. Uma ou duas frases,
+  as que provam a `linha`, sempre com a `url` de onde saiu. Não achou frase
+  que sustente? O item não entra.
+- **Busca extra** (WebSearch): se um assunto está claramente quente hoje e os
+  feeds não trouxeram, você pode buscar e incluir a matéria, com
+  `origem: "busca"` e `chave: null`. Use pouco — no máximo 2 ou 3 por
+  execução — e só matéria do dia ou da véspera.
+- **Nunca invente número.** Todo valor, percentual ou data no resumo tem que
+  estar na fonte. Estimativa de governo ou de entidade é dita como estimativa
+  de quem divulgou. Notícia só aponta a pauta; quando o assunto é lei ou ato,
+  prefira citar o texto oficial.
+
+## Resumo do dia (`analises/resumos/AAAA-MM-DD-<turno>.json`)
+
+É o que a Carolina lê no celular. Formato exato:
+
+```json
+{"data": "AAAA-MM-DD", "turno": "matinal|noturna",
+ "manchete": "Uma frase que resume a edição",
+ "em_30_segundos": ["Linha curta 1", "Linha curta 2", "Linha curta 3"],
+ "noticias": [
+  {"chave": "<chave do item na lacuna, ou null quando origem=busca>",
+   "tema": "empreendedor|pessoas|reforma",
+   "titulo": "...", "fonte": "g1", "url": "https://...",
+   "publicado_em": "AAAA-MM-DD ou ISO",
+   "linha": "uma frase: o que aconteceu, em termos de dinheiro",
+   "trecho": "trecho literal da matéria/ato",
+   "por_que_importa": "1 a 3 frases: quanto, quem, a partir de quando",
+   "ideia_post": "gancho ou ângulo para um reel da Carolina",
+   "origem": "rss|busca|oficial"}],
+ "lidas": 42}
+```
+
+- `data` e `turno` exatamente os do prompt.
+- `manchete`: uma frase, o fato mais forte da edição, em linguagem de gente.
+- `em_30_segundos`: **3 a 5 linhas curtas**, as mais importantes primeiro,
+  misturando os temas. Cada linha se sustenta sozinha (vai no alerta do
+  celular). Sem link, sem jargão.
+- `noticias`: em ordem de importância, tipicamente 4 a 10. Obrigatórios
+  `tema`, `titulo`, `url`, `linha`; os demais sempre que der.
+- **Reforma entra aqui também:** cada item `relevante` da análise da reforma
+  (Ação requerida ou Acompanhar) vira uma entrada com `tema: "reforma"`,
+  `origem: "oficial"`, a `chave` do item, `trecho` literal do ato e
+  `por_que_importa` traduzido para o bolso.
+- `ideia_post`: opcional, uma ou duas frases — o ângulo ou o gancho de um
+  reel da Carolina, de preferência a pergunta que o dono do negócio ou a
+  pessoa comum faria. Fala com quem paga a conta, não com advogado. Mesma
+  regra: nenhum número que não esteja na fonte, nenhuma promessa que o texto
+  não faz.
+- `lidas`: quantos itens (notícias + publicações) esta execução avaliou.
+- Dia fraco: menos itens, não itens fracos. Sem nada que importe, `noticias`
+  pode vir vazia, mas `manchete` e `em_30_segundos` dizem isso.
+
+## Critério de relevância (publicações da reforma)
 
 - **Muda prazo, obrigação, ou decisão de um contribuinte real** → Ação
   requerida.
@@ -288,4 +381,6 @@ história do que a rotina teve que fazer para chegar lá.
 
 Direto, sem jargão desnecessário. Frases curtas. Quando o impacto for para
 "o cliente" (contador que usa o painel para aconselhar clientes), diga o que
-muda na prática — não apenas cite o dispositivo legal.
+muda na prática — não apenas cite o dispositivo legal. No resumo do dia, fale
+com o dono do pequeno negócio e com a pessoa comum: quanto custa, quem paga,
+a partir de quando.

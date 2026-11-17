@@ -67,6 +67,12 @@ def _eh_dou(it):
     return (it.get("fonte") or "").startswith("DOU")
 
 
+def _eh_noticia(it):
+    """Noticia de portal (scripts/noticias.py) nao passa pela raia de leitura:
+    a analise abre a materia na web quando quiser mais detalhe."""
+    return it.get("tipo") == "noticia"
+
+
 def migra_legado(dados, historico, leituras):
     """Itens com `texto` dentro do historico (DOU desde a Parte A, CGIBS desde
     a Parte B) passam para dados/textos/. Texto do DOU com 20.000 caracteres
@@ -99,6 +105,8 @@ def a_ler(dados, historico, leituras, chaves=None):
     """Chaves a ler, mais recentes primeiro (o item novo nao espera o backfill)."""
     out = []
     for k, it in historico.items():
+        if _eh_noticia(it):
+            continue
         if chaves is not None:
             if k in chaves and not _eh_dou(it):
                 out.append(k)

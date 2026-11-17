@@ -26,6 +26,17 @@ class TestCobertura(unittest.TestCase):
                          (3, 1, 1, 1, 1))
         self.assertEqual(c["RFB - Noticias 2026"]["sem_tentativa"], 1)
 
+    def test_noticia_fica_de_fora(self):
+        with tempfile.TemporaryDirectory() as d:
+            raiz = Path(d)
+            (raiz / "dados").mkdir()
+            (raiz / "dados" / "historico.json").write_text(json.dumps({
+                "a": {"fonte": "g1 Economia", "tipo": "noticia"},
+                "b": {"fonte": "RFB - Noticias 2026"}}))
+            c = cobertura_textos.cobertura(raiz)
+        self.assertNotIn("g1 Economia", c)
+        self.assertEqual(c["RFB - Noticias 2026"]["total"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()
