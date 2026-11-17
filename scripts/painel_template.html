@@ -238,6 +238,29 @@
   footer .marca{display:flex;justify-content:center;margin:22px 0 10px}
   footer .marca img{height:34px;width:auto;opacity:0.85}
 
+  /* ---------- tela larga: resumo à esquerda (fixo na rolagem), notícias à direita ---------- */
+  @media (min-width:1080px){
+    .wrap{max-width:1440px;padding-left:max(32px, env(safe-area-inset-left, 0px));
+      padding-right:max(32px, env(safe-area-inset-right, 0px))}
+    header.top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,560px);
+      grid-template-areas:"eb eb" "h1 bar" "qd bar" "ct bar";column-gap:32px;row-gap:4px;align-items:end}
+    .toprow{grid-area:eb}
+    header.top h1{grid-area:h1;font-size:34px}
+    .quando{grid-area:qd}
+    .conta{grid-area:ct}
+    .edbar{grid-area:bar;margin-top:0;align-self:end}
+    /* só divide em duas colunas quando a edição tem resumo */
+    .topo:has(#em30:not([hidden])){display:grid;grid-template-columns:minmax(340px,5fr) 7fr;
+      column-gap:36px;align-items:start;margin-top:8px}
+    .topo:has(#em30:not([hidden])) .col-res{position:sticky;top:20px}
+    .topo:has(#em30:not([hidden])) .chips{margin-top:22px}
+    .manchete{font-size:24px}
+    .secs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:14px}
+    .secs details[open]{grid-column:1 / -1}
+    .filtros{grid-template-columns:repeat(5,minmax(0,1fr))}
+    .filtros .busca{grid-column:auto / span 5}
+  }
+
   @media (max-width:560px){
     h1{font-size:27px}
     .manchete{font-size:19px}
@@ -278,18 +301,24 @@
   <div class="status" id="status-diario" hidden></div>
 
   <main>
-    <p class="manchete" id="manchete" hidden></p>
+    <div class="topo">
+      <div class="col-res">
+        <p class="manchete" id="manchete" hidden></p>
 
-    <section class="hl" id="em30" aria-labelledby="em30-t" hidden>
-      <h2 id="em30-t">Em 30 segundos</h2>
-      <ul id="em30-lista"></ul>
-    </section>
+        <section class="hl" id="em30" aria-labelledby="em30-t" hidden>
+          <h2 id="em30-t">Em 30 segundos</h2>
+          <ul id="em30-lista"></ul>
+        </section>
+      </div>
 
-    <div id="bloco-noticias" hidden>
-      <div class="chips" id="chips" role="group" aria-label="Filtrar notícias por tema"></div>
-      <ol class="noticias" id="noticias" aria-live="polite"></ol>
+      <div class="col-nt">
+        <div id="bloco-noticias" hidden>
+          <div class="chips" id="chips" role="group" aria-label="Filtrar notícias por tema"></div>
+          <ol class="noticias" id="noticias" aria-live="polite"></ol>
+        </div>
+        <p class="semres" id="sem-resumo" hidden></p>
+      </div>
     </div>
-    <p class="semres" id="sem-resumo" hidden></p>
 
     <div class="secs">
       <details class="sec" id="sec-analise">
