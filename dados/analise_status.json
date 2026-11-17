@@ -1,1 +1,11 @@
-{"data": "2026-11-16", "turno": "noturna", "situacao": "sem_novidade", "acoes": 0, "gerado_em": "2026-11-16T20:01:39Z", "resumo_curto": "nenhuma publicação nova"}
+{
+ "data": "2026-11-17",
+ "turno": "matinal",
+ "situacao": "publicada",
+ "acoes": 0,
+ "gerado_em": "2026-11-17T08:04:02Z",
+ "resumo_curto": "12 itens; 1 relevante (API de débitos da CBS via Serpro), nenhum exige ação",
+ "painel_atualizado": [
+  "Portaria RFB 749 (DOU 16/11): Serpro pode oferecer a ERPs e escritórios a API de consulta de débitos da CBS da apuração assistida"
+ ]
+}

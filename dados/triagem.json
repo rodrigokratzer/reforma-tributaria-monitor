@@ -189,6 +189,11 @@
   "motivo": "programação orçamentária e financeira do Executivo",
   "em": "2026-10-30-matinal"
  },
+ "0ec970c31d9db7c7": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral de ressegurador eventual na Susep, sem relação com a reforma",
+  "em": "2026-11-17-matinal"
+ },
  "0f735c90ef1d87ab": {
   "veredito": "ruido",
   "motivo": "solução de consulta sobre IRPJ/CSLL, lucro presumido na construção civil, sem relação com a reforma",
@@ -569,6 +574,11 @@
   "motivo": "altera regras do Programa Novo Desenrola Brasil (crédito/educação financeira), sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "26289d81c6da6779": {
+  "veredito": "ruido",
+  "motivo": "SC sobre retenção de IRRF/CSLL/PIS/Cofins em vacinação; não trata de IBS/CBS",
+  "em": "2026-11-17-matinal"
+ },
  "263accd2a00a99c3": {
   "veredito": "ruido",
   "motivo": "Institui politica interna de auditoria de TI da Susep, sem relacao com a reforma",
@@ -643,6 +653,11 @@
   "veredito": "ruido",
   "motivo": "Homologação de eleição de administrador de seguradora, ato interno",
   "em": "retroativa-2026-09-30"
+ },
+ "290c15ff57d9fa0c": {
+  "veredito": "relevante",
+  "motivo": "Serpro pode oferecer a terceiros API de consulta de débitos da CBS (apuração assistida), Anexo XXII",
+  "em": "2026-11-17-matinal"
  },
  "293c693529148622": {
   "veredito": "relevante",
@@ -1749,10 +1764,20 @@
   "motivo": "Altera circulares Susep sobre registro de operacoes de seguros, sem relacao com a reforma do consumo",
   "em": "retroativa-2026-09-30"
  },
+ "6edc5fd1ed214786": {
+  "veredito": "ruido",
+  "motivo": "regime sancionador da Susep; texto não trata de tributo",
+  "em": "2026-11-17-matinal"
+ },
  "6f0c1aadef2eb490": {
   "veredito": "ruido",
   "motivo": "remoção extraordinária de procuradores da PGFN",
   "em": "2026-11-05-matinal"
+ },
+ "6f43a7306f56affb": {
+  "veredito": "ruido",
+  "motivo": "transparência de benefícios fiscais federais de PJ (PIS/Cofins etc.); não trata de IBS/CBS",
+  "em": "2026-11-17-matinal"
  },
  "6f99b63f762da48b": {
   "veredito": "ruido",
@@ -1839,6 +1864,11 @@
   "motivo": "homologação de comitê de auditoria da Allianz Seguros, sem relação com a reforma",
   "em": "2026-10-20-matinal"
  },
+ "76ae70913ec7a32c": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral de ressegurador eventual na Susep, sem relação com a reforma",
+  "em": "2026-11-17-matinal"
+ },
  "771e7c7628ce456b": {
   "veredito": "ruido",
   "motivo": "Retificação sem ementa/texto disponível; sem relação com a reforma.",
@@ -1848,6 +1878,11 @@
   "veredito": "ruido",
   "motivo": "expediente reduzido da DRF Feira de Santana na Micareta, sem relação com a reforma",
   "em": "2026-11-10-matinal"
+ },
+ "77369a4c2ae3d82d": {
+  "veredito": "ruido",
+  "motivo": "atualização cadastral de ressegurador eventual na Susep, sem relação com a reforma",
+  "em": "2026-11-17-matinal"
  },
  "789dd8ef1b52b76d": {
   "veredito": "contexto",
@@ -1909,6 +1944,11 @@
   "motivo": "Homologação de eleição de administrador da Itaú Vida e Previdência, sem relação com a reforma.",
   "em": "2026-10-16-matinal"
  },
+ "7ddbab57bb292378": {
+  "veredito": "ruido",
+  "motivo": "aumento de capital de seguradora homologado pela Susep, sem relação com a reforma",
+  "em": "2026-11-17-matinal"
+ },
  "7e368bdd446940ed": {
   "veredito": "ruido",
   "motivo": "Susep homologa eleição de administrador de seguradora; sem relação com a reforma",
@@ -1958,6 +1998,11 @@
   "veredito": "ruido",
   "motivo": "Retificação de data em Atos Declaratórios da RFB; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "82b5f3168c435a1b": {
+  "veredito": "ruido",
+  "motivo": "suspensão de cadastro de ressegurador eventual, sem relação com a reforma",
+  "em": "2026-11-17-matinal"
  },
  "83068337426277e9": {
   "veredito": "contexto",
@@ -2168,6 +2213,11 @@
   "veredito": "ruido",
   "motivo": "continuação de tabela de equalização de juros do Plano Safra",
   "em": "retroativa-2026-09-30"
+ },
+ "901089c78bac187b": {
+  "veredito": "ruido",
+  "motivo": "mudança de denominação e cancelamento de autorização de seguradora, sem relação com a reforma",
+  "em": "2026-11-17-matinal"
  },
  "9072739bc46e7851": {
   "veredito": "ruido",
@@ -2649,6 +2699,11 @@
   "motivo": "Portaria interna da RFB-3ªRF sobre doação de mercadorias apreendidas (Programa Receita Cidadã); sem relação com a reforma do consumo",
   "em": "2026-10-07-noturna"
  },
+ "b663edbb66f08c4c": {
+  "veredito": "ruido",
+  "motivo": "autorização de funcionamento de seguradora, sem relação com a reforma",
+  "em": "2026-11-17-matinal"
+ },
  "b6786aba4f6700fa": {
   "veredito": "ruido",
   "motivo": "habilitação ao Programa Mais Leite Saudável (PIS/Cofins)",
@@ -2768,6 +2823,11 @@
   "veredito": "relevante",
   "motivo": "NT 2026.006: vínculo NF-e x transação do split payment (grupo YC, evento 110300), opcional em 2026",
   "em": "2026-10-30-noturna"
+ },
+ "be8a87bb50220b04": {
+  "veredito": "ruido",
+  "motivo": "homologação de assembleia de resseguradora pela Susep, sem relação com a reforma",
+  "em": "2026-11-17-matinal"
  },
  "bf2c5ce11186b3bd": {
   "veredito": "relevante",

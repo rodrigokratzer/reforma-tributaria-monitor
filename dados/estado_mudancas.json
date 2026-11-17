@@ -1,5 +1,12 @@
 [
  {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Portaria RFB 749 (DOU 16/11): Serpro pode oferecer a ERPs e escritórios a API de consulta de débitos da CBS da apuração assistida",
+  "fonte": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-749-de-3-de-novembro-de-2026-744711566",
+  "em": "2026-11-17-matinal"
+ },
+ {
   "secao": "prazos_destaque",
   "tipo": "removido",
   "descricao": "Prazo de 15/11 para as agências homologarem a tabela de água e esgoto sem PIS/Cofins (Res. ANA 312) venceu e saiu dos destaques; o marco segue na linha do tempo",

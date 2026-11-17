@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-11-16",
+ "atualizado_em": "2026-11-17",
  "prazos_destaque": [
   {
    "rotulo": "NF-e obrigatória para quem não é contribuinte do ICMS (parte da 3ª onda que não foi adiada)",
@@ -323,6 +323,11 @@
    "data": "2026-11-16",
    "titulo": "NF-e: produção das regras da NT 2025.002 v1.53",
    "detalhe": "Devolução pode referenciar a nota original no cabeçalho (uma só) ou no item; novo leiaute monofásico de combustíveis. Mantida em 16/11 por trazer só correções. A NT 2026.006 (vínculo com o split payment), antes prevista para esta data, foi adiada para 14/12."
+  },
+  {
+   "data": "2026-11-16",
+   "titulo": "Portaria RFB nº 749: consulta de débitos da CBS liberada a terceiros via Serpro",
+   "detalhe": "Anexo XXII da Portaria RFB 167/2022 autoriza o Serpro a oferecer a ERPs e escritórios a API \"Apuração Assistida – Consulta Débitos da CBS\" (débitos por DF-e e como foram extintos: crédito ou pagamento). Publicada no DOU de 16/11 (edição extra)."
   },
   {
    "data": "2026-11-20",
