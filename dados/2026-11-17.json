@@ -26,7 +26,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 20,
+   "total": 21,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -165,6 +165,13 @@
      "titulo": "RESOLUÇÃO CGIBS Nº 19, DE 12 DE NOVEMBRO DE 2026 (.pdf 481,30 KBytes)",
      "url": "https://www.cgibs.gov.br/upload/arquivos/202611/12101846-resolucao-cgibs-n-19-de-12-de-novembro-de-2026.pdf",
      "data": "2026-11-12",
+     "pasta_arquivo": "2026-11",
+     "alerta": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGIBS Nº 20, DE 17 DE NOVEMBRO DE 2026 (.pdf 518,67 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202611/17165820-resoluc-a-o-cgibs-n-20-de-17-de-novembro-de-2026.pdf",
+     "data": "2026-11-17",
      "pasta_arquivo": "2026-11",
      "alerta": null
     }
@@ -434,7 +441,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 3,
+   "total": 2,
    "itens": [
     {
      "titulo": "Processamento final das solicitações de Opção pelo Simples Nacional para 2027",
@@ -446,13 +453,6 @@
     {
      "titulo": "Reforma Tributária: Atualização do Ambiente Beta da DeRE",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/reforma-tributaria-atualizacao-do-ambiente-beta-da-dere",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Receita Federal libera acesso às novas APIs de apuração da CBS",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-libera-acesso-as-novas-apis-de-apuracao-da-cbs",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
