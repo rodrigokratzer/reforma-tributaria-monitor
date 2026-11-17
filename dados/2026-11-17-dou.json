@@ -7,7 +7,7 @@
    "metodo": "leiturajornal",
    "http_status": null,
    "erro": null,
-   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br) — 20 consulta(s) da Leitura do Jornal falharam: 2026-11-16 DO1: sem texto de portaria-n-3.915-de-10-de-novembro-de-2026-744425971; 2026-11-16 DO1: sem texto de portaria-sfa-sc/mapa-n-1.440-de-13-de-novembro-d",
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
    "total": 14,
    "itens": [
     {
@@ -180,39 +180,17 @@
     }
    ],
    "diagnostico": {
-    "lidas": 5296,
+    "lidas": 5297,
     "forte": 1,
     "revisar": 13,
-    "baixados": 612,
-    "falhas_download": 106,
+    "baixados": 718,
+    "falhas_download": 0,
     "duplicados": 0,
     "sem_edicao": [
      "2026-11-16 DO3E: sem materias",
-     "2026-11-17 DO1E: sem materias",
      "2026-11-17 DO3E: sem materias"
     ],
-    "erros": [
-     "2026-11-16 DO1: sem texto de portaria-n-3.915-de-10-de-novembro-de-2026-744425971",
-     "2026-11-16 DO1: sem texto de portaria-sfa-sc/mapa-n-1.440-de-13-de-novembro-de-2026-744429543",
-     "2026-11-16 DO1: sem texto de portaria-sfa-to/se/mapa-n-92-de-12-de-novembro-de-2026-744429463",
-     "2026-11-16 DO1: sem texto de decisao-supas-n-1.525-de-10-de-novembro-de-2026-744429786",
-     "2026-11-16 DO1: sem texto de portaria-mcom-n-24.723-de-9-de-novembro-de-2026-744429073",
-     "2026-11-16 DO1: sem texto de portaria-n-3.992-de-13-de-novembro-de-2026-744435947",
-     "2026-11-16 DO1: sem texto de resolucao-re-n-4.449-de-12-de-novembro-de-2026-744435633",
-     "2026-11-16 DO1: sem texto de portaria-n-20.344-de-11-de-novembro-de-2026-744437617",
-     "2026-11-16 DO1: sem texto de portaria-sda/mapa-n-70-de-13-de-novembro-de-2026-744453744",
-     "2026-11-16 DO1: sem texto de portaria-icmbio-n-5.100-de-12-de-novembro-de-2026-744408638",
-     "2026-11-16 DO1: sem texto de decreto-legislativo-n-456-de-2026-744411295",
-     "2026-11-16 DO1: sem texto de decreto-legislativo-n-453-de-2026-744409866",
-     "2026-11-16 DO1: sem texto de retificacao-744409704",
-     "2026-11-16 DO1: sem texto de portaria-mcom-n-24.982-de-6-de-novembro-de-2026-744415197",
-     "2026-11-16 DO1: sem texto de resolucao-autorizativa-n-16.833-de-10-de-novembro-de-2026-744424275",
-     "2026-11-16 DO1: sem texto de portaria-mcom-n-25.010-de-6-de-novembro-de-2026-744410713",
-     "2026-11-16 DO1: sem texto de portaria-mcom-n-24.979-de-6-de-novembro-de-2026-744419498",
-     "2026-11-16 DO1: sem texto de portaria-mcom-n-24.986-de-6-de-novembro-de-2026-744421086",
-     "2026-11-16 DO1: sem texto de atos-de-12-de-novembro-de-2026-744422134",
-     "2026-11-16 DO1: sem texto de acordao-n-469-de-13-de-novembro-de-2026-744331991"
-    ]
+    "erros": []
    }
   }
  ]
