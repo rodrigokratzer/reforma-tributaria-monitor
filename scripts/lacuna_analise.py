@@ -102,11 +102,14 @@ def aguardando_leitura(item, meta, tem_texto, hoje):
     """A analise espera a raia de leitura, para nao ver sem texto um item que
     so' nao foi lido ainda (OCR na fila, site fora do ar por um ciclo).
 
-    Nunca espera: item com texto, item do DOU (texto vem do INLABS) e item
-    em que a leitura desistiu. Rede de seguranca: passados DIAS_SEM_LEITURA
+    Nunca espera: item com texto, item do DOU (texto vem do INLABS), noticia
+    (tipo "noticia": a raia de leitura nao as le) e item em que a leitura
+    desistiu. Rede de seguranca: passados DIAS_SEM_LEITURA
     dias, libera de qualquer jeito — raia parada nao pode travar a analise.
     """
     if tem_texto or (item.get("fonte") or "").startswith("DOU"):
+        return False
+    if item.get("tipo") == "noticia":
         return False
     if meta and meta.get("status") == "desistiu":
         return False

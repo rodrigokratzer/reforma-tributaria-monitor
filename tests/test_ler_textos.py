@@ -172,6 +172,15 @@ class TestExecuta(Base):
         self.roda(s)
         self.assertEqual(s.pedidos, [])
 
+    def test_noticia_nunca_e_baixada_nem_registrada(self):
+        u = "https://g1.globo.com/economia/noticia/2026/11/17/x.ghtml"
+        self.hist({"k1": item(u, fonte="g1 Economia", tipo="noticia")})
+        s = FakeSessao({u: html_govbr(LONGO)})
+        self.roda(s)
+        self.roda(s, chaves={"k1"})
+        self.assertEqual(s.pedidos, [])
+        self.assertNotIn("k1", self.leituras())
+
     def test_chave_explicita_rele_mesmo_ja_lido(self):
         u = "https://www.gov.br/x/a"
         self.hist({"k1": item(u)})

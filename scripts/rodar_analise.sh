@@ -19,6 +19,10 @@ mkdir -p "$ESTADO"
 LACUNA="$ESTADO/lacuna-$HOJE-$TURNO.json"
 SAIDA="$ESTADO/analise-$HOJE-$TURNO.json"
 ARQ="analises/$HOJE-$TURNO.md"
+# Resumo estruturado (noticias do bolso + reforma) que o painel mostra no topo.
+# Vai junto no 'git add analises' do publicar.sh.
+RESUMO="analises/resumos/$HOJE-$TURNO.json"
+mkdir -p analises/resumos
 
 # A lacuna e' congelada aqui, antes do claude: as chaves marcadas como
 # analisadas no fim sao exatamente as que ele recebeu, nem uma a mais.
@@ -52,7 +56,7 @@ json.dump({"data": sys.argv[1], "turno": sys.argv[2], "situacao": "sem_novidade"
 EOF
   resumo="sem publicacoes novas"
 else
-  PROMPT="Leia scripts/analise_brief.md e siga as instrucoes dele por completo. Data de hoje: $HOJE. Turno: $TURNO. A lacuna de cobertura (os $n itens que voce deve analisar, com o texto integral quando disponivel) ja foi calculada e esta em $LACUNA - leia esse arquivo, nao rode lacuna_analise.py de novo. Produza os tres arquivos obrigatorios que o brief especifica: $ARQ, dados/analise_status.json (com data=$HOJE e turno=$TURNO) e dados/triagem_pendente.json (um veredito para cada um dos $n itens). Siga tambem a secao 'Manter o painel em dia': se algum item mudar prazo, pendencia ou marco (ou houver prazo em destaque vencido), grave dados/estado_proposta.json - nunca edite estado.json direto. NAO rode nenhum comando git - o commit e feito depois por outro script. Nao pergunte nada - decida e execute sozinho."
+  PROMPT="Leia scripts/analise_brief.md e siga as instrucoes dele por completo. Data de hoje: $HOJE. Turno: $TURNO. A lacuna de cobertura (os $n itens que voce deve analisar, com o texto integral quando disponivel) ja foi calculada e esta em $LACUNA - leia esse arquivo, nao rode lacuna_analise.py de novo. Produza os tres arquivos obrigatorios que o brief especifica: $ARQ, dados/analise_status.json (com data=$HOJE e turno=$TURNO) e dados/triagem_pendente.json (um veredito para cada publicacao oficial e para cada noticia que entrar no resumo; noticia sem veredito vira ruido sozinha). Grave tambem o resumo do dia em $RESUMO (com data=$HOJE e turno=$TURNO), no formato da secao 'Resumo do dia' do brief. Voce pode usar WebFetch para abrir a materia de uma noticia e WebSearch para a busca extra descrita no brief. Siga tambem a secao 'Manter o painel em dia': se algum item mudar prazo, pendencia ou marco (ou houver prazo em destaque vencido), grave dados/estado_proposta.json - nunca edite estado.json direto. NAO rode nenhum comando git - o commit e feito depois por outro script. Nao pergunte nada - decida e execute sozinho."
 
   # O instalador novo do Claude Code (23/10/2026) deixa o claude so' em
   # ~/.local/bin, que nao esta no PATH do systemd.
@@ -82,6 +86,7 @@ if ! $PY scripts/fechar_analise.py "$HOJE" "$TURNO" "$LACUNA"; then
   # O que o claude escreveu vai para $ESTADO (para diagnostico), nao fica
   # solto no checkout, onde o 'git add analises' do proximo ciclo o pegaria.
   mv -f "$ARQ" "$ESTADO/" 2>/dev/null || true
+  mv -f "$RESUMO" "$ESTADO/resumo-$HOJE-$TURNO.json" 2>/dev/null || true
   mv -f dados/triagem_pendente.json "$ESTADO/triagem_pendente-$HOJE-$TURNO.json" 2>/dev/null || true
   mv -f dados/estado_proposta.json "$ESTADO/estado_proposta-$HOJE-$TURNO.json" 2>/dev/null || true
   git checkout -- dados/analise_status.json 2>/dev/null || true

@@ -1,0 +1,105 @@
+{
+ "data": "2026-11-17",
+ "turno": "matinal",
+ "manchete": "Hora extra deve ficar mais cara com o fim da 6x1, e o Senado decide hoje se o governo pode travar o uso de créditos tributários das empresas.",
+ "em_30_segundos": [
+  "Decreto da 6x1 deve manter o salário mensal e encarecer a hora extra a partir de 16/12, diz a Folha.",
+  "Senado vota hoje se o governo pode limitar a compensação de créditos tributários: mexe no caixa de quem usa crédito para pagar imposto.",
+  "Mais de 276 mil trabalhadores ainda não sacaram o abono salarial 2026; o prazo vai até 28/12.",
+  "Reforma: o Senado discute a alíquota de 11,3% da CBS, e a Receita autorizou o Serpro a oferecer a sistemas de terceiros a consulta de débitos da CBS."
+ ],
+ "noticias": [
+  {
+   "chave": null,
+   "tema": "empreendedor",
+   "titulo": "Decreto da 6x1 deve ter regra que torna hora extra mais cara",
+   "fonte": "Folha de S.Paulo",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/decreto-da-6x1-deve-ter-regra-que-torna-hora-extra-mais-cara.shtml",
+   "publicado_em": "2026-11-16",
+   "linha": "Decreto em estudo no Ministério do Trabalho mantém o salário mensal, mas aumenta o valor da hora usada no cálculo da hora extra.",
+   "trecho": "Para quem recebe um salário de R$ 5.000, por exemplo, isso significa que uma hora que hoje vale R$ 22,73 em uma jornada de 44 horas passará a valer R$ 23,81 a partir de 16 de dezembro, e R$ 25 um ano depois.",
+   "por_que_importa": "Quem tem funcionário e paga hora extra vai gastar mais com ela a partir de 16/12, sem poder reduzir o salário. A regra ainda é de decreto em estudo, segundo a Folha; não foi publicada.",
+   "ideia_post": "Você tem funcionário e paga hora extra? A conta muda em dezembro, mesmo sem mudar o salário. Mostrar o exemplo do salário de R$ 5.000 da reportagem.",
+   "origem": "rss"
+  },
+  {
+   "chave": null,
+   "tema": "empreendedor",
+   "titulo": "Créditos tributários na mira: Senado decide regra que pode afetar caixa de empresas",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/politica/creditos-tributarios-na-mira-senado-decide-regra-que-pode-afetar-caixa-de-empresas/",
+   "publicado_em": "2026-11-17",
+   "linha": "O Senado vota hoje se mantém no ajuste fiscal a permissão para o governo limitar o uso de créditos tributários no pagamento de impostos federais.",
+   "trecho": "O projeto permite que o Executivo estabeleça limites temporários para essa compensação em períodos de contenção fiscal.",
+   "por_que_importa": "Empresa que usa crédito de imposto pago a mais para abater o imposto do mês pode ter de pagar em dinheiro. A equipe econômica estima de R$ 12,8 bilhões a R$ 18,3 bilhões de efeito em 2027; a CNI diz que o texto não fixa prazo nem atualização para usar o crédito depois.",
+   "ideia_post": "Seu crédito de imposto pode ficar parado: o que muda se o governo travar a compensação, explicado para quem tem empresa.",
+   "origem": "rss"
+  },
+  {
+   "chave": null,
+   "tema": "pessoas",
+   "titulo": "Mais de 276 mil trabalhadores ainda não sacaram o abono salarial 2026",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026",
+   "publicado_em": "2026-11-17",
+   "linha": "R$ 304,8 milhões do abono salarial 2026 seguem sem saque, e o prazo termina em 28 de dezembro.",
+   "trecho": "Segundo levantamento do Ministério do Trabalho e Emprego (MTE), 276.831 pessoas têm valores disponíveis para saque, que somam R$ 304,8 milhões. O prazo para receber o benefício termina em 28 de dezembro de 2026.",
+   "por_que_importa": "Quem tem direito precisa sacar até 28/12, quando termina o prazo deste calendário. A consulta é pelo app Carteira de Trabalho Digital ou pelo gov.br.",
+   "ideia_post": "Tem dinheiro do governo esperando por você até 28 de dezembro: como ver em 1 minuto se o abono é seu.",
+   "origem": "rss"
+  },
+  {
+   "chave": null,
+   "tema": "pessoas",
+   "titulo": "Bets tiraram R$ 40,4 bilhões do orçamento das famílias até julho de 2026, diz Comsefaz",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/16/bets-orcamento-das-familias-2026.ghtml",
+   "publicado_em": "2026-11-16",
+   "linha": "Estudo dos secretários estaduais de Fazenda estima que as apostas online drenaram R$ 40,4 bilhões das famílias nos sete primeiros meses de 2026.",
+   "trecho": "Nos primeiros sete meses de 2026, a saída líquida de recursos associada às bets foi estimada em R$ 40,4 bilhões.",
+   "por_que_importa": "É dinheiro que saiu do orçamento doméstico, num momento em que, segundo a mesma reportagem, quase 30% da renda das famílias já vai para juros e amortização de dívidas. Os valores são estimativa do Comsefaz.",
+   "ideia_post": "Para onde foi o dinheiro do mês? Estimativa do Comsefaz: R$ 40,4 bilhões em bets só até julho.",
+   "origem": "rss"
+  },
+  {
+   "chave": null,
+   "tema": "reforma",
+   "titulo": "Durigan explica no Senado alíquota de 11,3% da CBS",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs",
+   "publicado_em": "2026-11-17",
+   "linha": "O Senado ouve hoje o ministro da Fazenda sobre a alíquota de referência de 11,3% da CBS recomendada pelo TCU, acima da estimativa anterior de 9,21%.",
+   "trecho": "O Senado é responsável por estabelecer o percentual definitivo por meio de resolução. O prazo para a definição termina em 15 de dezembro.",
+   "por_que_importa": "A alíquota da CBS que vale a partir de 2027 ainda não está fechada: o Senado decide até 15/12. A própria reportagem lembra que a alíquota de referência não significa, necessariamente, aumento equivalente nos preços.",
+   "ideia_post": "11,3% de CBS: quem decide e até quando. O número ainda pode mudar até 15 de dezembro.",
+   "origem": "rss"
+  },
+  {
+   "chave": "290c15ff57d9fa0c",
+   "tema": "reforma",
+   "titulo": "Portaria RFB nº 749: Serpro pode oferecer a terceiros a consulta de débitos da CBS",
+   "fonte": "DOU (Receita Federal)",
+   "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-749-de-3-de-novembro-de-2026-744711566",
+   "publicado_em": "2026-11-16",
+   "linha": "A Receita autorizou o Serpro a oferecer a ERPs, escritórios e bancos a consulta, nota a nota, dos débitos da CBS da apuração assistida.",
+   "trecho": "Fica o Serviço Federal de Processamento de Dados - Serpro, empresa pública vinculada ao Ministério da Fazenda, autorizado a disponibilizar para terceiros, nos termos da Portaria MF nº 457, de 8 de dezembro de 2016, acesso a dados e informações sob gestão da Secretaria Especial da Receita Federal do Brasil constantes dos Anexos I a XXV.",
+   "por_que_importa": "O Anexo XXII ('Apuração Assistida - Consulta Débitos da CBS') mostra, por nota fiscal, quanto de CBS foi quitado por crédito ou por pagamento. É a base para o sistema da empresa conferir a CBS sem digitar nada no portal. A portaria não diz preço nem data de disponibilidade, e não traz créditos nem IBS.",
+   "ideia_post": "Seu sistema de notas vai conseguir conferir a CBS sozinho? Pergunte ao fornecedor se ele vai contratar esse serviço do Serpro.",
+   "origem": "oficial"
+  },
+  {
+   "chave": null,
+   "tema": "pessoas",
+   "titulo": "Apple é investigada no Cade por barrar PIX por aproximação no iPhone",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/16/apple-e-investigada-no-cade-por-barrar-pix-por-aproximacao-no-iphone-entenda-a-disputa.ghtml",
+   "publicado_em": "2026-11-16",
+   "linha": "O Cade investiga se a Apple dificulta que bancos e fintechs ofereçam Pix por aproximação no iPhone, favorecendo o Apple Pay.",
+   "trecho": "O Conselho Administrativo de Defesa Econômica (Cade) investiga se a Apple impõe barreiras que dificultam a oferta do PIX por aproximação por bancos e fintechs nos iPhones.",
+   "por_que_importa": "Quem usa iPhone tem hoje menos opções para pagar por aproximação. Para a Febraban, citada na reportagem, a limitação pode encarecer os serviços. A investigação ainda está na fase inicial e a Apple nega impedir o uso.",
+   "ideia_post": "Por que o Pix por aproximação não funciona igual no seu iPhone.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 112
+}

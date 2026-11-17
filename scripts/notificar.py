@@ -7,7 +7,8 @@ Uso:
   python3 scripts/notificar.py --falha "msg"    # alerta urgente de falha
 
 Le dados/analise_status.json e analises/<data>-<turno>.md (ou <data>.md no
-formato antigo). Configuracao so por variavel de ambiente (o repositorio e
+formato antigo). Se houver resumo valido em analises/resumos/<data>-<turno>.json,
+o corpo abre com a manchete e as 2 primeiras linhas de "em 30 segundos". Configuracao so por variavel de ambiente (o repositorio e
 publico; segredo fica no .env, carregado pelo systemd):
   NTFY_TOPICO, NTFY_SERVIDOR (padrao https://ntfy.sh),
   SMTP_HOST, SMTP_PORTA (587), SMTP_USUARIO, SMTP_SENHA, EMAIL_PARA (virgulas),
@@ -27,6 +28,8 @@ from email.mime.text import MIMEText
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+LINHAS_RESUMO = 2
 PAINEL_PADRAO = "https://rodrigokratzer.github.io/reforma-tributaria-monitor/"
 NTFY_PADRAO = "https://ntfy.sh"
 # ntfy aceita ate 4096 bytes de mensagem; folga para acento (2 bytes em UTF-8)
@@ -174,7 +177,25 @@ def _secao_falhas(falhas):
     return CABECALHO_FALHAS + "\n" + "\n".join(linhas)
 
 
-def monta_mensagem(status, md_texto, painel_url, falhas=None, gravidade="alta"):
+def abertura_resumo(resumo):
+    """Manchete + as primeiras linhas de "em 30 segundos", ou "" se nao ha
+    resumo. Quem chama ja' validou o resumo."""
+    if not resumo:
+        return ""
+    linhas = [str(x).strip() for x in resumo.get("em_30_segundos") or []][:LINHAS_RESUMO]
+    return "\n".join([str(resumo.get("manchete") or "").strip()]
+                     + ["- " + x for x in linhas if x]).strip()
+
+
+def _md_resumo(resumo):
+    # e-mail: manchete e todas as linhas, antes da analise da reforma
+    linhas = [str(x).strip() for x in resumo.get("em_30_segundos") or [] if str(x).strip()]
+    return ("**" + str(resumo.get("manchete") or "").strip() + "**\n\n"
+            + "\n".join("- " + x for x in linhas))
+
+
+def monta_mensagem(status, md_texto, painel_url, falhas=None, gravidade="alta",
+                   resumo=None):
     acoes = _acoes(status)
     situacao = status.get("situacao") or ""
     if acoes > 0:
@@ -190,8 +211,9 @@ def monta_mensagem(status, md_texto, painel_url, falhas=None, gravidade="alta"):
 
     quando = " ".join(p for p in (_data_curta(status.get("data")), _turno(status)) if p)
     click = painel_url + "#analise=" + _id_analise(status)
-    resumo = (status.get("resumo_curto") or "").strip() or descricao
-    partes = [_corta(resumo, 1000)]
+    abertura = abertura_resumo(resumo)
+    resumo_curto = (status.get("resumo_curto") or "").strip() or descricao
+    partes = [_corta(abertura or resumo_curto, 1000)]
     trecho = trecho_acao(md_texto)
     if trecho:
         partes.append(trecho)
@@ -215,6 +237,8 @@ def monta_mensagem(status, md_texto, painel_url, falhas=None, gravidade="alta"):
     corpo = _corta(corpo, LIMITE_CORPO - len(click) - 2) + "\n\n" + click
     md_final = (md_texto + "\n\n### Painel atualizado\n\n" + "\n".join("- " + x for x in painel)
                 ) if (md_texto and painel) else md_texto
+    if resumo and md_final:
+        md_final = _md_resumo(resumo) + "\n\n---\n\n" + md_final
     if secao and md_final:
         # e-mail usa md (ou o corpo, que ja tem a secao): mesma informacao nos dois canais
         md_final += "\n\n### " + secao.replace(CABECALHO_FALHAS + "\n", CABECALHO_FALHAS + "\n\n")
@@ -349,6 +373,23 @@ def _le_md(raiz, status):
         return None
 
 
+def _le_resumo(raiz, status):
+    """Resumo valido desta execucao, ou None (ausente/invalido: alerta antigo)."""
+    caminho = raiz / "analises" / "resumos" / f"{_id_analise(status)}.json"
+    resumo = _le_json(caminho)
+    if resumo is None:
+        return None
+    try:
+        from fechar_analise import valida_resumo
+        erros = valida_resumo(resumo, status.get("data"), status.get("turno"))
+    except Exception as e:  # import/validacao: cai no alerta antigo
+        erros = [repr(e)]
+    if erros:
+        log(f"{caminho} invalido ({erros[0]}); mensagem sem o resumo")
+        return None
+    return resumo
+
+
 def _envia(msg, env):
     topico = (env.get("NTFY_TOPICO") or "").strip()
     if topico:
@@ -378,7 +419,8 @@ def main(argv=None, raiz=None, env=None):
                 return 0
             msg = monta_mensagem(status, _le_md(raiz, status), painel,
                                  falhas=falhas_do_ciclo(raiz, status["data"]),
-                                 gravidade=gravidade_falhas(raiz, status["data"]))
+                                 gravidade=gravidade_falhas(raiz, status["data"]),
+                                 resumo=_le_resumo(raiz, status))
         _envia(msg, env)
     except Exception as e:  # rede de seguranca final: nunca derrubar o ciclo
         log(f"erro inesperado: {e!r}")

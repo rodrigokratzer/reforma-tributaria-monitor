@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Cobertura de texto integral por fonte: quanto do historico a analise pode
-ler literalmente. Uso: python3 scripts/cobertura_textos.py"""
+ler literalmente. Noticias (tipo "noticia") ficam de fora: a raia de leitura
+nao as le de proposito. Uso: python3 scripts/cobertura_textos.py"""
 import collections
 import json
 import sys
@@ -19,6 +20,8 @@ def cobertura(raiz):
     leit = json.loads(p.read_text("utf-8")) if p.exists() else {}
     c = collections.defaultdict(collections.Counter)
     for k, it in hist.items():
+        if it.get("tipo") == "noticia":
+            continue
         f = c[it.get("fonte") or "?"]
         f["total"] += 1
         meta = leit.get(k)

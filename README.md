@@ -1,8 +1,13 @@
-# Monitor da Reforma Tributária
+# Monitor da Reforma Tributária → Resumo do dia
 
-Varredura diária das fontes oficiais da reforma tributária brasileira do consumo
-(EC 132/2023, LC 214/2025, LC 227/2026), com painel público e resumo diário
-gerado automaticamente.
+Resumo diário (matinal e noturno) para o Rodrigo e a Carolina Loth se
+atualizarem e tirarem pauta para as redes da Carolina. São três temas: **o bolso
+do empreendedor**, **o bolso das pessoas** e a **reforma tributária do consumo**
+(EC 132/2023, LC 214/2025, LC 227/2026). Para isso, o projeto varre as fontes
+oficiais da reforma e os feeds RSS de economia dos principais portais de notícia.
+No topo do painel ficam o "Em 30 segundos" e as notícias que importam, cada uma
+com o trecho original, por que importa, uma ideia de post e o link. Desenho:
+`docs/superpowers/specs/2026-11-17-resumo-diario-design.md`.
 
 **Painel:** https://rodrigokratzer.github.io/reforma-tributaria-monitor/
 
@@ -39,6 +44,13 @@ Cada fonte web é um objeto `Portal` (`scripts/portais/`). O texto completo
 de cada publicação (HTML, PDF, OCR) é lido por uma raia à parte, depois da coleta,
 para a análise diária ler o texto do repositório em vez de depender de busca
 externa — mesmo ganho que a Parte A trouxe para o DOU.
+
+**Notícias (RSS), antes da varredura web de cada ciclo:** `scripts/noticias.py`
+lê os feeds de economia de g1, Folha, Estadão, InfoMoney, Valor, CNN Brasil,
+Agência Brasil, Exame, UOL, Poder360, Agência Senado e Agência Câmara (só
+biblioteca padrão, sem IA, janela de 36 h). Cada notícia entra no histórico com
+`tipo: "noticia"`, título, linha fina (`ementa`) e link. Notícias não passam
+pela raia de leitura: a análise abre a matéria na web quando precisa.
 
 **DOU (via INLABS), primeira etapa de cada ciclo (05:00 e 17:00):** a edição
 completa do Diário Oficial, com orçamento de tempo próprio — não compete com
@@ -78,6 +90,7 @@ scripts/rodar_ciclo.sh        ciclo 05:00/17:00: DOU -> portais -> análise -> a
 scripts/rodar_analise.sh      análise de um turno (claude -p só escreve; valida e comita)
 scripts/fechar_analise.py     valida a análise, marca itens analisados, grava a triagem
 scripts/notificar.py          alerta do ciclo: push (ntfy) e e-mail (SMTP)
+scripts/noticias.py           coleta os feeds RSS de economia dos portais de notícia
 scripts/varredura.py          orquestra a coleta das 16 fontes web
 scripts/portais/              cada fonte web como objeto Portal — base.py tem a
                                mecânica de coleta e os pontos de extensão,
@@ -99,13 +112,17 @@ tests/                        unittest, stdlib — test_lacuna_analise.py,
                                test_portais_base.py (classe Portal),
                                test_portais_fontes.py (subclasses) e test_leitura_*.py
 estado.json                   camada curada: prazos, pendências, linha do tempo
-analises/AAAA-MM-DD-<turno>.md  análise de cada ciclo (matinal/noturna); as antigas
-                               AAAA-MM-DD.md continuam válidas (turno "única")
+                               (o painel mostra só os prazos)
+analises/AAAA-MM-DD-<turno>.md  análise da reforma de cada ciclo (matinal/noturna);
+                               as antigas AAAA-MM-DD.md continuam válidas (turno "única")
+analises/resumos/AAAA-MM-DD-<turno>.json  resumo do dia (Em 30 segundos + notícias)
 dados/                        gerado pelo robô — não editar à mão
   ├─ AAAA-MM-DD.json          instantâneo dos 16 portais web do dia
   ├─ AAAA-MM-DD-dou.json      instantâneo do DOU do dia (arquivo próprio)
   ├─ novidades.json           novidades da última varredura web
   ├─ novidades_dou.json       novidades da última coleta do DOU
+  ├─ AAAA-MM-DD-noticias.json instantâneo dos feeds de notícia (arquivo próprio)
+  ├─ novidades_noticias.json  novidades da última coleta de notícias
   ├─ historico.json           índice acumulado, compartilhado pelas duas coletas
   └─ analise_status.json      status da última execução da análise diária
 docs/index.html               o painel publicado — gerado, não editar à mão
@@ -199,11 +216,12 @@ A análise espera a leitura por até 3 dias antes de seguir com o que houver.
 
 ### Duas coletas por dia, arquivos separados — nunca mesclar na escrita
 
-O DOU e os 16 portais web rodam em horários e workflows diferentes, mas podem
+O DOU, os 16 portais web e os feeds de notícia rodam em horários e workflows diferentes, mas podem
 gravar no mesmo dia. A tentação óbvia seria fazer o segundo a rodar mesclar seu
 resultado no arquivo do primeiro. Não fazemos isso: cada coleta grava só o seu
-próprio arquivo (`AAAA-MM-DD.json` vs `AAAA-MM-DD-dou.json`, `novidades.json`
-vs `novidades_dou.json`). Mesclagem por leitura-modificação-escrita entre dois
+próprio arquivo (`AAAA-MM-DD.json`, `AAAA-MM-DD-dou.json` e
+`AAAA-MM-DD-noticias.json`; `novidades.json`, `novidades_dou.json` e
+`novidades_noticias.json`). Mesclagem por leitura-modificação-escrita entre dois
 workflows independentes é exatamente o tipo de corrida que já nos custou um bug
 (ver item abaixo, "`git pull --rebase` nunca fixo numa branch"). Arquivo
 separado elimina a classe inteira de problema — não existe "quem escreve por
@@ -296,11 +314,16 @@ qualidade).
 3. Com item novo: `claude -p` lê `scripts/analise_brief.md` (critério de
    relevância, estrutura, armadilhas conhecidas) e escreve só três arquivos —
    `analises/AAAA-MM-DD-<turno>.md` (sempre, mesmo sem novidade relevante),
-   `dados/analise_status.json` e `dados/triagem_pendente.json` (um veredito
-   `relevante`/`contexto`/`ruido` por item). Não faz git.
+   `dados/analise_status.json`, `dados/triagem_pendente.json` (um veredito
+   `relevante`/`contexto`/`ruido` por item) e o resumo do dia
+   `analises/resumos/AAAA-MM-DD-<turno>.json`. Pode abrir matérias (WebFetch) e,
+   se um assunto quente faltar nos feeds, buscar na web (`origem: "busca"`).
+   Não faz git.
 4. `scripts/fechar_analise.py` confere que a saída existe e é deste turno; só
    então marca os itens como analisados e incorpora a triagem em
-   `dados/triagem.json`. Se o Claude bateu em limite ou falhou, nada é marcado
+   `dados/triagem.json`. Notícia sem veredito é fechada como `ruido` ("não
+   selecionada para o resumo"). Resumo inválido ou ausente só gera aviso: o
+   painel cai para a análise `.md`. Se o Claude bateu em limite ou falhou, nada é marcado
    e os itens entram no ciclo seguinte.
 5. O wrapper regenera o painel, comita, empurra, e `scripts/notificar.py` manda
    o alerta (push via ntfy; e-mail via SMTP se configurado). Falha também
@@ -321,13 +344,14 @@ do tempo) em `dados/estado_proposta.json`. `scripts/atualizar_estado.py` valida
 painel mostra "atualizado em" e as últimas alterações, e o alerta do celular
 lista o que mudou. Proposta inválida é descartada sem derrubar a análise.
 
-**Histórico no painel.** Todas as análises ficam navegáveis por dia e turno
-(seletor na seção "Análises"; link direto `#analise=AAAA-MM-DD-turno`). O
-histórico de publicações mostra os últimos 3 dias e filtra por período, fonte,
-número/texto e veredito da triagem, lendo `docs/historico.json`.
+**Histórico no painel.** Todas as edições (resumo + análise da reforma) ficam
+navegáveis por dia e turno (seletor no topo; link direto `#AAAA-MM-DD-turno`; o
+antigo `#analise=...` continua valendo). "Todas as notícias e publicações"
+mostra os últimos 3 dias e filtra por período, tipo (notícia ou publicação
+oficial), fonte, número/texto e veredito da triagem, lendo `docs/historico.json`.
+O painel não mostra mais a linha do tempo nem o placar de pendências.
 
-**Status sempre visível, mesmo sem novidade.** O painel mostra uma faixa fixa
-no topo (`dados/analise_status.json` → `scripts/painel_template.html`) com a
+**Status visível quando algo está errado.** O painel mostra uma faixa no topo (`dados/analise_status.json` → `scripts/painel_template.html`) com a
 última checagem da análise, para quem só olha o painel — não recebe a
 notificação — saber que a rotina rodou. Fica vermelha sozinha se passar mais de um dia sem
 atualização, sinal de que algo quebrou na automação.

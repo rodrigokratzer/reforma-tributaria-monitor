@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
 Monta docs/index.html e docs/historico.json a partir de:
-  estado.json                camada curada (prazos, pendencias, linha do tempo)
+  estado.json                camada curada (so' os prazos em destaque vao ao painel)
   dados/AAAA-MM-DD.json      status das fontes na ultima varredura
   dados/AAAA-MM-DD-dou.json  status do DOU (workflow proprio) (opcional)
-  dados/novidades.json       o que apareceu pela primeira vez (16 portais)
-  dados/novidades_dou.json   o que apareceu pela primeira vez (DOU) (opcional)
+  dados/AAAA-MM-DD-noticias.json  status dos feeds de noticias (opcional)
+  dados/novidades.json       so' a data de referencia da ultima varredura
   dados/historico.json       indice acumulado
   dados/triagem.json         veredito da IA por item (opcional)
   dados/analise_status.json  ultima checagem da analise (opcional)
   analises/*.md              analises escritas pelo Claude, uma por dia/turno (opcional)
+  analises/resumos/*.json    resumo estruturado de cada edicao (opcional; invalido e' ignorado)
 
 A analise e' opcional por design: o painel precisa ficar em pe' sozinho,
 so' com os fatos, mesmo em dia que nenhuma analise foi publicada.
@@ -18,11 +19,10 @@ O painel embute so' os ultimos 3 dias do historico; o historico completo vai
 para docs/historico.json e e' lido sob demanda (fetch) quando o filtro de data
 recua. Assim o index.html nao cresce sem limite com o tempo.
 """
-import json, re, datetime, re, sys
+import json, re, datetime, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from portais.base import chave as chave_item
 
 RAIZ = Path(__file__).resolve().parent.parent
 DADOS, ANALISES, DOCS = RAIZ / "dados", RAIZ / "analises", RAIZ / "docs"
@@ -99,26 +99,92 @@ def _br(data):
     return f"{d}/{m}/{a}"
 
 
-def lista_analises(pasta):
-    """Todas as analises validas, da mais recente para a mais antiga
-    (data desc; no mesmo dia noturna > matinal > unica)."""
+TEMAS = ("empreendedor", "pessoas", "reforma")
+CAMPOS_NOTICIA = ("chave", "tema", "titulo", "fonte", "url", "publicado_em", "linha",
+                  "trecho", "por_que_importa", "ideia_post", "origem")
+
+
+def _txt(v):
+    return v.strip() if isinstance(v, str) else ""
+
+
+def valida_resumo(obj):
+    """Resumo estruturado (analises/resumos/<stem>.json) -> dict limpo, ou None.
+
+    Checagem minima e tolerante: precisa ser dict com `em_30_segundos` e
+    `noticias` listas. Noticia sem titulo, sem URL http(s) ou com tema fora de
+    TEMAS e' descartada; o resto do resumo continua valendo.
+    """
+    if not isinstance(obj, dict):
+        return None
+    bullets, noticias = obj.get("em_30_segundos"), obj.get("noticias")
+    if not isinstance(bullets, list) or not isinstance(noticias, list):
+        return None
+    limpas = []
+    for n in noticias:
+        if not isinstance(n, dict):
+            continue
+        titulo, url, tema = _txt(n.get("titulo")), _txt(n.get("url")), _txt(n.get("tema"))
+        if not titulo or not re.match(r"^https?://", url, re.I) or tema not in TEMAS:
+            continue
+        nova = {c: _txt(n.get(c)) for c in CAMPOS_NOTICIA}
+        nova.update(titulo=titulo, url=url, tema=tema)
+        limpas.append({c: v for c, v in nova.items() if v})
+    lidas = obj.get("lidas")
+    return {
+        "manchete": _txt(obj.get("manchete")),
+        "em_30_segundos": [b.strip() for b in bullets if isinstance(b, str) and b.strip()],
+        "noticias": limpas,
+        "lidas": lidas if isinstance(lidas, int) and not isinstance(lidas, bool) and lidas >= 0 else None,
+    }
+
+
+def lista_resumos(pasta):
+    """{stem: resumo valido} de analises/resumos/*.json. Nunca levanta."""
     pasta = Path(pasta)
     if not pasta.is_dir():
-        return []
-    out = []
-    for p in pasta.glob("*.md"):
-        ident = id_analise(p.stem)
-        if not ident:
+        return {}
+    out = {}
+    for p in pasta.glob("*.json"):
+        if not id_analise(p.stem):
             continue
-        data, turno = ident
-        md = p.read_text("utf-8")
+        r = valida_resumo(ler_json(p, None))
+        if r is None:
+            print(f"aviso: resumo invalido ignorado: {p.name}", file=sys.stderr)
+            continue
+        out[p.stem] = r
+    return out
+
+
+def lista_analises(pasta, pasta_resumos=None):
+    """Todas as edicoes validas, da mais recente para a mais antiga
+    (data desc; no mesmo dia noturna > matinal > unica).
+
+    Uma edicao existe se houver a analise .md, o resumo .json, ou os dois.
+    `resumo_estruturado` e' o resumo validado (ou None)."""
+    pasta = Path(pasta)
+    resumos = lista_resumos(pasta_resumos if pasta_resumos is not None else pasta / "resumos")
+    mds = {}
+    if pasta.is_dir():
+        for p in pasta.glob("*.md"):
+            if id_analise(p.stem):
+                try:
+                    mds[p.stem] = p.read_text("utf-8")
+                except OSError:
+                    continue
+    out = []
+    for stem in set(mds) | set(resumos):
+        data, turno = id_analise(stem)
+        md = mds.get(stem)
+        res = resumos.get(stem)
         out.append({
-            "id": p.stem,
+            "id": stem,
             "data": data,
             "turno": turno,
             "rotulo": _br(data) + ("" if turno == "unica" else f" · {turno}"),
-            "resumo": _resumo(md),
-            "html": md_para_html(md),
+            "resumo": _resumo(md) if md else (res["manchete"] if res else ""),
+            "html": md_para_html(md) if md else "",
+            "resumo_estruturado": res,
         })
     out.sort(key=lambda a: (a["data"], ORDEM_TURNO[a["turno"]]), reverse=True)
     return out
@@ -148,29 +214,48 @@ def ultimos_dias(itens, n=DIAS_EMBUTIDOS):
     return [i for i in itens if i.get("primeira_vez") in alvo]
 
 
-def ultimas_mudancas(hist, n=12):
+def ultimas_mudancas(hist, n=12, secao=None):
     """Ultimas alteracoes da camada curada (dados/estado_mudancas.json, mais
-    recente primeiro), para o painel mostrar o que mudou e quando."""
+    recente primeiro), para o painel mostrar o que mudou e quando. `secao`
+    restringe a uma secao (o painel so' mostra os prazos)."""
     if not isinstance(hist, list):
         return []
-    return [m for m in hist if isinstance(m, dict) and m.get("descricao")][:n]
+    return [m for m in hist if isinstance(m, dict) and m.get("descricao")
+            and (secao is None or m.get("secao") == secao)][:n]
+
+
+def grupo_fonte(arquivo):
+    return {"": "web", "-dou": "dou", "-noticias": "noticias"}[arquivo]
+
+
+def conta_tipos(itens):
+    """Faceta do filtro Tipo: quantos itens sao noticia e quantos publicacao oficial."""
+    n = sum(1 for i in itens if i.get("tipo") == "noticia")
+    return {"noticia": n, "publicacao": len(itens) - n}
 
 
 def main():
     DOCS.mkdir(parents=True, exist_ok=True)
     estado = ler_json(RAIZ / "estado.json", {})
+    if not isinstance(estado, dict):
+        estado = {}
 
-    novid = ler_json(DADOS / "novidades.json", {"itens": [], "data": None})
+    novid = ler_json(DADOS / "novidades.json", {})
+    if not isinstance(novid, dict):
+        novid = {}
     data_ref = novid.get("data") or datetime.date.today().isoformat()
     status_diario = ler_json(DADOS / "analise_status.json", None)
 
-    dia = ler_json(DADOS / f"{data_ref}.json", {"fontes": []})
-    dia_dou = ler_json(DADOS / f"{data_ref}-dou.json", {"fontes": []})
-    fontes = [{"fonte": f["fonte"], "url": f["url"],
-               "erro": f.get("erro"), "total": f.get("total", 0)}
-              for f in dia.get("fontes", []) + dia_dou.get("fontes", [])]
+    fontes = []
+    for sufixo in ("", "-dou", "-noticias"):
+        dia = ler_json(DADOS / f"{data_ref}{sufixo}.json", {})
+        lista = dia.get("fontes") if isinstance(dia, dict) else None
+        for f in lista if isinstance(lista, list) else []:
+            if isinstance(f, dict) and f.get("fonte"):
+                fontes.append({"fonte": f["fonte"], "url": f.get("url"),
+                               "erro": f.get("erro"), "total": f.get("total", 0),
+                               "grupo": grupo_fonte(sufixo)})
 
-    novid_dou = ler_json(DADOS / "novidades_dou.json", {"itens": []})
     triagem = ler_json(DADOS / "triagem.json", {})
     if not isinstance(triagem, dict):
         triagem = {}
@@ -180,17 +265,6 @@ def main():
         hist_bruto = {}
     historico = ordena_desc(anexa_triagem(hist_bruto, triagem))
 
-    # As novidades nao trazem a chave; casa pelo historico (url+titulo) e so'
-    # recalcula o hash se o item por acaso nao estiver la'.
-    por_url_tit = {(h.get("url"), h.get("titulo")): h["chave"] for h in historico}
-    novidades = []
-    for it in novid.get("itens", []) + novid_dou.get("itens", []):
-        novo = _sem_texto(it)
-        k = por_url_tit.get((it.get("url"), it.get("titulo"))) or chave_item(it)
-        novo["chave"] = k
-        novo["triagem"] = triagem.get(k)
-        novidades.append(novo)
-
     analises = lista_analises(ANALISES)
     inicios = [h["primeira_vez"] for h in historico if h.get("primeira_vez")]
 
@@ -199,19 +273,18 @@ def main():
         "gerado_em": datetime.datetime.now(datetime.timezone.utc)
                      .strftime("%Y-%m-%d %H:%M UTC"),
         "prazos_destaque": estado.get("prazos_destaque", []),
-        "pendencias": estado.get("pendencias", []),
-        "linha_do_tempo": estado.get("linha_do_tempo", []),
-        "novidades": novidades,
         "fontes": fontes,
         "historico_recente": ultimos_dias(historico),
         "historico_total": len(historico),
         "historico_inicio": min(inicios) if inicios else None,
         # "DOU DO1 (revisar)" e' nome antigo da mesma fonte: o filtro agrupa
         "fontes_historico": sorted({fonte_base(h["fonte"]) for h in historico if h.get("fonte")}),
+        "tipos_historico": conta_tipos(historico),
         "analises": analises,
         "status_diario": status_diario,
         "estado_atualizado_em": estado.get("atualizado_em"),
-        "estado_mudancas": ultimas_mudancas(ler_json(DADOS / "estado_mudancas.json", [])),
+        "estado_mudancas": ultimas_mudancas(ler_json(DADOS / "estado_mudancas.json", []),
+                                            n=8, secao="prazos_destaque"),
     }
 
     tpl = TEMPLATE.read_text("utf-8")
@@ -225,8 +298,9 @@ def main():
     (DOCS / "historico.json").write_text(
         json.dumps(historico, ensure_ascii=False, separators=(",", ":")), "utf-8")
     (DOCS / ".nojekyll").write_text("", "utf-8")
-    print(f"docs/index.html gerado — {len(novidades)} novidade(s), "
-          f"{len(fontes)} fonte(s), {len(analises)} analise(s), "
+    print(f"docs/index.html gerado — "
+          f"{len(fontes)} fonte(s), {len(analises)} edicao(oes) "
+          f"({sum(1 for a in analises if a['resumo_estruturado'])} com resumo), "
           f"{len(payload['historico_recente'])}/{len(historico)} itens de historico embutidos")
 
 

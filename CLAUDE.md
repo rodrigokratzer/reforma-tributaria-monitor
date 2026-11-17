@@ -4,9 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A daily monitor for the Brazilian consumption tax reform (EC 132/2023, LC 214/2025,
-LC 227/2026). It scrapes official sources, publishes a public dashboard via GitHub
-Pages, and has a scheduled Claude agent write a daily analysis. See `README.md`
+A twice-daily summary ("Resumo do dia") for Rodrigo and Carolina Loth to stay
+updated and find post ideas: money news for small-business owners and ordinary
+people (RSS feeds of the main Brazilian news portals) plus the Brazilian
+consumption tax reform (EC 132/2023, LC 214/2025, LC 227/2026, official sources).
+It publishes a dashboard via GitHub Pages, and a scheduled Claude agent writes
+the analysis and the structured summary. Design:
+`docs/superpowers/specs/2026-11-17-resumo-diario-design.md`. See `README.md`
 for the full picture — this file focuses on what's needed to work in the code.
 
 ## Commands
@@ -32,6 +36,7 @@ python3 -m unittest tests.test_lacuna_analise.TestLacuna.test_lacuna_de_varios_d
 
 Run the pieces manually (each is a standalone script, no CLI framework):
 ```bash
+python3 scripts/noticias.py        # news RSS feeds (stdlib only); items get tipo="noticia"
 python3 scripts/varredura.py       # scrapes the 16 web sources; needs playwright
 python3 scripts/dou_diario.py [--dias AAAA-MM-DD ...]   # scrapes the DOU (INLABS, falling back to in.gov.br Leitura do Jornal); INLABS_EMAIL/INLABS_SENHA optional; --dias = backfill; stdlib only
 python3 scripts/gerar_painel.py    # rebuilds docs/index.html from dados/ + analises/ + estado.json
@@ -49,7 +54,10 @@ No linter or formatter is configured.
 
 **Three deliberately separate layers**, connected only through git:
 
-- **Fatos** (facts) — `scripts/varredura.py` (16 web sources, via the
+- **Fatos** (facts) — `scripts/noticias.py` (news RSS feeds; writes
+  `dados/AAAA-MM-DD-noticias.json` + `dados/novidades_noticias.json`, items with
+  `tipo: "noticia"`, never read by the reading lane nor held as
+  `aguardando_leitura`), `scripts/varredura.py` (16 web sources, via the
   `scripts/portais/` package) and `scripts/dou_diario.py` (DOU: INLABS, with the in.gov.br Leitura do Jornal in `scripts/dou_site.py` as fallback) run on
   their own GitHub Actions schedules, write JSON, and never interpret anything.
   No AI, no judgment calls.
@@ -65,7 +73,10 @@ No linter or formatter is configured.
   local machine (subscription, no per-token API cost), twice a day: turno `matinal`
   (05:00) and `noturna` (17:00). It reads `scripts/analise_brief.md` and writes only
   files — `analises/AAAA-MM-DD-<turno>.md`, `dados/analise_status.json`,
-  `dados/triagem_pendente.json`; it never runs git. `scripts/fechar_analise.py`
+  `dados/triagem_pendente.json`, and the structured summary
+  `analises/resumos/AAAA-MM-DD-<turno>.json` (em_30_segundos + noticias; may use
+  WebFetch/WebSearch); it never runs git. News without a verdict are closed as
+  `ruido`; a missing/invalid summary only warns (`fechar_analise.valida_resumo`). `scripts/fechar_analise.py`
   validates them and only then marks items as analyzed (`dados/analisados.json`)
   and merges the per-item verdicts into `dados/triagem.json`. When a publication
   changes a deadline, pending item or milestone, the analysis also writes
@@ -80,14 +91,15 @@ No linter or formatter is configured.
 1. `scripts/rodar_ciclo.sh` (systemd `reforma-ciclo.timer`, 05:00 and 17:00 BRT)
    runs `scripts/dou_diario.py` (DOU), then `scripts/rodar_varredura.sh`, then the
    analysis, then `scripts/notificar.py` (ntfy push + optional SMTP email).
-   `rodar_varredura.sh` runs `scripts/varredura.py` (web sources) and publishes the
+   `rodar_varredura.sh` runs `scripts/noticias.py` (failure only warns), then `scripts/varredura.py` (web sources) and publishes the
    collection, then runs `scripts/ler_textos.py` (full-text reading lane) and publishes
    again. Publishing twice keeps the long reading lane from racing the Actions
    fallback. If only the reading lane fails, the script still publishes everything and
    exits 3, which the cycle reports as "leitura de textos".
    Both collectors call the shared `grava_resultado()` in `scripts/varredura.py`,
    which stamps new history items with `visto_em` (UTC).
-2. **The two collectors never write the same file.** Web writes
+2. **The collectors never write the same file.** News writes
+   `dados/AAAA-MM-DD-noticias.json` + `dados/novidades_noticias.json`. Web writes
    `dados/AAAA-MM-DD.json` + `dados/novidades.json`; DOU writes
    `dados/AAAA-MM-DD-dou.json` + `dados/novidades_dou.json`. This is deliberate —
    merge-on-write between two independently-scheduled workflows is a race condition
@@ -102,10 +114,11 @@ No linter or formatter is configured.
    (`aguardando_leitura` in the lacuna) for up to 3 days, then goes to the analysis with
    whatever text exists. Analysis file stems: `AAAA-MM-DD` (legacy, turno `unica`),
    `AAAA-MM-DD-matinal`, `AAAA-MM-DD-noturna`.
-5. `scripts/gerar_painel.py` reads `estado.json`, both pairs of per-day/novidades
-   files, `dados/historico.json`, `dados/triagem.json`, `dados/analise_status.json`,
-   and `analises/*.md`, embeds one JSON payload (all analyses + last 3 days of
-   publications) into `scripts/painel_template.html`, and writes `docs/index.html`
+5. `scripts/gerar_painel.py` reads `estado.json` (only `prazos_destaque` is shown;
+   timeline and pendências are no longer displayed), the per-day source files,
+   `dados/historico.json`, `dados/triagem.json`, `dados/analise_status.json`,
+   `analises/*.md` and `analises/resumos/*.json`, embeds one JSON payload (all
+   editions, each with its `resumo_estruturado` + last 3 days of history) into `scripts/painel_template.html`, and writes `docs/index.html`
    plus `docs/historico.json` (full history, fetched by the panel's period filter;
    both published via GitHub Pages, `/docs` on `main`).
 6. `docs/index.html`, everything under `dados/`, and `dados/analise_status.json` are

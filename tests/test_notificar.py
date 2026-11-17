@@ -409,3 +409,56 @@ class TestAlertaComFalhas(unittest.TestCase):
             self.assertEqual(corpo["priority"], 4)
             self.assertIn("warning", corpo["tags"])
             self.assertIn("DOU (INLABS)", corpo["message"])
+
+
+RESUMO = {"data": "2026-09-30", "turno": "matinal",
+          "manchete": "Conta de luz sobe e Simples ganha prazo",
+          "em_30_segundos": ["Bandeira vermelha em outubro", "Prazo do Simples prorrogado",
+                             "Terceira linha fica fora do push"],
+          "noticias": [{"tema": "pessoas", "titulo": "T", "url": "https://x", "linha": "L"}],
+          "lidas": 10}
+
+
+class TestResumoNoAlerta(unittest.TestCase):
+    def test_abertura_usa_manchete_e_duas_linhas(self):
+        msg = nt.monta_mensagem(STATUS_ACAO, MD, PAINEL, resumo=RESUMO)
+        self.assertTrue(msg["corpo"].startswith(
+            "Conta de luz sobe e Simples ganha prazo\n- Bandeira vermelha em outubro\n"
+            "- Prazo do Simples prorrogado"))
+        self.assertNotIn("Terceira linha", msg["corpo"])
+        self.assertNotIn("16 novidades, 2 exigem ação", msg["corpo"])
+        # prioridade continua pelas acoes da reforma
+        self.assertEqual(msg["prioridade"], "high")
+        self.assertIn("2 exigem ação", msg["titulo"])
+        self.assertIn("Prazo de opção pelo Simples prorrogado", msg["corpo"])
+        # e-mail: manchete e todas as linhas antes da analise
+        self.assertTrue(msg["md"].startswith("**Conta de luz sobe"))
+        self.assertIn("Terceira linha", msg["md"])
+        self.assertIn(MD, msg["md"])
+
+    def test_sem_resumo_mensagem_identica(self):
+        self.assertEqual(nt.monta_mensagem(STATUS_ACAO, MD, PAINEL),
+                         nt.monta_mensagem(STATUS_ACAO, MD, PAINEL, resumo=None))
+
+    def _main(self, raiz):
+        with mock.patch("urllib.request.urlopen") as urlopen:
+            urlopen.return_value.__enter__.return_value.status = 200
+            nt.main([], raiz=raiz, env=ENV_NTFY)
+        return json.loads(urlopen.call_args[0][0].data.decode("utf-8"))["message"]
+
+    def test_main_le_resumo_valido(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            escreve(raiz, "dados/analise_status.json", STATUS_ACAO)
+            escreve(raiz, "analises/2026-09-30-matinal.md", MD)
+            escreve(raiz, "analises/resumos/2026-09-30-matinal.json", RESUMO)
+            self.assertTrue(self._main(raiz).startswith("Conta de luz sobe"))
+
+    def test_main_resumo_invalido_ou_de_outro_turno_usa_status(self):
+        for resumo in (dict(RESUMO, turno="noturna"), dict(RESUMO, em_30_segundos=[]),
+                       "{quebrado"):
+            with self.subTest(resumo=str(resumo)[:40]), tempfile.TemporaryDirectory() as tmp:
+                raiz = Path(tmp)
+                escreve(raiz, "dados/analise_status.json", STATUS_ACAO)
+                escreve(raiz, "analises/resumos/2026-09-30-matinal.json", resumo)
+                self.assertTrue(self._main(raiz).startswith("16 novidades, 2 exigem ação"))

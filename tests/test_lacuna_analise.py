@@ -256,6 +256,20 @@ class TestTextoNaLacuna(unittest.TestCase):
         it = la.lacuna(self.raiz, "2026-10-01")["itens"][0]
         self.assertEqual(it["leitura"]["anexos_falhos"][0]["url"], "a.pdf")
 
+    def test_noticia_sem_texto_nunca_aguarda_e_entra_na_lacuna(self):
+        self._hist({"k1": self._it(fonte="g1 Economia", tipo="noticia", ementa="linha fina")}, {})
+        lac = la.lacuna(self.raiz, "2026-10-01")
+        self.assertEqual([i["chave"] for i in lac["itens"]], ["k1"])
+        self.assertEqual(lac["itens"][0]["tipo"], "noticia")
+        self.assertEqual(lac["aguardando_leitura"], [])
+
+    def test_publicacao_oficial_do_mesmo_dia_continua_aguardando(self):
+        self._hist({"k1": self._it(fonte="g1 Economia", tipo="noticia"),
+                    "k2": self._it()}, {})
+        lac = la.lacuna(self.raiz, "2026-10-01")
+        self.assertEqual([i["chave"] for i in lac["itens"]], ["k1"])
+        self.assertEqual([i["chave"] for i in lac["aguardando_leitura"]], ["k2"])
+
 
 if __name__ == "__main__":
     unittest.main()
