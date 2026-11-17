@@ -1,0 +1,1317 @@
+PORTARIA RFB Nº 745, DE 28 DE OUTUBRO DE 2026
+Dispõe sobre a transparência ativa de informações relativas a incentivo, renúncia, benefício ou imunidade de natureza tributária cujo beneficiário seja pessoa jurídica e institui a Subcomissão Executiva de Transparência Ativa de Benefícios Fiscais.
+O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o art. 350, caput, inciso III, do Regimento Interno da Secretaria Especial da Receita Federal do Brasil, aprovado pela Portaria ME nº 284, de 27 de julho de 2020, e tendo em vista o disposto no art. 198, § 3º, inciso IV, da Lei nº 5.172, de 25 de outubro de 1966 - Código Tributário Nacional, nos arts. 43 e 44 da Lei nº 14.973, de 16 de setembro de 2024, no art. 167 da Lei nº 15.321, de 31 de dezembro de 2025, e na Portaria RFB nº 744, de 28 de outubro de 2026,resolve:
+Art. 1º Esta Portaria dispõe sobre a transparência ativa das informações relativas a incentivo, renúncia, benefício ou imunidade de natureza tributária cujo beneficiário seja pessoa jurídica, no âmbito da Secretaria Especial da Receita Federal do Brasil.
+§ 1º A transparência ativa a que se refere o caput consiste na divulgação das informações na forma prevista no Anexo I, que abrange aquelas constantes:
+I - dos Anexos II a VII, de acordo com os critérios neles estabelecidos; e
+II - do Anexo Único da Instrução Normativa RFB nº 2.198, de 17 de junho de 2024.
+§ 2º As informações prestadas por meio da Declaração de Incentivos, Renúncias, Benefícios e Imunidades de Natureza Tributária - Dirbi, estabelecida pela Instrução Normativa RFB nº 2.198, de 17 de junho de 2024, prevalecerão sobre aquelas obtidas de outras fontes de dados, ressalvados os tributos relacionados ao comércio exterior.
+Art. 2º As informações de que trata esta Portaria:
+I - serão atualizadas, no máximo, semestralmente, exceto quando o período de apuração do incentivo, renúncia, benefício ou imunidade de natureza tributária for superior a seis meses e ainda não estiver encerrado;
+II - serão corrigidas, quando incompletas, inexatas ou desatualizadas, mediante requisição de seu titular nos termos do art. 3º;
+III - compreenderão o ano-calendário de 2015 e os subsequentes; e
+IV - serão divulgadas em conformidade com as normas de governança de dados e a Política de Transparência Ativa, de que trata a Portaria RFB nº 744, de 28 de outubro de 2026.
+Parágrafo único. A apuração e a correção das informações de que trata esta Portaria competem às unidades indicadas no Anexo VIII.
+Art. 3º Fica instituída a Subcomissão Executiva de Transparência Ativa de Benefícios Fiscais, que integra a estrutura de governança da Comissão Executiva de Transparência Ativa, de que tratam os arts. 7 a 10 da Portaria RFB nº 744, de 28 de outubro de 2026.
+Parágrafo único. Compete à Subcomissão Executiva de Transparência Ativa de Benefícios Fiscais:
+I - reavaliar, pelo menos uma vez a cada seis meses, o escopo das informações objeto da transparência ativa de que trata esta Portaria, com vistas à sua ampliação gradual, observadas a capacidade operacional e as disponibilidades orçamentária e financeira da Secretaria Especial da Receita Federal do Brasil;
+II - coordenar as ações necessárias para a atualização das informações a que se refere o art. 2º, caput, inciso I;
+III - tratar as demandas relacionadas à correção de dados eventualmente incompletos, inexatos ou desatualizados e ao aprimoramento das informações divulgadas; e
+IV - solicitar às unidades da Secretaria Especial da Receita Federal do Brasil os documentos e o apoio técnico necessários ao exercício de suas atribuições.
+Art. 4º A Subcomissão Executiva de Transparência Ativa de Benefícios Fiscais será composta por dois representantes, um titular e um suplente, das seguintes unidades da Secretaria Especial da Receita Federal do Brasil:
+I - Gabinete - Gabin;
+II - Ouvidoria - Ouvid;
+III - Coordenação-Geral de Auditoria Interna e Gestão de Riscos - Audit;
+IV - Centro de Estudos Tributários e Aduaneiros - Cetad;
+V - Coordenação-Geral de Gestão de Cadastros e Benefícios Fiscais - Cocad;
+VI - Coordenação-Geral de Tributação - Cosit;
+VII - Coordenação-Geral de Fiscalização - Cofis;
+VIII - Coordenação-Geral de Programação e Estudos - Copes;
+IX - Coordenação-Geral de Administração Aduaneira - Coana;
+X - Coordenação-Geral de Tecnologia e Segurança da Informação - Cotec; e
+XI - Superintendência Regional da Receita Federal da 8ª Região Fiscal - SRRF08.
+§ 1º A coordenação da Subcomissão será exercida pelo representante titular do Gabinete e, em seus impedimentos e afastamentos legais, pelo respectivo substituto.
+§ 2º Os representantes titulares e suplentes da Subcomissão, inclusive o coordenador e seu substituto, serão designados pelo Secretário Especial Adjunto da Receita Federal do Brasil.
+Art. 5º A Subcomissão Executiva de Transparência Ativa de Benefícios Fiscais reunir-se-á:
+I - de forma ordinária, com periodicidade mensal; e
+II - de forma extraordinária, sempre que convocada por seu coordenador.
+Art. 6º Esta Portaria entra em vigor na data de sua publicação no Diário Oficial da União.
+ROBINSON SAKIYAMA BARREIRINHAS
+ANEXO I
+Informações disponibilizadas relativas a incentivo, renúncia, benefício ou imunidade - IRBI de natureza tributária cujo beneficiário seja pessoa jurídica:
+IRBI
+Descrição da informação
+Informações disponibilizadas
+Anexo II
+IRBI declarados na ECF
+a) CNPJ
+b) Razão Social
+c) CNAE
+d) Valor declarado na ECF relativo ao IRBI
+Anexo III
+Receita desonerada dos IRBI declarados na EFD-Contribuições
+a) CNPJ
+b) Razão Social
+c) CNAE
+d) Receita desonerada declarada na EFD-Contribuições relativo ao IRBI
+Anexo IV
+Relação de beneficiários imunes ou isentos
+a) CNPJ
+b) Razão Social
+c) CNAE
+Anexo V
+IRBI relativos a Contribuição para o PIS/Pasep-Importação e a Cofins-Importação
+a) CNPJ
+b) Razão Social
+c) CNAE
+d) Valor dos IRBI
+Anexo VI
+IRBI relativos a II e IPI-Importação
+a) CNPJ
+b) Razão Social
+c) CNAE
+d) Valor dos IRBI
+Anexo VII
+IRBI decorrentes de benefícios fiscais e regimes especiais de tributação
+a) CNPJ
+b) Razão Social
+c) CNAE
+d) Município e Unidade da Federação da matriz
+e) Data inicial da fruição do benefício
+f) Data final da fruição do benefício
+Dirbi
+Benefícios tributários constantes do Anexo Único da Instrução Normativa RFB nº 2.198, de 17 de junho de 2024
+a) CNPJ
+b) Razão Social
+c) Município
+d) Unidade da Federação da matriz
+e) CNAE
+f) Mês
+g) Ano
+h) Código do Benefício
+i) Tributo
+j) Valor dos IRBI
+Siglas:
+Cadastro Nacional da Pessoa Jurídica - CNPJ
+Atividade Econômica, conforme a Classificação Nacional de Atividades Econômicas - CNAE
+Escrituração Contábil Fiscal - ECF
+Escrituração Fiscal Digital da Contribuição Previdenciária sobre a Receita - EFD-Contribuições
+Contribuição para o Programas de Integração Social e de Formação do Patrimônio do Servidor Público incidente sobre a importação - Contribuição para o PIS/Pasep-Importação
+Contribuição para o Financiamento da Seguridade Social incidente sobre a importação de bens e serviços - Cofins-Importação
+Imposto de Importação - II
+Imposto sobre Produtos Industrializados vinculados à importação - IPI-Importação
+ANEXO II
+Incentivo, renúncia, benefício ou imunidade - IRBI de natureza tributária cujo beneficiário seja pessoa jurídica - declarados na Escrituração Contábil Fiscal - ECF do contribuinte
+IRBI
+Base legal
+Descrição
+Fonte
+Tributo
+Tipo de IRBI
+Atividade Audiovisual - Dedução do Imposto sobre a Renda
+Lei nº 8.685, de 20 de julho de 1993, arts. 1º e 1º-A;
+Deduções, do imposto sobre a renda, dos valores relativos aos incentivos à atividade audiovisual e à atividade cultural que não excedam a 4% (quatro por cento) do imposto devido.
+ECF - N630A, Linha 10;
+IRPJ
+Dedução na apuração do IRPJ.
+Lei nº 9.323, de 5 de dezembro de 1996, art. 1º;
+ECF - N630B, Linha 9;
+Lei nº 9.532, de 10 de dezembro de 1997, arts. 5º e 6º;
+ECF - N630C, Linha 9.
+Lei nº 11.437, de 28 de dezembro de 2006, arts. 7º, 8º e 9º;
+Lei nº 12.375, de 30 de dezembro de 2010, arts. 12 e 13;
+Medida Provisória nº 2.228-1, de 6 de setembro de 2001.
+Empresa Cidadã
+Lei nº 11.770, de 9 de setembro de 2008.
+Dedução, do imposto devido, do total da remuneração integral paga a empregados, durante os sessenta dias de prorrogação da licença maternidade ou quinze dias de prorrogação da licença paternidade.
+ECF - N630A, Linha 16;
+IRPJ
+Dedução no cálculo do IRPJ e da CSLL.
+ECF - N630B, Linha 15;
+ECF - N630C, Linha 15.
+Finam - Fundo de Investimentos da Amazônia
+Lei nº 8.167, de 16 de janeiro de 1991, art. 9º;
+Aplicação de pessoas jurídicas ou grupos de empresas coligadas de que trata o art. 9º da Lei nº 8.167, de 16 de janeiro de 1991, alterado pela Medida Provisória nº 2.199-14, de 24 de agosto de 2001, titulares de empreendimento de setor da economia considerado, em ato do Poder Executivo, prioritário para o desenvolvimento regional, aprovado ou protocolizado até 2 de maio de 2001 nas áreas da Sudam e da Sudene.
+ECF - N615, 3.
+IRPJ
+Aplicação em incentivos fiscais.
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 4º;
+Medida Provisória nº 2.156-5, de 24 de agosto de 2001, art. 32, caput, inciso XVIII;
+Medida Provisória nº 2.157-5, de 24 de agosto de 2001, art. 32, caput, inciso IV;
+Lei nº 9.532, de 10 de dezembro de 1997, art. 4º, § 1º;
+Lei nº 12.995, de 18 de junho de 2014, arts. 1º e 2º.
+Finor - Fundo de Investimentos do Nordeste
+Lei nº 8.167, de 16 de janeiro de 1991, art. 9º;
+Aplicação de pessoas jurídicas ou grupos de empresas coligadas de que trata o art. 9º da Lei nº 8.167, de 16 de janeiro de 1991, alterado pela Medida Provisória nº 2.199-14, de 24 de agosto de 2001, titulares de empreendimento de setor da economia considerado, em ato do Poder Executivo, prioritário para o desenvolvimento regional, aprovado ou protocolizado até 2 de maio de 2001 nas áreas da Sudam e da Sudene
+ECF - N615, 2.
+IRPJ
+Aplicação em incentivos fiscais.
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 4º;
+Medida Provisória nº 2.156-5, de 24 de agosto de 2001, art. 32, caput, inciso XVIII;
+Medida Provisória nº 2.157-5, de 24 de agosto de 2001, art. 32, caput, inciso IV;
+Lei nº 9.532, de 10 de dezembro de 1997, art. 4º, § 1º;
+Lei nº 12.995, de 18 de junho de 2014, arts. 1º e 2º.
+Fundos dos Direitos da Criança e do Adolescente
+Lei nº 8.069, de 13 de julho de 1990, art. 260;
+Dedução, do imposto sobre a renda devido em cada período de apuração, das doações efetuadas aos Fundos dos Direitos da Criança e do Adolescente nacional, distrital, estaduais ou municipais, devidamente comprovados, observados os limites legais.
+ECF - N630A, Linha 11;
+IRPJ
+Dedução na apuração do IRPJ.
+Lei nº 12.594, de 18 de janeiro de 2012, art. 87.
+ECF -- N630B, Linha 10;
+ECF - N630C, Linha 10.
+Fundos do Idoso
+Lei nº 12.213, de 20 de janeiro de 2010;
+Dedução, do IRPJ devido em cada período de apuração, do total das doações feitas ao Fundo Nacional do Idoso, devidamente comprovadas, vedada a dedução como despesa operacional.
+ECF - N630A, Linha 12;
+IRPJ
+Dedução na apuração do IRPJ.
+Lei nº 12.594, de 18 de janeiro de 2012, art. 88.
+ECF - N630B, Linha 11;
+ECF - N630C, Linha 11.
+Horário Eleitoral
+Lei nº 9.096, de 19 de setembro de 1995; art. 50-E; Lei nº 9.504, de 30 de setembro de 1997, Art. 99
+As emissoras de rádio e televisão obrigadas à divulgação gratuita de propaganda partidária e eleitoral, de plebiscitos e de referendos poderão efetuar a compensação fiscal pela cedência do horário gratuito.
+ECF- M300A, 132.
+IRPJ
+Dedução no LALUR.
+Incentivo ao Desporto
+Lei nº 11.438, de 29 de dezembro de 2006;
+Dedução, do imposto devido pela pessoa jurídica tributada com base no lucro real, dos valores despendidos a título de patrocínio ou doação, no apoio direto a projetos desportivos e paradesportivos previamente aprovados pelo Ministério do Esporte.
+ECF - N630, Linha 13;
+IRPJ-
+Dedução na apuração do IRPJ.
+Lei nº 13.155, de 4 de agosto de 2015, art. 43.
+ECF - N630B, Linha 12;
+ECF - N630C, Linha 12.
+Padis - Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores
+Lei nº 11.484, de 31 de maio de 2007, arts. 1º a 11;
+A pessoa jurídica beneficiária do Padis, nos termos e condições estabelecidos pela Lei nº 11.484, de 31 de maio de 2007, terá as alíquotas do IRPJ e adicional reduzidas em 100% (cem por cento) incidente sobre o lucro da exploração.
+ECF - N610, 42 e 43.
+IRPJ
+Isenção/ redução do IRPJ com base no lucro da exploração.
+Lei nº 13.169, de 6 de outubro de 2015.
+Programa de Alimentação do Trabalhador
+Lei nº 6.321, de 14 de abril de 1976, art. 1º;
+Dedução de até 4% (quatro por cento) do imposto devido, antes do adicional.
+ECF - N630A, linha 8;
+IRPJ
+Dedução na apuração do IRPJ.
+Lei nº 9.532, de 10 de dezembro de 1997, arts. 5º e 6º, caput, inciso I.
+ECF - N630B, linha 8;
+ECF - N630C, linha 8.
+Programa Emergencial de Retomada do Setor de Eventos - Perse
+Lei nº 14.148, de 3 de maio de 2021, arts. 4º, 4º-A e 4ºB.
+Redução de alíquota a 0% (zero por cento) de IRPJ por prazo determinado, a partir de março de 2022, incidentes sobre o resultado auferido pelas pessoas jurídicas pertencentes ao setor de eventos, que exercem as atividades econômicas elencadas no art. 4º.
+ECF - N610, 75.11 e 75.12. P300, 11.20. T150, 14.20.
+IRPJ
+Redução de alíquota de IRPJ.
+Programa Emergencial de Retomada do Setor de Eventos - Perse
+Lei nº 14.148, de 3 de maio de 2021, arts. 4º, 4º-A e 4ºB.
+Redução de alíquota a 0% (zero por cento) da CSLL por prazo determinado, a partir de março de 2022, incidentes sobre o resultado auferido pelas pessoas jurídicas pertencentes ao setor de eventos, que exercem as atividades econômicas elencadas no art. 4º.
+ECF - N670, 12.20 ou 18.20. P500, 11.20. T181, 10.20.
+CSLL
+Redução de alíquota da CSLL.
+Pronas/ PCD - Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência
+Lei nº 12.715, de 17 de setembro de 2012, arts. 1º a 14;
+Dedução, do imposto devido, dos valores correspondentes às doações e aos patrocínios diretamente efetuados em prol de ações e serviços desenvolvidos no âmbito do Pronas/ PCD e desenvolvidos por instituições indicadas em lei.
+ECF - N630A, Linha 15;
+IRPJ
+Dedução na apuração do IRPJ.
+Lei nº 12.844, de 19 de julho de 2013, art. 28;
+ECF - N630B, Linha 14;
+Lei nº 13.169, de 6 de outubro de 2015, art. 10.
+ECF - N630C, Linha 14.
+Pronon - Programa Nacional de Apoio à Atenção Oncológica
+Lei nº 12.715, de 17 de setembro de 2012, arts. 1º a 14;
+Dedução, do imposto devido, dos valores correspondentes às doações e aos patrocínios diretamente efetuados em prol de ações e serviços desenvolvidos no âmbito do Pronon e desenvolvidos por instituições indicadas em lei.
+ECF - N630A, Linha 14;
+IRPJ
+Dedução na apuração do IRPJ.
+Lei nº 12.844, de 19 de julho de 2013, art. 28;
+ECF - N630B, Linha 13;
+Lei nº 13.169, de 6 de outubro de 2015, art. 10.
+ECF - N630C, Linha 13.
+Pronac - Programa Nacional de Apoio à Cultura - Dedução do Imposto sobre a Renda
+Lei nº 8.313, de 23 de dezembro de 1991, arts. 18, caput e §§ 1º e 3º e 26, § 1º;
+Dedução, do imposto devido, das quantias efetivamente realizadas no período de apuração a título de doações ou patrocínio, tanto mediante contribuições ao Fundo Nacional de Cultura - FNC na forma de doações.
+ECF - N630A, 6;
+IRPJ
+Dedução na apuração do IRPJ.
+Lei nº 9.249, de 26 de dezembro de 1995, art. 13, § 2º, inciso I;
+ECF - N630B, 6;
+Decreto nº 5.761, de 27 de abril de 2006, arts. 28 e 30;
+ECF - N630C, 6.
+Medida Provisória nº 2.228-1, de 6 de setembro de 2001, art. 39; Decreto 11.453, de 23 de março de 2023.
+Programa Rota 2030 - Mobilidade e Logística
+Medida Provisória nº 843, de 5 de julho de 2018;
+Dedução para o desenvolvimento do setor automotivo no País.
+ECF - N630A, 16.6 e 16.7.
+IRPJ
+Dedução na apuração do IRPJ.
+Lei nº 13.755, de 10 de dezembro de 2018, art. 11;
+Decreto nº 9.557, de 8 de novembro de 2018, art.19.
+Programa Rota 2030 - Mobilidade e Logística
+Medida Provisória nº 843, de 5 de julho de 2018;
+Dedução para o desenvolvimento do setor automotivo no País.
+ECF - N670, 13.01 e 13.02.
+CSLL
+Dedução na apuração da CSLL.
+Lei nº 13.755, de 10 de dezembro de 2018, art. 11;
+Decreto nº 9.557, de 8 de novembro de 2018, art. 19
+Prouni - Programa Universidade para Todos
+Lei nº 11.096, de 13 de janeiro de 2005.
+Programa destinado à concessão de bolsas de estudo integrais e bolsas de estudo parciais de 50% (cinquenta por cento) para estudantes de cursos de graduação e sequenciais de formação específica, em instituições privadas de ensino superior, com ou sem fins lucrativos.
+ECF - N610, 5.
+IRPJ
+Isenção/ redução do IRPJ com base no lucro da exploração.
+Prouni - Programa Universidade para Todos
+Lei nº 11.096, de 13 de janeiro de 2005.
+Programa destinado à concessão de bolsas de estudo integrais e bolsas de estudo parciais de 50% (cinquenta por cento) para estudantes de cursos de graduação e sequenciais de formação específica, em instituições privadas de ensino superior, com ou sem fins lucrativos.
+ECF - N670, 8.
+CSLL
+Dedução na apuração da CSLL.
+Sudam/ Sudene - Isenção Projeto Industrial/ Agrícola
+Lei nº 9.532, de 10 de dezembro de 1997, art. 3º;
+Isenção e redução do imposto sobre a renda para pessoas jurídicas sujeitas à apuração do imposto sobre a renda trimestral ou anual, que gozem dos benefícios fiscais com base no lucro da exploração.
+ECF - N610, 7 e 8.
+IRPJ
+Isenção/ redução do IRPJ com base no lucro da exploração.
+Lei nº9.808, de 20 de julho de 1999, art. 13.
+Sudam/ Sudene - Isenção Projeto Tecnologia Digital
+Lei nº 12.546, de 14 de dezembro de 2011, art. 11;
+Isenção e redução do imposto sobre a renda para pessoas jurídicas sujeitas à apuração do imposto sobre a renda trimestral ou anual, que gozem dos benefícios fiscais com base no lucro da exploração.
+ECF - N610, 12 e 13.
+IRPJ
+Isenção/ redução do IRPJ com base no lucro da exploração.
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 1º, § 1º-A;
+Lei nº 12.715, de 17 de setembro de 2012, art. 69;
+Lei nº 12.995, de 18 de junho de 2014, art. 10.
+Sudam/ Sudene - Redução 75% Projeto Setor Prioritário
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 1º;
+Redução do imposto sobre a renda para pessoas jurídicas sujeitas à apuração do imposto sobre a renda trimestral ou anual, que gozem dos benefícios fiscais com base no lucro da exploração.
+ECF - N610, 50.
+IRPJ
+Isenção/ redução do IRPJ com base no lucro da exploração.
+Lei nº 12.715, de 17 de setembro de 2012, art. 69;
+Lei nº 12.995, de 18 de junho de 2014, art. 10;
+Lei nº 13.799, de 3 de janeiro de 2019, art. 1º;
+Decreto nº 9.682, de 4 de janeiro de 2019.
+Sudam/ Sudene - Redução Escalonada Setor Prioritário, Projeto Industrial/ Agrícola
+Lei nº 9.532, de 10 de dezembro de 1997, art. 3º, caput, incisos I, II e III e §§ 1º, 2º e 3º;
+Redução do imposto sobre a renda para pessoas jurídicas sujeitas à apuração do imposto de renda trimestral ou anual, que gozem dos benefícios fiscais com base no lucro da exploração.
+ECF - N610, 55, 60, 65, 70 e 75.
+IRPJ
+Isenção/ redução do IRPJ com base no lucro da exploração.
+Lei nº 9.808, de 20 de julho de 1999, art. 13;
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 2º.
+Sudam/ Sudene - Redução por Reinvestimento
+Lei nº 8.167, de 16 de janeiro de 1991, art. 19;
+Isenção e redução do imposto sobre a renda para pessoas jurídicas sujeitas à apuração do imposto sobre a renda trimestral ou anual, que gozem dos benefícios fiscais com base no lucro da exploração.
+ECF - N610, 77.
+IRPJ
+Isenção/ redução do IRPJ com base no lucro da exploração.
+Lei nº 8.191, de 11 de junho de 1991, art. 4º;
+Lei nº 9.532, de 10 de dezembro de 1997, art. 2º;
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 3º;
+Lei nº 12.715, de 17 de setembro de 2012, art. 69;
+Lei nº 13.799, de 3 de janeiro de 2019, art. 1º;
+Decreto nº 9.682, de 4 de janeiro de 2019.
+* Os incentivos relativos à Sudam e Sudene são informados no mesmo campo da ECF, não sendo possível determinar individualmente para cada programa. Dentre as categorias, só há distinção para o programa de inclusão digital e projeto industrial ou agrícola.
+ANEXO III
+Receita desonerada (desoneração da base de cálculo) do incentivo, renúncia, benefício ou imunidade - IRBI de natureza tributária cujo beneficiário seja pessoa jurídica - declarados na Escrituração Fiscal Digital da Contribuição Previdenciária sobre a Receita - EFD-Contribuições do contribuinte
+IRBI
+Base legal
+Descrição
+Fonte
+Tributo
+Tipo de IRBI
+Programa Emergencial de Retomada do Setor de Eventos - Perse
+Lei nº 14.148, de 3 de maio de 2021, art. 4º, 4º-A e 4ºB;
+Redução de alíquota a 0% (zero por cento) da Cofins por prazo determinado, a partir de março de 2022, incidentes sobre o resultado auferido pelas pessoas jurídicas pertencentes ao setor de eventos, que exercem as atividades econômicas elencadas no art. 4º.
+EFD - M810, 920.
+Cofins
+Redução de alíquota da Cofins.
+Programa Emergencial de Retomada do Setor de Eventos - Perse
+Lei nº 14.148, de 3 de maio de 2021, art. 4º, 4º-A e 4ºB.
+Redução de alíquota a 0% (zero por cento) da Contribuição para o PIS/Pasep por prazo determinado, a partir de março de 2022, incidentes sobre o resultado auferido pelas pessoas jurídicas pertencentes ao setor de eventos, que exercem as atividades econômicas elencadas no art. 4º.
+EFD - M410, 920.
+Contribuição para o PIS/Pasep
+Redução de alíquota da Contribuição para o PIS/Pasep.
+*A EFD-Contribuições contém dados sobre a receita desonerada (desoneração da base de cálculo) dos tributos, e não dados sobre o valor do tributo exonerado.
+ANEXO IV
+Relação de beneficiários - pessoa jurídica imune ou isenta
+IRBI
+Base legal
+Fonte
+Tributo
+Entidades sem Fins Lucrativos - Assistência Social e Saúde
+Constituição Federal, art. 150, caput, inciso VI, alínea "c" e art. 195, § 7º;
+ECF - 0010, 4 e 10
+IRPJ
+Lei nº 9.532, de 10 de dezembro de 1997, arts. 12 e 15;
+Medida Provisória nº 2.158-35, de 24 de agosto de 2001, art. 14, caput, inciso X;
+Lei nº 12.101, de 27 de novembro de 2009;
+Decreto nº 8.242, de 23 de maio de 2014.
+Entidades sem Fins Lucrativos - Associação Civil
+Constituição Federal, art. 150, caput, inciso VI, alínea "c", e art. 195, § 7º;
+ECF - 0010, 4 e 10
+IRPJ
+Lei nº 9.532, de 10 de dezembro de 1997, arts. 12 e 15;
+Medida Provisória nº 2.158-35, de 24 de agosto de 2001, art. 14, caput, inciso X;
+Decreto nº 8.242, de 23 de maio de 2014.
+Entidades sem Fins Lucrativos - Cultural
+Constituição Federal, art. 150, caput, inciso VI, alínea "c", e art. 195, § 7º;
+ECF - 0010, 4 e 10
+IRPJ
+Lei nº 9.532, de 10 de dezembro de 1997, arts. 12 e 15;
+Medida Provisória nº 2.158-35, 24 de agosto de 2001, art. 14, caput, inciso X;
+Lei nº 12.101, de 27 de novembro de 2009;
+Decreto nº 8.242, de 23 de maio de 2014.
+Previdência Privada Fechada
+Decreto-Lei nº 2.065, de 26 de outubro de 1983, art. 6º;
+ECF - 0010, 4 e 10
+IRPJ
+Instrução Normativa SRF nº 588, de 21 de dezembro de 2005, art. 17.
+Entidades Religiosas
+Constituição Federal, art. 150, caput, inciso VI, alínea "b".
+ECF - 0010, 4 e 10
+IRPJ
+ANEXO V
+Incentivo, renúncia, benefício ou imunidade de natureza tributária cujo beneficiário seja pessoa jurídica - Contribuição para o Programas de Integração Social e de Formação do Patrimônio do Servidor Público incidente sobre a importação - Contribuição para o PIS/Pasep-Importação e Contribuição para o Financiamento da Seguridade Social incidente sobre a importação de bens e serviços - Cofins-Importação
+IRBI
+Base Legal
+Fonte
+Acetona
+Acetona destinada a produção de monoisopropilamina (Mipa), Código 2914.11.00 da Tabela de Incidência do Imposto sobre Produtos Industrializados - Tipi - Lei nº 11.727, de 23 de junho de 2008, art. 25, §§ 1º e 2º.
+Receita Data
+Adubos e fertilizantes
+Adubos ou fertilizantes - Capítulo 31 da Nomenclatura Comum do Mercosul - NCM - e suas matérias primas - Lei nº 10.925, de 23 de julho de 2004, art. 1º,caput, inciso I, e Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Aeronaves
+Aeronaves da posição 88.02 da NCM - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso VI, e Lei nº 10.925, de 23 de julho de 2004, art. 6º, e Decreto nº 5.171, de 6 de agosto de 2004.
+Receita Data
+Amostras e remessas sem valor comercial
+Amostras e Remessas Postais Internacionais, sem valor comercial - Lei nº 10.865, de 30 de abril de 2004, art. 9º, caput, inciso II, alínea "a".
+Receita Data
+Bens a serem empregados em aeronaves
+Bens a serem empregados em aeronaves - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, caput, inciso VII, Lei nº 10.925, de 23 de julho de 2004, art. 6º, e Decreto nº 5.171, de 6 de agosto de 2004.
+Receita Data
+Cinema e audiovisual
+Bens destinados a indústria cinematográfica e audiovisual - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso V, e Decreto nº 5.171, de 6 de agosto de 2004.
+Receita Data
+Copa do Mundo, Olimpíada e Jogos Paralímpicos
+Eventos Copa do Mundo, Jogos Olímpicos e Paralímpicos 2016 - Lei nº 12.350, de 20 de dezembro de 2010, art. 3º, § 1º, incisos III e IV, e Lei nº 12.780, de 9 de janeiro de 2013, art. 4º, § 1º, incisos III e IV.
+Receita Data
+Copa do Mundo, Olimpíada e Jogos Paralímpicos
+Eventos Copa do Mundo, Jogos Olímpicos e Paralímpicos 2016 - Bens admitidos sob o Regime de Admissão Temporária - Lei nº 12.350, de 20 de dezembro de 2010, art. 4º, e Lei nº 12.780, de 9 de janeiro de 2013, art. 5º.
+Receita Data
+Corretivo de solo
+Corretivo de solo de origem mineral - Capítulo 25 da NCM - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso IV, e Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Defensivos agrícolas
+Defensivos agropecuários - Posição 38.08 da NCM e suas matérias-primas - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso II, e Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Destinados ao uso em hospitais, clínicas e consultórios médicos e odontológicos
+Posições 30.02, 30.06, 39.26, 40.15, 90.18 - Decreto nº 6.426, de 7 de abril de 2008, art. 1º, caput, inciso III.
+Receita Data
+Drawback
+Bens importados sob o regime aduaneiro especial de Drawback, na modalidade Isenção - Lei nº 10.865, de 30 de abril de 2004, art. 9º, caput, inciso II, alínea "f".
+Receita Data
+Entidades beneficentes de assistência social
+Bens importados pelas entidades beneficentes de assistência social - Lei nº 10.865, de 30 de abril de 2004, art. 2º, caput, inciso VII.
+Receita Data
+Evento cultural, científico ou esportivo
+Bens com uso relativo a evento cultural, científico ou esportivo oficial realizado no exterior ou no Brasil - Lei nº 11.488, de 15 de junho de 2007, art. 38.
+Receita Data
+Evento cultural, científico ou esportivo
+Isenção de Pis/Cofins - Importação - Lei nº 11.488, de 15 de junho de 2007, art.38.
+Receita Data
+Fabricação de papéis
+Máquinas e Equipamentos classificados na posição 84.39 da Tipi e utilizados na fabricação de papéis - Lei nº 11.196, de 21 de novembro de 2005, art. 55, caput, inciso II, e Decreto nº 5.653, de 29 de dezembro de 2005.
+Receita Data
+Farinhas a base de milho
+Produtos definidos pela Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso IX, pela Lei nº 11.051, de 29 de dezembro de 2004, art. 29, e pelo Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Feijões, arroz e farinhas
+Feijões comuns, arroz e farinhas, com códigos NCM definidos pela Lei 10.925, de 23 de julho de 2004, art. 1º, caput, incisos V e VI, e Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Gás natural
+Gás natural destinado às unidades termelétricas integrantes do Programa Prioritário de Termoelétricas - PPT - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso IX.
+Receita Data
+Gás natural
+Gás natural importado da Bolívia - Decreto nº 681, de 11 de novembro de 1992, e Ato Declaratório Interpretativo SRF nº 21, de 28 de julho de 2004, art. 3º.
+Receita Data
+Gás natural liquefeito - GNL
+Gás Natural Liquefeito - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso XVI
+Receita Data
+Inoculantes agrícolas
+Inoculantes agrícolas do código 3002.90.99 da NCM - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso VI, e Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Instituições científicas e tecnológicas
+Bens importados por instituições científicas e tecnológicas, cientistas e pesquisadores - Lei nº 10.865, de 30 de abril de 2004, art. 9º, caput, inciso II, alínea "h".
+Receita Data
+Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 11
+Produtos com uso definido pela Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 11, inciso II, e pela Lei nº 11.196, de 21 de novembro de 2005, art. 44.
+Receita Data
+Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12
+Produtos com uso definido pela Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, incisos XVIII, XIX, XX e XXI.
+Receita Data
+Leite em pó
+Leite em pó, conforme definições constantes da Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso XI, da Lei nº 11.488, de 15 de junho de 2007, art. 32, do Decreto nº 5.630, de 22 de dezembro de 2005, e do Decreto nº 6.461, de 21 de maio de 2008.
+Receita Data
+Leite fluido
+Leite fluido, conforme definições constantes da Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso XI, da Lei nº 11.488, de 15 de junho de 2007, art. 32, do Decreto nº 5.630, de 22 de dezembro de 2005, e do Decreto nº 6.461, de 21 de maio de 2008.
+Receita Data
+Leite pasteurizado ou industrializado
+Produtos definidos pela Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso XI, pela Lei nº 11.488, de 15 de junho de 2007, art. 32, pelo Decreto 5.630, de 22 de dezembro de 2005, e pelo Decreto nº 6.461, de 21 de maio de 2008.
+Receita Data
+Livros
+Livros, conforme definido na Lei nº 10.753, de 30 de outubro de 2003, art. 2º, Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso XII, e na Lei nº 11.033, de 21 de dezembro de 2004, art. 6º.
+Receita Data
+Loja Franca
+Exclusivo Loja Franca - Lei nº 10.865, de 30 de abril de 2004, art. 9º, caput, inciso II, alínea "d".
+Receita Data
+Massas alimentícias
+Massas alimentícias classificadas na posição 19.02 da Tipi - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso XVIII.
+Receita Data
+Missões Diplomáticas
+Missões Diplomáticas, Repartições Consulares e respectivos integrantes - Lei nº 10.865, de 30 de abril de 2004, art. 9º, caput, inciso I, alínea "b".
+Receita Data
+Objetos de arte
+Objetos de arte classificados nas posições 97.01, 97.02, 97.03 e 97.06 da NCM, recebidos em doações por museus e entidades culturais - Lei nº 10.865, de 30 de abril de 2004, art. 9º, caput, inciso II, alínea "g".
+Receita Data
+Óleos combustíveis
+Óleos combustíveis tipo bunker, códigos 2710.19.21 e 2710.19.22, destinados à navegação de cabotagem ou de apoio portuário e marítimo - Lei nº 11.774, de 17 de setembro de 2008, art. 2º.
+Receita Data
+Organismos Internacionais
+Representações de organismos internacionais e respectivos integrantes - Lei nº 10.865, de 30 de abril de 2004, art. 9º, caput, inciso. I, alínea "c".
+Receita Data
+Outros
+Outras isenções, reduções e suspensões.
+Receita Data
+Papel destinado à impressão de jornais
+Papel destinado à impressão de jornais - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso III, e Decreto nº 5.171, de 6 de agosto de 2004.
+Receita Data
+Partes e peças - Registro Especial Brasileiro - REB
+Partes, peças e componentes para embarcações com registro no REB - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso I, e Decreto nº 5.171, de 6 agosto de 2004.
+Receita Data
+Pintos de um dia
+Pintos de um dia - código 0105.11 da Tipi - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso X, Lei nº 11.051, de 29 de dezembro de 2004, art. 29, e Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Pré-misturas para pão
+Pré-misturas próprias para fabricação de pão comum e pão comum - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso XVI, Lei nº 11.787, de 25 de setembro de 2008, e Lei nº 12.096, de 24 de novembro de 2009.
+Receita Data
+Preparação não alcoólica para elaboração de bebidas
+Preparações compostas não alcoólicas para elaboração de bebidas - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso XIII, e Lei nº 11.196, de 21 de novembro de 2005, art. 44.
+Receita Data
+Produtos farmacêuticos
+Produtos farmacêuticos - Decreto nº 6.426, de 7 de abril de 2008, art. 2º, caput, inciso I.
+Receita Data
+Produtos farmacêuticos
+Produtos farmacêuticos - Decreto nº 6.426, de 7 de abril de 2008, art. 2º, caput, inciso II.
+Receita Data
+Produtos farmacêuticos
+Produtos farmacêuticos - Decreto nº 6.426, de 7 de abril de 2008, art. 2º, caput, inciso III.
+Receita Data
+Produtos farmacêuticos
+Produtos farmacêuticos - Decreto nº 6.426, de 7 de abril de 2008, art. 2º, caput, inciso IV.
+Receita Data
+Produtos farmacêuticos
+Produtos farmacêuticos - Decreto nº 6.426, de 7 de abril de 2008, de 2006, art. 2º, caput, inciso V.
+Receita Data
+Produtos farmacêuticos
+Produtos farmacêuticos - Decreto nº 6.426, de 7 de abril de 2008, art. 2º, caput, inciso VI.
+Receita Data
+Produtos farmacêuticos
+Produtos farmacêuticos - Decreto nº 6.426, de 7 de abril de 2008, art. 2º, caput, inciso VII.
+Receita Data
+Produtos farmacêuticos
+Produtos farmacêuticos - Decreto nº 6.426, de 7 de abril de 2008, art. 2º, caput, inciso VIII.
+Receita Data
+Produtos hortícolas e frutas
+Produtos hortícolas e frutas - Capítulos 7 e 8 da Tipi - e ovos - posição 04.07 da Tipi - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso X.
+Receita Data
+Produtos químicos
+Produtos químicos intermediários de síntese, Cap. 29 da NCM - Decreto nº 6.426, de 7 de abril de 2008, art. 1º, caput, inciso II, alínea "b".
+Receita Data
+Produtos químicos
+Produtos químicos, Cap 29 da NCM - Decreto nº 6.426, de 7 de abril de 2008, art. 1º, caput, inciso I.
+Receita Data
+Produtos químicos e farmacêuticos
+Produtos químicos e farmacêuticos - Capítulos 29 e 30 da NCM - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 11, inciso I.
+Receita Data
+Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Equipamentos para TV Digital - PATVD
+PATVD - Lei nº 11.484, de 31 de maio de 2007 e Decreto nº 6.234, de 11 de outubro de 2007.
+Receita Data
+Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores - Padis
+Padis - Lei nº 11.484, de 31 de maio de 2007 e Decreto nº 6.234, de 11 de outubro de 2007.
+Receita Data
+Queijos
+Queijos de tipos definidos pela Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso XII, pela Lei nº 11.488, de 15 de junho de 2007, art. 32, pelo Decreto nº 5.630, de 22 de dezembro de 2005, e pelo Decreto nº 6.461, de 21 de maio de 2008.
+Receita Data
+Regime de Exportação Temporária
+Bens aos quais tenha sido aplicado o Regime de Exportação Temporária - Lei nº 10.865, de 30 de abril de 2004, art. 2º, caput, inciso VI.
+Receita Data
+Regime Especial de Aquisição de Bens de Capital para Empresas Exportadoras - Recap
+Bens submetidos ao Recap - Lei nº 11.196, de 21 de novembro de 2005, art. 14, caput, inciso II, e Decreto nº 6.581, de 26 de setembro de 2008.
+Receita Data
+Regime Especial de Aquisição de Computadores para Uso Educacional - Recompe
+Recompe - Lei nº 12.249, de 11 de junho de 2010, art. 9º, caput, inciso III, regulamentada pelo Decreto nº 7.243, de 26 de julho de 2010, art.5º, caput, inciso III.
+Receita Data
+Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura - Reidi
+Reidi - Lei nº 11.488, de 15 de junho de 2007, art. 3º.
+Receita Data
+Regime Especial de Incentivos para o Desenvolvimento de Infraestrutura da Indústria Petrolífera nas Regiões Norte, Nordeste e Centro-Oeste - Repenec
+Bens submetidos ao Repenec - Lei nº 12.249, de 11 de junho de 2010, arts. 1º a 5º, e Decreto nº 7.320, de 28 de setembro de 2010, art. 18.
+Receita Data
+Regime Especial de Tributação para a Plataforma de Exportação de Serviços de Tecnologia da Informação - Repes
+Bens submetidos ao Repes - Lei nº 11.196, de 21 de novembro de 2005, art. 4º, caput, inciso II, e Decreto nº 5.713, de 2 de março de 2006.
+Receita Data
+Regime Especial de Tributação para Construção, Ampliação, Reforma ou Modernização de Estádios de Futebol - Recopa
+Recopa - Lei nº 12.350, de 20 de dezembro de 2010, Decreto nº 7.319, de 28 de setembro de 2010, e Decreto nº 7.525, de 15 de julho de 2011.
+Receita Data
+Regime Especial de Tributação para Desenvolvimento da Atividade de Exibição Cinematográfica - Recine
+Recine - Lei nº 12.599, de 23 de março de 2012, art. 12, e Decreto nº 7.729, de 25 de maio de 2012, art. 7º.
+Receita Data
+Regimes Aduaneiros Especiais
+Bens submetidos aos Regimes Aduaneiros Especiais - Lei nº 10.865, de 30 de abril de 2004, art. 14.
+Receita Data
+Regime Tributário para Incentivo à Modernização e à Ampliação da Estrutura Portuária - Reporto
+Bens submetidos ao Reporto - Lei nº 11.033, de 21 de dezembro de 2004, art. 14, e Decreto nº 6.582, de 26 de setembro de 2008.
+Receita Data
+Reposição de materiais
+Bens estrangeiros idênticos destinados a reposição de outros anteriormente importados - Lei nº 10.865, de 30 de abril de 2004, art. 2º, caput, inciso II.
+Receita Data
+Retorno de bens exportados
+Retorno de bens exportados - Devolução para reparo ou substituição - Lei nº 10.865, de 30 de abril de 2004, art. 1º, § 2º, inciso I, alínea "b".
+Receita Data
+Retorno de bens exportados
+Retorno de bens exportados - Exportação em consignação - Lei nº 10.865, de 30 de abril de 2004, art. 1º, § 2º, inciso I, alínea "a".
+Receita Data
+Retorno de bens exportados
+Retorno de bens exportados - Fatores alheios ao exportador - Lei nº 10.865, de 30 de abril de 2004, art. 1º, § 2º, inciso I, alínea "e".
+Receita Data
+Retorno de bens exportados
+Retorno de bens exportados - Guerra ou calamidade pública - Lei nº 10.865, de 30 de abril de 2004, art. 1º, § 2º, inciso I, alínea "d".
+Receita Data
+Retorno de bens exportados
+Retorno de bens exportados - Modificações no país importador - Lei nº 10.865, de 30 de abril de 2004, art. 1º, § 2º, inciso I, alínea "c".
+Receita Data
+Sêmens e embriões
+Sêmens e embriões da posição 05.11 da NCM - Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 12, inciso XI.
+Receita Data
+Sementes agrícolas
+Sementes e mudas, e produtos de natureza biológica para sua produção - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso III, e Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Soro de leite
+Soro de leite fluido, conforme definições constantes da Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso XIII, da Lei nº 11.488, de 15 de junho de 2007, art. 32, do Decreto nº 5.630, de 22 de dezembro de 2005, e do Decreto nº 6.461, de 21 de maio de 2008.
+Receita Data
+Suspensão - matérias-primas, produtos intermediários e materiais de embalagem
+Matérias-primas, produtos intermediários e materiais de embalagem - Empresa exportadora - Lei nº 10.865, de 30 de abril de 2004, art. 40, § 6º, e Lei nº 10.925, de 23 de julho de 2004, e Lei nº 11.482, de 31 de maio de 2007.
+Receita Data
+Trigo
+Trigo - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso XV, Lei nº 11.787, de 25 de setembro de 2008, e Lei nº 12.096, de 24 de novembro de 2009.
+Receita Data
+União, Estados e Municípios
+União, estados, Distrito Federal e municípios, suas autarquias e fundações - Lei nº 10.865, de 30 de abril de 2004, art. 9º, caput, inciso I, alínea "a".
+Receita Data
+Vacinas
+Vacinas para medicina veterinária - código 3002.30 da NCM - Lei nº 10.925, de 23 de julho de 2004, art. 1º, caput, inciso VII, e Decreto nº 5.630, de 22 de dezembro de 2005.
+Receita Data
+Zona Franca de Manaus
+Bens a serem incorporados ao ativo imobilizado de empresas da Zona Franca de Manaus - Lei nº 11.196, de 21 de novembro de 2005, art. 50, e Decreto nº 5.691, de 3 de fevereiro de 2006.
+Receita Data
+Zona Franca de Manaus
+Bens para elaboração de matérias-primas, produtos intermediários e materiais de embalagem - Empresas da Zona Franca de Manaus - Lei nº 10.865, de 30 de abril de 2004, art. 14, § 1º.
+Receita Data
+Zona Franca de Manaus
+Matérias-primas, produtos intermediários e materiais de embalagem - Empresas da Zona Franca de Manaus - Lei nº 10.865, de 30 de abril de 2004, art. 14-A, e Lei nº 10.925, de 23 de julho de 2004, art. 6º.
+Receita Data
+ANEXO VI
+Incentivo, renúncia, benefício ou imunidade de natureza tributária cujo beneficiário seja pessoa jurídica - Imposto de Importação - II e Imposto sobre Produtos Industrializados vinculados à importação - IPI-Importação
+IRBI
+Base Legal
+Fonte
+Admissão em Depósito Especial
+Admissão em Depósito Especial - DE - Decreto-Lei nº 37, de 18 de novembro de 1966, art. 93, e Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 480 a 487.
+Receita Data
+Admissão em Entreposto Aduaneiro
+Admissão em Entreposto Aduaneiro - Decreto-Lei nº 1.455, de 7 de abril de 1976, art. 9º.
+Receita Data
+Admissão Temporária
+Admissão Temporária - Decreto-Lei nº 37, de 18 de novembro de 1966, art. 75 (exceto recipientes, embalagens e outros com finalidade semelhante).
+Receita Data
+Admissão Temporária
+Admissão Temporária - pagamento proporcional de impostos - Lei nº 9.430, de 27 de dezembro de 1996, art. 79, e Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 373 a 378.
+Receita Data
+Amazônia Ocidental
+Amazônia Ocidental - Decreto-Lei nº 356, de 15 de agosto de 1968, art. 2º.
+Receita Data
+Área de Livre Comércio
+Admissão na Área de Livre Comércio de Boa Vista - Lei nº 8.256, de 25 de novembro de 1991, art. 4º, Lei nº 8.981, de 20 de janeiro de 1995, art. 110, Lei nº 11.732, de 30 de junho de 2008, art. 4º e 5º, Lei nº 15.273, de 26 de novembro de 2025.
+Receita Data
+Área de Livre Comércio
+Admissão na Área de Livre Comércio. de Cruzeiro Do Sul, Brasiléia, com extensão à Epitaciolândia - Lei nº 8.857, de 8 de março de 1994, (alterada pela Lei nº 8.981, de 20 de janeiro de 1995, art. 110), e Decreto nº 1.357, de 30 de dezembro de 1994.
+Receita Data
+Área de Livre Comércio
+Admissão na Área de Livre Comércio de Macapá e Santana - Lei nº 8.387, de 30 de dezembro de 1991, art. 11, e Decreto nº 517, de 8 de maio de 1992.
+Receita Data
+Área de Livre Comércio
+Admissão na Área de Livre Comércio de Tabatinga - Lei nº 7.965, de 22 de dezembro de 1989 (alterado pela Lei nº 8.981, de 20 de janeiro de 1995, art. 108).
+Receita Data
+Área de Livre Comércio
+Admissão na Área de Livre Comércio de Guajará-Mirim - Lei nº 8.210, de 19 de julho de 1991 (alterado pela Lei nº 8.981, de 20 de janeiro de 1995, art. 109) e Decreto nº 843, de 23 de junho de 1993.
+Receita Data
+Autopeças Não Produzidas
+Autopeças Não Produzidas para industrialização - bens de capital - BK ou bens de informática e telecomunicações - BIT - Resolução Gecex nº 285, de 21 de dezembro de 2021, art. 4º, § 1º, Lei nº 13.755, de 10 de dezembro de 2018, art. 20.
+Receita Data
+Autopeças Não Produzidas
+Autopeças Não Produzidas para industrialização - bens de capital - BK ou bens de informática e telecomunicações - BIT - Resolução Gecex nº 285, de 21 de dezembro de 2021, art. 4º, § 2º, Lei nº 13.755, de 10 de dezembro de 2018, art. 20.
+Receita Data
+Autopeças Não Produzidas
+Redução para Autopeças Não Produzidas - bens de capital - BK ou bens de informática e telecomunicações - BIT - Resolução Gecex nº 284, de 21 de dezembro de 2021, art. 2º.
+Receita Data
+Autopeças Não Produzidas
+Redução para Autopeças Não Produzidas - Resolução Gecex nº 284, de 21 de dezembro de 2021, art. 1º.
+Receita Data
+Autopeças para máquinas agrícolas
+Autopeças para produção de tratores, colheitadeiras, máquinas agrícolas e rodoviárias autopropulsadas - Decreto nº 6.500, de 2 de julho de 2008.
+Receita Data
+Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPq
+CNPq - Cientistas, pesquisadores e entidades ligados à pesquisa e credenciados pelo CNPq - Lei nº 8.010, de 29 de março de 1990, e Medida Provisória nº 191, de 11 de junho de 2004 (Lei nº 10.964, de 28 de outubro de 2004).
+Receita Data
+Contingenciamento
+Contingenciamento - Decisão do Conselho do Mercado Comum do Mercosul - Decisão CMC nº 38/05, Decisão CMC nº 58/10, Decisão CMC nº 26/15, Resolução do Grupo Mercado Comum - Res. GMC nº 49/19, e Decreto nº 10.291, de 24 de março de 2020.
+Receita Data
+Copa do Mundo
+Eventos Copa do Mundo/Jogos Olímpicos e Paralímpicos 2016 - Lei nº 12.350, de 20 de dezembro de 2010, arts. 3º, 4º e 7º a 15, Decreto nº 7.578, de 11 de outubro de 2011, Lei nº 12.780, de 9 de janeiro de 2013 e Decreto nº 8.463, de 5 de junho de 2015.
+Receita Data
+Depósito Afiançado
+Depósito Afiançado - Instrução Normativa SRF nº 409, de 19 de março de 2004.
+Receita Data
+Depósito Especial
+Depósito Especial - Decreto nº 6.759, de 5 de fevereiro de 2009, art. 480, e Instrução Normativa SRF nº 386, de 14 de janeiro de 2004, art. 20.
+Receita Data
+Drawback
+Drawback - Decreto-Lei nº 37, de 18 de novembro de 1966, art. 78, caput, inciso III - modalidade Isenção; Decreto-Lei nº 37, de 18 de novembro de 1966, art. 78, caput, inciso II - modalidade Suspensão; e Lei nº 8.402, de 8 de janeiro de 1992, art. 1º, caput, inciso I.
+Receita Data
+Entreposto Internacional da Zona Franca de Manaus - Eizof
+Admissão no Eizof - Portaria Interministerial MEFP/SDR nº 2, de 21 de julho de 1992.
+Receita Data
+Feiras e exposições
+Consumo de feiras e exposições internacionais, e assemelhados - Lei nº 8.383, de 30 de dezembro de 1991, art. 70, e Portaria MF nº 107, de 15 de maio de 1996, arts. 1º a 4º.
+Receita Data
+Instituições de educação ou assistência social
+Instituições de educação ou de assistência social - Lei nº 8.032, de 12 de abril de 1990, art. 2º, caput, inciso I, alínea "b", e § 1º, e Lei nº 8.402, de 8 de janeiro de 1992, art. 1º, caput, inciso IV.
+Receita Data
+Loja Franca
+Exclusivo Loja Franca - Lei nº 8.032, de 12 de abril de 1990, art. 2º, caput, inciso II, alínea "e", e Lei nº 8.402, de 8 de janeiro de 1992, art. 1º, caput, inciso IV.
+Receita Data
+Loja Franca
+Admissão em Loja Franca - Decreto-Lei nº 1.455, de 7 de abril de 1976, art. 15.
+Receita Data
+Mercadorias importadas destinadas à exportação
+Mercadorias importadas entrepostadas e destinadas à exportação - Instrução Normativa SRF nº 241, de 6 de novembro de 2002, art. 24.
+Receita Data
+Missões Diplomáticas
+Missões Diplomáticas e Repartições Consulares de caráter permanente e seus respectivos integrantes - Lei nº 8.032, de 12 de abril de 1990, art. 2º, caput, inciso I, alínea "c", e § 1º, e Lei nº 8.402, de 8 de janeiro de 1992, art. 1º.
+Receita Data
+Montadoras e fabricantes de veículos, tratores, carrocerias etc., Regiões Norte, Nordeste e Centro-Oeste.
+Montadoras e fabricantes de veículos, tratores, carrocerias etc., Regiões Norte, Nordeste e Centro-Oeste - Lei nº 9.440, de 14 de março de 1997.
+Receita Data
+Outras isenções
+Outras isenções, reduções e suspensões, não sujeitas a exame de similaridade.
+Receita Data
+Outras isenções, reduções e suspensões, não sujeitas a exame de similaridade.
+Outras isenções, reduções e suspensões, não sujeitas a exame de similaridade, não capituladas na tabela do Siscomex.
+Receita Data
+Outras isenções, reduções e suspensões, sujeitas a exame de similaridade.
+Outras isenções, reduções e suspensões, sujeitas a exame de similaridade, não capituladas na tabela do Siscomex.
+Receita Data
+Outros Acordos Internacionais
+Outros Acordos Internacionais (Exceto: Acordo Geral sobre Tarifas e Comércio - GATT, Sistema Global de Preferências Comerciais entre Países em Desenvolvimento - SGPC, Associação Latino-Americana de Integração - ALADI e Mercado Comum do Sul - MERCOSUL) - Lei nº 8.032, de 12 de abril de 1990, art.6º.
+Receita Data
+Partes e peças para aeronaves
+Partes, peças e componentes destinados ao reparo, revisão e manutenção de aeronaves - Lei nº 8.032, de 12 de abril de 1990, art. 2º, caput, inciso II, alínea "j", e § 1º, e Lei nº 8.402, de 8 de janeiro de 1992, art. 1º, caput, inciso IV.
+Receita Data
+Partes e peças para embarcações
+Partes, peças e componentes destinados ao reparo, revisão e manutenção de embarcações - Lei nº 8.032, de 12 de abril de 1990, art.2º, caput, inciso II, alínea "j" e § 1º, e Lei nº 8.402, de 8 de janeiro de 1992, art.1º.
+Receita Data
+Partidos Políticos
+Partidos Políticos - Lei nº 8.032, de 12 de abril de 1990, art. 2º, caput, inciso I, alínea "b", e § 1º, e Lei nº 8.402, de 8 de janeiro de 1992, art.1º, caput, inciso IV.
+Receita Data
+Recipientes e embalagens retornáveis
+Admissão temporária ou reimportação - exclusivamente para recipientes e embalagens retornáveis e similares - Instrução Normativa RFB nº 1.600, de 14 de dezembro de 2015.
+Receita Data
+Regime Aduaneiro Especial de Entreposto Industrial sob Controle Informatizado - Recof
+Admissão em Recof - Decreto-Lei nº 37, de 18 de novembro de 1966, art. 89, e Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 420 a 426.
+Receita Data
+Regime Aduaneiro Especial de Entreposto Industrial sob Controle Informatizado - Recof
+Recof - Decreto-Lei nº 37, de 18 de novembro de 1966, art. 90, Lei nº 10.833, de 29 dezembro de 2003, art. 59, Decreto nº 6.759, de 5 de fevereiro de 2009, art. 420, e Instrução Normativa RFB nº 2.126, de 29 de dezembro de 2022.
+Receita Data
+Regime Aduaneiro Especial de Entreposto Industrial sob Controle Informatizado do Sistema Público de Escrituração Digital - Recof Sped
+Admissão em Recof Sped - Decreto-Lei nº 37, de 18 de novembro de 1966, art. 89.
+Receita Data
+Regime aduaneiro especial de exportação e importação de bens destinados às atividades de pesquisa e de lavra das jazidas de petróleo e de gás natural - Repetro
+Repetro na modalidade definitiva prevista no Decreto nº 6.759, de 5 de fevereiro de 2009, art. 458, caput, inciso IV.
+Receita Data
+Regime aduaneiro especial de exportação e importação de bens destinados às atividades de pesquisa e de lavra das jazidas de petróleo e de gás natural - Repetro
+Bens destinados ao Repetro na modalidade temporária prevista no Decreto nº 6.759, de 5 de fevereiro de 2009, art. 376, caput, inciso I, alínea "a".
+Receita Data
+Regime aduaneiro especial de exportação e importação de bens destinados às atividades de pesquisa e de lavra das jazidas de petróleo e de gás natural - Repetro
+Repetro-Industrialização - Lei nº 13.586, de 28 de dezembro de 2017.
+Receita Data
+Regime Especial de Incentivos para o Desenvolvimento de Infraestrutura da Indústria Petrolífera nas Regiões Norte, Nordeste e Centro-Oeste - Repenec
+Bens submetidos ao Repenec - Lei nº 12.249, de 11 de junho de 2010, arts. 1º a 5º, e Decreto nº 7.320, de 28 de setembro de 2010, art. 18.
+Receita Data
+Regime Tributário para Incentivo à Modernização e à Ampliação da Estrutura Portuária - Reporto
+Reporto - Lei nº 11.033, de 21 de dezembro de 2004, e Instrução Normativa RFB nº 1.370, de 28 de junho de 2013.
+Receita Data
+Regra para produtos do setor aeronáutico
+Produtos do setor aeronáutico - Regra geral de tributação da Tarifa Externa Comum - Decreto nº 2.376, de 12 de novembro de 1997, Resolução Camex nº 55, de 5 de agosto de 2010, e Resolução Camex nº 78, de 5 de outubro de 2011.
+Receita Data
+Tribunal Superior Eleitoral - TSE
+Matérias-primas e produtos intermediários para industrialização de bens de informática para o TSE - Leis nº 9.359, de 12 de dezembro de 1996, e Lei nº 9.643, de 26 de maio de 1998.
+Receita Data
+União, Estados, e Municípios
+União, estados, Distrito Federal, territórios, municípios e respectivas autarquias - Lei nº 8.032, de 12 de abril de 1990, art.2º, caput, inciso I, alínea "a", e § 1º, e Lei nº. 8.402, de 8 de janeiro de 1992, art. 1º, caput, inciso IV.
+Receita Data
+Zona Franca de Manaus
+Admissão na Zona Franca De Manaus - Constituição Federal, Disposições Transitórias, art. 40, e Decreto-Lei nº 288, de 28 de fevereiro de 1967.
+Receita Data
+Zona Franca de Manaus
+Produtos industrializados na Zona Franca de Manaus com insumos estrangeiros empregados, redução mediante a aplicação de coeficiente definido no Decreto-Lei nº 288, de 28 de fevereiro de 1967, art. 7º, § 1º, com redação dada pela Lei nº 8.387, de 30 de dezembro de 1991.
+Receita Data
+Zona Franca de Manaus
+Produtos industrializados na Zona Franca de Manaus com insumos estrangeiros empregados, redução mediante a aplicação de coeficiente de 88% (oitenta e oito por cento) definido no Decreto-Lei nº 288, de 28 de fevereiro de 1967, art. 7º, § 4º, com redação dada pela Lei nº 8.387, de 30 de dezembro de 1991.
+Receita Data
+Zona Franca de Manaus
+Produtos industrializados na Zona Franca de Manaus com insumos estrangeiros empregados, redução mediante a aplicação do coeficiente de redução específico acrescido de cinco pontos percentuais conforme definido no Decreto-Lei nº 288, de 28 de fevereiro de 1967, art. 7º, § 9º, com redação dada pela Lei nº 8.387, de 30 de dezembro de 1991.
+Receita Data
+ANEXO VII
+Pessoas jurídicas habilitadas perante a Secretaria Especial da Receita Federal do Brasil - benefícios fiscais e regimes especiais de tributação:
+Ordem
+IRBI
+Base legal
+Descrição
+Fonte
+Tributo
+Tipo de IRBI
+01
+Perse -
+Programa Emergencial de Retomada do Setor de Eventos
+Lei nº 14.148, de 3 de maio de 2021, art. 4º;
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, arts. 104 e 723;
+Instrução Normativa RFB nº 2.195, de 23 de maio de 2024.
+Redução a 0% (zero por cento) das alíquotas do Imposto sobre a Renda das Pessoas Jurídicas - IRPJ, da Contribuição Social sobre o Lucro Líquido - CSLL, da Contribuição para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público - Contribuição para o
+Sisen
+IRPJ
+CSLL
+Contribuição para o PIS/Pasep
+Cofins
+Redução de Alíquota
+PIS/Pasep e da Contribuição para o Financiamento da Seguridade Social - Cofins, incidentes sobre o resultado auferido pelas pessoas jurídicas pertencentes ao setor de eventos que exerçam as atividades relacionadas no art. 4º da Lei nº 14.148, de 3 de maio de 2021, no âmbito do Perse.
+02
+Recap -
+Regime Especial de Aquisição de Bens de Capital para Empresas Exportadoras
+Lei nº 11.196, de 21 de novembro de 2005, arts. 12 a 16;
+Decreto nº 5.649, de 29 de dezembro de 2005;
+Decreto nº 5.788, de 25 de maio de 2006;
+Decreto nº 5.789, de 25 de maio de 2006;
+Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 271 a 275;
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, da Contribuição para o PIS/Pasep-Importação e da Cofins-Importação incidentes sobre as receitas decorrentes da venda e as operações de importação de bens de capital novos, quando adquiridos ou importados diretamente por
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+Suspensão
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, art. 18, caput, inciso III, art. 24, caput, inciso X, art. 271, caput, inciso VI, e arts. 628 a 645.
+pessoas jurídicas consideradas preponderantemente exportadoras, previamente habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Recap, para incorporação ao seu ativo imobilizado.
+03
+Reidi -
+Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura
+Lei nº 11.488, de 15 de junho de 2007, arts. 1º a 5º;
+Decreto nº 6.144, de 3 de julho de 2007;
+Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 286 a 290;
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, art. 18, caput, inciso IV, art. 24, caput, incisos XI a XIII, art. 271, caput,
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, da Contribuição para o PIS/Pasep-Importação e da Cofins-Importação incidentes sobre as receitas decorrentes da venda e as operações de importação de máquinas, aparelhos, instrumentos e equipamentos novos, de
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+Suspensão
+incisos VII e VIII, e arts. 646 a 663.
+materiais de construção e de serviços, quando adquiridos ou importados diretamente por pessoas jurídicas previamente habilitadas pela Secretaria Especial da Receita Federal do Brasil ao
+Reidi, com projeto aprovado para implantação de obras de
+infraestrutura nos setores de transportes, portos, energia, saneamento básico e irrigação, destinadas ao seu ativo imobilizado.
+04
+Reporto -
+Regime Tributário para Incentivo à Modernização e à Ampliação da Estrutura Portuária
+Lei nº 11.033, de 21 de dezembro de 2004, arts. 13 a 16;
+Decreto nº 6.582, de 26 de setembro de 2008;
+Decreto nº 7.212, de 15 de junho de 2010, arts. 166 a 170;
+Instrução Normativa RFB nº 1.370, de 28 de junho de 2013.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, do IPI, do Imposto de Importação, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação, nas aquisições no mercado interno ou nas operações de importação de máquinas, equipamentos,
+Sisen
+II
+IPI
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-
+Suspensão
+peças de reposição e outros bens relacionados no Decreto nº 6.582, de 26 de setembro de 2008, quando adquiridos ou importados diretamente por pessoas jurídicas habilitadas
+Importação
+Cofins-Importação
+pela Secretaria Especial da Receita Federal do Brasil ao Reporto e destinados ao seu ativo imobilizado para utilização exclusiva na execução de serviços de carga, descarga, armazenagem e movimentação de mercadorias e produtos; sistemas suplementares de apoio operacional; proteção
+ambiental; sistemas de segurança e de monitoramento de fluxo de pessoas, mercadorias, produtos, veículos e embarcações; dragagens; e treinamento e formação de trabalhadores, inclusive na implantação de Centros de Treinamento Profissional.
+05
+Óleo Bunker
+Lei nº 11.774, de 17 de setembro de 2008, art. 2º;
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, arts. 353 a 361, 363 a 367.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, da Contribuição para o PIS/Pasep-Importação e da Cofins-Importação incidentes sobre a receita da venda no mercado interno ou da importação de óleo combustível do tipo bunker destinado à navegação de cabotagem e de apoio
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+Suspensão
+portuário e marítimo, quando adquiridos ou importados por pessoas jurídicas previamente habilitadas pela Secretaria Especial da Receita Federal do Brasil ao regime.
+06
+Produtos Farmacêuticos - CMED
+Lei nº 10.147, de 21 de dezembro de 2000, art. 3º;
+Decreto nº 3.803, de 24 de abril de 2001;
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, arts. 460 a 476.
+Crédito presumido da Contribuição para o PIS/Pasep e da Cofins para pessoas jurídicas previamente habilitadas ao regime especial pela Câmara de Regulação do Mercado de Medicamentos - CMED e pela Secretaria Especial da Receita Federal do Brasil, que procedam à industrialização ou à
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+Crédito Presumido
+importação de produtos farmacêuticos classificados na posição 30.03, exceto no código 3003.90.56, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3001.20.90, 3001.90.10, 3001.90.90, 3002.90.20, 3002.90.92, 3002.90.99,
+3005.10.10 e 3006.60.00, e na posição 30.04, exceto no código 3004.90.46, todos da Nomenclatura Comum do Mercosul - NCM.
+07
+Padis -
+Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores
+Lei nº 11.484, de 31 de maio de 2007, arts. 1º a 11;
+Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 282 e 283;
+Decreto nº 7.212, de 15 de junho de 2010, arts. 150 a 157;
+Decreto nº 10.615, de 29 de janeiro de 2021;
+Instrução Normativa RFB nº 1.976, de 18 de setembro de 2020;
+Redução a 0% (zero por cento) das alíquotas da Contribuição para o PIS/Pasep, da Cofins, do IPI, do Imposto de Importação, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação, incidentes nas aquisições no mercado interno ou nas operações de
+Sisen
+II
+IPI
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Redução de Alíquota
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, arts. 81, 292 e 644.
+importação de máquinas, aparelhos, instrumentos e equipamentos para incorporação ao ativo imobilizado, ferramentas computacionais (softwares) e insumos empregados na produção, por pessoas jurídicas previamente habilitadas pela Secretaria Especial da Receita Federal do
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+Cide
+IRPJ sobre lucro de exploração
+Brasil ao Padis, que realizem investimento em pesquisa e desenvolvimento e exerçam, em relação aos dispositivos eletrônicos semicondutores classificados nas posições 85.41 e 85.42 da Nomenclatura Comum do Mercosul - NCM, concepção, desenvolvimento e projeto, difusão,
+processamento físico-químico ou encapsulamento e teste. Serão, ainda, reduzidas a 0% (zero por cento) as alíquotas do Imposto sobre a Renda das Pessoas Jurídicas - IRPJ e da Contribuição Social sobre o Lucro Líquido - CSLL incidentes sobre o lucro da exploração e Cide destinada a financiar o
+Programa de Estímulo à Interação Universidade-Empresa para o Apoio à Inovação nas remessas destinadas ao exterior para pagamento de contratos relativos à exploração de patentes ou de uso de marcas e os de fornecimento de tecnologia e prestação de assistência técnica.
+08
+Reiq - Regime Especial da Indústria Petroquímica - Créditos
+Lei nº 10.865, de 30 de abril de 2004, art. 8º, § 23;
+Lei nº 11.196, de 21 de novembro de 2005, art. 57, 57-A e 57-C;
+Lei nº 14.374, de 21 de junho de 2022, art. 4º;
+Decreto nº 11.668, de 24 de agosto de 2023;
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, arts.
+Créditos da Contribuição para o PIS/Pasep e da Cofins calculados às alíquotas de 1,65% (um inteiro e sessenta e cinco centésimos por cento) e 7,6% (sete inteiros e seis décimos por cento), respectivamente, decorrentes de aquisição ou importação de nafta petroquímica por centrais
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+Créditos
+233, 234, 371, 372, 374, 379, 380 e 382;
+Portaria Interministerial MDIC/MF/MTE/MMA nº 28, de 16 de novembro de 2023.
+petroquímicas que apuram as contribuições no regime da não-cumulatividade; de etano, propano, butano,
+condensado e correntes gasosas de refinaria - HLR - hidrocarbonetos leves de refino por centrais petroquímicas a fim de serem utilizados como insumo na produção de eteno, propeno, buteno, butadieno, orto-xileno, benzeno, tolueno, isopreno e paraxileno; e de eteno, propeno, buteno,
+butadieno, orto-xileno, benzeno, tolueno, isopreno e paraxileno por indústrias químicas a fim de serem utilizados como insumo produtivo, e que firmem termo de compromisso no qual se comprometem a cumprir as exigências legais para usufruir o benefício fiscal.
+09
+Reiq - Regime Especial da Indústria Petroquímica - Créditos Adicionais
+Lei nº 11.196, de 21 de novembro de 2005, art. 57-D;
+Decreto nº 11.668, de 24 de agosto de 2023;
+Portaria Interministerial MDIC/MF/MTE/MMA nº 28, de 16 de novembro de 2023.
+Créditos adicionais calculados mediante a aplicação da alíquota de 0,5% (cinco décimos por cento) para a Contribuição para o PIS/Pasep e Contribuição para o PIS/Pasep-Importação e de 1% (um por cento) para a Cofins e a Cofins-Importação, sobre a base de cálculo da respectiva
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+Créditos Adicionais
+contribuição, por centrais petroquímicas e indústrias químicas que apurarem créditos na forma prevista nos arts. 57 e 57-A da Lei nº 11.196, de 21 de novembro de 2005, e que assinarem termo de compromisso de investimento em ampliação de capacidade instalada.
+10
+Sudam/ Sudene - Redução 75%
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 1º;
+Decreto nº 4.212, de 26 de abril de 2002;
+Decreto nº 4.213, de 26 de abril de 2002;
+Decreto nº 6.539, de 18 de agosto de 2008;
+Anexo do Decreto nº 9.580, de 22 de novembro de 2018, arts. 627 a
+Redução de 75% (setenta e cinco por cento) do Imposto sobre a Renda e Adicionais Calculados com Base no Lucro da Exploração para as pessoas jurídicas que tenham projeto protocolizado e aprovado até 31 de dezembro de 2028 para instalação, ampliação, modernização ou diversificação,
+Sisen
+IRPJ
+Redução de alíquota
+640 e art. 658, caput, e § 2º, inciso V;
+Decreto nº 9.682, de 4 de janeiro de 2019;
+Instrução Normativa SRF nº 267, de 23 de dezembro de 2002, arts.59 a 69.
+enquadrado em setores da economia considerados, em ato
+do Poder Executivo, prioritários para o desenvolvimento regional, nas áreas de atuação da Superintendência do Desenvolvimento do Nordeste - Sudene e da Superintendência do Desenvolvimento da Amazônia - Sudam.
+11
+Sudene -Isenção
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 1º, § 1º-A;
+Anexo do Decreto nº 9.580, de 22 de novembro de 2018, arts. 628, § 2º, 629, § 2º, 658, § 2º, V;
+Instrução Normativa SRF nº 267, de 23 de dezembro de 2002.
+Isenção do Imposto sobre a Renda e do Adicional Calculados com Base no Lucro da Exploração para as pessoas jurídicas fabricantes de máquinas, equipamentos, instrumentos e dispositivos, baseados em tecnologia digital, voltados para o programa de inclusão digital, e que tenham projeto
+Sisen
+IRPJ
+Isenção
+protocolizado e aprovado até 31 de dezembro de 2028 para
+instalação, ampliação, modernização ou diversificação, enquadrado em setores da economia considerados, em ato do Poder Executivo, prioritários para o desenvolvimento regional, nas áreas de atuação da Superintendência do Desenvolvimento do Nordeste - Sudene.
+12
+Sudam -
+Isenção
+Medida Provisória nº 2.199-14, de 24 de agosto de 2001, art. 1º, § 1º-A;
+Anexo do Decreto nº 9.580, de 22 de novembro de 2018, arts. 634, § 2º, 635, § 2º, 658, § 2º, V;
+Instrução Normativa SRF nº 267, de 23 de dezembro de 2002.
+Isenção do Imposto sobre a Renda e do Adicional Calculados com Base no Lucro da Exploração para as pessoas jurídicas fabricantes de máquinas, equipamentos, instrumentos e dispositivos, baseados em tecnologia digital, voltados para o programa de inclusão digital, e que tenham projeto
+Sisen
+IRPJ
+Isenção
+protocolizado e aprovado até 31 de dezembro de 2028 para instalação, ampliação, modernização ou diversificação,
+enquadrado em setores da economia considerados, em ato do Poder Executivo, prioritários para o desenvolvimento regional, nas áreas de atuação da Superintendência do Desenvolvimento da Amazônia - Sudam.
+13
+Subvenções para Investimentos -
+Crédito Fiscal
+Lei nº 14.789, de 29 de dezembro de 2023, arts. 1º a 17;
+Instrução Normativa RFB nº 2.170, de 29 de dezembro de 2023.
+Crédito fiscal decorrente de subvenção concedida pela União, estados, Distrito Federal ou municípios para implantação ou expansão de empreendimentos econômicos de que trata a Lei nº 14.789, de 29 de dezembro de 2023, correspondente ao produto das receitas de subvenção e da
+Sisen
+IRPJ
+CSLL
+Crédito Fiscal
+alíquota de 25% (vinte e cinco por cento) relativa ao Imposto sobre a Renda das Pessoas Jurídicas - IRPJ, recebida por pessoas jurídicas tributadas pelo lucro real e previamente habilitadas pela Secretaria Especial da Receita Federal do Brasil ao regime especial.
+14
+Programa Mais Leite Saudável -
+Habilitação Definitiva
+Lei nº 10.925, de 23 de julho de 2004, arts. 8º e 9º-A;
+Decreto nº 8.533, de 30 de setembro de 2015;
+Instrução normativa RFB nº 2.121, de 15 de dezembro de 2022, arts. 690 a 722.
+Crédito presumido da Contribuição para o PIS/Pasep e da Cofins, apurado mediante aplicação dos percentuais de 0,825% (oitocentos e vinte e cinco milésimos por cento) e 3,8% (três inteiros e oito décimos por cento), respectivamente, sobre o valor de aquisição de leite in
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Crédito Presumido
+natura utilizado como insumo na produção de produtos destinados à alimentação humana ou animal classificados nos códigos da Nomenclatura Comum do Mercosul - NCM mencionados no art. 560 da Instrução Normativa RFB nº
+2.121, de 15 de dezembro de 2022, quando adquirido por pessoas jurídicas, inclusive cooperativas, que tenham projeto aprovado para realização de investimentos destinados a auxiliar produtores rurais de leite no desenvolvimento da qualidade e da produtividade de sua
+atividade, que elaborem produtos lácteos exclusivamente a partir de leite in natura ou de derivados de lácteos, e que estejam regularmente habilitadas, provisória ou definitivamente, ao Programa Mais Leite Saudável pela Secretaria Especial da Receita Federal do Brasil.
+15
+RET Incorporações - 1% - Faixa Urbano 1 - Minha Casa, Minha Vida
+Lei nº 4.591, de 16 de dezembro de 1964, arts. 28 e 31-A a 31-F;
+Lei nº 10.931, de 2 de agosto de 2004, art. 4º, §§ 8º a 10;
+Lei nº 14.620, de 13 de julho de 2023, art. 5º, caput, inciso I, alínea "a";
+Lei nº 11.977, de 7 de julho de 2009, arts. 1º a 3º;
+Pagamento Unificado do Imposto sobre a Renda das Pessoas Jurídicas - IRPJ, da Contribuição Social sobre o Lucro Líquido - CSLL, da Contribuição para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público -Contribuição para o PIS/Pasep e da Contribuição para o
+Sisen
+CSLL
+Cofins
+Contribuição para o PIS/Pasep
+IRPJ
+Pagamento Unificado
+Decreto nº 11.439, de 17 de março de 2023;
+Instrução Normativa RFB nº 2.179, de 5 de março de 2024, art. 1º, caput, inciso II, arts. 2º, 4º-A a 12, 18 a 21, 23 a 27, art. 28, caput, inciso I, e arts. 35 a 38-C.
+Financiamento da Seguridade Social - Cofins, mediante prévia habilitação pela Secretaria Especial da Receita Federal
+do Brasil, aplicável aos projetos de incorporação de imóveis residenciais de interesse social, assim considerados aqueles destinados a famílias cuja renda se enquadre na Faixa Urbano 1, ou seja, renda bruta familiar mensal de até R$ 2.850,00 (dois mil, oitocentos e cinquenta reais),
+independentemente do valor da unidade, no âmbito do Programa Minha Casa, Minha Vida, sendo que a existência de unidades destinadas às outras faixas de renda no empreendimento não obstará a fruição do regime especial de tributação.
+16
+Empresa Cidadã
+Lei nº 11.770, de 9 de setembro de 2008;
+Anexo do Decreto nº 9.580, de 22 de novembro de 2018, art. 226, caput, inciso VII, art. 648 e art. 658, § 2º, inciso XI;
+Decreto nº 10.854, de 10 de novembro de 2021, art. 1º, caput, inciso XIV, e arts. 137 a 142;
+.
+Dedução do Imposto sobre a Renda das Pessoas Jurídicas - IRPJ devido relativa à remuneração de empregados paga no período de prorrogação de sua licença-maternidade e licença-paternidade, por pessoas jurídicas tributadas com base no lucro real que aderirem ao Programa Empresa
+Sisen
+IRPJ
+Dedução
+Instrução Normativa RFB nº 991, de 21 de janeiro de 2010
+Cidadã.
+17
+Depreciação Acelerada
+Lei nº 14.871, de 28 de maio de 2024;
+Decreto nº 12.175, de 11 de setembro de 2024;
+Portaria Interministerial MDIC/MF nº 74, de 12 de setembro de 2024;
+Portaria Interministerial MDIC/MF nº 88, de 11 de dezembro de 2024;
+Portaria GM-MDIC nº 439, de 9 de dezembro de 2024.
+Concessão de quotas diferenciadas de depreciação acelerada para máquinas, equipamentos, aparelhos e instrumentos novos destinados ao ativo imobilizado e empregados em determinadas atividades econômicas, adquiridos a partir de 13 de setembro de 2024 até 31 de
+Sisen
+IRPJ
+CSLL
+Depreciação Acelerada
+dezembro de 2025.
+18
+Câmara de Comercialização de Energia Elétrica
+Lei nº 10.637, de 30 de dezembro de 2002, art. 47;
+Decreto nº 5.163, de 30 de julho de 2004;
+Decreto nº 5.177, de 12 de agosto de 2004;
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, arts. 38, caput, inciso II, e 724 a 727.
+Dedução da base de cálculo da Contribuição para o PIS/Pasep e da Cofins por pessoas jurídicas integrantes da Câmara de Comercialização de Energia Elétrica - CCEE habilitadas pela Secretaria Especial da Receita Federal do Brasil ao regime especial de tributação, relativamente às
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Dedução
+operações do mercado de curto prazo.
+19
+Companhias Estrangeiras de Navegação Marítima e Aérea
+Decreto-Lei nº 5.844, de 23 de setembro de 1943, art. 30;
+Decreto-Lei nº 1.228, de 3 de julho de 1972, art. 1º;
+Anexo do Decreto nº 9.580, de 22 de novembro de 2018, art. 187;
+Instrução Normativa SRF nº 267, de 23 de dezembro de 2002, art. 104.
+Isenção do Imposto sobre a Renda das Pessoas Jurídicas - IRPJ incidente sobre a renda auferida por companhias estrangeiras de navegação marítima e aérea e de transporte terrestre se, no país de sua nacionalidade, as companhias brasileiras de igual objetivo gozarem da mesma prerrogativa.
+Sisen
+IRPJ
+Isenção
+20
+Retid -Regime Especial Tributário para a Indústria de Defesa
+Lei nº 12.598, de 21 de março de 2012, arts. 7º a 11;
+Decreto nº 8.122, de 16 de outubro de 2013;
+Instrução Normativa RFB nº 1.454, de 25 de fevereiro de 2014.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, do IPI, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação, na venda no mercado interno ou na importação de bens de defesa nacional definidos em ato do Ministro de Estado da Defesa;
+Sisen
+IPI
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-
+Suspensão, Isenção e
+Redução de Alíquota
+e de partes, peças, ferramentais, componentes, equipamentos, sistemas, subsistemas, insumos ou matérias-
+Importação
+Cofins-Importação
+primas a serem empregados na produção ou no desenvolvimento dos bens de defesa nacional acima mencionados, quando tais operações forem efetuadas por pessoas jurídicas previamente habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Retid. Caso a venda
+seja efetuada à União, para uso privativo das Forças Armadas, exceto para uso pessoal e administrativo, o benefício é de redução a 0% (zero por cento) das alíquotas da Contribuição para o PIS/Pasep e da Cofins, e de isenção do IPI.
+21
+Repes -Regime Especial de Tributação para a Plataforma de Exportação de Serviços de Tecnologia da Informação
+Lei nº 11.196, de 21 de novembro de 2005, arts. 1º a 11;
+Decreto nº 5.712, de 2 de março de 2006;
+Decreto nº 5.713, de 2 de março de 2006;
+Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 264 a 270;
+Decreto nº 7.212, de 15 de junho de 2010, arts. 171 a 175 e 271 a 275;
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação incidentes sobre a receita bruta decorrente da venda no mercado interno e as operações de importação de bens novos e de serviços,
+Sisen
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-Importação
+Suspensão
+Instrução Normativa SRF nº 630, de 15 de março de 2006.
+relacionados em regulamento, destinados ao
+Cofins-Importação
+desenvolvimento, no país, de softwares e de serviços de tecnologia da informação, quando adquiridos ou importados diretamente por pessoas jurídicas previamente habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Repes, para incorporação ao seu ativo imobilizado.
+22
+Repetro-Industrialização
+Lei nº 13.586, de 28 de dezembro de 2017, arts. 6º a 9º;
+Decreto nº 9.537, de 24 de outubro de 2018;
+Instrução Normativa RFB nº 1.901, de 17 de julho de 2019.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, do IPI, do Imposto de Importação, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação na aquisição no mercado interno ou na importação de matérias-primas, de produtos intermediários
+Sisen
+II
+IPI
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Suspensão
+e de materiais de embalagem para serem utilizados integralmente no processo produtivo de produto final, quando efetuadas por pessoas jurídicas habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Regime Especial de Industrialização de Bens Destinados às Atividades
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+de Exploração, de Desenvolvimento e de Produção de Petróleo, de Gás Natural e de Outros Hidrocarbonetos Fluidos - Repetro-Industrialização.
+23
+Urnas Eletrônicas
+Lei nº 9.359, de 12 de dezembro de 1996;
+Lei nº 9.643, de 26 de maio de 1998;
+Decreto nº 6.759, de 5 de fevereiro de 2009, art. 182;
+Decreto nº 7.212, de 15 de junho de 2010, art. 54, caput, inciso XXV.
+Isenção do IPI sobre bens de informática destinados à coleta eletrônica de votos, fornecidos diretamente ao Tribunal Superior Eleitoral, assim como as matérias-primas, os produtos intermediários e os materiais de embalagem, de
+Sisen
+II
+IPI
+IPI-Importação
+Isenção
+fabricação nacional, para serem utilizados na industrialização desses bens. São também isentos do II e do IPI-Importação as matérias-primas e os produtos intermediários importados para serem utilizados na industrialização desses bens e dos produtos classificados sob
+os códigos 8471.60.52, 8471.60.61, 8473.30.49, 8504.40.21 e 8534.00.00 da Nomenclatura Comum do Mercosul - NCM a eles destinados.
+24
+Regime Especial de Alíquotas Ad Rem para Produtores e Importadores de Combustíveis
+Lei nº 9.718, de 27 de novembro de 1998, art. 5º, § 4º, e arts. 6º e 7º;
+Lei nº 10.336, de 19 de dezembro de 2001, art. 14;
+Lei nº 10.865, de 30 de abril de 2004, art. 23;
+Lei nº 11.051, de 29 de dezembro de 2004, art. 10, § 1º;
+Lei nº 11.116, de 18 de maio de 2005, art. 4º;
+Aplicação de alíquotas ad rem da Contribuição para o PIS/Pasep e da Cofins incidentes sobre a receita das pessoas jurídicas produtoras e importadoras de combustíveis habilitadas ao regime especial pela Secretaria Especial da Receita Federal do Brasil.
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Alíquota ad rem
+Decreto nº 5.059, de 30 de abril de 2004;
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, arts. 337-B, § 1º, 339 a 344, 393, 405 e 412, § 2º.
+25
+Remicex -Regime de Entrega de Embalagens no Mercado Interno em Razão da Comercialização com Empresa Sediada no
+Lei nº 11.196, de 21 de novembro de 2005, art. 49;
+Decreto nº 6.127, de 18 de junho de 2007;
+Instrução Normativa RFB nº 2.121, de 15 de dezembro de 2022, arts. 24, caput, inciso XIV, e 665 a 684.
+Suspensão da exigência da Contribuição para o PIS/Pasep e da Cofins incidentes sobre as receitas auferidas por pessoas jurídicas fabricantes na venda a empresas sediadas no exterior para entrega em território nacional de material de embalagem a ser totalmente utilizado no acondicionamento
+Sisen
+Contribuição para o PIS/Pasep
+Cofins
+Suspensão
+Exterior
+de mercadoria destinada à exportação para o exterior, e sejam habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Remicex.
+26
+Renuclear -
+Regime Especial de Incentivos para o Desenvolvimento de Usinas Nucleares
+Lei nº 12.431, de 24 de junho de 2011, arts. 14 a 17;
+Decreto nº 7.832, de 29 de outubro de 2012;
+Instrução Normativa RFB nº 1.408, de 4 de novembro de 2013.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, do IPI, do Imposto de Importação, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação, no caso de vendas no mercado interno ou de importação de máquinas, aparelhos, instrumentos e
+Sisen
+II
+IPI
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Suspensão
+equipamentos, novos, e de materiais de construção para utilização ou incorporação em obras de infraestrutura no
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+setor de geração de energia elétrica de origem nuclear, destinadas ao ativo imobilizado de pessoas jurídicas que tenham projeto aprovado para implantação de tais obras, e sejam habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Renuclear.
+27
+Repenec -
+Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura da Indústria
+Lei nº 12.249, de 11 de junho de 2010, arts. 1º a 5º;
+Decreto nº 7.320, de 28 de setembro de 2010;
+Instrução Normativa RFB nº 1.074, de 1º de outubro de 2010.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, do IPI, do Imposto de Importação, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação incidentes sobre as operações definidas no art. 3º da Lei nº 12.249, de 11 de junho de 2010, quando
+Sisen
+II
+IPI
+IPI-Importação
+Cofins
+Contribuição para o PIS/Pasep
+Suspensão
+Petrolífera nas Regiões Norte, Nordeste e Centro-Oeste
+efetuadas por pessoas jurídicas que tenham projeto aprovado para implantação de obras de infraestrutura nos setores petroquímico, de refino de petróleo e de produção
+Cofins-Importação
+Contribuição para o PIS/Pasep-Importação
+de amônia e ureia a partir do gás natural, para incorporação ao seu ativo imobilizado e que sejam habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Repenec.
+28
+Repetro-Sped
+Lei nº 13.586, de 28 de dezembro de 2017, art. 5º;
+Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 372, 377, 426 e 462;
+Instrução Normativa RFB nº 1.781, de 29 de dezembro de 2017.
+Regime Tributário e Aduaneiro Especial de Utilização Econômica de Bens Destinados às Atividades de Exploração, Desenvolvimento e Produção das Jazidas de Petróleo e de Gás Natural, na Modalidade Repetro-Permanente.
+Sisen
+II
+IPI
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Suspensão
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+29
+REPNBL-Redes - Regime Especial de Tributação do Programa Nacional de Banda Larga para Implantação de Redes de
+Lei nº 12.715, de 17 de setembro de 2012, arts. 28 a 33;
+Lei nº 13.594, de 5 de janeiro de 2018, art. 1º;
+Decreto nº 7.921, de 15 de fevereiro de 2013;
+Instrução Normativa RFB nº 1.355, de 3 de maio de 2013.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins e do IPI no caso de vendas, no mercado interno, de máquinas, aparelhos, instrumentos e equipamentos novos e de materiais de construção para utilização ou incorporação nas obras civis abrangidas em projetos de implantação,
+Sisen
+IPI
+Contribuição para o PIS/Pasep
+Cofins
+Suspensão
+Telecomunicações
+ampliação ou modernização de redes de telecomunicações que suportem acesso à internet em banda larga, incluindo estações terrenas satelitais que contribuam com os objetivos de implantação do Programa Nacional de Banda Larga, projetos de titularidade de pessoas jurídicas habilitadas pela
+Secretaria Especial da Receita Federal do Brasil ao REPNBL-Redes.
+30
+Retaero -Regime Especial para a Indústria Aeronáutica Brasileira
+Lei nº 12.249, de 11 de junho de 2010, arts. 29 a 33;
+Decreto nº 7.451, de 11 de março de 2011;
+Instrução Normativa RFB nº 1.186, de 29 de agosto de 2011.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, do IPI, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação para pessoas jurídicas previamente habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Retaero, e que produzam partes,
+Sisen
+IPI
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Contribuição para o PIS/Pasep-
+Suspensão
+peças, ferramentais, componentes, equipamentos, sistemas, subsistemas, insumos e matérias-primas, ou prestem serviços, a serem empregados na manutenção, conservação,
+Importação
+Cofins-Importação
+modernização, reparo, revisão, conversão e industrialização das aeronaves classificadas na posição 88.02 da Nomenclatura Comum do Mercosul - NCM e que produzam bens ou prestem os serviços utilizados como insumo na produção das aeronaves.
+31
+Recof
+Decreto-Lei nº 37, de 18 de novembro de 1966, arts. 89 a 91;
+Lei nº 10.833, de 29 de dezembro de 2003, art. 59, § 2º, art. 63, caput, inciso I, e art. 92;
+Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 420 a 426;
+Instrução Normativa RFB nº 2.126, de 29 de dezembro de 2022.
+Regime Aduaneiro Especial de Entreposto Industrial sob Controle Aduaneiro Informatizado.
+Sisen
+II
+IPI
+Contribuição para o PIS/Pasep
+Cofins
+Suspensão
+32
+Recof Sped
+Decreto-Lei nº 37, de 18 de novembro de 1966, arts. 89 a 91;
+Lei nº 10.833, de 29 de dezembro de 2003, art. 59, § 2º, art. 63, caput, inciso I, e art. 92;
+Decreto nº 6.759, de 5 de fevereiro de 2009, arts. 420 a 426;
+Instrução Normativa RFB nº 2.126, de 29 de dezembro de 2022.
+Regime Aduaneiro Especial de Entreposto Industrial sob Controle Aduaneiro Informatizado do Sistema Público de Escrituração Digital.
+Sisen
+II
+IPI
+Contribuição para o PIS/Pasep
+Cofins
+Suspensão
+33
+Recine -
+Regime Especial de Tributação para Desenvolvimento da Atividade de Exibição
+Lei nº 12.599, de 23 de março de 2012, arts. 12 a 15;
+Decreto nº 7.729, de 25 de maio de 2012, arts. 7º a 20;
+Instrução Normativa RFB nº 1.446, de 17 de fevereiro de 2014.
+Suspensão da exigência da Contribuição para o PIS/Pasep, da Cofins, do IPI, do Imposto de Importação, da Contribuição para o PIS/Pasep-Importação, da Cofins-Importação e do IPI-Importação incidentes sobre a venda no mercado interno ou a importação de máquinas, aparelhos, instrumentos e
+Sisen
+II
+IPI
+IPI-Importação
+Contribuição para o PIS/Pasep
+Cofins
+Suspensão
+equipamentos, novos, para incorporação ao ativo
+Cinematográfica
+imobilizado e utilização em complexos de exibição ou cinemas itinerantes, bem como de materiais para sua construção, quando efetuadas por pessoas jurídicas detentoras de projeto de exibição cinematográfica, previamente credenciado e aprovado, nos termos e
+Contribuição para o PIS/Pasep-Importação
+Cofins-Importação
+condições do regulamento, que exerçam atividades relativas à implantação ou operação de complexos cinematográficos, ou à locação de equipamentos para salas de cinema, e sejam previamente habilitadas pela Secretaria Especial da Receita Federal do Brasil ao Recine.
+ANEXO VIII
+Unidades da Secretaria Especial da Receita Federal do Brasil responsáveis pela apuração e correção das informações:
+IRBI
+Unidade Responsável
+Anexos I, II e III
+Coordenação-Geral de Fiscalização - Cofis
+Anexos IV e V
+Coordenação-Geral de Administração Aduaneira - Coana
+Anexo VI e Dirbi*
+Coordenação-Geral de Gestão de Cadastros e Benefícios Fiscais - Cocad
+* Benefícios tributários constantes do Anexo Único da Instrução Normativa RFB nº 2.198, de 17 de junho de 2024.

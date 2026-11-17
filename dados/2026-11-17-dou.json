@@ -1,0 +1,198 @@
+{
+ "data": "2026-11-17",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "leiturajornal",
+   "http_status": null,
+   "erro": null,
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
+   "total": 14,
+   "itens": [
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 4.043 - SRRF04/DISIT, DE 10 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-4.043-srrf04/disit-de-10-de-novembro-de-2026-744452952",
+     "data": "2026-11-16",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "SOLUÇÃO DE CONSULTA Nº 4.043 - SRRF04/DISIT, DE 10 DE NOVEMBRO DE 2026 Assunto: Contribuição Social sobre o Lucro Líquido - CSLL BÔNUS DE ADIMPLÊNCIA FISCAL. A parcela do bônus de adimplência fiscal somente pode ser gerada em relação ao período de apuração da correspondente base de cálculo da CSLL. ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA PGFN-PGDAU-CGR/MF Nº 3.347, de 12 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-pgfn-pgdau-cgr/mf-n-3.347-de-12-de-novembro-de-2026-744419007",
+     "data": "2026-11-16",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Procuradoria-Geral da Fazenda Nacional",
+     "ementa": "PORTARIA PGFN-PGDAU-CGR/MF Nº 3.347, de 12 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE ESTRATÉGIAS DE RECUPERAÇÃO DE CRÉDITOS DA PROCURADORIA-GERAL DA FAZENDA NACIONAL, no uso das atribuições que lhe confere o art. 23, do Regimento Interno da Procuradoria-Geral da Fazenda Nacional, aprovado pela Port",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 749, DE 3 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-749-de-3-de-novembro-de-2026-744711566",
+     "data": "2026-11-16",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 749, DE 3 DE NOVEMBRO DE 2026 Altera a Portaria RFB nº 167, de 14 de abril de 2022, que autoriza o Serviço Federal de Processamento de Dados a disponibilizar acesso, para terceiros, dos dados e informações que especifica. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da ",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CNSP Nº 498, DE 13 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cnsp-n-498-de-13-de-novembro-de-2026-744711668",
+     "data": "2026-11-16",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados",
+     "ementa": "RESOLUÇÃO CNSP Nº 498, DE 13 DE NOVEMBRO DE 2026 Dispõe sobre o regime administrativo sancionador no âmbito das atividades sujeitas à supervisão pela Superintendência de Seguros Privados - Susep. A SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da atribuição que lhe confere o art. 34, inciso X",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 745, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-745-de-28-de-outubro-de-2026-744711082",
+     "data": "2026-11-16",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 745, DE 28 DE OUTUBRO DE 2026 Dispõe sobre a transparência ativa de informações relativas a incentivo, renúncia, benefício ou imunidade de natureza tributária cujo beneficiário seja pessoa jurídica e institui a Subcomissão Executiva de Transparência Ativa de Benefícios Fiscais. O SEC",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 68, de 13 de NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgccr/susep-n-68-de-13-de-novembro-de-2026-744726960",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "PORTARIA CGCCR/SUSEP nº 68, de 13 de NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE CREDENCIAMENTOS, CADASTROS E REGIMES ESPECIAIS DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria Susep nº 8.186, de 21 d",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 270, de 13 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-270-de-13-de-novembro-de-2026-744729337",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação de Normas,",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 270, de 13 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 271, de 16 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-271-de-16-de-novembro-de-2026-744745589",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 271, de 16 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência subdelegada pelo Superintendente da Susep, por meio do artigo 4º , II da Portaria nº 8.186, de 21 de julho de 2023, t",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA DIORE/SUSEP Nº 177, DE 11 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-diore/susep-n-177-de-11-de-novembro-de-2026-744732688",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta",
+     "ementa": "PORTARIA DIORE/SUSEP Nº 177, DE 11 DE NOVEMBRO DE 2026 O DIRETOR DA DIRETORIA DE ORGANIZAÇÃO DE MERCADO E REGULAÇÃO DE CONDUTA - DIORE, no uso da competência subdelegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o disposto no artigo I do art",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA DIORE/SUSEP Nº 176, DE 11 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-diore/susep-n-176-de-11-de-novembro-de-2026-744744494",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta",
+     "ementa": "PORTARIA DIORE/SUSEP Nº 176, DE 11 DE NOVEMBRO DE 2026 O DIRETOR DA DIRETORIA DE ORGANIZAÇÃO DE MERCADO E REGULAÇÃO DE CONDUTA - DIORE DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023;",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 69, de 16 de NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgccr/susep-n-69-de-16-de-novembro-de-2026-744726877",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "PORTARIA CGCCR/SUSEP nº 69, de 16 de NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE CREDENCIAMENTOS, CADASTROS E REGIMES ESPECIAIS DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria Susep nº 8.186, de 21 d",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA DIORE/SUSEP Nº 178, DE 11 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-diore/susep-n-178-de-11-de-novembro-de-2026-744744413",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta",
+     "ementa": "PORTARIA DIORE/SUSEP Nº 178, DE 11 DE NOVEMBRO DE 2026 O DIRETOR DA DIRETORIA DE ORGANIZAÇÃO DE MERCADO E REGULAÇÃO DE CONDUTA - DIORE, no uso da competência subdelegada pelo Superintendente da Susep, por meio da Portaria Susep nº 8.186, de 21 de julho de 2023, tendo em vista o disposto no inciso I ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 224, DE 11 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-224-de-11-de-novembro-de-2026-744724127",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordenação-Geral de Tributação",
+     "ementa": "SOLUÇÃO DE CONSULTA Nº 224, DE 11 DE NOVEMBRO DE 2026 Assunto: Imposto sobre a Renda Retido na Fonte - IRRF PRESTAÇÃO DE SERVIÇOS DE VACINAÇÃO E IMUNIZAÇÃO HUMANA REALIZADA POR AMBULATÓRIO A PESSOAS JURÍDICAS DE DIREITO PRIVADO. RETENÇÃO NA FONTE. INAPLICABILIDADE. Não estão sujeitas à retenção de I",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 72, de 16 de NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgccr/susep-n-72-de-16-de-novembro-de-2026-744719368",
+     "data": "2026-11-17",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "PORTARIA CGCCR/SUSEP nº 72, de 16 de NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE CREDENCIAMENTOS, CADASTROS E REGIMES ESPECIAIS DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria Susep nº 8.186, de 21 d",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 5296,
+    "forte": 1,
+    "revisar": 13,
+    "baixados": 718,
+    "falhas_download": 0,
+    "duplicados": 0,
+    "sem_edicao": [
+     "2026-11-16 DO3E: sem materias",
+     "2026-11-17 DO1E: sem materias",
+     "2026-11-17 DO3E: sem materias"
+    ],
+    "erros": []
+   }
+  }
+ ]
+}

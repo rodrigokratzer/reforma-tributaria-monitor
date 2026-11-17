@@ -1,0 +1,1067 @@
+RESOLUÇÃO CNSP Nº 498, DE 13 DE NOVEMBRO DE 2026
+Dispõe sobre o regime administrativo sancionador no âmbito das atividades sujeitas à supervisão pela Superintendência de Seguros Privados - Susep.
+A SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da atribuição que lhe confere o art. 34, inciso XI, do Decreto n° 60.459, de 13 de março de 1967, torna público que o CONSELHO NACIONAL DE SEGUROS PRIVADOS - CNSP, em sessão extraordinária realizada em 12 de novembro de 2026, tendo em vista o disposto no art. 32, incisos II e XX, no art. 36, incisos VI, VII, X, XV e XVI, nos arts. 108 a 121-E e nos arts. 127, 127-A e 128 do Decreto-Lei n° 73, de 21 de novembro de 1966; no art. 3°, §§ 1° e 2°, e no art. 4° do Decreto-Lei n° 261, de 28 de fevereiro de 1967; nos arts. 9° a 12 da Lei n° 9.613, de 3 de março de 1998; na Lei n° 9.784, de 29 de janeiro de 1999; nos arts. 65 a 67 e 74 da Lei Complementar n° 109, de 29 de maio de 2001; nos arts. 5°, 21 e 25 da Lei Complementar n° 126, de 15 de janeiro de 2007; nos arts. 18 a 28 do anexo ao Decreto n° 9.663, de 1° de janeiro de 2019; no art. 25 da Lei n° 13.810, de 8 de março de 2019; na Lei Complementar n° 213, de 15 de janeiro de 2025, e no Processo Susep n° 15414.605560/2025-27, resolve:
+CAPÍTULO I
+DISPOSIÇÕES GERAIS
+Seção I
+Disposições Preliminares
+Art. 1° Esta Resolução dispõe sobre o regime administrativo sancionador para apuração e repressão de condutas que violem normas legais e infralegais relacionadas às atividades sujeitas à supervisão pela Superintendência de Seguros Privados - Susep.
+Parágrafo único. O regime administrativo sancionador de que trata o caput compreende:
+I - a tipificação das condutas que caracterizam infração administrativa;
+II - as sanções aplicáveis pelo cometimento de infrações e os critérios de dosimetria;
+III - o inquérito administrativo;
+IV - o rito do processo administrativo sancionador;
+V - as normas para a celebração de termo de compromisso; e
+VI - a adoção de medidas acautelatórias.
+Art. 2° Aplica-se o disposto nesta Resolução à apuração e à repressão de infrações às normas legais e infralegais cujo cumprimento seja supervisionado pela Susep, notadamente quanto às atividades de:
+I - seguro, cosseguro, resseguro, retrocessão, capitalização e previdência complementar aberta;
+II - proteção patrimonial mutualista;
+III - intermediação;
+IV - estipulação;
+V - autorregulação do mercado de corretagem;
+VI - auditoria independente;
+VII - direção fiscal, intervenção e liquidação;
+VIII - registro de operações; e
+IX - Sistema de Seguros Aberto (Open Insurance) e suas transações.
+§ 1° Esta Resolução também se aplica às pessoas naturais e jurídicas que atuem nas atividades previstas no caput sem o devido cadastro, registro, credenciamento ou autorização da Susep, quando exigido.
+§ 2° Esta Resolução não se aplica ao inquérito ou ao processo destinado a apurar as causas da decretação de regime especial.
+§ 3° Nas situações em que, no curso de inquérito destinado a apurar causas e responsabilidades pela situação que conduziu à decretação de regime especial em entidade supervisionada, forem verificados indícios de prática de infração administrativa de que trata esta Resolução, poderá ser instaurado o competente inquérito ou processo administrativo sancionador, conforme o caso, juntando-se a documentação que evidencie a materialidade e autoria da irregularidade.
+§ 4° Para fins desta Resolução, considera-se intermediação a atividade de angariação, promoção, intermediação ou distribuição de produtos de seguros, de capitalização, de previdência complementar aberta, de proteção patrimonial mutualista ou de contratos de resseguro ou retrocessão, tais como aquelas desenvolvidas por corretor de resseguros, corretor de seguros, representante de seguros, promotor ou distribuidor de título de capitalização, intermediário ou consultor de proteção patrimonial mutualista ou por outros executores das atividades mencionadas neste parágrafo.
+Art. 3° O regime administrativo sancionador de que trata esta Resolução observará os princípios da legalidade, da finalidade, da motivação, da razoabilidade, da proporcionalidade, da moralidade, da ampla defesa, do contraditório, da culpabilidade, da presunção de inocência, do devido processo legal, da segurança jurídica, da celeridade, da economia processual, do interesse público, da impessoalidade, da eficiência e da publicidade.
+Parágrafo único. Nos procedimentos de que trata esta Resolução, a Susep atuará visando atender os objetivos das políticas de seguros privados, de resseguros, de capitalização, de previdência complementar aberta e de proteção patrimonial mutualista, além de estimular ações e procedimentos de combate a ilícitos administrativos e penais.
+Art. 4° Constituem bens jurídicos tutelados todos os protegidos pelas normas vigentes cujo cumprimento caiba à Susep supervisionar, em especial:
+I - a estabilidade, a solidez, a liquidez e o regular funcionamento dos mercados por ela supervisionados;
+II - a solvência e a liquidez das instituições sob sua supervisão;
+III - a adequada constituição, cobertura, vinculação, movimentação e integridade das reservas técnicas, dos fundos, das provisões e dos respectivos ativos garantidores;
+IV - o regular funcionamento e a regular atuação das pessoas supervisionadas pela Susep, inclusive quanto à adequada governança, à gestão de riscos, à sustentabilidade socioambiental e climática e à manutenção do sistema de controles internos;
+V - a proteção e a defesa dos clientes dos mercados supervisionados, inclusive mediante a adequação dos produtos e serviços às suas necessidades e interesses, o tratamento não discriminatório e o acesso a informações claras e completas sobre as condições dos produtos e da prestação dos serviços;
+VI - o adequado relacionamento das instituições supervisionadas com seus clientes, segurados, participantes, beneficiários e usuários de seus produtos e serviços;
+VII - a integridade, a fidedignidade e a tempestividade das informações e dos registros exigidos pela regulação;
+VIII - a prevenção da utilização dos mercados supervisionados para a prática de ilícitos administrativos e penais;
+IX - a expansão dos mercados supervisionados pela Susep e a sua integração no processo econômico e social do País;
+X - o equilíbrio do balanço dos resultados do intercâmbio de negócios com o exterior;
+XI - a coordenação das políticas dos mercados supervisionados com as políticas de investimentos, monetária, creditícia e fiscal; e
+XII - a confiança nos mercados supervisionados.
+Art. 5° As denúncias realizadas por agentes externos deverão ser recebidas, processadas e analisadas pela Susep.
+§ 1° Recebida a denúncia, a Susep atuará visando, entre outros objetivos, a proteção dos direitos dos consumidores, a transparência e a integridade das relações contratuais e o estímulo a ações e procedimentos de combate à fraude.
+§ 2° Constatada a necessidade de abertura de processo administrativo sancionador, este deverá ser iniciado por meio de representação, nos termos desta Resolução.
+§ 3° Não se considera denúncia a reclamação individualizada em face de ente supervisionado decorrente de relação contratual, conforme definido pela Susep.
+§ 4° A Susep monitorará periodicamente os dados de reclamações, em especial as formuladas pelos consumidores na defesa de seus direitos, em conjunto com outros dados relativos aos mercados supervisionados, para subsidiar a elaboração de indicadores, o aprimoramento da regulação e a definição de ações de supervisão baseadas em risco e as ações de educação financeira, entre outras finalidades.
+§ 5° O monitoramento de que trata o § 4° poderá ensejar a lavratura de representação, caso sejam identificados indícios de infração administrativa, nos termos desta Resolução.
+§ 6° Os elementos mínimos da denúncia e os procedimentos para o seu tratamento, bem como os procedimentos relativos ao tratamento de reclamações e o rito especial aplicável às reclamações de consumidores na defesa de seus direitos, serão definidos em regulamentação da Susep.
+Seção II
+Atos do Processo
+Art. 6° Os processos administrativos de que trata esta Resolução tramitarão em meio eletrônico, conforme a regulamentação da Susep.
+Art. 7° Os atos processuais serão formalizados, comunicados e transmitidos preferencialmente em meio eletrônico, observado o disposto na legislação e na regulamentação específica da Susep.
+Art. 8° Ressalvada a hipótese de sigilo necessário à elucidação dos fatos ou exigido pelo interesse público no inquérito administrativo, é assegurado aos interessados, inclusive por meio de seus representantes legais e procuradores, observado o disposto no art. 59, o acesso contínuo e permanente aos autos dos processos de que trata esta Resolução, mediante prévio cadastro em sistema eletrônico, na forma estabelecida em regulamentação da Susep.
+§ 1° Consideram-se interessados, para efeitos desta Resolução, aqueles que tiverem direitos ou interesses que possam ser afetados pela decisão a ser adotada, incluindo os investigados, intimados, citados, autuados, representados, acusados e responsáveis solidários.
+§ 2° As pessoas de que trata o caput deverão manter atualizados no cadastro e no processo seus endereços, físico e eletrônico, e números de telefones.
+§ 3° As pessoas mencionadas no caput têm o dever de preservar a confidencialidade das informações legalmente protegidas constantes no processo, sendo vedada a sua divulgação ou utilização para finalidade estranha ao exercício dos direitos processuais, sob pena de responsabilização administrativa, civil e penal.
+Art. 9° Observada a hipótese do sigilo necessário à elucidação dos fatos ou exigido pelo interesse público no inquérito administrativo, o interessado, inclusive por meio de seus representantes legais e procuradores, poderá solicitar certidão de peças e atos constantes do processo.
+§ 1° O requerimento será formulado nos próprios autos.
+§ 2° Na certidão sobre o objeto e a situação do processo constará informação positiva ou negativa sobre o trânsito em julgado na via administrativa e, se for o caso, sobre a decisão proferida.
+§ 3° A existência de informações de acesso restrito em virtude de sigilo legal não impedirá o fornecimento de certidões, desde que seja possível preservar o conteúdo sigiloso das informações.
+§ 4° A Susep deverá fornecer a certidão no prazo improrrogável de quinze dias, contados da data de protocolo do pedido.
+§ 5° Haverá manifestação prévia da Procuradoria Federal junto à Susep sobre o fornecimento de certidões quando:
+I - os autos do processo estiverem na Procuradoria, podendo a certidão, neste caso, ser expedida por este órgão;
+II - o solicitante for órgão do Poder Judiciário, do Ministério Público ou da Polícia Judiciária;
+III - a certidão tiver por finalidade fazer prova em juízo e a Susep for parte na ação em curso ou a ser proposta; ou
+IV - se tratar de inquérito administrativo qualificado como sigiloso.
+Seção III
+Comunicação dos Atos Processuais
+Art. 10. A citação, expedida para cientificar o acusado das irregularidades a ele imputadas em processo administrativo sancionador e para facultar-lhe o exercício do direito ao contraditório e à ampla defesa, conterá:
+I - a identificação do acusado e, quando for o caso, dos responsáveis solidários;
+II - a descrição do fato ou ato constitutivo da infração;
+III - os dispositivos legais ou regulamentares infringidos e os que cominam as sanções;
+IV - o prazo para apresentação de defesa, com a informação sobre a continuidade do processo, independentemente de comparecimento do acusado aos autos;
+V - o número do processo eletrônico e as orientações para o seu acesso;
+VI - o aviso de que é dever do acusado, de seus representantes legais ou de seus procuradores, cadastrarem-se no sistema de processo eletrônico para fins de acesso aos autos e posterior acompanhamento processual;
+VII - o aviso de que as intimações dos atos processuais serão efetivadas conforme art.13; e
+VIII - quando cabível, o aviso de que a celebração de termo de compromisso poderá ser proposta à Susep até o início do julgamento de primeira instância.
+§ 1° Quando for o caso, a citação, com os elementos constantes nos incisos do caput, também será expedida aos responsáveis solidários para cientificá-los das irregularidades imputadas ao acusado e de sua responsabilidade solidária, caso haja aplicação de penalidade de multa, e para facultar-lhes o exercício do direito ao contraditório e à ampla defesa.
+§ 2° A citação constará do auto de infração ou será acompanhada de cópia da representação.
+Art. 11. As citações expedidas em processo administrativo sancionador poderão ser realizadas:
+I - ordinariamente, por meio eletrônico, na forma regulamentada pela Susep;
+II - por via postal, comprovando-se sua entrega pelo aviso de recebimento - AR ou documento similar, com a mesma finalidade, emitido pelo serviço postal, no endereço constante nos registros da Susep, em caso de pessoa submetida a sua supervisão, ou nos registros da Receita Federal do Brasil, nos demais casos;
+III - pela ciência aposta pelo citado, seu representante legal, preposto ou procurador com poderes específicos, em razão de comparecimento espontâneo no processo;
+IV - pessoalmente, nos casos de citação em auto de infração, comprovando-se pelo "ciente" do citado, seu representante legal, preposto ou procurador com poderes específicos ou, no caso de recusa de aposição de assinatura por quaisquer desses, pela certidão do servidor que proceder à citação; ou
+V - por edital publicado, uma única vez, no Diário Oficial da União - DOU, se frustradas as tentativas por meio eletrônico ou por via postal.
+Parágrafo único. O disposto neste artigo aplica-se também à primeira intimação eventualmente expedida pela Susep em procedimento anterior à instauração de processo administrativo sancionador.
+Art. 12. A intimação, ato pelo qual se dá ciência ao intimado das exigências formuladas, da necessidade de prática de atos processuais e das decisões da Susep, conterá:
+I - a identificação do intimado;
+II - o número do processo;
+III - a finalidade da intimação;
+IV - as orientações para acesso ao processo eletrônico;
+V - a indicação do prazo para o cumprimento da diligência ou para a prática do ato processual, quando cabível, com a informação sobre a continuidade do processo, independentemente de resposta; e
+VI - o conteúdo ou cópia da decisão, quando for o caso.
+Art. 13. A intimação posterior à citação realizada em processo administrativo sancionador ou após a primeira intimação eventualmente realizada em procedimento anterior à sua instauração será efetuada por meio eletrônico ou mediante divulgação do ato no sítio eletrônico da Susep, conforme sua regulamentação complementar.
+Art. 14. Constitui responsabilidade do interessado, inclusive por meio de seus representantes legais e procuradores, o acompanhamento regular da divulgação dos atos processuais e do andamento do processo, inclusive mediante consulta ao sítio eletrônico da Susep.
+Seção IV
+Prazos
+Art. 15. Os prazos serão contados em dias corridos, excluído o dia do início e incluído o dia do vencimento.
+§ 1° O termo inicial e o termo final de contagem dos prazos são automaticamente postergados para o primeiro dia útil subsequente, se caírem em sábados, domingos ou feriados nacionais, ou quando houver instabilidade ou indisponibilidade no sistema de processo eletrônico.
+§ 2° Nos processos sancionadores instaurados em desfavor de múltiplos acusados, o prazo para manifestação nos autos será comum, contado a partir da efetivação da última citação ou intimação.
+§ 3° Ocorrerá a preclusão se o citado ou intimado, no prazo fixado, não exercer o seu direito, não praticar o ato processual ou não cumprir a exigência que lhe foi formulada.
+§ 4° Salvo motivo de força maior devidamente comprovado, os prazos processuais não se suspendem.
+Art. 16. Observado o disposto no art. 15, o prazo terá início na data da efetivação da citação ou da intimação, considerado como termo inicial, conforme o caso:
+I - a data do recebimento da citação postal no endereço do destinatário;
+II - a data da ciência aposta pelo citado ou intimado, seu representante legal, preposto ou procurador no processo ou no auto de infração;
+III - a data da certidão do servidor que proceder à citação em auto de infração sobre a recusa de aposição de assinatura pelo citado, seu representante legal, preposto ou procurador com poderes específicos;
+IV - a data da disponibilização do ato no sítio eletrônico da Susep; ou
+V - a data da publicação do edital no DOU.
+Parágrafo único. Quando a citação ou a intimação forem realizadas por meio eletrônico, o início do prazo se dará na forma disciplinada em regulamentação da Susep.
+Seção V
+Nulidades
+Art. 17. São nulos:
+I - os atos praticados por servidor ou órgão incompetente;
+II - os atos praticados e as decisões proferidas com prejuízo ao direito de defesa;
+III - as decisões não fundamentadas; e
+IV - o auto de infração ou a representação que não contenha elementos suficientes para identificar a infração e o infrator.
+Art. 18. A nulidade será declarada e justificada nos autos, unicamente se não for possível suprir a falta pela repetição, convalidação, retificação ou complementação do ato.
+Art. 19. As irregularidades, incorreções e omissões que possam ser sanadas, sem cerceamento do direito de defesa, não importarão em nulidade.
+Art. 20. A nulidade de qualquer ato só prejudica os posteriores que dele diretamente dependam ou os atos que dele sejam consequência.
+Art. 21. A nulidade será declarada de ofício ou a requerimento do interessado, pelo chefe da unidade competente da Susep pela prática do ato ou pelo seu Conselho Diretor.
+Parágrafo único. A autoridade que declarar a nulidade deve mencionar a que atos ela se estende, determinando, se for o caso, a repetição dos atos nulos e a convalidação, retificação ou complementação dos demais.
+Art. 22. A nulidade não aproveita àquele que lhe houver dado causa.
+CAPÍTULO II
+INQUÉRITO ADMINISTRATIVO
+Art. 23. O inquérito administrativo é o procedimento investigatório de natureza inquisitorial, que poderá ser instaurado pela Susep quando, a partir da análise da denúncia ou do exercício da sua atividade de supervisão, não puderem ser constatados elementos suficientes sobre a autoria ou a materialidade de infrações administrativas.
+Art. 24. Durante o inquérito administrativo, será assegurado o sigilo necessário à elucidação dos fatos ou exigido pelo interesse público.
+§ 1° Quando o interesse público exigir, a Susep poderá, mediante decisão fundamentada, divulgar a instauração do inquérito administrativo.
+§ 2° Ressalvada a hipótese de sigilo a que se refere o caput, a Susep dará ciência sobre a tramitação do inquérito administrativo ao investigado, que poderá acompanhá-lo, oferecer documentos e indicar diligências.
+§ 3° Encerrado o inquérito administrativo com decisão pela abertura de processo administrativo sancionador, os autos do primeiro deverão ser integralmente anexados ao segundo.
+§ 4° Caso não existam elementos para abertura de processo administrativo sancionador, o investigado será notificado do encerramento do inquérito administrativo e poderá solicitar acesso aos autos.
+Art. 25. O inquérito administrativo será instaurado a partir de proposta fundamentada da unidade da Susep responsável pela supervisão da matéria.
+Art. 26. A decisão de instauração de inquérito administrativo deverá delimitar o seu objeto e indicar, sempre que possível:
+I - os atos ou fatos, em tese, caracterizados como infração administrativa ou indícios de infração a dispositivos disciplinadores das atividades supervisionadas pela Susep;
+II - as pessoas naturais ou jurídicas envolvidas, sejam ou não supervisionadas;
+III - as datas ou os períodos de ocorrência dos atos ou fatos que serão apurados;
+IV - as normas legais ou infralegais em princípio infringidas;
+V - as penalidades passíveis de serem aplicadas;
+VI - outras circunstâncias relevantes porventura relacionadas com os atos ou fatos que serão apurados;
+VII - os indícios ou as comprovações da materialidade, da autoria e da responsabilidade já obtidas;
+VIII - as apurações pretendidas;
+IX - a justificativa da necessidade de investigação administrativa complementar e específica em sede de inquérito administrativo;
+X - a gravidade dos atos ou fatos descritos na proposição; e
+XI - a necessidade de priorização da investigação administrativa, quando for o caso.
+Art. 27. A autoridade instauradora constituirá, na portaria de instauração, a comissão de inquérito que ficará responsável pela condução dos trabalhos.
+Parágrafo único. A comissão de inquérito será composta por dois ou mais servidores da Susep, considerando a quantidade de investigados, a complexidade probatória ou o elevado impacto no mercado supervisionado.
+Art. 28. No inquérito administrativo, a Susep poderá requerer esclarecimentos e documentos necessários à apuração dos fatos.
+Art. 29. O procedimento deve ser encerrado no prazo de cento e vinte dias, contados da assinatura da portaria de instauração ou da sua publicação, quando aplicável e poderá ser prorrogado, fundamentadamente, por decisão da autoridade instauradora.
+Art. 30. Concluído o inquérito administrativo, a comissão de inquérito elaborará relatório final, com proposta fundamentada de:
+I - não instauração de processo administrativo sancionador:
+a) se constatar alguma causa extintiva de punibilidade ou de culpabilidade ou se considerar insuficientes ou insubsistentes os indícios de infração administrativa, ocasião em que relatará os fatos relevantes apurados e os atos praticados; ou
+b) quando se tratar de baixa lesão ao bem jurídico tutelado, nos termos do art. 42; ou
+II - instauração do processo administrativo sancionador, se constatados indícios de materialidade e de autoria de infração administrativa, com a citação dos acusados e dos responsáveis solidários, quando for o caso.
+§ 1° Na hipótese de que trata o inciso I do caput, a unidade da Susep responsável pela supervisão da matéria poderá propor à autoridade instauradora o desarquivamento do inquérito, o que não impedirá novas apurações se surgirem novos fatos ou provas.
+§ 2° Na hipótese de instauração do processo administrativo sancionador, de que trata o inciso II do caput, e caracterizada a urgência ou o interesse público, o relatório poderá propor medidas acautelatórias administrativas ou judiciais, bem como o encaminhamento de comunicação ao Ministério Público ou a outros órgãos da Administração Pública.
+Art. 31. Caso o investigado tenha sido notificado da instauração de inquérito administrativo ou intimado para apresentar documentos ou prestar esclarecimentos, será ele informado do arquivamento do inquérito.
+CAPÍTULO III
+MEDIDAS ACAUTELATÓRIAS
+Art. 32. A medida acautelatória consiste em instrumento de natureza impositiva e urgente, aplicado pela Susep e destinado a cessar, de forma cautelar, condutas ou situações que representem risco relevante ou iminente a bem jurídico tutelado pela legislação.
+Art. 33. Antes da instauração ou durante a tramitação do processo administrativo sancionador, quando estiverem presentes os requisitos de verossimilhança das alegações e do perigo de demora, o Conselho Diretor da Susep poderá, desde que de forma motivada, cautelarmente:
+I - determinar o afastamento de administradores e de membros da diretoria, do conselho de administração, do conselho fiscal, do comitê de auditoria ou de outros órgãos previstos no estatuto ou no contrato social das instituições operadoras dos mercados supervisionados;
+II - impedir que o investigado atue, em nome próprio ou na condição de mandatário ou preposto, como administrador ou como membro da diretoria, do conselho de administração, do conselho fiscal, do comitê de auditoria ou de outros órgãos previstos no estatuto ou no contrato social das instituições operadoras dos mercados supervisionados;
+III - suspender o registro ou a autorização de operações, de produtos e de serviços;
+IV - suspender o credenciamento, o cadastro, o registro e a autorização de pessoas naturais e jurídicas;
+V - impor aos participantes dos mercados supervisionados, sob cominação de multa, restrições ou vedações à prática de atos que especificar, que sejam considerados pela Susep como prejudiciais ao regular funcionamento desses mercados, sem prejuízo da aplicação das penalidades previstas nesta Resolução decorrentes de processo administrativo sancionador;
+VI - determinar à entidade supervisionada a substituição do auditor independente ou da sociedade responsável pela auditoria contábil ou atuarial;
+VII - determinar, sob cominação de multa, a interrupção do funcionamento ou das atividades, conforme o caso, das pessoas que realizem operações nos mercados supervisionados sem autorização da Susep, sem prejuízo da aplicação das penalidades previstas nesta Resolução decorrentes de processo administrativo sancionador;
+VIII - adotar quaisquer outras providências acautelatórias que entender necessárias para proteção a bem jurídico tutelado pela legislação em vigor; e
+IX - divulgar comunicados ou recomendações para esclarecer ou orientar os clientes e as instituições operadoras dos mercados supervisionados.
+Art. 34. A decisão que aplicar a medida acautelatória deverá conter:
+I - o relato dos fatos que motivaram a sua aplicação;
+II - a qualificação das pessoas naturais e jurídicas sujeitas à medida;
+III - os fundamentos de fato e de direito, com a demonstração do risco previsto no art. 32 e dos requisitos previstos no caput do art. 33;
+IV - o dispositivo legal que ampara a aplicação da medida;
+V - o prazo para o seu cumprimento; e
+VI - o valor da multa cominatória, prevista no art. 88-P do Decreto-Lei n° 73, de 21 de novembro de 1966, em caso de atraso ou descumprimento da medida.
+Art. 35. A intimação da aplicação da medida acautelatória será dirigida às pessoas naturais e jurídicas a ela sujeitas.
+Parágrafo único. Quando o cumprimento da medida acautelatória depender de ato comissivo ou omissivo de pessoa natural, a ela também será cabível a imposição de multa cominatória, independentemente daquela cominada à instituição operadora dos mercados supervisionados.
+Art. 36. A decisão que aplicar qualquer medida acautelatória será publicada no DOU e no sítio eletrônico da Susep.
+Parágrafo único. O Conselho Diretor da Susep poderá, fundamentadamente, decidir que não seja publicada a medida acautelatória, se verificar que a publicação pode acarretar risco a bem jurídico tutelado pela legislação.
+Art. 37. As medidas acautelatórias determinadas antes da instauração de um processo administrativo sancionador:
+I - conservarão a sua eficácia até que a decisão de primeira instância do processo administrativo sancionador comece a produzir efeitos, desde que o processo administrativo sancionador seja instaurado no prazo de noventa dias, contado da data da intimação da decisão cautelar;
+II - perderão automaticamente sua eficácia, caso o processo administrativo sancionador não seja instaurado no prazo previsto no inciso I do caput, hipótese na qual não poderão ser novamente aplicadas se não forem modificadas as circunstâncias de fato que as determinaram; e
+III - em qualquer caso, poderão ser revistas, de ofício ou a requerimento do interessado, se cessarem as circunstâncias que as determinaram.
+Art. 38. No prazo de dez dias, contado do recebimento da intimação de que trata o art. 35, o interessado poderá oferecer impugnação à decisão acautelatória, sem efeito suspensivo, a ser apreciada pelo Conselho Diretor da Susep.
+Parágrafo único. Havendo justo receio de prejuízo de difícil ou incerta reparação decorrente da execução de medida acautelatória, o Conselho Diretor da Susep poderá receber o pedido de impugnação com efeito suspensivo.
+Art. 39. Os processos administrativos sancionadores que forem objeto de medida acautelatória terão prioridade de tramitação até o julgamento final em segunda instância e seus julgamentos em primeira instância deverão ser confirmados pelo Conselho Diretor da Susep.
+CAPÍTULO IV
+PROCESSO ADMINISTRATIVO SANCIONADOR
+Seção I
+Disposições Preliminares
+Art. 40. O processo administrativo sancionador tem por finalidade apurar a ocorrência e, se for o caso, impor as sanções cabíveis aos responsáveis por infração às normas legais e infralegais de que trata o art. 2°.
+Art. 41. Na apuração de infrações, a Susep deverá avaliar, no caso concreto, o grau da lesão ao bem jurídico tutelado, considerando os seguintes critérios:
+I - a natureza e a gravidade da conduta irregular;
+II - o alcance, a relevância e a repercussão da conduta;
+III - a duração da conduta;
+IV - a reiteração da conduta irregular;
+V - a expressividade dos valores relacionados à conduta irregular ou dos prejuízos causados aos clientes, aos mecanismos de supervisão ou à Administração Pública; e
+VI - se cabível, a constatação do restabelecimento da conformidade normativa, do ressarcimento realizado aos prejudicados ou da correção da suposta irregularidade, ainda que após determinação da Susep para fazê-lo.
+Art. 42. Caso considere baixa a lesão ao bem jurídico tutelado, a Susep, observado o disposto no art. 44:
+I - deixará de instaurar o processo administrativo sancionador;
+II - manterá registro da ocorrência; e
+III - se entender efetivo, expedirá ofício de alerta à supervisionada ou, ainda, poderá utilizar outro instrumento ou medida de supervisão objetivando a prevenção, regularização ou correção da conduta ou da situação considerada irregular.
+§ 1° O ofício de alerta de que trata o caput destina-se a:
+I - cientificar a supervisionada sobre a constatação da conduta supostamente irregular; e
+II - determinar a cessação definitiva da prática da referida conduta e, se for o caso, a correção dos seus efeitos, em prazo razoável para tanto.
+§ 2° A comprovação do recebimento do ofício de alerta constitui ciência inequívoca da supervisionada acerca do seu teor.
+§ 3° A pessoa jurídica supervisionada deverá manter registro e considerar os ofícios de alerta recebidos em suas atividades de controles internos e de gestão de riscos.
+§ 4° A não cessação da prática da conduta ou a não correção dos seus efeitos no prazo assinalado pela Susep afasta a caracterização de baixa lesão ao bem jurídico tutelado e será considerada circunstância agravante em eventual dosimetria de sanção no processo administrativo sancionador correspondente.
+Art. 43. Nos casos não enquadrados no art. 42, a Susep, observando o disposto no art. 44 e considerando os princípios da finalidade, da proporcionalidade, da razoabilidade e da eficiência, poderá:
+I - preferencialmente e se cabível, utilizar instrumento ou medida de supervisão objetivando a prevenção, regularização ou correção da conduta ou da situação considerada irregular, devendo, a partir dos resultados intermediários ou finais obtidos com a sua aplicação, reavaliar o grau da lesão ao bem jurídico tutelado com base nos critérios do art. 41 para, então, decidir pela instauração, ou não, do processo administrativo sancionador;
+II - justificadamente, utilizar instrumento ou medida de supervisão objetivando a prevenção, regularização ou correção da conduta ou da situação considerada irregular e, concomitantemente, instaurar o processo administrativo sancionador, se julgar que tal atuação se mostra mais efetiva no caso concreto; ou
+III - subsidiariamente, instaurar apenas o processo administrativo sancionador, caso não seja cabível a utilização de outros instrumentos ou medidas de supervisão.
+§ 1° As situações previstas nos incisos II e III do caput deverão ser justificadas no auto de infração ou na representação.
+§ 2° Na aplicação de medida acautelatória e na instauração do respectivo processo administrativo sancionador, a Susep fica dispensada de utilizar antecipadamente outros instrumentos ou medidas de supervisão, bem como de aguardar os resultados intermediários ou finais da sua utilização.
+Art. 44. O processo administrativo sancionador deverá ser obrigatoriamente instaurado quando:
+I - o acusado não tiver cessado a prática da conduta ou não tiver corrigido os seus efeitos no prazo assinalado pela Susep em ofício de alerta ou em outro instrumento ou medida de supervisão;
+II - o acusado tiver descumprido termo de compromisso celebrado com a Susep nos cinco anos anteriores à prática da conduta supostamente irregular;
+III - o acusado tiver sido condenado por infração grave, com trânsito em julgado, em três ou mais processos administrativos sancionadores, nos três anos anteriores à prática da conduta supostamente irregular;
+IV - a conduta for passível de tipificação como crime;
+V - se tratar de infrações previstas nos arts. 126 a 132; ou
+VI - a infração envolver lesão a recursos públicos ou de natureza pública.
+Seção II
+Rito Processual
+Subseção I
+Início e Tramitação do Processo
+Art. 45. O processo administrativo sancionador será iniciado por meio de auto de infração ou de representação.
+Art. 46. Os processos administrativos sancionadores tramitarão:
+I - em primeira instância no âmbito da Susep; e
+II - em segunda e última instância:
+a) no âmbito do Conselho de Recursos do Sistema Financeiro Nacional - CRSFN, para os casos de penalidades aplicadas por infrações aos arts. 10 e 11 da Lei n° 9.613, de 3 de março de 1998; e
+b)no âmbito do Conselho de Recursos do Sistema Nacional de Seguros Privados, de Previdência Privada Aberta e de Capitalização - CRSNSP, para os demais casos.
+Auto de infração
+Art. 47. Será lavrado auto de infração quando constatada a existência de indícios de materialidade e autoria de infração administrativa durante as atividades de fiscalização presencial, observado o disposto nos arts. 41 a 44.
+Art. 48. A lavratura do auto de infração incumbe, privativamente, aos servidores que tenham competência para as atividades de fiscalização presencial.
+Art. 49. O auto de infração conterá, sempre que possível, os seguintes elementos:
+I - qualificação dos autuados e, sendo o caso, dos responsáveis solidários;
+II - descrição circunstanciada do fato ou do ato constitutivo da suposta infração, com a indicação da data da sua caracterização;
+III - análise de materialidade e autoria da suposta infração, com a individualização da conduta atribuída a cada acusado, a indicação dos elementos de prova correspondentes e, se for o caso, a indicação dos elementos de culpabilidade de cada pessoa natural acusada;
+IV - indicação do dispositivo legal ou infralegal supostamente infringido;
+V - indicação das bases legais ou infralegais das penalidades aplicáveis;
+VI - indicação dos elementos materiais de prova da suposta infração;
+VII - as circunstâncias administrativas, agravantes, atenuantes e as reincidências apuradas até o momento da lavratura do auto de infração;
+VIII - avaliação da lesão ao bem jurídico tutelado;
+IX - indicação dos resultados obtidos com a utilização de outros instrumentos ou medidas de supervisão, quando cabível;
+X - se for o caso, a fundamentação sobre a efetividade da utilização simultânea ou sobre o não cabimento da utilização de outros instrumentos ou medidas de supervisão;
+XI - número do processo eletrônico e orientações para o seu acesso;
+XII - prazo para apresentação de defesa, com a informação sobre a continuidade do processo, independentemente de comparecimento do acusado aos autos;
+XIII - aviso de que é dever do acusado, de seus representantes legais ou de seus procuradores, cadastrarem-se no sistema de processo eletrônico para fins de acesso aos autos e posterior acompanhamento processual;
+XIV - aviso de que as intimações dos atos processuais serão efetivadas nos termos do art. 13;
+XV - quando cabível, o aviso de que a celebração de termo de compromisso poderá ser proposta à Susep até o início do julgamento de primeira instância;
+XVI - local, data e hora da lavratura; e
+XVII - assinatura do autuante, com a indicação do seu nome por extenso, cargo ou função e o número da matrícula.
+§ 1° O auto de infração será lavrado eletronicamente, numerado em série e elaborado de forma clara e precisa.
+§ 2° Lavrado o auto de infração durante a atividade de fiscalização presencial:
+I - será colhida a ciência do autuado e, sendo o caso, do responsável solidário, diretamente ou por meio de seus representantes legais, prepostos ou procuradores com poderes específicos pela aposição de assinatura no auto de infração;
+II - eventual recusa será certificada pelo servidor autuante e gerará presunção de veracidade quanto à ciência do ato e de seu conteúdo; e
+III - será fornecida ao autuado e, sendo o caso, aos responsáveis solidários, ou ao representante legal, preposto ou procurador com poderes específicos, cópia do auto de infração, que produzirá os efeitos da citação pessoal, conforme o inciso IV do art. 11.
+Art. 50. Para infrações de naturezas diversas poderão ser lavrados um ou mais autos de infração.
+Parágrafo único. Quando os ilícitos decorrerem do mesmo fato e a sua comprovação depender dos mesmos elementos de convicção, será lavrado apenas um auto de infração.
+Art. 51. Havendo apreensão de documentos durante a atividade de fiscalização presencial, será lavrado o respectivo auto de apreensão, que conterá os seguintes elementos:
+I - a qualificação do autuado;
+II - o local, a data e a hora da lavratura;
+III - as razões e os fundamentos da apreensão;
+IV - a quantidade e a descrição dos documentos, de modo que possam ser identificados;
+V - a indicação do local em que ficarão depositados os documentos apreendidos;
+VI - o número do auto de apreensão e o recibo de sua lavratura e entrega; e
+VII - a assinatura do autuante, a indicação do seu nome por extenso, cargo ou função e número da matrícula.
+Parágrafo único. Lavrado o auto de apreensão, será colhida a ciência do autuado, diretamente ou por meio de seu representante legal ou de seu preposto, pela aposição de assinatura no auto de apreensão, sendo que eventual recusa será certificada pelo servidor autuante e gerará presunção de veracidade quanto à ciência do ato e de seu conteúdo.
+Art. 52. O auto de apreensão será preferencialmente lavrado na forma eletrônica, numerado em série, elaborado de forma clara e precisa, sendo uma cópia entregue ao autuado, ao representante legal ou ao preposto.
+Parágrafo único. Caso não possa ser lavrado na forma eletrônica, o auto de apreensão será lavrado em duas vias, sendo uma delas entregue ao autuado.
+Representação
+Art. 53. Será lavrada representação quando constatada a existência de indícios de materialidade e autoria de infração administrativa e não for o caso de lavratura de auto de infração.
+Art. 54. Após a lavratura, a representação será encaminhada à autoridade responsável pela instauração do respectivo processo administrativo sancionador, que observará o disposto nos arts. 41 a 44.
+Art. 55. A representação conterá os seguintes elementos:
+I - qualificação dos representados e, sendo o caso, dos responsáveis solidários;
+II - descrição circunstanciada do fato ou do ato constitutivo da suposta infração, com a indicação da data da sua caracterização;
+III - análise de materialidade e autoria da suposta infração, com a individualização da conduta atribuída a cada acusado, a indicação dos elementos de prova correspondentes e, se for o caso, a indicação dos elementos de culpabilidade de cada pessoa natural acusada;
+IV - indicação do dispositivo legal ou infralegal supostamente infringido;
+V - indicação das bases legais ou infralegais das penalidades aplicáveis;
+VI - indicação dos elementos materiais de prova da suposta infração;
+VII - as circunstâncias administrativas, agravantes, atenuantes e reincidências apuradas até o momento da lavratura da representação;
+VIII - avaliação da lesão ao bem jurídico tutelado;
+IX - indicação dos resultados obtidos com a utilização de outros instrumentos ou medidas de supervisão, quando cabível;
+X - se for o caso, a fundamentação sobre a efetividade da utilização simultânea ou sobre o não cabimento da utilização de outros instrumentos ou medidas de supervisão; e
+XI - data, assinatura do servidor, com a indicação do seu nome por extenso, cargo ou função e número da matrícula.
+Subseção II
+Instauração
+Art. 56. O processo administrativo sancionador será instaurado mediante a citação do acusado e, quando for o caso, do responsável solidário, para apresentação de defesa no prazo de trinta dias.
+Parágrafo único. O aditamento, a complementação ou a retificação do auto de infração ou da representação devolverá o prazo de defesa aos interessados.
+Art. 57. O processo administrativo sancionador será instaurado em face de todas as pessoas naturais e jurídicas em relação às quais existam indícios de que tenham concorrido, isolada ou conjuntamente, para a prática da infração investigada.
+§ 1° As responsabilidades da pessoa jurídica e das pessoas naturais pelo cometimento da infração serão apuradas em um mesmo processo administrativo sancionador, admitindo-se o seu desmembramento nas seguintes hipóteses:
+I - quando as infrações tiverem sido praticadas em circunstâncias de tempo ou de lugar diferentes;
+II - quando houver excessivo número de acusados ou quando um dos acusados não possuir residência no Brasil, objetivando não comprometer a duração razoável do processo ou dificultar a defesa; ou
+III - por outro motivo relevante, devidamente justificado.
+§ 2° A pessoa natural responderá pelas infrações descritas nesta Resolução, na medida de sua culpabilidade, quando houver indícios de que ela praticou a infração, concorreu para a sua prática ou deixou de impedi-la, quando podia agir para evitá-la.
+§ 3° Qualquer pessoa jurídica, incluindo as que atuem sem autorização da Susep, poderá ser considerada responsável por uma infração quando descumprir qualquer norma legal ou infralegal de que trata o art. 2°.
+Art. 58. A decretação do regime especial de direção fiscal, de intervenção ou de liquidação ordinária ou extrajudicial não obsta a instauração ou o prosseguimento de processo administrativo sancionador por irregularidades que tenham ocorrido antes, durante ou após a decretação.
+Parágrafo único. No caso de multas aplicadas a pessoas jurídicas, a exequibilidade judicial do crédito devidamente constituído será suspensa enquanto perdurar a liquidação extrajudicial.
+Art. 59. Será conferido tratamento público ao processo administrativo sancionador instaurado, ressalvados os documentos ou as informações sujeitos à restrição de acesso estabelecida em legislação específica, os quais serão acessíveis exclusivamente aos interessados no processo, à Susep e ao órgão recursal competente.
+§ 1° É ônus do interessado formular, destacadamente, de modo a facilitar sua visualização, solicitação de restrição de acesso a documento ou à informação contida em documento, indicando o dispositivo legal em que se baseia o pedido.
+§ 2° Nos processos sancionadores instaurados com múltiplos acusados, caso haja documento ou informação que o interessado entenda que não pode ser de conhecimento dos demais interessados, em razão de restrição de acesso estabelecida em legislação específica, o interessado deverá:
+I - em processo apartado, do tipo GESTÃO DA INFORMAÇÃO - DOCUMENTO DE ACESSO RESTRITO, protocolar a íntegra do documento, com indicação, na primeira página:
+a) de que se trata de "VERSÃO DE ACESSO RESTRITO";
+b) do processo ao qual o documento se refere; e
+c) do dispositivo legal que justifica a restrição; e
+II - no processo principal, protocolar uma versão que contenha elementos suficientes para o exercício do contraditório e da ampla defesa, sem prejuízo dos direitos dos demais acusados, podendo utilizar marcas, tarjas ou supressões, de modo a omitir estritamente os números, as palavras ou outros elementos reputados de acesso restrito, com indicação, na primeira página, de que se trata da "VERSÃO PÚBLICA" do documento.
+§ 3° O processo de que trata o inciso I do § 2° deverá ser relacionado ao processo principal.
+§ 4° A solicitação de restrição de acesso ao documento será analisada pela autoridade competente.
+§ 5° Não será aceito pedido de restrição de acesso a documento ou informação que puder implicar cerceamento do direito de defesa de qualquer interessado no processo.
+Subseção III
+Instrução
+Art. 60. No prazo para apresentação de defesa, o acusado deverá juntar todos os documentos destinados a provar suas alegações e indicar as outras provas que pretenda produzir, sob pena de preclusão.
+Parágrafo único. A defesa será apresentada por escrito e firmada pelo interessado, seu representante legal ou procurador com poderes expressos.
+Art. 61. Será considerado revel o acusado que, regularmente citado, não apresentar defesa no prazo de trinta dias, não importando confissão quanto à matéria de fato, podendo intervir em qualquer fase do processo, recebendo-o no estado em que se encontrar, sem direito à repetição dos atos já praticados.
+Art. 62. Serão admitidas todas as espécies de prova permitidas em direito.
+Art. 63. O acusado poderá alegar todas as matérias de fato e de direito que julgar adequadas à sua defesa.
+§ 1° A Susep indeferirá, mediante despacho fundamentado, provas requeridas pelo acusado quando forem ilícitas, manifestamente impertinentes, desnecessárias, protelatórias ou que poderiam ter sido juntadas pelo acusado no momento da apresentação da defesa.
+§ 2° Serão desconsiderados ou indeferidos os protestos genéricos por provas, os requerimentos lacônicos, os desprovidos de amparo legal e aqueles sem conexão com os fatos articulados nos autos.
+§ 3° Quando o interessado demonstrar que fatos e dados imprescindíveis para o deslinde da controvérsia estão registrados em documentos existentes na própria Susep, esta deverá providenciar a obtenção dos documentos ou das respectivas cópias.
+§ 4° O acusado não poderá alegar em seu benefício a sua própria torpeza.
+Art. 64. A prova da alegação incumbe a quem a fizer.
+§ 1° É facultada à Susep, a qualquer tempo, a realização de diligências, além daquelas eventualmente requeridas pelo acusado em sua defesa.
+§ 2° A Susep observará, na prática de atos instrutórios, os princípios enunciados no art. 3°, e não formulará exigências além das necessárias à elucidação dos fatos ou à regular tramitação do processo.
+§ 3° Qualquer custo para a produção de provas requeridas pelo acusado será por ele suportado.
+§ 4° O acusado que requerer a produção de prova com base em fatos e dados registrados na Susep deverá especificar os documentos que pretende sejam juntados ao processo.
+Art. 65. Após a apresentação da defesa e antes da elaboração do parecer técnico circunstanciado a Susep poderá, se entender necessário:
+I - promover o saneamento do processo; ou
+II - realizar instrução complementar, circunscrita à imputação, independentemente de manifestação da defesa, inclusive mediante a juntada de manifestação das unidades técnicas cujas competências possam auxiliar a compreensão dos fatos, circunstâncias e documentos do processo.
+Art. 66. A unidade responsável pela instauração do processo administrativo sancionador poderá, de ofício, se manifestar sobre a defesa e sobre o conjunto probatório produzido na instrução, se entender que há esclarecimentos ou considerações relevantes para a avaliação da autoridade julgadora quanto à subsistência ou insubsistência da acusação.
+Art. 67. Ao final da fase de instrução, quando houver diligência ou forem juntados novos documentos ou pareceres aos autos pela Susep ou por qualquer das partes, os acusados serão intimados para manifestação no prazo comum de dez dias.
+Art. 68. Todos os dados, informações e documentos necessários à decisão do processo deverão constar dos autos.
+Art. 69. Finda a instrução, será elaborado parecer técnico circunstanciado pela Susep contendo os seguintes elementos:
+I - identificação dos acusados e, quando for o caso, dos responsáveis solidários;
+II - resumo dos fatos imputados ao acusado, com indicação dos dispositivos legais e infralegais infringidos e dos que cominam as sanções propostas;
+III - sumário das razões de defesa;
+IV - registro das principais ocorrências havidas no andamento do processo;
+V - apreciação dos elementos probatórios coligidos na fase instrutória;
+VI - apreciação das alegações e teses defensivas capazes de infirmar a conclusão proposta; e
+VII - conclusão preliminar a respeito da configuração ou não da prática infracional, com sugestão e discriminação dos cálculos da multa e de outras sanções aplicáveis, quando considerada subsistente a infração.
+Art. 70. Os autos serão remetidos à Procuradoria Federal junto à Susep para análise jurídica do processo:
+I - nas hipóteses de julgamento sujeito à confirmação da decisão pelo Conselho Diretor da Susep; ou
+II - quando houver dúvida de natureza jurídica a ser enfrentada.
+Parágrafo único. Havendo orientação jurídica anterior sobre a questão debatida no processo, firmada em parecer da Procuradoria Federal junto à Susep e acatada pelo Conselho Diretor da Susep como parecer de orientação, esse documento deverá ser mencionado no parecer técnico circunstanciado e juntado por cópia aos autos, que serão encaminhados diretamente para decisão da autoridade julgadora, dispensando a remessa, em todos os casos, à Procuradoria Federal junto à Susep.
+Subseção IV
+Julgamento em Primeira Instância
+Art. 71. O julgamento em primeira instância será realizado pela Susep, de forma monocrática ou colegiada, de acordo com as alçadas, competências e atribuições definidas no seu Regimento Interno.
+Parágrafo único. À autoridade julgadora competirá a deliberação sobre eventuais pedidos de reconsideração e de revisão de suas decisões.
+Art. 72. As autoridades julgadoras poderão solicitar a realização de instrução complementar, especificando as diligências ou informações a serem produzidas, devendo-se observar o disposto no art. 67.
+Art. 73. A decisão de primeira instância deverá conter:
+I - a identificação do acusado e, quando for o caso, dos responsáveis solidários;
+II - o relatório do processo, incluindo os fatos imputados ao acusado, sumário das razões de defesa e registro das ocorrências relevantes havidas no andamento do processo;
+III - os fundamentos de fato e de direito;
+IV - a conclusão, com as disposições legais ou infralegais em que se baseia;
+V - as sanções administrativas impostas, nos casos em que for considerada subsistente a acusação, expondo as circunstâncias consideradas para a dosimetria e a fixação das penas; e
+VI - a determinação para o cumprimento de outras obrigações, se for o caso, com fixação do respectivo prazo.
+Parágrafo único. A decisão poderá, para contemplar os incisos do caput, consistir em declaração de concordância com fundamentos de pareceres, informações, decisões ou propostas anteriores, que, neste caso, serão parte integrante do ato.
+Art. 74. A decisão que considerar insubsistente a infração por insuficiência de provas acarretará a extinção do processo, e não impedirá nova apuração se surgirem novos fatos.
+Art. 75. Não há infração quando o descumprimento de norma ocorrer por motivo de caso fortuito ou força maior, devidamente comprovado, extinguindo-se o processo com resolução do mérito.
+Art. 76. Os processos administrativos sancionadores com decisões sujeitas à confirmação pelo Conselho Diretor da Susep serão encaminhados à Diretoria competente pela supervisão da análise e do julgamento dos processos administrativos sancionadores, para elaborar relatório e emitir voto, independentemente de nova intimação do interessado.
+§ 1° A apresentação prévia do relatório e do voto aos demais membros do Conselho Diretor da Susep dispensa a exposição oral da íntegra do conteúdo na sessão de julgamento, quando não houver dúvida no âmbito do Conselho Diretor.
+§ 2° O relator ou o Conselho Diretor poderão, antes da proclamação do resultado do julgamento, deliberar pela realização de diligências complementares.
+§ 3° Concluída a votação, os demais integrantes do Conselho Diretor da Susep poderão apresentar seus votos por escrito no prazo de cinco dias.
+§ 4° Nos casos de decisões sujeitas à confirmação de que trata o caput, considera-se como data de julgamento em primeira instância a data em que o processo foi deliberado pelo Conselho Diretor.
+Art. 77. Proferida a decisão e, sendo o caso, após a sua confirmação pelo Conselho Diretor, o interessado dela será intimado, na forma do art. 13.
+Parágrafo único. Em caso de decisão que aplicar sanção pecuniária, deverá ser anexada à intimação a Guia de Recolhimento da União - GRU, previamente preenchida, para pagamento do respectivo valor na rede bancária.
+Art. 78. No prazo de até trinta dias após a ciência da decisão condenatória, o interessado poderá pagar a multa aplicada com desconto de 25% (vinte e cinco por cento), com redução limitada ao valor mínimo de multa previsto em lei, desde que renuncie ao direito de recorrer.
+§ 1° O pagamento da multa na forma do caput representa renúncia ou desistência de eventual recurso interposto.
+§ 2° Os prazos para a interposição de recurso e de pagamento da multa com desconto são autônomos.
+Subseção V
+Recurso
+Art. 79. Da decisão condenatória de mérito em primeira instância caberá recurso, total ou parcial, no prazo de trinta dias.
+§ 1° O recurso deverá ser apresentado à Susep e dirigido à instância competente para o julgamento do recurso.
+§ 2° A legitimidade para recorrer é exclusiva daqueles que tiverem a obrigação de cumprir a sanção aplicada.
+§ 3° Eventuais medidas acautelatórias em vigor serão apreciadas como questão preliminar do recurso pelo órgão recursal.
+Art. 80. O recurso será recebido e apreciado com efeito suspensivo.
+§ 1° O efeito suspensivo não alcançará as medidas acautelatórias em vigor.
+§ 2° Ao receber o recurso, o órgão recursal poderá suspender ou cassar a medida acautelatória em vigor, mediante decisão colegiada e fundamentada que aborde todas as questões que embasaram a decisão cautelar.
+Art. 81. O órgão recursal poderá confirmar, modificar ou anular, total ou parcialmente, a decisão recorrida, nos limites do pedido formulado no recurso, sem prejuízo das questões de ordem pública, que devem ser declaradas de ofício.
+Parágrafo único. Se da aplicação do disposto no caput puder decorrer agravamento à situação do recorrente, este deverá ser cientificado para que formule suas alegações no prazo de dez dias antes da decisão.
+Subseção VI
+Revisão
+Art. 82. Os processos administrativos de que resultem sanções poderão ser revistos, após o trânsito em julgado da decisão, a qualquer tempo, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes suscetíveis de justificar a inadequação da sanção aplicada.
+§ 1° A simples alegação de injustiça da penalidade não constitui fundamento para a revisão.
+§ 2° Considera-se fato novo ou circunstância relevante:
+I - a decisão comprovadamente proferida por prevaricação, concussão, corrupção, impedimento ou incompetência absoluta;
+II - a obtenção, posteriormente ao trânsito em julgado, de prova nova cuja existência o infrator ignorava ou de que não pôde fazer uso, capaz, por si só, de lhe assegurar pronunciamento favorável; ou
+III - a decisão judicial, transitada em julgado, que declare a nulidade da utilização, no processo administrativo sancionador, da prova que fundamentou a decisão objeto de revisão.
+§ 3° Não cabe pedido de revisão quando a decisão objeto de revisão estiver baseada em texto legal ou elemento de interpretação controvertida.
+Art. 83. O pedido de revisão deverá ser formulado em peça própria e dirigido à mesma autoridade julgadora que proferiu a decisão definitiva em face da qual o pedido é realizado.
+Parágrafo único. Quando o pedido de revisão se referir à decisão proferida no âmbito do CRSNSP ou do CRSFN, a Susep deverá encaminhar o pedido ao órgão competente, a quem caberá o juízo quanto à sua admissibilidade.
+Art. 84. O pedido de revisão não suspende os efeitos da decisão e não impede o exercício de atos executivos.
+Art. 85. O pedido de revisão será instruído com cópia da decisão em face da qual o pedido foi realizado, da peça de instauração do processo administrativo sancionador, da defesa, quando oferecida, dos pareceres técnicos e jurídicos, despachos e votos que embasaram a referida decisão.
+§ 1° A providência prevista no caput será dispensada quando a decisão objeto do pedido de revisão tiver sido exarada em processo eletrônico, e o requerente deverá informar o número do processo originário.
+§ 2° O pedido de revisão será autuado em um novo processo e deverá ser relacionado ao processo principal.
+§ 3° Caso a autoridade julgadora entenda necessário, o requerente será intimado para, no prazo de dez dias, promover a juntada de outras peças relevantes à apreciação do pedido de revisão.
+§ 4° Da decisão pelo não conhecimento do pedido de revisão não caberá recurso administrativo.
+Art. 86. Não será admissível a reiteração de pedidos, salvo se fundada em novos fatos ou circunstâncias relevantes não existentes ou não conhecidas à época do primeiro pedido de revisão formulado.
+Art. 87. No processo revisional, o ônus da prova cabe ao requerente.
+Art. 88. Julgada procedente a revisão, a autoridade julgadora poderá reformar a decisão ou anular o processo.
+Parágrafo único. Da revisão não poderá resultar agravamento da sanção.
+Subseção VII
+Definitividade das Decisões
+Art. 89. São consideradas definitivas as decisões:
+I - de primeira instância, no dia seguinte à expiração do prazo para recurso, sem que este tenha sido interposto; e
+II - de segunda instância, no dia seguinte à publicação da decisão pela instância recursal.
+Parágrafo único. São também definitivas as decisões na parte que não tenha sido objeto de recurso.
+Seção III
+Aplicação de Penalidades
+Subseção I
+Disposições Gerais
+Art. 90. A ocorrência das infrações previstas nesta Resolução sujeita a pessoa natural ou jurídica responsável às seguintes sanções administrativas, que poderão ser aplicadas de forma isolada ou cumulativa:
+I - advertência;
+II - multa;
+III - suspensão do exercício de atividades ou de profissão;
+IV - suspensão para atuação de pessoas jurídicas em:
+a) um ou mais ramos de seguro;
+b) proteção patrimonial mutualista;
+c) um ou mais grupos de ramos de resseguro e retrocessão; ou
+d) uma ou mais modalidades de capitalização;
+V - inabilitação temporária para o exercício de cargo ou função no serviço público e em empresas públicas, sociedades de economia mista e respectivas subsidiárias, entidades de previdência complementar, sociedades de capitalização, instituições financeiras, sociedades seguradoras, sociedades cooperativas de seguros, administradoras de operações de proteção patrimonial mutualista e resseguradores ou para o exercício do cargo de administrador das pessoas jurídicas referidas no art. 9° da Lei n° 9.613, de 1998;
+VI - cancelamento de registro de corretor de seguros, pessoa natural ou jurídica, ou de autorização de funcionamento da corretora de resseguro; e
+VII - cassação de autorização ou de credenciamento para o exercício da atividade, operação ou funcionamento.
+§ 1° Para fins de aplicação da pena de inabilitação temporária, considera-se cargo ou função em entidades de previdência complementar, sociedades de capitalização, instituições financeiras, sociedades seguradoras, sociedades cooperativas de seguros, administradoras de operações de proteção patrimonial mutualista e resseguradores, o exercício de cargo estatutário ou qualquer função diretiva, gerencial, consultiva ou regulamentada pelo Conselho Monetário Nacional - CMN, Banco Central do Brasil - BCB, Conselho Nacional de Previdência Complementar - CNPC, Superintendência Nacional de Previdência Complementar - Previc, CNSP ou Susep.
+§ 2° No cumprimento das sanções de mesma espécie relativas a infrações distintas, as penalidades aplicadas deverão ser computadas de forma cumulativa.
+§ 3° Ao corretor de seguros, pessoa natural ou jurídica, são aplicáveis as penalidades previstas nos incisos I, II, III e VI do caput.
+§ 4° Sem prejuízo das sanções administrativas cabíveis, os diretores, administradores, gerentes e fiscais de sociedades seguradoras, sociedades cooperativas de seguros, resseguradoras, sociedades de capitalização, entidades abertas de previdência complementar, administradoras de operações de proteção patrimonial mutualista e as associações contratantes das administradoras responderão solidariamente com essas entidades pelos prejuízos causados a terceiros, inclusive aos seus acionistas, em consequência do descumprimento de leis, de normas e de instruções aplicáveis aos respectivos mercados, e, em especial, pela falta de constituição de provisões e reservas obrigatórias.
+Subseção II
+Espécies de Sanções Administrativas
+Advertência
+Art. 91. A penalidade de advertência poderá ser aplicada quando a infração for considerada de menor gravidade.
+§ 1° Nos casos de infração a dispositivos da Lei n° 9.613, de 1998, a penalidade de advertência será aplicada por irregularidade no cumprimento das instruções do art. 10, incisos I e II, da referida lei, exceto se houver culpa ou dolo.
+§ 2° Não será aplicada penalidade de advertência caso o infrator seja reincidente.
+§ 3° Para os fins desta Resolução, considera-se infração de menor gravidade aquela que apresenta reduzido potencial lesivo ao bem jurídico tutelado, observado o disposto no art. 41, e baixo grau de culpabilidade do agente.
+Multa
+Art. 92. A penalidade de multa poderá ser aplicada de acordo com os limites e critérios indicados nesta Resolução, observado o seguinte:
+I - no caso de infração aos arts. 10 e 11 da Lei n° 9.613, de 1998, não poderá exceder:
+a) o dobro do valor da operação;
+b) o dobro do lucro real obtido ou que presumivelmente seria obtido pela realização da operação; ou
+c) o valor de R$ 20.000.000,00 (vinte milhões de reais);
+II - no caso de infração à Lei Complementar n° 109, de 29 de maio de 2001, ou à sua regulamentação:
+a) deverá observar o limite mínimo de R$ 2.000,00 (dois mil reais) e o máximo de R$ 1.000.000,00 (um milhão de reais), devendo estes valores, a partir de 30 de maio de 2001, serem reajustados de forma a preservar, em caráter permanente, seus valores reais; e
+b) caso a penalidade de multa seja aplicada à pessoa natural, responderá solidariamente a pessoa jurídica, assegurado o direito de regresso;
+III - nos casos de aplicação de penalidade de multa à pessoa natural, por infração consubstanciada na realização de operações de capitalização, seguro, cosseguro, resseguro, retrocessão ou proteção patrimonial mutualista sem a prévia e expressa autorização da Susep:
+a) responderá solidariamente a pessoa jurídica, assegurado o direito de regresso; e
+b) a penalidade de multa poderá ser cumulada com aquelas constantes dos incisos I, III, IV e V do caput do art. 90; e
+IV - nos demais casos, não poderá exceder o maior dos seguintes valores:
+a) R$ 35.000.000,00 (trinta e cinco milhões de reais), devendo este valor, a partir de 17 de janeiro de 2026, ser reajustado de forma a preservar, em caráter permanente, seu valor real;
+b) o dobro do valor do contrato ou da operação irregular;
+c) o dobro do prejuízo causado aos consumidores em decorrência do ilícito; ou
+d) o triplo do valor da vantagem econômica obtida ou da perda evitada em decorrência do ilícito.
+§ 1° Ressalvadas as hipóteses de reincidência e de condenação pelo exercício de atividade não autorizada pela Susep, nenhuma pena de multa, para cada infração isoladamente considerada, poderá ser superior aos valores máximos previstos neste artigo.
+§ 2° Ao final de cada exercício, a Susep promoverá o cálculo da atualização, pelo IPCA-IBGE ou por outro índice que vier a substituí-lo, dos limites mínimo e máximos das multas de que tratam a alínea "a" do inciso II, e da alínea "a" do inciso IV, do caput, e a publicará para vigorar no exercício seguinte.
+§ 3° A primeira atualização a que se refere o § 2° considerará todo o período decorrido desde a data de entrada em vigor:
+I - da Lei Complementar n° 109, de 2001, no caso da alínea "a", do inciso II do caput; e
+II - das alterações realizadas pela Lei Complementar n° 213, de 2025, com relação ao Capítulo X do Decreto-Lei n° 73, de 1966, no caso da alínea "a", do inciso IV do caput.
+§ 4° A multa aplicada não poderá ser inferior ao maior dos seguintes valores:
+I - do contrato ou da operação irregular;
+II - do prejuízo causado aos consumidores em decorrência do ilícito; ou
+III - da vantagem econômica obtida ou da perda evitada em decorrência do ilícito.
+Art. 93. As multas deverão ser pagas, por meio de GRU, no prazo de até trinta dias, contados a partir da data de recebimento da intimação.
+§ 1° As multas aplicadas e não pagas no vencimento serão acrescidas de juros e atualização monetária, equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - Selic para os títulos federais, acumulada mensalmente, a partir do mês seguinte ao do vencimento até o mês anterior ao do pagamento, e de 1% (um por cento) no mês de pagamento, nos termos do disposto nos arts. 30 e 37-A da Lei n° 10.522, de 19 de julho de 2002.
+§ 2° A data de vencimento de que trata o § 1° corresponde ao trigésimo dia após a data de intimação para pagamento da multa com desconto, de que trata o art. 78.
+§ 3° A taxa Selic incidente sobre as multas aplicadas que, em razão de recurso, forem mantidas ou parcialmente mantidas pela instância superior, conta-se do vencimento da obrigação previsto no § 2° e deve ser calculada nos termos do § 1°.
+§ 4° Além da taxa Selic de que tratam os §§ 1° a 3°, as multas aplicadas serão acrescidas de multa de mora, conforme art. 37-A da Lei n° 10.522, de 2002, calculada à taxa de 0,33% (trinta e três centésimos por cento), por dia de atraso, limitada a 20% (vinte por cento), nos seguintes casos:
+I - quando o apenado não efetuar o pagamento da multa com desconto e não apresentar recurso, nos termos e no prazo de que trata o art. 78; e
+II - quando o apenado, após decisão recursal que mantiver total ou parcialmente a multa aplicada, for intimado para efetuar o seu pagamento e não o fizer no prazo constante do caput.
+§ 5° A multa de mora será calculada:
+I - a partir do primeiro dia útil seguinte ao encerramento do prazo para pagamento com desconto, nos casos previstos no inciso I do § 4°; ou
+II - a partir do primeiro dia útil seguinte ao encerramento do prazo de que trata o caput, nos casos previstos no inciso II do § 4°.
+§ 6° O não pagamento da multa nos prazos previstos neste artigo acarretará a inscrição do correspondente crédito na Dívida Ativa da União e no Cadastro Informativo de Créditos não Quitados do Setor Público Federal - Cadin, sem prejuízo de sua inscrição nos demais cadastros de inadimplentes.
+§ 7° Os créditos inscritos em Dívida Ativa serão acrescidos de encargo legal, substitutivo da condenação do devedor em honorários advocatícios, calculado nos termos e na forma da legislação aplicável à Dívida Ativa da União.
+Suspensão do exercício de atividades ou de profissão
+Art. 94. A pena de suspensão do exercício de atividades ou de profissão prevista no art. 90, inciso III, poderá ser aplicada à pessoa natural ou jurídica, quando presente, pelo menos, uma das seguintes situações:
+I - houver o cometimento de infração grave, nos termos da Subseção I da Seção V do Capítulo IV, inclusive no que diz respeito ao cumprimento da Lei n° 9.613, de 1998, e sua regulamentação;
+II - o infrator for considerado reincidente nos termos do art. 118; ou
+III - o infrator não der cumprimento a uma determinação da Susep.
+Art. 95. A penalidade de suspensão do exercício de atividades ou de profissão será aplicada de acordo com os limites e critérios indicados nesta Resolução, e não poderá ser inferior a quinze dias e nem superior a cento e oitenta dias, para cada infração isoladamente considerada.
+§ 1° O cumprimento da pena de suspensão terá início a partir do momento em que a decisão for considerada definitiva, nos termos do art. 89.
+§ 2° O prazo de cumprimento da pena de suspensão do exercício de atividades ou de profissão será automaticamente suspenso sempre que forem desrespeitados os termos da decisão que a aplicou, sem prejuízo da imposição das penalidades cabíveis.
+§ 3° A Susep deverá providenciar o lançamento da penalidade no cadastro do apenado e publicação sobre a aplicação da suspensão no seu sítio eletrônico e no DOU.
+Suspensão para atuação
+Art. 96. A penalidade de suspensão para atuação, prevista no art. 90, inciso IV, poderá ser aplicada à pessoa jurídica, quando a infração decorrer de má condução técnica ou financeira dos respectivos negócios, ou quando a infração produzir ou puder produzir quaisquer dos efeitos previstos no art. 132.
+Art. 97. A suspensão para atuação perdurará por prazo indeterminado, enquanto não forem corrigidas as irregularidades identificadas pela Susep e até que se esgotem todos os efeitos previstos no art. 132 que tenham sido produzidos em decorrência das irregularidades identificadas.
+§ 1° O cumprimento da pena de suspensão para atuação terá início a partir do momento em que a decisão for considerada definitiva, nos termos do art. 89.
+§ 2° A Susep deverá providenciar:
+I - o lançamento da penalidade no cadastro do apenado;
+II - a intimação do apenado, informando-o sobre as condições para o levantamento da suspensão; e
+III - publicação sobre a aplicação da penalidade de suspensão para atuação no seu sítio eletrônico e no DOU.
+§ 3° O levantamento da penalidade de suspensão para atuação deverá ser requerido pelo apenado e será deliberado pelo Conselho Diretor da Susep, após avaliação da área técnica responsável pela instauração do processo administrativo sancionador.
+§ 4° A avaliação a que se refere o § 3° será realizada em regime de prioridade e terá como escopo a verificação da cessação, tanto da prática considerada irregular, quanto dos efeitos por ela produzidos.
+§ 5° Caberá recurso ao CRSNSP, caso a decisão da Susep sobre o levantamento da penalidade de suspensão para atuação seja desfavorável ao apenado.
+Inabilitação
+Art. 98. A pena de inabilitação prevista no art. 90, inciso V, poderá ser aplicada à pessoa natural se verificada pelo menos uma das seguintes situações:
+I - cometimento de infração grave, nos termos da Subseção I da Seção V do Capítulo IV;
+II - a infração cometida também for capitulada como crime; ou
+III - o infrator houver sofrido condenação criminal, com trânsito em julgado, por ato praticado no exercício da profissão, atividade, cargo, emprego ou função.
+§ 1° A penalidade de inabilitação poderá ser fixada, para cada infração isoladamente considerada:
+I - em até dez anos, nas hipóteses de infração à Lei n° 9.613, de 1998, ou à sua regulamentação, se caracterizada como infração grave ou em caso de reincidência, com transgressão anteriormente punida com multa;
+II - de dois a dez anos, nas hipóteses de infração à Lei Complementar n° 109, de 2001, ou à sua regulamentação; ou
+III - de dois a vinte anos, no caso de outras infrações.
+§ 2° Também poderá ser aplicada a pena de inabilitação, observados os limites previstos no inciso II do § 1° àquele que realizar atividade de previdência complementar aberta sem autorização da Susep, inclusive no caso de comercialização de planos de benefícios ou captação ou administração de recursos de terceiros com o objetivo de direta ou indiretamente, adquirir ou conceder benefícios previdenciários sob qualquer forma, nos termos do art. 67 da Lei Complementar n° 109, de 2001.
+§ 3° Também poderá ser aplicada a pena prevista neste artigo, observados os limites previstos no inciso III do § 1°, àquele que realizar operação de seguro, cosseguro, resseguro ou retrocessão, de capitalização e de proteção patrimonial mutualista sem registro, cadastro, credenciamento ou autorização da Susep.
+Art. 99. O cumprimento da pena de inabilitação terá início a partir do momento em que a decisão for considerada definitiva, nos termos do art. 89.
+§ 1° Caso o apenado exerça cargo ou função em entidade de previdência complementar aberta, sociedade de capitalização, sociedade seguradora, sociedade cooperativa de seguros, administradora de operações de proteção patrimonial mutualista ou resseguradora, a Susep comunicará a instituição, para que providencie o seu afastamento no prazo máximo de sessenta dias, contado da data do recebimento da comunicação.
+§ 2° Efetuado o afastamento, a instituição deverá encaminhar à Susep comunicação do fato, no prazo máximo de cinco dias, instruída com os documentos comprobatórios pertinentes, caso em que o cumprimento da pena de inabilitação terá início a partir do momento em que ocorrer o efetivo afastamento do cargo ou função.
+§ 3° Decorridos os prazos mencionados nos §§ 1° e 2°, sem que a Susep tenha recebido a comunicação a que se refere o § 2°, o cumprimento da pena de inabilitação terá início a partir do vencimento do prazo de que trata o § 1°.
+§ 4° Nos casos do § 3°, tanto o apenado como a instituição omissa estarão sujeitos à multa cominatória prevista no art. 88-P do Decreto-Lei n° 73, de 1966.
+§ 5° Caso a Susep tenha conhecimento de que o apenado exerça cargo ou função em instituição alcançada pela penalidade de inabilitação e que não seja sua supervisionada, deverá efetuar a comunicação a que se refere o § 1°, aplicando-se, nesses casos, o disposto nos §§ 2° e 3°.
+§ 6° Nos casos do § 5°, a Susep encaminhará uma cópia da comunicação para o respectivo órgão supervisor, regulador ou de controle, se for o caso.
+§ 7° O prazo de cumprimento da pena de inabilitação será automaticamente suspenso sempre que forem desrespeitados os termos da decisão que a aplicou, sem prejuízo da imposição das penalidades cabíveis.
+§ 8° Em todos os casos, a Susep deverá providenciar o lançamento da penalidade no cadastro do apenado e publicação sobre a aplicação da penalidade de inabilitação no seu sítio eletrônico e no DOU.
+Cancelamento de registro ou autorização de funcionamento de corretor
+Art. 100. A pena de cancelamento de registro poderá ser aplicada ao corretor de seguros, pessoa natural ou jurídica, e a pena de cancelamento de autorização de funcionamento poderá ser aplicada à corretora de resseguros em uma das seguintes situações:
+I - caso o corretor de seguros, pessoa natural ou jurídica, ou a corretora de resseguros tenha sido, nos últimos cinco anos, condenado à pena de suspensão do exercício de atividades ou de profissão por infração da mesma natureza;
+II - quando a infração cometida também for capitulada como crime; ou
+III - quando o infrator tiver sofrido condenação criminal, com trânsito em julgado, por ato praticado no exercício da profissão.
+§ 1° O cumprimento da pena de cancelamento terá início a partir do momento em que a decisão for considerada definitiva, nos termos do art. 89.
+§ 2° A Susep deverá providenciar o lançamento da penalidade no cadastro do apenado e publicação sobre a aplicação do cancelamento no seu sítio eletrônico e no DOU.
+§ 3° Durante o prazo de dez anos, contados do cancelamento, não será concedido novo registro ao corretor de seguros, pessoa natural ou jurídica, ou autorização à corretora de resseguros penalizados na forma do caput.
+Cassação de autorização ou de credenciamento
+Art. 101. A penalidade de cassação de autorização para o exercício de atividade, operação ou funcionamento só poderá ser aplicada quando se tratar de conduta reincidente, nos termos do art. 118, com relação às infrações à Lei n° 9.613, de 1998, ou à sua regulamentação, anteriormente punidas com a pena de inabilitação.
+Art. 102. A penalidade de cassação de autorização para o exercício da atividade de registro das operações de seguros, previdência complementar aberta, capitalização e resseguros e a penalidade de cassação de credenciamento de Sociedade Processadora de Ordem do Cliente - SPOC será aplicada conforme regulamentação da Susep, nos termos do inciso V do art. 36-A do Decreto-Lei n° 73, de 1966.
+Art. 103. A Susep não concederá nova autorização àquele que foi penalizado com pena de cassação, durante o prazo de dez anos, contados da data da cassação da autorização ou do credenciamento para operação ou funcionamento.
+§ 1° A regulamentação da Susep deverá dispor sobre formas, prazos e condições para o início do cumprimento da pena de cassação e, se for o caso, para a migração de seus clientes para outra congênere.
+§ 2° A Susep deverá providenciar o lançamento da penalidade no cadastro do apenado e publicação sobre a aplicação da cassação no seu sítio eletrônico e no DOU.
+Subseção III
+Critérios de Aplicação das Sanções Critérios para fixação da pena-base
+Art. 104. A pena-base das penalidades previstas nos incisos II, III e V do art. 90 será composta:
+I - pelo valor ou prazo de referência previsto no art. 105; e
+II - pelos acréscimos decorrentes da avaliação das circunstâncias administrativas previstas no art. 106.
+Art. 105. Para fins de cálculo da pena-base, considera-se:
+I - a multa cominada para infração, conforme disposto na Seção V do Capítulo IV, quando se tratar de sanção de multa;
+II - o prazo de quinze dias, quando se tratar de penalidade de suspensão do exercício de atividades ou de profissão; e
+III - o prazo de dois anos, quando se tratar de penalidade de inabilitação.
+Art. 106. Constituem circunstâncias administrativas:
+I - a capacidade econômica do infrator;
+II - o grau de lesão ou o perigo de lesão à economia nacional, ao Sistema Nacional de Seguros Privados, ao Sistema Nacional de Capitalização, aos mercados supervisionados, à instituição operadora, aos clientes ou a terceiros;
+III - o grau de reprovabilidade da conduta do infrator;
+IV - a expressividade dos valores das operações irregulares;
+V - a duração da infração ou a sua prática sistemática ou reiterada; e
+VI - os antecedentes do infrator.
+§ 1° Os acréscimos decorrentes das circunstâncias administrativas serão calculados na forma dos arts. 107 a 112.
+§ 2° Na hipótese de aplicação da penalidade de suspensão de exercício de atividades ou de profissão de que trata o art. 90, inciso III, a pena-base deve ser fixada em dias.
+§ 3° Na hipótese de aplicação da penalidade de inabilitação temporária de que trata o art. 90, inciso V, a pena-base deve ser fixada em meses.
+Art. 107. O acréscimo decorrente da capacidade econômica do infrator será calculado mediante a aplicação dos fatores previstos neste artigo sobre o valor ou prazo de referência de que trata o art. 105.
+§ 1° Para fins de aplicação dos fatores de que trata o caput, considera-se a situação do infrator na data da ocorrência da infração.
+§ 2° Aplicam-se os seguintes fatores:
+I - sobre a multa cominada de que trata o inciso I do art. 105:
+a) oito, quando o infrator for:
+1. supervisionada enquadrada no Segmento 1 - S1;
+2. ressegurador admitido ou eventual;
+3. ressegurador estrangeiro não cadastrado na Susep; ou
+4. outra pessoa jurídica que tenha registrado faturamento igual ou superior a R$ 2.000.000.000.00 (dois bilhões de reais) no exercício anterior ao da ocorrência da infração;
+b) quatro, quando o infrator for:
+1. supervisionada enquadrada no Segmento 2 - S2; ou
+2. outra pessoa jurídica que tenha registrado faturamento igual ou superior a R$ 1.000.000.000.00 (um bilhão de reais) e inferior a R$ 2.000.000.000,00 (dois bilhões de reais) no exercício anterior ao da ocorrência da infração;
+c) 0,8 (oito décimos), quando o infrator for:
+1. supervisionada enquadrada no Segmento 3 - S3;
+2. corretora de resseguros; ou
+3. outra pessoa jurídica que tenha registrado faturamento igual ou superior a R$ 200.000.000.00 (duzentos milhões de reais) e inferior a R$ 1.000.000.000,00 (um bilhão de reais) no exercício anterior ao da ocorrência da infração;
+d) 0,2 (dois décimos), quando o infrator for:
+1. supervisionada enquadrada no Segmento 4 - S4; ou
+2. outra pessoa jurídica que tenha registrado faturamento igual ou superior a R$ 20.000.000.00 (vinte milhões de reais) e inferior a R$ 200.000.000,00 (duzentos milhões de reais) no exercício anterior ao da ocorrência da infração; e
+e) zero, para as demais supervisionadas e demais pessoas naturais e jurídicas; e
+II - sobre os prazos previstos nos incisos II e III do art. 105:
+a) 1,5 (um inteiro e cinco décimos), quando o infrator for:
+1. supervisionada enquadrada no Segmento 1 - S1;
+2. ressegurador admitido ou eventual;
+3. ressegurador estrangeiro não cadastrado na Susep; ou
+4. outra pessoa jurídica que tenha registrado faturamento igual ou superior a R$ 2.000.000.000.00 (dois bilhões de reais) no exercício anterior ao da ocorrência da infração;
+b) um, quando o infrator for:
+1. supervisionada enquadrada no Segmento 2 - S2; ou
+2. outra pessoa jurídica que tenha registrado faturamento igual ou superior a R$ 1.000.000.000.00 (um bilhão de reais) e inferior a R$ 2.000.000.000,00 (dois bilhões de reais) no exercício anterior ao da ocorrência da infração;
+c) 0,5 (cinco décimos), quando o infrator for:
+1. supervisionada enquadrada no Segmento 3 - S3;
+2. corretora de resseguros; ou
+3. outra pessoa jurídica que tenha registrado faturamento igual ou superior a R$ 200.000.000.00 (duzentos milhões de reais) e inferior a R$ 1.000.000.000,00 (um bilhão de reais) no exercício anterior ao da ocorrência da infração;
+d) 0,2 (dois décimos), quando o infrator for:
+1. supervisionada enquadrada no Segmento 4 - S4; ou
+2. outra pessoa jurídica que tenha registrado faturamento igual ou superior a R$ 20.000.000.00 (vinte milhões de reais) e inferior a R$ 200.000.000,00 (duzentos milhões de reais) no exercício anterior ao da ocorrência da infração; e
+e) zero, para as demais supervisionadas e demais pessoas naturais e jurídicas.
+Art. 108. O acréscimo relativo ao grau de lesão ou perigo de lesão será calculado mediante a aplicação, fundamentada, de fator variável de zero a dois sobre o valor ou prazo de referência de que trata o art. 105.
+Parágrafo único. A definição do fator observará, isolada ou cumulativamente:
+I - a quantidade de segurados, participantes, assistidos, beneficiários ou associados atingidos ou expostos ao risco;
+II - a materialidade do prejuízo financeiro efetivamente causado ou tentado a terceiros ou ao mercado; e
+III - o comprometimento ou risco de comprometimento da solvência, da liquidez, da constituição das provisões técnicas ou de sua cobertura por ativos garantidores.
+Art. 109. O acréscimo relativo ao grau de reprovabilidade da conduta será calculado mediante a aplicação, fundamentada, de fator variável de zero a dois sobre o valor ou prazo de referência de que trata o art. 105.
+Parágrafo único. Para definição do fator, serão considerados:
+I - a existência de dolo, má-fé ou intuito de fraude;
+II - o grau de negligência, imprudência ou imperícia na observância de deveres fiduciários e regulatórios; e
+III - falha deliberada ou grave deficiência no Sistema de Controles Internos, na Estrutura de Gestão de Riscos e na atividade de Auditoria Interna.
+Art. 110. O acréscimo relativo à expressividade dos valores das operações irregulares será calculado mediante a aplicação, fundamentada, de fator variável de zero a dois sobre o valor ou prazo de referência de que trata o art. 105.
+Parágrafo único. A definição do fator observará:
+I - a representatividade do valor das operações irregulares em relação aos parâmetros de patrimônio líquido ajustado, capital regulatório, provisões técnicas ou ativos garantidores da entidade;
+II - a proporcionalidade entre o valor das operações irregulares e o volume de negócios da supervisionada ou da linha de produto ou serviço em que a infração ocorreu; e
+III - a magnitude da vantagem econômica ou do ganho auferido pelo infrator em decorrência da irregularidade.
+Art. 111. O acréscimo relativo à duração da infração ou de sua prática sistemática ou reiterada será calculado mediante a aplicação, fundamentada, de fator variável de zero a dois sobre o valor ou prazo de referência de que trata o art. 105.
+Parágrafo único. A definição do fator observará:
+I - o período total de permanência da infração, considerando-se a quantidade de meses em que a conduta perdurou; e
+II - a natureza sistêmica da irregularidade, verificada quando a infração decorre de modelos de precificação, algoritmos, manuais de normas internas ou fluxos de trabalho padronizados.
+Art. 112. O acréscimo decorrente dos antecedentes do infrator será calculado mediante a aplicação dos fatores previstos neste artigo sobre o valor ou prazo de referência de que trata o art.105.
+§ 1° Aplicam-se os seguintes fatores:
+I - zero, quando não for verificada a existência de antecedentes;
+II - 0,2 (dois décimos), quando for verificado de um a dez antecedentes;
+III - 0,5 (cinco décimos), quando forem verificados de onze a trinta antecedentes; ou
+IV - um, quando forem verificados mais de trinta antecedentes.
+§ 2° Para o acréscimo relativo aos antecedentes do infrator serão considerados os processos administrativos sancionadores em que tenham sido aplicadas sanções, cujas decisões finais tenham transitado em julgado na esfera administrativa nos três anos anteriores à data do cometimento da infração em exame.
+§ 3° Não serão consideradas, para fins do § 1°, as condenações anteriores utilizadas para a configuração da reincidência.
+Art. 113. A pena-base, em caso de sanções de multa, de suspensão do exercício de atividades ou de profissão e de inabilitação corresponderá ao valor ou prazo de referência previsto no art. 105 somado aos acréscimos apurados nos termos dos arts. 107 a 112.
+Art. 114. Fixada a pena-base, serão aplicadas, para definição da pena final, nessa ordem:
+I - as circunstâncias agravantes e atenuantes;
+II - a majoração pela continuidade infracional; e
+III - a majoração por reincidência.
+Parágrafo único. O disposto no caput não se aplica às penalidades de que tratam os incisos I, IV, VI e VII do art. 90.
+Circunstâncias agravantes
+Art. 115. São circunstâncias que agravam a sanção administrativa, quando não constituem a infração:
+I - ter a infração ocorrido em detrimento de menor de dezoito anos, de maior de sessenta anos ou de pessoa com deficiência; e
+II - deixar o infrator de atender recomendação ou determinação formal da Susep para cessar a prática da conduta ou tomar providências que evitem, mitiguem ou corrijam as consequências da infração.
+§ 1° A pena-base deve ser acrescida em até 20% (vinte por cento) para a agravante prevista no inciso I e em até 30% (trinta por cento) para a agravante prevista no inciso II.
+§ 2° Na pena de suspensão de que trata o art. 90, inciso III, o acréscimo se dará em número de dias, desprezando-se as frações.
+§ 3° Na pena de inabilitação de que trata o art. 90, inciso V, o acréscimo se dará em número de meses, desprezando-se as frações.
+Circunstâncias atenuantes
+Art. 116. São circunstâncias que atenuam a sanção administrativa:
+I - ter o infrator utilizado ouvidoria ou sistema similar reconhecido pela Susep na tentativa de resolução de conflito de interesses;
+II - ter o infrator cessado a prática da conduta ou evitado, mitigado ou corrigido as consequências da infração, até o julgamento do processo em primeira instância; e
+III - a confissão da infração.
+§ 1° A pena-base deve ser reduzida em 10% (dez por cento) no caso do inciso I, em até 30% (trinta por cento) no caso do inciso II e em até 10% (dez por cento) no caso do inciso III.
+§ 2° Na aplicação das circunstâncias atenuantes, a autoridade julgadora deverá considerar o grau de correção das consequências da infração, no caso do inciso II do caput, e a eficácia da confissão para a adequada apuração dos fatos, no caso do inciso III.
+§ 3° Na pena de suspensão de que trata o art. 90, inciso III, a redução se dará em número de dias, desprezando-se as frações.
+§ 4° Na pena de inabilitação de que trata o art. 90, inciso V, a redução se dará em número de meses, desprezando-se as frações.
+Continuidade infracional
+Art. 117. Considera-se infração continuada aquela em que o agente, por meio de duas ou mais ações ou omissões, pratica infrações administrativas da mesma espécie, desde que estejam presentes os seguintes elementos:
+I - identidade ou semelhança entre as infrações quanto à natureza e ao tipo legal violado;
+II - continuidade temporal entre os atos, sem interrupções significativas;
+III - contexto de execução e condições semelhantes de tempo, lugar e modo de agir; e
+IV - demonstração de vínculo lógico e intencional entre os atos, revelando um mesmo propósito infracional.
+§ 1° A ausência de qualquer dos elementos descritos nos incisos I a IV do caput descaracteriza a infração como continuada, situação em que as condutas serão analisadas isoladamente para fins de responsabilização e aplicação de sanção.
+§ 2° Configurada a continuidade das infrações, será aplicada a pena de uma só das infrações, se idênticas, ou a mais grave, se diversas, aumentada, em qualquer caso, de 1/6 (um sexto) a 2/3 (dois terços).
+§ 3° As infrações praticadas em continuidade infracional e que tenham ocorrido no período de um ano deverão ser objeto de um único processo administrativo sancionador.
+§ 4° Constatada a existência de mais de um processo administrativo sancionador de que trata o § 3°, os processos deverão ser preferencialmente reunidos para julgamento.
+Reincidência
+Art. 118. Verifica-se a reincidência quando o infrator comete nova infração de mesma natureza no período de três anos, contados da decisão condenatória administrativa definitiva.
+Parágrafo único. Para os fins desta Resolução, consideram-se infrações de mesma natureza aquelas que lesionam o mesmo bem jurídico tutelado, a partir de condutas idênticas ou substancialmente semelhantes.
+Art. 119. A majoração da pena por reincidência será aplicada de forma escalonada, aplicando-se os seguintes fatores:
+I - 1,5 (um inteiro e cinco décimos), quando se verificar uma reincidência;
+II - dois, quando se verificar duas ou três reincidências;
+III - 2,5 (dois inteiros e cinco décimos), quando se verificar quatro ou cinco reincidências; ou
+IV - três, quando se verificar seis ou mais reincidências.
+Parágrafo único. O disposto no caput não se aplica às infrações à Lei Complementar n° 109, de 2001, ou à sua regulamentação, para as quais a pena será aplicada em dobro em casos de reincidência.
+Disposições especiais
+Art. 120. Nos casos de pessoas naturais ou jurídicas que realizarem operações de capitalização, seguro, cosseguro, resseguro ou proteção patrimonial mutualista sem a prévia e expressa autorização, cadastro, registro ou credenciamento da Susep, as penalidades aplicadas serão limitadas ao triplo dos limites máximos previstos:
+I - no inciso IV do art. 92, para a penalidade de multa;
+II - no caput do art. 95, para a penalidade de suspensão do exercício de atividades ou de profissão; e
+III - no inciso III do § 1° do art. 98, para a penalidade de inabilitação.
+Parágrafo único. A penalidade de multa por infração de que trata o caput será calculada nos termos dos incisos I e II e do parágrafo único do art. 125.
+Art. 121. Nos casos de infrações às atividades relacionadas ao registro das operações de seguros, previdência complementar aberta, capitalização e resseguros por entidades registradoras e ao funcionamento de SPOCs, poderão ser aplicadas as penalidades administrativas de advertência, multa, suspensão e cassação de autorização ou de credenciamento, na forma a ser regulamentada pela Susep.
+Seção IV
+Extinção da Punibilidade
+Art. 122. Extingue-se a punibilidade:
+I - pela morte do infrator; ou
+II - pela prescrição administrativa.
+Art. 123. Prescreve em cinco anos, contados da data da prática do ato ou, no caso de infração permanente ou continuada, do dia em que houver cessado, a ação punitiva objetivando apurar infração à legislação.
+§ 1° Quando o fato objeto da ação punitiva da Administração também constituir crime, a prescrição reger-se-á pelo prazo previsto na lei penal, se maior que a prevista no caput.
+§ 2° Interrompe-se a prescrição da ação punitiva:
+I - pela intimação ou citação do acusado, inclusive por meio de edital;
+II - por qualquer ato inequívoco que importe apuração do fato;
+III - pela decisão condenatória recorrível; ou
+IV - por qualquer ato inequívoco que importe em manifestação expressa de tentativa de solução conciliatória no âmbito interno da administração pública federal, inclusive a apresentação de proposta de termo de compromisso.
+§ 3° Considera-se infração permanente aquela cuja execução se prolonga no tempo, terminando somente quando cessada a conduta descrita no tipo sancionador.
+Art. 124. Incide a prescrição intercorrente no procedimento administrativo paralisado por mais de três anos, pendente de julgamento ou despacho, cujos autos serão arquivados de ofício ou mediante requerimento da parte interessada, sem prejuízo da apuração da responsabilidade funcional decorrente da paralisação, se for o caso.
+Seção V
+Infrações em Espécie
+Subseção I
+Infrações Graves
+Art. 125. São infrações graves relativas a operações sem autorização:
+I - realizar operação de seguro, cosseguro, resseguro, retrocessão, capitalização ou proteção patrimonial mutualista sem a devida autorização ou o devido cadastro, registro ou credenciamento, no País ou no exterior:
+Multa: valor igual à importância segurada, ressegurada ou retrocedida, no caso das operações de seguro, cosseguro, resseguro ou retrocessão, ou valor igual ao valor das proteções contratadas, no caso de operações de proteção patrimonial mutualista, ou valor igual ao valor máximo estipulado para o sorteio, no caso de capitalização;
+II - contribuir de algum modo para a prática da infração prevista no inciso I do caput, na medida de sua participação:
+Multa: valor igual à importância segurada, ressegurada ou retrocedida, no caso das operações de seguro, cosseguro, resseguro ou retrocessão, ou valor igual ao valor das proteções contratadas, no caso de operações de proteção patrimonial mutualista, ou valor igual ao valor máximo estipulado para o sorteio, no caso de capitalização;
+III - realizar atividade de corretagem, de auditoria, de registro de operações ou relacionadas ao Open Insurance sem o devido cadastro, registro, credenciamento ou autorização:
+Multa cominada: R$ 250.000,00 (duzentos e cinquenta mil reais), no caso de corretagem praticada por pessoa natural, ou R$ 500.000,00 (quinhentos mil reais), no caso de corretagem praticada por pessoa jurídica, ou R$ 1.000.000,00 (um milhão de reais), nos demais casos; ou
+IV - exercer atividade de previdência complementar aberta sem a devida autorização da Susep, inclusive a comercialização de planos de benefícios, bem como a captação ou a administração de recursos de terceiros com o objetivo de direta ou indiretamente, adquirir ou conceder benefícios previdenciários sob qualquer forma:
+Multa cominada: R$ 2.000.000,00 (dois milhões de reais).
+Parágrafo único. Para efeito do disposto neste artigo, a importância segurada, ressegurada ou retrocedida, o valor máximo estipulado para o sorteio, no caso de capitalização, e o valor da proteção contratada, no caso de operações de proteção patrimonial mutualista, poderão ser arbitrados por estimativa, nos casos em que a Susep não tiver acesso à contabilidade ou, ainda, verificar a sua omissão ou adulteração, sem prejuízo da retificação do valor arbitrado por meio do exercício do amplo direito de defesa e contraditório, respeitado o devido processo legal.
+Art. 126. São infrações graves aos mecanismos de supervisão:
+I - dificultar ou impedir, dolosamente, por qualquer forma, o exercício do poder de polícia administrativa da Susep, por meio de condutas tais como:
+a) não fornecer ou fornecer com dados incorretos ou incompletos, documentos, estudos, relatórios, demonstrações financeiras, livros e registros obrigatórios ou contas estatísticas, quando solicitado;
+b) não atender, injustificadamente, às determinações e solicitações da Susep; ou
+c) impedir o acesso da Susep às dependências da supervisionada:
+Multa cominada: R$ 1.500.000,00 (um milhão e quinhentos mil reais); ou
+II -falsificar quaisquer documentos ou prestar informação sabidamente falsa à Susep:
+Multa cominada: R$ 2.000.000,00 (dois milhões de reais).
+Art. 127. São infrações graves pertinentes à conduta ou aos produtos e à sua comercialização:
+I - comercializar produto suspenso, não registrado ou não aprovado pela Susep:
+Multa cominada: R$ 1.000.000,00 (um milhão de reais);
+II - alterar regulamento, condições gerais, especiais, particulares ou qualquer outro documento relativo a plano de seguro, de capitalização, de previdência complementar aberta ou ainda relativo à operação de proteção patrimonial mutualista, sem a prévia e expressa anuência do consumidor, quando necessária, na forma da legislação, acarretando-lhe ônus, dever ou redução de direitos:
+Multa cominada: R$ 600.000,00 (seiscentos mil reais);
+III - rescindir unilateralmente, em desacordo com a legislação, contrato relativo a plano de seguro, de capitalização, de previdência complementar aberta ou de proteção patrimonial mutualista:
+Multa cominada: R$ 600.000,00 (seiscentos mil reais); ou
+IV - praticar conduta passível de tipificação como crime contra as relações de consumo, nos termos da Lei n° 8.078, de 11 de setembro de 1990:
+Multa cominada: R$ 1.500.000,00 (um milhão e quinhentos mil reais).
+Art. 128. São infrações graves pertinentes aos prestadores de serviços de auditoria independente:
+I - realizar auditoria inepta ou em desacordo com a legislação:
+Multa cominada: R$ 1.500.000,00 (um milhão e quinhentos mil reais);
+II - realizar auditoria fraudulenta:
+Multa cominada: R$ 2.000.000,00 (dois milhões de reais);
+III - realizar auditoria quando presentes conflito de interesses, circunstâncias ou fatores impeditivos ou que afetem a independência, descumprindo o disposto na legislação aplicável:
+Multa cominada: R$ 1.000.000,00 (um milhão de reais); ou
+IV - utilizar, em benefício próprio ou de terceiros, ou permitir que terceiros se utilizem de informações a que tenham tido acesso em decorrência do exercício da atividade de auditoria:
+Multa cominada: R$ 1.500.000,00 (um milhão e quinhentos mil reais).
+Art. 129. São infrações graves pertinentes às intermediações:
+I - não repassar ou retardar o repasse à sociedade seguradora, sociedade cooperativa de seguro, resseguradora, entidade de previdência complementar aberta, sociedade de capitalização ou ao grupo de proteção patrimonial mutualista, na forma da legislação, os valores recolhidos referentes aos contratos nos quais atuar como intermediário:
+Multa cominada: R$ 100.000,00 (cem mil reais), se o infrator for pessoa natural, ou R$ 300.000.00 (trezentos mil reais), se pessoa jurídica;
+II - não repassar integralmente aos segurados, beneficiários, participantes e assistidos os valores a eles devidos, inclusive os referentes a indenizações e benefícios, na hipótese em que for designado contratualmente a fazê-lo:
+Multa cominada: R$ 100.000,00 (cem mil reais), se o infrator for pessoa natural, ou R$ 300.000.00 (trezentos mil reais), se pessoa jurídica;
+III - falsear ou omitir informação à sociedade seguradora, sociedade cooperativa, administradora de operações de proteção patrimonial mutualista, entidade de previdência complementar aberta ou resseguradora, necessária à análise e aceitação do risco ou na liquidação do sinistro:
+Multa cominada: R$ 100.000,00 (cem mil reais), se o infrator for pessoa natural, ou R$ 300.000.00 (trezentos mil reais), se pessoa jurídica; ou
+IV- transmitir à seguradora, em nome do segurado, informação ou manifestação incompatível com o que foi por ele prestado ou à sua revelia:
+Multa cominada: R$ 100.000,00 (cem mil reais), se o infrator for pessoa natural, ou R$ 300.000.00 (trezentos mil reais), se pessoa jurídica.
+Art. 130. Constitui infração grave pertinente às operações de transferência de risco falsear ou omitir, à sociedade seguradora, sociedade cooperativa de seguro ou resseguradora, informação necessária para análise e aceitação do risco ou para liquidação do sinistro:
+Multa cominada: R$ 1.000.000,00 (um milhão de reais).
+Art. 131. Também são consideradas infrações graves:
+I - gerir a empresa de forma fraudulenta, em prejuízo dos sócios ou de terceiros:
+Multa cominada: R$ 1.500.000,00 (um milhão e quinhentos mil reais);
+II - gerir a empresa de forma temerária, colocando em risco o seu equilíbrio financeiro ou a solvência dos compromissos assumidos:
+Multa cominada: R$ 750.000,00 (setecentos e cinquenta mil reais);
+III - gerir de forma fraudulenta os recursos relativos ao Seguro de Danos Pessoais Causados por Veículos Automotores de Via Terrestre - DPVAT:
+Multa cominada: R$ 1.500.000,00 (um milhão e quinhentos mil reais);
+IV - gerir de forma temerária os recursos relativos ao DPVAT:
+Multa cominada: R$ 750.000,00 (setecentos e cinquenta mil reais);
+V - apropriar-se de recursos da empresa ou de terceiros:
+Multa cominada: R$ 1.000.000,00 (um milhão de reais);
+VI - gerir o patrimônio da massa liquidanda de forma fraudulenta:
+Multa cominada: R$ 1.500.000,00 (um milhão e quinhentos mil reais); ou
+VII - gerir o patrimônio da massa liquidanda de forma temerária:
+Multa cominada: R$ 750.000,00 (setecentos e cinquenta mil reais).
+Art. 132. São consideradas infrações graves quaisquer das infrações previstas na Seção V do Capítulo IV que, fundamentadamente, decorram de má conduta técnica ou financeira dos respectivos negócios ou que produzam ou possam produzir quaisquer dos seguintes efeitos:
+I - causar dano à liquidez, à solvência ou à higidez das instituições operadoras dos mercados supervisionados ou assumir risco incompatível com as operações supervisionadas pela Susep;
+II - contribuir para gerar indisciplina nos mercados supervisionados pela Susep ou para afetar a estabilidade ou o funcionamento regular do Sistema Nacional de Seguros Privados, do Sistema Nacional de Capitalização ou do mercado de previdência complementar aberta;
+III - dificultar o conhecimento da real situação patrimonial ou financeira das operações ou das instituições operadoras supervisionadas pela Susep; ou
+IV - afetar severamente a finalidade e a continuidade das atividades ou das operações no âmbito do Sistema Nacional de Seguros Privados, do Sistema Nacional de Capitalização ou do mercado de previdência complementar aberta.
+Subseção II
+Infrações aos Mecanismos de Supervisão
+Art. 133. São infrações aos mecanismos de supervisão:
+I - omitir ou sonegar informações que deva comunicar à Susep, desde que tal conduta não seja caracterizada como ato ou omissão para dificultar ou impedir, dolosamente, o exercício do poder de polícia administrativa da Susep:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+II - encaminhar à Susep informações de forma incorreta, incompleta ou fora do prazo, desde que tal conduta não seja caracterizada como ato ou omissão para dificultar ou impedir, dolosamente, o exercício do poder de polícia administrativa da Susep:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+III - não apresentar plano de ações em processo para reparação de apontamento, ressalvadas as hipóteses de comunicação da reparação integral do apontamento ou de apresentação de contestação, ou apresentar plano de ações em processo para reparação de apontamento que não atenda aos requisitos da legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais); ou
+IV - não cumprir o plano de ações em processo para reparação de apontamento aprovado até o final do prazo estipulado para sua implementação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais).
+Subseção III
+Infrações Contábeis
+Art. 134. São infrações contábeis:
+I - não escriturar as operações nos livros e registros da contabilidade, com atualidade ou fidedignidade, nos termos da legislação:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+II - não manter na matriz e nas filiais, sucursais, agências e representações os registros exigidos, com escrituração completa das operações realizadas, em conformidade com a legislação:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+III - não manter sob sua guarda a documentação que subsidia registro contábil conforme os termos e prazos definidos pela legislação:
+Multa cominada: R$ 100.000,00 (cem mil reais); ou
+IV - não publicar demonstrações contábeis quando deveria fazê-lo ou publicar demonstrações contábeis em desacordo com as normas ou fora do prazo definido pela legislação vigente:
+Multa cominada: R$ 200.000,00 (duzentos mil reais).
+Subseção IV
+Infrações Societárias ou que Afetam a Organização dos Mercados
+Art. 135. São infrações societárias ou que afetam a organização dos mercados:
+I - não enviar à Susep, no prazo e na forma previstos na legislação, documentos referentes a nomeações de administradores, assembleias gerais e a modificações na diretoria, no conselho de administração, no conselho fiscal ou assemelhados, bem como balanços, demonstrações financeiras e demais documentos que lhe forem solicitados:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+II - não enviar, no caso de entidade aberta de previdência complementar, em adição ao previsto no inciso I do caput, a documentação pertinente às reuniões de conselhos deliberativos, nomeações de diretores, conselheiros fiscais, conselheiros deliberativos, conselheiros consultivos ou assemelhados, modificações do conselho deliberativo, conselho consultivo ou assemelhados:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+III - não manter atualizadas, perante a Susep, informações sobre a instalação ou alteração de filiais, sucursais, agências ou representações, seus atos constitutivos ou não comunicar qualquer alteração relativa à sua atividade:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+IV - não efetuar, no prazo ou na forma definidos, as publicações exigidas pelas normas em vigor:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+V - fazer ou manter cadastro de preposto em desacordo com a legislação:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+VI - arquivar ou publicar atas de atos societários sem a prévia homologação da Susep, quando esta for necessária:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+VII - dar posse a membro da diretoria, conselho de administração ou conselho fiscal ou assemelhado, em desacordo com a legislação ou sem a prévia autorização ou homologação da Susep:
+Multa cominada: R$ 200.000,00 (duzentos mil reais); ou VIII - não manter, quando exigido, representante legal no País: Multa cominada: R$ 200.000,00 (duzentos mil reais).
+Subseção V
+Infrações de Conduta ou Pertinentes aos Produtos e à sua Comercialização
+Art. 136. São infrações de conduta ou pertinentes aos produtos e à sua comercialização:
+I - descumprir ou não observar norma ou regulação de práticas de conduta, no que se refere ao relacionamento com o cliente, ou à política institucional de conduta:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+II - não cumprir ou retardar de forma injustificável o cumprimento de obrigação assumida em contrato ou instrumento congênere:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+III - não pagar, no prazo previsto na legislação, indenização de DPVAT:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+IV - deixar de indenizar o segurado ou beneficiário nos seguros legalmente obrigatórios:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+V - não cumprir a obrigação prevista nos incisos II, III e IV do caput após intimação da Susep para fazê-lo:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+VI - divulgar prospecto, publicar anúncio, expedir correspondência ou promover qualquer outra veiculação de caráter publicitário sobre contrato que contenha informação total ou parcialmente falsa:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+VII - efetuar publicidade ou promoção de produto, sem prévia anuência formal da sociedade seguradora, da sociedade cooperativa de seguro, da entidade aberta de previdência complementar, da sociedade de capitalização ou da administradora de operações de proteção patrimonial mutualista:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+VIII - emitir apólice, certificado, bilhete, proposta, extrato, título de capitalização, contrato de participação ou qualquer comunicado ou documento relativo a plano de seguro, de capitalização, de previdência complementar aberta ou relativo à operação de proteção patrimonial mutualista em desacordo com a legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+IX - não emitir os documentos mencionados no inciso VIII do caput quando exigidos pela legislação ou não os fornecer na forma requerida:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+X - não fornecer os documentos mencionados no inciso VIII do caput no prazo previsto na legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XI - não concluir a formalização de contratos de operações de que trata esta Resolução no prazo previsto na legislação, ressalvados os contratos de resseguro e retrocessão, aos quais se aplica o previsto no inciso III do art. 141:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XII - condicionar a comercialização ou desconto de qualquer produto ou serviço à contratação de planos de seguro, previdência complementar aberta ou capitalização ou ao ingresso em grupo de proteção patrimonial mutualista, ressalvadas, no caso de desconto, a concessão de vantagens em operações de concessão de crédito garantidas pelo seguro e outras situações previstas na legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XIII - não manter, disponibilizar, exibir, prestar ou fornecer ao consumidor as informações obrigatórias na forma exigida pela legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XIV - comercializar ou ofertar qualquer produto em desacordo com o material registrado na Susep:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XV - comercializar produto por intermédio de corretor, pessoa natural ou jurídica, que não tenha registro ativo ou não seja autorizado a atuar no respectivo ramo ou segmento:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XVI - firmar contrato com estipulante, intermediário ou associação, em desacordo com
+a legislação:
+Multa cominada: R$ 300.000,00 (trezentos mil reais); ou
+XVII - alterar regulamento, condições gerais, especiais, particulares ou qualquer outro documento relativo a plano de seguro, de capitalização, de previdência complementar aberta ou ainda relativo à operação de proteção patrimonial mutualista, sem a prévia e expressa anuência, quando necessária, na forma da legislação:
+Multa cominada: R$ 300.000,00 (trezentos mil reais).
+Subseção VI
+Infrações Prudenciais ou que Afetam a Solvência
+Art. 137. São infrações prudenciais ou que afetam a solvência:
+I - alienar ou prometer alienar ou de qualquer forma gravar bens garantidores de provisões técnicas, fundos especiais ou quaisquer outras provisões exigidas, inclusive os bens garantidores da conta em moeda estrangeira, sem prévia e expressa autorização da Susep:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+II - aplicar ou vincular os recursos exigidos no País para garantia das operações da matriz ou os recursos garantidores das provisões técnicas e fundos especiais garantidores de suas operações e outras provisões exigidas em desacordo com a legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+III - descumprir ou não observar os limites de retenção, na forma da legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+IV - descumprir ou não observar a exigência de capital mínimo ou de cobertura das provisões técnicas para a respectiva atividade, na forma da legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+V - não cumprir meta de plano de regularização de solvência ou de cobertura de provisões técnicas aprovado pela Susep:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais);
+VI - não constituir, constituir de forma inadequada ou fora do prazo provisão técnica ou fundo especial garantidor das operações de que trata esta Resolução, assim como utilizar de forma inadequada os ajustes na necessidade de cobertura das provisões técnicas por ativos garantidores:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+VII - não reter no País as provisões técnicas relativas às operações de resseguro e retrocessão efetuadas com resseguradores estrangeiros, na forma da legislação:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+VIII - realizar qualquer atividade de que trata esta Resolução ou operação comercial, financeira ou imobiliária em desacordo com a legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+IX - praticar a conduta do inciso VIII do caput com parte relacionada:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+X - não informar nos relatórios, questionários ou demonstrativos ou neles informar de modo incorreto ou incompleto operações realizadas com partes relacionadas ou com conflito de interesse, em desacordo com o exigido pela legislação vigente:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XI - não zelar pelo sistema de controles internos, pela estrutura de gestão de riscos ou pela governança corporativa ou, no caso de pessoa natural, não atuar com diligência ou prudência no exercício das funções de controle ou fiscalização corporativas:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XII -não manter conta corrente exclusiva de intermediação de resseguro em conformidade com a legislação:
+Multa cominada: R$ 100.000,00 (cem mil reais); ou
+XIII - não manter conta em moeda estrangeira, quando obrigatória, ou utilizá-la em desacordo com a legislação:
+Multa cominada: R$ 100.000,00 (cem mil reais).
+Subseção VII
+Infrações Pertinentes às Intermediações
+Art. 138. São infrações pertinentes às intermediações:
+I - transferir a responsabilidade por seguro, ou substituir a sociedade seguradora ou sociedade cooperativa de seguro, na vigência do contrato, sem a prévia anuência do segurado, quando exigida pela legislação:
+Multa cominada: R$ 50.000,00 (cinquenta mil reais), se o infrator for pessoa natural, ou R$ 150.000,00 (cento e cinquenta mil reais), se pessoa jurídica;
+II - não comunicar à sociedade seguradora, sociedade cooperativa de seguro, administradora de operações de proteção patrimonial mutualista, grupo de proteção patrimonial mutualista ou resseguradora, tão logo tome conhecimento, a ocorrência de qualquer sinistro ou expectativa de sinistro relativo ao grupo segurado ou evento coberto ou expectativa de evento coberto relativo ao grupo de proteção patrimonial mutualista, nos casos em que for de sua responsabilidade fazê-lo:
+Multa cominada: R$ 50.000,00 (cinquenta mil reais), se o infrator for pessoa natural, ou R$ 150.000,00 (cento e cinquenta mil reais), se pessoa jurídica;
+III - não fornecer ao segurado ou participante de grupo de proteção patrimonial mutualista, sempre que solicitado, quaisquer informações ou documentos relativos ao contrato de seguro ou de participação:
+Multa cominada: R$ 30.000,00 (trinta mil reais), se o infrator for pessoa natural, ou R$ 90.000,00 (noventa mil reais), se pessoa jurídica;
+IV - não informar o segurado sobre os prazos e procedimentos relativos à liquidação de sinistros:
+Multa cominada: R$ 30.000,00 (trinta mil reais), se o infrator for pessoa natural, ou R$ 90.000.00 (noventa mil reais), se pessoa jurídica;
+V - não repassar ao segurado todas as comunicações ou avisos relativos a contratos de seguro nos casos em que for diretamente responsável por sua administração:
+Multa cominada: R$ 30.000,00 (trinta mil reais), se o infrator for pessoa natural, ou R$ 90.000.00 (noventa mil reais), se pessoa jurídica;
+VI - não manter a sociedade seguradora, a sociedade cooperativa, a administradora de operações de proteção patrimonial mutualista, a entidade de previdência complementar aberta ou a resseguradora informada sobre os segurados ou participantes, seus dados cadastrais e alterações na natureza do risco coberto, bem como quaisquer eventos que possam acarretar-lhe responsabilidade futura:
+Multa cominada: R$ 50.000,00 (cinquenta mil reais), se o infrator for pessoa natural, ou R$ 150.000,00 (cento e cinquenta mil reais), se pessoa jurídica;
+VII - deixar de enviar à sociedade seguradora, à sociedade cooperativa, à administradora de operações de proteção patrimonial mutualista, à entidade de previdência complementar aberta ou à resseguradora os dados necessários à elaboração e atualização de tábuas biométricas ou cálculo do risco segurado ou ressegurado:
+Multa cominada: R$ 50.000,00 (cinquenta mil reais), se o infrator for pessoa natural, ou R$ 150.000,00 (cento e cinquenta mil reais), se pessoa jurídica;
+VIII - cobrar ou receber do segurado ou participante de proteção patrimonial mutualista, na condição de intermediário, qualquer outro valor além daqueles especificados pela sociedade seguradora, sociedade cooperativa de seguro ou pelo contrato de participação:
+Multa cominada: R$ 50.000,00 (cinquenta mil reais), se o infrator for pessoa natural, ou R$ 150.000,00 (cento e cinquenta mil reais), se pessoa jurídica;
+IX - exercer a atividade de corretagem tendo vínculo profissional, em desacordo com a legislação, com sociedade seguradora, sociedade cooperativa de seguro, resseguradora, sociedade de capitalização, entidade de previdência complementar aberta, administradora de proteção patrimonial mutualista ou associações a que grupos de proteção patrimonial estejam vinculados:
+Multa cominada: R$ 50.000,00 (cinquenta mil reais), se o infrator for pessoa natural, ou R$ 150.000,00 (cento e cinquenta mil reais), se pessoa jurídica;
+X - intermediar contratação de seguro, resseguro ou retrocessão no exterior em desacordo com as normas vigentes:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+XI - intermediar resseguro ou retrocessão com ressegurador ou segurador estrangeiro que não atenda aos requisitos previstos na legislação para atuar no País:
+Multa cominada: R$ 200.000,00 (duzentos mil reais); ou
+XII - não proporcionar à cedente, de forma tempestiva, acesso a todas as informações relativas às operações ou aos resseguradores nos quais efetue a colocação de riscos:
+Multa cominada: R$ 150.000,00 (cento e cinquenta mil reais).
+Subseção VIII
+Infrações Pertinentes aos Prestadores de Serviços de Auditoria Independente
+Art. 139. São infrações pertinentes aos prestadores de serviços de auditoria independente:
+I - elaborar de forma incorreta ou incompleta os documentos de auditoria independente, nos termos da legislação:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+II - não manter sob sua guarda os documentos e as evidências de auditoria independente conforme os termos ou prazos definidos pela legislação:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais); ou
+III - elaborar relatório, parecer, opinião ou papel de trabalho de auditoria independente sem conclusão técnica, com conclusão técnica sem fundamentação ou contrária às evidências de auditoria coletadas ou, ainda, em desacordo com a legislação:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais).
+Subseção IX
+Infrações aos Mecanismos de Controle de Prevenção à Lavagem de Dinheiro
+Art. 140. São infrações aos mecanismos de controle de prevenção à lavagem de dinheiro:
+I - não identificar seus clientes ou não manter cadastro atualizado, nos termos das instruções emanadas pelas autoridades competentes:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+II - deixar de sanar, por culpa ou dolo e no prazo de trinta dias, irregularidade prevista em dispositivo da Lei n° 9.613, de 1998, que tenha sido objeto de advertência:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+III - deixar de cumprir obrigação prevista no art. 11 da Lei n° 9.613, de 1998, na forma regulamentada pela Susep:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+IV - não atender às requisições formuladas pelo Conselho de Controle de Atividades Financeiras - COAF na periodicidade, forma e condições por ele estabelecidas ou não preservar, nos termos da lei, o sigilo das informações prestadas ao COAF:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+V - não manter registro de toda transação em moeda nacional ou estrangeira, títulos e valores mobiliários, títulos de crédito, metais, ou qualquer ativo passível de ser convertido em dinheiro, que ultrapassar limite fixado pela autoridade competente e nos termos de instruções por esta expedidas:
+Multa cominada: R$ 300.000,00 (trezentos mil reais); ou
+VI - não adotar políticas, procedimentos e controles internos, compatíveis com seu porte e volume de operações, que lhes permitam atender ao disposto nos arts. 10 e 11 da Lei n° 9.613, de 1998, na forma disciplinada pelos órgãos competentes:
+Multa cominada: R$ 300.000,00 (trezentos mil reais).
+Subseção X
+Infrações Pertinentes às Operações de Aceitação e Transferência de Riscos
+Art. 141. São infrações pertinentes às operações de aceitação e transferência de riscos:
+I - não cumprir ou retardar de forma injustificável o cumprimento de obrigação assumida em contrato de resseguro ou retrocessão:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais);
+II - aceitar risco ou emitir contrato de resseguro ou retrocessão em desacordo com a legislação:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais);
+III - não concluir a formalização de contratos de resseguro ou retrocessão no prazo previsto na legislação:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais);
+IV - pagar ou creditar comissão de resseguro a pessoa natural ou jurídica que não seja sociedade seguradora, sociedade cooperativa de seguro, administradora de operações de proteção patrimonial mutualista, ressegurador local ou ressegurador estrangeiro com quem estabeleça relação contratual:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+V - descumprir ou não observar o limite de cessão anual em resseguro ou retrocessão, na forma da legislação:
+Multa cominada: R$ 800.000,00 (oitocentos mil reais);
+VI - efetuar operação de resseguro ou retrocessão por intermédio de pessoa natural ou jurídica que não detenha autorização para operar como sociedade corretora de resseguro:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+VII - descumprir ou não observar o limite anual de aceite de retrocessão por sociedades seguradoras, na forma da legislação:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+VIII - ofertar resseguro ou retrocessão em desacordo com a legislação:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais);
+IX - ofertar, contratar ou ceder riscos em resseguro ou retrocessão em desacordo com a legislação:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais);
+X - não ofertar ou contratar no País, nos termos da legislação, percentual das operações de resseguro:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais);
+XI - ofertar, contratar ou ceder riscos em resseguro ou retrocessão em desacordo com a legislação tendo como contraparte ressegurador ou retrocessionário estrangeiro não cadastrado no Brasil:
+Multa cominada: R$ 800.000,00 (oitocentos mil reais);
+XII - aceitar riscos do exterior em desacordo com a legislação:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais);
+XIII - aceitar riscos do exterior em resseguro ou retrocessão em desacordo com a legislação:
+Multa cominada: R$ 800.000,00 (oitocentos mil reais);
+XIV - não efetivar a liquidação dos saldos relativos à operação de resseguro ou retrocessão no prazo previsto na legislação:
+Multa cominada: R$ 400.000,00 (quatrocentos mil reais); ou
+XV - descumprir ou não observar a regulamentação que trata da emissão de Letras de Risco de Seguro:
+Multa cominada: R$ 200.000,00 (duzentos mil reais).
+Subseção XI
+Demais Infrações
+Art. 142. Constitui infração:
+I - descumprir ou não observar quaisquer obrigações no âmbito do Open Insurance, no que se refere ao relacionamento com o cliente, à segurança cibernética, às demonstrações financeiras ou à governança, inclusive sobre dados:
+Multa cominada: R$ 150.000,00 (cento e cinquenta mil reais);
+II - deixar de aderir ao Open Insurance, quando obrigatório:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+III - descumprir ou não observar as obrigações e os padrões técnicos exigidos referentes ao registro das operações de seguros, previdência complementar aberta, capitalização e resseguros, inclusive daqueles constantes em termo de adesão ou em demais solicitações da Susep:
+Multa cominada: R$ 200.000,00 (duzentos mil reais);
+IV - gerir os recursos relativos ao DPVAT em desacordo com a legislação:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+V - deixar de contratar ou de recolher o prêmio dos seguros legalmente obrigatórios:
+Multa: valor correspondente ao dobro do valor do prêmio, quando este for definido na legislação aplicável, ou, nos demais casos, o que for maior entre 10% (dez por cento) da importância segurável ou R$ 10.000,00 (dez mil reais);
+VI - contratar seguro no exterior em desacordo com a legislação vigente:
+Multa cominada: R$ 100.000,00 (cem mil reais);
+VII - descumprir ou não observar os deveres assumidos por entidade autorreguladora do mercado de corretagem, que funcione como órgão auxiliar da Susep:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+VIII - deixar de aplicar sanção, quando cabível, ou aplicá-la de forma insuficiente ou inadequada, por erro grosseiro ou má-fé, no âmbito de entidade autorreguladora do mercado de corretagem, que funcione como órgão auxiliar da Susep:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+IX - deixar o liquidante de observar a legislação e as exigências da Susep na condução de liquidação extrajudicial ou ordinária:
+Multa cominada: R$ 150.000,00 (cento e cinquenta mil reais);
+X - não cumprir, retardar o cumprimento ou cumprir com aviso prévio aos sancionados, as resoluções do Conselho de Segurança das Nações Unidas ou as designações de seus comitês de sanções que determinem a indisponibilidade de ativos de titularidade, direta ou indireta, de pessoas naturais, de pessoas jurídicas ou de entidades submetidas a sanções decorrentes de tais resoluções, na forma e nas condições definidas pela Susep:
+Multa cominada: R$ 300.000,00 (trezentos mil reais);
+XI - atuar em desacordo com as normas legais ou de regulação que disciplinam as operações e as atividades de previdência complementar aberta, seguros, resseguros, retrocessão, capitalização, proteção patrimonial mutualista, intermediação e auditoria independente, bem como em relação às atividades dos liquidantes e dos estipulantes de seguro:
+Multa cominada: R$ 100.000,00 (cem mil reais); ou
+XII - efetuar cobrança, após apuração e cálculo do rateio de despesas relacionadas à proteção patrimonial mutualista, de valores que não estejam devidamente suportados em documentação comprobatória, ou que não estejam em consonância com os requisitos e os princípios estabelecidos na legislação vigente ou no contrato de participação ou nos normativos internos da respectiva associação, do respectivo grupo de proteção patrimonial ou da respectiva administradora de operações ou, ainda, que se relacionem a despesa realizada com conflito de interesse ou com partes relacionadas fora das hipóteses permitidas na legislação vigente:
+Multa cominada: R$ 150.000,00 (cento e cinquenta mil reais).
+CAPÍTULO V
+TERMO DE COMPROMISSO
+Seção I
+Disposições Gerais
+Art. 143. A Susep, mediante juízo de conveniência e oportunidade, devidamente fundamentado, e com vistas a atender ao interesse público, poderá celebrar termo de compromisso com o investigado ou acusado em relação às infrações previstas nesta Resolução, em qualquer fase do processo que preceda o início do julgamento de primeira instância, desde que o compromitente se obrigue a, cumulativamente:
+I - cessar a prática sob investigação ou os seus efeitos lesivos;
+II - corrigir as irregularidades apontadas e indenizar os prejuízos; e
+III - cumprir as demais condições que forem acordadas no caso concreto, com obrigatório recolhimento de contribuição pecuniária.
+Parágrafo único. O termo de compromisso não importará confissão quanto à matéria de fato, nem reconhecimento da ilicitude da conduta analisada.
+Art. 144. Não ensejam a celebração de termo de compromisso as propostas apresentadas:
+I - em casos que envolvam indícios de atos de gestão fraudulenta ou temerária, que comprometam a solvência da empresa ou que possam ser capitulados como crime; ou
+II - por proponente que, nos cinco anos anteriores à data de apresentação da proposta, tenha descumprido termo de compromisso anterior, ou que tenha firmado outro termo sobre o mesmo objeto há menos de dois anos.
+Parágrafo único. A não incidência nas vedações previstas nos incisos I e II do caput não gera direito subjetivo à celebração do termo de compromisso, cabendo à Susep avaliar a aceitação da proposta segundo critérios de conveniência e oportunidade.
+Seção II
+Proposta de Termo de Compromisso
+Art. 145. O investigado ou acusado deverá manifestar, por escrito, a intenção de celebrar o termo de compromisso em qualquer fase investigatória ou acusatória que preceda o início do julgamento de primeira instância, devendo apresentar proposta preliminar contendo, no mínimo:
+I - a qualificação do proponente e de seu representante legal, se for o caso;
+II - o relato circunstanciado da situação que enseja seu interesse na celebração de termo de compromisso;
+III - o compromisso de cessar a prática de atividades ou atos sob investigação e, sendo o caso, também os seus efeitos lesivos, ou, não sendo possível fazê-los imediatamente, o compromisso de cessá-los conforme as condições a serem estabelecidas no termo de compromisso;
+IV - o compromisso de corrigir as irregularidades apontadas e de indenizar os prejuízos, conforme as condições a serem estabelecidas no termo de compromisso; e
+V - o compromisso de efetuar o pagamento de contribuição pecuniária, nos termos a serem estabelecidos no termo de compromisso, devendo observar o disposto no art. 147.
+§ 1° A apresentação da proposta não suspende as atividades de supervisão, o inquérito administrativo ou a instrução e o andamento do processo administrativo sancionador, se instaurado.
+§ 2° A proposta de termo de compromisso será sigilosa e o processo de negociação possui caráter restrito ao interessado, seus representantes legais e procuradores constituídos nos autos, e à Susep.
+§ 3° Caso a Susep decida pela não celebração de termo de compromisso, o interessado não poderá apresentar outra proposta em relação ao mesmo processo ou aos mesmos fatos.
+§ 4° As informações e documentos apresentados pelo proponente exclusivamente durante a negociação de termo de compromisso que restar frustrada não poderão ser utilizados contra ele pela Susep.
+Art. 146. Recebida a proposta preliminar, os autos serão encaminhados à Diretoria competente pela supervisão da análise e do julgamento de processos administrativos sancionadores, que poderá solicitar manifestação prévia das áreas técnicas competentes, e submeterá a referida proposta ao Conselho Diretor da Susep para deliberação sobre a conveniência e a oportunidade de iniciar negociações, visando ao processamento do pedido e eventual celebração de termo de compromisso, observado o interesse público.
+§ 1° Caso a deliberação seja pelo processamento do pedido, a proposta preliminar será encaminhada a um comitê de negociação, devidamente constituído pelo Conselho Diretor e composto por, no mínimo, três servidores efetivos, sendo um deles designado o coordenador do comitê.
+§ 2° Caso a deliberação seja desfavorável ao processamento do pedido, a apuração do inquérito administrativo ou do processo administrativo sancionador continuará a tramitar no estágio em que se encontrar.
+Seção III
+Contribuição Pecuniária
+Art. 147. Os parâmetros para fixação da contribuição pecuniária deverão levar em conta, sempre que possível, o valor da multa que seria aplicável ao caso, conforme a Seção V do Capítulo IV, bem como as circunstâncias administrativas, agravantes, atenuantes e as reincidências conhecidas à época da negociação para celebração do termo de compromisso.
+Parágrafo único. Também poderá ser considerado, para fixação da contribuição pecuniária, o momento processual em que o interessado manifesta seu interesse em celebrar o termo de compromisso e, se cabível, o valor que será pago a título de indenização dos prejuízos causados.
+Seção IV
+Análise e Negociação de Proposta
+Art. 148. A análise da proposta de termo de compromisso será realizada pelo comitê de negociação, ao qual compete coordenar o processo negocial e emitir parecer conclusivo sobre a conveniência e a oportunidade da celebração.
+Art. 149. Se entender conveniente, o comitê de negociação poderá, antes da elaboração de seu parecer, negociar com o proponente as condições da proposta de termo de compromisso, para adequá-lo aos parâmetros de supervisão da Susep e ao interesse público.
+§ 1° A negociação entre o comitê de negociação e o proponente deve ser concluída no prazo máximo de cento e vinte dias, sendo facultado ao proponente aditar os termos de sua proposta inicial, nos prazos assinalados pelo comitê.
+§ 2° A depender das circunstâncias do caso concreto, o período de negociação poderá ser prorrogado por sessenta dias, por despacho motivado do coordenador do comitê e aprovado pela Diretoria competente pela supervisão da análise e do julgamento de processos administrativos sancionadores.
+Art. 150. Após concluído o período de negociação, o coordenador do comitê concederá, se necessário, prazo de dez dias para o proponente apresentar proposta final de termo de compromisso.
+Art. 151. O proponente poderá desistir da proposta formulada até o fim do prazo para apresentação da proposta final.
+Art. 152. Em caso de desistência pelo proponente, ou de não apresentação da proposta final no prazo assinalado, o procedimento será encerrado por ato do Conselho Diretor, ficando vedado novo requerimento referente ao mesmo processo ou aos mesmos fatos.
+Art. 153. A proposta final de termo de compromisso deve conter os seguintes elementos:
+I - a qualificação do proponente e de seu representante legal, se for o caso;
+II - o relato circunstanciado da situação que justifica a celebração de termo de compromisso;
+III - o compromisso de cessar a prática das atividades e dos atos sob investigação e, sendo o caso, também os seus efeitos lesivos, ou, não sendo possível fazê-los imediatamente, o compromisso de cessá-los conforme as condições estabelecidas no termo de compromisso;
+IV - o compromisso de corrigir as irregularidades apontadas e de indenizar os prejuízos, com a indicação da metodologia de quantificação, bem como do modo e do cronograma de correção e de indenização;
+V - a obrigação de prestação de informações periódicas à Susep sobre a execução do cronograma do termo de compromisso, durante seu prazo de vigência;
+VI - o montante da contribuição pecuniária, a ser paga por meio de GRU, à conta única do Tesouro Nacional, as condições de pagamento e as demais condições para sua execução;
+VII - o compromisso de apresentar relatório final com os respectivos comprovantes de cumprimento de todas as obrigações assumidas no termo de compromisso, em até quinze dias após a data final de sua vigência;
+VIII - as sanções administrativas ou as cláusulas penais aplicáveis pelo descumprimento, total ou parcial, das obrigações decorrentes do compromisso;
+IX - a obrigação de o interessado pagar as multas decorrentes do descumprimento parcial ou total do termo, nos valores, prazos e condições pactuados;
+X - os requisitos específicos expressamente indicados pelo comitê de negociação para a análise da execução do termo;
+XI - o prazo de vigência do termo de compromisso, com a indicação do cronograma de pagamento das indenizações dos prejuízos e do recolhimento da contribuição pecuniária;
+XII - a previsão expressa de que o termo de compromisso será considerado título executivo extrajudicial, nos termos do art. 121 -C, inciso III, do Decreto-Lei n° 73, de 1966; e
+XIII - o foro competente para dirimir eventuais litígios entre as partes ou executar o termo de compromisso.
+§ 1° A proposta final obriga o proponente, que não poderá alterá-la, condicioná-la ou revogá-la unilateralmente.
+§ 2° Os elementos listados nos incisos do caput não excluem outras cláusulas que o comitê de negociação entender pertinentes para o caso concreto.
+§ 3° Em caso de parcelamento da contribuição pecuniária, as parcelas serão necessariamente corrigidas pela taxa Selic, conforme divulgado pelo BCB.
+Art. 154. Apresentada a proposta final pelo proponente, será ouvida a Procuradoria Federal junto à Susep sobre a juridicidade da proposta de termo de compromisso.
+§ 1° Caso a Procuradoria Federal aponte vício sanável, o comitê de negociação notificará o proponente para aditar o termo de compromisso, no prazo de dez dias, salvo se justificada a necessidade de concessão de prazo maior.
+§ 2° Caso a Procuradoria Federal aponte vício insanável, o comitê de negociação notificará o proponente para se manifestar no prazo de dez dias e submeterá o caso ao Conselho Diretor da Susep, para deliberação.
+Art. 155. A proposta final de termo de compromisso será encaminhada pelo coordenador do comitê de negociação à Diretoria competente pela supervisão da análise e do julgamento de processos administrativos sancionadores, acompanhada de parecer opinando pela homologação ou rejeição da proposta.
+Parágrafo único. Incumbe à Diretoria de que trata o caput decidir sobre a admissibilidade da proposta final e o seu posterior encaminhamento ao Conselho Diretor para julgamento.
+Seção V
+Julgamento da Proposta Final
+Art. 156. A decisão sobre a aceitação da proposta final e consequente assinatura do termo de compromisso será tomada pelo Conselho Diretor da Susep e não está sujeita a recurso ou reconsideração.
+§ 1° Na deliberação, o Conselho Diretor deverá considerar a oportunidade, a conveniência e o interesse público na celebração do compromisso, incluindo, dentre outros elementos, a natureza e a gravidade das infrações objeto do processo, os antecedentes dos acusados ou investigados, a colaboração de boa-fé destes e a efetiva possibilidade de indenização dos prejuízos, no caso concreto.
+§ 2° A decisão sobre a celebração do termo de compromisso não importa exame de mérito, pelo Conselho Diretor, quanto à matéria de fato ou à ilicitude da conduta que originou a proposta.
+Art. 157. O Conselho Diretor da Susep somente poderá aceitar ou rejeitar a proposta final, vedada a apresentação de contraproposta.
+Parágrafo único. Caso constatado erro material, antes de deliberar sobre a proposta de celebração de termo de compromisso, o Conselho Diretor pode solicitar ao comitê de negociação a adoção de providências de saneamento processual.
+Art. 158. Caso a proposta final não seja aprovada pelo Conselho Diretor, a apuração do processo administrativo sancionador ou do inquérito administrativo continuará a tramitar no estágio em que se encontrar.
+Art. 159. A celebração do termo de compromisso tem por efeito:
+I - a suspensão dos prazos de prescrição de que trata a Lei n° 9.873, de 23 de novembro de 1999;
+II - a suspensão da apuração, do inquérito administrativo ou do processo administrativo em curso, pelo prazo estipulado para o cumprimento do compromisso; e
+III - a não instauração de inquérito administrativo ou de processo administrativo sancionador pelos fatos objeto do termo de compromisso, nos casos em que a proposta tiver sido apresentada ainda em fase de apuração preliminar.
+Art. 160. As condições do termo de compromisso firmado entre as partes não poderão ser alteradas, salvo por nova deliberação do Conselho Diretor, mediante solicitação do compromitente.
+Parágrafo único. O prazo para cumprimento do termo de compromisso será improrrogável, salvo por motivo superveniente devidamente comprovado e não imputável ao compromitente.
+Art. 161. O termo de compromisso será publicado, de forma clara e suficiente para compreensão de suas cláusulas, no sítio eletrônico da Susep, no prazo de cinco dias, contado da sua data de assinatura, e o respectivo extrato será publicado no DOU.
+Seção VI
+Acompanhamento da Execução
+Art. 162. O cumprimento das obrigações assumidas no termo de compromisso deve ser fiscalizado pela unidade da Susep afeta ao mérito do processo ou por outra unidade indicada pelo seu Conselho Diretor, se for o caso.
+Parágrafo único. A indenização dos prejuízos deverá ser realizada diretamente pelo compromitente, sem intermediação da Susep, devendo comprovar tempestivamente nos autos a realização dos pagamentos.
+Art. 163. No prazo de até quinze dias após o término da vigência do termo de compromisso, o compromitente apresentará relatório final com os respectivos comprovantes de cumprimento de todas as obrigações assumidas, sobre o qual a unidade designada conforme o art. 162 encaminhará parecer ao Conselho Diretor da Susep, opinando se as condições nele estabelecidas foram satisfatoriamente cumpridas.
+§ 1° Caso haja parcelamento das contribuições pecuniárias, o parecer somente será emitido após o pagamento da última parcela.
+§ 2° A emissão do parecer ficará condicionada à comprovação do recolhimento de eventuais valores a título de multa de mora por descumprimento circunstancial de obrigações previstas no cronograma.
+Art. 164. Caso o Conselho Diretor da Susep delibere que as condições previstas no termo de compromisso foram satisfatoriamente cumpridas, o inquérito administrativo ou o processo administrativo sancionador será arquivado em relação ao compromitente, não repercutindo para fins de reincidência.
+Art. 165. Caso o Conselho Diretor da Susep delibere que houve descumprimento total ou parcial das obrigações assumidas, a Susep adotará as medidas administrativas e judiciais necessárias para a execução do termo de compromisso e determinará a instauração ou o prosseguimento do inquérito administrativo ou do processo administrativo sancionador.
+Parágrafo único. O descumprimento do termo não acarretará a devolução de valores pagos a título de indenização, de contribuição pecuniária ou de eventuais custos incorridos em obrigações de fazer.
+CAPÍTULO VI
+DISPOSIÇÕES FINAIS
+Art. 166. A Susep comunicará:
+I - ao Ministério Público, quando houver indícios da prática de crime definido em lei como de ação pública; e
+II - a outros órgãos e entidades da Administração Pública, quando verificada a ocorrência de indícios da prática de ato infracional em área sujeita à supervisão destes.
+Parágrafo único. A comunicação poderá ocorrer antes da instauração ou do julgamento de processo administrativo sancionador, nos casos em que os indícios forem considerados suficientes pela Susep.
+Art. 167. Os dispositivos de cunho processual desta Resolução aplicam-se a todos os processos em curso, sem prejuízo dos atos já praticados.
+Art. 168. Os dispositivos de cunho material desta Resolução aplicam-se aos fatos e infrações ocorridos a partir da sua entrada em vigor.
+Parágrafo único. Aos fatos e infrações anteriores, aplicam-se as disposições materiais das normas vigentes ao tempo de sua ocorrência.
+Art. 169. Fica a Susep autorizada, dentro de suas competências, a expedir normas complementares, de natureza técnica, operacional ou procedimental, com relação aos temas de que trata esta Resolução.
+Art. 170. Aplicam-se, no que couber, as disposições da Lei n° 9.784, de 29 de janeiro de 1999, às situações não previstas nesta Resolução.
+Art. 171. Ficam revogados:
+I - a Resolução CNSP n° 393, de 30 de outubro de 2020;
+II - o art. 20 da Resolução CNSP n° 429, de 12 de novembro de 2021;
+III - o art. 3° da Resolução CNSP n° 450, de 18 de outubro de 2022; e
+IV - a Resolução CNSP n° 452, de 19 de dezembro de 2022.
+Art. 172. Esta Resolução entra em vigor em 1º de janeiro de 2027.
+ALESSANDRO SERAFIN OCTAVIANI LUIS
