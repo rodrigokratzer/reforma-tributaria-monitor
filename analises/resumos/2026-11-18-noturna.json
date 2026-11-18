@@ -1,0 +1,132 @@
+{
+ "data": "2026-11-18",
+ "turno": "noturna",
+ "manchete": "Receita diz que os 11,3% do imposto federal novo valeriam só em 2027 e estuda livrar de multa quem usar a calculadora oficial.",
+ "em_30_segundos": [
+  "Reforma: os 11,3% propostos para o imposto federal novo valeriam só em 2027; o Senado fixa a alíquota até 15/12.",
+  "A Receita estuda não multar quem errar o cálculo usando a calculadora oficial do Fisco. Ainda não é regra.",
+  "Banco do Brasil avisa clientes de vazamento de nome, CPF, e-mail e agência: desconfie de contato pedindo senha.",
+  "Feriado de sexta (20): agências só reabrem na segunda (23), e imposto não segue a mesma regra do boleto.",
+  "Novo Desenrola: relatório no início de dezembro; a União pode comprar dívidas com desconto de pelo menos 90%."
+ ],
+ "noticias": [
+  {
+   "chave": "3f0aae009cfc3ad6",
+   "tema": "reforma",
+   "titulo": "Tributária: possível alíquota de 11,3% de imposto federal valeria só em 2027 e, segundo Receita, pode subir ou descer depois; entenda",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/18/tributaria-aliquota-de-113percent-para-imposto-federal-valera-so-em-2027-e-segundo-receita-pode-subir-ou-descer-depois-entenda.ghtml",
+   "publicado_em": "2026-11-18T15:28:42-03:00",
+   "linha": "A alíquota de 11,3% proposta para a CBS, o imposto federal novo que substitui PIS e Cofins, valeria só para 2027 e pode mudar depois.",
+   "trecho": "O secretário da Receita Federal, Robinson Barreirinhas, lembrou nesta quarta-feira (18) que, pelas regras da reforma tributária sobre o consumo, a tributação proposta de 11,3% para o imposto federal sobre o consumo, se confirmada, valeria somente para o ano de 2027.",
+   "por_que_importa": "O número foi calculado pelo TCU e ainda depende do Senado, que tem até 15 de dezembro para fixar a alíquota. Quem forma preço para 2027 deve tratar os 11,3% como provisórios, porque a alíquota pode subir ou cair nos anos seguintes.",
+   "ideia_post": "\"Vou pagar 11,3% de imposto para sempre?\" Explicar que o número vale só para 2027, ainda depende do Senado e pode mudar depois.",
+   "origem": "rss"
+  },
+  {
+   "chave": "430615be44d3c56f",
+   "tema": "reforma",
+   "titulo": "Receita estuda isentar de punição devido a erro contribuinte que usar calculadora do Fisco",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/brasil/noticia/2026/11/18/receita-estuda-isentar-de-punicao-devido-a-erro-contribuinte-que-usar-calculadora-do-fisco.ghtml",
+   "publicado_em": "2026-11-18T15:19:53-03:00",
+   "linha": "A Receita estuda não multar quem errar o cálculo do imposto novo usando a calculadora oficial do Fisco.",
+   "trecho": "Em entrevista ao Observatório Tributário do Valor, o secretário da Receita Federal, Robinson Barreirinhas, afirmou que o órgão estuda isentar de fiscalização e de punições devido a erro de cálculo os contribuintes que utilizarem a calculadora disponibilizada pelo Fisco.",
+   "por_que_importa": "Por enquanto é só estudo, ainda sem regra publicada. A calculadora já vem embutida nos documentos fiscais emitidos, segundo o secretário. Para o pequeno negócio, usar sistema de nota que já tenha a calculadora oficial pode vir a ser uma proteção contra multa.",
+   "ideia_post": "\"Errei o imposto novo: vou levar multa?\" Mostrar que a Receita estuda proteger quem usa a calculadora oficial e reforçar que ainda não é regra.",
+   "origem": "rss"
+  },
+  {
+   "chave": "86a6e1ef9206aa03",
+   "tema": "reforma",
+   "titulo": "Regulamento 2.0 da reforma tributária deve sair até a próxima semana, diz Barreirinhas",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/brasil/noticia/2026/11/18/regulamento-20-da-reforma-tributaria-deve-sair-ate-a-proxima-semana-diz-barreirinhas.ghtml",
+   "publicado_em": "2026-11-18T15:22:52-03:00",
+   "linha": "A segunda versão do regulamento da reforma, que detalha como IBS e CBS funcionam na prática, deve sair nesta semana ou na próxima.",
+   "trecho": "O secretário da Receita Federal, Robinson Barreirinhas, afirmou que a expectativa é publicar a segunda versão do regulamento da reforma tributária nesta semana ou, no máximo, na próxima.",
+   "por_que_importa": "O Comitê Gestor do IBS já aprovou o texto, que agora tramita no governo federal. É ele que diz ao contador como apurar o imposto novo, que começa a ser cobrado de verdade em janeiro. Quando sair, o painel lê o texto completo.",
+   "ideia_post": "Faltam semanas para 2027 e as regras finais ainda não saíram: o que o dono do negócio já pode fazer enquanto espera.",
+   "origem": "rss"
+  },
+  {
+   "chave": "9105f97b700fdcf3",
+   "tema": "reforma",
+   "titulo": "Proposta de ajuste fiscal não interfere na transição da reforma tributária, diz Barreirinhas",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/brasil/noticia/2026/11/18/proposta-de-ajuste-fiscal-nao-interfere-na-transicao-da-reforma-tributaria-diz-barreirinhas.ghtml",
+   "publicado_em": "2026-11-18T15:30:49-03:00",
+   "linha": "Segundo a Receita, o limite à compensação de créditos previsto no ajuste fiscal não atinge os créditos de PIS/Cofins na passagem para a CBS.",
+   "trecho": "“Essa proposta legislativa não se aplica ao crédito de PIS/Cofins em relação à CBS, à transição muito menos. Para ficar muito claro, na transição da reforma tributária, ela não interfere na não cumulatividade que estamos tratando”, disse.",
+   "por_que_importa": "O projeto de ajuste fiscal em votação no Senado autoriza o governo a limitar a compensação de débitos com créditos de outros tributos, o que preocupou empresas com créditos acumulados. Pelo secretário, o crédito que a empresa leva de PIS/Cofins para a CBS fica fora disso. É declaração, não norma: vale conferir o texto final do projeto.",
+   "ideia_post": "\"O governo vai travar meu crédito de imposto?\" Separar o que o ajuste fiscal limita do que a reforma garante.",
+   "origem": "rss"
+  },
+  {
+   "chave": "8df8a002c39c7b00",
+   "tema": "pessoas",
+   "titulo": "Banco do Brasil alerta clientes sobre vazamento de dados pessoais e risco de golpes; veja o que foi exposto",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/tecnologia/noticia/2026/11/18/banco-do-brasil-dados.ghtml",
+   "publicado_em": "2026-11-18T16:30:01-03:00",
+   "linha": "O Banco do Brasil avisou clientes que dados pessoais foram acessados sem autorização, o que aumenta o risco de golpe.",
+   "trecho": "O Banco do Brasil informou que identificou, no dia 12 de novembro, um acesso não autorizado a dados pessoais de clientes. Segundo comunicado enviado aos correntistas, as informações expostas podem incluir nome, CPF, endereço de e-mail, número da agência e, em alguns casos, número da conta.",
+   "por_que_importa": "Com nome, CPF, agência e conta, o golpista consegue se passar pelo banco num telefonema ou e-mail. Segundo o banco, senhas e códigos de segurança não foram expostos. Cliente do BB deve desconfiar de contato que peça senha, código ou transferência.",
+   "ideia_post": "\"Recebi aviso do BB de vazamento, e agora?\" Três sinais de que a ligação do 'banco' é golpe.",
+   "origem": "rss"
+  },
+  {
+   "chave": "f8ca799ef5c59593",
+   "tema": "pessoas",
+   "titulo": "Bancos fecham na sexta de feriado: boleto pode esperar, mas imposto não",
+   "fonte": "UOL Economia",
+   "url": "https://economiareal.uol.com.br/noticia/economia/bancos-nao-abrem-sexta-de-feriado-boleto-pode-esperar-mas-imposto-nao-2250?utm_source=Feed%20UOL&utm_medium=site&xid=1338",
+   "publicado_em": "2026-11-18T12:38:00-03:00",
+   "linha": "Com o feriado de sexta (20), as agências só reabrem na segunda (23), e conta de imposto não segue a mesma regra do boleto comum.",
+   "trecho": "Agências só reabrem na segunda-feira (23) por conta do feriado da Consciência Negra",
+   "por_que_importa": "Quem tem boleto ou imposto vencendo na sexta precisa saber se pode pagar na segunda sem multa ou se tem que antecipar. Para o MEI e o Simples, o dia 20 é o vencimento do DAS: confira a data impressa na guia antes de deixar para depois.",
+   "ideia_post": "\"Meu DAS vence no feriado: pago antes ou depois?\" Mostrar onde conferir a data certa na guia.",
+   "origem": "rss"
+  },
+  {
+   "chave": "1fc668e372353846",
+   "tema": "pessoas",
+   "titulo": "Cid Gomes promete relatório do novo Desenrola para início de dezembro",
+   "fonte": "Agência Câmara Economia",
+   "url": "https://www.camara.leg.br/noticias/1320466-cid-gomes-promete-relatorio-do-novo-desenrola-para-inicio-de-dezembro",
+   "publicado_em": "2026-11-18T07:49:00-03:00",
+   "linha": "O relatório da MP do novo Desenrola, que permite à União comprar dívidas de pessoas físicas com desconto, deve sair no início de dezembro.",
+   "trecho": "A União comprará as carteiras de dívidas por meio de uma seleção que dará prioridade aos credores que oferecerem os maiores descontos, de pelo menos 90% do valor original.",
+   "por_que_importa": "A MP autoriza a compra de até R$ 15 bilhões em dívidas de bancos, prestadores de serviços e lojas, que depois poderão ser renegociadas com o consumidor em condições facilitadas. A comissão do Congresso foi instalada nesta semana, e o relator promete o parecer no início de dezembro.",
+   "ideia_post": "\"Minha dívida antiga pode ser comprada pelo governo?\" Explicar como funciona o Desenrola 3.0 e quem pode ser beneficiado.",
+   "origem": "rss"
+  },
+  {
+   "chave": "0c0e77aad1166dec",
+   "tema": "pessoas",
+   "titulo": "Dívidas absorvem R$ 58 de cada R$ 100 de aumento da renda das famílias",
+   "fonte": "UOL Economia",
+   "url": "https://economia.uol.com.br/noticias/redacao/2026/11/18/dividas-ficam-com-r-58-de-cada-r-100-de-aumento-da-renda.ghtm",
+   "publicado_em": "2026-11-18T09:49:40-03:00",
+   "linha": "Desde 2023, as dívidas ficaram com R$ 58 de cada R$ 100 que a renda das famílias aumentou.",
+   "trecho": "As dívidas absorveram R$ 58 de cada R$ 100 de aumento da renda das famílias desde 2023, segundo o Ibre, em publicação do FGV Dados.",
+   "por_que_importa": "O dado do Ibre/FGV mostra que o aumento de salário foi parar, em boa parte, no pagamento de parcelas e juros, e não no consumo. Isso ajuda a entender por que a renda subiu e o bolso continua apertado.",
+   "ideia_post": "\"Meu salário subiu e o dinheiro não sobra\": o dado dos R$ 58 de cada R$ 100 explica.",
+   "origem": "rss"
+  },
+  {
+   "chave": "2d34118806dfa3b5",
+   "tema": "empreendedor",
+   "titulo": "Pré-Black Friday tem recuo de vendas no Brasil, mostra Itaú",
+   "fonte": "Folha Mercado",
+   "url": "https://www1.folha.uol.com.br/colunas/painelsa/2026/11/pre-black-friday-tem-recuo-de-vendas-no-brasil-mostra-itau.shtml",
+   "publicado_em": "2026-11-18T06:00:00-03:00",
+   "linha": "As vendas no esquenta da Black Friday caíram em relação ao ano passado, segundo dados do Itaú.",
+   "trecho": "Apesar das expectativas de alta nas vendas durante a Black Friday por parte de diversas empresas, o período que marca o esquenta da data, no qual algumas companhias já começam a oferecer descontos, mostrou um desempenho tímido neste ano no país.",
+   "por_que_importa": "Para o pequeno varejo, é sinal para não exagerar no estoque nem no desconto apostando num pico de vendas. Com as dívidas pesando na renda das famílias, o consumidor está mais cauteloso.",
+   "ideia_post": "\"Vale a pena entrar na Black Friday com o cliente sem dinheiro?\" Dicas para o pequeno negócio não queimar margem.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 226
+}
