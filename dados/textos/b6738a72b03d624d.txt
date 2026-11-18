@@ -1,0 +1,35 @@
+PORTARIA CONJUNTA RFB/SUSEP Nº 748, DE 9 DE NOVEMBRO DE 2026
+Dispõe sobre os procedimentos para a inscrição, no Cadastro Nacional da Pessoa Jurídica, das operações de Letras de Risco de Seguro realizadas por Sociedades Seguradoras de Propósito Específico.
+O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL E O SUPERINTENDENTE DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS, no uso das atribuições que lhes conferem, respectivamente, o art. 350, caput, inciso III, do Regimento Interno da Secretaria Especial da Receita Federal do Brasil, aprovado pela Portaria ME nº 284, de 27 de julho de 2020, e o art. 48, caput, inciso X, do Regimento Interno da Superintendência de Seguros Privados, aprovado pela Resolução CNSP nº 490, de 12 de março de 2026, e tendo em vista o disposto no art. 16, § 1º, da Lei nº 14.430, de 3 de agosto de 2022, e na Resolução CNSP nº 453, de 19 de dezembro de 2022,resolvem:
+Art. 1º Esta Portaria disciplina os procedimentos para a inscrição, no Cadastro Nacional da Pessoa Jurídica - CNPJ, das operações de Letras de Risco de Seguro - LRS realizadas por Sociedades Seguradoras de Propósito Específico - SSPE.
+Art. 2º Para fins do disposto nesta Portaria, consideram-se:
+I - LRS: título de crédito nominativo, transferível e de livre negociação, representativo de promessa de pagamento em dinheiro, vinculado a riscos de seguros e resseguros, emitido em conformidade com a legislação aplicável;
+II - SSPE: sociedade seguradora que tem como finalidade exclusiva realizar uma ou mais operações, independentes patrimonialmente, de transferência de riscos de seguros, previdência complementar, saúde suplementar, resseguro ou retrocessão de uma ou mais contrapartes e seu financiamento por meio de emissão de LRS; e
+III - certidão de licenciamento: documento emitido pela Superintendência de Seguros Privados - Susep que, na data de sua emissão, certifica que SSPE está autorizada a operar e atesta que a mesma não se encontra sob regime especial de liquidação, direção fiscal ou intervenção.
+Art. 3º A inscrição de operação de LRS no CNPJ deve ser solicitada à Secretaria Especial da Receita Federal do Brasil pela SSPE, mediante processo digital formalizado por meio do Portal de Serviços da Receita Federal.
+§ 1º Deverá ser efetuada uma solicitação de inscrição no CNPJ para cada operação de LRS.
+§ 2º No processo digital a que se refere o caput, deve ser anexada a seguinte documentação:
+I - certidão de licenciamento que comprove a autorização da SSPE para operar; e
+II - cópia da portaria editada pela Susep que autoriza a emissão de LRS pela SSPE.
+§ 3º Para fins do disposto no § 2º, a certidão de licenciamento:
+I - deverá:
+a) ser emitida pelo sistema de fornecimento de certidões da Susep na data de encaminhamento da solicitação de que trata o caput;
+b) indicar o nome da entidade, com razão social denominada "sociedade seguradora de propósito específico", que evidencie a atuação exclusiva como SSPE;
+c) indicar que a SSPE não se encontra, na data de emissão da certidão, sob regime especial de liquidação, direção fiscal ou intervenção; e
+d) conter código para autenticação válido no site da Susep; e
+II - não poderá indicar limitação para operar, de forma temporária ou definitiva, imposta pela Susep.
+Art. 4º O processo digital regularmente formalizado nos termos do art. 3º será encaminhado às Equipes de Cadastros - Ecad da Secretaria Especial da Receita Federal do Brasil, para realização da inscrição da operação no CNPJ.
+§ 1º A inscrição no CNPJ para operações de LRS será realizada mediante utilização:
+I - do código de Natureza Jurídica 222-4 (Clube de Investimento); e
+II - do código da Classificação Nacional de Atividades Econômicas - CNAE 64.70-1/01 (Fundos de investimento, exceto previdenciários e imobiliários).
+§ 2º Os códigos a que se refere o § 1º serão utilizados de forma transitória e excepcional, até que sejam criados códigos específicos para as operações de LRS.
+§ 3º Após a conclusão do procedimento de inscrição, a Ecad anexará o comprovante de inscrição no CNPJ ao respectivo processo digital para ciência do solicitante.
+Art. 5º As etapas do procedimento de inscrição e as comunicações realizadas serão registradas pela Secretaria Especial da Receita Federal do Brasil no processo digital a que se refere o art. 3º.
+Art. 6º Compete às equipes de atendimento e de cadastro da Secretaria Especial da Receita Federal do Brasil, no âmbito de suas atribuições, adotar as medidas necessárias à execução dos procedimentos previstos nesta Portaria.
+Art. 7º A inscrição no CNPJ realizada nos termos desta Portaria não substitui nem dispensa o cumprimento das demais obrigações legais, regulatórias e cadastrais aplicáveis às operações de LRS.
+Art. 8º Para fins do disposto nesta Portaria, a Secretaria Especial da Receita Federal do Brasil e a Susep poderão utilizar os mecanismos de intercâmbio de informações previstos em convênio de cooperação vigente, inclusive para a verificação de requisitos, a validação de informações e o acompanhamento das operações de LRS.
+Art. 9º Esta Portaria entra em vigor na data de sua publicação no Diário Oficial da União.
+ROBINSON SAKIYAMA BARREIRINHAS
+Secretário Especial da Receita Federal do Brasil
+ALESSANDRO SERAFIN OCTAVIANI LUIS
+Superintendente da Superintendência de Seguros Privados
