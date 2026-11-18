@@ -504,18 +504,11 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 2,
+   "total": 1,
    "itens": [
     {
      "titulo": "Processamento final das solicitações de Opção pelo Simples Nacional para 2027",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/processamento-final-das-solicitacoes-de-opcao-pelo-simples-nacional-para-2027",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Reforma Tributária: Atualização do Ambiente Beta da DeRE",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/reforma-tributaria-atualizacao-do-ambiente-beta-da-dere",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
