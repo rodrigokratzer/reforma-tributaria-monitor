@@ -1,0 +1,131 @@
+{
+ "data": "2026-11-18",
+ "turno": "matinal",
+ "manchete": "Comida mais cara em todas as capitais e um mês para o pequeno negócio se adaptar ao fim da escala 6x1.",
+ "em_30_segundos": [
+  "Cesta básica subiu em outubro nas 27 capitais, puxada por tomate, arroz e carne; café e feijão ficaram mais baratos.",
+  "Fim da escala 6x1: Lula assina o decreto na quinta (19), e a jornada de 42 horas com duas folgas começa em 16/12.",
+  "Reforma: o Senado tem até 15/12 para fixar a alíquota do imposto federal novo que substitui PIS e Cofins em janeiro.",
+  "Senado aprova crédito com juros subsidiados para empresas atingidas pelo tarifaço dos EUA; vai à sanção.",
+  "Nenhuma publicação oficial de hoje muda prazo ou obrigação da reforma tributária."
+ ],
+ "noticias": [
+  {
+   "chave": "5bc13d9e2eb416b1",
+   "tema": "pessoas",
+   "titulo": "Tomate, arroz e carne encarecem cesta básica em todas as capitais; veja o valor e quanto subiu",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/18/tomate-arroz-e-carne-encarecem-cesta-basica-em-todas-as-capitais-veja-o-valor-e-quanto-subiu.ghtml",
+   "publicado_em": "2026-11-18T03:00:00-03:00",
+   "linha": "A cesta básica ficou mais cara em outubro nas 27 capitais, puxada por tomate, arroz e carne; café e feijão baratearam na maioria delas.",
+   "trecho": "Tomate, arroz e carne bovina de primeira foram os principais produtos responsáveis pela alta da cesta básica nas 27 capitais do país em outubro, mostra um relatório do Departamento Intersindical de Estatística e Estudos Socioeconômicos (Dieese) em parceria com a Companhia Nacional de Abastecimento (Conab), publicado no dia 10.",
+   "por_que_importa": "É o gasto de comida de toda família, em todo o país. Segundo a Agência Brasil, o clima derrubou a produção de tomate e, em algumas capitais, o quilo custa até o dobro do início do ano. Para o pequeno restaurante e a marmita, o custo do prato subiu.",
+   "ideia_post": "Por que o tomate ficou tão caro, e o que dá para trocar na feira sem perder o prato? O feijão e o café foram na contramão.",
+   "origem": "rss"
+  },
+  {
+   "chave": "e224ec74e337060f",
+   "tema": "empreendedor",
+   "titulo": "Lula deve assinar na quinta decreto que regulamenta fim da escala 6x1, diz Marinho",
+   "fonte": "Exame",
+   "url": "https://exame.com/brasil/lula-deve-assinar-na-quinta-decreto-que-regulamenta-fim-da-escala-6x1-diz-marinho/",
+   "publicado_em": "2026-11-17T21:05:54-03:00",
+   "linha": "O decreto que regulamenta o fim da escala 6x1 deve sair na quinta (19); a jornada de 42 horas com duas folgas começa a valer em 16/12.",
+   "trecho": "A transição para a jornada de 42 horas semanais, com duas folgas remuneradas, tem início em 16 de dezembro.",
+   "por_que_importa": "Quem tem funcionário em escala 6x1 (comércio, restaurante, salão) tem menos de um mês para refazer escalas e custo de folha. O conteúdo do decreto ainda não foi divulgado, e o ministro não disse que ajustes Lula pediu.",
+   "ideia_post": "Tenho loja e funcionário na 6x1: o que preciso mudar até 16 de dezembro? Um checklist de escala para o pequeno negócio.",
+   "origem": "rss"
+  },
+  {
+   "chave": "faf7c50a9ac5f987",
+   "tema": "reforma",
+   "titulo": "No Senado, ministro da Fazenda defende novo tributo sobre o consumo",
+   "fonte": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/no-senado-ministro-da-fazenda-defende-novo-tributo-sobre-o-consumo",
+   "publicado_em": "2026-11-17T17:01:38-03:00",
+   "linha": "O Senado tem até 15 de dezembro para definir a alíquota da CBS, o imposto federal novo que substitui PIS e Cofins em janeiro.",
+   "trecho": "A CBS substituirá a partir de janeiro os atuais PIS/Pasep e Cofins. O Senado tem até 15 de dezembro para definir a alíquota, por meio de resolução.",
+   "por_que_importa": "É o número que vai entrar no preço de quase tudo a partir de 2027. Segundo a Agência Senado, sem decisão até lá vale provisoriamente os 11,3% calculados pelo TCU; o ministro estima uma alíquota efetiva média de 8,5%, o que é estimativa do governo, não norma.",
+   "ideia_post": "Daqui a menos de um mês o Senado decide quanto vai ser o imposto novo que substitui PIS e Cofins. Por que isso mexe no preço do que você compra?",
+   "origem": "rss"
+  },
+  {
+   "chave": "ca6b0b802d58fd09",
+   "tema": "empreendedor",
+   "titulo": "Senado aprova crédito de até R$ 13,5 bi a empresas afetadas por tarifaço de Trump e guerras",
+   "fonte": "Estadão",
+   "url": "https://www.estadao.com.br/economia/senado-aprova-credito-de-ate-r-135-bi-a-empresas-afetadas-por-tarifaco-de-trump-e-guerras/",
+   "publicado_em": "2026-11-17T22:44:18-03:00",
+   "linha": "O Senado aprovou até R$ 13,5 bilhões do Tesouro em linhas de crédito com juros subsidiados para empresas atingidas pelo tarifaço dos EUA; vai à sanção.",
+   "trecho": "O Senado aprovou nesta terça-feira, 17, o projeto resultante da Medida Provisória (MP) 1.379/2026, para criar novas linhas de crédito com juros subsidiados para empresas afetadas pelo tarifaço dos Estados Unidos a produtos brasileiros. O texto segue para sanção.",
+   "por_que_importa": "É a terceira rodada do Plano Brasil Soberano. Pequeno exportador (ou fornecedor de quem exporta para os EUA) que perdeu venda pode buscar crédito mais barato que o do banco, depois da sanção.",
+   "ideia_post": "Sua empresa vende para quem exporta aos EUA e sentiu o tarifaço? Existe crédito com juros subsidiados: como saber se você entra.",
+   "origem": "rss"
+  },
+  {
+   "chave": "de7b60e679ab63a7",
+   "tema": "pessoas",
+   "titulo": "Deputados aprovam crédito de R$ 6,6 bi para pagar subvenção aos combustíveis",
+   "fonte": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1320331-deputados-aprovam-credito-de-r-66-bi-para-pagar-subvencao-aos-combustiveis",
+   "publicado_em": "2026-11-17T17:31:00-03:00",
+   "linha": "A Câmara aprovou R$ 6,6 bilhões para a ANP pagar a subvenção de gasolina e diesel, que segura o preço nas bombas; falta o Senado.",
+   "trecho": "Portaria do Ministério da Fazenda, regulamentando a Medida Provisória 1363/26, definiu a subvenção da gasolina em R$ 0,44 por litro.",
+   "por_que_importa": "O dinheiro paga o desconto que já está no preço da gasolina, encarecida pela crise no Oriente Médio. Sem o Senado aprovar, a conta do subsídio fica em aberto; na edição de ontem, o fim do subsídio ao diesel importado já apontava alta nas bombas.",
+   "ideia_post": "Quanto do preço da gasolina é subsídio hoje, e o que acontece com o seu tanque se ele acabar?",
+   "origem": "rss"
+  },
+  {
+   "chave": "d6d7ca317de96ef5",
+   "tema": "pessoas",
+   "titulo": "INSS adotará prazo maior para análise de pedidos de BPC e outros benefícios; entenda",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/inss-adotara-prazo-maior-para-analise-de-pedidos-de-bpc-e-outros-beneficios-entenda.shtml",
+   "publicado_em": "2026-11-18T04:00:00-03:00",
+   "linha": "O INSS prepara para 2027 uma norma que dá prazo maior para analisar BPC e outros benefícios antes de o pedido contar como atrasado.",
+   "trecho": "Hoje, são considerados em atraso os pedidos que estão sem conclusão há mais de 45 dias, sem distinção do tipo de benefício.",
+   "por_que_importa": "Quem pede BPC ou outro benefício pode esperar mais antes de o pedido entrar na fila de atrasados. Os novos prazos por benefício ainda não foram detalhados na linha fina, e a norma é para 2027.",
+   "ideia_post": "Pediu BPC ou aposentadoria e está esperando? O que muda no prazo do INSS em 2027 e quando vale reclamar da demora.",
+   "origem": "rss"
+  },
+  {
+   "chave": "ebdaa1315dcdc9ed",
+   "tema": "pessoas",
+   "titulo": "Aneel forma maioria de votos para encerrar contrato da Enel SP, mas pedido de vista adia decisão",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/brasil/noticia/2026/11/17/aneel-forma-maioria-de-votos-para-encerrar-contrato-da-enel-sp-mas-pedido-de-vista-adia-decisao.ghtml",
+   "publicado_em": "2026-11-17T19:10:18-03:00",
+   "linha": "A Aneel tem maioria para recomendar o fim da concessão da Enel em São Paulo, mas a decisão foi adiada de novo.",
+   "trecho": "A diretoria da Agência Nacional de Energia Elétrica (Aneel) formou maioria nesta terça-feira (17) para recomendar a caducidade do contrato de concessão da Enel São Paulo, mas a decisão sobre o futuro da empresa foi adiada mais uma vez após um pedido de vista do diretor-geral da agência, Sandoval Feitosa, que não apresentou justificativa para o adiamento durante a reunião.",
+   "por_que_importa": "Afeta quem mora ou tem comércio na capital paulista e região metropolitana, que sofreram apagões em 2023, 2024 e 2025. Por enquanto nada muda na conta nem no atendimento.",
+   "ideia_post": "Ficou sem luz e perdeu mercadoria? O que o fim da concessão da Enel pode mudar, e o que você já pode cobrar hoje.",
+   "origem": "rss"
+  },
+  {
+   "chave": "db955170047a2b50",
+   "tema": "empreendedor",
+   "titulo": "Passe da Uber em que motorista paga para ter 100% de corridas volta a valer",
+   "fonte": "UOL",
+   "url": "https://economia.uol.com.br/colunas/carlos-juliano-barros/2026/11/17/passe-da-uber-em-que-motorista-paga-para-ter-100-de-corridas-volta-a-valer.htm",
+   "publicado_em": "2026-11-17T17:13:05-03:00",
+   "linha": "Uma decisão do STJ restabeleceu em todo o país o plano da Uber em que o motorista paga para ficar com 100% do valor das corridas.",
+   "trecho": "Em decisão tornada pública nesta terça-feira (17), o ministro Raul Araújo, do Superior Tribunal de Justiça (STJ), restabeleceu em todo o território nacional o programa \"Passe para Motoristas\", da Uber.",
+   "por_que_importa": "O motorista de aplicativo (muitas vezes MEI) volta a poder trocar a comissão por corrida por uma taxa fixa. Vale fazer a conta: só compensa para quem roda muito.",
+   "ideia_post": "Motorista de app: pagar o passe para ficar com 100% da corrida vale a pena? Como fazer a conta antes de assinar.",
+   "origem": "rss"
+  },
+  {
+   "chave": "0ade86fe59942da3",
+   "tema": "empreendedor",
+   "titulo": "Sem acordo, Senado adia votação do ajuste fiscal em meio a risco de desidratar impacto de R$ 56 bi",
+   "fonte": "Estadão",
+   "url": "https://www.estadao.com.br/economia/senado-adia-votacao-do-ajuste-fiscal-em-meio-a-risco-de-desidratar-impacto-de-r-56-bi/",
+   "publicado_em": "2026-11-17T17:32:28-03:00",
+   "linha": "O Senado conclui hoje (18), às 16h, a votação do pacote de ajuste fiscal, que pode render até R$ 56 bilhões em 2027.",
+   "trecho": "O pedido partiu de Braga e foi acatado pelo presidente da Casa, Davi Alcolumbre (União-AP), que remarcou a votação para as 16h desta quarta.",
+   "por_que_importa": "O pacote ainda passa pela Câmara. Como mostrou a edição de ontem, um dos trechos limita a compensação de créditos tributários pelas empresas; vale acompanhar o que sai do Senado hoje.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 205
+}
