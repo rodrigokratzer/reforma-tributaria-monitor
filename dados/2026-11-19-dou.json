@@ -1,0 +1,272 @@
+{
+ "data": "2026-11-19",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "leiturajornal",
+   "http_status": null,
+   "erro": null,
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br) — 1 consulta(s) da Leitura do Jornal falharam: 2026-11-18 DO1: sem texto de resolucao-n-73-de-3-de-agosto-de-2026-744968985",
+   "total": 20,
+   "itens": [
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 73, de 16 de NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgccr/susep-n-73-de-16-de-novembro-de-2026-744963932",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "PORTARIA CGCCR/SUSEP nº 73, de 16 de NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE CREDENCIAMENTOS, CADASTROS E REGIMES ESPECIAIS DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da SUSEP, por meio da Portaria SUSEP nº 8.186, de 21 d",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 756, DE 10 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-756-de-10-de-novembro-de-2026-744964342",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 756, DE 10 DE NOVEMBRO DE 2026 Dispõe sobre o compartilhamento de competências entre os Serviços de Controle Processual, das Superintendências Regionais da Receita Federal do Brasil, e de atribuições de seus dirigentes. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso das a",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CONJUNTA RFB/SUSEP Nº 748, DE 9 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-conjunta-rfb/susep-n-748-de-9-de-novembro-de-2026-744961550",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA CONJUNTA RFB/SUSEP Nº 748, DE 9 DE NOVEMBRO DE 2026 Dispõe sobre os procedimentos para a inscrição, no Cadastro Nacional da Pessoa Jurídica, das operações de Letras de Risco de Seguro realizadas por Sociedades Seguradoras de Propósito Específico. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 760, DE 17 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-760-de-17-de-novembro-de-2026-744962583",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 760, DE 17 DE NOVEMBRO DE 2026 Delega competência ao Subsecretário de Arrecadação, Cadastros e Atendimento para transferir competências entre unidades e subunidades e atribuições de seus dirigentes, e para disciplinar, coordenar e editar os atos relacionados aos procedimentos de qual",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 759, DE 13 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-759-de-13-de-novembro-de-2026-744964826",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 759, DE 13 DE NOVEMBRO DE 2026 Dispõe sobre o tratamento de expedientes no âmbito da Secretaria Especial da Receita Federal do Brasil e aprova o Manual de Tratamento de Expedientes. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o art. 350, c",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 118, DE 17 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-118-de-17-de-novembro-de-2026-744973066",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE/ICMS Nº 118, DE 17 DE NOVEMBRO DE 2026 Altera o Anexo IV do Ato COTEPE/ICMS nº 43, de 27 de abril de 2023, que estabelece os requisitos e relaciona os contribuintes beneficiados pelo diferimento previsto no Convênio ICMS nº 199/22 e no Convênio ICMS nº 15/23, e a suspensão para armazenage",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 272, de 17 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-272-de-17-de-novembro-de-2026-744980451",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 272, de 17 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência subdelegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o di",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGCCR/SUSEP nº 74, de 16 de NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgccr/susep-n-74-de-16-de-novembro-de-2026-744976913",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de C",
+     "ementa": "PORTARIA CGCCR/SUSEP nº 74, de 16 de NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE CREDENCIAMENTOS, CADASTROS E REGIMES ESPECIAIS DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - SUSEP, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria Susep nº 8.186, de 21 d",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 750, DE 3 DE NOVEMbRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-750-de-3-de-novembro-de-2026-744968012",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 750, DE 3 DE NOVEMbRO DE 2026 Altera a Portaria RFB nº 583, de 23 de setembro de 2025, que dispõe sobre medidas de combate a crimes e demais ilícitos relacionados a importações, em especial fraudes que impliquem ocultação do sujeito passivo, do real vendedor, do comprador ou do respo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 117, DE 17 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-117-de-17-de-novembro-de-2026-744978616",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE/ICMS Nº 117, DE 17 DE NOVEMBRO DE 2026 Altera o Ato COTEPE/ICMS nº 67, de 3 de dezembro de 2019, que divulga relação das empresas nacionais que produzem, comercializam e importam materiais aeronáuticos, beneficiárias de redução de base de cálculo do ICMS. O Secretário-Executivo da Secreta",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "INSTRUÇÃO NORMATIVA RFB Nº 2.351, DE 17 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/instrucao-normativa-rfb-n-2.351-de-17-de-novembro-de-2026-745179353",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "INSTRUÇÃO NORMATIVA RFB Nº 2.351, DE 17 DE NOVEMBRO DE 2026 Altera a Instrução Normativa RFB nº 2.228, de 3 de outubro de 2024, que dispõe sobre a Contribuição Social sobre o Lucro Líquido no processo de adaptação da legislação brasileira às regras Globais Contra a Erosão da Base Tributária. O SECRE",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO CONJUNTO RFB/CGIBS Nº 8, DE 13 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-8-de-13-de-novembro-de-2026-745254316",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "ATO CONJUNTO RFB/CGIBS Nº 8, DE 13 DE NOVEMBRO DE 2026 Dispõe sobre a dispensa temporária da obrigatoriedade de inscrição no cadastro com identificação única, mediante inscrição no Cadastro Nacional da Pessoa Jurídica, para as pessoas físicas não contribuintes do Imposto sobre Bens e Serviços e da C",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "INSTRUÇÃO NORMATIVA RFB Nº 2.348, DE 9 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/instrucao-normativa-rfb-n-2.348-de-9-de-novembro-de-2026-745254238",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "INSTRUÇÃO NORMATIVA RFB Nº 2.348, DE 9 DE NOVEMBRO DE 2026 Altera a Instrução Normativa RFB nº 2.111, de 20 de outubro de 2022, que estabelece termos e condições para instalação e funcionamento de porto seco. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA STN/MF Nº 3.380, DE 17 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-stn/mf-n-3.380-de-17-de-novembro-de-2026-745179057",
+     "data": "2026-11-18",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Secretaria do Tesouro Nacional",
+     "ementa": "PORTARIA STN/MF Nº 3.380, DE 17 DE NOVEMBRO DE 2026 O SECRETÁRIO DO TESOURO NACIONAL, no uso das atribuições que lhe confere o Decreto nº 11.907, de 30 de janeiro de 2024, resolve: Art. 1º Os recursos referentes aos Fundos de Participação dos Estados, Distrito Federal e Municípios e ao Fundo de Comp",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RETIFICAÇÃO",
+     "url": "https://www.in.gov.br/web/dou/-/retificacao-745280402",
+     "data": "2026-11-19",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "RETIFICAÇÃO No Ato Declaratório nº 28, de 12 de novembro de 2026, publicado no Diário Oficial da União de 13 de novembro de 2026, Seção 1, página 124, onde se lê: \"...celebrado na 435ª Reunião Extraordinária do CONFAZ, realizada no dia 23 de novembro de 2026:...\", leia-se: \"\"...celebrado na 435ª Reu",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CVM/PTE Nº 257, DE 18 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cvm/pte-n-257-de-18-de-novembro-de-2026-745286813",
+     "data": "2026-11-19",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Secretaria-Executiva",
+     "ementa": "PORTARIA CVM/PTE Nº 257, DE 18 DE NOVEMBRO DE 2026 Designa a Composição da Comissão Permanente de Avaliação de Documentos da CVM (CAD/CVM). A PRESIDENTE SUBSTITUTA DA COMISSÃO DE VALORES MOBILIÁRIOS - CVM, no uso das atribuições que lhe são conferidas pelo artigo 13 do Decreto Nº 10.829, de 5 de out",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CVM/PTE Nº 206, DE 18 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cvm/pte-n-206-de-18-de-novembro-de-2026-745267386",
+     "data": "2026-11-19",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Secretaria-Executiva",
+     "ementa": "PORTARIA CVM/PTE Nº 206, DE 18 DE NOVEMBRO DE 2026 Aprova o Regimento Interno da Comissão Permanente de Avaliação de Documentos da CVM (CAD/CVM) A PRESIDENTE SUBSTITUTA DA COMISSÃO DE VALORES MOBILIÁRIOS, no uso das atribuições que lhe são conferidas pelo art. 7º do Regimento Interno aprovado pela R",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS N° 119, DE 18 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-119-de-18-de-novembro-de-2026-745273882",
+     "data": "2026-11-19",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE/ICMS N° 119, DE 18 DE NOVEMBRO DE 2026 Altera o Ato COTEPE/ICMS n° 2, de 3 de janeiro de 2020, que divulga relação de contribuintes remetentes, destinatários e prestadores de serviços de transporte de gás natural que operam por meio do gasoduto credenciados pelas unidades federadas. O Sec",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CVM/PTE Nº 250, DE 18 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cvm/pte-n-250-de-18-de-novembro-de-2026-745273803",
+     "data": "2026-11-19",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comissão de Valores Mobiliários/Secretaria-Executiva",
+     "ementa": "PORTARIA CVM/PTE Nº 250, DE 18 DE NOVEMBRO DE 2026 Realoca função comissionada executiva na estrutura da Comissão de Valores Mobiliários. A PRESIDENTE SUBSTITUTA DA COMISSÃO DE VALORES MOBILIÁRIOS - CVM, no uso das atribuições que lhe são conferidas pelo artigo 13 do Decreto Nº 10.829, de 5 de outub",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Portaria PGFN/MF Nº 3.386, DE 17 DE novembro DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-pgfn/mf-n-3.386-de-17-de-novembro-de-2026-745277418",
+     "data": "2026-11-19",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Procuradoria-Geral da Fazenda Nacional",
+     "ementa": "Portaria PGFN/MF Nº 3.386, DE 17 DE novembro DE 2026 Fixa os percentuais mínimos das Funções Comissionadas Executivas - FCE e dos Cargos Comissionados Executivos - CCE integrantes da estrutura da Procuradoria-Geral da Fazenda Nacional que deverão ser ocupados por pessoas negras e mulheres. A PROCURA",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 6005,
+    "forte": 1,
+    "revisar": 19,
+    "baixados": 485,
+    "falhas_download": 1,
+    "duplicados": 0,
+    "sem_edicao": [
+     "2026-11-18 DO3E: sem materias",
+     "2026-11-19 DO1E: sem materias",
+     "2026-11-19 DO3E: sem materias"
+    ],
+    "erros": [
+     "2026-11-18 DO1: sem texto de resolucao-n-73-de-3-de-agosto-de-2026-744968985"
+    ]
+   }
+  }
+ ]
+}
