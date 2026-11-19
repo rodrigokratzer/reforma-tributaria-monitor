@@ -1,48 +1,7 @@
 {
  "data": "2026-11-19",
- "quantidade": 4,
- "itens": [
-  {
-   "primeira_vez": "2026-11-19",
-   "fonte": "CGIBS - Noticias",
-   "titulo": "RFB e CGIBS alinham próximos passos da Reforma Tributária e reforçam compromisso com a conformidade",
-   "url": "https://www.cgibs.gov.br/rfb-e-cgibs-alinham-proximos-passos-da-implementacao-da-reforma-tributaria-e-reforcam-compromisso-com-a-conformidade-fiscal",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null,
-   "visto_em": "2026-11-19T08:03:52Z"
-  },
-  {
-   "primeira_vez": "2026-11-19",
-   "fonte": "CGIBS - Atos Conjuntos",
-   "titulo": "Ato Conjunto n 8 2026 Dispensa CNPJ PF 2028 e TAC assinado (1) (.pdf 224,72 KBytes)",
-   "url": "https://www.cgibs.gov.br/upload/arquivos/202611/18223257-ato-conjunto-n-8-2026-dispensa-cnpj-pf-2028-e-tac-assinado-1.pdf",
-   "data": null,
-   "pasta_arquivo": "2026-11",
-   "alerta": null,
-   "visto_em": "2026-11-19T08:03:52Z"
-  },
-  {
-   "primeira_vez": "2026-11-19",
-   "fonte": "RFB - Noticias 2026",
-   "titulo": "RFB e CGIBS alinham próximos passos da implementação da Reforma e reforçam compromisso com a conformidade tributária",
-   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/rfb-e-cgibs-alinham-proximos-passos-da-implementacao-da-reforma-e-reforcam-compromisso-com-a-conformidade-tributaria",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null,
-   "visto_em": "2026-11-19T08:03:52Z"
-  },
-  {
-   "primeira_vez": "2026-11-19",
-   "fonte": "RFB - Noticias 2026",
-   "titulo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
-   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null,
-   "visto_em": "2026-11-19T08:03:52Z"
-  }
- ],
+ "quantidade": 0,
+ "itens": [],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
