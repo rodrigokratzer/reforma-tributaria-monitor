@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-11-17",
+ "atualizado_em": "2026-11-19",
  "prazos_destaque": [
   {
    "rotulo": "NF-e obrigatória para quem não é contribuinte do ICMS (parte da 3ª onda que não foi adiada)",
@@ -297,7 +297,7 @@
   {
    "data": "2026-11-10",
    "titulo": "CGIBS aprova ajustes ao Regulamento do IBS e dispensa de CNPJ para produtor rural PF e transportador autônomo",
-   "detalhe": "4ª Reunião Ordinária (Joinville): ajuste de três artigos do Regulamento sobre o setor financeiro; ato conjunto com a RFB dispensa de CNPJ, de 01/01/2027 a 31/12/2028, o produtor rural PF (receita abaixo de R$ 3,6 milhões) e o transportador autônomo de cargas que não optarem pelo regime regular, identificados pelo CPF. Aprovação divulgada pelo CGIBS; o texto do ato ainda não apareceu nas fontes monitoradas."
+   "detalhe": "4ª Reunião Ordinária (Joinville): ajuste de três artigos do Regulamento sobre o setor financeiro; ato conjunto com a RFB dispensa de CNPJ, de 01/01/2027 a 31/12/2028, o produtor rural PF (receita abaixo de R$ 3,6 milhões) e o transportador autônomo de cargas que não optarem pelo regime regular, identificados pelo CPF. A dispensa virou norma no Ato Conjunto RFB/CGIBS nº 8 (DOU de 18/11); os ajustes do Regulamento ainda não foram publicados."
   },
   {
    "data": "2026-11-11",
@@ -328,6 +328,11 @@
    "data": "2026-11-16",
    "titulo": "Portaria RFB nº 749: consulta de débitos da CBS liberada a terceiros via Serpro",
    "detalhe": "Anexo XXII da Portaria RFB 167/2022 autoriza o Serpro a oferecer a ERPs e escritórios a API \"Apuração Assistida – Consulta Débitos da CBS\" (débitos por DF-e e como foram extintos: crédito ou pagamento). Publicada no DOU de 16/11 (edição extra)."
+  },
+  {
+   "data": "2026-11-18",
+   "titulo": "Ato Conjunto RFB/CGIBS nº 8 — dispensa de CNPJ para produtor rural PF e transportador autônomo",
+   "detalhe": "De 01/01/2027 a 31/12/2028, dispensa da inscrição no CNPJ o produtor rural PF (art. 164 da LC 214) e o transportador autônomo de carga (art. 169) que não optaram pelo regime regular do IBS/CBS. DOU de 18/11 (edição extra), vigência na publicação."
   },
   {
    "data": "2026-11-20",

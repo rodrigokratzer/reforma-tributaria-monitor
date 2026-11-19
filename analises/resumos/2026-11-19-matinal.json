@@ -1,0 +1,105 @@
+{
+ "data": "2026-11-19",
+ "turno": "matinal",
+ "manchete": "Produtor rural e caminhoneiro autônomo ficam livres de tirar CNPJ até 2028, e o ajuste fiscal que trava o uso de créditos de imposto pelas empresas passou no Senado.",
+ "em_30_segundos": [
+  "Saiu a norma: produtor rural pessoa física e caminhoneiro autônomo fora do regime regular do IBS/CBS não precisam de CNPJ em 2027 e 2028.",
+  "Ajuste fiscal aprovado no Senado deixa o governo limitar o uso de créditos tributários para pagar outros impostos federais; texto vai à Câmara.",
+  "Simples 2027: 280.804 pedidos de opção seguem indeferidos; quem optou pelo regime regular do IBS/CBS pode desistir até 20/12.",
+  "13º salário deste ano já vem com a isenção de IR para quem ganha até R$ 5 mil por mês.",
+  "Trabalhou no feriado de sexta (20/11)? A regra geral é receber o dia em dobro ou ganhar folga."
+ ],
+ "noticias": [
+  {
+   "chave": "b607c659afc35f63",
+   "tema": "reforma",
+   "titulo": "Ato Conjunto RFB/CGIBS nº 8: dispensa de CNPJ para produtor rural PF e transportador autônomo de carga",
+   "fonte": "DOU",
+   "url": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-8-de-13-de-novembro-de-2026-745254316",
+   "publicado_em": "2026-11-18",
+   "linha": "Produtor rural pessoa física e caminhoneiro autônomo que não optaram pelo regime regular do IBS/CBS seguem só com CPF, sem CNPJ obrigatório, em 2027 e 2028.",
+   "trecho": "Art. 2º Ficam dispensados, no período de 1º de janeiro de 2027 a 31 de dezembro de 2028, da obrigatoriedade de inscrição no cadastro com identificação única, mediante inscrição no CNPJ, prevista nas alíneas \"c\" e \"d\" do inciso VI do § 3º do art. 105, do Decreto nº 12.955, de 29 de abril de 2026, e da Resolução CGIBS nº 6, de 30 de abril de 2026:",
+   "por_que_importa": "Quem vende da roça ou faz frete como autônomo não precisa abrir CNPJ antes da virada do ano por causa da reforma. Vale só para quem ficou fora do regime regular, e só até 31/12/2028. Quem compra desses fornecedores deve manter o cadastro pelo CPF.",
+   "ideia_post": "\"Sou produtor rural / caminhoneiro: vou ter que abrir CNPJ em 2027 por causa da reforma?\" Resposta curta: não, até o fim de 2028, se você não entrou no regime regular.",
+   "origem": "oficial"
+  },
+  {
+   "chave": "f265cb8dd2d1f4d2",
+   "tema": "empreendedor",
+   "titulo": "Ajuste fiscal: entenda ponto a ponto o texto do pacote após Senado rejeitar destaques",
+   "fonte": "Exame",
+   "url": "https://exame.com/economia/ajuste-fiscal-entenda-ponto-a-ponto-o-texto-do-pacote-apos-senado-rejeitar-destaques/",
+   "publicado_em": "2026-11-18T19:36:01-03:00",
+   "linha": "O pacote aprovado no Senado corta benefícios fiscais e deixa o governo limitar o uso de créditos tributários para quitar outros impostos federais, o que pesa no caixa de quem compensa.",
+   "trecho": "O governo poderá limitar o uso de créditos tributários para quitar débitos de outros tributos federais administrados pela Receita Federal.",
+   "por_que_importa": "Empresa que paga imposto federal usando crédito acumulado (de PIS/Cofins, por exemplo) pode ter de desembolsar dinheiro em 2027. A Exame cita estimativa do governo de R$ 12,8 bi a R$ 18,3 bi. Segundo a mesma matéria, Bolsa Família, BPC, abono, seguro-desemprego, aposentadorias e pensões não mudam. O texto ainda passa pela Câmara.",
+   "ideia_post": "\"Tenho crédito de imposto parado: vou poder usar em 2027?\" O que muda para quem compensa tributo e por que isso vira questão de caixa.",
+   "origem": "rss"
+  },
+  {
+   "chave": "358021aedd314f2f",
+   "tema": "reforma",
+   "titulo": "Receita atualiza números da opção pelo Simples Nacional e pelo regime regular do IBS/CBS",
+   "fonte": "Receita Federal",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
+   "linha": "Dos 657.355 pedidos para entrar no Simples em 2027, 280.804 foram indeferidos; mais de 1 milhão de empresas pediram o regime regular do IBS/CBS.",
+   "trecho": "Reforçamos que o período para cancelamento das opções teve início em 03/11/2026 e permanecerá aberto até 20/12/2026.",
+   "por_que_importa": "Quem teve o pedido negado precisa conferir o resultado definitivo antes de recorrer ou planejar 2027 fora do Simples. A empresa que optou por recolher IBS/CBS por fora do Simples e se arrependeu tem até 20/12 para cancelar; 30.370 já cancelaram.",
+   "ideia_post": "\"Meu pedido do Simples foi negado. E agora?\" Checklist rápido antes de 20/12.",
+   "origem": "oficial"
+  },
+  {
+   "chave": "4e9cac96f1725082",
+   "tema": "reforma",
+   "titulo": "Senado pede explicações a TCU sobre alíquota de 11,3% da CBS",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/senado-pede-explicacoes-tcu-sobre-aliquota-de-113-da-cbs",
+   "publicado_em": "2026-11-18T17:07:00-03:00",
+   "linha": "A CAE do Senado quer ver os estudos que levaram o TCU a calcular 11,3% para o novo imposto federal em 2027, acima dos 9,21% projetados pelo governo.",
+   "trecho": "Após dois dias de audiência pública, a Comissão de Assuntos Econômicos (CAE) do Senado aprovou nesta quarta-feira (18) um requerimento para pedir explicações ao Tribunal de Contas da União (TCU) sobre a alíquota de referência de 11,3% da Contribuição sobre Bens e Serviços (CBS).",
+   "por_que_importa": "A alíquota da CBS de 2027 ainda não está fixada: cabe ao Senado, e os senadores estão questionando o número. Para quem forma preço para o ano que vem, os 11,3% ainda são cálculo do TCU, não lei.",
+   "ideia_post": "\"Afinal, qual vai ser o imposto novo em 2027?\" Por que o número ainda pode mudar e o que o pequeno negócio faz enquanto isso.",
+   "origem": "rss"
+  },
+  {
+   "chave": "114d337a517b54c6",
+   "tema": "pessoas",
+   "titulo": "13º salário: calculadora mostra quanto você vai receber, com descontos e novas regras do IR",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/19/13o-salario-calculadora-mostra-quanto-voce-vai-receber-com-descontos-e-novas-regras-do-ir.ghtml",
+   "publicado_em": "2026-11-19T03:00:00-03:00",
+   "linha": "Quem ganha até R$ 5 mil por mês fica isento de IR também no 13º deste ano, e quem ganha um pouco mais paga menos.",
+   "trecho": "Isso porque as novas regras do Imposto de Renda passaram a isentar quem ganha até R$ 5 mil por mês e reduziram o imposto para parte dos contribuintes com rendimentos acima desse valor.",
+   "por_que_importa": "A diferença aparece principalmente na segunda parcela, quando entram os descontos de INSS e IR. É dinheiro a mais no fim do ano para milhões de trabalhadores.",
+   "ideia_post": "\"Por que meu 13º veio maior este ano?\" Mostrar a conta da segunda parcela com e sem IR.",
+   "origem": "rss"
+  },
+  {
+   "chave": "178fd1d153dc5c71",
+   "tema": "empreendedor",
+   "titulo": "Veja quais são os direitos de quem trabalha no feriado da Consciência Negra",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/veja-quais-sao-os-direitos-de-quem-trabalha-no-feriado-da-consciencia-negra.shtml",
+   "publicado_em": "2026-11-19T04:00:00-03:00",
+   "linha": "Funcionário chamado para trabalhar no feriado de sexta (20/11) recebe o dia em dobro ou ganha uma folga compensatória.",
+   "trecho": "A regra geral da legislação para quem for convocado para trabalhar prevê o direito de receber o dia em dobro ou de ganhar uma folga compensatória.",
+   "por_que_importa": "Para o dono de loja ou restaurante que abre na sexta, é custo extra de folha ou folga a conceder. Para o empregado, é direito a conferir no holerite.",
+   "ideia_post": "\"Vou abrir no feriado: pago em dobro ou dou folga?\" A regra em 30 segundos para quem tem funcionário.",
+   "origem": "rss"
+  },
+  {
+   "chave": "f6ac80debe6b7c9d",
+   "tema": "empreendedor",
+   "titulo": "99 é alvo de ação por cobrar de motoristas para liberar corridas sem taxas; MPT pede R$ 100 milhões",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/18/99-acao-mpt-taxa-zero.ghtml",
+   "publicado_em": "2026-11-18T18:56:30-03:00",
+   "linha": "O MPT quer suspender o programa Taxa Zero da 99 e obrigar a empresa a devolver o que os motoristas pagaram para rodar sem taxa por corrida.",
+   "trecho": "O Ministério Público do Trabalho (MPT) entrou na Justiça contra a 99 Tecnologia para pedir a suspensão imediata do programa Taxa Zero, a devolução dos valores pagos por motoristas e o pagamento de uma indenização por danos morais coletivos de R$ 100 milhões.",
+   "por_que_importa": "Motorista de aplicativo que paga o plano pode ter o valor devolvido se a Justiça aceitar o pedido. Ainda é ação, não decisão.",
+   "ideia_post": "\"Pagar para não pagar taxa compensa?\" A conta do motorista e o que a Justiça vai decidir.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 189
+}

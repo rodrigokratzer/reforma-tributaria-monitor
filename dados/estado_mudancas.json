@@ -2,6 +2,20 @@
  {
   "secao": "linha_do_tempo",
   "tipo": "incluido",
+  "descricao": "Publicado o Ato Conjunto RFB/CGIBS nº 8: produtor rural PF e caminhoneiro autônomo fora do regime regular dispensados de CNPJ de 01/01/2027 a 31/12/2028",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-8-de-13-de-novembro-de-2026-745254316",
+  "em": "2026-11-19-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "alterado",
+  "descricao": "Marco da reunião do CGIBS de 10/11 atualizado: a dispensa de CNPJ anunciada virou norma (Ato Conjunto nº 8, DOU 18/11)",
+  "fonte": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-8-de-13-de-novembro-de-2026-745254316",
+  "em": "2026-11-19-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
   "descricao": "Portaria RFB 749 (DOU 16/11): Serpro pode oferecer a ERPs e escritórios a API de consulta de débitos da CBS da apuração assistida",
   "fonte": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-749-de-3-de-novembro-de-2026-744711566",
   "em": "2026-11-17-matinal"
