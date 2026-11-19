@@ -448,6 +448,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "13a6a9bbd88bf826": {
+  "chars": 8360,
+  "lido_em": "2026-11-19T08:03:57Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "13bad6ed78721cd4": {
   "anexos": [],
   "anexos_falhos": [],
@@ -1003,6 +1010,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "26aa593e61a5074b": {
+  "chars": 7266,
+  "lido_em": "2026-11-19T08:03:57Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "26b5f4c2510bb2a2": {
   "chars": 1404,
   "lido_em": "2026-10-19T08:02:55Z",
@@ -1345,6 +1359,16 @@
   "origem": "coleta",
   "status": "lido",
   "tentativas": 0
+ },
+ "358021aedd314f2f": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 1070,
+  "lido_em": "2026-11-19T08:04:01Z",
+  "origem": "html",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
  },
  "35df7f90596c6ab7": {
   "chars": 617,
@@ -1860,6 +1884,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "4866390307591ab1": {
+  "chars": 4499,
+  "lido_em": "2026-11-19T08:03:57Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "487e892e6e5488ce": {
   "chars": 2840,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -2339,6 +2370,13 @@
  "5c0aa30619368e72": {
   "chars": 6222,
   "lido_em": "2026-10-30T08:02:04Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "5c180ca2f7874463": {
+  "chars": 2037,
+  "lido_em": "2026-11-19T08:03:57Z",
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
@@ -3576,6 +3614,16 @@
   "status": "lido",
   "tentativas": 1
  },
+ "8df325a6dee67faa": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 2818,
+  "lido_em": "2026-11-19T08:04:00Z",
+  "origem": "pdf+ocr",
+  "paginas_ocr": 1,
+  "status": "lido",
+  "tentativas": 1
+ },
  "8e1f5d2bcde1e40e": {
   "chars": 279,
   "lido_em": "2026-11-06T08:02:13Z",
@@ -3628,6 +3676,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "8fff3dea0943fa19": {
+  "chars": 411,
+  "lido_em": "2026-11-19T08:03:57Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "901089c78bac187b": {
   "chars": 1066,
   "lido_em": "2026-11-17T08:03:01Z",
@@ -3648,6 +3703,16 @@
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
+ },
+ "91579734fc2f5cb3": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 2087,
+  "lido_em": "2026-11-19T08:04:00Z",
+  "origem": "html",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
  },
  "917f534983ffcac4": {
   "chars": 2155,
@@ -4116,6 +4181,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "a7f93c236ad2a4bc": {
+  "chars": 917,
+  "lido_em": "2026-11-19T08:03:57Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "a86842d7d30a2f04": {
   "chars": 1813,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -4388,6 +4460,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "b607c659afc35f63": {
+  "chars": 2365,
+  "lido_em": "2026-11-19T08:03:57Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "b663edbb66f08c4c": {
   "chars": 1386,
   "lido_em": "2026-11-17T08:03:01Z",
@@ -4449,6 +4528,16 @@
   "chars": 8146,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "pdf",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
+ },
+ "b94777938ab6dd04": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 1908,
+  "lido_em": "2026-11-19T08:03:58Z",
+  "origem": "html",
   "paginas_ocr": 0,
   "status": "lido",
   "tentativas": 1
@@ -5132,6 +5221,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "d6ecc639fbf736d5": {
+  "chars": 4576,
+  "lido_em": "2026-11-19T08:03:57Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "d6edf796e3127b8e": {
   "chars": 2089,
   "lido_em": "2026-10-05T12:24:06Z",
@@ -5199,6 +5295,13 @@
   "chars": 5637,
   "lido_em": "2026-10-05T12:24:06Z",
   "origem": "coleta",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "db0a2ee5f004d021": {
+  "chars": 633,
+  "lido_em": "2026-11-19T08:03:57Z",
+  "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
  },
@@ -5582,6 +5685,13 @@
  "f01d534b1d0048a5": {
   "chars": 860,
   "lido_em": "2026-11-03T08:02:20Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "f0a72f52938a8bcc": {
+  "chars": 1643,
+  "lido_em": "2026-11-19T08:03:57Z",
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
