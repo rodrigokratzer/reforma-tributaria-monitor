@@ -7,7 +7,7 @@
    "metodo": "leiturajornal",
    "http_status": null,
    "erro": null,
-   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br) — 1 consulta(s) da Leitura do Jornal falharam: 2026-11-18 DO1: sem texto de resolucao-n-73-de-3-de-agosto-de-2026-744968985",
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
    "total": 20,
    "itens": [
     {
@@ -252,20 +252,17 @@
     }
    ],
    "diagnostico": {
-    "lidas": 6005,
+    "lidas": 6006,
     "forte": 1,
     "revisar": 19,
-    "baixados": 485,
-    "falhas_download": 1,
+    "baixados": 487,
+    "falhas_download": 0,
     "duplicados": 0,
     "sem_edicao": [
      "2026-11-18 DO3E: sem materias",
-     "2026-11-19 DO1E: sem materias",
      "2026-11-19 DO3E: sem materias"
     ],
-    "erros": [
-     "2026-11-18 DO1: sem texto de resolucao-n-73-de-3-de-agosto-de-2026-744968985"
-    ]
+    "erros": []
    }
   }
  ]
