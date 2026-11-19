@@ -1,12 +1,8 @@
 {
  "data": "2026-11-19",
- "turno": "matinal",
- "situacao": "publicada",
- "acoes": 1,
- "gerado_em": "2026-11-19T08:05:46Z",
- "resumo_curto": "14 publicações oficiais, 2 relevantes; 1 exige ação: dispensa de CNPJ do produtor rural PF e do caminhoneiro autônomo até 2028",
- "painel_atualizado": [
-  "Publicado o Ato Conjunto RFB/CGIBS nº 8: produtor rural PF e caminhoneiro autônomo fora do regime regular dispensados de CNPJ de 01/01/2027 a 31/12/2028",
-  "Marco da reunião do CGIBS de 10/11 atualizado: a dispensa de CNPJ anunciada virou norma (Ato Conjunto nº 8, DOU 18/11)"
- ]
+ "turno": "noturna",
+ "situacao": "sem_novidade",
+ "acoes": 0,
+ "gerado_em": "2026-11-19T20:06:00Z",
+ "resumo_curto": "230 notícias, nenhuma publicação oficial nova"
 }
