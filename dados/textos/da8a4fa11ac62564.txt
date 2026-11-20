@@ -1,0 +1,39 @@
+Empresas de todo o Brasil poderão acessar o ambiente Piloto e conhecer as funcionalidades desenvolvidas para a Contribuição sobre Bens e Serviços (CBS).
+
+A Receita Federal ampliará o acesso ao Ambiente de Produção Restrita – Piloto da CBS, permitindo que empresas de todo o Brasil possam utilizar os serviços disponibilizados para testes, mesmo antes de sua disponibilização no ambiente de produção (neste momento na chamada versão Beta), e familiarização com as soluções tecnológicas da Reforma Tributária do Consumo.
+
+Com a mudança, não será mais necessária a indicação por entidades representativas ou qualquer procedimento prévio de solicitação de participação. O acesso estará disponível às pessoas jurídicas que cumprirem os requisitos operacionais estabelecidos pela Receita Federal.
+
+A iniciativa busca ampliar as oportunidades de testes, permitindo que contribuintes, empresas de tecnologia e demais interessados conheçam as funcionalidades, simulem documentos e pagamentos, avaliem as soluções disponibilizadas e se preparem para a utilização dos sistemas da CBS no ambiente de produção (ainda na versão Beta).
+
+Como acessar o Piloto da CBS
+
+O acesso ao ambiente está disponível pelo endereço: https://piloto-cbs.tributos.gov.br/
+
+Para utilizar os serviços do Portal Piloto da CBS, a pessoa jurídica deverá outorgar procuração digital a seus representantes, concedendo autorização de acesso ao serviço:
+
+Piloto da CBS na Reforma Tributária sobre o Consumo.
+
+Além dessa autorização geral, algumas funcionalidades exigem poderes específicos:
+
+Gerar credenciais para acessar API: necessária para permitir a geração de credenciais de utilização das interfaces de programação de aplicações (APIs);
+
+DeRE – Declaração de Regimes Específicos: necessária para acessar as funcionalidades relacionadas à DeRE.
+
+Assim, a empresa deverá verificar quais funcionalidades pretende utilizar e conceder aos seus representantes as autorizações correspondentes.
+
+O Ambiente de Produção Restrita – Piloto e o Ambiente de Produção Beta
+
+O Ambiente de Produção Restrita – Piloto permite experimentar e testar as soluções tecnológicas da CBS em um ambiente controlado, contribuindo para a identificação de inconsistências, o aprimoramento dos sistemas e a preparação dos contribuintes para a Reforma Tributária do Consumo.
+
+A utilização do ambiente deverá observar as orientações e os limites técnicos e operacionais estabelecidos pela Receita Federal, com o objetivo de preservar o desempenho, a estabilidade e a disponibilidade dos serviços para todos os participantes.
+
+Embora ambos os ambientes sejam destinados à experimentação e à preparação dos contribuintes, existem diferenças importantes entre eles. O Ambiente de Produção Restrita – Piloto, inicialmente disponibilizado a um grupo de aproximadamente 500 empresas, a partir de julho de 2025, contém funcionalidades ainda não disponíveis no Ambiente de Produção Beta, como a Declaração de Regimes Específicos (DeRE).
+
+Outra diferença fundamental está na integração com os ambientes autorizadores de documentos fiscais das administrações tributárias. Embora ambos os ambientes contem com essa integração, o Piloto utiliza exclusivamente os ambientes de homologação dos autorizadores estaduais e do ambiente nacional de emissão de documentos fiscais de serviços. Já o Ambiente de Produção Beta está integrado aos ambientes de produção desses autorizadores, recebendo, portanto, documentos fiscais efetivamente emitidos pelas empresas em suas operações comerciais.
+
+Dessa forma, o Ambiente de Produção Restrita – Piloto oferece a todas as empresas do País a possibilidade de realizar testes e simulações em condições controladas, inclusive com funcionalidades ainda em validação, sem interferir nas operações comerciais reais ou gerar documentos fiscais com validade jurídica. O Ambiente de Produção Beta, por sua vez, permite experimentar as soluções da CBS em integração com os documentos fiscais efetivamente emitidos pelas empresas.
+
+Mais informações:
+
+Acesse a página oficial do Piloto da CBS

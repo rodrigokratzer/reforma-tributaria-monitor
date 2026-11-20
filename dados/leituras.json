@@ -3784,6 +3784,16 @@
   "status": "lido",
   "tentativas": 0
  },
+ "95099b8aa59d7099": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 3422,
+  "lido_em": "2026-11-20T20:02:13Z",
+  "origem": "html",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
+ },
  "967c9e0d1232caca": {
   "anexos": [],
   "anexos_falhos": [],
@@ -5297,6 +5307,16 @@
   "origem": "coleta",
   "status": "lido",
   "tentativas": 0
+ },
+ "da8a4fa11ac62564": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 4040,
+  "lido_em": "2026-11-20T20:02:13Z",
+  "origem": "html",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
  },
  "dabdcdbb8f6dc39f": {
   "chars": 1110,
