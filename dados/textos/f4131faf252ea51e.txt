@@ -1,0 +1,17 @@
+Profissionais de contabilidade têm papel relevante na promoção da conformidade tributária.
+
+A importância da participação de profissionais da contabilidade na promoção da conformidade tributária foi destacada em coletiva realizada no dia 11 de novembro e as ações de orientação são realizadas pela Receita Federal, com apoio do Conselho Federal de Contabilidade (CFC). As orientações sobre a Reforma Tributária do Consumo – RTC estão disponíveis em Programa da Reforma Tributária do Consumo — Receita Federal.
+
+Entenda mais:
+
+No âmbito da RTC, o Ato Conjunto da RFB e do Comitê Gestor do Imposto sobre Bens e Serviços - CGIBS nº 4, de 30 de julho de 20261, estabeleceu os cronogramas de implantação e as datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos contendo os campos destinados ao destaque da Contribuição Social sobre Bens e Serviços - CBS e do Imposto sobre Bens e Serviços - IBS.
+
+A partir de uma atualização dos documentos fiscais emitidos nos 30 (trinta) dias anteriores a 15 de novembro de 2026, inclusive, e de filtros considerados no processamento, a Receita Federal encaminhou ao CFC uma planilha contendo relação de profissionais da contabilidade, acompanhada da quantidade de empresas sob sua responsabilidade que apresentaram indícios de NÃO destaque ou de destaque PARCIAL da CBS/IBS em Documentos Fiscais Eletrônicos - DF-e. O resultado desse processamento levou à identificação de pouco mais de 25 mil profissionais da contabilidade, responsáveis pela escrituração de cerca de 72 mil pessoas jurídicas.
+
+Para a composição da base de empresas SEM destaque da CBS e do IBS em DF-es, foram selecionadas apenas aquelas que emitiram mais de 150 DF-e no período analisado. Já a base com destaque PARCIAL foi restrita às empresas que emitiram mais de 150 DF-e e apresentaram índice inferior a 86%2 quanto ao preenchimento dos respectivos campos. As informações relativas aos profissionais da contabilidade responsáveis foram inferidas a partir dos dados declarados nas Escriturações Contábeis Fiscais - ECF, referentes aos anos-calendário de 2024 e 2025.
+
+Ressalta-se que a ausência de destaque ou a identificação de destaque parcial da CBS e do IBS nos documentos fiscais eletrônicos analisados não constitui, por si só, evidência de inconformidade tributária. Os critérios adotados para a seleção tiveram finalidade exclusivamente orientativa e preventiva, no âmbito das ações de promoção da conformidade. Em determinados casos, a ausência ou a parcialidade do destaque pode decorrer de situações legítimas previstas na legislação, de características específicas das operações realizadas ou de questões operacionais relacionadas à implementação dos sistemas emissores de documentos fiscais. Assim, o CFC utilizará os dados encaminhados como subsídio para ações de orientação e sensibilização dos profissionais de contabilidade, não representando conclusão quanto ao descumprimento de obrigações tributárias.
+
+Com esses subsídios, viabiliza-se atuação coordenada do CFC e suas Regionais junto aos profissionais alcançados, com vistas a reforçar a importância da correta configuração e utilização dos sistemas emissores de documentos fiscais.
+
+Essa iniciativa, em continuidade à reconhecida parceria mantida entre os órgãos em ações voltadas à RTC, contribuirá significativamente para o fortalecimento da conformidade fiscal no país e para a construção de um ambiente de maior segurança jurídica e previsibilidade para contribuintes e o ambiente de negócios brasileiro.

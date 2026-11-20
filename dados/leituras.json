@@ -1454,6 +1454,13 @@
   "status": "lido",
   "tentativas": 0
  },
+ "38618719b1327948": {
+  "chars": 5494,
+  "lido_em": "2026-11-20T08:02:38Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
  "388f142b9a19f708": {
   "chars": 875,
   "lido_em": "2026-10-05T12:33:59Z",
@@ -1706,6 +1713,13 @@
  "410e1e0cf1c0f404": {
   "chars": 20502,
   "lido_em": "2026-10-05T12:33:59Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "411485470b760473": {
+  "chars": 3405,
+  "lido_em": "2026-11-20T08:02:38Z",
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
@@ -3223,6 +3237,13 @@
  "7e368bdd446940ed": {
   "chars": 847,
   "lido_em": "2026-11-04T08:03:19Z",
+  "origem": "inlabs",
+  "status": "lido",
+  "tentativas": 0
+ },
+ "7e494b08d5fa69fe": {
+  "chars": 2289,
+  "lido_em": "2026-11-20T08:02:38Z",
   "origem": "inlabs",
   "status": "lido",
   "tentativas": 0
@@ -5770,6 +5791,16 @@
   "status": "desistiu",
   "tentado_em": "2026-10-06T08:04:16Z",
   "tentativas": 4
+ },
+ "f4131faf252ea51e": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 3514,
+  "lido_em": "2026-11-20T08:02:38Z",
+  "origem": "html",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
  },
  "f423a3c5e0ecc768": {
   "chars": 851,
