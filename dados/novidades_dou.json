@@ -1,50 +1,7 @@
 {
  "data": "2026-11-20",
- "quantidade": 3,
- "itens": [
-  {
-   "primeira_vez": "2026-11-20",
-   "fonte": "DOU DO1E",
-   "titulo": "ATO CONJUNTO RFB/CGIBS Nº 8, DE 13 DE NOVEMBRO DE 2026",
-   "url": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-8-de-13-de-novembro-de-2026-745538930",
-   "data": "2026-11-19",
-   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
-   "ementa": "ATO CONJUNTO RFB/CGIBS Nº 8, DE 13 DE NOVEMBRO DE 2026 Dispõe sobre a dispensa temporária da obrigatoriedade de inscrição no cadastro com identificação única, mediante inscrição no Cadastro Nacional da Pessoa Jurídica, para as pessoas físicas não contribuintes do Imposto sobre Bens e Serviços e da C",
-   "balde": "forte",
-   "continuacao": false,
-   "alerta": null,
-   "pasta_arquivo": null,
-   "visto_em": "2026-11-20T08:00:53Z"
-  },
-  {
-   "primeira_vez": "2026-11-20",
-   "fonte": "DOU DO1E",
-   "titulo": "PORTARIA MF Nº 3.393, DE 16 DE NOVEMBRO DE 2026",
-   "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.393-de-16-de-novembro-de-2026-745539060",
-   "data": "2026-11-19",
-   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
-   "ementa": "PORTARIA MF Nº 3.393, DE 16 DE NOVEMBRO DE 2026 Institui Grupo de Trabalho com vistas à avaliação técnica e reapreciação fundamentada de normas aplicáveis à integridade, ao combate de atos ilícitos envolvendo a indústria de fundos de investimento, à prevenção à lavagem de dinheiro no mercado de valo",
-   "balde": "revisar",
-   "continuacao": false,
-   "alerta": null,
-   "pasta_arquivo": null,
-   "visto_em": "2026-11-20T08:00:53Z"
-  },
-  {
-   "primeira_vez": "2026-11-20",
-   "fonte": "DOU DO1E",
-   "titulo": "PORTARIA SEMC/MF Nº 3.406, DE 18 DE NOVEMBRO DE 2026",
-   "url": "https://www.in.gov.br/web/dou/-/portaria-semc/mf-n-3.406-de-18-de-novembro-de-2026-745538687",
-   "data": "2026-11-19",
-   "orgao": "Ministério da Fazenda/Secretaria Extraordinária do Mercado de Carbono",
-   "ementa": "PORTARIA SEMC/MF Nº 3.406, DE 18 DE NOVEMBRO DE 2026 Designa as entidades de representação empresarial que compõem a Câmara de Assuntos Regulatórios do Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa - SBCE e dispõe sobre a indicação dos representantes da Câmara. A SECRETÁRIA EX",
-   "balde": "revisar",
-   "continuacao": false,
-   "alerta": null,
-   "pasta_arquivo": null,
-   "visto_em": "2026-11-20T08:00:53Z"
-  }
- ],
+ "quantidade": 0,
+ "itens": [],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [],
