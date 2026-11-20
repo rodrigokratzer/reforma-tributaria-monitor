@@ -1,0 +1,93 @@
+{
+ "data": "2026-11-20",
+ "turno": "noturna",
+ "manchete": "A primeira parcela do 13º tem que cair até 30/11, e quem ganha até R$ 7.350 leva mais neste ano por causa da isenção do IR.",
+ "em_30_segundos": [
+  "13º: primeira parcela até segunda, 30/11; a segunda até 18/12, porque o dia 20 cai num domingo.",
+  "Fim da 6x1: o decreto vale também para trabalhador rural e doméstico, e a jornada cai para 42 horas em 16/12.",
+  "Pix muda em 2027: Pix Automático na conta-salário e oferta de empréstimo no Pix só com autorização do cliente.",
+  "Qualquer empresa já pode testar o sistema da CBS, o imposto novo, sem pedir convite.",
+  "Ainda tem R$ 304,8 milhões de abono PIS/Pasep parados na Caixa; o saque vai até 30/12."
+ ],
+ "noticias": [
+  {
+   "chave": "b0546b2b8f366f60",
+   "tema": "pessoas",
+   "titulo": "Décimo terceiro cai quando? Veja data máxima de pagamento da primeira parcela",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/legislacao/noticia/2026/11/20/decimo-terceiro-cai-quando-veja-data-maximo-de-pagamento-da-primeira-parcela.ghtml",
+   "publicado_em": "2026-11-20T13:39:00-03:00",
+   "linha": "A primeira parcela do 13º tem que ser paga até 30/11 e a segunda até 18/12; com a isenção do IR, quem ganha até R$ 7.350 recebe mais que em 2025.",
+   "trecho": "A primeira parcela do décimo terceiro salário deve ser paga até a próxima segunda-feira (30), enquanto a última tem prazo até 20 de dezembro. Como cai em um domingo, o pagamento do benefício deve ser depositado até a sexta-feira, 18 de dezembro.",
+   "por_que_importa": "Para o trabalhador CLT, é dinheiro que cai em 10 dias. Para o dono de pequeno negócio com funcionário, é saída de caixa com data marcada: 30/11 e 18/12. A matéria lembra que, pela Lei 15.270/2025, quem recebe até R$ 7.350 vai receber um 13º total maior que em 2025.",
+   "ideia_post": "\"Meu 13º veio maior?\" Mostrar por que quem ganha até R$ 7.350 sente diferença neste ano, e lembrar o patrão das duas datas.",
+   "origem": "rss"
+  },
+  {
+   "chave": "56428ec8a318ef16",
+   "tema": "empreendedor",
+   "titulo": "Fim da escala 6x1: agronegócio terá de adotar jornada 5x2 sem regras específicas",
+   "fonte": "Exame",
+   "url": "https://exame.com/agro/fim-da-escala-6x1-agronegocio-tera-de-adotar-jornada-5x2-sem-regras-especificas/",
+   "publicado_em": "2026-11-20T15:33:23-03:00",
+   "linha": "O decreto do fim da 6x1 vale para urbanos, rurais, domésticos e avulsos, e a jornada semanal cai de 44 para 42 horas em 16/12, sem corte de salário.",
+   "trecho": "O Decreto nº 13.173 estabelece que a nova jornada se aplica a trabalhadores urbanos, rurais e domésticos, além dos trabalhadores avulsos, no que couber. A carga horária semanal será reduzida gradualmente, das atuais 44 horas para 42 horas a partir de 16 de dezembro de 2026, chegando a 40 horas em dezembro de 2027, sem redução salarial.",
+   "por_que_importa": "Quem emprega, inclusive empregada doméstica e trabalhador rural, tem menos de um mês para refazer escalas: 42 horas a partir de 16/12, 40 horas em dezembro de 2027, sem reduzir salário. O agro pediu regra própria e não levou. Especialistas ouvidos pelo Valor apontam brechas no decreto; o Ministério do Trabalho promete portarias a partir de segunda (23).",
+   "ideia_post": "\"Tenho uma funcionária em casa / no campo: muda pra mim?\" Sim, o decreto inclui doméstica e rural. O que fazer até 16/12.",
+   "origem": "rss"
+  },
+  {
+   "chave": "9252eee5fbc2c3b9",
+   "tema": "pessoas",
+   "titulo": "Crédito, conta-salário e segurança: o que muda nas regras do Pix para 2027?",
+   "fonte": "UOL Economia",
+   "url": "https://economia.uol.com.br/noticias/redacao/2026/11/20/credito-pix-automatico-e-seguranca-o-que-muda-nas-regras-do-pix-em-2027.htm",
+   "publicado_em": "2026-11-20T04:30:00-03:00",
+   "linha": "Em 2027 o Pix Automático passa a funcionar na conta-salário, e o banco só pode oferecer empréstimo durante o Pix se o cliente autorizar antes.",
+   "trecho": "A partir de 1º de julho, os bancos só poderão apresentar esse tipo de empréstimo se o cliente tiver autorizado o recebimento de propostas. A primeira oferta deverá respeitar um intervalo mínimo de 24 horas após a habilitação, que poderá ser cancelada pelo consumidor a qualquer momento.",
+   "por_que_importa": "A partir de 01/07/2027, dá para pagar conta de luz, escola ou academia com Pix Automático direto da conta-salário. A partir de fevereiro, o banco tem que avisar o cliente marcado com suspeita de fraude, e a revisão deve sair em até sete dias. O Pix comum segue de graça e 24 horas para pessoa física; nenhuma cobrança geral foi anunciada.",
+   "ideia_post": "\"Vão cobrar o Pix?\" Não. Três mudanças de 2027 que protegem seu bolso, incluindo o fim do empréstimo empurrado na hora do Pix.",
+   "origem": "rss"
+  },
+  {
+   "chave": "da8a4fa11ac62564",
+   "tema": "reforma",
+   "titulo": "Receita Federal amplia acesso ao Ambiente de Produção Restrita do Piloto da CBS",
+   "fonte": "Receita Federal",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",
+   "publicado_em": "2026-11-20",
+   "linha": "Qualquer empresa pode entrar no ambiente de testes da CBS, sem indicação de entidade, e simular notas e pagamentos sem valor jurídico.",
+   "trecho": "Com a mudança, não será mais necessária a indicação por entidades representativas ou qualquer procedimento prévio de solicitação de participação. O acesso estará disponível às pessoas jurídicas que cumprirem os requisitos operacionais estabelecidos pela Receita Federal.",
+   "por_que_importa": "Até agora só cerca de 500 empresas tinham acesso. Agora a empresa (ou o contador, com procuração digital) pode testar como a CBS vai funcionar antes de valer de verdade, sem risco de emitir nota válida. A Receita não informou a data exata da abertura.",
+   "ideia_post": "\"Dá pra treinar o imposto novo antes de valer?\" Dá: o simulador oficial da CBS abriu para qualquer empresa. Como entrar.",
+   "origem": "oficial"
+  },
+  {
+   "chave": "e8498c1e1385e308",
+   "tema": "empreendedor",
+   "titulo": "ABF levará ao governo Lula propostas sobre tributos, Simples e escala 5x2",
+   "fonte": "UOL Economia",
+   "url": "https://economia.uol.com.br/empreendedorismo/noticias/redacao/2026/11/20/abf-propostas-governo-reeleito-impactos-escala-5x2.htm",
+   "publicado_em": "2026-11-20T04:30:00-03:00",
+   "linha": "As franquias pedem correção anual dos limites do Simples e alertam que CBS/IBS sobre royalties pode pesar no franqueado do Simples, que não usa crédito.",
+   "trecho": "\"A nossa preocupação envolve os 94% de franqueados optantes pelo Simples Nacional e que não se apropriam de créditos tributários, enquanto as franqueadoras enquadradas no regime regular vão recolher CBS [Contribuição sobre Bens e Serviços] e IBS [Imposto sobre Bens e Serviços] sobre os royalties, o que pode gerar custos adicionais para as unidades franqueadas\", afirma Tom Moreira Leite.",
+   "por_que_importa": "Quem tem franquia no Simples paga royalty que, com a reforma, carrega CBS/IBS, e não consegue abater esse imposto. A ABF também quer que o teto do Simples seja corrigido todo ano pela inflação. Na jornada, o diretor jurídico da ABF estima que o impacto na folha pode chegar a 20% nas operações intensivas em mão de obra. São pedidos e estimativas do setor, não regra aprovada.",
+   "ideia_post": "\"Sou franqueado no Simples: o royalty vai ficar mais caro?\" Explicar o crédito que o franqueado do Simples não aproveita.",
+   "origem": "rss"
+  },
+  {
+   "chave": "50a55ff5e2ddc966",
+   "tema": "pessoas",
+   "titulo": "Ainda não sacou o PIS/Pasep? Veja quem tem direito a R$ 304 milhões em 2026",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/brasil/noticia/2026/11/20/ainda-nao-sacou-o-pispasep-veja-quem-tem-direito-a-r-304-milhoes-em-2026.ghtml",
+   "publicado_em": "2026-11-20T06:00:00-03:00",
+   "linha": "276.831 trabalhadores ainda não sacaram o abono PIS/Pasep de 2026; são R$ 304,8 milhões na Caixa, com prazo até 30/12.",
+   "trecho": "276.831 trabalhadores ainda não sacaram o Abono Salarial PIS/Pasep em 2026, informou o Ministério do Trabalho e Emprego (MTE). Ao todo, são R$ 304,8 milhões ainda disponíveis na Caixa Econômica Federal, responsável pelo pagamento.",
+   "por_que_importa": "O saque está liberado para todos os beneficiários desde agosto e o prazo máximo é 30/12. Quem perder a data deixa o dinheiro na mesa.",
+   "ideia_post": "\"Tem dinheiro seu esquecido na Caixa?\" Como consultar o abono antes de 30/12.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 170
+}
