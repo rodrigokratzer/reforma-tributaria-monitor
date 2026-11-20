@@ -1,8 +1,11 @@
 {
- "data": "2026-11-19",
- "turno": "noturna",
- "situacao": "sem_novidade",
+ "data": "2026-11-20",
+ "turno": "matinal",
+ "situacao": "publicada",
  "acoes": 0,
- "gerado_em": "2026-11-19T20:06:00Z",
- "resumo_curto": "230 notícias, nenhuma publicação oficial nova"
+ "gerado_em": "2026-11-20T08:05:56Z",
+ "resumo_curto": "4 publicações; nenhuma exige ação. Receita mapeia 72 mil empresas sem destaque de CBS/IBS na nota",
+ "painel_atualizado": [
+  "Ato Conjunto RFB/CGIBS nº 8 saiu de novo no DOU de 19/11 com texto diferente: dispensa de CNPJ do produtor rural PF e do caminhoneiro autônomo vale \"até 31/12/2028\", sem o início em 01/01/2027"
+ ]
 }

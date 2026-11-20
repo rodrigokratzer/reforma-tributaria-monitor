@@ -1,0 +1,139 @@
+{
+ "data": "2026-11-20",
+ "turno": "matinal",
+ "manchete": "A Receita achou 72 mil empresas emitindo nota sem o imposto novo destacado, e o dólar fechou a R$ 5,93, o maior valor desde janeiro de 2025.",
+ "em_30_segundos": [
+  "Receita mapeou cerca de 72 mil empresas emitindo nota sem CBS/IBS, ou só em parte; os contadores delas vão ser orientados, sem multa por ora.",
+  "Fim da 6x1: as regras por categoria e do descanso remunerado começam a sair na segunda (23).",
+  "Dólar fecha a R$ 5,93, na sexta alta seguida, e o Tesouro Direto chegou a suspender negociações.",
+  "É falso que o Pix MEI de até R$ 5 mil vá cair para R$ 363; ele ainda é só promessa.",
+  "Produtor rural e caminhoneiro autônomo seguem dispensados de CNPJ até o fim de 2028; o ato saiu de novo no DOU."
+ ],
+ "noticias": [
+  {
+   "chave": "f4131faf252ea51e",
+   "tema": "reforma",
+   "titulo": "Receita Federal, CGIBS e CFC vão orientar mais de 25 mil profissionais da contabilidade sobre destaque de CBS/IBS em documentos fiscais",
+   "fonte": "Receita Federal",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-cgibs-e-cfc-vao-orientar-mais-de-25-mil-profissionais-da-contabilidade-sobre-destaque-de-cbs-ibs-em-documentos-fiscais",
+   "publicado_em": "2026-11-20",
+   "origem": "oficial",
+   "linha": "A Receita achou cerca de 72 mil empresas emitindo nota sem destacar CBS/IBS, ou destacando só em parte, e vai mandar os contadores delas para orientação.",
+   "trecho": "O resultado desse processamento levou à identificação de pouco mais de 25 mil profissionais da contabilidade, responsáveis pela escrituração de cerca de 72 mil pessoas jurídicas.",
+   "por_que_importa": "Ainda não é multa: a Receita diz que a seleção é só para orientar. Mas mostra que o Fisco já acompanha, empresa por empresa, quem preenche os campos do imposto novo na nota. Quem emitiu mais de 150 notas no mês antes de 15/11 sem os campos pode ser procurado pelo CRC.",
+   "ideia_post": "Sua nota fiscal está saindo sem CBS e IBS? A Receita já está olhando. Em 30 segundos: o que conferir com seu contador e no sistema emissor."
+  },
+  {
+   "chave": "c3f8042633bc9860",
+   "tema": "empreendedor",
+   "titulo": "Regras para categorias específicas e descanso remunerado com fim da 6x1 saem a partir de segunda (23)",
+   "fonte": "Folha Mercado",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/regras-para-categorias-especificas-e-descanso-remunerado-com-fim-da-6x1-saem-a-partir-de-segunda-23.shtml",
+   "publicado_em": "2026-11-20T04:00:00-03:00",
+   "origem": "rss",
+   "linha": "Fim da 6x1: o Ministério do Trabalho começa na segunda (23) a publicar as portarias com as regras por categoria e do descanso remunerado.",
+   "trecho": "O Ministério do Trabalho vai publicar na próxima segunda-feira (23) a primeira de uma série de portarias com regras sobre como implementar o fim da escala 6x1.",
+   "por_que_importa": "O decreto já saiu, mas os detalhes que mudam a escala de cada setor só vêm nessas portarias. O pequeno empregador ainda não deve fechar a escala nova antes de ler a regra da sua categoria."
+  },
+  {
+   "chave": "3bb9521cb345551c",
+   "tema": "empreendedor",
+   "titulo": "É #FAKE que Pix MEI de até R$ 5 mil terá de baixar para R$ 363 para 'caber' no orçamento reservado pelo governo",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/20/e-fake-que-pix-mei-de-ate-r-5-mil-tera-de-baixar-para-r-363-para-caber-no-orcamento-reservado-pelo-governo.ghtml",
+   "publicado_em": "2026-11-20T04:00:01-03:00",
+   "origem": "rss",
+   "linha": "É falso que o Pix MEI, promessa de campanha de até R$ 5 mil para o microempreendedor, vá cair para R$ 363.",
+   "trecho": "Circulam nas redes sociais publicações sugerindo que o Pix MEI, proposta de incentivo financeiro de até R$ 5 mil a microempreendedores individuais anunciada por Lula (PT) durante a campanha à reeleição, terá de baixar para R$ 363 caber no \"orçamento\" reservado pelo governo. É #FAKE.",
+   "por_que_importa": "O Pix MEI ainda é proposta de campanha, não um benefício criado. Post que promete ou corta valor costuma ser isca para golpe de cadastro.",
+   "ideia_post": "'O Pix MEI vai cair para R$ 363?' Não. E ninguém precisa pagar nem se cadastrar em link para receber o que nem foi criado ainda."
+  },
+  {
+   "chave": "7e494b08d5fa69fe",
+   "tema": "reforma",
+   "titulo": "Ato Conjunto RFB/CGIBS nº 8 republicado: dispensa de CNPJ do produtor rural e do caminhoneiro vale até 31/12/2028",
+   "fonte": "DOU DO1E",
+   "url": "https://www.in.gov.br/web/dou/-/ato-conjunto-rfb/cgibs-n-8-de-13-de-novembro-de-2026-745538930",
+   "publicado_em": "2026-11-19",
+   "origem": "oficial",
+   "linha": "O ato que livra o produtor rural pessoa física e o caminhoneiro autônomo de tirar CNPJ saiu de novo no DOU, agora valendo desde já, e não só a partir de 2027.",
+   "trecho": "Art. 2º Ficam dispensados, até 31 de dezembro de 2028, da obrigatoriedade de inscrição no CNPJ:",
+   "por_que_importa": "Vale para o produtor rural PF e o transportador autônomo de carga que não optaram pelo regime regular do IBS/CBS. Eles seguem só com o CPF até o fim de 2028."
+  },
+  {
+   "chave": "63ebb10e202efd51",
+   "tema": "pessoas",
+   "titulo": "Dólar fecha a R$ 5,93 e tem sexta alta seguida, mesmo após BC vender US$ 1 bilhão; Ibovespa cai",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/19/dolar-ibovespa.ghtml",
+   "publicado_em": "2026-11-19T09:00:24-03:00",
+   "origem": "rss",
+   "linha": "O dólar subiu pela sexta vez seguida e fechou a R$ 5,93, o maior valor desde janeiro de 2025, mesmo com o Banco Central vendendo US$ 1 bilhão.",
+   "trecho": "O dólar subiu 1,15% nesta quinta-feira (19), véspera de feriado no Brasil, e fechou cotado a R$ 5,9344. Foi a sexta alta consecutiva da moeda americana e o maior valor de fechamento desde 23 de janeiro de 2025, quando encerrou o pregão a R$ 5,9255.",
+   "por_que_importa": "Dólar alto encarece o que vem de fora ou depende de insumo importado, e pesa na viagem e na compra internacional. Para o pequeno negócio que importa, vale rever o preço antes de repor estoque."
+  },
+  {
+   "chave": "10f60f5d4469290b",
+   "tema": "pessoas",
+   "titulo": "Tesouro Direto chega a suspender negociações em dia de forte estresse no mercado",
+   "fonte": "Folha Mercado",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/tesouro-direto-chega-a-suspender-negociacoes-em-dia-de-forte-estresse-no-mercado.shtml",
+   "publicado_em": "2026-11-19T18:37:00-03:00",
+   "origem": "rss",
+   "linha": "O Tesouro Direto chegou a suspender parte das negociações na quinta, com os juros oscilando forte no mercado.",
+   "trecho": "As negociações de títulos públicos pelo Tesouro Direto foram suspensas temporariamente durante a tarde desta quinta-feira (19), em meio à forte volatilidade nas taxas de juros negociadas no mercado.",
+   "por_que_importa": "Quem vende título prefixado ou IPCA+ antes do vencimento num dia assim pode receber menos do que esperava. Quem leva até o vencimento recebe a taxa contratada.",
+   "ideia_post": "'O Tesouro Direto travou, perdi meu dinheiro?' Não. O que muda é o preço de quem vende antes do vencimento."
+  },
+  {
+   "chave": "3e8224f0a8a47198",
+   "tema": "pessoas",
+   "titulo": "Tributação de títulos isentos: como o imposto pode mexer com o seu bolso?",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/onde-investir/tributacao-de-titulos-isentos-como-o-imposto-pode-mexer-com-o-seu-bolso/",
+   "publicado_em": "2026-11-20T05:00:00-03:00",
+   "origem": "rss",
+   "linha": "O governo voltou a estudar cobrar imposto de LCI, LCA, CRI, CRA e debêntures incentivadas, mas não há proposta oficial.",
+   "trecho": "A BPtax lembra que, por enquanto, não há alíquota, forma de cobrança nem anúncio oficial.",
+   "por_que_importa": "Quem tem esses títulos não precisa resgatar por boato. Se vier IR, ele depende do Congresso e só vale no ano seguinte; se vier por IOF, pode sair por decreto, segundo a consultoria ouvida pela matéria."
+  },
+  {
+   "chave": "00154ef4f6580f7f",
+   "tema": "pessoas",
+   "titulo": "Um salário mínimo compra 23 kg de acém a menos do que em 2007; entenda o preço da carne",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/um-salario-minimo-compra-23-kg-de-acem-a-menos-do-que-em-2007-entenda-o-preco-da-carne.ghtml",
+   "publicado_em": "2026-11-20T03:00:22-03:00",
+   "origem": "rss",
+   "linha": "Um salário mínimo compra hoje cerca de 39 kg de acém, contra quase 62 kg há 19 anos.",
+   "trecho": "Com um salário mínimo, um trabalhador brasileiro consegue comprar hoje cerca de 39 kg de acém, um dos cortes bovinos mais baratos do açougue. Há 19 anos, a mesma renda levava para casa quase 62 kg, segundo levantamento da economista Lygia Pimentel, CEO da consultoria Agrifatto.",
+   "por_que_importa": "A carne pesa cada vez mais no orçamento, mesmo com o Brasil produzindo recorde. É um bom termômetro de poder de compra para quem ganha o mínimo.",
+   "ideia_post": "Quanto de carne o seu salário compra? Comparar com 2007 mostra o tamanho da perda."
+  },
+  {
+   "chave": "8b89350a4c423726",
+   "tema": "empreendedor",
+   "titulo": "Bancos se voltam para grandes empresas contra piora do crédito",
+   "fonte": "Estadão Economia",
+   "url": "https://www.estadao.com.br/economia/coluna-da-broad/bancos-se-voltam-para-grandes-empresas-contra-piora-do-credito/",
+   "publicado_em": "2026-11-19T22:00:00-03:00",
+   "origem": "rss",
+   "linha": "Com a Selic alta e mais empresas em dificuldade, os grandes bancos estão dando prioridade ao crédito para as grandes empresas.",
+   "trecho": "As grandes empresas ganharam espaço na estratégia de crédito dos maiores bancos de varejo do País, sob pressão de um ciclo de empréstimos comprimido pela persistência de uma taxa Selic restritiva, que levou a várias companhias a passarem por problemas financeiros.",
+   "por_que_importa": "Para o pequeno negócio, a tendência é crédito mais seletivo nos grandes bancos. Vale comparar cooperativa de crédito e linhas públicas antes de aceitar a primeira oferta."
+  },
+  {
+   "chave": "d0cd526c1f711fec",
+   "tema": "reforma",
+   "titulo": "Imposto Seletivo de 2027 desconsidera conteúdo nocivo à saúde, diz CLP",
+   "fonte": "Folha Mercado",
+   "url": "https://www1.folha.uol.com.br/blogs/que-imposto-e-esse/2026/11/imposto-seletivo-de-2027-desconsidera-conteudo-nocivo-a-saude-diz-clp.shtml",
+   "publicado_em": "2026-11-20T04:00:00-03:00",
+   "origem": "rss",
+   "linha": "Um estudo do CLP critica o Imposto Seletivo de 2027: o valor não acompanha quanto de substância nociva o produto tem.",
+   "trecho": "O modelo de cobrança do Imposto Seletivo previsto para entrar em vigor a partir de fevereiro de 2027, estabelecido pela MP (Medida Provisória) 1.399/2026, não relaciona diretamente o valor do tributo à quantidade de substâncias prejudiciais à saúde ou ao meio ambiente presente nos produtos.",
+   "por_que_importa": "O 'imposto do pecado' começa a pesar em bebidas, cigarros, veículos e apostas em fevereiro de 2027. A MP ainda pode mudar no Congresso, e é aí que críticas como essa podem pesar."
+  }
+ ],
+ "lidas": 152
+}

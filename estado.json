@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-11-19",
+ "atualizado_em": "2026-11-20",
  "prazos_destaque": [
   {
    "rotulo": "NF-e obrigatória para quem não é contribuinte do ICMS (parte da 3ª onda que não foi adiada)",
@@ -332,7 +332,7 @@
   {
    "data": "2026-11-18",
    "titulo": "Ato Conjunto RFB/CGIBS nº 8 — dispensa de CNPJ para produtor rural PF e transportador autônomo",
-   "detalhe": "De 01/01/2027 a 31/12/2028, dispensa da inscrição no CNPJ o produtor rural PF (art. 164 da LC 214) e o transportador autônomo de carga (art. 169) que não optaram pelo regime regular do IBS/CBS. DOU de 18/11 (edição extra), vigência na publicação."
+   "detalhe": "Dispensa da inscrição no CNPJ o produtor rural PF (art. 164 da LC 214) e o transportador autônomo de carga (art. 169) que não optaram pelo regime regular do IBS/CBS. A versão da edição extra de 18/11 previa o período de 01/01/2027 a 31/12/2028; a nova publicação no DOU de 19/11 diz só \"até 31 de dezembro de 2028\", com vigência na data da publicação."
   },
   {
    "data": "2026-11-20",
