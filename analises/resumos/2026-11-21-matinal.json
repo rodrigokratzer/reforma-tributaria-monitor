@@ -1,0 +1,66 @@
+{
+ "data": "2026-11-21",
+ "turno": "matinal",
+ "manchete": "Quem renova contrato agora para 2027 ainda não sabe quanto será a CBS, o imposto novo: o TCU calculou 11,3% e o Senado tem até 15/12 para decidir.",
+ "em_30_segundos": [
+  "Contrato e tabela de preço de 2027 estão sendo fechados antes de o Senado definir a alíquota da CBS; o TCU calculou 11,3%.",
+  "Fim da 6x1: com dois dias de descanso remunerado a partir de 16/12, a hora extra fica mais cara para o patrão.",
+  "Dólar fechou a R$ 5,93 na quinta, alta de 9% só em novembro, mesmo com o Banco Central vendendo US$ 1 bilhão.",
+  "Quase 100 milhões de pessoas começam a receber a 1ª parcela do 13º, e a prioridade de muita gente é pagar dívida."
+ ],
+ "noticias": [
+  {
+   "chave": "796770c46cad62c7",
+   "tema": "reforma",
+   "titulo": "Contratos de 2027 são assinados antes da alíquota da CBS",
+   "fonte": "Estadão",
+   "url": "https://www.estadao.com.br/economia/contratos-2027-assinados-antes-aliquota-cbs/",
+   "publicado_em": "2026-11-20T22:00:00-03:00",
+   "linha": "Renovações de contrato e tabelas de preço para 2027 estão sendo fechadas antes de o Senado fixar a alíquota da CBS, que substitui PIS e Cofins em 1º de janeiro.",
+   "trecho": "O Tribunal de Contas da União (TCU) calculou a alíquota de referência em 11,3%. Cabe ao Senado fixá-la até 15 de dezembro.",
+   "por_que_importa": "Quem presta serviço (manutenção, limpeza, software, consultoria, escola) está fechando preço de 2027 sem saber o imposto. Segundo a matéria, se a fixação passar de 22 de dezembro, vale provisoriamente o número do TCU. Contrato sem cláusula de revisão por mudança de tributo pode deixar a diferença no colo de quem vende.",
+   "ideia_post": "\"Vou renovar o contrato com meu cliente: coloco o imposto novo no preço ou espero?\" Mostrar por que a cláusula de reajuste por mudança de tributo vale ouro neste fim de ano.",
+   "origem": "rss"
+  },
+  {
+   "chave": "57cabb58ffdbe57f",
+   "tema": "empreendedor",
+   "titulo": "Fim da escala 6×1: Marinho diz que contratação contém impacto de hora extra",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/fim-da-escala-6x1-marinho-diz-que-contratacao-contem-impacto-de-hora-extra/",
+   "publicado_em": "2026-11-20T18:41:47-03:00",
+   "linha": "Com o fim da 6x1, o trabalhador ganha dois dias de descanso remunerado a partir de 16/12 e o salário-hora muda de cálculo, o que encarece a hora extra.",
+   "trecho": "A emenda constitucional que colocou um fim à escala 6×1 prevê que o trabalhador passe a ter dois dias de DSR a partir de 16 de dezembro de 2026, sem redução do salário mensal.",
+   "por_que_importa": "Para quem emprega, o salário do mês não muda, mas cada hora extra passa a custar mais, porque o salário-hora é recalculado sobre menos horas. O próprio ministro disse que o DSR \"não dá aumento na remuneração. Mas ele dá efeito no valor da hora extra\". Quem fecha dezembro com muita hora extra (comércio, restaurante) precisa refazer a conta da folha.",
+   "ideia_post": "\"Vou pagar mais caro a hora extra em dezembro?\" Explicar, sem número inventado, por que menos horas na semana mudam o valor da hora, e o que o pequeno comércio pode planejar para o fim de ano.",
+   "origem": "rss"
+  },
+  {
+   "chave": "72447eb80c2018a4",
+   "tema": "pessoas",
+   "titulo": "Nem US$ 1 bilhão do BC conteve a alta do dólar; o que isso revela sobre a economia?",
+   "fonte": "Estadão",
+   "url": "https://www.estadao.com.br/economia/celso-ming/nem-us-1-bilhao-do-bc-conteve-a-alta-do-dolar-o-que-isso-revela-sobre-a-economia/",
+   "publicado_em": "2026-11-20T17:52:24-03:00",
+   "linha": "O dólar fechou a quinta-feira em R$ 5,93, alta de 9% em novembro, mesmo com venda extra de US$ 1 bilhão pelo Banco Central.",
+   "trecho": "A oferta extra de US$ 1 bilhão no mercado de câmbio, promovida pelo Banco Central nesta quinta-feira, 19, não foi suficiente para segurar a cotação do dólar, que terminou o dia valendo R$ 5,93, com alta de 9% apenas em novembro, até o dia 19.",
+   "por_que_importa": "Dólar alto chega ao bolso por produto importado, eletrônico, viagem e, com o tempo, preço de comida e combustível. O colunista diz que o BC está preocupado com o impacto do dólar na inflação. Para o pequeno negócio que compra insumo importado ou cotado em dólar, a reposição de estoque fica mais cara.",
+   "ideia_post": "\"O dólar subiu, e eu com isso?\" Mostrar onde a alta aparece na vida de quem nem viaja: celular, peça, insumo e, depois, o mercado.",
+   "origem": "rss"
+  },
+  {
+   "chave": "f7bb1386826fb6bc",
+   "tema": "pessoas",
+   "titulo": "Quase 100 milhões de brasileiros começam a receber o 13º salário; benefício deve movimentar R$ 400 bilhões na economia",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/20/quase-100-milhoes-de-brasileiros-comecam-a-receber-o-13o-salario-beneficio-deve-movimentar-r-400-bilhoes-na-economia.ghtml",
+   "publicado_em": "2026-11-20T22:16:11-03:00",
+   "linha": "A primeira parcela do 13º começou a cair para quase 100 milhões de pessoas, e o benefício deve movimentar R$ 400 bilhões.",
+   "trecho": "Cem milhões de brasileiros já começaram a receber a primeira parcela do décimo-terceiro. A prioridade de muita gente é quitar dívidas em atraso.",
+   "por_que_importa": "Para quem está endividado, é a chance de tirar do atraso a dívida mais cara (cartão e cheque especial) antes de pensar em compras. Para o comércio, a matéria diz que o dinheiro vai aquecer as vendas de fim de ano.",
+   "ideia_post": "\"Caiu o 13º: pago a dívida ou guardo para o IPVA e o IPTU de janeiro?\" Um passo a passo de prioridade, começando pela dívida de juros mais altos.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 74
+}

@@ -49,6 +49,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-matinal"
  },
+ "00ec73f871e446e2": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "01110ce2da0e4f90": {
   "veredito": "ruido",
   "motivo": "Exige curso aduaneiro para credenciamento no Porto do Rio; sem relação com a reforma.",
@@ -58,6 +63,11 @@
   "veredito": "relevante",
   "motivo": "CGIBS e RFB divulgam orientações sobre entrada em vigor da CBS e do IBS em 01/01/2026",
   "em": "retroativa-2026-09-30"
+ },
+ "013caa051d0c40b2": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "01685e958b419ba5": {
   "veredito": "ruido",
@@ -138,6 +148,11 @@
   "veredito": "ruido",
   "motivo": "edital de concurso público do Ministério de Minas e Energia, sem relação com a reforma",
   "em": "2026-10-14-matinal"
+ },
+ "045aa2d1c02a6a55": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "045dda5b848f4729": {
   "veredito": "ruido",
@@ -259,6 +274,11 @@
   "motivo": "Fragmento do modelo de comprovante cadastral do CNPJ, sem conteúdo próprio",
   "em": "retroativa-2026-09-30"
  },
+ "071912ef51e9c349": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "073ccb514bc84791": {
   "veredito": "ruido",
   "motivo": "Prorroga a exploração da Lotex pela Caixa; sem relação com a reforma do consumo",
@@ -368,6 +388,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-matinal"
+ },
+ "0a1678329c157477": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "0a27076667a7347b": {
   "veredito": "ruido",
@@ -548,6 +573,11 @@
   "veredito": "ruido",
   "motivo": "atualização cadastral de ressegurador eventual na Susep, sem relação com a reforma",
   "em": "2026-11-17-matinal"
+ },
+ "0f6c3502eccdb779": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "0f735c90ef1d87ab": {
   "veredito": "ruido",
@@ -1224,6 +1254,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
  },
+ "1e8d78e92546081a": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "1efb4aaaaffdbbe4": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -1619,6 +1654,11 @@
   "motivo": "Institui politica interna de auditoria de TI da Susep, sem relacao com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "266281011dfecc6d": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "26937e1962b05d71": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -1964,6 +2004,16 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-matinal"
  },
+ "2d2c49fe39c7cff6": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
+ "2d331236036388ef": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "2d34118806dfa3b5": {
   "veredito": "relevante",
   "motivo": "Pré-Black Friday com vendas em queda, segundo o Itaú; sinal para o pequeno varejo",
@@ -2274,6 +2324,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
  },
+ "343c9c5810022bb4": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "344beadc600df709": {
   "veredito": "relevante",
   "motivo": "Selecionada para o resumo do dia: O fim da subvenção ao diesel importado encarece o litro em R$ 0,42, segundo cálculo de uma",
@@ -2389,6 +2444,11 @@
   "motivo": "soluções de consulta sobre CPRB, reoneração da folha e CNPJ, sem relação com IBS/CBS",
   "em": "retroativa-2026-09-30"
  },
+ "36c7593e73901328": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "36de45b6adf44ec8": {
   "veredito": "relevante",
   "motivo": "no resumo: Quem ganha o piso do INSS deve ter aumento maior do que quem ganha acima dele em 2027.",
@@ -2503,6 +2563,11 @@
   "veredito": "ruido",
   "motivo": "nomeação de procuradora de resseguradora (Liberty Mutual), sem relação com a reforma",
   "em": "2026-10-19-matinal"
+ },
+ "398a0bdf1e71c44d": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "39aef9007a4933c9": {
   "veredito": "ruido",
@@ -2634,6 +2699,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-noturna"
  },
+ "3ba5ad295960c3ee": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "3bb48ddf8045d184": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -2743,6 +2813,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
+ },
+ "3ee9863a05fd39fc": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "3ef96aeac4190951": {
   "veredito": "ruido",
@@ -3124,6 +3199,11 @@
   "motivo": "mudança de denominação social e reforma de estatuto de seguradora (KOVR→KEV), sem relação com a reforma",
   "em": "2026-10-14-matinal"
  },
+ "47492db974abef20": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "475c90776db51e65": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -3223,6 +3303,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-19-matinal"
+ },
+ "48c4d8d9b60daef0": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "48de4c6c22f5a188": {
   "veredito": "ruido",
@@ -3338,6 +3423,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-19-matinal"
+ },
+ "4ad6052f733dab5b": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "4af666088c64fec5": {
   "veredito": "ruido",
@@ -3494,6 +3584,11 @@
   "motivo": "portaria SUSEP de autorização, sem ementa; regulação de seguros, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
  },
+ "4eed5b2832626c6f": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "4efae6fb060a9c26": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -3503,6 +3598,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
+ },
+ "4f775731e4358683": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "4f81286bca419242": {
   "veredito": "ruido",
@@ -3528,6 +3628,11 @@
   "veredito": "ruido",
   "motivo": "solução de consulta de IRPJ sobre royalties",
   "em": "2026-10-30-matinal"
+ },
+ "501de9081e6d6332": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "5029b46e77fe8213": {
   "veredito": "ruido",
@@ -3573,6 +3678,11 @@
   "veredito": "ruido",
   "motivo": "prazo administrativo geral do Simples Nacional (notícia RFB comum), sem menção a IBS/CBS no título",
   "em": "retroativa-2026-09-30"
+ },
+ "50dd8334fa8fe041": {
+  "veredito": "ruido",
+  "motivo": "mesmo fato do decreto da 6x1; ficou a matéria da CNN, que abriu e traz o efeito na hora extra",
+  "em": "2026-11-21-matinal"
  },
  "511435185c3c8b97": {
   "veredito": "ruido",
@@ -3879,6 +3989,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-noturna"
  },
+ "5746e951c372393f": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "577a44022d7989e8": {
   "veredito": "ruido",
   "motivo": "Altera cronograma de desembolso orçamentário; sem relação com a reforma.",
@@ -3888,6 +4003,11 @@
   "veredito": "relevante",
   "motivo": "Prazo 30/09 para opção pelo Simples e escolha do modelo de recolhimento IBS/CBS 2027",
   "em": "retroativa-2026-09-30"
+ },
+ "57cabb58ffdbe57f": {
+  "veredito": "relevante",
+  "motivo": "fim da 6x1: dois DSR a partir de 16/12 e nova fórmula do salário-hora encarecem a hora extra",
+  "em": "2026-11-21-matinal"
  },
  "57dd20458e9f7be0": {
   "veredito": "ruido",
@@ -3944,6 +4064,11 @@
   "motivo": "RFB atualiza balanço de solicitações de opção pelo Simples Nacional e pelo regime regular do IBS/CBS",
   "em": "2026-10-08-matinal"
  },
+ "58b99e20d9e4164a": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "58c131f801c386d2": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -3974,6 +4099,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-matinal"
  },
+ "59e47ea73badd876": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "59ed5849ea99ad43": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -3998,6 +4128,11 @@
   "veredito": "ruido",
   "motivo": "Portaria da SUSEP homologa eleição de administradores de seguradora, sem relação com a reforma",
   "em": "2026-10-13-matinal"
+ },
+ "5a24fbe5b593c038": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "5a4dddc6f3bdc16f": {
   "veredito": "ruido",
@@ -4464,6 +4599,11 @@
   "motivo": "Consulta sobre portabilidade em previdência complementar; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "61e04f5da17d4852": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "61f77cabb6cb001c": {
   "veredito": "ruido",
   "motivo": "solução de consulta sem ementa disponível; nada indica relação com IBS/CBS",
@@ -4679,6 +4819,11 @@
   "motivo": "resultado de metas de desempenho institucional do MF",
   "em": "2026-10-30-matinal"
  },
+ "670a04f0f5cb752f": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "671109489a89a6ab": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -4823,6 +4968,11 @@
   "veredito": "ruido",
   "motivo": "Disciplina atendimento em Libras na Receita Federal; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
+ },
+ "699e691c8ac29e95": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "69a7bc1e7667799a": {
   "veredito": "ruido",
@@ -4998,6 +5148,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-noturna"
+ },
+ "6d57e0e02f3c5040": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "6d6a4cab7faacdce": {
   "veredito": "ruido",
@@ -5244,6 +5399,16 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
  },
+ "7236b7e338a3ac51": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
+ "72447eb80c2018a4": {
+  "veredito": "relevante",
+  "motivo": "dólar a R$ 5,93, alta de 9% em novembro, pressiona inflação e preço de importados",
+  "em": "2026-11-21-matinal"
+ },
  "725195abc8b64231": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -5348,6 +5513,11 @@
   "veredito": "ruido",
   "motivo": "despacho aduaneiro de combustíveis a granel sem descarga prévia; controle aduaneiro, fora da reforma",
   "em": "2026-11-18-matinal"
+ },
+ "74d31395fc64846b": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "753cba2d50efe7b3": {
   "veredito": "ruido",
@@ -5579,6 +5749,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
  },
+ "796770c46cad62c7": {
+  "veredito": "relevante",
+  "motivo": "contratos de 2027 fechados antes de o Senado fixar a alíquota da CBS (TCU: 11,3%; prazo 15/12)",
+  "em": "2026-11-21-matinal"
+ },
  "79745094a9e29ead": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -5794,6 +5969,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-19-noturna"
  },
+ "7e9ca7ff4061b674": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "7f13b340380211a1": {
   "veredito": "ruido",
   "motivo": "Susep institui comissão de avaliação de documentos",
@@ -5913,6 +6093,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
+ },
+ "813975d541dae7c8": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "813d6a422bb8bd26": {
   "veredito": "ruido",
@@ -6124,6 +6309,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-matinal"
  },
+ "854b06d94b82e63b": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "854ba9c9998422f9": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -6188,6 +6378,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-matinal"
+ },
+ "866e111a9d4cdce0": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "867acd546e92efb0": {
   "veredito": "ruido",
@@ -6453,6 +6648,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
+ },
+ "8c46671e15e65b24": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "8c514b5dbbd1eb4b": {
   "veredito": "ruido",
@@ -7019,6 +7219,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-matinal"
  },
+ "99176903923ffbab": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "993001a1f7775380": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -7204,6 +7409,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
  },
+ "9d2d1f3b7e3bd016": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "9d46bb53a26f4691": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -7309,6 +7519,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-matinal"
  },
+ "9f01045889927a4d": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "9f1b09ccab07b1ef": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -7393,6 +7608,11 @@
   "veredito": "contexto",
   "motivo": "PDF do Ato Técnico Conjunto nº 10, já analisado no turno matinal a partir do DOU",
   "em": "2026-10-30-noturna"
+ },
+ "a0defb6449093fe2": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "a12058cd947400e7": {
   "veredito": "ruido",
@@ -8324,6 +8544,11 @@
   "motivo": "Exclui empresa do Refis a pedido; sem relação com a reforma.",
   "em": "retroativa-2026-09-30"
  },
+ "b710473f7d541c14": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "b749074ccad812a5": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -8403,6 +8628,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-matinal"
+ },
+ "b92e4d56ea8529a6": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "b93b65f2754cbdb6": {
   "veredito": "ruido",
@@ -8538,6 +8768,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-matinal"
+ },
+ "bb855c13acdfa73a": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "bbae2f27e598ecfa": {
   "veredito": "ruido",
@@ -8708,6 +8943,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
+ },
+ "bedae22eca973cd2": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "bf0bbe5cd5fe3fba": {
   "veredito": "ruido",
@@ -8969,6 +9209,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-19-noturna"
  },
+ "c54a2f177bd66b65": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "c54f82850b281ffc": {
   "veredito": "ruido",
   "motivo": "soluções de consulta sobre bônus capacitação e intervalo intrajornada, CPRB/IRPF",
@@ -9034,6 +9279,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-matinal"
  },
+ "c68e714da2d59b56": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "c690bd1a71b99456": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -9053,6 +9303,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
+ },
+ "c6b81949fb97bc1e": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "c6e74e8b6fbc89b5": {
   "veredito": "ruido",
@@ -9134,6 +9389,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
  },
+ "c814ed8c08e3a803": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "c8306c26cb85efcb": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -9148,6 +9408,11 @@
   "veredito": "ruido",
   "motivo": "cadastro de contribuinte de ICMS de gás natural no RJ",
   "em": "retroativa-2026-09-30"
+ },
+ "c85567cd9a42d91a": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "c87859ab91ee436c": {
   "veredito": "ruido",
@@ -9428,6 +9693,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-matinal"
+ },
+ "ce286e05bb7ce319": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "ce3f5cbdc6fe6da7": {
   "veredito": "ruido",
@@ -9814,6 +10084,11 @@
   "motivo": "ANTT cria GT para avaliar impacto da reforma no equilíbrio de concessões; sem regra ainda",
   "em": "2026-10-30-matinal"
  },
+ "d61f0d16fcb1b98c": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "d62da13ff201e2fd": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -9828,6 +10103,11 @@
   "veredito": "ruido",
   "motivo": "Homologação de eleição de administradores da Generali Brasil Seguros, sem relação com a reforma.",
   "em": "2026-10-16-matinal"
+ },
+ "d66839b9dcdbbedb": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "d66e9d3328674504": {
   "veredito": "ruido",
@@ -10079,6 +10359,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-17-noturna"
  },
+ "dc83f4526bfe7cd2": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "dcc66e0438cd7a89": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -10123,6 +10408,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-19-noturna"
+ },
+ "ddd3a765935343c5": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "de07ffd560c3fa94": {
   "veredito": "ruido",
@@ -10179,6 +10469,11 @@
   "motivo": "publicação do regulamento do IBS na página do Comitê Gestor do IBS",
   "em": "retroativa-2026-09-30"
  },
+ "df272a62b4a7788a": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "df536466acd684d6": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -10228,6 +10523,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-noturna"
+ },
+ "e016315bdd21e188": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "e022e30ccaf5c277": {
   "veredito": "ruido",
@@ -10404,6 +10704,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-matinal"
  },
+ "e33ec289eb8bcf1f": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "e370af09b7b98980": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -10418,6 +10723,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-19-noturna"
+ },
+ "e3adc548f844c2d3": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "e3c47c726d3144e7": {
   "veredito": "ruido",
@@ -10624,6 +10934,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-19-noturna"
  },
+ "e8d262e8f0ee9e7e": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "e8f1ae4c93004be4": {
   "veredito": "ruido",
   "motivo": "retificação de data em ato declaratório de saída de aeronave, sem relação com a reforma",
@@ -10744,6 +11059,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-noturna"
  },
+ "eb98cf434b1d24c5": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "eb9948392c78fdd5": {
   "veredito": "relevante",
   "motivo": "Balanço atualizado: 63% dos pedidos do Simples 2027 ainda indeferidos, às vésperas do prazo",
@@ -10839,6 +11159,11 @@
   "motivo": "Cotepe: diferimento do ICMS monofásico de combustíveis",
   "em": "2026-10-30-matinal"
  },
+ "ed9e5bf8799c3300": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "edb233bd6c361ff2": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -10884,6 +11209,11 @@
   "motivo": "RFB disponibiliza opção pelo regime específico do IBS/CBS para sociedades cooperativas",
   "em": "retroativa-2026-09-30"
  },
+ "ef9d8d3b14900648": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "efa5ccb8b2d342a3": {
   "veredito": "ruido",
   "motivo": "torna sem efeito ato sobre regime de ICMS de petroquímicas, tributo atual",
@@ -10898,6 +11228,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-matinal"
+ },
+ "efd1fa34539cbf6a": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "efe7706d4a4a16fb": {
   "veredito": "ruido",
@@ -11069,6 +11404,11 @@
   "motivo": "Susep homologa reeleição de administradores de seguradora; sem relação com a reforma",
   "em": "2026-11-04-matinal"
  },
+ "f36a5317797321a8": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "f399e43c7e9a7700": {
   "veredito": "ruido",
   "motivo": "homologação de eleição de conselho de capitalização, sem relação com a reforma",
@@ -11133,6 +11473,11 @@
   "veredito": "relevante",
   "motivo": "resultado definitivo da opção pelo Simples Nacional 2027 disponível a partir de 20/11",
   "em": "2026-11-13-noturna"
+ },
+ "f517c383565d61f5": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "f5343b3ec7da7a9a": {
   "veredito": "contexto",
@@ -11259,6 +11604,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-19-matinal"
  },
+ "f7bb1386826fb6bc": {
+  "veredito": "relevante",
+  "motivo": "quase 100 milhões recebem a 1ª parcela do 13º; prioridade é quitar dívidas",
+  "em": "2026-11-21-matinal"
+ },
  "f7d3d418ac802983": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -11319,6 +11669,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-matinal"
  },
+ "f8fa88fb6f9f23b8": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "f90e8a87371e1721": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -11373,6 +11728,11 @@
   "veredito": "ruido",
   "motivo": "exclui pessoa jurídica do REFIS, programa de parcelamento antigo, sem relação com a reforma",
   "em": "retroativa-2026-09-30"
+ },
+ "faf3f11f6a98aded": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "faf7c50a9ac5f987": {
   "veredito": "relevante",
@@ -11574,6 +11934,11 @@
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-20-noturna"
  },
+ "fee1dd8e7f8d09a6": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
+ },
  "feeb62c048920f3e": {
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
@@ -11628,6 +11993,11 @@
   "veredito": "ruido",
   "motivo": "não selecionada para o resumo",
   "em": "2026-11-18-noturna"
+ },
+ "ffc9020fd9c95112": {
+  "veredito": "ruido",
+  "motivo": "não selecionada para o resumo",
+  "em": "2026-11-21-matinal"
  },
  "ffe4360149ab201c": {
   "veredito": "ruido",
