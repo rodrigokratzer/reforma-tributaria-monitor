@@ -1,28 +1,7 @@
 {
- "data": "2026-11-20",
- "quantidade": 2,
- "itens": [
-  {
-   "primeira_vez": "2026-11-20",
-   "fonte": "CGIBS - Noticias",
-   "titulo": "RFB, CGIBS e CFC vão orientar mais de 25 mil profissionais da contabilidade sobre destaques da CBS/IBS nos DF-e",
-   "url": "https://www.cgibs.gov.br/rfb-cgibs-e-cfc-vao-orientar-mais-de-25-mil-profissionais-da-contabilidade-sobre-destaques-da-cbs-ibs",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null,
-   "visto_em": "2026-11-20T20:02:07Z"
-  },
-  {
-   "primeira_vez": "2026-11-20",
-   "fonte": "RFB - Noticias 2026",
-   "titulo": "Receita Federal amplia acesso ao Ambiente de Produção Restrita do Piloto da CBS",
-   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",
-   "data": null,
-   "pasta_arquivo": null,
-   "alerta": null,
-   "visto_em": "2026-11-20T20:02:07Z"
-  }
- ],
+ "data": "2026-11-21",
+ "quantidade": 0,
+ "itens": [],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
