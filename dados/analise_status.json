@@ -1,8 +1,2 @@
-{
- "data": "2026-11-21",
- "turno": "matinal",
- "situacao": "sem_novidade",
- "acoes": 0,
- "gerado_em": "2026-11-21T08:30:00Z",
- "resumo_curto": "Nenhuma publicação oficial nova; 74 notícias, nenhuma muda prazo da reforma"
-}
+{"data": "2026-11-21", "turno": "noturna", "situacao": "sem_novidade", "acoes": 0,
+ "gerado_em": "2026-11-21T20:10:00Z", "resumo_curto": "91 notícias, nenhuma publicação oficial nova"}

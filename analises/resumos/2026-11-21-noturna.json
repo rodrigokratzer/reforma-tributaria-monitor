@@ -1,0 +1,67 @@
+{
+ "data": "2026-11-21",
+ "turno": "noturna",
+ "manchete": "MEI com dívida do INSS vai ter o débito perdoado sozinho em janeiro, sem pedido e sem taxa, desde que pague o DAS em dia no 1º semestre de 2027.",
+ "em_30_segundos": [
+  "MEI: a Receita vai cancelar automaticamente a dívida do INSS no DAS até agosto de 2026; ICMS e ISS continuam cobrados.",
+  "Para manter o perdão, o MEI precisa pagar em dia o DAS de janeiro a junho de 2027.",
+  "Fim da 6x1: o divisor da hora extra cai de 220 para 210, e a construção estima mão de obra 10% mais cara.",
+  "Em 2027, condomínio, locador de imóvel e companhia aérea passam a emitir nota fiscal com a reforma.",
+  "A dívida das famílias brasileiras cresceu 11,6% em 2025, mais rápido que o dinheiro guardado."
+ ],
+ "noticias": [
+  {
+   "chave": "5d9b636e23093f95",
+   "tema": "empreendedor",
+   "titulo": "Receita explica como vai perdoar dívidas do MEI com o INSS a partir de 2027",
+   "fonte": "UOL Economia (Economia Real)",
+   "url": "https://economiareal.uol.com.br/noticia/mei/receita-explica-como-vai-perdoar-dividas-do-mei-com-o-inss-a-partir-de-2027-2259",
+   "publicado_em": "2026-11-21T15:55:00-03:00",
+   "linha": "A parte do INSS do DAS-MEI vencida até 13/10/2026, com juros e multa, será cancelada automaticamente em 1º de janeiro de 2027.",
+   "trecho": "O microempreendedor individual (MEI) com dívidas da contribuição ao INSS não precisa fazer nenhum pedido para ter o débito perdoado. A Receita Federal informou nesta semana que vai cancelar automaticamente essas dívidas, inclusive as que estão parceladas ou em cobrança.",
+   "por_que_importa": "Segundo a matéria, o perdão vem da Lei Complementar 238 e alcança, em regra, os meses até agosto de 2026; o ICMS e o ISS do mesmo DAS continuam devidos, e o que já foi pago não volta. Quem segue como MEI precisa pagar em dia o DAS de janeiro a junho de 2027, ou o perdão cai e a dívida volta. Quem discute a dívida na Justiça precisa desistir da ação e pedir o cancelamento.",
+   "ideia_post": "\"Devo o DAS: vou ter a dívida perdoada?\" Explicar o que some, o que continua (ICMS/ISS), a condição de pagar em dia até junho de 2027 e o alerta: não existe taxa nem intermediário para 'garantir' o perdão.",
+   "origem": "rss"
+  },
+  {
+   "chave": "58da2b3bb43790d6",
+   "tema": "empreendedor",
+   "titulo": "Especialista: nova jornada de trabalho aumenta custo da mão de obra em 10%",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/especialista-nova-jornada-de-trabalho-aumenta-custo-da-mao-de-obra-em-10/",
+   "publicado_em": "2026-11-21T14:00:57-03:00",
+   "linha": "Com o decreto do fim da 6x1, a hora extra passa a ser calculada com divisor 210 em vez de 220, e a CBIC estima mão de obra 10% mais cara na construção.",
+   "trecho": "Além disso, a mudança no divisor utilizado para o cálculo das horas extras — que passou de 220 para 210 — tornará as horas extras significativamente mais caras, elevando também os encargos sociais.",
+   "por_que_importa": "Para quem emprega, o salário do mês é o mesmo, mas cada hora extra fica mais cara porque o valor da hora é dividido por menos horas. A matéria diz que a jornada cai de 44 para 42 horas semanais primeiro e de 42 para 40 no ano seguinte. Os 10% são estimativa da CBIC para a construção, não número oficial.",
+   "ideia_post": "\"Minha hora extra vai custar quanto agora?\" Mostrar, com o divisor 220 virando 210, por que a mesma hora extra pesa mais na folha de dezembro.",
+   "origem": "rss"
+  },
+  {
+   "chave": "209588f995cbc738",
+   "tema": "reforma",
+   "titulo": "Reforma tributária exige notas fiscais de locação, voos e imóveis em 2027",
+   "fonte": "Folha de S.Paulo",
+   "url": "https://c-level.folha.uol.com.br/negocios/2026/11/reforma-tributaria-exige-notas-fiscais-de-locacao-voos-e-imoveis-em-2027.shtml",
+   "publicado_em": "2026-11-21T09:27:00-03:00",
+   "linha": "Condomínios, locadores de imóveis e veículos, companhias aéreas e quem vende imóvel passam a emitir nota fiscal em 2027.",
+   "trecho": "Condomínios, companhias aéreas e locadores de veículos e imóveis estão entre os contribuintes e as entidades que passarão a emitir notas fiscais com a implementação da reforma tributária em 2027.",
+   "por_que_importa": "Pela tabela da matéria (fontes Receita e Roit), NFS-e de locações, condomínios e bens imateriais começa em janeiro de 2027; bilhete aéreo, nota de venda de imóvel e plataformas, em março. Seguem dispensados, por ora, o MEI nas vendas para pessoa física e o nanoempreendedor com renda anual de até R$ 55 mil (R$ 220 mil para motorista e entregador de aplicativo). Para a empresa, a nota com o CNPJ é o que garante o crédito do imposto pago.",
+   "ideia_post": "\"Alugo um imóvel: vou ter que emitir nota fiscal em 2027?\" Quem entra, quem fica dispensado e por que a empresa vai passar a pedir nota em tudo.",
+   "origem": "rss"
+  },
+  {
+   "chave": "c678048db3682865",
+   "tema": "pessoas",
+   "titulo": "Dívida de famílias quase dobra em 5 anos e sobe mais que ativos, diz estudo",
+   "fonte": "UOL Economia",
+   "url": "https://economia.uol.com.br/noticias/redacao/2026/11/21/1-mais-rico-detem-395-do-patrimonio-financeiro-do-brasil-diz-estudo.ghtm",
+   "publicado_em": "2026-11-21T05:30:00-03:00",
+   "linha": "As dívidas das famílias brasileiras cresceram 11,6% em 2025, mais que o dinheiro aplicado, que subiu 8,6%.",
+   "trecho": "As dívidas das famílias brasileiras cresceram 11,6% em 2025, mais que os ativos financeiros (8,6%), segundo o Relatório de Riqueza Global 2026 da Allianz.",
+   "por_que_importa": "É o retrato de quem está pegando emprestado mais do que consegue guardar, justo quando o 13º começa a cair. Os números são do relatório da Allianz citado pela matéria.",
+   "ideia_post": "\"Minha dívida cresce mais rápido que minha poupança?\" Usar o 13º como gatilho para trocar dívida cara por mais barata antes de investir.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 91
+}
