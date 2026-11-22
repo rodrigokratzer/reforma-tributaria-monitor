@@ -4,30 +4,10 @@
   {
    "fonte": "DOU (INLABS)",
    "url": "https://inlabs.in.gov.br/",
-   "metodo": "leiturajornal",
-   "http_status": null,
-   "erro": null,
-   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
+   "metodo": null,
    "total": 0,
    "itens": [],
-   "diagnostico": {
-    "lidas": 1,
-    "forte": 0,
-    "revisar": 0,
-    "baixados": 1,
-    "falhas_download": 0,
-    "duplicados": 0,
-    "sem_edicao": [
-     "2026-11-21 DO1: sem materias",
-     "2026-11-21 DO3: sem materias",
-     "2026-11-21 DO3E: sem materias",
-     "2026-11-22 DO1: sem materias",
-     "2026-11-22 DO3: sem materias",
-     "2026-11-22 DO1E: sem materias",
-     "2026-11-22 DO3E: sem materias"
-    ],
-    "erros": []
-   }
+   "erro": "INLABS: login do INLABS falhou apos 30 tentativas: URLError: <urlopen error [Errno -3] Temporary failure in name resolution> | Leitura do Jornal: RuntimeError: Leitura do Jornal indisponivel: 2026-11-21 DO1: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; 2026-11-21 DO3: URLError: <"
   }
  ]
 }
