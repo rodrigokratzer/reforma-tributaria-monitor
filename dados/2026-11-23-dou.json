@@ -84,10 +84,10 @@
     }
    ],
    "diagnostico": {
-    "lidas": 2295,
+    "lidas": 2296,
     "forte": 1,
     "revisar": 5,
-    "baixados": 362,
+    "baixados": 363,
     "falhas_download": 0,
     "duplicados": 0,
     "sem_edicao": [
@@ -95,7 +95,6 @@
      "2026-11-22 DO3: sem materias",
      "2026-11-22 DO1E: sem materias",
      "2026-11-22 DO3E: sem materias",
-     "2026-11-23 DO1E: sem materias",
      "2026-11-23 DO3E: sem materias"
     ],
     "erros": []
