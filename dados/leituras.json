@@ -3680,6 +3680,16 @@
   "status": "lido",
   "tentativas": 0
  },
+ "8e459f95890a4963": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 4601,
+  "lido_em": "2026-11-23T20:02:06Z",
+  "origem": "pdf",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
+ },
  "8e9c8e4d8d681148": {
   "chars": 1143,
   "lido_em": "2026-10-05T12:24:06Z",
