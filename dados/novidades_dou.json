@@ -1,11 +1,94 @@
 {
- "data": "2026-11-22",
- "quantidade": 0,
- "itens": [],
- "fontes_com_erro": [],
- "fontes_sem_itens": [
-  "DOU (INLABS)"
+ "data": "2026-11-23",
+ "quantidade": 6,
+ "itens": [
+  {
+   "primeira_vez": "2026-11-23",
+   "fonte": "DOU DO1",
+   "titulo": "PORTARIA SRRF09 Nº 1.215, DE 18 DE NOVEMBRO DE 2026",
+   "url": "https://www.in.gov.br/web/dou/-/portaria-srrf09-n-1.215-de-18-de-novembro-de-2026-745566817",
+   "data": "2026-11-23",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+   "ementa": "PORTARIA SRRF09 Nº 1.215, DE 18 DE NOVEMBRO DE 2026 Suspende temporariamente o atendimento realizado por meio do canal de atendimento Chat RFB, no âmbito da 9ª Região Fiscal, a fim de possibilitar a realização de capacitação dos servidores integrantes da equipe. O SUPERINTENDENTE-ADJUNTO DA RECEITA ",
+   "balde": "revisar",
+   "continuacao": false,
+   "alerta": null,
+   "pasta_arquivo": null,
+   "visto_em": "2026-11-23T12:26:25Z"
+  },
+  {
+   "primeira_vez": "2026-11-23",
+   "fonte": "DOU DO1",
+   "titulo": "PORTARIA MF Nº 3.436, DE 19 DE NOVEMBRO DE 2026",
+   "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.436-de-19-de-novembro-de-2026-745575294",
+   "data": "2026-11-23",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": "PORTARIA MF Nº 3.436, DE 19 DE NOVEMBRO DE 2026 Altera, mediante antecipação e remanejamento, os valores autorizados para pagamento de que tratam os Anexos II, II.B, III, III.B, VI e VII do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estab",
+   "balde": "revisar",
+   "continuacao": false,
+   "alerta": null,
+   "pasta_arquivo": null,
+   "visto_em": "2026-11-23T12:26:25Z"
+  },
+  {
+   "primeira_vez": "2026-11-23",
+   "fonte": "DOU DO1",
+   "titulo": "PORTARIA MF Nº 3.437, DE 19 DE NOVEMBRO DE 2026",
+   "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.437-de-19-de-novembro-de-2026-745563550",
+   "data": "2026-11-23",
+   "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+   "ementa": "PORTARIA MF Nº 3.437, DE 19 DE NOVEMBRO DE 2026 Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos II, II.A, II.B e III do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronogra",
+   "balde": "revisar",
+   "continuacao": false,
+   "alerta": null,
+   "pasta_arquivo": null,
+   "visto_em": "2026-11-23T12:26:25Z"
+  },
+  {
+   "primeira_vez": "2026-11-23",
+   "fonte": "DOU DO1",
+   "titulo": "PORTARIA RFB Nº 763, DE 19 DE NOVEMBRO DE 2026",
+   "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-763-de-19-de-novembro-de-2026-745573207",
+   "data": "2026-11-23",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+   "ementa": "PORTARIA RFB Nº 763, DE 19 DE NOVEMBRO DE 2026 Dispõe sobre o Piloto da Reforma Tributária do Consumo relativo à Contribuição Social sobre Bens e Serviços - Piloto RTC-CBS. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o art. 350, caput, inciso III, do Regi",
+   "balde": "forte",
+   "continuacao": false,
+   "alerta": null,
+   "pasta_arquivo": null,
+   "visto_em": "2026-11-23T12:26:25Z"
+  },
+  {
+   "primeira_vez": "2026-11-23",
+   "fonte": "DOU DO1",
+   "titulo": "PORTARIA SRRF09 Nº 1.219, DE 19 DE NOVEMBRO DE 2026",
+   "url": "https://www.in.gov.br/web/dou/-/portaria-srrf09-n-1.219-de-19-de-novembro-de-2026-745578148",
+   "data": "2026-11-23",
+   "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+   "ementa": "PORTARIA SRRF09 Nº 1.219, DE 19 DE NOVEMBRO DE 2026 Altera a Portaria SRRF09 nº 6, de 14 de janeiro de 2021, que trata da transferência temporária de competências entre as unidades da 9ª Região Fiscal vinculadas ao macroprocesso de trabalho Administração Aduaneira, no que tange à lavratura de multas",
+   "balde": "revisar",
+   "continuacao": false,
+   "alerta": null,
+   "pasta_arquivo": null,
+   "visto_em": "2026-11-23T12:26:25Z"
+  },
+  {
+   "primeira_vez": "2026-11-23",
+   "fonte": "DOU DO1",
+   "titulo": "RESOLUÇÃO NORMATIVA DA ANEEL Nº 1.177, DE 17 DE NOVEMBRO DE 2026",
+   "url": "https://www.in.gov.br/web/dou/-/resolucao-normativa-da-aneel-n-1.177-de-17-de-novembro-de-2026-745611207",
+   "data": "2026-11-23",
+   "orgao": "Ministério de Minas e Energia/Agência Nacional de Energia Elétrica/Diretoria Colegiada",
+   "ementa": "RESOLUÇÃO NORMATIVA DA ANEEL Nº 1.177, DE 17 DE NOVEMBRO DE 2026 Aprova a versão 4.0 do Submódulo 6.7 dos Procedimentos de Regulação Tarifária - PRORET, que trata da metodologia de cálculo da cobertura tarifária do Fundo de Descomissionamento das Centrais de Geração Angra 1 e Angra 2 - FDES, em deco",
+   "balde": "revisar",
+   "continuacao": false,
+   "alerta": null,
+   "pasta_arquivo": null,
+   "visto_em": "2026-11-23T12:26:25Z"
+  }
  ],
+ "fontes_com_erro": [],
+ "fontes_sem_itens": [],
  "fontes_via_http": [],
  "fontes_puladas": []
 }
