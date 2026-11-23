@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
+   "erro_browser": null,
    "total": 10,
    "itens": [
     {
@@ -402,7 +402,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 14,
+   "total": 15,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
@@ -501,6 +501,13 @@
      "data": null,
      "pasta_arquivo": "2026-11",
      "alerta": null
+    },
+    {
+     "titulo": "Portaria CGIBS nº 13 2026 (.pdf 641,94 KBytes)",
+     "url": "https://www.cgibs.gov.br/upload/arquivos/202611/23114620-portaria-cgibs-n-13-2026.pdf",
+     "data": null,
+     "pasta_arquivo": "2026-11",
+     "alerta": null
     }
    ]
   },
@@ -511,7 +518,7 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 5,
+   "total": 4,
    "itens": [
     {
      "titulo": "Receita Federal amplia acesso ao Ambiente de Produção Restrita do Piloto da CBS",
@@ -537,13 +544,6 @@
     {
      "titulo": "A Receita Federal divulga a atualização dos números referentes às solicitações de opção pelo Simples Nacional e pelo regime regular do IBS e da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/a-receita-federal-divulga-a-atualizacao-dos-numeros-referentes-as-solicitacoes-de-opcao-pelo-simples-nacional-e-pelo-regime-regular-do-ibs-e-da-cbs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Processamento final das solicitações de Opção pelo Simples Nacional para 2027",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/processamento-final-das-solicitacoes-de-opcao-pelo-simples-nacional-para-2027",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
