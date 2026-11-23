@@ -1,0 +1,104 @@
+{
+ "data": "2026-11-23",
+ "turno": "noturna",
+ "manchete": "Saiu a regra do fim da escala 6x1: vale a partir de 16 de dezembro, com fiscalização nos primeiros 90 dias.",
+ "em_30_segundos": [
+  "Fim da 6x1: portaria publicada hoje; a regra vale a partir de 16/12, com fiscalização com dupla visita nas empresas por 90 dias.",
+  "O dólar passou de R$ 6 pela primeira vez desde abril de 2025, e isso pesa nos preços.",
+  "O governo quer começar a reduzir o subsídio dos combustíveis em dezembro.",
+  "Durigan diz que o Senado deve definir a alíquota da CBS de 2027 nas próximas duas semanas.",
+  "INSS: R$ 2,77 bilhões em atrasados liberados para quem ganhou na Justiça."
+ ],
+ "noticias": [
+  {
+   "chave": "8af76e75ff1a9c65",
+   "tema": "empreendedor",
+   "titulo": "Empresas serão fiscalizadas nos primeiros 90 dias do fim da 6x1 e sofrerão multa se infringirem lei",
+   "fonte": "Folha Mercado",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/empresas-serao-fiscalizadas-nos-primeiros-90-dias-do-fim-da-6x1-e-sofrerao-multa-se-infringirem-lei.shtml",
+   "publicado_em": "2026-11-23T16:03:00-03:00",
+   "linha": "Saiu a portaria do fim da escala 6x1: a regra vale a partir de 16/12, e as empresas terão fiscalização com dupla visita nos primeiros 90 dias.",
+   "trecho": "Portaria sobre o fim da escala 6x1, publicada nesta segunda-feira (23) em edição extra do Diário Oficial da União, prevê que empresas passarão por fiscalização com dupla visita nos primeiros 90 dias quando a emenda passar a valer, em 16 de dezembro deste ano.",
+   "por_que_importa": "Quem tem funcionário CLT tem menos de um mês para refazer escalas e folgas. Nos primeiros 90 dias a fiscalização faz dupla visita, e quem descumprir a lei leva multa, segundo a Folha. Comércio, 12x36 e horistas são os casos que mais exigem atenção.",
+   "ideia_post": "\"Meu funcionário trabalha de segunda a sábado: o que eu mudo até 16 de dezembro?\" Um checklist rápido para o pequeno comércio montar a escala nova.",
+   "origem": "rss"
+  },
+  {
+   "chave": "62ea8e13b7946d9e",
+   "tema": "pessoas",
+   "titulo": "Dólar bate R$ 6 pela primeira vez desde abril de 2025, com pacote fiscal no radar; Ibovespa cai",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/23/dolar-ibovespa.ghtml",
+   "publicado_em": "2026-11-23T09:00:20-03:00",
+   "linha": "O dólar passou de R$ 6 nesta segunda pela primeira vez desde abril de 2025.",
+   "trecho": "Essa foi a primeira vez que a moeda ultrapassou os R$ 6 desde 9 de abril de 2025, quando chegou a R$ 6,0961 durante o pregão.",
+   "por_que_importa": "Dólar caro encarece o que é importado ou tem preço atrelado à moeda americana. Economistas ouvidos pelo InfoMoney dizem que a desconfiança com as contas do governo deve manter o câmbio nesse patamar até o início de 2027.",
+   "ideia_post": "\"O dólar a R$ 6 vai deixar o meu mercado mais caro?\" O que sobe primeiro e como o pequeno lojista que compra importado pode se proteger no estoque de fim de ano.",
+   "origem": "rss"
+  },
+  {
+   "chave": "01855038be821668",
+   "tema": "pessoas",
+   "titulo": "Governo pretende iniciar ‘desmame’ de subsídio de combustíveis em dezembro",
+   "fonte": "Estadão Economia",
+   "url": "https://www.estadao.com.br/economia/governo-pretende-iniciar-desmame-subsidio-combustiveis-dezembro/",
+   "publicado_em": "2026-11-23T10:38:31-03:00",
+   "linha": "O governo quer começar a tirar aos poucos o subsídio dos combustíveis já em dezembro.",
+   "trecho": "O plano ainda precisa ter os detalhes fechados, mas a intenção é diminuir a subvenção aos poucos e não retirá-la de uma só vez, o que ainda não está totalmente descartado.",
+   "por_que_importa": "Se o subsídio diminuir, o preço do diesel e da gasolina tende a subir, e com ele o frete e o custo de quem vive de carro ou moto. O plano ainda não tem detalhes, segundo o Estadão; vale acompanhar antes de fechar orçamento de 2027.",
+   "ideia_post": "\"A gasolina vai subir em dezembro?\" O que o governo já disse e o que ainda falta saber, junto com o dólar a R$ 6.",
+   "origem": "rss"
+  },
+  {
+   "chave": "0674dccd2020617d",
+   "tema": "reforma",
+   "titulo": "‘Nas próximas duas semanas, indicações, fiscal e alíquota da CBS estarão resolvidos’, diz Durigan",
+   "fonte": "Estadão Economia",
+   "url": "https://www.estadao.com.br/economia/nas-proximas-duas-semanas-indicacoes-fiscal-e-aliquota-da-cbs-estarao-resolvidos-diz-durigan/",
+   "publicado_em": "2026-11-23T16:07:33-03:00",
+   "linha": "O ministro da Fazenda diz que a alíquota da CBS de 2027 deve ser definida pelo Senado nas próximas duas semanas.",
+   "trecho": "Segundo ele, além dos nomes indicados, o governo e o Congresso deverão avançar nas medidas fiscais e na votação do Orçamento de 2027, além da definição da alíquota da Contribuição sobre Bens e Serviços (CBS) pelo Senado Federal.",
+   "por_que_importa": "A CBS é o novo imposto federal que substitui PIS e Cofins. Faltando pouco mais de um mês para 2027, quem formaria preço e contrato ainda não tem a alíquota oficial: o TCU aprovou o cálculo, mas a fixação cabe ao Senado. No mesmo dia, Durigan descartou adiar a reforma (InfoMoney).",
+   "ideia_post": "\"Vou fechar os preços de 2027 sem saber o imposto?\" Por que vale deixar cláusula de reajuste por tributo nos contratos fechados agora.",
+   "origem": "rss"
+  },
+  {
+   "chave": "70534b2080d01584",
+   "tema": "pessoas",
+   "titulo": "INSS: Justiça libera R$ 2,77 bilhões em atrasados; veja quem tem direito e como consultar",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/23/inss-justica-libera-r-277-bilhoes.ghtml",
+   "publicado_em": "2026-11-23T13:15:07-03:00",
+   "linha": "A Justiça liberou R$ 2,77 bilhões em atrasados para quem ganhou ação contra o INSS.",
+   "trecho": "Do total, R$ 2,77 bilhões são destinados a ações relacionadas ao INSS e a benefícios assistenciais, incluindo casos de revisão de aposentadorias, pensões, auxílio por incapacidade e outros benefícios.",
+   "por_que_importa": "Aposentado, pensionista ou quem recebe benefício assistencial e venceu processo de revisão ou concessão pode ter dinheiro a receber. O lote total do CJF é de R$ 3,36 bilhões, segundo o g1.",
+   "ideia_post": "\"Ganhei a ação contra o INSS. Quando cai o dinheiro?\" Como consultar se o seu processo entrou no lote.",
+   "origem": "rss"
+  },
+  {
+   "chave": "3b32e06f7a96147d",
+   "tema": "pessoas",
+   "titulo": "Bolsa Família terá novo pagamento antecipado em dezembro; veja calendário",
+   "fonte": "UOL Economia",
+   "url": "https://economia.uol.com.br/noticias/redacao/2026/11/23/bolsa-familia-ainda-tera-pagamento-antecipado-em-dezembro-veja-as-datas.ghtm",
+   "publicado_em": "2026-11-23T13:26:11-03:00",
+   "linha": "O Bolsa Família de dezembro vai sair antecipado, em só três datas: 10, 11 e 14.",
+   "trecho": "O Bolsa Família terá pagamento antecipado em dezembro, com depósitos concentrados em apenas três datas: 10, 11 e 14.",
+   "por_que_importa": "As famílias recebem antes do calendário normal, e o dinheiro entra no comércio de bairro na semana do dia 10, antes do Natal. Para o pequeno comerciante, é a data para reforçar estoque e promoção.",
+   "origem": "rss"
+  },
+  {
+   "chave": "c698d8a500178e43",
+   "tema": "pessoas",
+   "titulo": "Free flow registra 120 milhões de pagamentos em 200 dias de suspensão das multas",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/carros/noticia/2026/11/23/free-flow-registra-120-milhoes-de-pagamentos-de-pedagio-atrasado-em-200-dias-o-que-acontece-com-quem-ainda-deve.ghtml",
+   "publicado_em": "2026-11-23T13:03:47-03:00",
+   "linha": "Acabou o prazo para pagar sem multa os pedágios free flow atrasados.",
+   "trecho": "O prazo para quitar os pedágios eletrônicos atrasados, sem multa, terminou na semana passada.",
+   "por_que_importa": "O perdão de multa valia para passagens pelo pedágio sem cancela até 17 de outubro. Quem ainda deve passagem volta a correr risco de multa; vale consultar a placa no site da concessionária.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 213
+}
