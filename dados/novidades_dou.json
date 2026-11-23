@@ -2,10 +2,10 @@
  "data": "2026-11-22",
  "quantidade": 0,
  "itens": [],
- "fontes_com_erro": [
+ "fontes_com_erro": [],
+ "fontes_sem_itens": [
   "DOU (INLABS)"
  ],
- "fontes_sem_itens": [],
  "fontes_via_http": [],
  "fontes_puladas": []
 }
