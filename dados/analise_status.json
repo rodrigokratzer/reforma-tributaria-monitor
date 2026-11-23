@@ -1,2 +1,11 @@
-{"data": "2026-11-21", "turno": "noturna", "situacao": "sem_novidade", "acoes": 0,
- "gerado_em": "2026-11-21T20:10:00Z", "resumo_curto": "91 notícias, nenhuma publicação oficial nova"}
+{
+ "data": "2026-11-23",
+ "turno": "matinal",
+ "situacao": "publicada",
+ "acoes": 0,
+ "gerado_em": "2026-11-23T12:30:55Z",
+ "resumo_curto": "6 publicações, 1 a acompanhar (Piloto da CBS aberto a qualquer CNPJ), nenhuma exige ação",
+ "painel_atualizado": [
+  "Piloto da CBS aberto a qualquer empresa com CNPJ, sem indicação de entidade (Portaria RFB nº 763, DOU 23/11)"
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "_leia_me": "Camada curada do painel (prazos, pendencias, linha do tempo). O scraper NAO mexe aqui. A analise de cada ciclo propoe atualizacoes em dados/estado_proposta.json, que scripts/atualizar_estado.py valida e aplica (historico em dados/estado_mudancas.json). Edicao manual continua valendo.",
- "atualizado_em": "2026-11-20",
+ "atualizado_em": "2026-11-23",
  "prazos_destaque": [
   {
    "rotulo": "NF-e obrigatória para quem não é contribuinte do ICMS (parte da 3ª onda que não foi adiada)",
@@ -338,6 +338,11 @@
    "data": "2026-11-20",
    "titulo": "Simples Nacional 2027: resultado definitivo das opções",
    "detalhe": "Receita Federal: a partir de 20/11 o serviço \"Acompanhamento da Solicitação da Opção pelo Simples Nacional\" mostra o resultado final, inclusive de quem regularizou pendências no fim do prazo (30/10) e ainda aparece como indeferido."
+  },
+  {
+   "data": "2026-11-23",
+   "titulo": "Portaria RFB nº 763 — Piloto da CBS aberto a qualquer CNPJ",
+   "detalhe": "Formaliza no DOU a participação de qualquer pessoa jurídica no Piloto RTC-CBS, sem indicação de entidade; operações sem efeito tributário; revoga as Portarias RFB 549/2025 e 596/2025."
   },
   {
    "data": "2026-12-01",

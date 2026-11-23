@@ -1,0 +1,119 @@
+{
+ "data": "2026-11-23",
+ "turno": "matinal",
+ "manchete": "Câmara vota hoje o pacote fiscal que corta 10% dos benefícios tributários e pode limitar o uso de créditos pelas empresas.",
+ "em_30_segundos": [
+  "Câmara vota hoje o ajuste fiscal: corte de 10% em benefícios tributários e possível limite ao uso de créditos pelas empresas.",
+  "13º: a primeira parcela tem de cair até segunda (30); quem ganha até R$ 5 mil não paga IR sobre ele.",
+  "A transição para a jornada 5x2 começa em 16/12, e pequenas empresas já contratam para fechar as escalas.",
+  "Mercado prevê inflação de 5,15% neste ano e Selic de 13% em 2027: crédito segue caro.",
+  "Reforma: agora em portaria, qualquer empresa com CNPJ pode testar a CBS no piloto da Receita."
+ ],
+ "noticias": [
+  {
+   "chave": "426f738f37057f25",
+   "tema": "empreendedor",
+   "titulo": "Câmara tenta votar pacote fiscal de R$ 50 bilhões de Lula nesta segunda-feira",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/politica/camara-tenta-votar-pacote-fiscal-de-r-50-bilhoes-de-lula-nesta-segunda-feira/",
+   "publicado_em": "2026-11-23T09:21:50-03:00",
+   "linha": "O pacote fiscal que a Câmara vota hoje corta mais 10% dos benefícios tributários de setores e deixa o governo limitar o uso de créditos tributários pelas empresas.",
+   "trecho": "O projeto também determina um corte adicional de 10% em benefícios tributários concedidos a setores da economia.",
+   "por_que_importa": "Se o Executivo limitar o uso de créditos tributários, a empresa pode ter de pagar em dinheiro parte do tributo que hoje compensa, o que aperta o caixa. O texto já passou no Senado e precisa de 257 votos na Câmara; CNI, Fiesp e Fiemg são contra a limitação dos créditos.",
+   "ideia_post": "\"Tenho crédito de imposto para usar: o governo pode me impedir?\" Explicar o que o pacote permite e o que ainda depende de regulamentação.",
+   "origem": "rss"
+  },
+  {
+   "chave": "251774a31a35e36a",
+   "tema": "pessoas",
+   "titulo": "IR no 13º salário 2026: quanto é descontado de quem ganha de R$ 5 mil a R$ 10 mil",
+   "fonte": "Exame",
+   "url": "https://exame.com/brasil/ir-no-13o-salario-2026-quanto-e-descontado-de-quem-ganha-de-r-5-mil-a-r-10-mil/",
+   "publicado_em": "2026-11-23T06:00:20-03:00",
+   "linha": "Primeiro 13º com a nova isenção do IR: quem ganha até R$ 5 mil não tem desconto de imposto, e quem ganha até R$ 7.350 paga menos.",
+   "trecho": "Trabalhadores com renda de até R$ 5 mil estão isentos do imposto; quem recebe acima desse valor pode ter redução gradual, conforme as novas regras do IR",
+   "por_que_importa": "Segundo a Exame, a primeira parcela vence em 30/11 e a segunda em 18/12; o IR do 13º é calculado à parte e descontado na segunda parcela. Para o dono de negócio com empregado CLT, é a data para separar o dinheiro da folha.",
+   "ideia_post": "\"Por que minha primeira parcela do 13º veio sem desconto?\" Mostrar quando o IR aparece e quem agora fica isento.",
+   "origem": "rss"
+  },
+  {
+   "chave": "70f12a2cccccbf8e",
+   "tema": "empreendedor",
+   "titulo": "Como as pequenas e médias empresas estão se adaptando ao fim da escala 6x1?",
+   "fonte": "Estadão",
+   "url": "https://www.estadao.com.br/economia/como-as-pequenas-e-medias-empresas-estao-se-adaptando-ao-fim-da-escala-6x1/",
+   "publicado_em": "2026-11-23T05:30:00-03:00",
+   "linha": "Faltam três semanas para a transição à jornada 5x2, e pequenos negócios já contratam e renegociam escalas.",
+   "trecho": "A partir de 16 de dezembro, começa oficialmente a transição para a jornada 5x2, cinco dias de trabalho e dois de folga.",
+   "por_que_importa": "Quem tem funcionário em escala 6x1 precisa refazer as escalas antes de 16/12. Na reportagem, uma rede de padarias com 350 funcionários terá de abrir 17 vagas em uma das quatro unidades. A portaria do Ministério do Trabalho com as regras da nova jornada deve sair hoje, segundo o InfoMoney.",
+   "ideia_post": "\"Tenho 3 funcionários no 6x1: o que muda em 16 de dezembro?\" Um checklist curto para o pequeno comércio.",
+   "origem": "rss"
+  },
+  {
+   "chave": "ddbb3f8ff3f7ff1e",
+   "tema": "pessoas",
+   "titulo": "Mercado eleva projeções de inflação e espera Selic em 13% em 2027, aponta Focus",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/brasil/noticia/2026/11/23/mercado-eleva-projecoes-de-inflacao-e-espera-selic-em-13percent-em-2027-aponta-focus.ghtml",
+   "publicado_em": "2026-11-23T08:47:11-03:00",
+   "linha": "O mercado passou a esperar inflação maior e juros mais altos: Selic de 13% no fim de 2027.",
+   "trecho": "A mediana das projeções dos economistas do mercado para a inflação oficial brasileira em 2026 subiu de 5,11% para 5,15%, de acordo com o relatório Focus, do Banco Central (BC), divulgado hoje com estimativas coletadas até a última sexta-feira.",
+   "por_que_importa": "Para 2027 a inflação esperada subiu de 5% para 5,12%, e a Selic esperada para este ano segue em 13,75%. Juro alto por mais tempo significa cartão, cheque especial e capital de giro caros em 2027.",
+   "ideia_post": "\"Vale esperar os juros caírem para financiar?\" O que a previsão do mercado diz sobre 2027.",
+   "origem": "rss"
+  },
+  {
+   "chave": "5bc0990c4a322c57",
+   "tema": "reforma",
+   "titulo": "Portaria RFB nº 763/2026: Piloto da CBS aberto a qualquer empresa",
+   "fonte": "DOU",
+   "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-763-de-19-de-novembro-de-2026-745573207",
+   "publicado_em": "2026-11-23",
+   "linha": "Agora em portaria publicada: qualquer empresa com CNPJ pode testar a CBS no ambiente piloto da Receita, sem indicação de entidade.",
+   "trecho": "Art. 4º Poderão participar do Piloto RTC-CBS as pessoas jurídicas inscritas no Cadastro Nacional da Pessoa Jurídica - CNPJ, independentemente de indicação por entidades representativas ou de relacionamento prévio com a Secretaria Especial da Receita Federal do Brasil.",
+   "por_que_importa": "É de graça e sem risco: o que se faz no piloto não gera imposto nem obrigação. Serve para a empresa e o contador testarem nota, apuração e sistemas da CBS antes de 2027; o acesso pede procuração eletrônica e a Receita pode limitar o volume de testes.",
+   "ideia_post": "\"Dá para treinar a reforma antes de valer?\" Mostrar que o piloto da CBS está aberto e quem deveria entrar.",
+   "origem": "oficial"
+  },
+  {
+   "chave": "55c23f2ae951d923",
+   "tema": "pessoas",
+   "titulo": "Black Friday exige atenção a golpes e compras por impulso; estratégias de criminosos mudaram",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/black-friday-exige-atencao-a-golpes-e-compras-por-impulso-estrategias-de-criminosos-mudaram.shtml",
+   "publicado_em": "2026-11-23T04:00:00-03:00",
+   "linha": "Semana de Black Friday (sexta, 27) é também a semana dos golpes; Procon alerta para anúncios falsos feitos com IA.",
+   "trecho": "No entanto, para aproveitar os descontos, é necessário ficar atento a golpes e evitar compras por impulso que possam comprometer o orçamento financeiro.",
+   "por_que_importa": "Na CNN Brasil, o Procon de MG alerta que golpistas usam IA para imitar rosto e voz de famosos indicando produtos abaixo do preço, e mandam links falsos por WhatsApp, Telegram e SMS. Compra on-line tem direito de arrependimento em até 7 dias.",
+   "ideia_post": "\"Esse famoso está mesmo vendendo isso?\" Como reconhecer o anúncio falso feito com IA antes de pagar o Pix.",
+   "origem": "rss"
+  },
+  {
+   "chave": "ee363371884f4c57",
+   "tema": "reforma",
+   "titulo": "Comissão debate alíquota-base da Contribuição sobre Bens e Serviços",
+   "fonte": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1320994-comissao-debate-aliquota-base-da-contribuicao-sobre-bens-e-servicos",
+   "publicado_em": "2026-11-23T08:55:00-03:00",
+   "linha": "A Câmara faz audiência na terça (24) para cobrar a base técnica da alíquota de 11,3% da CBS e o efeito dela nos preços.",
+   "trecho": "Alíquota foi fixada em 11,3%",
+   "por_que_importa": "A CBS substitui PIS e Cofins a partir de 2027; o pedido da audiência é saber se o percentual tem base em estudos e projeções de arrecadação e qual o reflexo nos preços ao consumidor. É debate, não mudança de alíquota.",
+   "ideia_post": "\"11,3% de CBS: é mais ou menos do que eu pago hoje de PIS/Cofins?\" Explicar o número e por que ele está em discussão.",
+   "origem": "rss"
+  },
+  {
+   "chave": "c1a1d143fef026e5",
+   "tema": "empreendedor",
+   "titulo": "Sebrae abre inscrições para empreendedores negros",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/sebrae-abre-inscricoes-para-empreendedores-negros",
+   "publicado_em": "2026-11-23T07:00:00-03:00",
+   "linha": "Sebrae seleciona 100 empreendedores negros para um ano de acesso gratuito a uma plataforma de negócios entre Brasil e África.",
+   "trecho": "As inscrições são gratuitas e seguem até 30 de novembro.",
+   "por_que_importa": "Acesso por um ano à plataforma EXAB365, da Expo África Brasil, para vender ou comprar de países africanos. Prazo curto: até 30/11.",
+   "ideia_post": "Oportunidade da semana: quem pode se inscrever e o que ganha.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 259
+}
