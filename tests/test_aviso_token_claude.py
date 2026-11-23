@@ -70,7 +70,7 @@ class Unidades(unittest.TestCase):
 
     def test_salvar_nao_mostra_a_chave(self):
         s = (RAIZ / "scripts" / "salvar_token_claude.sh").read_text()
-        self.assertIn("read -rs token", s)
+        self.assertIn("read -rs linha", s)
         self.assertNotIn('echo "$token"', s)
         self.assertIn("umask 077", s)
 

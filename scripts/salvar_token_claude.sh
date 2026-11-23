@@ -14,10 +14,18 @@ PASTA="$HOME/.config/claude-token"
 ARQ="$PASTA/token.env"
 export PATH="$HOME/.local/bin:$PATH"
 
-printf 'Cole a chave do "claude setup-token" e tecle Enter (ela não aparece): '
-IFS= read -rs token
+printf 'Cole a chave do "claude setup-token" e tecle Enter DUAS vezes (ela não aparece): '
+# A chave é longa e costuma vir quebrada em várias linhas quando copiada do
+# terminal: junta todas as linhas coladas até um Enter vazio (antes, só a 1ª
+# linha era lida e a chave chegava cortada; 23/11/2026).
+token=""
+while IFS= read -rs linha; do
+  [ -z "${linha//[$'\t\r ']/}" ] && [ -n "$token" ] && break
+  token+="$linha"
+done
 echo
 token="${token//[$'\t\r\n ']/}"
+echo "Recebi uma chave com ${#token} caracteres."
 if [ -z "$token" ]; then
   echo "Nenhuma chave colada. Nada foi gravado." >&2
   exit 1
