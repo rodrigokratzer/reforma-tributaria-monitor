@@ -15,7 +15,7 @@ foram desabilitadas e removidas.
 |---|---|---|
 | Ciclo matinal: DOU → 16 fontes web → leitura (OCR) → análise → alerta | `lenovo-claude`, systemd (`reforma-ciclo`) | 05:00, todo dia |
 | Ciclo noturno: idem | `lenovo-claude`, systemd (`reforma-ciclo`) | 17:00, todo dia |
-| Alerta de falha | `reforma-falha@.service` (via `OnFailure=`) | quando o ciclo falha ou estoura 4h |
+| Alerta de falha | `reforma-falha@.service` (via `OnFailure=`), que passa por `scripts/limite_falhas.py` | quando qualquer rotina do notebook falha ou estoura o tempo: avisa na 1ª falha seguida, cala as seguintes e, com 3 falhas seguidas (12 no ciclo do robô), pausa o timer da rotina e manda o último aviso com o comando para religar (`sudo systemctl start <timer>`) |
 | Plano B (DOU) | GitHub Actions | 07:10, todo dia, só se o notebook não coletou |
 | Plano B (portais) | GitHub Actions | 07:40, todo dia, só se o notebook não coletou |
 

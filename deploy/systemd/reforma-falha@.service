@@ -1,5 +1,5 @@
 [Unit]
-Description=Alerta de falha da unidade %i (push/e-mail)
+Description=Alerta de falha da unidade %i (push/e-mail, com limite de tentativas)
 
 [Service]
 Type=oneshot
@@ -8,4 +8,7 @@ Group=rodrigo
 Environment=HOME=/home/rodrigo
 WorkingDirectory=/home/rodrigo/projects/reforma-tributaria-monitor
 EnvironmentFile=-/home/rodrigo/projects/reforma-tributaria-monitor/.env
-ExecStart=/home/rodrigo/projects/reforma-tributaria-monitor/.venv/bin/python3 scripts/notificar.py --falha "A unidade %i falhou ou estourou o tempo no lenovo-claude. Ver journalctl -u %i."
+# Desde 23/11/2026: avisa na 1a falha seguida, cala as seguintes e, no limite
+# (3, ou 12 no ciclo do robo), PAUSA o timer da rotina e manda o ultimo aviso.
+# O "+" roda como root (parar timer exige root); o push sai como rodrigo.
+ExecStart=+/home/rodrigo/projects/reforma-tributaria-monitor/.venv/bin/python3 scripts/limite_falhas.py %i
