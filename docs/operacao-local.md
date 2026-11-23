@@ -189,3 +189,24 @@ dos unit files. **Não** reinicie os timers por reflexo: como eles são
 passou pode dispará-lo na hora — inclusive o da análise, que faz push num
 repositório público. Reinicie só deliberadamente, quando for isso que você
 quer.
+
+## Chave de 1 ano do Claude (desde 23/11/2026)
+
+O login comum do Claude no notebook vence numa data fixa (venceu em 22/10 e
+22/11/2026; usar todo dia não adia) e as análises param. Por isso as rotinas
+que chamam o Claude usam uma chave de 1 ano do `claude setup-token` (paga pela
+assinatura, não pela API; `CLAUDE_CODE_OAUTH_TOKEN` vale antes do login comum).
+
+- Gerar e gravar (no lenovo-claude): `claude setup-token`, depois
+  `scripts/salvar_token_claude.sh`. O script pede a chave sem mostrá-la, testa
+  com uma pergunta curta e só grava se funcionar, em
+  `~/.config/claude-token/token.env` (permissão 600) + `criado_em`.
+- Entrega às rotinas: drop-in `deploy/systemd/claude-token.conf` em
+  `/etc/systemd/system/<unidade>.service.d/` para `reforma-ciclo`,
+  `painel-instagram-coleta`, `painel-instagram-hora` e
+  `robo-comentarios-analise`. Sem o arquivo, a rotina usa o login comum.
+- Vencimento: `claude-token-aviso.timer` (09:00, todo dia) roda
+  `scripts/aviso_token_claude.py`, que avisa com 30 e 15 dias e todo dia a partir
+  de 7. Renovar = repetir os dois comandos acima.
+- Nenhuma unidade pode ter `ANTHROPIC_API_KEY`: ela passaria na frente e
+  cobraria pela API.
