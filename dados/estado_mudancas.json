@@ -1,5 +1,26 @@
 [
  {
+  "secao": "prazos_destaque",
+  "tipo": "incluido",
+  "descricao": "Simples no regime de caixa: valores a receber em 31/12/2026, inclusive parcelas não vencidas, entram na base de dezembro/2026 (Res. CGSN 196)",
+  "fonte": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719",
+  "em": "2026-11-24-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Res. CGSN 196 publicada: Simples com IBS/CBS, fim do regime de caixa e crédito ao adquirente a partir de 2027",
+  "fonte": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719",
+  "em": "2026-11-24-matinal"
+ },
+ {
+  "secao": "linha_do_tempo",
+  "tipo": "incluido",
+  "descricao": "Defis 2026 do Simples até 31/03/2027, pelo PGDAS-D 2018 (Res. CGSN 196)",
+  "fonte": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719",
+  "em": "2026-11-24-matinal"
+ },
+ {
   "secao": "linha_do_tempo",
   "tipo": "incluido",
   "descricao": "Piloto da CBS aberto a qualquer empresa com CNPJ, sem indicação de entidade (Portaria RFB nº 763, DOU 23/11)",

@@ -1,0 +1,141 @@
+{
+ "data": "2026-11-24",
+ "turno": "matinal",
+ "manchete": "Simples Nacional muda as regras: quem está no regime de caixa vai pagar em dezembro o imposto sobre tudo o que ainda tem a receber",
+ "em_30_segundos": [
+  "Simples no regime de caixa: o que você ainda tem a receber em 31/12 entra no imposto de dezembro, de uma vez",
+  "A partir de 2027, o imposto do Simples passa a ser devido quando a nota é emitida, não quando o dinheiro entra",
+  "Escala 5x2 começa em 16/12: mesmo salário por menos horas, então a hora de trabalho e a hora extra ficam mais caras",
+  "Primeira parcela do 13º tem de ser paga até segunda, 30/11",
+  "Inadimplência de famílias e empresas bate recorde: R$ 371 bilhões com mais de 90 dias de atraso"
+ ],
+ "noticias": [
+  {
+   "chave": "9b34e2341a060b22",
+   "tema": "reforma",
+   "titulo": "Resolução CGSN nº 196: fim do regime de caixa no Simples e tabelas com IBS e CBS",
+   "fonte": "Diário Oficial da União",
+   "url": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719",
+   "publicado_em": "2026-11-24",
+   "linha": "Quem está no Simples pelo regime de caixa vai pagar, no DAS de dezembro, o imposto sobre todo o saldo que ainda tem a receber em 31/12/2026; em 2027 o imposto passa a ser devido na emissão da nota.",
+   "trecho": "A ME ou a EPP optante pelo regime de caixa no ano-calendário de 2026 que, em 31 de dezembro de 2026, possua valores não recebidos, ainda que de parcelas não vencidas, relativos à prestação de serviços ou a operações com mercadorias realizadas até essa data, deverá integrá-los à base de cálculo do mês de dezembro de 2026.",
+   "por_que_importa": "Quem vende parcelado (boleto, cartão, carnê) vai antecipar o imposto de todas as parcelas futuras no DAS de dezembro, que vence em janeiro. Em 2027 as alíquotas do Simples não sobem, mas o IBS e a CBS entram na partilha e a empresa que compra de você poderá tomar crédito do que vier na nota.",
+   "ideia_post": "Você vende parcelado e está no Simples pelo regime de caixa? Em dezembro vai pagar o imposto das parcelas que ainda nem recebeu. Faça a conta agora para não ser pego de surpresa em janeiro.",
+   "origem": "oficial"
+  },
+  {
+   "chave": "b6f05b46f4c17db1",
+   "tema": "empreendedor",
+   "titulo": "Jornada 5x2: veja como ficam regras de salário, folgas e horas extras",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/jornada-5x2-veja-como-ficam-regras-de-salario-folgas-e-horas-extras",
+   "publicado_em": "2026-11-23T20:40:00-03:00",
+   "linha": "Portaria do Ministério do Trabalho detalha a escala 5x2: a partir de 16/12 a jornada cai para 42 horas com o mesmo salário, e a hora de trabalho fica mais cara.",
+   "trecho": "Com a redução para 42 horas em 16 de dezembro, o divisor passará a ser 210.",
+   "por_que_importa": "Para o patrão, o divisor do salário-hora cai de 220 para 210, o que encarece hora extra e adicionais; em 16/12/2027, com 40 horas, o divisor vai a 200. São duas folgas por semana e acordos coletivos que preveem menos que isso perdem a validade.",
+   "ideia_post": "Tenho funcionário: o que muda na minha folha em 16 de dezembro? Hora extra, banco de horas e folgas na escala 5x2, em um minuto.",
+   "origem": "rss"
+  },
+  {
+   "chave": "33b6b369e0831c4a",
+   "tema": "pessoas",
+   "titulo": "Como calcular o décimo terceiro salário? Primeira parcela cai até segunda",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/legislacao/noticia/2026/11/23/como-calcular-o-decimo-terceiro-salario-primeira-parcela-cai-ate-segunda.ghtml",
+   "publicado_em": "2026-11-23T18:59:29-03:00",
+   "linha": "A primeira parcela do 13º tem de ser paga até 30/11, e quem ganha até R$ 5 mil está isento de IR em 2026.",
+   "trecho": "A primeira parcela do décimo terceiro salário deverá ser paga até, no máximo, a próxima segunda-feira (30). Apesar de servir como uma remuneração mensal adicional, o valor do 13º é proporcional aos meses trabalhados no ano.",
+   "por_que_importa": "Trabalhador com carteira recebe a primeira parcela até segunda; empregador precisa ter o caixa pronto. Com a isenção de IR até R$ 5 mil (Lei 15.270/2025), o 13º pode vir maior que nos anos anteriores.",
+   "ideia_post": "Seu 13º vai vir maior este ano? Pode ser, se você ganha até R$ 5 mil. E o patrão tem até segunda para pagar a primeira parcela.",
+   "origem": "rss"
+  },
+  {
+   "chave": "edf55e49e066fbfa",
+   "tema": "empreendedor",
+   "titulo": "Câmara aprova projeto de ajuste fiscal com previsão de economizar até R$ 56 bi; texto vai a sanção",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/politica/noticia/2026/11/23/por-353-a-128-cmara-aprova-texto-base-do-projeto-de-lei-complementar-do-ajuste-fiscal.ghtml",
+   "publicado_em": "2026-11-23T22:46:57-03:00",
+   "linha": "O ajuste fiscal aprovado vai à sanção e permite ao governo cortar benefícios fiscais e restringir o uso de créditos tributários das empresas em compensações.",
+   "trecho": "Com placar expressivo, a Câmara dos Deputados aprovou nesta segunda-feira (23), por 353 votos a 128, o projeto de lei complementar (PLP) de ajuste fiscal do governo, sem alterações.",
+   "por_que_importa": "Segundo a CNN Brasil, o texto amplia de 10% para 20% a redução linear de benefícios fiscais federais e autoriza o Executivo a restringir temporariamente o uso de créditos tributários nas compensações; ficam preservadas as compensações de créditos de PIS/Cofins com débitos da CBS. Empresa que conta com crédito para abater imposto precisa acompanhar a regulamentação.",
+   "ideia_post": "O governo pode segurar o crédito tributário da sua empresa? Entenda o que o ajuste fiscal aprovado ontem permite e o que ele preserva.",
+   "origem": "rss"
+  },
+  {
+   "chave": "5dd8ffd5a053d8e2",
+   "tema": "pessoas",
+   "titulo": "Inadimplência de empresas e famílias bate recorde e chega a R$ 371 bi, diz FecomercioSP",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/inadimplencia-de-empresas-e-familias-bate-recorde-e-chega-a-r-371-bi-diz-fecomerciosp.shtml",
+   "publicado_em": "2026-11-24T04:00:00-03:00",
+   "linha": "Dívidas com mais de 90 dias de atraso chegaram a R$ 371,1 bilhões no terceiro trimestre, o maior valor desde 2011.",
+   "trecho": "O volume de dívidas com mais de 90 dias de atraso de famílias e empresas brasileiras chegou a R$ 371,1 bilhões no terceiro trimestre de 2026, o maior valor da série histórica, iniciada em 2011.",
+   "por_que_importa": "A alta é de 26,7% em um ano, segundo a FecomercioSP. Para o pequeno negócio, é sinal de cliente com mais dificuldade de pagar: hora de rever venda a prazo e crédito ao cliente.",
+   "ideia_post": "Black Friday chegando e o Brasil nunca deveu tanto. Antes de parcelar, três perguntas para não entrar nessa estatística.",
+   "origem": "rss"
+  },
+  {
+   "chave": "aa6b30c141ce6804",
+   "tema": "pessoas",
+   "titulo": "Comida mais cara faz Fazenda elevar inflação de 2026 e cortar previsão do PIB",
+   "fonte": "UOL",
+   "url": "https://economiareal.uol.com.br/noticia/economia/comida-mais-cara-faz-fazenda-elevar-inflacao-de-2026-e-cortar-previsao-do-pib-2267",
+   "publicado_em": "2026-11-23T19:20:00-03:00",
+   "linha": "A Fazenda passou a prever IPCA de 5,3% em 2026, acima do teto da meta, puxado pelos alimentos.",
+   "trecho": "IPCA deve chegar a 5,3% neste ano, acima do teto da meta, enquanto INPC sobe a 5,4% e pesa mais no bolso de famílias de menor renda; veja dados",
+   "por_que_importa": "Projeção do governo, não dado fechado. O INPC é o índice que corrige o salário mínimo e benefícios do INSS, e a previsão para ele também subiu.",
+   "origem": "rss"
+  },
+  {
+   "chave": "28e5416fc74ed6a0",
+   "tema": "pessoas",
+   "titulo": "INSS inicia pagamento de novembro e do 13º de novos beneficiários; veja calendário",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/24/inss-inicia-pagamento-de-novembro-e-do-13o-de-novos-beneficiarios-veja-calendario.ghtml",
+   "publicado_em": "2026-11-24T00:00:00-03:00",
+   "linha": "Aposentados e pensionistas começam a receber hoje; quem passou a receber benefício depois de abril ganha o 13º em parcela única.",
+   "trecho": "Aposentados e pensionistas do Instituto Nacional do Seguro Social (INSS) começam a receber os benefícios de novembro nesta terça-feira (24). O INSS também pagará o 13º salário aos novos beneficiários.",
+   "por_que_importa": "Quem já recebia até abril teve o 13º antecipado no meio do ano e não recebe de novo agora.",
+   "origem": "rss"
+  },
+  {
+   "chave": "989dbe2935467297",
+   "tema": "pessoas",
+   "titulo": "Black Friday: saiba como identificar sites e anúncios falsos para não cair em golpes",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/24/black-friday-saiba-como-identificar-sites-e-anuncios-falsos-para-nao-cair-em-golpes-video.ghtml",
+   "publicado_em": "2026-11-24T03:00:00-03:00",
+   "linha": "Sites falsos usam contagem regressiva e aviso de 'últimas unidades' para apressar a compra na Black Friday.",
+   "trecho": "Sites falsos usam contagens regressivas e avisos de \"últimas unidades\" para pressionar você a comprar sem pensar duas vezes.",
+   "por_que_importa": "Antes de pagar, confira se está no endereço oficial da loja; a pressa é parte do golpe.",
+   "ideia_post": "A oferta acaba em 30 segundos? Desconfie. Três checagens antes de pagar na Black Friday.",
+   "origem": "rss"
+  },
+  {
+   "chave": "5717ff96a9933511",
+   "tema": "empreendedor",
+   "titulo": "Aluguel comercial sobe 12% em um ano, quase três vezes a inflação, diz FipeZAP",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/minhas-financas/aluguel-comercial-sobe-12-em-um-ano-quase-tres-vezes-a-inflacao-diz-fipezap/",
+   "publicado_em": "2026-11-24T05:00:00-03:00",
+   "linha": "O aluguel de imóveis comerciais subiu 12% em doze meses, segundo o índice FipeZAP.",
+   "trecho": "Índice FipeZAP mostra aceleração dos preços em outubro, enquanto imóveis comerciais à venda registram valorização inferior à inflação",
+   "por_que_importa": "Quem tem loja ou sala alugada pode enfrentar reajuste maior na renovação do contrato; vale negociar com o índice na mão.",
+   "origem": "rss"
+  },
+  {
+   "chave": "bcd4d407534a17f5",
+   "tema": "reforma",
+   "titulo": "Às vésperas da reforma tributária, escritórios contábeis têm apagão de mão de obra",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/colunas/painelsa/2026/11/as-vesperas-da-reforma-tributaria-escritorios-contabeis-tem-apagao-de-mao-de-obra.shtml",
+   "publicado_em": "2026-11-23T17:02:00-03:00",
+   "linha": "Quase nove em cada dez escritórios contábeis de São Paulo têm dificuldade para contratar, a poucas semanas da reforma.",
+   "trecho": "A contratação de profissionais se tornou um desafio para 87% dos escritórios contábeis de São Paulo, segundo a Sondagem de RH Contábil, pesquisa realizada pela Omie em parceria com o Sescon-SP (Sindicato das Empresas de Serviços Contábeis e de Assessoramento), que está em sua segunda edição.",
+   "por_que_importa": "Com mudança de regra no Simples e nos documentos fiscais em 2027, o empresário não deve deixar para dezembro a conversa com o contador.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 185
+}
