@@ -1,0 +1,1284 @@
+PORTARIA MF Nº 3.403, DE 19 DE NOVEMBRO DE 2026
+Altera o Anexo III da Portaria MF nº 2.170, de 22 de julho de 2026, que autoriza o pagamento de equalização de taxas de juros em financiamentos rurais concedidos no âmbito do Plano Safra 2026/2027 e em financiamentos de capital de giro destinados a cooperativas agropecuárias.
+O MINISTRO DE ESTADO DA FAZENDA, no uso das atribuições que lhe confere o art. 87, parágrafo único, incisos I e II, da Constituição, e tendo em vista o disposto no art. 1º, inciso II, e no art. 5º, ambos da Lei nº 8.427, de 27 de maio de 1992, resolve:
+Art. 1º As tabelas 2, 5, 8, 13, 15, 17 e 18 do Anexo III da Portaria MF nº 2.170, de 22 de julho de 2026, passam a vigorar na forma do Anexo desta Portaria.
+Art. 2º Esta Portaria entra em vigor na data de sua publicação.
+DARIO CARNEVALLI DURIGAN
+ANEXO
+Portaria MF nº 2.170, de 22 de julho de 2026 - ANEXO III - AGRICULTURA FAMILIAR
+Tabela 2 - Banco do Brasil
+Código STN
+Linha de Financiamento
+Região
+Fonte de Recursos
+CF
+CAT (a.a.)
+Taxa de Juros ao tomador final (a.a.)
+Limite Equalizável até 31/12/2026 (R$)
+Limite Equalizável a partir de 01/01/2027 (R$)
+2026001400670
+Pronaf - Aquisição de matrizes e reprodutores
+N e NE
+LCA
+(0,95 x TMS)
+5,00%
+7,50%
+849.475.000
+1.544.500.000
+2026001400671
+Pronaf - Caminhonetes de carga e motocicletas
+N e NE
+LCA
+(0,95 x TMS)
+5,25%
+7,50%
+6.160.000
+11.200.000
+2026001200674
+Pronaf - Custeio Faixa 1
+N e NE
+Poupança Rural
+RDP
+6,90%
+2,00%
+27.822.000
+39.747.000
+2026001200675
+Pronaf - Custeio Faixa 2
+N e NE
+Poupança Rural
+RDP
+6,90%
+5,50%
+43.400.000
+62.000.000
+2026001200676
+Pronaf - Custeio Faixa 3 - Sociobiodiversidade
+N e NE
+Poupança Rural
+RDP
+6,90%
+1,00%
+2.100.000
+3.000.000
+2026001200680
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+N e NE
+Poupança Rural
+RDP
+6,90%
+7,50%
+275.260.000
+393.229.000
+2026001400677
+Pronaf - Investimento Faixa 1
+N e NE
+LCA
+(0,95 x TMS)
+5,00%
+2,00%
+126.544.000
+230.080.000
+2026001400678
+Pronaf - Investimento Faixa 2
+N e NE
+LCA
+(0,95 x TMS)
+4,80%
+7,50%
+962.500.000
+1.750.000.000
+2026001400679
+Pronaf - Investimento Faixa 3
+N e NE
+LCA
+(0,95 x TMS)
+4,60%
+1,50%
+3.850.000
+7.000.000
+2026001400689
+Pronaf - Investimento Faixa 4
+N e NE
+LCA
+(0,95 x TMS)
+4,60%
+5,00%
+1.650.000
+3.000.000
+2026001400673
+Pronaf - Tratores e Colheitadeiras
+N e NE
+LCA
+(0,95 x TMS)
+4,60%
+5,00%
+155.370.000
+282.491.000
+2026001400470
+Pronaf - Aquisição de matrizes e reprodutores
+S, SE e CO
+LCA
+(0,95 x TMS)
+4,90%
+7,50%
+863.582.000
+1.570.150.000
+2026001400471
+Pronaf - Caminhonetes de carga e motocicletas
+S, SE e CO
+LCA
+(0,95 x TMS)
+4,59%
+7,50%
+41.511.000
+75.475.000
+2026001200474
+Pronaf - Custeio Faixa 1
+S, SE e CO
+Poupança Rural
+RDP
+5,90%
+2,00%
+538.608.000
+769.441.000
+2026001200475
+Pronaf - Custeio Faixa 2
+S, SE e CO
+Poupança Rural
+RDP
+5,90%
+5,50%
+665.000.000
+950.000.000
+2026001200476
+Pronaf - Custeio Faixa 3 - Sociobiodiversidade
+S, SE e CO
+Poupança Rural
+RDP
+5,90%
+1,00%
+10.500.000
+15.000.000
+2026001200480
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+S, SE e CO
+Poupança Rural
+RDP
+5,90%
+7,50%
+1.050.000.000
+1.500.000.000
+2026001400477
+Pronaf - Investimento Faixa 1
+S, SE e CO
+LCA
+(0,95 x TMS)
+4,30%
+2,00%
+601.775.000
+1.094.137.000
+2026001400478
+Pronaf - Investimento Faixa 2
+S, SE e CO
+LCA
+(0,95 x TMS)
+4,15%
+7,50%
+816.016.000
+1.483.667.000
+2026001400479
+Pronaf - Investimento Faixa 3
+S, SE e CO
+LCA
+(0,95 x TMS)
+3,80%
+1,50%
+49.500.000
+90.000.000
+2026001400489
+Pronaf - Investimento Faixa 4
+S, SE e CO
+LCA
+(0,95 x TMS)
+3,80%
+5,00%
+1.100.000
+2.000.000
+2026001400473
+Pronaf - Tratores e Colheitadeiras
+S, SE e CO
+LCA
+(0,95 x TMS)
+3,80%
+5,00%
+1.485.000.000
+2.700.000.000
+Tabela 5 - Banrisul
+Código STN
+Linha de Financiamento
+Região
+Fonte de Recursos
+CF
+CAT (a.a.)
+Taxa de Juros ao tomador final (a.a.)
+Limite Equalizável até 31/12/2026 (R$)
+Limite Equalizável a partir de 01/01/2027 (R$)
+2026041100470
+Pronaf - Aquisição de matrizes e reprodutores
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,50%
+7,50%
+16.500.000
+30.000.000
+2026041100474
+Pronaf - Custeio Faixa 1
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+2,75%
+2,00%
+25.000
+37.000
+2026041100475
+Pronaf - Custeio Faixa 2
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+1,99%
+5,50%
+30.000
+43.000
+2026041100476
+Pronaf - Custeio Faixa 3 - Sociobiodiversidade
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+2,75%
+1,00%
+1.667.000
+2.382.000
+2026041100480
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+1,99%
+7,50%
+161.000
+230.000
+2026041100477
+Pronaf - Investimento Faixa 1
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,50%
+2,00%
+41.250.000
+75.000.000
+2026041100478
+Pronaf - Investimento Faixa 2
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,50%
+7,50%
+27.500.000
+50.000.000
+2026041100489
+Pronaf - Investimento Faixa 4
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,50%
+5,00%
+275.000
+500.000
+2026041100473
+Pronaf - Tratores e Colheitadeiras
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,50%
+5,00%
+1.974.000
+3.590.000
+Tabela 8 - BNDES
+Código STN
+Linha de Financiamento
+Região
+Fonte de Recursos
+CF
+CAT (a.a.)
+Taxa de Juros ao tomador final (a.a.)
+Limite Equalizável até 31/12/2026 (R$)
+Limite Equalizável a partir de 01/01/2027 (R$)
+2026007100670
+Pronaf - Aquisição de matrizes e reprodutores
+N e NE
+Recursos Próprios
+(1,02 x TMS)
+4,42%
+7,50%
+115.500.000
+210.000.000
+2026007100671
+Pronaf - Caminhonetes de carga e motocicletas
+N e NE
+Recursos Próprios
+(1,02 x TMS)
+4,42%
+7,50%
+1.650.000
+3.000.000
+2026007400674
+Pronaf - Custeio Faixa 1
+N e NE
+LCA
+(0,99 x TMS)
+5,97%
+2,00%
+24.500.000
+35.000.000
+2026007400675
+Pronaf - Custeio Faixa 2
+N e NE
+LCA
+(0,99 x TMS)
+5,97%
+5,50%
+21.000.000
+30.000.000
+2026007400676
+Pronaf - Custeio Faixa 3 - Sociobiodiversidade
+N e NE
+LCA
+(0,99 x TMS)
+5,97%
+1,00%
+3.446.000
+4.924.000
+2026007400680
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+N e NE
+LCA
+(0,99 x TMS)
+5,97%
+7,50%
+49.000.000
+70.000.000
+2026007100677
+Pronaf - Investimento Faixa 1
+N e NE
+Recursos Próprios
+(1,02 x TMS)
+4,42%
+2,00%
+8.250.000
+15.000.000
+2026007100678
+Pronaf - Investimento Faixa 2
+N e NE
+Recursos Próprios
+(1,02 x TMS)
+4,42%
+7,50%
+17.600.000
+32.000.000
+2026007100679
+Pronaf - Investimento Faixa 3
+N e NE
+Recursos Próprios
+(1,02 x TMS)
+4,42%
+1,50%
+550.000
+1.000.000
+2026007100689
+Pronaf - Investimento Faixa 4
+N e NE
+Recursos Próprios
+(1,02 x TMS)
+4,42%
+5,00%
+5.500.000
+10.000.000
+2026007100672
+Pronaf - Microcrédito Grupo B
+N e NE
+Recursos Próprios
+(1,02 x TMS)
+10,90%
+0,50%
+3.300.000
+6.000.000
+2026007100673
+Pronaf - Tratores e Colheitadeiras
+N e NE
+Recursos Próprios
+(1,02 x TMS)
+4,42%
+5,00%
+123.430.000
+224.419.000
+2026007100470
+Pronaf - Aquisição de matrizes e reprodutores
+S, SE e CO
+Recursos Próprios
+(1,02 x TMS)
+3,53%
+7,50%
+1.650.000.000
+3.000.000.000
+2026007100471
+Pronaf - Caminhonetes de carga e motocicletas
+S, SE e CO
+Recursos Próprios
+(1,02 x TMS)
+3,53%
+7,50%
+93.500.000
+170.000.000
+2026007400474
+Pronaf - Custeio Faixa 1
+S, SE e CO
+LCA
+(0,99 x TMS)
+4,72%
+2,00%
+736.085.000
+1.051.551.000
+2026007400475
+Pronaf - Custeio Faixa 2
+S, SE e CO
+LCA
+(0,99 x TMS)
+4,72%
+5,50%
+980.000.000
+1.400.000.000
+2026007400476
+Pronaf - Custeio Faixa 3 - Sociobiodiversidade
+S, SE e CO
+LCA
+(0,99 x TMS)
+4,72%
+1,00%
+70.000.000
+100.000.000
+2026007400480
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+S, SE e CO
+LCA
+(0,99 x TMS)
+4,72%
+7,50%
+1.400.000.000
+2.000.000.000
+2026007100477
+Pronaf - Investimento Faixa 1
+S, SE e CO
+Recursos Próprios
+(1,02 x TMS)
+3,53%
+2,00%
+1.265.000.000
+2.300.000.000
+2026007100478
+Pronaf - Investimento Faixa 2
+S, SE e CO
+Recursos Próprios
+(1,02 x TMS)
+3,53%
+7,50%
+2.365.000.000
+4.300.000.000
+2026007100479
+Pronaf - Investimento Faixa 3
+S, SE e CO
+Recursos Próprios
+(1,02 x TMS)
+3,53%
+1,50%
+16.500.000
+30.000.000
+2026007100489
+Pronaf - Investimento Faixa 4
+S, SE e CO
+Recursos Próprios
+(1,02 x TMS)
+3,53%
+5,00%
+85.525.000
+155.500.000
+2026007100473
+Pronaf - Tratores e Colheitadeiras
+S, SE e CO
+Recursos Próprios
+(1,02 x TMS)
+3,53%
+5,00%
+2.031.579.000
+3.693.780.000
+Tabela 13 - Crediseara
+Código STN
+Linha de Financiamento
+Região
+Fonte de Recursos
+CF
+CAT (a.a.)
+Taxa de Juros ao tomador final (a.a.)
+Limite Equalizável até 31/12/2026 (R$)
+Limite Equalizável a partir de 01/01/2027 (R$)
+2026806100470
+Pronaf - Aquisição de matrizes e reprodutores
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,00%
+7,50%
+550.000
+1.000.000
+2026806100474
+Pronaf - Custeio Faixa 1
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,00%
+2,00%
+3.500.000
+5.000.000
+2026806100477
+Pronaf - Investimento Faixa 1
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,00%
+2,00%
+1.482.000
+2.696.000
+2026806100478
+Pronaf - Investimento Faixa 2
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,00%
+7,50%
+3.628.000
+6.598.000
+2026806100489
+Pronaf - Investimento Faixa 4
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,00%
+5,00%
+880.000
+1.600.000
+2026806100473
+Pronaf - Tratores e Colheitadeiras
+S, SE e CO
+Recursos Próprios
+(1,00 x TMS)
+3,00%
+5,00%
+1.703.000
+3.098.000
+Tabela 15 - Cresol
+Código STN
+Linha de Financiamento
+Região
+Fonte de Recursos
+CF
+CAT (a.a.)
+Taxa de Juros ao tomador final (a.a.)
+Limite Equalizável até 31/12/2026 (R$)
+Limite Equalizável a partir de 01/01/2027 (R$)
+2026133400670
+Pronaf - Aquisição de matrizes e reprodutores
+N e NE
+LCA
+(1,00 x TMS)
+4,48%
+7,50%
+3.575.000
+6.500.000
+2026133200670
+Pronaf - Aquisição de matrizes e reprodutores
+N e NE
+Poupança Rural
+RDP
+4,48%
+7,50%
+2.750.000
+5.000.000
+2026133400671
+Pronaf - Caminhonetes de carga e motocicletas
+N e NE
+LCA
+(1,00 x TMS)
+4,48%
+7,50%
+1.100.000
+2.000.000
+2026133200671
+Pronaf - Caminhonetes de carga e motocicletas
+N e NE
+Poupança Rural
+RDP
+4,48%
+7,50%
+825.000
+1.500.000
+2026133400674
+Pronaf - Custeio Faixa 1
+N e NE
+LCA
+(1,00 x TMS)
+5,48%
+2,00%
+490.000
+700.000
+2026133200674
+Pronaf - Custeio Faixa 1
+N e NE
+Poupança Rural
+RDP
+5,48%
+2,00%
+490.000
+700.000
+2026133400675
+Pronaf - Custeio Faixa 2
+N e NE
+LCA
+(1,00 x TMS)
+5,48%
+5,50%
+1.085.000
+1.550.000
+2026133200675
+Pronaf - Custeio Faixa 2
+N e NE
+Poupança Rural
+RDP
+5,48%
+5,50%
+350.000
+500.000
+2026133400680
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+N e NE
+LCA
+(1,00 x TMS)
+5,48%
+7,50%
+875.000
+1.250.000
+2026133200680
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+N e NE
+Poupança Rural
+RDP
+5,48%
+7,50%
+140.000
+200.000
+2026133400677
+Pronaf - Investimento Faixa 1
+N e NE
+LCA
+(1,00 x TMS)
+4,48%
+2,00%
+1.650.000
+3.000.000
+2026133200677
+Pronaf - Investimento Faixa 1
+N e NE
+Poupança Rural
+RDP
+4,48%
+2,00%
+385.000
+700.000
+2026133400678
+Pronaf - Investimento Faixa 2
+N e NE
+LCA
+(1,00 x TMS)
+4,48%
+7,50%
+4.400.000
+8.000.000
+2026133200678
+Pronaf - Investimento Faixa 2
+N e NE
+Poupança Rural
+RDP
+4,48%
+7,50%
+550.000
+1.000.000
+2026133400689
+Pronaf - Investimento Faixa 4
+N e NE
+LCA
+(1,00 x TMS)
+4,28%
+5,00%
+440.000
+800.000
+2026133400673
+Pronaf - Tratores e Colheitadeiras
+N e NE
+LCA
+(1,00 x TMS)
+4,28%
+5,00%
+2.450.000
+4.456.000
+2026133200673
+Pronaf - Tratores e Colheitadeiras
+N e NE
+Poupança Rural
+RDP
+4,28%
+5,00%
+825.000
+1.500.000
+2026133400470
+Pronaf - Aquisição de matrizes e reprodutores
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,48%
+7,50%
+56.677.000
+103.050.000
+2026133200470
+Pronaf - Aquisição de matrizes e reprodutores
+S, SE e CO
+Poupança Rural
+RDP
+3,48%
+7,50%
+15.290.000
+27.800.000
+2026133400471
+Pronaf - Caminhonetes de carga e motocicletas
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,48%
+7,50%
+9.595.000
+17.446.000
+2026133200471
+Pronaf - Caminhonetes de carga e motocicletas
+S, SE e CO
+Poupança Rural
+RDP
+3,48%
+7,50%
+17.820.000
+32.400.000
+2026133400474
+Pronaf - Custeio Faixa 1
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,28%
+2,00%
+69.204.000
+98.863.000
+2026133200474
+Pronaf - Custeio Faixa 1
+S, SE e CO
+Poupança Rural
+RDP
+3,28%
+2,00%
+69.204.000
+98.863.000
+2026133400475
+Pronaf - Custeio Faixa 2
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,48%
+5,50%
+23.291.000
+33.274.000
+2026133200475
+Pronaf - Custeio Faixa 2
+S, SE e CO
+Poupança Rural
+RDP
+3,48%
+5,50%
+73.045.000
+104.350.000
+2026133400480
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,48%
+7,50%
+20.652.000
+29.503.000
+2026133200480
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+S, SE e CO
+Poupança Rural
+RDP
+3,48%
+7,50%
+42.056.000
+60.080.000
+2026133400477
+Pronaf - Investimento Faixa 1
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,48%
+2,00%
+55.000.000
+100.000.000
+2026133200477
+Pronaf - Investimento Faixa 1
+S, SE e CO
+Poupança Rural
+RDP
+3,48%
+2,00%
+29.199.000
+53.090.000
+2026133400478
+Pronaf - Investimento Faixa 2
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,28%
+7,50%
+52.250.000
+95.000.000
+2026133200478
+Pronaf - Investimento Faixa 2
+S, SE e CO
+Poupança Rural
+RDP
+3,28%
+7,50%
+18.870.000
+34.310.000
+2026133400479
+Pronaf - Investimento Faixa 3
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,48%
+1,50%
+550.000
+1.000.000
+2026133200479
+Pronaf - Investimento Faixa 3
+S, SE e CO
+Poupança Rural
+RDP
+3,48%
+1,50%
+495.000
+900.000
+2026133400489
+Pronaf - Investimento Faixa 4
+S, SE e CO
+LCA
+(1,00 x TMS)
+2,88%
+5,00%
+5.060.000
+9.200.000
+2026133400473
+Pronaf - Tratores e Colheitadeiras
+S, SE e CO
+LCA
+(1,00 x TMS)
+2,88%
+5,00%
+108.849.000
+197.909.000
+2026133200473
+Pronaf - Tratores e Colheitadeiras
+S, SE e CO
+Poupança Rural
+RDP
+2,88%
+5,00%
+39.424.000
+71.680.000
+Tabela 17 - Sicoob
+Código STN
+Linha de Financiamento
+Região
+Fonte de Recursos
+CF
+CAT (a.a.)
+Taxa de Juros ao tomador final (a.a.)
+Limite Equalizável até 31/12/2026 (R$)
+Limite Equalizável a partir de 01/01/2027 (R$)
+2026756400670
+Pronaf - Aquisição de matrizes e reprodutores
+N e NE
+LCA
+(1,00 x TMS)
+2,90%
+7,50%
+39.311.000
+71.476.000
+2026756400671
+Pronaf - Caminhonetes de carga e motocicletas
+N e NE
+LCA
+(1,00 x TMS)
+4,30%
+7,50%
+275.000
+500.000
+2026756400674
+Pronaf - Custeio Faixa 1
+N e NE
+LCA
+(0,96 x TMS)
+4,50%
+2,00%
+17.430.000
+24.900.000
+2026756400675
+Pronaf - Custeio Faixa 2
+N e NE
+LCA
+(1,00 x TMS)
+3,80%
+5,50%
+23.800.000
+34.000.000
+2026756400680
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+N e NE
+LCA
+(1,00 x TMS)
+3,80%
+7,50%
+8.050.000
+11.500.000
+2026756400677
+Pronaf - Investimento Faixa 1
+N e NE
+LCA
+(1,00 x TMS)
+3,00%
+2,00%
+5.500.000
+10.000.000
+2026756400678
+Pronaf - Investimento Faixa 2
+N e NE
+LCA
+(1,00 x TMS)
+2,00%
+7,50%
+60.500.000
+110.000.000
+2026756400689
+Pronaf - Investimento Faixa 4
+N e NE
+LCA
+(1,00 x TMS)
+3,00%
+5,00%
+1.100.000
+2.000.000
+2026756400673
+Pronaf - Tratores e Colheitadeiras
+N e NE
+LCA
+(1,00 x TMS)
+3,00%
+5,00%
+7.590.000
+13.800.000
+2026756400470
+Pronaf - Aquisição de matrizes e reprodutores
+S, SE e CO
+LCA
+(1,00 x TMS)
+2,90%
+7,50%
+101.541.000
+184.621.000
+2026756400474
+Pronaf - Custeio Faixa 1
+S, SE e CO
+LCA
+(0,96 x TMS)
+4,50%
+2,00%
+330.638.000
+472.340.000
+2026756400475
+Pronaf - Custeio Faixa 2
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,80%
+5,50%
+451.535.000
+645.050.000
+2026756400476
+Pronaf - Custeio Faixa 3 - Sociobiodiversidade
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,80%
+1,00%
+14.000.000
+20.000.000
+2026756400480
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,80%
+7,50%
+152.250.000
+217.500.000
+2026756400477
+Pronaf - Investimento Faixa 1
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,00%
+2,00%
+285.450.000
+519.000.000
+2026756400478
+Pronaf - Investimento Faixa 2
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,00%
+7,50%
+704.527.000
+1.280.959.000
+2026756400479
+Pronaf - Investimento Faixa 3
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,00%
+1,50%
+9.350.000
+17.000.000
+2026756400489
+Pronaf - Investimento Faixa 4
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,00%
+5,00%
+12.705.000
+23.100.000
+2026756400473
+Pronaf - Tratores e Colheitadeiras
+S, SE e CO
+LCA
+(1,00 x TMS)
+3,00%
+5,00%
+326.041.000
+592.803.000
+Tabela 18 - Sicredi
+Código STN
+Linha de Financiamento
+Região
+Fonte de Recursos
+CF
+CAT (a.a.)
+Taxa de Juros ao tomador final (a.a.)
+Limite Equalizável até 31/12/2026 (R$)
+Limite Equalizável a partir de 01/01/2027 (R$)
+2026748200671
+Pronaf - Caminhonetes de carga e motocicletas
+N e NE
+Poupança Rural
+RDP
+5,25%
+7,50%
+1.540.000
+2.800.000
+2026748200674
+Pronaf - Custeio Faixa 1
+N e NE
+Poupança Rural
+RDP
+5,25%
+2,00%
+1.442.000
+2.061.000
+2026748200675
+Pronaf - Custeio Faixa 2
+N e NE
+Poupança Rural
+RDP
+5,25%
+5,50%
+7.695.000
+10.993.000
+2026748200676
+Pronaf - Custeio Faixa 3 - Sociobiodiversidade
+N e NE
+Poupança Rural
+RDP
+5,25%
+1,00%
+53.000
+76.000
+2026748200680
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+N e NE
+Poupança Rural
+RDP
+5,25%
+7,50%
+1.300.000
+1.858.000
+2026748200677
+Pronaf - Investimento Faixa 1
+N e NE
+Poupança Rural
+RDP
+5,00%
+2,00%
+1.430.000
+2.600.000
+2026748200678
+Pronaf - Investimento Faixa 2
+N e NE
+Poupança Rural
+RDP
+4,80%
+7,50%
+5.665.000
+10.300.000
+2026748200689
+Pronaf - Investimento Faixa 4
+N e NE
+Poupança Rural
+RDP
+4,60%
+5,00%
+550.000
+1.000.000
+2026748200673
+Pronaf - Tratores e Colheitadeiras
+N e NE
+Poupança Rural
+RDP
+4,60%
+5,00%
+3.143.000
+5.716.000
+2026748200471
+Pronaf - Caminhonetes de carga e motocicletas
+S, SE e CO
+Poupança Rural
+RDP
+4,59%
+7,50%
+57.572.000
+104.678.000
+2026748200474
+Pronaf - Custeio Faixa 1
+S, SE e CO
+Poupança Rural
+RDP
+5,25%
+2,00%
+452.300.000
+646.143.000
+2026748200475
+Pronaf - Custeio Faixa 2
+S, SE e CO
+Poupança Rural
+RDP
+5,25%
+5,50%
+634.396.000
+906.281.000
+2026748200476
+Pronaf - Custeio Faixa 3 - Sociobiodiversidade
+S, SE e CO
+Poupança Rural
+RDP
+5,25%
+1,00%
+53.631.000
+76.617.000
+2026748200480
+Pronaf - Custeio Faixa 4 - Soja, Bovino de Corte e Algodão
+S, SE e CO
+Poupança Rural
+RDP
+5,25%
+7,50%
+408.580.000
+583.686.000
+2026748200477
+Pronaf - Investimento Faixa 1
+S, SE e CO
+Poupança Rural
+RDP
+4,30%
+2,00%
+200.415.000
+364.392.000
+2026748200478
+Pronaf - Investimento Faixa 2
+S, SE e CO
+Poupança Rural
+RDP
+4,15%
+7,50%
+291.402.000
+529.823.000
+2026748200479
+Pronaf - Investimento Faixa 3
+S, SE e CO
+Poupança Rural
+RDP
+3,80%
+1,50%
+22.286.000
+40.520.000
+2026748200489
+Pronaf - Investimento Faixa 4
+S, SE e CO
+Poupança Rural
+RDP
+3,80%
+5,00%
+13.200.000
+24.000.000
+2026748200473
+Pronaf - Tratores e Colheitadeiras
+S, SE e CO
+Poupança Rural
+RDP
+3,80%
+5,00%
+518.215.000
+942.210.000

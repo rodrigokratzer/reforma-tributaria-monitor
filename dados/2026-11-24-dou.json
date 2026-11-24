@@ -1,0 +1,233 @@
+{
+ "data": "2026-11-24",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "leiturajornal",
+   "http_status": null,
+   "erro": null,
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
+   "total": 17,
+   "itens": [
+    {
+     "titulo": "PORTARIA SRRF09 Nº 1.215, DE 18 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-srrf09-n-1.215-de-18-de-novembro-de-2026-745566817",
+     "data": "2026-11-23",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "PORTARIA SRRF09 Nº 1.215, DE 18 DE NOVEMBRO DE 2026 Suspende temporariamente o atendimento realizado por meio do canal de atendimento Chat RFB, no âmbito da 9ª Região Fiscal, a fim de possibilitar a realização de capacitação dos servidores integrantes da equipe. O SUPERINTENDENTE-ADJUNTO DA RECEITA ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.436, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.436-de-19-de-novembro-de-2026-745575294",
+     "data": "2026-11-23",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.436, DE 19 DE NOVEMBRO DE 2026 Altera, mediante antecipação e remanejamento, os valores autorizados para pagamento de que tratam os Anexos II, II.B, III, III.B, VI e VII do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estab",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.437, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.437-de-19-de-novembro-de-2026-745563550",
+     "data": "2026-11-23",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.437, DE 19 DE NOVEMBRO DE 2026 Altera, mediante reduções e ampliações, os valores autorizados para pagamento de que tratam os Anexos II, II.A, II.B e III do Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira, estabelece o cronogra",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA RFB Nº 763, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-rfb-n-763-de-19-de-novembro-de-2026-745573207",
+     "data": "2026-11-23",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil",
+     "ementa": "PORTARIA RFB Nº 763, DE 19 DE NOVEMBRO DE 2026 Dispõe sobre o Piloto da Reforma Tributária do Consumo relativo à Contribuição Social sobre Bens e Serviços - Piloto RTC-CBS. O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o art. 350, caput, inciso III, do Regi",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA SRRF09 Nº 1.219, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-srrf09-n-1.219-de-19-de-novembro-de-2026-745578148",
+     "data": "2026-11-23",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "PORTARIA SRRF09 Nº 1.219, DE 19 DE NOVEMBRO DE 2026 Altera a Portaria SRRF09 nº 6, de 14 de janeiro de 2021, que trata da transferência temporária de competências entre as unidades da 9ª Região Fiscal vinculadas ao macroprocesso de trabalho Administração Aduaneira, no que tange à lavratura de multas",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO NORMATIVA DA ANEEL Nº 1.177, DE 17 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-normativa-da-aneel-n-1.177-de-17-de-novembro-de-2026-745611207",
+     "data": "2026-11-23",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério de Minas e Energia/Agência Nacional de Energia Elétrica/Diretoria Colegiada",
+     "ementa": "RESOLUÇÃO NORMATIVA DA ANEEL Nº 1.177, DE 17 DE NOVEMBRO DE 2026 Aprova a versão 4.0 do Submódulo 6.7 dos Procedimentos de Regulação Tarifária - PRORET, que trata da metodologia de cálculo da cobertura tarifária do Fundo de Descomissionamento das Centrais de Geração Angra 1 e Angra 2 - FDES, em deco",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA MF Nº 3.403, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-mf-n-3.403-de-19-de-novembro-de-2026-745801734",
+     "data": "2026-11-23",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Gabinete do Ministro",
+     "ementa": "PORTARIA MF Nº 3.403, DE 19 DE NOVEMBRO DE 2026 Altera o Anexo III da Portaria MF nº 2.170, de 22 de julho de 2026, que autoriza o pagamento de equalização de taxas de juros em financiamentos rurais concedidos no âmbito do Plano Safra 2026/2027 e em financiamentos de capital de giro destinados a coo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CARF/MF Nº 3.372, DE 13 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-carf/mf-n-3.372-de-13-de-novembro-de-2026-745795673",
+     "data": "2026-11-23",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Conselho Administrativo de Recursos Fiscais",
+     "ementa": "PORTARIA CARF/MF Nº 3.372, DE 13 DE NOVEMBRO DE 2026 Fixa a distribuição de vagas de conselheiros representantes dos contribuintes no Conselho Administrativo de Recursos Fiscais. O PRESIDENTE DO CONSELHO ADMINISTRATIVO DE RECURSOS FISCAIS, no uso das competências que lhe conferem o art. 39, incisos ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 273, de 23 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-273-de-23-de-novembro-de-2026-745817732",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 273, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 98.375, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-98.375-de-28-de-outubro-de-2026-745828585",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
+     "ementa": "Centro de Classificação Fiscal de Mercadorias SOLUÇÃO DE CONSULTA Nº 98.375, DE 28 DE OUTUBRO DE 2026 Assunto: Classificação de Mercadorias Código NCM 8473.29.10 Mercadoria: Placa de circuito impresso rígida, concebida exclusivamente para terminais point of sale - POS, responsável por monitorar a in",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 274, de 23 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-274-de-23-de-novembro-de-2026-745831208",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 274, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 275, de 23 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-275-de-23-de-novembro-de-2026-745816940",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 275, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA SUARA Nº 393, DE 23 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-suara-n-393-de-23-de-novembro-de-2026-745806248",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Arrecadação, Cadastros e Atendime",
+     "ementa": "PORTARIA SUARA Nº 393, DE 23 DE NOVEMBRO DE 2026 Transfere competências e atribuições para a Delegacia da Receita Federal do Brasil em Santa Maria - RS relativas aos procedimentos de notificação, qualificação, acompanhamento e desqualificação de devedores contumazes. O SUBSECRETÁRIO DE ARRECADAÇÃO, ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGSN Nº 196, DE 16 de NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comitê Gestor do Simples Nacional",
+     "ementa": "RESOLUÇÃO CGSN Nº 196, DE 16 de NOVEMBRO DE 2026 Altera as Resoluções CGSN nº 140, de 22 de maio de 2018, e nº 190, de 4 de agosto de 2026, que dispõem sobre o Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte - Simples Nacio",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 8.023, DE 31 DE JULHO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-8.023-de-31-de-julho-de-2026-745807679",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "SOLUÇÃO DE CONSULTA Nº 8.023, DE 31 DE JULHO DE 2026 Assunto: Contribuição para o PIS/Pasep SUBVENÇÃO GOVERNAMENTAL PARA INVESTIMENTO. CRÉDITO PRESUMIDO DE ICMS. NOVA SISTEMÁTICA. IMPOSSIBILIDADE DE EXCLUSÃO DA BASE DE CÁLCULO DA CONTRIBUIÇÃO PARA O PIS/PASEP NO REGIME NÃO CUMULATIVO. Para fins dos ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Portaria SE/MF Nº 3.449, DE 23 DE novembro DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-se/mf-n-3.449-de-23-de-novembro-de-2026-745824518",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Executiva",
+     "ementa": "Portaria SE/MF Nº 3.449, DE 23 DE novembro DE 2026 Altera a Portaria STN/MF nº 1.135, de 11 de julho de 2024, para dispor sobre os prazos e a asseguração dos relatórios de prestação de contas do Leilão Eco Invest Brasil nº 1/2024 e sobre a validade de pareceres e relatórios de verificação independen",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGSN Nº 197, DE 16 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-197-de-16-de-novembro-de-2026-745828664",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comitê Gestor do Simples Nacional",
+     "ementa": "RESOLUÇÃO CGSN Nº 197, DE 16 DE NOVEMBRO DE 2026 Altera o Regimento Interno do Comitê Gestor do Simples Nacional, aprovado pela Resolução CGSN nº 176, de 19 de junho de 2024. O Comitê Gestor do Simples Nacional, no uso das atribuições que lhe conferem a Lei Complementar nº 123, de 14 de dezembro de ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 4844,
+    "forte": 2,
+    "revisar": 15,
+    "baixados": 663,
+    "falhas_download": 0,
+    "duplicados": 0,
+    "sem_edicao": [
+     "2026-11-24 DO1E: sem materias",
+     "2026-11-24 DO3E: sem materias"
+    ],
+    "erros": []
+   }
+  }
+ ]
+}
