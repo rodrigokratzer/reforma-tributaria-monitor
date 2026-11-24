@@ -87,6 +87,18 @@
    "situacao": "O Acórdão 2770/2026-TCU-Plenário (DOU de 16/10) determinou ao Dnit que ajuste a metodologia do Sicro para não tratar como custo os valores de IBS/CBS recuperáveis como crédito pelas empresas (equipamentos, combustível, peças, manutenção), e que apresente um plano de ação em até 30 dias. A tabela de custos em si ainda não foi revisada.",
    "prazo": null,
    "status": "warning"
+  },
+  {
+   "item": "Percentuais de redução das compensações de tributos federais (LC 239/2026, art. 6º-F)",
+   "situacao": "A LC 239 autoriza o Executivo a reduzir a compensação de débitos com créditos de outros tributos da RFB quando houver contingenciamento, em percentuais a definir por ato próprio. O ato ainda não saiu. A compensação de créditos de PIS/Cofins com débitos de CBS fica fora da limitação.",
+   "prazo": null,
+   "status": "serious"
+  },
+  {
+   "item": "Teto e comitê do Reidi (LC 239/2026, art. 9º)",
+   "situacao": "A LC 239 limita o regime especial do art. 106 da LC 214 ao valor do demonstrativo de gastos tributários da LOA 2026, corrigido pelo IPCA. Um comitê, ainda não instituído, vai escolher os projetos beneficiados.",
+   "prazo": null,
+   "status": "warning"
   }
  ],
  "linha_do_tempo": [
@@ -356,6 +368,11 @@
    "detalhe": "Fim do regime de caixa (saldo a receber em 31/12/2026 tributado em dezembro), receita reconhecida na emissão da nota, tabelas com partilha de CBS e IBS de 2027 a 2033 e crédito ao adquirente a partir de 01/01/2027."
   },
   {
+   "data": "2026-11-24",
+   "titulo": "LC 239/2026 (ajuste fiscal) sancionada sem vetos",
+   "detalhe": "Dobra para 20% o corte linear de benefícios federais da LC 224, inclusive o acréscimo na presunção do lucro presumido. Autoriza limitar compensações de tributos da RFB e põe teto no Reidi (art. 106 da LC 214)."
+  },
+  {
    "data": "2026-12-01",
    "titulo": "NF-e obrigatória para quem não é contribuinte do ICMS",
    "detalhe": "Única parte da 3ª onda mantida em 01/12 (art. 1º, § 4º do Ato Conjunto nº 4/2026). NFS-e restantes, BP-e aéreo/semiurbano, NFGas, NFAg e NF-e ABI foram adiados para 01/01 e 01/03/2027 pelo Ato Conjunto nº 7."
@@ -391,6 +408,11 @@
    "detalhe": "NFS-e de bens imateriais, condomínios, locações e demais serviços fora da lista do ISS; NFGas; NFAg. Ato Conjunto RFB/CGIBS nº 7."
   },
   {
+   "data": "2027-01-01",
+   "titulo": "Corte de benefícios federais sobe para 20% no IRPJ (LC 239)",
+   "detalhe": "Inclui o lucro presumido: a presunção sobre a receita acima de R$ 5 milhões passa a ter acréscimo de 20%. Para CSLL, PIS/Cofins e IPI, o efeito começa em 01/03/2027."
+  },
+  {
    "data": "2027-02-02",
    "titulo": "Imposto Seletivo: alíquotas da MP 1.399 começam a produzir efeitos",
    "detalhe": "Art. 19 da MP 1.399/2026."
@@ -404,6 +426,11 @@
    "data": "2027-03-01",
    "titulo": "3ª onda de DF-e, 2ª parte, e demais documentos do Simples Nacional",
    "detalhe": "NFS-e de plataformas digitais, dos subitens 1.03, 1.05, 1.09 e 16.01 da lista do ISS, BP-e aéreo e semiurbano/metropolitano e NF-e ABI (adiados de 01/12/2026). Para optantes do Simples, início dos campos de IBS/CBS nos documentos que não são NFS-e de serviços em geral (adiado de 01/01/2027). Ato Conjunto RFB/CGIBS nº 7."
+  },
+  {
+   "data": "2027-03-01",
+   "titulo": "Corte de benefícios federais sobe para 20% em CSLL, PIS/Cofins e IPI (LC 239)",
+   "detalhe": "Começa no primeiro dia do quarto mês após a publicação (art. 15, I, da LC 239)."
   },
   {
    "data": "2027-03-31",

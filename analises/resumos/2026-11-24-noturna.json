@@ -1,0 +1,54 @@
+{
+  "data": "2026-11-24",
+  "turno": "noturna",
+  "manchete": "Ajuste fiscal virou lei: corte de benefícios fiscais dobra para 20% e o lucro presumido acima de R$ 5 milhões paga mais a partir de janeiro",
+  "em_30_segundos": [
+    "Lei do ajuste fiscal publicada hoje: quem tem incentivo fiscal federal perde 20% dele em 2027, e não mais 10%.",
+    "Lucro presumido: na receita acima de R$ 5 milhões por ano, o acréscimo na base do IRPJ dobra a partir de janeiro; na CSLL, a partir de março.",
+    "O governo poderá limitar a compensação de créditos de impostos federais em ano de corte de gastos; os percentuais ainda vão sair.",
+    "Fim da 6x1: o ministro recomenda que setores que querem escala diferente fechem acordo coletivo até 16 de dezembro.",
+    "MEI de R$ 130 mil: a votação na comissão da Câmara ficou para quarta-feira (25)."
+  ],
+  "noticias": [
+    {
+      "chave": "fdd85582835d12ce",
+      "tema": "reforma",
+      "titulo": "Lei Complementar nº 239/2026: corte de benefícios fiscais sobe para 20%, inclusive no lucro presumido",
+      "fonte": "DOU",
+      "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-239-de-24-de-novembro-de-2026-745996277",
+      "publicado_em": "2026-11-24",
+      "linha": "A lei do ajuste fiscal dobra de 10% para 20% o corte nos benefícios fiscais federais e no acréscimo à presunção do lucro presumido.",
+      "trecho": "VII - regimes de tributação em que a base de cálculo seja presumida: acréscimo de 20% (vinte por cento) nos percentuais de presunção.",
+      "por_que_importa": "Empresa do lucro presumido com receita acima de R$ 5 milhões por ano paga mais IRPJ a partir de 01/01/2027 e mais CSLL a partir de 01/03/2027, sobre a parte da receita que passa desse valor. Quem tem isenção, alíquota zero ou crédito presumido federal perde mais um pedaço do benefício. A lei também deixa o governo limitar compensações de créditos, mas protege o crédito de PIS/Cofins usado para pagar CBS.",
+      "ideia_post": "Sua empresa está no lucro presumido e fatura mais de R$ 5 milhões? Em janeiro a conta muda. Vale refazer a simulação de presumido contra real antes do primeiro DARF de 2027.",
+      "origem": "oficial"
+    },
+    {
+      "chave": "44bb3f7191ba6285",
+      "tema": "empreendedor",
+      "titulo": "Governo publica regras para jornadas especiais até a próxima semana",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-publica-regras-para-jornadas-especiais-ate-proxima-semana",
+      "publicado_em": "2026-11-24T11:10",
+      "linha": "O Ministério do Trabalho vai soltar as portarias das jornadas especiais e recomenda que os setores fechem acordo coletivo antes de 16 de dezembro, quando acaba a 6x1.",
+      "trecho": "Recomendo que empresários e trabalhadores corram para fechar os acordos até o dia 16 [de dezembro]. Esse é o cenário ideal",
+      "por_que_importa": "Segundo a matéria, sem acordo coletivo vale a 5x2 com folgas no fim de semana, e a Inspeção do Trabalho fiscaliza. O comércio e os serviços que abrem no fim de semana têm menos de um mês para negociar a escala com o sindicato.",
+      "ideia_post": "Seu negócio abre sábado e domingo? Sem acordo coletivo até 16/12, a folga cai no fim de semana. Veja o que perguntar ao seu sindicato esta semana.",
+      "origem": "rss"
+    },
+    {
+      "chave": "eac3949d4dfa4bf0",
+      "tema": "empreendedor",
+      "titulo": "Adiada votação de parecer sobre ampliação do limite de faturamento para o MEI",
+      "fonte": "Agência Câmara",
+      "url": "https://www.camara.leg.br/noticias/1321031-adiada-votacao-de-parecer-sobre-ampliacao-do-limite-de-faturamento-para-o-mei",
+      "publicado_em": "2026-11-24T14:46",
+      "linha": "A comissão especial da Câmara adiou para quarta-feira (25) a votação do projeto que sobe o teto do MEI de R$ 81 mil para R$ 130 mil por ano.",
+      "trecho": "A proposta também autoriza a contratação de até dois empregados, o dobro do permitido hoje.",
+      "por_que_importa": "O projeto (PLP 108/21) já passou no Senado. Se aprovado na comissão e no Plenário e depois sancionado, o MEI poderá faturar até R$ 130 mil por ano e ter dois empregados. Por enquanto nada mudou: o teto continua em R$ 81 mil.",
+      "ideia_post": "Faturou mais de R$ 81 mil este ano como MEI? O teto de R$ 130 mil ainda não vale. Explique o que acontece com quem estoura o limite hoje.",
+      "origem": "rss"
+    }
+  ],
+  "lidas": 229
+}
