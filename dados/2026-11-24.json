@@ -7,7 +7,7 @@
    "metodo": "browser",
    "http_status": null,
    "erro": null,
-   "erro_browser": null,
+   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
    "total": 10,
    "itens": [
     {
@@ -518,8 +518,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 4,
+   "total": 5,
    "itens": [
+    {
+     "titulo": "Comitê Gestor do Simples Nacional publica novas regras para o Simples Nacional e para a transição da Reforma Tributária",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/comite-gestor-do-simples-nacional-publica-novas-regras-para-o-simples-nacional-e-para-a-transicao-da-reforma-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Receita Federal amplia acesso ao Ambiente de Produção Restrita do Piloto da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",
@@ -557,8 +564,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 21,
+   "total": 22,
    "itens": [
+    {
+     "titulo": "Comitê Gestor do Simples Nacional publica novas regras para o Simples Nacional e para a transição da Reforma Tributária",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/comite-gestor-do-simples-nacional-publica-novas-regras-para-o-simples-nacional-e-para-a-transicao-da-reforma-tributaria",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Receita Federal amplia acesso ao Ambiente de Produção Restrita do Piloto da CBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",

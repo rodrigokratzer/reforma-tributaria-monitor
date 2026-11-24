@@ -1,7 +1,18 @@
 {
  "data": "2026-11-24",
- "quantidade": 0,
- "itens": [],
+ "quantidade": 1,
+ "itens": [
+  {
+   "primeira_vez": "2026-11-24",
+   "fonte": "RFB - Noticias 2026",
+   "titulo": "Comitê Gestor do Simples Nacional publica novas regras para o Simples Nacional e para a transição da Reforma Tributária",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/comite-gestor-do-simples-nacional-publica-novas-regras-para-o-simples-nacional-e-para-a-transicao-da-reforma-tributaria",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "visto_em": "2026-11-24T20:03:07Z"
+  }
+ ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
