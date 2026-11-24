@@ -8,7 +8,7 @@
    "http_status": null,
    "erro": null,
    "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
-   "total": 17,
+   "total": 18,
    "itens": [
     {
      "titulo": "PORTARIA SRRF09 Nº 1.215, DE 18 DE NOVEMBRO DE 2026",
@@ -107,24 +107,12 @@
      "pasta_arquivo": null
     },
     {
-     "titulo": "PORTARIA CGAUT/SUSEP nº 273, de 23 De NOVEMBRO de 2026",
-     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-273-de-23-de-novembro-de-2026-745817732",
+     "titulo": "PORTARIA CGAUT/SUSEP nº 275, de 23 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-275-de-23-de-novembro-de-2026-745816940",
      "data": "2026-11-24",
      "fonte": "DOU DO1",
      "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
-     "ementa": "PORTARIA CGAUT/SUSEP nº 273, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
-     "balde": "revisar",
-     "continuacao": false,
-     "alerta": null,
-     "pasta_arquivo": null
-    },
-    {
-     "titulo": "SOLUÇÃO DE CONSULTA Nº 98.375, DE 28 DE OUTUBRO DE 2026",
-     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-98.375-de-28-de-outubro-de-2026-745828585",
-     "data": "2026-11-24",
-     "fonte": "DOU DO1",
-     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
-     "ementa": "Centro de Classificação Fiscal de Mercadorias SOLUÇÃO DE CONSULTA Nº 98.375, DE 28 DE OUTUBRO DE 2026 Assunto: Classificação de Mercadorias Código NCM 8473.29.10 Mercadoria: Placa de circuito impresso rígida, concebida exclusivamente para terminais point of sale - POS, responsável por monitorar a in",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 275, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
      "balde": "revisar",
      "continuacao": false,
      "alerta": null,
@@ -143,12 +131,24 @@
      "pasta_arquivo": null
     },
     {
-     "titulo": "PORTARIA CGAUT/SUSEP nº 275, de 23 De NOVEMBRO de 2026",
-     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-275-de-23-de-novembro-de-2026-745816940",
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 98.375, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-98.375-de-28-de-outubro-de-2026-745828585",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
+     "ementa": "Centro de Classificação Fiscal de Mercadorias SOLUÇÃO DE CONSULTA Nº 98.375, DE 28 DE OUTUBRO DE 2026 Assunto: Classificação de Mercadorias Código NCM 8473.29.10 Mercadoria: Placa de circuito impresso rígida, concebida exclusivamente para terminais point of sale - POS, responsável por monitorar a in",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 273, de 23 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-273-de-23-de-novembro-de-2026-745817732",
      "data": "2026-11-24",
      "fonte": "DOU DO1",
      "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
-     "ementa": "PORTARIA CGAUT/SUSEP nº 275, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 273, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
      "balde": "revisar",
      "continuacao": false,
      "alerta": null,
@@ -213,17 +213,28 @@
      "continuacao": false,
      "alerta": null,
      "pasta_arquivo": null
+    },
+    {
+     "titulo": "LEI COMPLEMENTAR Nº 239, DE 24 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-239-de-24-de-novembro-de-2026-745996277",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1E",
+     "orgao": "Atos do Poder Legislativo",
+     "ementa": "LEI COMPLEMENTAR Nº 239, DE 24 DE NOVEMBRO DE 2026 Altera a Lei Complementar nº 200, de 30 de agosto de 2023, a Lei Complementar nº 176, de 29 de dezembro de 2020, a Lei Complementar nº 235, de 27 de agosto de 2026, a Lei Complementar nº 224, de 26 de dezembro de 2025, a Lei nº 11.540, de 12 de nove",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
     }
    ],
    "diagnostico": {
-    "lidas": 4844,
-    "forte": 2,
+    "lidas": 5164,
+    "forte": 3,
     "revisar": 15,
-    "baixados": 663,
+    "baixados": 665,
     "falhas_download": 0,
     "duplicados": 0,
     "sem_edicao": [
-     "2026-11-24 DO1E: sem materias",
      "2026-11-24 DO3E: sem materias"
     ],
     "erros": []
