@@ -1,0 +1,117 @@
+{
+ "data": "2026-11-25",
+ "turno": "noturna",
+ "manchete": "Desconto no diesel deve durar mais um mês, e a conta de luz paga em dia passa a ajudar no score de crédito",
+ "em_30_segundos": [
+  "Governo deve renovar por mais 30 dias o desconto de R$ 2,12 por litro de diesel, que acabaria nesta quinta",
+  "Conta de luz paga em dia passa a contar na análise de crédito de cerca de 7,5 milhões de pessoas",
+  "Distribuidoras de energia oferecem desconto e parcelamento para quem está com a conta de luz atrasada",
+  "Votação do teto do MEI de R$ 130 mil foi cancelada na Câmara; segue valendo o limite de R$ 81 mil",
+  "Appy defende tratar 2027 como teste da reforma, mas por enquanto os prazos seguem valendo"
+ ],
+ "noticias": [
+  {
+   "chave": "34a3e65ddd0b9939",
+   "tema": "pessoas",
+   "titulo": "Governo vai prorrogar subvenção ao diesel de R$ 2,12, diz ministro",
+   "fonte": "UOL Economia",
+   "url": "https://economia.uol.com.br/colunas/jessica-sant-ana/2026/11/25/governo-vai-prorrogar-subvencao-ao-diesel-de-r-212-diz-ministro.htm",
+   "publicado_em": "2026-11-25T09:34:01-03:00",
+   "linha": "O desconto de R$ 2,12 por litro no diesel, que acabaria nesta quinta (26), deve ser renovado por mais 30 dias.",
+   "trecho": "O ministro do Planejamento e Orçamento, Bruno Moretti, informou que o governo vai prorrogar por mais 30 dias a subvenção econômica de R$ 2,12 por litro de óleo diesel, que tem validade somente até quinta-feira (26).",
+   "por_que_importa": "Diesel mais barato segura o custo do frete e, por tabela, o preço do que chega ao mercado. Quem vive de transporte (caminhoneiro, entregador, pequeno transportador) ganha mais um mês de alívio; o anúncio formal ainda deve sair nesta semana.",
+   "ideia_post": "\"O diesel vai subir em dezembro?\" Explicar que o subsídio foi estendido por mais um mês e o que acontece com o frete se ele acabar.",
+   "origem": "rss"
+  },
+  {
+   "chave": "4d86bc1021b55fe9",
+   "tema": "pessoas",
+   "titulo": "Conta de luz passa a fazer parte da análise de crédito de 7,5 milhões",
+   "fonte": "UOL Economia",
+   "url": "https://economia.uol.com.br/noticias/redacao/2026/11/25/conta-de-luz-entra-em-analise-de-credito-de-75-milhoes.ghtm",
+   "publicado_em": "2026-11-25T13:17:01-03:00",
+   "linha": "Pagar a conta de luz em dia passa a contar pontos na análise de crédito de cerca de 7,5 milhões de pessoas.",
+   "trecho": "O histórico de pagamento da conta de luz passa a ser considerado na análise de crédito de cerca de 7,5 milhões de consumidores, informou hoje a Aneel (Agência Nacional de Energia Elétrica).",
+   "por_que_importa": "Quem não tem cartão ou financiamento no nome costuma ter score baixo; a conta de luz paga em dia vira prova de bom pagador. O contrário também vale: atraso pode pesar.",
+   "ideia_post": "\"Sua conta de luz agora pode aumentar (ou derrubar) seu score.\" Dica prática: conta no seu nome e paga em dia.",
+   "origem": "rss"
+  },
+  {
+   "chave": "0d1dd738bbad9274",
+   "tema": "pessoas",
+   "titulo": "Fim de ano: distribuidoras de energia oferecem descontos e parcelamento para renegociar dívidas",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/25/fim-de-ano-distribuidoras-de-energia-oferecem-descontos-e-parcelamento-para-renegociar-dividas.ghtml",
+   "publicado_em": "2026-11-25T15:09:10-03:00",
+   "linha": "Distribuidoras de energia abriram campanhas de fim de ano com desconto e parcelamento para quem está com conta de luz atrasada.",
+   "trecho": "As campanhas incluem descontos nos encargos, redução do valor principal das dívidas e opções de parcelamento. As condições variam conforme a empresa, o tempo de atraso das contas e o perfil do consumidor. Algumas campanhas seguem até 31 de dezembro.",
+   "por_que_importa": "Quem tem conta de luz atrasada pode reduzir juros e multa e parcelar antes do fim do ano, e ainda limpar o histórico que agora entra na análise de crédito.",
+   "ideia_post": "Combinar com a notícia do score: \"conta de luz atrasada? Agora é a hora de renegociar\", com o prazo de 31/12 de algumas campanhas.",
+   "origem": "rss"
+  },
+  {
+   "chave": "6aafbbbb1c7fb683",
+   "tema": "empreendedor",
+   "titulo": "Cancelada reunião para votar parecer sobre ampliação do limite de faturamento de MEIs",
+   "fonte": "Agência Câmara Economia",
+   "url": "https://www.camara.leg.br/noticias/1321031-cancelada-reuniao-para-votar-parecer-sobre-ampliacao-do-limite-de-faturamento-de-meis",
+   "publicado_em": "2026-11-25T10:15:00-03:00",
+   "linha": "A votação que subiria o teto do MEI de R$ 81 mil para R$ 130 mil por ano foi cancelada na comissão da Câmara, sem nova data.",
+   "trecho": "Foi cancelada a reunião desta quarta-feira (25) da comissão especial da Câmara dos Deputados que analisa o aumento do limite anual de faturamento do Microempreendedor Individual (MEI).",
+   "por_que_importa": "O PLP 108/21 já passou no Senado e eleva o limite para R$ 130 mil. Enquanto não for aprovado pela Câmara e sancionado, vale o teto atual de R$ 81 mil: o MEI que planeja passar disso precisa se programar com a regra de hoje.",
+   "ideia_post": "\"O teto do MEI vai para R$ 130 mil?\" Ainda não: o que falta, e o que fazer se você está perto dos R$ 81 mil.",
+   "origem": "rss"
+  },
+  {
+   "chave": "c5e8f859752e993f",
+   "tema": "reforma",
+   "titulo": "Entendo que há, sim, motivos para prorrogação do período de testes da reforma tributária, diz Appy",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/brasil/noticia/2026/11/25/entendo-que-ha-sim-motivos-para-prorrogacao-do-periodo-de-testes-da-reforma-tributaria-diz-appy.ghtml",
+   "publicado_em": "2026-11-25T15:47:53-03:00",
+   "linha": "Bernard Appy, ex-secretário da reforma, defende que 2027 funcione como período de testes, citando insegurança jurídica e quase 5 mil sugestões ao regulamento.",
+   "trecho": "O primeiro motivo é de insegurança jurídica de alguns setores. Saiu uma primeira versão do regulamento, que teve quase 5 mil sugestões de alteração",
+   "por_que_importa": "É opinião, não regra: os prazos de 2027 continuam valendo até sair ato que mude. Mas mostra que até quem desenhou a reforma vê empresas despreparadas, sinal para o pequeno negócio não deixar a adaptação para a última hora.",
+   "ideia_post": "\"Até o pai da reforma acha que 2027 devia ser teste\": o que já vale de verdade em janeiro e o que é só debate.",
+   "origem": "rss"
+  },
+  {
+   "chave": "49180ac0f3820c10",
+   "tema": "reforma",
+   "titulo": "Alíquota de 11,3% para CBS em 2027 tem grau de incerteza ‘razoável’, avalia Appy",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/brasil/noticia/2026/11/25/aliquota-de-113percent-para-cbs-em-2027-tem-grau-de-incerteza-razoavel-avalia-appy.ghtml",
+   "publicado_em": "2026-11-25T16:00:44-03:00",
+   "linha": "Appy diz que a alíquota de 11,3% da CBS em 2027 tem incerteza 'razoável', mas será recalibrada todo ano.",
+   "trecho": "A alíquota tem um grau de incerteza razoável, porque tem variáveis sobre o novo sistema que não são conhecidas. Mas a alíquota da CBS vai ser calibrada todo ano, vai ficar cada vez mais precisa",
+   "por_que_importa": "A CBS substitui PIS, Cofins e parte do IPI. Para quem forma preço, a mensagem é: o número de 2027 pode mudar nos anos seguintes, então convém revisar preço e margem ano a ano.",
+   "origem": "rss"
+  },
+  {
+   "chave": "31ac4f33ee6d8e45",
+   "tema": "empreendedor",
+   "titulo": "Black Friday exige atenção redobrada à segurança digital das pequenas empresas",
+   "fonte": "Estadão Economia",
+   "url": "https://www.estadao.com.br/economia/negocios/black-friday-exige-atencao-redobrada-a-seguranca-digital-das-pequenas-empresas/",
+   "publicado_em": "2026-11-25T14:47:28-03:00",
+   "linha": "Na Black Friday, pequenas empresas viram alvo de golpe: mais pedidos e pagamentos, menos tempo para conferir.",
+   "trecho": "Nesse cenário, a pressa para vender pode abrir espaço para inúmeros golpes.",
+   "por_que_importa": "Comprovante de Pix falso, pedido com cartão clonado e mensagem se passando por fornecedor custam caro ao pequeno lojista. Conferir o pagamento no extrato antes de despachar é a regra de ouro até sexta (27).",
+   "ideia_post": "\"3 golpes que pegam o lojista na Black Friday\", do ponto de vista de quem vende, não de quem compra.",
+   "origem": "rss"
+  },
+  {
+   "chave": "d0a1c262846bcb1d",
+   "tema": "empreendedor",
+   "titulo": "Tarifaço de Trump: EUA propõem taxa de 10% sobre aviões brasileiros e aumento de imposto sobre açúcar",
+   "fonte": "g1 Economia",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/25/eua-propoem-tarifas-mais-altas-sobre-importacoes-do-brasil.ghtml",
+   "publicado_em": "2026-11-25T10:16:30-03:00",
+   "linha": "Os EUA propuseram tarifa extra de 10% sobre aviões brasileiros e mais imposto sobre o açúcar do Brasil.",
+   "trecho": "O governo dos Estados Unidos propôs nesta quarta-feira (25) a cobrança de uma tarifa adicional de 10% sobre aeronaves brasileiras e o aumento da tributação sobre o açúcar importado do país.",
+   "por_que_importa": "Por enquanto é proposta, com audiência marcada pelos EUA para janeiro. O efeito no bolso é indireto: pesa sobre exportadores e suas cadeias de fornecedores, não sobre o preço no mercado brasileiro.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 230
+}
