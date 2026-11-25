@@ -1,15 +1,8 @@
 {
- "data": "2026-11-24",
- "turno": "noturna",
- "situacao": "publicada",
- "acoes": 1,
- "gerado_em": "2026-11-24T20:07:41Z",
- "resumo_curto": "2 publicações; 1 exige ação: LC 239 dobra o corte de benefícios fiscais e aumenta o lucro presumido em 2027",
- "painel_atualizado": [
-  "LC 239/2026 sancionada: corte de benefícios federais da LC 224 sobe de 10% para 20%, inclusive no lucro presumido",
-  "A partir de 01/01/2027: lucro presumido com acréscimo de 20% na presunção do IRPJ sobre a receita acima de R$ 5 mi (LC 239)",
-  "A partir de 01/03/2027: corte de 20% em benefícios de CSLL, PIS/Cofins e IPI (LC 239, art. 15, I)",
-  "Nova pendência: ato do Executivo com os percentuais de redução das compensações de tributos federais (LC 239, art. 6º-F)",
-  "Nova pendência: comitê que escolherá os projetos do Reidi dentro do teto criado pela LC 239 (art. 9º)"
- ]
+ "data": "2026-11-25",
+ "turno": "matinal",
+ "situacao": "sem_novidade",
+ "acoes": 0,
+ "gerado_em": "2026-11-25T08:07:37Z",
+ "resumo_curto": "11 publicações oficiais, nenhuma muda prazo da reforma"
 }

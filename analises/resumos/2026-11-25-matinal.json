@@ -1,0 +1,131 @@
+{
+ "data": "2026-11-25",
+ "turno": "matinal",
+ "manchete": "Teto da taxa do vale-refeição volta a valer, e o fim da 6x1 deixa a hora extra mais cara",
+ "em_30_segundos": [
+  "A Justiça restabeleceu as regras novas do vale-refeição e alimentação, com teto para a taxa cobrada de restaurantes e mercados.",
+  "Com o fim da escala 6x1, cada hora extra fica mais cara para o patrão; a indústria foi ao STF contra as regras.",
+  "Alíquota da CBS de 2027 segue em aberto: TCU calculou 11,3%, estudos no Congresso falam em perto de 10%, e quem fixa é o Senado.",
+  "Dólar perto de R$ 6 deve chegar à carne e ao supermercado entre dezembro e o início de 2027, diz economista da FGV.",
+  "Nenhuma das 11 publicações oficiais de hoje mexe em prazo da reforma tributária."
+ ],
+ "noticias": [
+  {
+   "chave": "2c6449639c97c5c2",
+   "tema": "empreendedor",
+   "titulo": "Justiça derruba suspensão e restabelece regras para vale-refeição e alimentação; entenda",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/11/25/justica-derruba-suspensao-e-restabelece-regras-para-vale-refeicao-e-alimentacao-entenda.ghtml",
+   "publicado_em": "2026-11-25T00:17:42-03:00",
+   "linha": "O TRF-1 derrubou a liminar que livrava as grandes operadoras de VR e VA das regras novas, e o teto das taxas cobradas de restaurantes e mercados volta a valer.",
+   "trecho": "Entre as medidas que voltam a valer está o teto para as taxas cobradas pelas empresas do setor nos pagamentos feitos com os benefícios.",
+   "por_que_importa": "Quem aceita vale-refeição ou vale-alimentação (restaurante, lanchonete, mercadinho) volta a ter limite na taxa que as operadoras cobram em cada venda. A decisão vale até o julgamento final do recurso, então o assunto ainda pode mudar.",
+   "ideia_post": "Você que tem restaurante: a taxa do vale-refeição tem teto de novo. Já conferiu quanto a operadora está cobrando na sua maquininha?",
+   "origem": "rss"
+  },
+  {
+   "chave": "cb6df657408927e4",
+   "tema": "empreendedor",
+   "titulo": "Horas extras ficam mais caras com fim da escala 6x1; calculadora do g1 mostra o que muda",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/25/horas-extras-6x1-5x2-calculadora.ghtml",
+   "publicado_em": "2026-11-25T03:00:00-03:00",
+   "linha": "Com a jornada menor, o mesmo salário é dividido por menos horas, e cada hora extra passa a custar mais para o patrão.",
+   "trecho": "Isso significa que quem continuar fazendo a mesma quantidade de horas extras poderá receber mais por elas, mesmo sem ganhar um aumento de salário. O motivo é simples: o salário mensal continuará o mesmo, mas será dividido por uma quantidade menor de horas trabalhadas.",
+   "por_que_importa": "Para o pequeno negócio que fecha a escala com hora extra, a folha sobe mesmo sem reajuste. Para o funcionário, a mesma hora extra rende mais no contracheque.",
+   "ideia_post": "Seu funcionário faz hora extra? Com o fim da 6x1, ela vai sair mais cara sem você dar aumento. Bora fazer a conta?",
+   "origem": "rss"
+  },
+  {
+   "chave": "51011b8e11d7a887",
+   "tema": "empreendedor",
+   "titulo": "CNI vai ao Supremo contra regulamentação do governo para fim da escala 6x1",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/cni-vai-ao-supremo-contra-regulamentacao-do-governo-para-fim-da-escala-6x1.shtml",
+   "publicado_em": "2026-11-24T21:25:00-03:00",
+   "linha": "A indústria pediu ao STF que derrube o decreto e a portaria que regulamentam a redução da jornada e a escala 5x2.",
+   "trecho": "A CNI (Confederação Nacional da Indústria) protocolou uma ação nesta terça-feira (24) no STF (Supremo Tribunal Federal) contra decreto e portaria do governo Lula (PT) para regulamentar a redução da jornada de trabalho e a implementação da escala 5x2.",
+   "por_que_importa": "Enquanto o STF não decidir, decreto e portaria continuam valendo. Quem emprega deve seguir planejando a escala nova, sem contar com a derrubada.",
+   "ideia_post": "A indústria foi ao Supremo contra o fim da 6x1. Isso quer dizer que você pode esperar para mudar a escala? Spoiler: não.",
+   "origem": "rss"
+  },
+  {
+   "chave": "5578f6a8b1d1e74d",
+   "tema": "reforma",
+   "titulo": "Reforma tributária e fim da escala 6x1 podem pressionar inflação em 2027; BC e equipe econômica monitoram impactos",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/25/reforma-tributaria-e-fim-da-escala-6x1-podem-pressionar-inflacao-em-2027-bc-e-equipe-economica-monitoram-impactos.ghtml",
+   "publicado_em": "2026-11-25T00:00:00-03:00",
+   "linha": "Economistas apontam a CBS, que começa em janeiro, e a jornada menor como pressões sobre os preços no começo de 2027, sobretudo nos serviços.",
+   "trecho": "No caso da reforma tributária, a avaliação é que a transição para o novo sistema tende a provocar mudanças nos preços de alguns produtos e, principalmente, de serviços.",
+   "por_que_importa": "É avaliação de economistas, não número oficial. Mas quem vende serviço precisa revisar preço e contrato antes de janeiro, porque a carga muda com a troca de PIS/Cofins pela CBS.",
+   "ideia_post": "Corte de cabelo, academia, conserto: o que pode ficar mais caro em 2027 com o imposto novo, e por que serviço sente mais.",
+   "origem": "rss"
+  },
+  {
+   "chave": "2810417b75975ad5",
+   "tema": "reforma",
+   "titulo": "Frentes parlamentares recebem estudos que revisam cálculo da CBS para menos de 10%",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/blogs/que-imposto-e-esse/2026/11/frentes-parlamentares-recebem-estudos-que-revisam-calculo-da-cbs-para-menos-de-10.shtml",
+   "publicado_em": "2026-11-24T18:22:00-03:00",
+   "linha": "Estudos entregues ao Congresso dizem que a alíquota da CBS poderia ficar perto de 10%, abaixo dos 11,3% calculados pelo TCU para 2027.",
+   "trecho": "Estudos entregues nesta terça-feira (24) a frentes parlamentares do Congresso Nacional apontam que a alíquota da CBS (Contribuição sobre Bens e Serviços) poderia ficar próxima de 10% com ajustes na forma como o cálculo foi realizado pelo TCU (Tribunal de Contas da União). A instituição chegou ao valor de 11,3% para 2027, número que poderá ser revisado pelo Senado.",
+   "por_que_importa": "A alíquota de 2027 ainda não está fixada: quem decide é o Senado. Os 11,3% do TCU e os cerca de 10% dos estudos são cálculos, não norma. Formar preço com a alíquota final ainda é chute.",
+   "ideia_post": "11,3% ou 10%? A alíquota do imposto novo ainda não está definida, e quem decide é o Senado. Explico em um minuto.",
+   "origem": "rss"
+  },
+  {
+   "chave": "f3476493e5572ce3",
+   "tema": "reforma",
+   "titulo": "Incertezas sobre a compensação de créditos da CBS podem impactar o fluxo de caixa das empresas exportadoras",
+   "fonte": "Folha",
+   "url": "https://www1.folha.uol.com.br/blogs/que-imposto-e-esse/2026/11/incertezas-sobre-a-compensacao-de-creditos-da-cbs-podem-impactar-o-fluxo-de-caixa-das-empresas-exportadoras.shtml",
+   "publicado_em": "2026-11-25T04:00:00-03:00",
+   "linha": "Exportador que acumula crédito ainda não sabe se vai poder usar o crédito da CBS para abater outros tributos federais, o que mexe no caixa.",
+   "trecho": "Com a extinção do PIS e da Cofins e o início da cobrança da CBS (Contribuição sobre Bens e Serviços) em 1º de janeiro de 2027, surge uma questão relevante: será possível utilizar créditos da nova contribuição para compensar débitos de outros tributos federais?",
+   "por_que_importa": "Para quem exporta, o crédito parado é dinheiro parado. A dúvida ganhou peso porque a LC 239, sancionada ontem, autoriza o governo a limitar compensações de tributos federais, com percentuais ainda a definir.",
+   "ideia_post": "Você exporta e acumula crédito de imposto? Em 2027 a regra para usar esse dinheiro muda, e ainda tem ponto em aberto.",
+   "origem": "rss"
+  },
+  {
+   "chave": "9db28ddf39fab9f9",
+   "tema": "pessoas",
+   "titulo": "Entenda como o dólar ao redor de R$ 6 encarece comida, eletrônicos e passagens aéreas",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/economia/dolar-a-6-reais-impacto-inflacao-precos/",
+   "publicado_em": "2026-11-25T05:00:00-03:00",
+   "linha": "O dólar perto de R$ 6 chega primeiro à carne e ao supermercado e depois a celular, TV e passagem aérea, segundo economista da FGV.",
+   "trecho": "As passagens aéreas também sofrem pressão dupla do câmbio e da cotação internacional do petróleo.",
+   "por_que_importa": "Segundo o economista ouvido, os primeiros aumentos nos alimentos devem aparecer entre dezembro e o início de 2027, e os eletrônicos sentem ao longo de 2027. Quem planeja comprar eletrônico ou viajar pode antecipar.",
+   "ideia_post": "O dólar subiu e você nem viaja para fora. Por que ele vai aparecer na sua carne e no seu celular?",
+   "origem": "rss"
+  },
+  {
+   "chave": "c51e7b7464f9b7b5",
+   "tema": "pessoas",
+   "titulo": "Inscrições para concurso do IBGE com 27 mil vagas terminam nesta quarta; veja como participar",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/11/25/inscricoes-concurso-do-ibge-com-27-mil-vagas.ghtml",
+   "publicado_em": "2026-11-25T00:00:00-03:00",
+   "linha": "Último dia para se inscrever na seleção temporária do IBGE para o Censo Agropecuário de 2027, com taxa de R$ 70.",
+   "trecho": "As inscrições para o processo seletivo temporário do Instituto Brasileiro de Geografia e Estatística (IBGE), que vai contratar profissionais para atuar no 12º Censo Agropecuário, Florestal e Aquícola de 2027, terminam nesta quarta-feira (25), às 23h59.",
+   "por_que_importa": "São 27.279 vagas de recenseador no país todo. A inscrição é pelo site da Fundação Cesgranrio e fecha hoje às 23h59.",
+   "origem": "rss"
+  },
+  {
+   "chave": "ba76658c3bffccab",
+   "tema": "pessoas",
+   "titulo": "Itaú entra no Minha Casa, Minha Vida e avança sobre mercado dominado pela Caixa",
+   "fonte": "Estadão",
+   "url": "https://www.estadao.com.br/economia/negocios/itau-entra-no-minha-casa-minha-vida-e-avanca-sobre-mercado-dominado-pela-caixa/",
+   "publicado_em": "2026-11-24T19:38:11-03:00",
+   "linha": "Quem se enquadra na Faixa 3 do Minha Casa, Minha Vida ganha mais um banco para financiar a casa própria.",
+   "trecho": "Em nota, o Itaú informou que a oferta será destinada a clientes elegíveis à Faixa 3, com renda mensal entre R$ 5 mil e R$ 9,6 mil.",
+   "por_que_importa": "Mais um banco no programa é mais chance de comparar condições antes de fechar o financiamento. Segundo a matéria, Bradesco e Santander estudam fazer o mesmo.",
+   "ideia_post": "Renda entre R$ 5 mil e R$ 9,6 mil? Agora não é só a Caixa no Minha Casa, Minha Vida. Compare antes de assinar.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 187
+}
