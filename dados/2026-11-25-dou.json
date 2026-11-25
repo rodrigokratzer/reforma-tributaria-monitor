@@ -264,7 +264,7 @@
     }
    ],
    "diagnostico": {
-    "lidas": 5046,
+    "lidas": 5047,
     "forte": 2,
     "revisar": 19,
     "baixados": 515,
@@ -272,8 +272,7 @@
     "duplicados": 0,
     "sem_edicao": [
      "2026-11-24 DO3E: sem materias",
-     "2026-11-25 DO1E: sem materias",
-     "2026-11-25 DO3E: sem materias"
+     "2026-11-25 DO1E: sem materias"
     ],
     "erros": []
    }
