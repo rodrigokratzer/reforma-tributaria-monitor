@@ -1,0 +1,282 @@
+{
+ "data": "2026-11-25",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": "leiturajornal",
+   "http_status": null,
+   "erro": null,
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br)",
+   "total": 21,
+   "itens": [
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 275, de 23 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-275-de-23-de-novembro-de-2026-745816940",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 275, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 274, de 23 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-274-de-23-de-novembro-de-2026-745831208",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 274, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 98.375, DE 28 DE OUTUBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-98.375-de-28-de-outubro-de-2026-745828585",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Tributação e Contencioso/Coordena",
+     "ementa": "Centro de Classificação Fiscal de Mercadorias SOLUÇÃO DE CONSULTA Nº 98.375, DE 28 DE OUTUBRO DE 2026 Assunto: Classificação de Mercadorias Código NCM 8473.29.10 Mercadoria: Placa de circuito impresso rígida, concebida exclusivamente para terminais point of sale - POS, responsável por monitorar a in",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA CGAUT/SUSEP nº 273, de 23 De NOVEMBRO de 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-cgaut/susep-n-273-de-23-de-novembro-de-2026-745817732",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Superintendência de Seguros Privados/Diretoria de Organização de Mercado e Regulação de Conduta/Coordenação-Geral de A",
+     "ementa": "PORTARIA CGAUT/SUSEP nº 273, de 23 De NOVEMBRO de 2026 O COORDENADOR-GERAL DA COORDENAÇÃO-GERAL DE AUTORIZAÇÕES DA SUPERINTENDÊNCIA DE SEGUROS PRIVADOS - CGAUT, no uso da competência delegada pelo Superintendente da Susep, por meio da Portaria nº 8.186, de 21 de julho de 2023, tendo em vista o dispo",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA SUARA Nº 393, DE 23 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-suara-n-393-de-23-de-novembro-de-2026-745806248",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Subsecretaria de Arrecadação, Cadastros e Atendime",
+     "ementa": "PORTARIA SUARA Nº 393, DE 23 DE NOVEMBRO DE 2026 Transfere competências e atribuições para a Delegacia da Receita Federal do Brasil em Santa Maria - RS relativas aos procedimentos de notificação, qualificação, acompanhamento e desqualificação de devedores contumazes. O SUBSECRETÁRIO DE ARRECADAÇÃO, ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGSN Nº 196, DE 16 de NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comitê Gestor do Simples Nacional",
+     "ementa": "RESOLUÇÃO CGSN Nº 196, DE 16 de NOVEMBRO DE 2026 Altera as Resoluções CGSN nº 140, de 22 de maio de 2018, e nº 190, de 4 de agosto de 2026, que dispõem sobre o Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte - Simples Nacio",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 8.023, DE 31 DE JULHO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-8.023-de-31-de-julho-de-2026-745807679",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "SOLUÇÃO DE CONSULTA Nº 8.023, DE 31 DE JULHO DE 2026 Assunto: Contribuição para o PIS/Pasep SUBVENÇÃO GOVERNAMENTAL PARA INVESTIMENTO. CRÉDITO PRESUMIDO DE ICMS. NOVA SISTEMÁTICA. IMPOSSIBILIDADE DE EXCLUSÃO DA BASE DE CÁLCULO DA CONTRIBUIÇÃO PARA O PIS/PASEP NO REGIME NÃO CUMULATIVO. Para fins dos ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Portaria SE/MF Nº 3.449, DE 23 DE novembro DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-se/mf-n-3.449-de-23-de-novembro-de-2026-745824518",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Executiva",
+     "ementa": "Portaria SE/MF Nº 3.449, DE 23 DE novembro DE 2026 Altera a Portaria STN/MF nº 1.135, de 11 de julho de 2024, para dispor sobre os prazos e a asseguração dos relatórios de prestação de contas do Leilão Eco Invest Brasil nº 1/2024 e sobre a validade de pareceres e relatórios de verificação independen",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CGSN Nº 197, DE 16 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-197-de-16-de-novembro-de-2026-745828664",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Comitê Gestor do Simples Nacional",
+     "ementa": "RESOLUÇÃO CGSN Nº 197, DE 16 DE NOVEMBRO DE 2026 Altera o Regimento Interno do Comitê Gestor do Simples Nacional, aprovado pela Resolução CGSN nº 176, de 19 de junho de 2024. O Comitê Gestor do Simples Nacional, no uso das atribuições que lhe conferem a Lei Complementar nº 123, de 14 de dezembro de ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CMN Nº 5.347, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cmn-n-5.347-de-19-de-novembro-de-2026-746071572",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Conselho Monetário Nacional",
+     "ementa": "RESOLUÇÃO CMN Nº 5.347, DE 19 DE NOVEMBRO DE 2026 Autoriza a utilização de Conta de Liquidação em procedimentos aplicáveis ao Programa de Garantia da Atividade Agropecuária - Proagro. O Banco Central do Brasil, na forma do art. 9º da Lei nº 4.595, de 31 de dezembro de 1964, torna público que o Conse",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CMN Nº 5.348, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cmn-n-5.348-de-19-de-novembro-de-2026-746071491",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Conselho Monetário Nacional",
+     "ementa": "RESOLUÇÃO CMN Nº 5.348, DE 19 DE NOVEMBRO DE 2026 Altera a Resolução CMN nº 5.296, de 23 de abril de 2026, para postergar a vigência dos dispositivos relativos ao indicador Liquidez de Curto Prazo Simplificado - LCRS e dispor sobre hipótese de dispensa do cumprimento dos limites mínimos. O Banco Cen",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CMN Nº 5.346, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cmn-n-5.346-de-19-de-novembro-de-2026-746071306",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Conselho Monetário Nacional",
+     "ementa": "RESOLUÇÃO CMN Nº 5.346, DE 19 DE NOVEMBRO DE 2026 Altera a Resolução CMN nº 4.966, de 25 de novembro de 2021, que dispõe sobre os conceitos e os critérios contábeis aplicáveis a instrumentos financeiros, bem como para a designação e o reconhecimento das relações de proteção (contabilidade de hedge) ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "RESOLUÇÃO CMN Nº 5.345, DE 19 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/resolucao-cmn-n-5.345-de-19-de-novembro-de-2026-746071867",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Conselho Monetário Nacional",
+     "ementa": "RESOLUÇÃO CMN Nº 5.345, DE 19 DE NOVEMBRO DE 2026 Altera a Resolução CMN nº 4.911, de 27 de maio de 2021, que dispõe sobre os critérios gerais para elaboração e remessa de documentos contábeis ao Banco Central do Brasil pelas instituições financeiras e demais instituições autorizadas a funcionar pel",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "Portaria PGFN/MF Nº 3.458, DE 23 DE novembro DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-pgfn/mf-n-3.458-de-23-de-novembro-de-2026-746071009",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1E",
+     "orgao": "Ministério da Fazenda/Procuradoria-Geral da Fazenda Nacional",
+     "ementa": "Portaria PGFN/MF Nº 3.458, DE 23 DE novembro DE 2026 Dispõe sobre medidas relacionadas aos atos de cobrança da dívida ativa da União, incluindo suspensão, prorrogação e diferimento, em decorrência do estado de calamidade pública no Município de Tupanciretã, no Estado do Rio Grande do Sul, reconhecid",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "LEI COMPLEMENTAR Nº 239, DE 24 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-239-de-24-de-novembro-de-2026-745996277",
+     "data": "2026-11-24",
+     "fonte": "DOU DO1E",
+     "orgao": "Atos do Poder Legislativo",
+     "ementa": "LEI COMPLEMENTAR Nº 239, DE 24 DE NOVEMBRO DE 2026 Altera a Lei Complementar nº 200, de 30 de agosto de 2023, a Lei Complementar nº 176, de 29 de dezembro de 2020, a Lei Complementar nº 235, de 27 de agosto de 2026, a Lei Complementar nº 224, de 26 de dezembro de 2025, a Lei nº 11.540, de 12 de nove",
+     "balde": "forte",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/PMPF Nº 31, DE 24 de NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/pmpf-n-31-de-24-de-novembro-de-2026-746079599",
+     "data": "2026-11-25",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "Secretaria Executiva ATO COTEPE/PMPF Nº 31, DE 24 de NOVEMBRO DE 2026 Preço médio ponderado ao consumidor final (PMPF) de combustíveis. O Secretário Executivo da Secretaria Executiva do Conselho Nacional de Política Fazendária - CONFAZ, no uso das atribuições que lhe são conferidas pelo inciso IX, d",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 122, DE 24 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-122-de-24-de-novembro-de-2026-746086330",
+     "data": "2026-11-25",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE/ICMS Nº 122, DE 24 DE NOVEMBRO DE 2026 Altera o Ato COTEPE/ICMS n° 2, de 3 de janeiro de 2020, que divulga relação de contribuintes remetentes, destinatários e prestadores de serviços de transporte de gás natural que operam por meio do gasoduto credenciados pelas unidades federadas. O Sec",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 121, DE 24 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-121-de-24-de-novembro-de-2026-746078697",
+     "data": "2026-11-25",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE/ICMS Nº 121, DE 24 DE NOVEMBRO DE 2026 Altera o Anexo II do Ato COTEPE/ICMS nº 26, de 27 de outubro de 2016, que divulga a relação dos contribuintes credenciados para fins do disposto no § 1º da cláusula segunda-A do Protocolo ICMS 55/13. O Secretário Executivo da Secretaria Executiva do ",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "ATO COTEPE/ICMS Nº 120, DE 24 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/ato-cotepe/icms-n-120-de-24-de-novembro-de-2026-746075068",
+     "data": "2026-11-25",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Conselho Nacional de Política Fazendária",
+     "ementa": "ATO COTEPE/ICMS Nº 120, DE 24 DE NOVEMBRO DE 2026 Altera o Ato COTEPE/ICMS nº 25, de 7 de junho de 2021, que divulga relação de contribuintes do ICMS, autores da encomenda e industrializadores, credenciados pelas unidades federadas para usufruírem do tratamento diferenciado previsto no Ajuste SINIEF",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "PORTARIA PRFN2/MF Nº 3.453, de 23 DE NOVEMBRO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/portaria-prfn2/mf-n-3.453-de-23-de-novembro-de-2026-746087369",
+     "data": "2026-11-25",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Procuradoria Regional da Fazenda Nacional na 2ª Região",
+     "ementa": "PORTARIA PRFN2/MF Nº 3.453, de 23 DE NOVEMBRO DE 2026 Anula certidão de regularidade fiscal. A PROCURADORA REGIONAL DA FAZENDA NACIONAL NA 2ª REGIÃO, no uso das atribuições que lhe foram conferidas pelo art. 86 do Regimento Interno da Procuradoria-Geral da Fazenda Nacional, aprovado pela Portaria MF",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    },
+    {
+     "titulo": "SOLUÇÃO DE CONSULTA Nº 8.024, DE 5 DE AGOSTO DE 2026",
+     "url": "https://www.in.gov.br/web/dou/-/solucao-de-consulta-n-8.024-de-5-de-agosto-de-2026-746074997",
+     "data": "2026-11-25",
+     "fonte": "DOU DO1",
+     "orgao": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil/Secretaria-Adjunta/Superintendência Regional da Receita Federal do Br",
+     "ementa": "SOLUÇÃO DE CONSULTA Nº 8.024, DE 5 DE AGOSTO DE 2026 Assunto: Normas Gerais de Direito Tributário O incorporador que promova a incorporação imobiliária na forma de condomínio de lotes, com destinação residencial ou não-residencial, pode optar pelo Regime Especial de Tributação aplicável às incorpora",
+     "balde": "revisar",
+     "continuacao": false,
+     "alerta": null,
+     "pasta_arquivo": null
+    }
+   ],
+   "diagnostico": {
+    "lidas": 5046,
+    "forte": 2,
+    "revisar": 19,
+    "baixados": 515,
+    "falhas_download": 0,
+    "duplicados": 0,
+    "sem_edicao": [
+     "2026-11-24 DO3E: sem materias",
+     "2026-11-25 DO1E: sem materias",
+     "2026-11-25 DO3E: sem materias"
+    ],
+    "erros": []
+   }
+  }
+ ]
+}
