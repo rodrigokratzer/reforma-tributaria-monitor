@@ -1,8 +1,11 @@
 {
- "data": "2026-11-25",
- "turno": "noturna",
- "situacao": "sem_novidade",
- "acoes": 0,
- "gerado_em": "2026-11-25T20:08:00Z",
- "resumo_curto": "Nenhuma publicação oficial nova; 230 notícias lidas"
+ "data": "2026-11-26",
+ "turno": "matinal",
+ "situacao": "publicada",
+ "acoes": 1,
+ "gerado_em": "2026-11-26T08:40:00Z",
+ "resumo_curto": "1 publicação nova, exige ação: MEI de R$ 110 mil e 2 empregados em 2027 (Res. CGSN 198)",
+ "painel_atualizado": [
+  "MEI terá teto de R$ 110 mil e até dois empregados a partir de 01/01/2027; quem estourou 2026 em mais de 20% e ficou até R$ 110 mil pede nova opção pelo Simei em janeiro (Res. CGSN 198)"
+ ]
 }

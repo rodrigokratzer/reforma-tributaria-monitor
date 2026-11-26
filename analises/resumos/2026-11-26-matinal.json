@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-26",
+ "turno": "matinal",
+ "manchete": "MEI poderá faturar até R$ 110 mil e ter dois empregados em 2027, e banco vai cortar limite de quem vive no rotativo do cartão",
+ "em_30_segundos": [
+  "Regra do Simples oficializada: a partir de janeiro, MEI pode faturar até R$ 110 mil por ano e contratar dois empregados",
+  "MEI que estourou bem o teto em 2026, mas ficou até R$ 110 mil, precisa pedir de novo para ser MEI em janeiro",
+  "A partir de julho de 2027, quem deixa de pagar a fatura inteira do cartão com frequência terá o limite reduzido",
+  "Agro, comércio e transporte pediram ao STF o adiamento da reforma tributária; por ora, nada muda nos prazos",
+  "Feirão Serasa Limpa Nome começa hoje e vai até 3 de dezembro, com dívidas por até R$ 100"
+ ],
+ "noticias": [
+  {
+   "chave": "106212706f888dc9",
+   "tema": "reforma",
+   "titulo": "Resolução CGSN nº 198: MEI com teto de R$ 110 mil e até dois empregados em 2027",
+   "fonte": "Diário Oficial da União",
+   "url": "https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-198-de-16-de-novembro-de-2026-746245817",
+   "publicado_em": "2026-11-25",
+   "linha": "O regulamento do Simples passa a dizer que, a partir de 1º/01/2027, o MEI pode faturar até R$ 110 mil por ano e ter dois empregados.",
+   "trecho": "O MEI poderá contratar até 2 (dois) empregados que recebam exclusivamente 1 (um) salário mínimo previsto em lei federal ou estadual ou o piso salarial da categoria profissional, definido em lei federal ou por convenção coletiva da categoria.",
+   "por_que_importa": "Vale a partir de 1º/01/2027. Quem passou do limite de 2026 em até 20% continua MEI automaticamente; quem passou mais que isso, mas ficou em até R$ 110 mil, precisa pedir de novo a opção pelo Simei em janeiro de 2027. Pagar comissão ou gorjeta ao empregado conta como descumprir o limite.",
+   "ideia_post": "\"Estourei o teto do MEI em 2026. Perdi o MEI?\" Depende de quanto: quem passou um pouco segue automaticamente, quem passou mais tem que pedir de novo em janeiro.",
+   "origem": "oficial"
+  },
+  {
+   "chave": "c2f864b75612b58f",
+   "tema": "pessoas",
+   "titulo": "CMN e BC anunciam novas regras para conter endividamento das famílias",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias",
+   "publicado_em": "2026-11-25T20:37:00-03:00",
+   "linha": "Quem vive no rotativo do cartão vai ter o limite cortado aos poucos, e quem está com dívida atrasada há mais de 90 dias perde acesso a novo empréstimo sem garantia.",
+   "trecho": "A maior parte das medidas entrará em vigor em 1º de julho de 2027. A exceção são as regras sobre negociação de direitos creditórios, previstas para 1º de novembro de 2027.",
+   "por_que_importa": "A partir de julho de 2027, quem deixar de pagar a fatura inteira três ou mais vezes em seis meses terá o limite reduzido gradualmente, até pagar seis faturas cheias seguidas ou quitar o rotativo. Consignado, crédito com garantia, renegociação e portabilidade continuam liberados para quem está inadimplente.",
+   "ideia_post": "\"Pago só o mínimo do cartão. O banco vai cortar meu limite?\" A partir de julho de 2027, sim: a regra das três faturas em seis meses e como sair dela.",
+   "origem": "rss"
+  },
+  {
+   "chave": "5dc9b47575381172",
+   "tema": "reforma",
+   "titulo": "Confederações empresariais pedem ao STF o adiamento da reforma tributária",
+   "fonte": "Folha Mercado",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/confederacoes-empresariais-pedem-ao-stf-o-adiamento-da-reforma-tributaria.shtml",
+   "publicado_em": "2026-11-25T22:13:00-03:00",
+   "linha": "Agro, comércio e transporte foram ao Supremo pedir que a reforma tributária não comece a valer agora.",
+   "trecho": "A CNA (Confederação da Agricultura e Pecuária do Brasil), a CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo) e a CNT (Confederação Nacional do Transporte) protocolaram uma ação conjunta no STF (Supremo Tribunal Federal) nesta quarta-feira (25) pedindo o adiamento da entrada em vigor da reforma tributária no país.",
+   "por_que_importa": "É só um pedido: até o STF decidir, todos os prazos seguem valendo, incluindo a CBS a partir de janeiro de 2027. A empresa não deve parar a adaptação de sistemas e notas contando com o adiamento.",
+   "ideia_post": "\"A reforma vai ser adiada?\" O que o pedido no STF muda hoje (nada, por enquanto) e por que não vale a pena esperar para se adaptar.",
+   "origem": "rss"
+  },
+  {
+   "chave": "56cf63ba44508dee",
+   "tema": "pessoas",
+   "titulo": "INSS libera 13º a 2,6 mi de segurados em novembro e dezembro; veja quem recebe",
+   "fonte": "Folha Mercado",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/inss-libera-13o-a-26-mi-de-segurados-em-novembro-e-dezembro-veja-quem-recebe.shtml",
+   "publicado_em": "2026-11-26T04:00:00-03:00",
+   "linha": "Quem passou a receber aposentadoria ou pensão do INSS a partir de maio ganha o 13º em novembro e dezembro.",
+   "trecho": "O INSS (Instituto Nacional do Seguro Social) liberou o 13º a 2,6 milhões de novos aposentados e pensionistas em novembro e dezembro. Os valores começaram a ser depositados na terça-feira (24), nas contas de quem conseguiu o benefício a partir de maio deste ano.",
+   "por_que_importa": "São 2,6 milhões de segurados que ficaram de fora da antecipação do 13º no meio do ano; o dinheiro já começou a cair desde terça (24).",
+   "ideia_post": "\"Me aposentei este ano e não recebi o 13º com todo mundo. Perdi?\" Não: veja quando cai.",
+   "origem": "rss"
+  },
+  {
+   "chave": "6f7e974f382542e1",
+   "tema": "pessoas",
+   "titulo": "Feirão do Serasa reúne 46 milhões de ofertas de dívidas por até R$ 100 em SP",
+   "fonte": "Folha Mercado",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/11/feirao-do-serasa-reune-46-milhoes-de-ofertas-de-dividas-por-ate-r-100-em-sp.shtml",
+   "publicado_em": "2026-11-26T04:00:00-03:00",
+   "linha": "Começa hoje o Feirão Serasa Limpa Nome, com dívidas que podem ser quitadas por até R$ 100.",
+   "trecho": "Mais de 46 milhões de ofertas de renegociação de dívidas por até R$ 100 estão disponíveis em São Paulo durante o Feirão Serasa Limpa Nome, que se inicia nesta quinta-feira (26) e vai até o dia 3 de dezembro.",
+   "por_que_importa": "Vai de 26/11 a 03/12. Combina com o 13º chegando: quitar dívida pequena agora limpa o nome antes das compras de fim de ano.",
+   "ideia_post": "\"Dá para limpar o nome com R$ 100?\" Feirão até 3 de dezembro: como conferir se a sua dívida está na lista antes de pagar.",
+   "origem": "rss"
+  }
+ ],
+ "lidas": 198
+}
