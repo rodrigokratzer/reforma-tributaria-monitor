@@ -197,13 +197,25 @@ def coleta_portal(portal, ctx, limite):
         return r
 
 
+def abrir_navegador(p):
+    """Abre o Google Chrome do sistema (qualquer versão; o apt o mantém atualizado). Sem ele, usa o Chromium
+    baixado pelo Playwright. Assim a varredura não depende da versão exata que cada Playwright espera
+    (em 26/11/2026 o build antigo do Playwright 1.63 deixou de baixar e o ciclo noturno falhou)."""
+    args = ["--no-sandbox", "--disable-dev-shm-usage"]
+    try:
+        return p.chromium.launch(channel="chrome", args=args)
+    except Exception as e:
+        print(f"  Chrome do sistema indisponivel ({type(e).__name__}); usando o Chromium do Playwright")
+        return p.chromium.launch(args=args)
+
+
 def main():
     hoje = os.environ.get("DATA_REF") or datetime.date.today().isoformat()
     from playwright.sync_api import sync_playwright
 
     resultado = []
     with sync_playwright() as p:
-        nav = p.chromium.launch(args=["--no-sandbox", "--disable-dev-shm-usage"])
+        nav = abrir_navegador(p)
         ctx = nav.new_context(locale="pt-BR", user_agent=UA,
                               extra_http_headers={"Accept-Language": "pt-BR,pt;q=0.9"})
         limite = time.monotonic() + ORCAMENTO_S
