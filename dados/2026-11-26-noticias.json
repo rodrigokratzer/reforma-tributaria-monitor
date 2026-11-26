@@ -139,11 +139,11 @@
     },
     {
      "tipo": "noticia",
-     "titulo": "Ibovespa dispara e dólar cai abaixo de R$ 5,80, de olho em nomes para a Fazenda e política fiscal",
+     "titulo": "Ibovespa dispara e dólar cai a R$ 5,74, de olho em nomes para a Fazenda e política fiscal",
      "url": "https://g1.globo.com/economia/noticia/2026/11/26/dolar-ibovespa.ghtml",
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T09:00:00-03:00",
-     "ementa": "Entenda o que faz o preço do dólar subir ou cair 9 O Ibovespa, principal índice da bolsa brasileira, operava em forte alta nesta quinta-feira (26), com avanço de 3,93% perto das 15h40, aos 173.242 pontos. Já o dólar recuava 1,22% no mesmo horário, cotado a R$ 5,7455. Na mínima do dia, chegou a R$ 5,7116. A possível indicação de Luiz Carlos Trabuco para assumir o Ministério da Fazenda está no centro das atenções. O mercado também acompanha as medidas econômicas do governo para 2027, em busca de sinais sobre o próximo mandato de Lula (PT). A prévia da inflação brasileira e as tarifas anunciadas…"
+     "ementa": "Entenda o que faz o preço do dólar subir ou cair 9 O Ibovespa, principal índice da bolsa brasileira, operava em forte alta de 4,23% nesta quinta-feira (26), perto das 17h, aos 173.742 pontos. É o maior avanço diário desde o pregão seguinte ao primeiro turno das eleições presidenciais, quando o índice subiu 7,70%, aos 206.904 pontos. Já o dólar encerrou o dia em queda de 1,25%, cotado a R$ 5,7441. A possível indicação de Luiz Carlos Trabuco para assumir o Ministério da Fazenda está no centro das atenções. O mercado também acompanha as medidas econômicas do governo para 2027, em busca de sinais…"
     },
     {
      "tipo": "noticia",
@@ -509,11 +509,11 @@
     },
     {
      "tipo": "noticia",
-     "titulo": "Black Friday concentra os maiores descontos à tarde; veja melhores horários",
+     "titulo": "Black Friday tem mais ofertas na virada e maior desconto médio à tarde; veja os melhores horários",
      "url": "https://www1.folha.uol.com.br/mercado/2026/11/black-friday-concentra-os-maiores-descontos-a-tarde-veja-melhores-horarios.shtml",
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T16:37:00-03:00",
-     "ementa": "Quem pretende aproveitar as promoções da Black Friday deste ano deve considerar mais de um horário para fazer compras. A virada de quinta-feira (26) para sexta (27) concentra o maior volume de ofertas, mas os maiores descontos médios aparecem entre 14h e 18h do dia oficial da campanha, segundo levantamento do Promobit. Leia mais (11/26/2026 - 16h37)"
+     "ementa": "Quem pretende aproveitar as promoções da Black Friday deste ano deve considerar mais de um horário para fazer compras. De acordo com a plataforma Prombit, a virada concentrou o maior volume de ofertas, e a tarde de sexta teve o maior desconto médio. Leia mais (11/26/2026 - 16h37)"
     },
     {
      "tipo": "noticia",
@@ -1465,6 +1465,22 @@
    "itens": [
     {
      "tipo": "noticia",
+     "titulo": "CEO da Nelogica explica como a inteligência artificial está transformando o day trade",
+     "url": "https://www.infomoney.com.br/mercados/ceo-da-nelogica-explica-como-inteligencia-artificial-esta-transformando-day-trade/",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:14:00-03:00",
+     "ementa": "Da criação de estratégias sem conhecimento de programação à automação de operações, Marcos Boschetti analisa as oportunidades e os desafios da inteligência artificial para os traders The post CEO da Nelogica explica como a inteligência artificial está transformando o day trade appeared first on InfoMoney."
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Repique ou reversão? Com gringos na compra, traders veem Ibovespa aos 180 mil pontos",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-180-mil-pontos-traders-fluxo-estrangeiro/",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:11:34-03:00",
+     "ementa": "Estrangeiros monitorados acumulam R$ 1,2 bi em compras líquidas hoje no mercado futuro de índice, enquanto gráficos diário e semanal apresentam sinais favoráveis à recuperação da Bolsa The post Repique ou reversão? Com gringos na compra, traders veem Ibovespa aos 180 mil pontos appeared first on InfoMoney."
+    },
+    {
+     "tipo": "noticia",
      "titulo": "Kit de emergência: venda de enlatados dispara após recomendação da Defesa Civil",
      "url": "https://www.infomoney.com.br/business/kit-de-emergencia-venda-de-enlatados-dispara-apos-recomendacao-da-defesa-civil/",
      "data": "2026-11-26",
@@ -1526,22 +1542,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T16:31:40-03:00",
      "ementa": "Processo foi aberto em 2023 e intimação foi assinada no último dia 24 The post CVM intima Americanas, ex-CEO e mais 29 ex-executivos sobre rombo contábil appeared first on InfoMoney."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Exxonmobil arremata cerca de 1 mi barris de petróleo do campo de Búzios",
-     "url": "https://www.infomoney.com.br/mercados/exxonmobil-arremata-cerca-de-1-mi-barris-de-petroleo-do-campo-de-buzios/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:23:22-03:00",
-     "ementa": "As ​cargas correspondem ao lote 1 ⁠e ​têm ​previsão de carregamento no ⁠início ​de janeiro de 2027 The post Exxonmobil arremata cerca de 1 mi barris de petróleo do campo de Búzios appeared first on InfoMoney."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio",
-     "url": "https://www.infomoney.com.br/mercados/petrobras-paralisa-plataforma-p-77-em-buzios-apos-raio-causar-principio-de-incendio/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:22:03-03:00",
-     "ementa": "A ⁠companhia disse em nota que não houve vítimas nem danos aos equipamentos The post Petrobras paralisa plataforma P-77 em Búzios após raio causar princípio de incêndio appeared first on InfoMoney."
     }
    ]
   },
@@ -1550,9 +1550,41 @@
    "url": "https://valor.globo.com/rss/valor",
    "metodo": "rss",
    "http_status": 200,
-   "total": 73,
+   "total": 71,
    "erro": null,
    "itens": [
+    {
+     "tipo": "noticia",
+     "titulo": "Petróleo sobe após ataque a refinaria na Arábia Saudita",
+     "url": "https://valor.globo.com/financas/noticia/2026/11/26/petroleo-sobe-apos-ataque-a-refinaria-na-arabia-saudita.ghtml",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:09:18-03:00",
+     "ementa": "Em dia de menor liquidez nos mercados internacionais, por conta do feriado do Dia de Ação de Graças nos Estados Unidos, os contratos futuros do petróleo Brent, usado como referência mundial, subiram após um ataque de houthis a uma refinaria na Arábia Saudita. O WTI, negociado na bolsa americana, também operou em alta durante o dia, em pregão eletrônico. No fechamento, o Brent com vencimento em fevereiro subiu 2,60%, cotado a US$ 92,08 por barril, na Intercontinental Exchange (ICE), sediada em Londres. Por volta das 16h45 (de Brasília), o WTI com entrega prevista para janeiro registrava alta…"
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Cabo de guerra entre Black Friday e El Niño segura IPCA-15 em novembro, mas não muda perspectiva, dizem economistas",
+     "url": "https://valor.globo.com/brasil/noticia/2026/11/26/cabo-de-guerra-entre-black-friday-e-el-nio-segura-ipca-15-em-novembro-mas-no-muda-perspectiva-dizem-economistas.ghtml",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:06:54-03:00",
+     "ementa": "A prévia da inflação oficial do país teve em novembro o segundo mês consecutivo de pressão sobre preços abaixo do esperado. Em cabo de guerra, descontos antecipados da Black Friday e o efeito dos carros chineses no mercado de automóveis atuaram para inflação mais contida ou deflação, enquanto o El Niño salgou os preços da alimentação, principalmente daqueles in natura. O quadro mais favorável, porém, não deve continuar, porque resulta de elementos voláteis ou temporários, que não contam muito sobre o futuro, seja, o de curtíssimo prazo — dezembro — ou mais à frente — 2027. Não há, portanto…"
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Dólar cai 1,25%, a R$ 5,74, e Ibovespa sobe 4% com 'efeito Trabuco' e otimismo com política fiscal",
+     "url": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:04:18-03:00",
+     "ementa": "Dólar cai 1,25%, a R$ 5,74, e Ibovespa sobe 4% com 'efeito Trabuco' e otimismo com política fiscal IPCA-15 abaixo do previsto também anima o mercado doméstico, em dia de feriado nos EUA Sonho distante, mercado vê rápida mudança de humor com Trabuco na Fazenda. Juros futuros despencam com possibilidade de Trabuco na Fazenda. Dólar à vista tem queda firme com chance de Trabuco na Fazenda. Ibovespa sobe 4% com ‘efeito Trabuco’ e posicionamento técnico leve dos investidores. Análise: Quem é Luiz Carlos Trabuco e por que a probabilidade de ele aceitar o ‘pior emprego do mundo’ é baixa"
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "EUA e Catar negociam ajudar Venezuela a quitar dívidas com bancos multilaterais",
+     "url": "https://valor.globo.com/mundo/noticia/2026/11/26/eua-e-catar-negociam-ajudar-venezuela-a-quitar-dvidas-com-bancos-multilaterais.ghtml",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:00:06-03:00",
+     "ementa": "A Venezuela está negociando empréstimos-ponte separados com o Tesouro dos Estados Unidos e o Catar para quitar dívidas em atraso com dois bancos regionais de desenvolvimento. A iniciativa pode abrir caminho para novos financiamentos multilaterais ao país, segundo quatro fontes familiarizadas com as discussões. Leia também: Protestos contra apagões aumentam na Venezuela e pressionam governo de Delcy Venezuela divulga quadro macroeconômico e estima dívida em US$ 237,5 bilhões Senado dos EUA investiga atuação de Vance em contrato de petróleo da Venezuela Os acordos, considerados pouco…"
+    },
     {
      "tipo": "noticia",
      "titulo": "Ala no STF resiste a mulheres, insiste em Pacheco e diz que outros nomes podem ser postergados",
@@ -1568,14 +1600,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T16:37:54-03:00",
      "ementa": "A Fitch Ratings estima que o fim da escala 6x1 terá impacto controlado sobre as empresas brasileiras dos setores de saúde e farmacêutico. A agência mensura que a pressão sobre a margem Ebitda (juro antes de impostos, depreciação e amortização, em inglês) dos emissores de saúde seja inferior a 5%. De acordo com o relatório assinado por Tatiana Thomaz e Danielle Silva, empresas de menor escala e prestadores de serviços de saúde com atuação contínua, como hospitais, tendem a ser os mais afetados. Isso ocorre devido à menor capacidade das empresas pequenas de repassar custos, enquanto os…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Ibovespa sobe 4% e dólar cai até R$ 5,71 com 'efeito Trabuco' e otimismo sobre política fiscal; juros despencam",
-     "url": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:36:20-03:00",
-     "ementa": "Ibovespa sobe 4% e dólar cai até R$ 5,71 com 'efeito Trabuco' e otimismo sobre política fiscal; juros despencam IPCA-15 abaixo do previsto também anima o mercado doméstico, em dia de feriado nos EUA Sonho distante, mercado vê rápida mudança de humor com Trabuco na Fazenda. Juros futuros despencam com possibilidade de Trabuco na Fazenda. Dólar à vista tem queda firme com chance de Trabuco na Fazenda. Ibovespa sobe 4% com ‘efeito Trabuco’ e posicionamento técnico leve dos investidores. Análise: Quem é Luiz Carlos Trabuco e por que a probabilidade de ele aceitar o ‘pior emprego do mundo’ é baixa"
     },
     {
      "tipo": "noticia",
@@ -1635,7 +1659,7 @@
     },
     {
      "tipo": "noticia",
-     "titulo": "Trabuco: um ‘filósofo desempregado’, banqueiro e ministro?; leia a trajetória do cotado para a Fazenda",
+     "titulo": "Trabuco: um 'filósofo desempregado', banqueiro e ministro?; leia a trajetória do cotado para a Fazenda",
      "url": "https://valor.globo.com/politica/noticia/2026/11/26/trabuco-um-filsofo-desempregado-banqueiro-e-ministro-leia-a-trajetria-do-cotado-para-a-fazenda.ghtml",
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T15:57:20-03:00",
@@ -2096,46 +2120,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T11:17:46-03:00",
      "ementa": "O manejo de impacto reduzido tem grande potencial para conciliar a produção legal de madeira e preservar a Amazônia simultaneamente, segundo indicam três estudos apresentados nesta quarta-feira no 9º Fórum de Soluções em Legalidade Florestal, realizado em Belém pelo Imaflora, instituto que atua na promoção do uso sustentável e inclusivo de recursos naturais. Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Alckmin classifica como descabida proposta de taxar aeronaves brasileiras e diz que Brasil tentará reverter medida",
-     "url": "https://valor.globo.com/brasil/noticia/2026/11/26/alckmin-classifica-como-descabida-proposta-de-taxar-aeronaves-brasileiras-e-diz-que-brasil-tentar-reverter-medida.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T11:15:44-03:00",
-     "ementa": "O vice-presidente da República, Geraldo Alckmin, classificou nesta quinta-feira (26) como “totalmente descabida” a possibilidade de os Estados Unidos aplicarem uma tarifa adicional de 10% sobre a importação de aviões brasileiros. Segundo ele, o governo brasileiro trabalhará para reverter a medida. Alckmin argumentou que não há tradição de imposição de tarifas ao setor aeronáutico no mundo, ressaltando o caráter estratégico da atividade. “Não há no mundo tarifa para setor aeronáutico. Isso é uma coisa totalmente descabida e vamos trabalhar para reverter. Não há no mundo tradição de fazer isso…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Bitcoin sobe 3,8% e recupera US$ 60 mil, mas ETFs acumulam US$ 5,39 bi em saídas",
-     "url": "https://valor.globo.com/financas/criptomoedas/noticia/2026/11/26/bitcoin-sobe-38percent-e-recupera-us-60-mil-mas-etfs-acumulam-us-539-bi-em-saidas.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T11:11:36-03:00",
-     "ementa": "O bitcoin avança nesta quinta-feira (26) e volta a negociar acima dos US$ 60 mil, depois de chegar a US$ 57,3 mil na véspera. Segundo Marco Aurélio de Camargos, CIO da Vault Capital, o PCE de outubro reforçou a expectativa de alta de juros pelo Federal Reserve (Fed) em dezembro, mas não aumentou as apostas em um movimento maior, de 0,50 ponto percentual. Com isso, os juros dos Treasuries e o dólar recuaram, aliviando parte da pressão sobre o bitcoin. Por volta das 11h, o bitcoin subia 3,8% em 24 horas, a US$ 60.811,81, segundo o CoinGecko. No Brasil, era negociado a R$ 350.288,31, com alta de…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Governos asiáticos reagem a novas propostas tarifárias dos EUA",
-     "url": "https://valor.globo.com/mundo/noticia/2026/11/26/governos-asiticos-reagem-a-novas-propostas-tarifrias-dos-eua.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T11:01:09-03:00",
-     "ementa": "A Ásia acordou nesta quinta-feira (26) sob uma nova rodada de tarifas dos Estados Unidos que reacendeu a incerteza comercial e provocou descontentamento entre governos que enfrentam mais uma leva de sobretaxas. Leia também: China chama novas tarifas de Trump de ‘ato típico de unilateralismo’ e ameaça retaliar Novas tarifas de Trump buscam reduzir influência da China sobre o comércio global Após revés eleitoral, Trump reafirma política de ameaças comerciais O Escritório do Representante de Comércio dos EUA (USTR, na sigla em inglês) anunciou na quarta-feira os resultados de uma investigação…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Efeito de tarifa sobre aeronaves brasileiras parece 'administrável' para Embraer, diz BTG Pactual",
-     "url": "https://valor.globo.com/empresas/noticia/2026/11/26/efeito-de-tarifa-sobre-aeronaves-brasileiras-parece-administravel-para-embraer-diz-btg-pactual.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T10:57:38-03:00",
-     "ementa": "O BTG Pactual avalia que a Embraer pode mitigar o impacto da tarifa de 10% proposta pelos Estados Unidos sobre aeronaves brasileiras acabadas. Embora a medida possa adicionar “ruído” à tese de investimento da fabricante brasileira, o banco reitera a recomendação de compra para as ações da Embraer. Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Estrangeiros retiram R$ 1,4 bilhão na B3 em 24 de novembro",
-     "url": "https://valor.globo.com/financas/noticia/2026/11/26/estrangeiros-retiram-r-14-bilho-na-b3-em-24-de-novembro.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T10:54:26-03:00",
-     "ementa": "Os investidores estrangeiros retiraram R$ 1,4 bilhão em recursos no segmento secundário da B3 (ações já listadas) em 24 de novembro, dia em que o Ibovespa cedeu 0,43%. Assim, a categoria registra déficit mensal de R$ 7,3 bilhões. Já o saldo do ano permanece positivo em R$ 28,3 bilhões. O investidor institucional, por sua vez, aportou R$ 269 milhões na mesma data. Por outro lado, no mês, a categoria registra um déficit de R$ 1,2 bilhão. No acumulado do ano, o saldo também está negativo em R$ 50,2 bilhões. Já o investidor individual aportou R$ 299,5 milhões no mesmo dia. No acumulado do mês, o…"
     }
    ]
   },
@@ -2144,7 +2128,7 @@
    "url": "https://www.cnnbrasil.com.br/feed/",
    "metodo": "rss",
    "http_status": 200,
-   "total": 12,
+   "total": 10,
    "erro": null,
    "itens": [
     {
@@ -2226,22 +2210,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T14:00:53-03:00",
      "ementa": "Conheça a missão, os programas educacionais, os critérios de seleção de projetos e os indicadores de impacto do braço social do grupo habitacional"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Endividamento: Veja medidas do BC que podem afetar 20 milhões de clientes",
-     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/endividamento-veja-medidas-do-bc-que-podem-afetar-20-milhoes-de-clientes/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T13:35:25-03:00",
-     "ementa": "Medidas visam ampliar a proteção de clientes bancários e endurecem restrições de crédito sem garantia a partir de 2027"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Durigan defende agilizar proibição definitiva de bets e cassinos online",
-     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/durigan-defende-agilizar-proibicao-definitiva-de-bets-e-cassinos-online/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T13:18:46-03:00",
-     "ementa": "Ministro cita efeitos positivos para a economia após proibição das apostas"
     }
    ]
   },
@@ -2387,6 +2355,14 @@
    "itens": [
     {
      "tipo": "noticia",
+     "titulo": "Dólar cai a R$ 5,74, e Bolsa sobe mais de 4% com Trabuco no radar",
+     "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/26/dolar-ibovespa-fechamento-26-novembro-2026-trabuco.htm",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:11:17-03:00",
+     "ementa": "O dólar comercial fechou em queda de 1,26%, cotado a R$ 5,7435, nesta quinta-feira (26), em meio às especulações sobre a possibilidade de Luiz Carlos Trabuco assumir o Ministério da Fazenda e à divulgação de uma inflação abaixo do esperado. O Ibovespa, principal índice da Bolsa brasileira, avançava 4,19%, aos 173.667,59 pontos, na parcial disponível no TradeMap, com atraso de 15 minutos."
+    },
+    {
+     "tipo": "noticia",
      "titulo": "Mensagem de Natal corporativa 2026: veja 34 frases perfeitas para enviar",
      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/26/mensagem-de-natal-corporativa-2026-veja-34-frases-perfeitas-para-enviar.ghtm",
      "data": "2026-11-26",
@@ -2496,14 +2472,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T12:29:11-03:00",
      "ementa": "As novas regras do Banco Central para apertar os controles sobre a concessão de crédito no país devem afetar cerca de 20 milhões de pessoas, segundo a autarquia. As medidas, publicadas ontem, têm como objetivo reduzir riscos de endividamento das famílias."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "De escriturário a possível ministro: quem é Luiz Carlos Trabuco",
-     "url": "https://economia.uol.com.br/colunas/monica-scaramuzzo/2026/11/26/de-escriturario-a-possivel-ministro-quem-e-luiz-carlos-trabuco.htm",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T12:01:17-03:00",
-     "ementa": "uiz Carlos Trabuco Cappi, de 75 anos, é um dos principais nomes do sistema financeiro brasileiro. Presidente do conselho de administração do Bradesco, instituição que também comandou por quase uma dé..."
     }
    ]
   },
