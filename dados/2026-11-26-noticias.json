@@ -99,11 +99,11 @@
     },
     {
      "tipo": "noticia",
-     "titulo": "Alckmin critica tarifa de 10% dos EUA sobre aviões brasileiros e chama medida de 'completamente descabida'",
+     "titulo": "Alckmin critica tarifa de 10% dos EUA sobre aviões e chama medida de 'completamente descabida'",
      "url": "https://g1.globo.com/economia/noticia/2026/11/26/alckimin-eua-tarias.ghtml",
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T10:31:21-03:00",
-     "ementa": "Geraldo Alckimin defendeu código de ética e mandato para ministros do STF em Ribeirão Preto Valdinei Malagutti/EPTV O vice-presidente Geraldo Alckmin disse nesta quinta-feira (26) que as novas tarifas propostas pelos EUA são completamente irrazoáveis e que o Brasil trabalhará para revertê-las. Na quarta-feira, os EUA propuseram novas tarifas sobre produtos do Brasil, incluindo uma tarifa de 10% sobre aeronaves finalizadas. 🗒️ Tem alguma sugestão de reportagem? Envie para o g1 “Isso é totalmente descabido porque não há no mundo tarifa para setor aeronáutico. Não existe no mundo, é uma tradição…"
+     "ementa": "Geraldo Alckimin defendeu código de ética e mandato para ministros do STF em Ribeirão Preto Valdinei Malagutti/EPTV O vice-presidente Geraldo Alckmin disse nesta quinta-feira (26) que as novas tarifas propostas pelos EUA são completamente irrazoáveis e que o Brasil trabalhará para revertê-las. Um relatório divulgado ontem pelo Escritório do Representante Comercial dos Estados Unidos (USTR, na sigla em inglês) propõe mudanças nas regras que estabeleceram o tarifaço de 25% sobre produtos brasileiros em julho. 🗒️ Tem alguma sugestão de reportagem? Envie para o g1 Com as mudanças propostas…"
     },
     {
      "tipo": "noticia",
@@ -483,6 +483,14 @@
    "total": 100,
    "erro": null,
    "itens": [
+    {
+     "tipo": "noticia",
+     "titulo": "Inadimplência cresce entre os fornecedores e acende um alerta antes da reforma tributária",
+     "url": "https://www1.folha.uol.com.br/colunas/painelsa/2026/11/inadimplencia-cresce-entre-os-fornecedores-e-acende-um-alerta-antes-da-reforma-tributaria.shtml",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:18:00-03:00",
+     "ementa": "O Índice de Saúde Fiscal de Fornecedores B2B, que mede a inadimplência de empresas fornecedoras, teve sua primeira alta da série histórica, desde março de 2025, interrompendo uma sequência de cinco trimestres seguidos de queda. O indicador saltou de 9,02% para 9,90% do primeiro para o segundo trimestre deste ano. Leia mais (11/26/2026 - 17h18)"
+    },
     {
      "tipo": "noticia",
      "titulo": "Fed mantém postura dura e deve aumentar juros apesar de queda das ações",
@@ -1274,14 +1282,6 @@
      "data": "2026-11-25",
      "publicado_em": "2026-11-25T13:02:00-03:00",
      "ementa": "A Caixa Econômica Federal discute com o Banco Central a possibilidade de comprar o BRB (Banco de Brasília), que vive a pior crise de sua história depois do rombo deixado por operações com o Banco Master, de Daniel Vorcaro. Leia mais (11/25/2026 - 13h02)"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Lula quer nova governança para articular investimentos de forma integrada nos ministérios",
-     "url": "https://www1.folha.uol.com.br/mercado/2026/11/lula-quer-nova-governanca-para-articular-investimentos-de-forma-integrada-nos-ministerios.shtml",
-     "data": "2026-11-25",
-     "publicado_em": "2026-11-25T13:00:00-03:00",
-     "ementa": "O governo Lula discute a criação de uma governança para a coordenação das ações dos ministérios voltadas ao aumento dos investimentos no país. O diagnóstico discutido com o presidente Luiz Inácio Lula da Silva (PT) é que os temas regulatórios que tratam de investimentos em diversas áreas do governo ficam muito fragmentados nos vários ministérios. Leia mais (11/25/2026 - 13h00)"
     }
    ]
   },
@@ -1465,6 +1465,46 @@
    "itens": [
     {
      "tipo": "noticia",
+     "titulo": "Taxas caem com expectativa de Trabuco na Fazenda e IPCA-15 abaixo do esperado",
+     "url": "https://www.infomoney.com.br/mercados/taxas-caem-com-expectativa-de-trabuco-na-fazenda-e-ipca-15-abaixo-do-esperado/",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:25:47-03:00",
+     "ementa": "Expectativa de que Luiz Carlos Trabuco seja escolhido para o comando do Ministério da Fazenda conduziu a queda do dólar The post Taxas caem com expectativa de Trabuco na Fazenda e IPCA-15 abaixo do esperado appeared first on InfoMoney."
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Usiminas (USIM5) espera resultado menor no 4º trimestre com pressão do câmbio",
+     "url": "https://www.infomoney.com.br/mercados/usiminas-usim5-espera-resultado-menor-no-4o-trimestre-com-pressao-do-cambio/",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:25:46-03:00",
+     "ementa": "'Estamos esperando impacto (de custos) de coque e carvão e agora esse movimento cambial importante que vai ter impacto', disse executivo da siderúrgica The post Usiminas (USIM5) espera resultado menor no 4º trimestre com pressão do câmbio appeared first on InfoMoney."
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Estela relata ataques misóginos após votos no TSE e fala de falta de apoio de colegas",
+     "url": "https://www.infomoney.com.br/politica/estela-relata-ataques-misoginos-apos-votos-no-tse-e-fala-de-falta-de-apoio-de-colegas/",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:23:19-03:00",
+     "ementa": "Durante a sessão plenária, ministra relatou diversos ataques sexistas que recebeu durante as eleições The post Estela relata ataques misóginos após votos no TSE e fala de falta de apoio de colegas appeared first on InfoMoney."
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Brent fecha em alta diante de temores com interrupções no abastecimento",
+     "url": "https://www.infomoney.com.br/mercados/brent-fecha-em-alta-diante-de-temores-com-interrupcoes-no-abastecimento/",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:18:59-03:00",
+     "ementa": "Uma série de eventos nesta semana aumentou as preocupações geopolíticas e o prêmio de risco no Oriente Médio The post Brent fecha em alta diante de temores com interrupções no abastecimento appeared first on InfoMoney."
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Dólar cai 1,25% e fecha a R$ 5,74, com possibilidade de Trabuco assumir Fazenda",
+     "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26112026/",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:18:44-03:00",
+     "ementa": "Especulações em torno de novas medidas do governo para a área fiscal seguem direcionando as negociações The post Dólar cai 1,25% e fecha a R$ 5,74, com possibilidade de Trabuco assumir Fazenda appeared first on InfoMoney."
+    },
+    {
+     "tipo": "noticia",
      "titulo": "CEO da Nelogica explica como a inteligência artificial está transformando o day trade",
      "url": "https://www.infomoney.com.br/mercados/ceo-da-nelogica-explica-como-inteligencia-artificial-esta-transformando-day-trade/",
      "data": "2026-11-26",
@@ -1502,46 +1542,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T16:56:06-03:00",
      "ementa": "Oferta de 27 de novembro é a última da campanha “Aceita BB?” em 2026; unidades não vendidas recebem propostas até 15 de dezembro The post Black Friday da casa própria? BB põe 215 imóveis à venda em leilão sem lance mínimo appeared first on InfoMoney."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Pix passa cartão na largada da ‘Black Week’ entre PMEs, mostra estudo da Nuvemshop",
-     "url": "https://www.infomoney.com.br/consumo/pix-passa-cartao-na-largada-da-black-week-entre-pmes-mostra-estudo-da-nuvemshop/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:51:06-03:00",
-     "ementa": "Nas primeiras horas do evento, o Pix respondeu por 48,88% dos pedidos de PMEs da Nuvemshop, ante 47,55% do cartão; faturamento avançou quase 40% na comparação anual The post Pix passa cartão na largada da ‘Black Week’ entre PMEs, mostra estudo da Nuvemshop appeared first on InfoMoney."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Safra prefere Smart Fit e Track & Field em meio a cenário macro pressionado",
-     "url": "https://www.infomoney.com.br/mercados/safra-prefere-smart-fit-e-track-field-em-meio-a-cenario-macro-pressionado/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:40:43-03:00",
-     "ementa": "Banco reduziu as estimativas de lucro para a maioria das empresas do setor The post Safra prefere Smart Fit e Track & Field em meio a cenário macro pressionado appeared first on InfoMoney."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Europa seguiu como principal região investidora no Brasil em 2025, mostra BC",
-     "url": "https://www.infomoney.com.br/economia/europa-seguiu-como-principal-regiao-investidora-no-brasil-em-2025-mostra-bc/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:35:05-03:00",
-     "ementa": "Investidores imediatos da América do Norte totalizou US$ 401,6 bilhões em 2025, dos quais 86,3% corresponderam a investidores dos Estados Unidos The post Europa seguiu como principal região investidora no Brasil em 2025, mostra BC appeared first on InfoMoney."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Dia do Bolo: brasileiro compra menos, mas bolos ainda movimentam R$ 9,4 bilhões",
-     "url": "https://www.infomoney.com.br/consumo/dia-do-bolo-brasileiro-compra-menos-mas-bolos-ainda-movimentam-r-94-bilhoes/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:33:04-03:00",
-     "ementa": "Apesar da retração nas compras, o aumento do valor gasto em cada ocasião ajudou a sustentar o faturamento da categoria The post Dia do Bolo: brasileiro compra menos, mas bolos ainda movimentam R$ 9,4 bilhões appeared first on InfoMoney."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "CVM intima Americanas, ex-CEO e mais 29 ex-executivos sobre rombo contábil",
-     "url": "https://www.infomoney.com.br/business/cvm-intima-americanas-ex-ceo-e-mais-29-ex-executivos-sobre-rombo-contabil/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:31:40-03:00",
-     "ementa": "Processo foi aberto em 2023 e intimação foi assinada no último dia 24 The post CVM intima Americanas, ex-CEO e mais 29 ex-executivos sobre rombo contábil appeared first on InfoMoney."
     }
    ]
   },
@@ -1550,9 +1550,33 @@
    "url": "https://valor.globo.com/rss/valor",
    "metodo": "rss",
    "http_status": 200,
-   "total": 71,
+   "total": 70,
    "erro": null,
    "itens": [
+    {
+     "tipo": "noticia",
+     "titulo": "Dólar cai 1,25%, a R$ 5,74, e Ibovespa sobe 4% com 'efeito Trabuco' e otimismo com política fiscal",
+     "url": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:15:56-03:00",
+     "ementa": "Dólar cai 1,25%, a R$ 5,74, e Ibovespa sobe 4% com 'efeito Trabuco' e otimismo com política fiscal Juros futuros despencam; IPCA-15 abaixo do previsto também anima o mercado doméstico, em dia de feriado nos EUA Sonho distante, mercado vê rápida mudança de humor com Trabuco na Fazenda. Juros futuros despencam com possibilidade de Trabuco na Fazenda. Dólar à vista recua 1,25% e vai a R$ 5,74 com Trabuco cotado para Fazenda. Ibovespa sobe 4% com ‘efeito Trabuco’ e posicionamento técnico leve dos investidores. Análise: Quem é Luiz Carlos Trabuco e por que a probabilidade de ele aceitar o ‘pior…"
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Polícia aponta que Fictor investiu no máximo 10% do dinheiro captado e usava esquema semelhante a pirâmide",
+     "url": "https://valor.globo.com/financas/noticia/2026/11/26/polcia-aponta-que-fictor-investiu-no-mximo-10-pontos-percentuais-do-dinheiro-captado-e-usava-esquema-semelhante-a-pirmide.ghtml",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:15:44-03:00",
+     "ementa": "A investigação sobre o Grupo Fictor, alvo nesta quinta-feira (26) da Operação Dinheiro Fictício, deflagrada pela Polícia Civil e pelo Ministério Público de São Paulo (MPSP), aponta que, no máximo, 10% dos cerca de R$ 4,3 bilhões captados de investidores foram efetivamente aplicados nas atividades econômicas prometidas pela empresa, como o comércio de grãos e a construção de usinas fotovoltaicas. Segundo as apurações, há indícios de que os rendimentos pagos aos antigos investidores eram financiados com recursos de novos participantes, em uma estrutura semelhante à de uma pirâmide financeira. A…"
+    },
+    {
+     "tipo": "noticia",
+     "titulo": "Dólar à vista recua 1,25% e vai a R$ 5,74 com Trabuco cotado para Fazenda",
+     "url": "https://valor.globo.com/financas/noticia/2026/11/26/dolar-a-vista-recua-125percent-e-vai-a-r-574-com-trabuco-cotado-para-fazenda.ghtml",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:14:19-03:00",
+     "ementa": "O dólar à vista registrou mais uma sessão de forte desvalorização frente ao real diante da expectativa dos investidores de que o presidente do conselho de administração do Bradesco, Luiz Carlos Trabuco, possa assumir o Ministério da Fazenda no novo governo de Luiz Inácio Lula da Silva (PT). Novas medidas fiscais no quarto mandato de Lula também são esperadas e acrescentam otimismo ao mercado. Ontem, notícias acerca do possível convite já tinham dado suporte para uma recuperação dos ativos locais, com o real se destacando entre as moedas globais mais líquidas. Hoje, em meio ao feriado nos…"
+    },
     {
      "tipo": "noticia",
      "titulo": "Petróleo sobe após ataque a refinaria na Arábia Saudita",
@@ -1568,14 +1592,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T17:06:54-03:00",
      "ementa": "A prévia da inflação oficial do país teve em novembro o segundo mês consecutivo de pressão sobre preços abaixo do esperado. Em cabo de guerra, descontos antecipados da Black Friday e o efeito dos carros chineses no mercado de automóveis atuaram para inflação mais contida ou deflação, enquanto o El Niño salgou os preços da alimentação, principalmente daqueles in natura. O quadro mais favorável, porém, não deve continuar, porque resulta de elementos voláteis ou temporários, que não contam muito sobre o futuro, seja, o de curtíssimo prazo — dezembro — ou mais à frente — 2027. Não há, portanto…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Dólar cai 1,25%, a R$ 5,74, e Ibovespa sobe 4% com 'efeito Trabuco' e otimismo com política fiscal",
-     "url": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T17:04:18-03:00",
-     "ementa": "Dólar cai 1,25%, a R$ 5,74, e Ibovespa sobe 4% com 'efeito Trabuco' e otimismo com política fiscal IPCA-15 abaixo do previsto também anima o mercado doméstico, em dia de feriado nos EUA Sonho distante, mercado vê rápida mudança de humor com Trabuco na Fazenda. Juros futuros despencam com possibilidade de Trabuco na Fazenda. Dólar à vista tem queda firme com chance de Trabuco na Fazenda. Ibovespa sobe 4% com ‘efeito Trabuco’ e posicionamento técnico leve dos investidores. Análise: Quem é Luiz Carlos Trabuco e por que a probabilidade de ele aceitar o ‘pior emprego do mundo’ é baixa"
     },
     {
      "tipo": "noticia",
@@ -1927,7 +1943,7 @@
      "url": "https://valor.globo.com/legislacao/noticia/2026/11/26/confederaes-setoriais-questionam-no-stf-data-de-incio-da-cobrana-da-cbs.ghtml",
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T12:21:04-03:00",
-     "ementa": "Entidades representativas do agronegócio, comércio e transportes questionam, no Supremo Tribunal Federal (STF), a obrigatoriedade de início da cobrança da Contribuição sobre Bens e Serviços (CBS) — que substituirá PIS e Cofins — em 2027, diante das pendências de regulamentação. A ação pede concessão de liminar (decisão urgente) para suspender a cobrança da CBS por 90 dias após a fixação da alíquota e solução de todas as regulações sobre o tributo. Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro."
+     "ementa": "Entidades representativas do agronegócio, comércio e transportes questionam, no Supremo Tribunal Federal (STF), a obrigatoriedade de início da cobrança da Contribuição sobre Bens e Serviços (CBS) — que substituirá — em 2027, diante das pendências de regulamentação. A ação pede concessão de liminar (decisão urgente) para suspender a cobrança da CBS por 90 dias após a fixação da alíquota e solução de todas as regulações sobre o tributo. A ação é da Confederação da Agricultura e Pecuária do Brasil (CNA), da Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC) e da Confederação…"
     },
     {
      "tipo": "noticia",
@@ -2096,30 +2112,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T11:20:18-03:00",
      "ementa": "Qual produto traz mais lucro? Quanto dinheiro haverá em caixa daqui a 30 dias? As respostas podem estar nos registros que todo negócio produz diariamente, mesmo sem perceber: vendas, pagamentos, pedidos e conversas com clientes, registrados em sistemas, aplicativos e plataformas digitais. Essas informações ganham valor quando são organizadas, analisadas e usadas para orientar decisões. Nos pequenos negócios, porém, a geração de dados avançou mais rapidamente do que seu uso na gestão. A pesquisa Maturidade Digital dos Pequenos Negócios, feita pelo Serviço Brasileiro de Apoio às Micro e…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Avanço das vendas do varejo alimentar sugere recuperação consistente, diz J.P. Morgan",
-     "url": "https://valor.globo.com/empresas/noticia/2026/11/26/avano-das-vendas-do-varejo-alimentar-sugere-recuperao-consistente-diz-jp-morgan.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T11:19:44-03:00",
-     "ementa": "A aceleração das vendas do varejo alimentar em novembro, na esteira da melhora observada em outubro, parece indicar uma trajetória de recuperação consistente, avalia o J.P. Morgan. Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro."
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Ação policial mira três fintechs por suspeita de lavagem de dinheiro",
-     "url": "https://valor.globo.com/financas/noticia/2026/11/26/acao-policial-mira-tres-fintechs-por-suspeita-de-lavagem-de-dinheiro.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T11:18:56-03:00",
-     "ementa": "A Polícia Civil de São Paulo e o Ministério Público paulista (MPSP) deflagram nesta quinta-feira a Operação Cofre Ativo, que identificou uma estrutura financeira usada para lavar dinheiro por meio de fintechs, com R$ 5,87 bilhões em créditos rastreados e ligação com quase 3 mil boletins de ocorrência por golpes, roubos e extorsões no Estado. Também nesta quinta-feira, a Polícia Civil e o Ministério Público de São Paulo deflagraram a Operação Dinheiro Fictício, contra o Grupo Fictor, que tentou comprar o Banco Master e está em processo de recuperação judicial. O grupo é suspeito de captar mais…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Manejo florestal pode conciliar produção legal de madeira e preservação da Amazônia, indicam estudos",
-     "url": "https://valor.globo.com/brasil/noticia/2026/11/26/manejo-florestal-pode-conciliar-produo-legal-de-madeira-e-preservao-da-amaznia-indicam-estudos.ghtml",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T11:17:46-03:00",
-     "ementa": "O manejo de impacto reduzido tem grande potencial para conciliar a produção legal de madeira e preservar a Amazônia simultaneamente, segundo indicam três estudos apresentados nesta quarta-feira no 9º Fórum de Soluções em Legalidade Florestal, realizado em Belém pelo Imaflora, instituto que atua na promoção do uso sustentável e inclusivo de recursos naturais. Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro."
     }
    ]
   },
@@ -2128,7 +2120,7 @@
    "url": "https://www.cnnbrasil.com.br/feed/",
    "metodo": "rss",
    "http_status": 200,
-   "total": 10,
+   "total": 8,
    "erro": null,
    "itens": [
     {
@@ -2194,22 +2186,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T14:21:48-03:00",
      "ementa": "Estados Unidos propuseram, nesta semana, a imposição de novas tarifas sobre produtos brasileiros"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Artistas estão desistindo do Instagram por medo de que IA roube suas obras",
-     "url": "https://www.cnnbrasil.com.br/economia/money/inteligencia-artificial/artistas-estao-desistindo-do-instagram-por-medo-de-que-ia-roube-suas-obras/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T14:02:07-03:00",
-     "ementa": "Mudanças nos termos de serviço das plataformas da Meta geram onda de exclusão de perfis e protestos entre criadores independentes"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Instituto MRV&CO: o que faz, em quais frentes atua",
-     "url": "https://www.cnnbrasil.com.br/economia/money/negocios/instituto-mrvco-o-que-faz-em-quais-frentes-atua/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T14:00:53-03:00",
-     "ementa": "Conheça a missão, os programas educacionais, os critérios de seleção de projetos e os indicadores de impacto do braço social do grupo habitacional"
     }
    ]
   },
@@ -2221,6 +2197,14 @@
    "total": 10,
    "erro": null,
    "itens": [
+    {
+     "tipo": "noticia",
+     "titulo": "CMO aprova relatório do Orçamento de 2027 com corte de R$ 2,09 bilhões",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmo-aprova-relatorio-do-orcamento-de-2027-com-corte-de-r-209-bilhoes",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:09:00-03:00",
+     "ementa": "A Comissão Mista de Orçamento (CMO) do Congresso Nacional aprovou nesta quinta-feira (26) o relatório preliminar do Projeto de Lei Orçamentária Anual (PLOA) de 2027, que prevê o cancelamento de R$ 2,09 bilhões em despesas discricionárias (não obrigatórias) do Executivo federal para atender emendas parlamentares. O relator-geral, senador Eduardo Braga (MDB-AM), afirmou que pretende recompor recursos de áreas prioritárias, como saúde, educação e assistência social, durante a tramitação da proposta. Notícias relacionadas: Governo libera R$ 3,43 bilhões do Orçamento após ajuste fiscal.O corte…"
+    },
     {
      "tipo": "noticia",
      "titulo": "BB e Google bloqueiam mais de 77 mil chamadas fraudulentas",
@@ -2292,14 +2276,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T11:17:00-03:00",
      "ementa": "Em 2025, a necessidade de financiamento líquida do governo geral foi de R$ 936,2 bilhões, aumento de 27,1% em relação a 2024. Esse resultado ocorreu, principalmente, em virtude do crescimento de 11,4% da despesa total. Os dados são das Estatísticas de Finanças Públicas e Conta Intermediária de Governo, elaboradas pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em parceria com a Secretaria do Tesouro Nacional (STN) e o Banco Central do Brasil. Na análise dos principais agregados da receita, a arrecadação de impostos cresceu 8,8% em 2025, as contribuições sociais aumentaram 9,8% e…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Contas externas têm déficit de US$ 4 bilhões em outubro",
-     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-externas-tem-deficit-de-us-4-bilhoes-em-outubro",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T10:33:00-03:00",
-     "ementa": "As contas externas brasileiras registraram déficit de US$ 4 bilhões em outubro de 2026, resultado igual ao verificado no mesmo mês do ano passado. Os dados constam das Estatísticas do Setor Externo divulgadas nesta quinta-feira (26) pelo Banco Central. Segundo a instituição, o déficit acumulado em 12 meses ficou em US$ 60,6 bilhões, o equivalente a 2,34% do Produto Interno Bruto (PIB) – soma dos bens e serviços produzidos no país). Em setembro, o saldo negativo acumulado era de US$ 60,7 bilhões, correspondentes a 2,36% do PIB. Notícias relacionadas: Déficit nas contas externas soma US$ 5,1…"
     }
    ]
   },
@@ -2308,7 +2284,7 @@
    "url": "https://exame.com/feed/",
    "metodo": "rss",
    "http_status": 200,
-   "total": 4,
+   "total": 2,
    "erro": null,
    "itens": [
     {
@@ -2326,22 +2302,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T16:29:14-03:00",
      "ementa": "Acionistas da TIC Trens também têm interesse na Linha 10-Turquesa e avaliam o projeto do Trem Intercidades entre São Paulo e Sorocaba"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Chuva e ventos de 100 km/h: Inmet emite alerta para seis estados nesta quinta",
-     "url": "https://exame.com/brasil/chuva-e-ventos-de-100-km-h-inmet-emite-alerta-para-seis-estados-nesta-quinta/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:02:22-03:00",
-     "ementa": "Temporais podem provocar alagamentos, quedas de árvores e deslizamentos; litoral paulista e Serra da Mantiqueira estão entre as áreas de maior atenção"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Alckmin critica proposta de tarifa dos EUA sobre aviões brasileiros: 'Totalmente descabida'",
-     "url": "https://exame.com/brasil/alckmin-critica-proposta-de-tarifa-dos-eua-sobre-avioes-brasileiros-totalmente-descabida/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T15:56:20-03:00",
-     "ementa": "Para o vice-presidente, o governo brasileiro pretende atuar para impedir a adoção da nova taxação"
     }
    ]
   },
@@ -2480,9 +2440,17 @@
    "url": "https://www.poder360.com.br/feed/",
    "metodo": "rss",
    "http_status": 200,
-   "total": 5,
+   "total": 4,
    "erro": null,
    "itens": [
+    {
+     "tipo": "noticia",
+     "titulo": "Trabuco acalma o mercado: dólar cai 1,25% e Bolsa dispara",
+     "url": "https://www.poder360.com.br/poder-economia/trabuco-acalma-o-mercado-dolar-cai-125-e-bolsa-dispara/",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:22:25-03:00",
+     "ementa": "Possível indicação do presidente do Conselho do Bradesco para a Fazenda melhora expectativas sobre ajuste fiscal"
+    },
     {
      "tipo": "noticia",
      "titulo": "Latam anuncia voos para o maior município do Brasil",
@@ -2506,22 +2474,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T16:21:43-03:00",
      "ementa": "Bancada petista diz que não há pacote de austeridade e defende mudanças em previdência de militares e supersalários"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Governo deve publicar na 6ª feira renovação do auxílio ao diesel",
-     "url": "https://www.poder360.com.br/poder-economia/governo-deve-publicar-na-6a-feira-renovacao-do-auxilio-ao-diesel/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T16:04:22-03:00",
-     "ementa": "Portaria prorrogará a subvenção por mais 30 dias; medida foi instituída para conter a alta dos preços do diesel no Brasil depois do início da guerra no Irã"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Trabuco “pode não ser a melhor opção” para a Fazenda, diz Uczai",
-     "url": "https://www.poder360.com.br/poder-congresso/trabuco-pode-nao-ser-a-melhor-opcao-para-a-fazenda-diz-uczai/",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T15:46:35-03:00",
-     "ementa": "Líder do governo na Câmara critica defensores da política monetária atual; executivo é cotado para assumir o órgão"
     }
    ]
   },
@@ -2533,6 +2485,14 @@
    "total": 15,
    "erro": null,
    "itens": [
+    {
+     "tipo": "noticia",
+     "titulo": "Áudio: Sistema desenvolvido no Senado auxilia legislativos a adotar práticas sustentáveis",
+     "url": "https://www12.senado.leg.br/noticias/audios/2026/11/sistema-desenvolvido-no-senado-auxilia-legislativos-a-adotar-praticas-sustentaveis",
+     "data": "2026-11-26",
+     "publicado_em": "2026-11-26T17:23:59-03:00",
+     "ementa": "A Comissão de Direitos Humanos e Legislação Participativa (CDH) debateu em audiência pública nesta quinta-feira (26) os desafios e avanços das assembleias legislativas e câmaras de vereadores nas áreas de acessibilidade, sustentabilidade e igualdade de gênero e raça, conforme as metas globais da ONU para 2030. Na audiência, o Senado apresentou o SIMPLS, plataforma gratuita que ajuda casas legislativas do país a planejar, acompanhar e divulgar com transparência suas ações socioambientais à sociedade. A presidente da comissão, senadora Damares Alves (Republicanos-DF), destacou a importância…"
+    },
     {
      "tipo": "noticia",
      "titulo": "Relatório do Orçamento de 2027 mantém aumento de recursos a saúde e educação",
@@ -2644,14 +2604,6 @@
      "data": "2026-11-26",
      "publicado_em": "2026-11-26T12:00:50-03:00",
      "ementa": "A Comissão de Constituição e Justiça (CCJ) concluiu nesta quarta-feira (25) a votação de projeto de lei que tipifica o crime de fraude contábil no mercado de valores mobiliários e aumenta a punição por manipulação de dados financeiros de empresas de capital aberto (PL 2.091/2023). Pelo texto, fraudar a contabilidade, apresentar documentos falsos ou mentir para investidores terá pena de dois a seis anos de reclusão, além de multa. A proposta foi motivada pela crise das Lojas Americanas. O texto vai à Câmara dos Deputados, salvo se houver requerimento de pelo menos nove senadores para análise…"
-    },
-    {
-     "tipo": "noticia",
-     "titulo": "Vídeo: Sessão especial prestou homenagem à Associação Brasileira das Empresas de Software",
-     "url": "https://www12.senado.leg.br/noticias/videos/2026/11/sessao-especial-presta-homenagem-a-associacao-brasileira-das-empresas-de-software",
-     "data": "2026-11-26",
-     "publicado_em": "2026-11-26T11:11:34-03:00",
-     "ementa": "Sessão especial no Plenário prestou homenagem à Associação Brasileira das Empresas de Software (Abes) por seus 40 anos. A solenidade destacou o papel da entidade na inovação e no fortalecimento da economia digital no país. A ABES foi reconhecida também pela parceria com o Parlamento na criação de políticas públicas para o setor. A sessão foi presidida pelo senador Astronauta Marcos Pontes (PL-SP)."
     }
    ]
   },

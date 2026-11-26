@@ -1,116 +1,138 @@
 {
  "data": "2026-11-26",
- "quantidade": 10,
+ "quantidade": 12,
  "itens": [
   {
    "primeira_vez": "2026-11-26",
    "fonte": "g1 Economia",
    "tipo": "noticia",
-   "titulo": "Ibovespa dispara e dólar cai a R$ 5,74, de olho em nomes para a Fazenda e política fiscal",
-   "url": "https://g1.globo.com/economia/noticia/2026/11/26/dolar-ibovespa.ghtml",
+   "titulo": "Alckmin critica tarifa de 10% dos EUA sobre aviões e chama medida de 'completamente descabida'",
+   "url": "https://g1.globo.com/economia/noticia/2026/11/26/alckimin-eua-tarias.ghtml",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T09:00:00-03:00",
-   "ementa": "Entenda o que faz o preço do dólar subir ou cair 9 O Ibovespa, principal índice da bolsa brasileira, operava em forte alta de 4,23% nesta quinta-feira (26), perto das 17h, aos 173.742 pontos. É o maior avanço diário desde o pregão seguinte ao primeiro turno das eleições presidenciais, quando o índice subiu 7,70%, aos 206.904 pontos. Já o dólar encerrou o dia em queda de 1,25%, cotado a R$ 5,7441. A possível indicação de Luiz Carlos Trabuco para assumir o Ministério da Fazenda está no centro das atenções. O mercado também acompanha as medidas econômicas do governo para 2027, em busca de sinais…",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T10:31:21-03:00",
+   "ementa": "Geraldo Alckimin defendeu código de ética e mandato para ministros do STF em Ribeirão Preto Valdinei Malagutti/EPTV O vice-presidente Geraldo Alckmin disse nesta quinta-feira (26) que as novas tarifas propostas pelos EUA são completamente irrazoáveis e que o Brasil trabalhará para revertê-las. Um relatório divulgado ontem pelo Escritório do Representante Comercial dos Estados Unidos (USTR, na sigla em inglês) propõe mudanças nas regras que estabeleceram o tarifaço de 25% sobre produtos brasileiros em julho. 🗒️ Tem alguma sugestão de reportagem? Envie para o g1 Com as mudanças propostas…",
+   "visto_em": "2026-11-26T20:29:04Z"
   },
   {
    "primeira_vez": "2026-11-26",
    "fonte": "Folha Mercado",
    "tipo": "noticia",
-   "titulo": "Black Friday tem mais ofertas na virada e maior desconto médio à tarde; veja os melhores horários",
-   "url": "https://www1.folha.uol.com.br/mercado/2026/11/black-friday-concentra-os-maiores-descontos-a-tarde-veja-melhores-horarios.shtml",
+   "titulo": "Inadimplência cresce entre os fornecedores e acende um alerta antes da reforma tributária",
+   "url": "https://www1.folha.uol.com.br/colunas/painelsa/2026/11/inadimplencia-cresce-entre-os-fornecedores-e-acende-um-alerta-antes-da-reforma-tributaria.shtml",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T16:37:00-03:00",
-   "ementa": "Quem pretende aproveitar as promoções da Black Friday deste ano deve considerar mais de um horário para fazer compras. De acordo com a plataforma Prombit, a virada concentrou o maior volume de ofertas, e a tarde de sexta teve o maior desconto médio. Leia mais (11/26/2026 - 16h37)",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T17:18:00-03:00",
+   "ementa": "O Índice de Saúde Fiscal de Fornecedores B2B, que mede a inadimplência de empresas fornecedoras, teve sua primeira alta da série histórica, desde março de 2025, interrompendo uma sequência de cinco trimestres seguidos de queda. O indicador saltou de 9,02% para 9,90% do primeiro para o segundo trimestre deste ano. Leia mais (11/26/2026 - 17h18)",
+   "visto_em": "2026-11-26T20:29:04Z"
   },
   {
    "primeira_vez": "2026-11-26",
    "fonte": "InfoMoney",
    "tipo": "noticia",
-   "titulo": "CEO da Nelogica explica como a inteligência artificial está transformando o day trade",
-   "url": "https://www.infomoney.com.br/mercados/ceo-da-nelogica-explica-como-inteligencia-artificial-esta-transformando-day-trade/",
+   "titulo": "Taxas caem com expectativa de Trabuco na Fazenda e IPCA-15 abaixo do esperado",
+   "url": "https://www.infomoney.com.br/mercados/taxas-caem-com-expectativa-de-trabuco-na-fazenda-e-ipca-15-abaixo-do-esperado/",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T17:14:00-03:00",
-   "ementa": "Da criação de estratégias sem conhecimento de programação à automação de operações, Marcos Boschetti analisa as oportunidades e os desafios da inteligência artificial para os traders The post CEO da Nelogica explica como a inteligência artificial está transformando o day trade appeared first on InfoMoney.",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T17:25:47-03:00",
+   "ementa": "Expectativa de que Luiz Carlos Trabuco seja escolhido para o comando do Ministério da Fazenda conduziu a queda do dólar The post Taxas caem com expectativa de Trabuco na Fazenda e IPCA-15 abaixo do esperado appeared first on InfoMoney.",
+   "visto_em": "2026-11-26T20:29:04Z"
   },
   {
    "primeira_vez": "2026-11-26",
    "fonte": "InfoMoney",
    "tipo": "noticia",
-   "titulo": "Repique ou reversão? Com gringos na compra, traders veem Ibovespa aos 180 mil pontos",
-   "url": "https://www.infomoney.com.br/mercados/ibovespa-180-mil-pontos-traders-fluxo-estrangeiro/",
+   "titulo": "Usiminas (USIM5) espera resultado menor no 4º trimestre com pressão do câmbio",
+   "url": "https://www.infomoney.com.br/mercados/usiminas-usim5-espera-resultado-menor-no-4o-trimestre-com-pressao-do-cambio/",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T17:11:34-03:00",
-   "ementa": "Estrangeiros monitorados acumulam R$ 1,2 bi em compras líquidas hoje no mercado futuro de índice, enquanto gráficos diário e semanal apresentam sinais favoráveis à recuperação da Bolsa The post Repique ou reversão? Com gringos na compra, traders veem Ibovespa aos 180 mil pontos appeared first on InfoMoney.",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T17:25:46-03:00",
+   "ementa": "'Estamos esperando impacto (de custos) de coque e carvão e agora esse movimento cambial importante que vai ter impacto', disse executivo da siderúrgica The post Usiminas (USIM5) espera resultado menor no 4º trimestre com pressão do câmbio appeared first on InfoMoney.",
+   "visto_em": "2026-11-26T20:29:04Z"
+  },
+  {
+   "primeira_vez": "2026-11-26",
+   "fonte": "InfoMoney",
+   "tipo": "noticia",
+   "titulo": "Estela relata ataques misóginos após votos no TSE e fala de falta de apoio de colegas",
+   "url": "https://www.infomoney.com.br/politica/estela-relata-ataques-misoginos-apos-votos-no-tse-e-fala-de-falta-de-apoio-de-colegas/",
+   "data": "2026-11-26",
+   "publicado_em": "2026-11-26T17:23:19-03:00",
+   "ementa": "Durante a sessão plenária, ministra relatou diversos ataques sexistas que recebeu durante as eleições The post Estela relata ataques misóginos após votos no TSE e fala de falta de apoio de colegas appeared first on InfoMoney.",
+   "visto_em": "2026-11-26T20:29:04Z"
+  },
+  {
+   "primeira_vez": "2026-11-26",
+   "fonte": "InfoMoney",
+   "tipo": "noticia",
+   "titulo": "Brent fecha em alta diante de temores com interrupções no abastecimento",
+   "url": "https://www.infomoney.com.br/mercados/brent-fecha-em-alta-diante-de-temores-com-interrupcoes-no-abastecimento/",
+   "data": "2026-11-26",
+   "publicado_em": "2026-11-26T17:18:59-03:00",
+   "ementa": "Uma série de eventos nesta semana aumentou as preocupações geopolíticas e o prêmio de risco no Oriente Médio The post Brent fecha em alta diante de temores com interrupções no abastecimento appeared first on InfoMoney.",
+   "visto_em": "2026-11-26T20:29:04Z"
+  },
+  {
+   "primeira_vez": "2026-11-26",
+   "fonte": "InfoMoney",
+   "tipo": "noticia",
+   "titulo": "Dólar cai 1,25% e fecha a R$ 5,74, com possibilidade de Trabuco assumir Fazenda",
+   "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26112026/",
+   "data": "2026-11-26",
+   "publicado_em": "2026-11-26T17:18:44-03:00",
+   "ementa": "Especulações em torno de novas medidas do governo para a área fiscal seguem direcionando as negociações The post Dólar cai 1,25% e fecha a R$ 5,74, com possibilidade de Trabuco assumir Fazenda appeared first on InfoMoney.",
+   "visto_em": "2026-11-26T20:29:04Z"
   },
   {
    "primeira_vez": "2026-11-26",
    "fonte": "Valor Econômico",
    "tipo": "noticia",
-   "titulo": "Petróleo sobe após ataque a refinaria na Arábia Saudita",
-   "url": "https://valor.globo.com/financas/noticia/2026/11/26/petroleo-sobe-apos-ataque-a-refinaria-na-arabia-saudita.ghtml",
+   "titulo": "Polícia aponta que Fictor investiu no máximo 10% do dinheiro captado e usava esquema semelhante a pirâmide",
+   "url": "https://valor.globo.com/financas/noticia/2026/11/26/polcia-aponta-que-fictor-investiu-no-mximo-10-pontos-percentuais-do-dinheiro-captado-e-usava-esquema-semelhante-a-pirmide.ghtml",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T17:09:18-03:00",
-   "ementa": "Em dia de menor liquidez nos mercados internacionais, por conta do feriado do Dia de Ação de Graças nos Estados Unidos, os contratos futuros do petróleo Brent, usado como referência mundial, subiram após um ataque de houthis a uma refinaria na Arábia Saudita. O WTI, negociado na bolsa americana, também operou em alta durante o dia, em pregão eletrônico. No fechamento, o Brent com vencimento em fevereiro subiu 2,60%, cotado a US$ 92,08 por barril, na Intercontinental Exchange (ICE), sediada em Londres. Por volta das 16h45 (de Brasília), o WTI com entrega prevista para janeiro registrava alta…",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T17:15:44-03:00",
+   "ementa": "A investigação sobre o Grupo Fictor, alvo nesta quinta-feira (26) da Operação Dinheiro Fictício, deflagrada pela Polícia Civil e pelo Ministério Público de São Paulo (MPSP), aponta que, no máximo, 10% dos cerca de R$ 4,3 bilhões captados de investidores foram efetivamente aplicados nas atividades econômicas prometidas pela empresa, como o comércio de grãos e a construção de usinas fotovoltaicas. Segundo as apurações, há indícios de que os rendimentos pagos aos antigos investidores eram financiados com recursos de novos participantes, em uma estrutura semelhante à de uma pirâmide financeira. A…",
+   "visto_em": "2026-11-26T20:29:04Z"
   },
   {
    "primeira_vez": "2026-11-26",
    "fonte": "Valor Econômico",
    "tipo": "noticia",
-   "titulo": "Cabo de guerra entre Black Friday e El Niño segura IPCA-15 em novembro, mas não muda perspectiva, dizem economistas",
-   "url": "https://valor.globo.com/brasil/noticia/2026/11/26/cabo-de-guerra-entre-black-friday-e-el-nio-segura-ipca-15-em-novembro-mas-no-muda-perspectiva-dizem-economistas.ghtml",
+   "titulo": "Dólar à vista recua 1,25% e vai a R$ 5,74 com Trabuco cotado para Fazenda",
+   "url": "https://valor.globo.com/financas/noticia/2026/11/26/dolar-a-vista-recua-125percent-e-vai-a-r-574-com-trabuco-cotado-para-fazenda.ghtml",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T17:06:54-03:00",
-   "ementa": "A prévia da inflação oficial do país teve em novembro o segundo mês consecutivo de pressão sobre preços abaixo do esperado. Em cabo de guerra, descontos antecipados da Black Friday e o efeito dos carros chineses no mercado de automóveis atuaram para inflação mais contida ou deflação, enquanto o El Niño salgou os preços da alimentação, principalmente daqueles in natura. O quadro mais favorável, porém, não deve continuar, porque resulta de elementos voláteis ou temporários, que não contam muito sobre o futuro, seja, o de curtíssimo prazo — dezembro — ou mais à frente — 2027. Não há, portanto…",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T17:14:19-03:00",
+   "ementa": "O dólar à vista registrou mais uma sessão de forte desvalorização frente ao real diante da expectativa dos investidores de que o presidente do conselho de administração do Bradesco, Luiz Carlos Trabuco, possa assumir o Ministério da Fazenda no novo governo de Luiz Inácio Lula da Silva (PT). Novas medidas fiscais no quarto mandato de Lula também são esperadas e acrescentam otimismo ao mercado. Ontem, notícias acerca do possível convite já tinham dado suporte para uma recuperação dos ativos locais, com o real se destacando entre as moedas globais mais líquidas. Hoje, em meio ao feriado nos…",
+   "visto_em": "2026-11-26T20:29:04Z"
   },
   {
    "primeira_vez": "2026-11-26",
-   "fonte": "Valor Econômico",
+   "fonte": "Agência Brasil Economia",
    "tipo": "noticia",
-   "titulo": "Dólar cai 1,25%, a R$ 5,74, e Ibovespa sobe 4% com 'efeito Trabuco' e otimismo com política fiscal",
-   "url": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml",
+   "titulo": "CMO aprova relatório do Orçamento de 2027 com corte de R$ 2,09 bilhões",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmo-aprova-relatorio-do-orcamento-de-2027-com-corte-de-r-209-bilhoes",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T17:04:18-03:00",
-   "ementa": "Dólar cai 1,25%, a R$ 5,74, e Ibovespa sobe 4% com 'efeito Trabuco' e otimismo com política fiscal IPCA-15 abaixo do previsto também anima o mercado doméstico, em dia de feriado nos EUA Sonho distante, mercado vê rápida mudança de humor com Trabuco na Fazenda. Juros futuros despencam com possibilidade de Trabuco na Fazenda. Dólar à vista tem queda firme com chance de Trabuco na Fazenda. Ibovespa sobe 4% com ‘efeito Trabuco’ e posicionamento técnico leve dos investidores. Análise: Quem é Luiz Carlos Trabuco e por que a probabilidade de ele aceitar o ‘pior emprego do mundo’ é baixa",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T17:09:00-03:00",
+   "ementa": "A Comissão Mista de Orçamento (CMO) do Congresso Nacional aprovou nesta quinta-feira (26) o relatório preliminar do Projeto de Lei Orçamentária Anual (PLOA) de 2027, que prevê o cancelamento de R$ 2,09 bilhões em despesas discricionárias (não obrigatórias) do Executivo federal para atender emendas parlamentares. O relator-geral, senador Eduardo Braga (MDB-AM), afirmou que pretende recompor recursos de áreas prioritárias, como saúde, educação e assistência social, durante a tramitação da proposta. Notícias relacionadas: Governo libera R$ 3,43 bilhões do Orçamento após ajuste fiscal.O corte…",
+   "visto_em": "2026-11-26T20:29:04Z"
   },
   {
    "primeira_vez": "2026-11-26",
-   "fonte": "Valor Econômico",
+   "fonte": "Poder360 Economia",
    "tipo": "noticia",
-   "titulo": "EUA e Catar negociam ajudar Venezuela a quitar dívidas com bancos multilaterais",
-   "url": "https://valor.globo.com/mundo/noticia/2026/11/26/eua-e-catar-negociam-ajudar-venezuela-a-quitar-dvidas-com-bancos-multilaterais.ghtml",
+   "titulo": "Trabuco acalma o mercado: dólar cai 1,25% e Bolsa dispara",
+   "url": "https://www.poder360.com.br/poder-economia/trabuco-acalma-o-mercado-dolar-cai-125-e-bolsa-dispara/",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T17:00:06-03:00",
-   "ementa": "A Venezuela está negociando empréstimos-ponte separados com o Tesouro dos Estados Unidos e o Catar para quitar dívidas em atraso com dois bancos regionais de desenvolvimento. A iniciativa pode abrir caminho para novos financiamentos multilaterais ao país, segundo quatro fontes familiarizadas com as discussões. Leia também: Protestos contra apagões aumentam na Venezuela e pressionam governo de Delcy Venezuela divulga quadro macroeconômico e estima dívida em US$ 237,5 bilhões Senado dos EUA investiga atuação de Vance em contrato de petróleo da Venezuela Os acordos, considerados pouco…",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T17:22:25-03:00",
+   "ementa": "Possível indicação do presidente do Conselho do Bradesco para a Fazenda melhora expectativas sobre ajuste fiscal",
+   "visto_em": "2026-11-26T20:29:04Z"
   },
   {
    "primeira_vez": "2026-11-26",
-   "fonte": "Valor Econômico",
+   "fonte": "Agência Senado",
    "tipo": "noticia",
-   "titulo": "Trabuco: um 'filósofo desempregado', banqueiro e ministro?; leia a trajetória do cotado para a Fazenda",
-   "url": "https://valor.globo.com/politica/noticia/2026/11/26/trabuco-um-filsofo-desempregado-banqueiro-e-ministro-leia-a-trajetria-do-cotado-para-a-fazenda.ghtml",
+   "titulo": "Áudio: Sistema desenvolvido no Senado auxilia legislativos a adotar práticas sustentáveis",
+   "url": "https://www12.senado.leg.br/noticias/audios/2026/11/sistema-desenvolvido-no-senado-auxilia-legislativos-a-adotar-praticas-sustentaveis",
    "data": "2026-11-26",
-   "publicado_em": "2026-11-26T15:57:20-03:00",
-   "ementa": "Como é possível um filósofo chegar à presidência de um grande banco como o Bradesco? “Pois é, sou um filósofo desempregado.” Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro.",
-   "visto_em": "2026-11-26T20:15:43Z"
-  },
-  {
-   "primeira_vez": "2026-11-26",
-   "fonte": "UOL Economia",
-   "tipo": "noticia",
-   "titulo": "Dólar cai a R$ 5,74, e Bolsa sobe mais de 4% com Trabuco no radar",
-   "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/26/dolar-ibovespa-fechamento-26-novembro-2026-trabuco.htm",
-   "data": "2026-11-26",
-   "publicado_em": "2026-11-26T17:11:17-03:00",
-   "ementa": "O dólar comercial fechou em queda de 1,26%, cotado a R$ 5,7435, nesta quinta-feira (26), em meio às especulações sobre a possibilidade de Luiz Carlos Trabuco assumir o Ministério da Fazenda e à divulgação de uma inflação abaixo do esperado. O Ibovespa, principal índice da Bolsa brasileira, avançava 4,19%, aos 173.667,59 pontos, na parcial disponível no TradeMap, com atraso de 15 minutos.",
-   "visto_em": "2026-11-26T20:15:43Z"
+   "publicado_em": "2026-11-26T17:23:59-03:00",
+   "ementa": "A Comissão de Direitos Humanos e Legislação Participativa (CDH) debateu em audiência pública nesta quinta-feira (26) os desafios e avanços das assembleias legislativas e câmaras de vereadores nas áreas de acessibilidade, sustentabilidade e igualdade de gênero e raça, conforme as metas globais da ONU para 2030. Na audiência, o Senado apresentou o SIMPLS, plataforma gratuita que ajuda casas legislativas do país a planejar, acompanhar e divulgar com transparência suas ações socioambientais à sociedade. A presidente da comissão, senadora Damares Alves (Republicanos-DF), destacou a importância…",
+   "visto_em": "2026-11-26T20:29:04Z"
   }
  ],
  "fontes_com_erro": [],
