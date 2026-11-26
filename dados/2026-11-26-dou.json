@@ -7,7 +7,7 @@
    "metodo": "leiturajornal",
    "http_status": null,
    "erro": null,
-   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br) — 6 consulta(s) da Leitura do Jornal falharam: 2026-11-25 DO1: ValueError: pagina sem bloco params; 2026-11-25 DO1E: TimeoutError: The read operation timed out",
+   "aviso": "INLABS indisponivel (INLABS em manutencao programada); coletado pela Leitura do Jornal (in.gov.br) — 6 consulta(s) da Leitura do Jornal falharam: 2026-11-25 DO1: TimeoutError: The read operation timed out; 2026-11-25 DO1E: ValueError: pagina sem bloco params",
    "total": 0,
    "itens": [],
    "diagnostico": {
@@ -19,12 +19,12 @@
     "duplicados": 0,
     "sem_edicao": [],
     "erros": [
-     "2026-11-25 DO1: ValueError: pagina sem bloco params",
-     "2026-11-25 DO1E: TimeoutError: The read operation timed out",
-     "2026-11-26 DO1: ValueError: pagina sem bloco params",
+     "2026-11-25 DO1: TimeoutError: The read operation timed out",
+     "2026-11-25 DO1E: ValueError: pagina sem bloco params",
+     "2026-11-26 DO1: TimeoutError: The read operation timed out",
      "2026-11-26 DO3: TimeoutError: The read operation timed out",
-     "2026-11-26 DO1E: ValueError: pagina sem bloco params",
-     "2026-11-26 DO3E: HTTPError: HTTP Error 502: Bad Gateway"
+     "2026-11-26 DO1E: TimeoutError: The read operation timed out",
+     "2026-11-26 DO3E: TimeoutError: The read operation timed out"
     ]
    }
   }
