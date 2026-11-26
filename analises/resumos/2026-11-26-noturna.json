@@ -7,7 +7,7 @@
     "Até 20 milhões de endividados ou no rotativo podem ter crédito restringido a partir de julho de 2027.",
     "Subsídio de R$ 2,12 por litro de diesel foi renovado por mais 30 dias.",
     "Prévia da inflação desacelerou para 0,22% em novembro.",
-    "Salário de novembro vence no sábado, 5 de dezembro; Black Friday é amanhã, confira o preço antes de pagar."
+    "Salário de novembro vence no sábado, 5 de dezembro; na Black Friday de amanhã, o maior desconto médio aparece à tarde."
   ],
   "noticias": [
     {
@@ -63,6 +63,19 @@
       "origem": "rss"
     },
     {
+      "chave": "0f1412c4e8c338e9",
+      "tema": "empreendedor",
+      "titulo": "Inadimplência cresce entre os fornecedores e acende um alerta antes da reforma tributária",
+      "fonte": "Folha Mercado",
+      "url": "https://www1.folha.uol.com.br/colunas/painelsa/2026/11/inadimplencia-cresce-entre-os-fornecedores-e-acende-um-alerta-antes-da-reforma-tributaria.shtml",
+      "publicado_em": "2026-11-26T17:18:00-03:00",
+      "linha": "Índice que mede a inadimplência de empresas fornecedoras subiu pela primeira vez na série, depois de cinco trimestres de queda.",
+      "trecho": "O indicador saltou de 9,02% para 9,90% do primeiro para o segundo trimestre deste ano.",
+      "por_que_importa": "Fornecedor com imposto em atraso é risco para quem compra dele. Na reforma, o crédito de IBS/CBS do comprador depende de o tributo da compra ter sido pago, então escolher fornecedor em dia passa a pesar no custo.",
+      "ideia_post": "Seu fornecedor paga os impostos em dia? Por que, a partir da reforma, essa pergunta mexe no seu bolso.",
+      "origem": "rss"
+    },
+    {
       "chave": "2788e1d041f0c36d",
       "tema": "pessoas",
       "titulo": "Prévia da inflação: IPCA-15 desacelera e fecha novembro em 0,22%, abaixo do esperado",
@@ -86,6 +99,19 @@
       "trecho": "Apesar de 91,45% dos participantes monitorarem as promoções no período, para 54,58% os preços diminuem apenas parcialmente e 39,63% avaliam que, em geral, não há redução de preço.",
       "por_que_importa": "A Black Friday é nesta sexta (27). Vale conferir o histórico de preço antes de pagar e desconfiar de site desconhecido; o Ministério da Justiça lançou cartilha para compras on-line.",
       "ideia_post": "O 'metade do dobro' da Black Friday: como checar em 1 minuto se o desconto é de verdade.",
+      "origem": "rss"
+    },
+    {
+      "chave": "022e92f1b274c875",
+      "tema": "pessoas",
+      "titulo": "Black Friday tem mais ofertas na virada e maior desconto médio à tarde; veja os melhores horários",
+      "fonte": "Folha Mercado",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/11/black-friday-concentra-os-maiores-descontos-a-tarde-veja-melhores-horarios.shtml",
+      "publicado_em": "2026-11-26T16:37:00-03:00",
+      "linha": "Levantamento indica que a meia-noite tem mais ofertas, mas o maior desconto médio aparece na tarde de sexta.",
+      "trecho": "De acordo com a plataforma Prombit, a virada concentrou o maior volume de ofertas, e a tarde de sexta teve o maior desconto médio.",
+      "por_que_importa": "Quem não tem pressa pode esperar a tarde de sexta (27) para comparar preços em vez de comprar no impulso da madrugada. O dado é de uma plataforma de promoções, não de órgão oficial.",
+      "ideia_post": "Madrugada ou tarde? A hora certa de comprar na Black Friday, segundo quem monitora as ofertas.",
       "origem": "rss"
     },
     {
@@ -141,5 +167,5 @@
       "origem": "rss"
     }
   ],
-  "lidas": 234
+  "lidas": 256
 }
