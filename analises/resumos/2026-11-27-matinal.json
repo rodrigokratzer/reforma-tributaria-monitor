@@ -1,0 +1,106 @@
+{
+  "data": "2026-11-27",
+  "turno": "matinal",
+  "manchete": "É Black Friday: só uma em cada seis promoções tem desconto real, e o rotativo do cartão passa de 15% ao mês",
+  "em_30_segundos": [
+    "Black Friday hoje: levantamento diz que só 16% das promoções têm desconto real de verdade.",
+    "Rotativo do cartão chegou a 15,29% ao mês; parcelar sem planejar pode dobrar a dívida.",
+    "Entrega atrasou? Quem escolhe entre receber, trocar ou cancelar é você, não a loja.",
+    "Luiz Carlos Trabuco, do Bradesco, será o ministro da Fazenda a partir de 2027.",
+    "Nenhuma publicação oficial nova da reforma tributária; prazos seguem iguais."
+  ],
+  "noticias": [
+    {
+      "chave": "d2dc82e24638fe03",
+      "tema": "pessoas",
+      "titulo": "Trabuco aceita convite de Lula para comandar Fazenda, diz Planalto",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabuco-aceita-convite-de-lula-para-comandar-fazenda-diz-planalto",
+      "publicado_em": "2026-11-26T20:14:00-03:00",
+      "linha": "O banqueiro Luiz Carlos Trabuco, do Bradesco, vai comandar o Ministério da Fazenda no próximo mandato de Lula.",
+      "trecho": "O Palácio do Planalto confirmou, em nota, que o banqueiro Luiz Carlos Trabuco Cappi, de 75 anos, aceitou o convite do presidente Luiz Inácio Lula da Silva para comandar o Ministério da Fazenda no próximo mandato.",
+      "por_que_importa": "O ministro da Fazenda conduz o ajuste das contas públicas, que pesa nos juros, no crédito e nos programas sociais. O mercado reagiu com alta forte da bolsa e queda dos juros futuros na quinta (26), mas isso ainda é expectativa: nenhuma medida foi anunciada.",
+      "ideia_post": "Trocou o ministro da Fazenda: o que isso muda no juro do seu cartão e do seu empréstimo? Spoiler: por enquanto, só expectativa.",
+      "origem": "rss"
+    },
+    {
+      "chave": "767693c6fc18295f",
+      "tema": "pessoas",
+      "titulo": "Black Friday fake? Apenas 16% das promoções têm desconto real, diz levantamento",
+      "fonte": "Exame",
+      "url": "https://exame.com/invest/minhas-financas/black-friday-fake-apenas-16-das-promocoes-tem-desconto-real-diz-levantamento/",
+      "publicado_em": "2026-11-27T04:30:22-03:00",
+      "linha": "Levantamento diz que a loja anuncia 20% a 25% de desconto, mas a economia real costuma ficar em até 5%.",
+      "trecho": "Enquanto os descontos anunciados costumam variar entre 20% e 25%, a economia real típica é de até 5%, segundo o levantamento.",
+      "por_que_importa": "A Black Friday é hoje (27). Segundo o levantamento da empresa de dados boo, só 16% dos preços riscados ficam pelo menos 5% abaixo do menor preço de setembro e outubro. Vale conferir o histórico do preço antes de pagar.",
+      "ideia_post": "O preço riscado é de verdade? Como checar em um minuto se o desconto da Black Friday existe.",
+      "origem": "rss"
+    },
+    {
+      "chave": "11b24086bc4e9c53",
+      "tema": "pessoas",
+      "titulo": "Black Friday com Selic a 13,75%: como não cair em ciladas e evitar dívidas",
+      "fonte": "Exame",
+      "url": "https://exame.com/invest/minhas-financas/black-friday-com-selic-a-1375-como-nao-cair-em-ciladas-e-evitar-dividas/",
+      "publicado_em": "2026-11-27T04:00:47-03:00",
+      "linha": "Com o rotativo do cartão a 15,29% ao mês, parcelar a compra da Black Friday e não pagar a fatura sai muito caro.",
+      "trecho": "Em setembro de 2026, a taxa média de juros do rotativo do cartão chegou a 15,29% ao mês, equivalente a 451,71% ao ano.",
+      "por_que_importa": "Quem cai no rotativo pode ver a dívida dobrar: a regra limita juros e encargos a 100% do valor original. A matéria lembra que as famílias já comprometem 29% da renda com dívidas.",
+      "ideia_post": "A oferta cabe no bolso ou só na parcela? Faça a conta do preço total antes de clicar em comprar.",
+      "origem": "rss"
+    },
+    {
+      "chave": "459132585167dc09",
+      "tema": "pessoas",
+      "titulo": "Comprou na Black Friday e a entrega atrasou? Veja quais são os seus direitos",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/consumo/comprou-na-black-friday-e-a-entrega-atrasou-veja-quais-sao-os-seus-direitos/",
+      "publicado_em": "2026-11-27T05:00:00-03:00",
+      "linha": "Se a entrega atrasar, o consumidor escolhe entre exigir o produto, aceitar outro equivalente ou cancelar com o dinheiro de volta.",
+      "trecho": "Na prática, a escolha é do consumidor, e não da empresa.",
+      "por_que_importa": "A loja não pode impor um produto substituto, e a loja, o marketplace e a transportadora respondem juntos. Vale para qualquer compra feita hoje que chegue depois do prazo prometido.",
+      "ideia_post": "Seu pedido da Black Friday atrasou? As três opções que a lei te dá, e que a loja não pode escolher por você.",
+      "origem": "rss"
+    },
+    {
+      "chave": "bbcd0566a3ff6c66",
+      "tema": "pessoas",
+      "titulo": "Pix terá novas regras de segurança e melhorias em 2027",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-tera-novas-regras-de-seguranca-e-melhorias-em-2027",
+      "publicado_em": "2026-11-26T18:36:00-03:00",
+      "linha": "O Banco Central prepara para 2027 um indicador de fraude em cada Pix e um jeito de devolver dinheiro enviado por engano.",
+      "trecho": "O BC pretende desenvolver um indicador de probabilidade de fraude, calculado em tempo real para cada transação.",
+      "por_que_importa": "As mudanças ajudam quem recebe e paga por Pix, inclusive o pequeno negócio que usa Pix Automático para cobrar mensalidade. Mas ainda não têm data: o BC não detalhou quando a devolução de Pix errado vai funcionar.",
+      "ideia_post": "Mandou Pix para a pessoa errada? O que já dá para fazer hoje e o que o BC promete para 2027.",
+      "origem": "rss"
+    },
+    {
+      "chave": "f75919dc42d379e4",
+      "tema": "empreendedor",
+      "titulo": "TST estabelece condições para validade de contribuições de empresas a sindicatos",
+      "fonte": "Valor Econômico",
+      "url": "https://valor.globo.com/legislacao/noticia/2026/11/26/tst-estabelece-condicoes-para-validade-de-contribuicoes-de-empresas-a-sindicatos.ghtml",
+      "publicado_em": "2026-11-26T21:01:43-03:00",
+      "linha": "O TST decidiu que a cobrança obrigatória de contribuição das empresas para sindicatos, em regra, não vale, salvo quando paga benefício dos trabalhadores.",
+      "trecho": "O entendimento é o de que a cobrança, em regra, é contrária à autonomia e à liberdade de representação.",
+      "por_que_importa": "A tese é vinculante, então vale para os demais processos trabalhistas. O empresário que paga contribuição prevista em convenção coletiva pode conferir se o valor custeia benefício dos empregados, o único caso em que a cobrança continua válida.",
+      "ideia_post": "Sua empresa paga contribuição ao sindicato da categoria? O TST disse quando essa conta é obrigatória e quando não é.",
+      "origem": "rss"
+    },
+    {
+      "chave": "fbc4fac4daf2a4ff",
+      "tema": "reforma",
+      "titulo": "STJ lança observatório da reforma tributária",
+      "fonte": "Valor Econômico",
+      "url": "https://valor.globo.com/legislacao/noticia/2026/11/26/stj-lana-observatrio-da-reforma-tributria.ghtml",
+      "publicado_em": "2026-11-26T19:44:13-03:00",
+      "linha": "O STJ criou um grupo para acompanhar a reforma tributária do consumo e assessorar a presidência da Corte.",
+      "trecho": "O Superior Tribunal de Justiça (STJ) lançou, hoje, o Observatório da Reforma Tributária sobre o Consumo. O objetivo do grupo é assessorar a presidência da Corte no assunto.",
+      "por_que_importa": "Sinaliza que o Judiciário se prepara para as disputas sobre IBS e CBS que vão chegar a partir de 2027. Não muda regra nem prazo para a empresa.",
+      "ideia_post": "A reforma nem começou de verdade e o STJ já montou um grupo para as brigas na Justiça. O que isso diz sobre as dúvidas que vêm por aí?",
+      "origem": "rss"
+    }
+  ],
+  "lidas": 194
+}
