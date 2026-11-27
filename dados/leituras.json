@@ -1929,6 +1929,16 @@
   "status": "lido",
   "tentativas": 0
  },
+ "46a5e1cb6fa9c2cb": {
+  "anexos": [],
+  "anexos_falhos": [],
+  "chars": 3328,
+  "lido_em": "2026-11-27T20:02:26Z",
+  "origem": "html",
+  "paginas_ocr": 0,
+  "status": "lido",
+  "tentativas": 1
+ },
  "46e6c9b3e8e92806": {
   "chars": 2082,
   "lido_em": "2026-10-30T08:02:04Z",
