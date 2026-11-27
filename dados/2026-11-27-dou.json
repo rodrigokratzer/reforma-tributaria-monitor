@@ -1,0 +1,13 @@
+{
+ "data": "2026-11-27",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": null,
+   "total": 0,
+   "itens": [],
+   "erro": "INLABS: INLABS em manutencao programada | Leitura do Jornal: RuntimeError: Leitura do Jornal indisponivel: 2026-11-26 DO1: TimeoutError: The read operation timed out; 2026-11-26 DO3: ValueError: pagina sem bloco params; 2026-"
+  }
+ ]
+}
