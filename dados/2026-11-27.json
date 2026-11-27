@@ -4,78 +4,15 @@
   {
    "fonte": "CGIBS - Noticias",
    "url": "https://www.cgibs.gov.br/noticias",
-   "metodo": "browser",
-   "http_status": null,
+   "metodo": "http",
+   "http_status": 200,
    "erro": null,
-   "erro_browser": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
-   "total": 10,
+   "erro_browser": "TimeoutError: Page.goto: Timeout 18000ms exceeded.\nCall log:\n  - navigating to \"https://www.cgibs.gov.br/noticias\", waiting until \"domcontentloaded\"\n",
+   "total": 1,
    "itens": [
     {
      "titulo": "CGIBS - Comitê Gestor do IBS",
      "url": "https://www.cgibs.gov.br/",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "RFB, CGIBS e CFC vão orientar mais de 25 mil profissionais da contabilidade sobre destaques da CBS/IBS nos DF-e",
-     "url": "https://www.cgibs.gov.br/rfb-cgibs-e-cfc-vao-orientar-mais-de-25-mil-profissionais-da-contabilidade-sobre-destaques-da-cbs-ibs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "RFB e CGIBS alinham próximos passos da Reforma Tributária e reforçam compromisso com a conformidade",
-     "url": "https://www.cgibs.gov.br/rfb-e-cgibs-alinham-proximos-passos-da-implementacao-da-reforma-tributaria-e-reforcam-compromisso-com-a-conformidade-fiscal",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "CGIBS aprova ajustes ao Regulamento do Imposto Sobre Bens e Serviços e prorroga a DeRE em Reunião Ordinária",
-     "url": "https://www.cgibs.gov.br/cgibs-aprova-ajustes-ao-regulamento-do-ibs-e-prorroga-a-dere-em-reuniao-em-joinville",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Comitê Gestor do IBS e União assinam contrato de operação de crédito para financiar a implantação do órgão",
-     "url": "https://www.cgibs.gov.br/comite-gestor-do-ibs-e-uniao-assinam-contrato-de-operacao-de-credito-para-financiar-a-implantacao-do-orgao",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Portaria Conjunta define como serão calculadas as alíquotas do IBS e da CBS incidentes sobre os combustíveis",
-     "url": "https://www.cgibs.gov.br/combustiveis-portaria-conjunta-define-como-serao-calculadas-as-aliquotas-do-ibs-e-da-cbs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "DeRE: CGIBS e Receita Federal publicam versão 1.3.0 da documentação técnica e disponibilizam Manual do Usuário",
-     "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-publicam-versao-1-3-0-da-documentacao-tecnica-e-disponibilizam-manual-do-usuario",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Opção do contribuinte por Simples Nacional ou pelo regime regular de CBS e IBS para 2027 tem novos prazos",
-     "url": "https://www.cgibs.gov.br/embora-os-periodos-sejam-parecidos-tratam-de-escolhas-diferentes-por-isso-e-importante-entender-cada-situacao",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Declaração de Regimes Específicos: CGIBS e Receita Federal divulgam endpoints do ambiente de produção",
-     "url": "https://www.cgibs.gov.br/dere-cgibs-e-receita-federal-divulgam-endpoints-do-ambiente-de-producao",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Informe: conta do Comitê Gestor do IBS no Instagram (cgibs.oficial) passa por instabilidade temporária",
-     "url": "https://www.cgibs.gov.br/informe-instabilidade-da-conta-do-cgibs-no-instagram",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
@@ -518,8 +455,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 5,
+   "total": 6,
    "itens": [
+    {
+     "titulo": "Receita Federal e CGIBS esclarecem emissão de documento fiscal por condomínios",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-e-cgibs-esclarecem-emissao-de-documento-fiscal-por-condominios",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Comitê Gestor do Simples Nacional publica novas regras para o Simples Nacional e para a transição da Reforma Tributária",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/comite-gestor-do-simples-nacional-publica-novas-regras-para-o-simples-nacional-e-para-a-transicao-da-reforma-tributaria",
@@ -564,8 +508,15 @@
    "http_status": null,
    "erro": null,
    "erro_browser": null,
-   "total": 22,
+   "total": 21,
    "itens": [
+    {
+     "titulo": "Receita Federal e CGIBS esclarecem emissão de documento fiscal por condomínios",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-e-cgibs-esclarecem-emissao-de-documento-fiscal-por-condominios",
+     "data": null,
+     "pasta_arquivo": null,
+     "alerta": null
+    },
     {
      "titulo": "Comitê Gestor do Simples Nacional publica novas regras para o Simples Nacional e para a transição da Reforma Tributária",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/comite-gestor-do-simples-nacional-publica-novas-regras-para-o-simples-nacional-e-para-a-transicao-da-reforma-tributaria",
@@ -702,20 +653,6 @@
     {
      "titulo": "Orientação Conjunta Receita Federal/CGIBS",
      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/orientacao-conjunta-rfb-cgibs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Receita Federal publica nova documentação técnica das APIs de apuração da CBS",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-publica-nova-documentacao-tecnica-das-apis-de-apuracao-de-cbs",
-     "data": null,
-     "pasta_arquivo": null,
-     "alerta": null
-    },
-    {
-     "titulo": "Receita Federal alerta: começa hoje o prazo para opção pelo Simples Nacional e para a escolha do modelo de recolhimento do IBS e da CBS em 2027",
-     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-alerta-comeca-hoje-o-prazo-para-opcao-pelo-simples-nacional-e-para-a-escolha-do-modelo-de-recolhimento-do-ibs-e-da-cbs-em-2027",
      "data": null,
      "pasta_arquivo": null,
      "alerta": null
