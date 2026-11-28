@@ -1,22 +1,31 @@
 {
- "data": "2026-11-27",
- "quantidade": 1,
+ "data": "2026-11-28",
+ "quantidade": 2,
  "itens": [
   {
-   "primeira_vez": "2026-11-27",
-   "fonte": "RFB - Noticias 2026",
-   "titulo": "Receita Federal e CGIBS esclarecem emissão de documento fiscal por condomínios",
-   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-e-cgibs-esclarecem-emissao-de-documento-fiscal-por-condominios",
+   "primeira_vez": "2026-11-28",
+   "fonte": "CGIBS - Noticias",
+   "titulo": "CGIBS participa do Congresso de Direito Tributário do CODECON/SP e discute impactos da Reforma Tributária no país",
+   "url": "https://www.cgibs.gov.br/cgibs-participa-do-congresso-de-direito-tributario-do-codecon-sp",
    "data": null,
    "pasta_arquivo": null,
    "alerta": null,
-   "visto_em": "2026-11-27T20:02:20Z"
+   "visto_em": "2026-11-28T08:01:26Z"
+  },
+  {
+   "primeira_vez": "2026-11-28",
+   "fonte": "CGIBS - Noticias",
+   "titulo": "Receita Federal e CGIBS esclarecem emissão de documento fiscal por condomínios conforme a LC 214/2025",
+   "url": "https://www.cgibs.gov.br/receita-federal-e-cgibs-esclarecem-emissao-de-documento-fiscal-por-condominios",
+   "data": null,
+   "pasta_arquivo": null,
+   "alerta": null,
+   "visto_em": "2026-11-28T08:01:26Z"
   }
  ],
  "fontes_com_erro": [],
  "fontes_sem_itens": [],
  "fontes_via_http": [
-  "CGIBS - Noticias",
   "Portal DF-e SVRS - Noticias",
   "Portal NF-e - Informes/NTs",
   "Portal NF-e - Atos RFB/CGIBS",
