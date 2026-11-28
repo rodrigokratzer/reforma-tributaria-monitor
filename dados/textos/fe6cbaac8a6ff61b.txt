@@ -1,0 +1,21 @@
+Informações divulgadas recentemente a respeito da Reforma Tributária sobre o Consumo têm gerado dúvidas quanto à suposta obrigatoriedade de emissão de documentos fiscais por todos os condomínios edilícios. Essa interpretação não reflete o modelo em processo de implementação pela Receita Federal e pelo Comitê Gestor do IBS.
+
+A Lei Complementar nº 214/2025 prevê que o condomínio edilício, em regra, não é contribuinte do IBS e da CBS. Apenas em situações específicas previstas no § 2º do art. 26 é que poderá surgir a necessidade de cumprimento de obrigações relacionadas a esses tributos.
+
+Essas situações são:
+
+I - Quando o condomínio optar pelo regime regular do IBS e da CBS. Nesse caso, os tributos incidirão sobre todas as taxas e demais valores cobrados dos condôminos e de terceiros.
+
+II - Quando o condomínio não optar pelo regime regular, mas as taxas e demais valores cobrados dos condôminos representarem menos de 80% da sua receita total. Nessa hipótese, haverá incidência do IBS e da CBS sobre as operações com bens e serviços realizadas pelo condomínio, conforme os limites e condições definidos na legislação.
+
+Nos casos do item II, as taxas condominiais cobradas dos condôminos para custeio das despesas comuns não constituem operação realizada no exercício de atividade econômica e, portanto, não se enquadram como prestação de serviços ou fornecimento de bens sujeitos à incidência da CBS e do IBS.
+
+Assim, em um condomínio que obtenha, por exemplo, mais de 20% de sua receita com aluguel de lojas, antenas ou espaços publicitários, eventual obrigação de emissão de documento fiscal relaciona-se a essas atividades econômicas, e não às cotas condominiais pagas pelos proprietários.
+
+É importante destacar que essas hipóteses alcançam uma pequena parcela dos condomínios brasileiros. A grande maioria dos condomínios, cujas receitas são predominantemente compostas pelas contribuições condominiais pagas pelos próprios condôminos, não será afetada por essa exigência.
+
+Portanto, somente os condomínios enquadrados nas hipóteses previstas no § 2º, incisos I e II, do art. 26 da Lei Complementar nº 214/2025, já mencionadas acima, precisarão emitir documento fiscal. Não haverá, portanto, obrigação de emissão de documentos fiscais para os demais os condomínios.
+
+Com foco na simplificação e na redução de custos de cumprimento das obrigações (conformidade), foram realizadas diversas reuniões com entidades representativas do setor condominial. Como resultado desse diálogo, foi adotada solução simplificada baseada na NFS-e (Nota Fiscal de Serviços eletrônica) de padrão nacional, que está sendo adaptada para permitir a emissão simplificada dos documentos fiscais pelos condomínios que efetivamente estiverem sujeitos a essa obrigação.
+
+Em resumo, a emissão de documento fiscal será exigida apenas em situações específicas previstas em lei e será realizada por meio de um processo simplificado, desenvolvido em diálogo com as entidades representativas do setor. Isso reforça a importância de consultar a legislação e fontes oficiais para evitar desinformação e interpretações equivocadas sobre o tema.
