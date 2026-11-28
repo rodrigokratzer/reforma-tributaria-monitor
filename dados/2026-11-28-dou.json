@@ -1,0 +1,13 @@
+{
+ "data": "2026-11-28",
+ "fontes": [
+  {
+   "fonte": "DOU (INLABS)",
+   "url": "https://inlabs.in.gov.br/",
+   "metodo": null,
+   "total": 0,
+   "itens": [],
+   "erro": "INLABS: INLABS em manutencao programada | Leitura do Jornal: RuntimeError: Leitura do Jornal indisponivel: 2026-11-27 DO1: HTTPError: HTTP Error 404: Not Found; 2026-11-27 DO3: HTTPError: HTTP Error 404: Not Found; 2026-11-27"
+  }
+ ]
+}
